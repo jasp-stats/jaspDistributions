@@ -1,0 +1,11 @@
+Package: DiscoverDistributions
+Type: Package
+Title: Distributions Module for JASP
+Version: 0.1
+Date: 2020-04-08
+Author: JASP Team
+Website: www.jasp-stats.org
+Maintainer: JASP Team <info@jasp-stats.org>
+Description: Discover distributions with JASP
+License: GPL (>= 2)
+Imports: goftest, fitdistrplus, invgamma

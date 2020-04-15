@@ -1,0 +1,15 @@
+export(LDgaussianunivariate)
+export(LDt)
+export(LDf)
+export(LDchisq)
+export(LDbeta)
+export(LDgamma)
+export(LDgammaInverse)
+export(LDexponential)
+export(LDbernoulli)
+export(LDbinomial)
+export(LDnegbinomial)
+export(LDpoisson)
+  import('goftest');
+  import('fitdistrplus');
+  import('invgamma');
