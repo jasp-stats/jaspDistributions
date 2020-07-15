@@ -94,6 +94,7 @@ Form
 	LD.LDGenerateDisplayData
 	{
 		distributionName		: "Gamma"
+		formula					: shape.label + " = " + shape.value + ", " + par2.label + " = " + par2.value
 	}
 
 	Section

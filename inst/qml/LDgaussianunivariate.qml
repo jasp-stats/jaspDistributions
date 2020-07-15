@@ -95,7 +95,7 @@ Form
 	LD.LDGenerateDisplayData
 	{
 		distributionName		: "Normal"
-		formula					: "μ = " + mu.value + ", " + parametrization.currentText.replace("μ, ", "") + " = " + varValue.value
+		formula					: mu.label + " = " + mu.value + ", " + varValue.label + " = " + varValue.value
 	}
 
 	Section
