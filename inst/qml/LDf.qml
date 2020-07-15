@@ -34,9 +34,12 @@ Form
 			title: "Parameters"
 			Group
 			{
-				columns: 1
+				columns: 2
+				Text { text: qsTr("Degree of freedom:") }
 				DoubleField{ name: "df1"; label: qsTr("df 1"); id: df1; min: 1; defaultValue: 5 }
+				Text { text: qsTr("Degree of freedom:") }
 				DoubleField{ name: "df2"; label: qsTr("df 2"); id: df2; min: 1; defaultValue: 2 }
+				Text { text: qsTr("Non-centrality:") }
 				DoubleField{ name: "ncp";  label: qsTr("ncp"); id: ncp; negativeValues: true; defaultValue: 0}
 			}
 

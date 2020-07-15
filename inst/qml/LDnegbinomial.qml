@@ -46,12 +46,14 @@ Form
 
 			Group
 			{
-				columns: 1
+				columns: 2
+				Text{ text: [qsTr("Number of successes:"), qsTr("Dispersion:")][parametrization.currentIndex] }
 				DoubleField
 				{
 					name: "size"; label: ["k", "φ"][parametrization.currentIndex]; id: size;
 					defaultValue: 1; negativeValues: false
 				}
+				Text{ text: [qsTr("Probability of success:"), qsTr("Mean:")][parametrization.currentIndex] }
 				DoubleField
 				{
 					name:  "par"; label: ["p", "μ"][parametrization.currentIndex]; id: par

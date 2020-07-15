@@ -34,6 +34,8 @@ Form
 		{
 			title: qsTr("Parameter")
 			Layout.columnSpan: 2
+			columns: 2
+			Text { text: qsTr("Probability of success:") }
 			DoubleField{ name: "prob"; label: qsTr("p"); id: prob; min: 0; max: 1; defaultValue: 0.5 }
 		}
 

@@ -31,12 +31,16 @@ Form
 		Group
 		{
 			title: qsTr("Free parameter")
+			columns: 2
+			Text { text: qsTr("Probability of success:") }
 			DoubleField{ name: "prob"; label: qsTr("p"); id: prob; min: 0; max: 1; defaultValue: 0.5 }
 		}
 
 		Group
 		{
 			title: qsTr("Fixed parameter")
+			columns: 2
+			Text { text: qsTr("Number of trials:") }
 			IntegerField{ name: "size"; label: qsTr("n"); id: size; defaultValue: 10 }
 		}
 

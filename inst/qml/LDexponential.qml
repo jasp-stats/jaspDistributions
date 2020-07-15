@@ -46,7 +46,8 @@ Form
 
 			Group
 			{
-				columns: 1
+				columns: 2
+				Text { text: [qsTr("Rate:"), qsTr("Scale:")][parametrization.currentIndex] }
 				DoubleField{ name:  "par"; label: ["λ", "β"][parametrization.currentIndex]; id: par; negativeValues: false; defaultValue: 1 }
 			}
 

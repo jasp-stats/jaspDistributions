@@ -34,8 +34,10 @@ Form
 			title: "Parameters"
 			Group
 			{
-				columns: 1
+				columns: 2
+				Text { text: qsTr("Shape:") }
 				DoubleField{ name: "alpha"; label: qsTr("α"); id: alpha; negativeValues: false; defaultValue: 1 }
+				Text { text: qsTr("Shape:") }
 				DoubleField{ name: "beta";  label: qsTr("β"); id: beta; negativeValues: false; defaultValue: 1 }
 			}
 

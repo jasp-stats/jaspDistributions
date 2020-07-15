@@ -32,6 +32,8 @@ Form
 		{
 			title: qsTr("Parameter")
 			Layout.columnSpan: 2
+			columns: 2
+			Text { text: qsTr("Rate:") }
 			DoubleField{ name: "lambda"; label: qsTr("λ"); id: lambda; min: 0; defaultValue: 1 }
 		}
 		Group
