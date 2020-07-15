@@ -78,6 +78,12 @@ Description
 		qml:	"LDexponential.qml"
 		func:	"LDexponential"
 	}
+	Analysis
+	{
+		title:	qsTr("Log-normal")
+		qml:	"LDlognormal.qml"
+		func:	"LDlognormal"
+	}
 
 	GroupTitle
 	{
