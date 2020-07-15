@@ -4,7 +4,7 @@ import JASP.Module 	1.0
 Description
 {
 	title :			qsTr("Distributions")
-	name:			"Discover Distributions"
+	name:			"DiscoverDistributions"
 	icon:			"discoverdistributions-distributions.svg"
 	description: 	qsTr("Discover distributions with JASP")
 	version:		"0.1"
