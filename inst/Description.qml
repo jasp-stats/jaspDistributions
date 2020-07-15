@@ -84,6 +84,12 @@ Description
 		qml:	"LDlognormal.qml"
 		func:	"LDlognormal"
 	}
+	Analysis
+	{
+		title:	qsTr("Logistic")
+		qml:	"LDlogistic.qml"
+		func:	"LDlogistic"
+	}
 
 	GroupTitle
 	{
