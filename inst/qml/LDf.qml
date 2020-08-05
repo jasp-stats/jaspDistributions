@@ -71,11 +71,13 @@ Form
 	{
 		distributionName		: "f"
 		formula					: "df 1 = " + df1.value + ", df 2 = " + df2.value + ", ncp = " + ncp.value
+		enabled					: mainWindow.dataAvailable
 	}
 
 	Section
 	{
 		title: qsTr("Estimate Parameters")
+		enabled: mainWindow.dataAvailable
 
 		Group
 		{
@@ -106,6 +108,7 @@ Form
 	Section
 	{
 		title: qsTr("Assess Fit")
+		enabled: mainWindow.dataAvailable
 
 		Group
 		{

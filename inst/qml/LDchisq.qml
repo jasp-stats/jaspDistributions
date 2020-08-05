@@ -71,11 +71,13 @@ Form
 		distributionName		: "χ²"
 		distributionSimpleName	: "chisq"
 		formula					: "k = " + df.value + ", λ = " + ncp.value
+		enabled					: mainWindow.dataAvailable
 	}
 
 	Section
 	{
 		title: qsTr("Estimate Parameters")
+		enabled: mainWindow.dataAvailable
 
 		Group
 		{
@@ -105,6 +107,7 @@ Form
 	Section
 	{
 		title: qsTr("Assess Fit")
+		enabled: mainWindow.dataAvailable
 
 		Group
 		{

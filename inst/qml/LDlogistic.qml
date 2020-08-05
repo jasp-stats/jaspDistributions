@@ -58,11 +58,13 @@ Form
 	{
 		distributionName		: "Logistic"
 		formula					: mu.label + " = " + mu.value + ", " + sigma.label + " = " + sigma.value
+		enabled					: mainWindow.dataAvailable
 	}
 
 	Section
 	{
 		title: qsTr("Estimate Parameters")
+		enabled: mainWindow.dataAvailable
 
 		Group
 		{
@@ -90,6 +92,7 @@ Form
 	Section
 	{
 		title: qsTr("Assess Fit")
+		enabled: mainWindow.dataAvailable
 
 		Group
 		{

@@ -12,6 +12,7 @@ Description
 	maintainer:		"JASP Team <info@jasp-stats.org>"
 	website:		"www.jasp-stats.org"
 	license:		"GPL (>= 2)"
+	requiresData:	false
 
 	Package	{ name:	"goftest"		}
 	Package	{ name:	"fitdistrplus"	}

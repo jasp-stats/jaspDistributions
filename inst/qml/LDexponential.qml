@@ -79,11 +79,13 @@ Form
 	{
 		distributionName		: "Exponential"
 		formula					: ["λ = ", "β = "][parametrization.currentIndex] + par.value
+		enabled					: mainWindow.dataAvailable
 	}
 
 	Section
 	{
 		title: qsTr("Estimate Parameters")
+		enabled: mainWindow.dataAvailable
 
 		Group
 		{
@@ -113,6 +115,7 @@ Form
 	Section
 	{
 		title: qsTr("Assess Fit")
+		enabled: mainWindow.dataAvailable
 
 		Group
 		{

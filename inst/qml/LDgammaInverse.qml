@@ -96,11 +96,13 @@ Form
 	{
 		distributionName		: "InvGamma"
 		formula					: ["k = ", "α = ", "k = "][parametrization.currentIndex] + shape.value + [",θ = ", ",β = ", ",μ = "][parametrization.currentIndex] + par2.value
+		enabled					: mainWindow.dataAvailable
 	}
 
 	Section
 	{
 		title: qsTr("Estimate Parameters")
+		enabled: mainWindow.dataAvailable
 
 		Group
 		{
@@ -130,6 +132,7 @@ Form
 	Section
 	{
 		title: qsTr("Assess Fit")
+		enabled: mainWindow.dataAvailable
 
 		Group
 		{

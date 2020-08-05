@@ -95,11 +95,13 @@ Form
 	{
 		distributionName		: "Gamma"
 		formula					: shape.label + " = " + shape.value + ", " + par2.label + " = " + par2.value
+		enabled					: mainWindow.dataAvailable
 	}
 
 	Section
 	{
 		title: qsTr("Estimate Parameters")
+		enabled: mainWindow.dataAvailable
 
 		Group
 		{
@@ -129,6 +131,7 @@ Form
 	Section
 	{
 		title: qsTr("Assess Fit")
+		enabled: mainWindow.dataAvailable
 
 		Group
 		{

@@ -90,11 +90,13 @@ Form
 		showCumulativeDistribution	: false
 		histogramIsBarPlot			: true
 		allowOnlyScaleColumns		: false
+		enabled						: mainWindow.dataAvailable
 	}
 
 	Section
 	{
 		title: qsTr("Estimate Parameters")
+		enabled: mainWindow.dataAvailable
 
 		Group
 		{
@@ -124,6 +126,7 @@ Form
 	Section
 	{
 		title: qsTr("Assess Fit")
+		enabled: mainWindow.dataAvailable
 
 		Group
 		{
