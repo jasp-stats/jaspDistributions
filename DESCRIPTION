@@ -1,4 +1,4 @@
-Package: DiscoverDistributions
+Package: jaspDistributions
 Type: Package
 Title: Distributions Module for JASP
 Version: 0.1
