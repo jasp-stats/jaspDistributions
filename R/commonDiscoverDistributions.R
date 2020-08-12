@@ -543,7 +543,7 @@
     ggplot2::xlab(gettext("Theoretical")) + ggplot2::ylab(gettext("Sample")) +
     ggplot2::scale_x_continuous(expand = ggplot2::expand_scale(c(0.1,0.15), 0))
   
-  p <- JASPgraphs::themeJasp(p)
+  p <- jaspGraphs::themeJasp(p)
   
   qqplot$plotObject <- p
   
@@ -559,7 +559,7 @@
                                 breaks = pretty(range(variable))) +
     ggplot2::ylab(gettext("Density")) + ggplot2::xlab(options[['variable']])
   
-  p <- JASPgraphs::themeJasp(p)
+  p <- jaspGraphs::themeJasp(p)
   
   pdfplot$plotObject <- p
   
@@ -575,14 +575,14 @@
   
   p <- ggplot2::ggplot(data = dat, ggplot2::aes(x = mids, y = counts/sum(counts))) +
     ggplot2::geom_bar(stat="identity", fill = "grey", colour = "black") +
-    JASPgraphs::geom_point(ggplot2::aes(x = mids, y = pmf)) +
+    jaspGraphs::geom_point(ggplot2::aes(x = mids, y = pmf)) +
     ggplot2::scale_x_continuous(limits = range + c(-0.5, 0.5), 
                                 expand = c(0.1, 0.1),
                                 breaks = dat$mids) + 
     ggplot2::xlab(options$variable) +
     ggplot2::ylab(gettext("Probability Mass"))
   
-  p <- JASPgraphs::themeJasp(p)
+  p <- jaspGraphs::themeJasp(p)
   
   pmfplot$plotObject <- p
   
@@ -599,12 +599,12 @@
   
   p <- ggplot2::ggplot(data = NULL) +
     ggplot2::geom_abline(slope = 1, intercept = 0) +
-    JASPgraphs::geom_point(ggplot2::aes(x = TheoreticalProp, y = ObservedProp)) +
+    jaspGraphs::geom_point(ggplot2::aes(x = TheoreticalProp, y = ObservedProp)) +
     ggplot2::xlab(gettext("Theoretical")) + ggplot2::ylab(gettext("Sample")) +
     ggplot2::scale_x_continuous(limits = 0:1, expand = ggplot2::expand_scale(mult = 0, add = c(0.05, 0.1))) + 
     ggplot2::scale_y_continuous(limits = 0:1, expand = ggplot2::expand_scale(mult = 0, add = c(0.05, 0.1)))
   
-  p <- JASPgraphs::themeJasp(p)
+  p <- jaspGraphs::themeJasp(p)
   
   ppplot$plotObject <- p 
   
@@ -621,7 +621,7 @@
     ggplot2::ylab(substitute(p~(X <= x), list(p = gettext("Probability")))) +
     ggplot2::xlab(options[['variable']])
   
-  p <- JASPgraphs::themeJasp(p)
+  p <- jaspGraphs::themeJasp(p)
   
   cdfplot$plotObject <- p
   
@@ -776,13 +776,13 @@
       ggplot2::geom_text(data = data.frame(x = options[['range_x']][1], y = pdfValue, label = round(pdfValue, 2)),
                          ggplot2::aes(x = x, y = y, label = label), size = 6) +
       ggplot2::geom_linerange(x = args[['x']], ymin = 0, ymax = pdfValue, linetype = 2) +
-      JASPgraphs::geom_point(x = args[['x']], y = pdfValue, size = 5)
+      jaspGraphs::geom_point(x = args[['x']], y = pdfValue, size = 5)
   }
   
   plot <- plot + ggplot2::ylab(gettext("Density")) + 
-    ggplot2::scale_x_continuous(limits = options[['range_x']], breaks = JASPgraphs::getPrettyAxisBreaks(options[['range_x']]))
+    ggplot2::scale_x_continuous(limits = options[['range_x']], breaks = jaspGraphs::getPrettyAxisBreaks(options[['range_x']]))
   
-  plot <- JASPgraphs::themeJasp(plot)
+  plot <- jaspGraphs::themeJasp(plot)
   
   pdfPlot[['plotObject']] <- plot
 }
@@ -858,7 +858,7 @@
                             mapping = ggplot2::aes(x = xoffset, xend = xend, y = y, yend = y), linetype = 2) +
       ggplot2::geom_text(data = segment_data, ggplot2::aes(x = x, y = y, label = label), size = 6) +
       ggplot2::geom_linerange(x = args[['q']], ymin = 0, ymax = cdfValue, linetype = 2) + 
-      JASPgraphs::geom_point(data = point_data, ggplot2::aes(x = x, y = y), size = 5)
+      jaspGraphs::geom_point(data = point_data, ggplot2::aes(x = x, y = y), size = 5)
   }
   
   if(options$highlightDensity){
@@ -875,18 +875,18 @@
     
     plot <- plot + 
       ggplot2::geom_abline(data = line_data, ggplot2::aes(slope = slope, intercept = intercept, col = col), size = 1) +
-      JASPgraphs::geom_point (data = point_data, ggplot2::aes(x = x, y = y, col = col), size = 5) + 
-      JASPgraphs::scale_JASPcolor_discrete(name = gettext("Slope"), labels = as.character(slopeText))
+      jaspGraphs::geom_point (data = point_data, ggplot2::aes(x = x, y = y, col = col), size = 5) + 
+      jaspGraphs::scale_JASPcolor_discrete(name = gettext("Slope"), labels = as.character(slopeText))
   }
   
   
   plot <- plot + 
     ggplot2::ylab(substitute(p~(X <= x), list(p = gettext("Probability")))) +
     ggplot2::scale_x_continuous(limits = options[['range_x']], 
-                                breaks = JASPgraphs::getPrettyAxisBreaks(options[['range_x']])) +
+                                breaks = jaspGraphs::getPrettyAxisBreaks(options[['range_x']])) +
     ggplot2::scale_y_continuous(limits = c(0, 1))
   
-  plot <- JASPgraphs::themeJasp(plot, legend.position = c(0.85, 0.4))
+  plot <- jaspGraphs::themeJasp(plot, legend.position = c(0.85, 0.4))
   
   cdfPlot[['plotObject']] <- plot
 }
@@ -941,9 +941,9 @@
     ggplot2::ylab("x") + ggplot2::xlab(substitute(p~(X <= x), list(p = gettext("Probability")))) +
     ggplot2::scale_x_continuous(limits = 0:1) +
     ggplot2::scale_y_continuous(limits = options[['range_x']], 
-                                breaks = JASPgraphs::getPrettyAxisBreaks(options[['range_x']]))
+                                breaks = jaspGraphs::getPrettyAxisBreaks(options[['range_x']]))
   
-  plot <- JASPgraphs::themeJasp(plot)
+  plot <- jaspGraphs::themeJasp(plot)
   
   qfPlot[['plotObject']] <- plot
 }
@@ -1069,7 +1069,7 @@
                          ggplot2::aes(x = x, y = y, label = label), size = 6)
   }
   
-  breaks <- JASPgraphs::getPrettyAxisBreaks(options[['range_x']])
+  breaks <- jaspGraphs::getPrettyAxisBreaks(options[['range_x']])
   # display only pretty integers
   breaks <- breaks[breaks %% 1 == 0]
   plot <- plot + 
@@ -1079,7 +1079,7 @@
                                 labels = breaks,
                                 expand = c(0, 0))
   
-  plot <- JASPgraphs::themeJasp(plot)
+  plot <- jaspGraphs::themeJasp(plot)
   
   pmfPlot[['plotObject']] <- plot
 }
@@ -1200,7 +1200,7 @@
                          ggplot2::aes(x = x, y = y, label = label), size = 6)
   }
   
-  breaks <- JASPgraphs::getPrettyAxisBreaks(options[['range_x']])
+  breaks <- jaspGraphs::getPrettyAxisBreaks(options[['range_x']])
   # display only pretty integers
   breaks <- breaks[breaks %% 1 == 0]
   plot <- plot + 
@@ -1211,7 +1211,7 @@
                                 expand = c(0, 0)) + 
     ggplot2::scale_y_continuous(limits = c(0, 1))
   
-  plot <- JASPgraphs::themeJasp(plot)
+  plot <- jaspGraphs::themeJasp(plot)
   
   cmfPlot[['plotObject']] <- plot
 }
@@ -1267,7 +1267,7 @@
   if(as == "scale"){
     plot <- plot + ggplot2::scale_x_continuous(limits = range, 
                                                expand = c(0.05, 0),
-                                               breaks = JASPgraphs::getPrettyAxisBreaks(range))
+                                               breaks = jaspGraphs::getPrettyAxisBreaks(range))
   } else if (as == "discrete"){
     breaks <- pretty(range)
     breaks <- breaks[breaks %% 1 == 0]
@@ -1282,7 +1282,7 @@
                                                expand = c(0, 0))
   }
   
-  plot <- JASPgraphs::themeJasp(plot)
+  plot <- jaspGraphs::themeJasp(plot)
   histPlot[['plotObject']] <- plot
 }
 
@@ -1310,7 +1310,7 @@
     ggplot2::xlab(options$variable) +
     ggplot2::ylab(substitute(f~(v == x), list(f = gettext("Freq"), v = options[['variable']])))
   
-  p <- JASPgraphs::themeJasp(p)
+  p <- jaspGraphs::themeJasp(p)
   plot[['plotObject']] <- p
   
 }
