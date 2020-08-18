@@ -1,3 +1,4 @@
+import(jaspBase)
 export(LDgaussianunivariate)
 export(LDt)
 export(LDf)
@@ -10,6 +11,3 @@ export(LDbernoulli)
 export(LDbinomial)
 export(LDnegbinomial)
 export(LDpoisson)
-  import('goftest');
-  import('fitdistrplus');
-  import('invgamma');
