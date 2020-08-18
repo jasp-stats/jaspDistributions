@@ -8,4 +8,16 @@ Website: www.jasp-stats.org
 Maintainer: JASP Team <info@jasp-stats.org>
 Description: Discover distributions with JASP
 License: GPL (>= 2)
-Imports: goftest, fitdistrplus, invgamma
+Encoding: UTF-8
+Imports:
+  car,
+  fitdistrplus,
+  ggplot2,
+  goftest,
+  invgamma,
+  jaspBase,
+  jaspGraphs,
+  MASS
+Remotes:
+  jasp-stats/jaspBase,
+  jasp-stats/jaspGraphs

@@ -21,7 +21,7 @@
     sample <- do.call(options[['rFun']], c(options[['pars']], n = options[['sampleSize']]))
     jaspResults[['simdata']] <- createJaspState(sample)
     jaspResults[['simdata']]$dependOn(c("newVariableName", "simulateNow"))
-    
+
     if(as == "scale"){
       .setColumnDataAsScale  (options[["newVariableName"]], sample)
     } else if(as == "ordinal"){
