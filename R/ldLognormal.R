@@ -19,18 +19,11 @@ LDlognormal <- function(jaspResults, dataset, options, state=NULL){
   options <- .recodeOptionsLDLognormal(options)
   
   #### Show distribution section ----
-  .ldIntroText(jaspResults, options, gettext("log-normal distribution"))
-  .ldLognormalParsSupportMoments(jaspResults, options)
-  
-  
-  pdfContainer <- .ldGetPlotContainer(jaspResults, options, "plotPDF", gettext("Probability Density Function"), 3)
-  .ldFillPDFContainer(pdfContainer, options, .ldFormulaLognormalPDF)
-  
-  cdfContainer <- .ldGetPlotContainer(jaspResults, options, "plotCDF", gettext("Cumulative Distribution Function"), 4)
-  .ldFillCDFContainer(cdfContainer, options, .ldFormulalognormalCDF)
-  
-  qfContainer  <- .ldGetPlotContainer(jaspResults, options, "plotQF", gettext("Quantile Function"), 5)
-  .ldFillQFContainer(qfContainer,   options, .ldFormulaLognormalQF)
+  .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("log-normal distribution"), 
+                      parSupportMoments = .ldLognormalParsSupportMoments,
+                      formulaPDF        = .ldFormulaLognormalPDF, 
+                      formulaCDF        = .ldFormulaLognormalCDF, 
+                      formulaQF         = .ldFormulaLognormalQF)
   
   #### Generate and Display data section ----
   # simulate and read data
@@ -50,39 +43,10 @@ LDlognormal <- function(jaspResults, dataset, options, state=NULL){
   }
   
   # overview of the data
-  dataContainer <- .ldGetDataContainer(jaspResults, options, errors)
-  
-  readyDesc <- ready && (isFALSE(errors) || (is.null(errors$infinity) && is.null(errors$observations)))
-  .ldSummaryContinuousTableMain(dataContainer, variable, options, readyDesc)
-  .ldObservedMomentsTableMain  (dataContainer, variable, options, readyDesc)
-  .ldPlotHistogram             (dataContainer, variable, options, readyDesc)
-  .ldPlotECDF                  (dataContainer, variable, options, readyDesc)
-  
+  .ldDescriptives(jaspResults, variable, options, ready, errors, "continuous")
   
   #### Fit data and assess fit ----
-  
-  readyFit <- ready && isFALSE(errors)
-  #### Maximum Likelihood ----
-  if(options$methodMLE){
-    mleContainer <- .ldGetFitContainer(jaspResults, options, "mleContainer", "Maximum likelihood", 7, errors)
-    
-    # parameter estimates
-    mleEstimatesTable  <- .ldEstimatesTable(mleContainer, options, TRUE, TRUE, "methodMLE")
-    mleResults   <- .ldMLEResults(mleContainer, variable, options, readyFit, options$distNameInR)
-    .ldFillLognormalEstimatesTable(mleEstimatesTable, mleResults, options, readyFit)
-    
-    
-    # fit assessment
-    mleFitContainer    <- .ldGetFitContainer(mleContainer, options, "mleFitAssessment", "Fit Assessment", 8)
-    
-    # fit statistics
-    mleFitStatistics   <- .ldFitStatisticsTable(mleFitContainer, options, "methodMLE")
-    mleFitStatisticsResults <- .ldFitStatisticsResults(mleContainer, mleResults$fitdist, variable, options, readyFit)
-    .ldFillFitStatisticsTable(mleFitStatistics, mleFitStatisticsResults, options, readyFit)
-    # fit plots
-    .ldFitPlots(mleFitContainer, mleResults$fitdist$estimate, options, variable, readyFit)
-    
-  }
+  .ldMLE(jaspResults, variable, options, ready, errors, .ldFillLognormalEstimatesTable)
   
   return()
 }
@@ -91,26 +55,13 @@ LDlognormal <- function(jaspResults, dataset, options, state=NULL){
   options[['parValNames']] <- c("mu", "sigma")
   
   options[['pars']]   <- list(meanlog = options[['mu']], sdlog = options[['sigma']])
-  options[['pdfFun']] <- dlnorm
-  options[['cdfFun']] <- plnorm
-  options[['qFun']]   <- qlnorm
-  options[['rFun']]   <- rlnorm
+  options[['pdfFun']] <- stats::dlnorm
+  options[['cdfFun']] <- stats::plnorm
+  options[['qFun']]   <- stats::qlnorm
+  options[['rFun']]   <- stats::rlnorm
   options[['distNameInR']] <- "lnorm"
   
-  options[['range_x']] <- c(options[['min_x']], options[['max_x']])
-  
-  if(options[['highlightType']] == "minmax"){
-    options[['highlightmin']] <- options[['min']]
-    options[['highlightmax']] <- options[['max']]
-  } else if(options[['highlightType']] == "lower"){
-    options[['highlightmin']] <- options[['range_x']][1]
-    options[['highlightmax']] <- options[['lower_max']]
-  } else if(options[['highlightType']] == "upper"){
-    options[['highlightmin']] <- options[['upper_min']]
-    options[['highlightmax']] <- options[['range_x']][2]
-  } else{
-    options[['highlightmin']] <- options[['highlightmax']] <- NULL
-  }
+  options <- .ldOptionsDeterminePlotLimits(options)
   
   options$support <- list(min = 0, max = Inf)
   options$lowerBound <- c(-Inf, 0)
@@ -157,8 +108,6 @@ LDlognormal <- function(jaspResults, dataset, options, state=NULL){
     text <- "<MATH>
     F(x; <span style='color:red'>&beta;</span>) = 
     </MATH>"
-  } else{
-    
   }
   
   return(gsub(pattern = "\n", replacement = " ", x = text))
@@ -169,8 +118,6 @@ LDlognormal <- function(jaspResults, dataset, options, state=NULL){
     text <- "<MATH>
     Q(p; <span style='color:red'>&beta;</span>) = 
     </MATH>"
-  } else{
-    
   }
   
   return(gsub(pattern = "\n", replacement = " ", x = text))
