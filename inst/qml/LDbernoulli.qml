@@ -95,19 +95,5 @@ Form
 
 	LD.LDEstimateParameters { enabled: mainWindow.dataAvailable }
 
-	Section
-	{
-		title: qsTr("Assess Fit")
-		enabled: mainWindow.dataAvailable
-
-		Group
-		{
-			title: qsTr("Plots")
-			columns: 1
-			CheckBox{ name: "estPMF"; label: qsTr("Histogram vs. theoretical pmf") }
-			CheckBox{ name: "qqplot"; label: qsTr("Q-Q plot"); visible: false      }
-			CheckBox{ name: "estCDF"; label: qsTr("Empirical vs. theoretical cdf") }
-			CheckBox{ name: "ppplot"; label: qsTr("P-P plot")                      }
-		}
-	}
+	LD.LDAssessFit { enabled: mainWindow.dataAvailable; distributionType: "categorical" }
 }

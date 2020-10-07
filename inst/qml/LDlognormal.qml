@@ -72,28 +72,5 @@ Form
 
 	LD.LDEstimateParameters { enabled: mainWindow.dataAvailable }
 
-	Section
-	{
-		title: qsTr("Assess Fit")
-		enabled: mainWindow.dataAvailable
-
-		Group
-		{
-			title: qsTr("Plots")
-			columns: 2
-			CheckBox{ name: "estPDF"; label: qsTr("Histogram vs. theoretical pdf") }
-			CheckBox{ name: "qqplot"; label: qsTr("Q-Q plot")                      }
-			CheckBox{ name: "estCDF"; label: qsTr("Empirical vs. theoretical cdf") }
-			CheckBox{ name: "ppplot"; label: qsTr("P-P plot")                      }
-		}
-
-		Group
-		{
-			title: qsTr("Statistics")
-			CheckBox{ name: "kolmogorovSmirnov";  label: qsTr("Kolmogorov-Smirnov")}
-			CheckBox{ name: "cramerVonMisses";    label: qsTr("Cramér–von Mises")  }
-			CheckBox{ name: "andersonDarling";    label: qsTr("Anderson-Darling")  }
-		}
-
-	}
+	LD.LDAssessFit { enabled: mainWindow.dataAvailable }
 }
