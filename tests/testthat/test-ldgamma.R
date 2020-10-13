@@ -4,6 +4,7 @@ options <- jaspTools::analysisOptions("LDgamma")
 options$.meta <- list(newVariableName = list(containsColumn = TRUE), variable = list(
   containsColumn = TRUE))
 options$andersonDarling <- TRUE
+options$ciIntervalInterval <- 0.95
 options$ciInterval <- TRUE
 options$cramerVonMisses <- TRUE
 options$ecdf <- TRUE
@@ -18,6 +19,7 @@ options$kolmogorovSmirnov <- TRUE
 options$methodMLE <- TRUE
 options$moments <- TRUE
 options$newVariableName <- ""
+options$outputEstimates <- TRUE
 options$outputSE <- TRUE
 options$parsSupportMoments <- TRUE
 options$plotCDF <- TRUE
