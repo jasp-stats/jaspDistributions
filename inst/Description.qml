@@ -14,10 +14,6 @@ Description
 	license:		"GPL (>= 2)"
 	requiresData:	false
 
-	Package	{ name:	"goftest"		}
-	Package	{ name:	"fitdistrplus"	}
-	Package	{ name:	"invgamma"		}
-
 	GroupTitle
 	{
 		title: 	qsTr("Continuous")
