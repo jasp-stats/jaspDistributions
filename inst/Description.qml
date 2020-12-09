@@ -7,7 +7,7 @@ Description
 	name:			"jaspDistributions"
 	icon:			"discoverdistributions-distributions.svg"
 	description: 	qsTr("Discover distributions with JASP")
-	version:		"0.1"
+	version:		"0.2"
 	author:			"JASP Team"
 	maintainer:		"JASP Team <info@jasp-stats.org>"
 	website:		"www.jasp-stats.org"
@@ -86,6 +86,12 @@ Description
 		title:	qsTr("Logistic")
 		qml:	"LDlogistic.qml"
 		func:	"LDlogistic"
+	}
+	Analysis
+	{
+		title:	qsTr("Weibull")
+		qml:	"LDweibull.qml"
+		func:	"LDweibull"
 	}
 
 	GroupTitle
