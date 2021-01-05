@@ -1,0 +1,1114 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+
+msgctxt "Description|"
+msgid "Distributions"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Discover distributions with JASP"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Continuous"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Normal"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Student's t"
+msgstr ""
+
+msgctxt "Description|"
+msgid "F-distribution"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Chi-squared"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Beta"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Gamma"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Inverse gamma"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Exponential"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Log-normal"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Logistic"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Discrete"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Bernoulli"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Binomial"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Negative binomial"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Poisson"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Assess Fit"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "[requires a loaded data set]"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Plots"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Histogram vs. theoretical pdf"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Histogram vs. theoretical pmf"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Q-Q plot"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Empirical vs. theoretical cdf"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "P-P plot"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Statistics"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Kolmogorov-Smirnov"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Cramér–von Mises"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Anderson-Darling"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Shapiro-Wilk"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Chi-square"
+msgstr ""
+
+msgctxt "LDEstimateParameters|"
+msgid "Estimate Parameters"
+msgstr ""
+
+msgctxt "LDEstimateParameters|"
+msgid "[requires a loaded data set]"
+msgstr ""
+
+msgctxt "LDEstimateParameters|"
+msgid "Maximum likelihood"
+msgstr ""
+
+msgctxt "LDEstimateParameters|"
+msgid "Output"
+msgstr ""
+
+msgctxt "LDEstimateParameters|"
+msgid "Estimates"
+msgstr ""
+
+msgctxt "LDEstimateParameters|"
+msgid "Std. error"
+msgstr ""
+
+msgctxt "LDEstimateParameters|"
+msgid "Confidence interval"
+msgstr ""
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Generate and Display Data"
+msgstr ""
+
+msgctxt "LDGenerateDisplayData|"
+msgid "[requires a loaded data set]"
+msgstr ""
+
+#, qt-format
+msgctxt "LDGenerateDisplayData|"
+msgid "Generate new variable from %1"
+msgstr ""
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Variable name: "
+msgstr ""
+
+#, qt-format
+msgctxt "LDGenerateDisplayData|"
+msgid "e.g., random %1"
+msgstr ""
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Number of samples: "
+msgstr ""
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Draw samples"
+msgstr ""
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Get variable from data set"
+msgstr ""
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Statistics"
+msgstr ""
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Descriptives"
+msgstr ""
+
+msgctxt "LDGenerateDisplayData|"
+msgid "First"
+msgstr ""
+
+msgctxt "LDGenerateDisplayData|"
+msgid "observed moments"
+msgstr ""
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Plots"
+msgstr ""
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Bar plot"
+msgstr ""
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Histogram with"
+msgstr ""
+
+msgctxt "LDGenerateDisplayData|"
+msgid "bins"
+msgstr ""
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Empirical cumulative distribution"
+msgstr ""
+
+msgctxt "LDOptions|"
+msgid "Options"
+msgstr ""
+
+msgctxt "LDOptions|"
+msgid "Range of x from"
+msgstr ""
+
+msgctxt "LDOptions|"
+msgid "to"
+msgstr ""
+
+msgctxt "LDOptions|"
+msgid "Highlight"
+msgstr ""
+
+msgctxt "LDOptions|"
+msgid "Density"
+msgstr ""
+
+msgctxt "LDOptions|"
+msgid "Probability"
+msgstr ""
+
+msgctxt "LDOptions|"
+msgid "Interval"
+msgstr ""
+
+msgctxt "LDOptions|"
+msgid "from"
+msgstr ""
+
+#, qt-format
+msgctxt "LDOptions|"
+msgid "from %1"
+msgstr ""
+
+#, qt-format
+msgctxt "LDOptions|"
+msgid "to %1"
+msgstr ""
+
+msgctxt "LDbernoulli|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDbernoulli|"
+msgid "Parameter"
+msgstr ""
+
+msgctxt "LDbernoulli|"
+msgid "Probability of success:"
+msgstr ""
+
+msgctxt "LDbernoulli|"
+msgid "p"
+msgstr ""
+
+msgctxt "LDbernoulli|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDbernoulli|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDbernoulli|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDbernoulli|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDbernoulli|"
+msgid "Probability mass function"
+msgstr ""
+
+msgctxt "LDbernoulli|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDbernoulli|"
+msgid "Options"
+msgstr ""
+
+msgctxt "LDbernoulli|"
+msgid "Highlight"
+msgstr ""
+
+msgctxt "LDbernoulli|"
+msgid "Mass"
+msgstr ""
+
+msgctxt "LDbernoulli|"
+msgid "Cumulative Probability"
+msgstr ""
+
+msgctxt "LDbernoulli|"
+msgid "Limits"
+msgstr ""
+
+msgctxt "LDbernoulli|"
+msgid "≤ X ≤"
+msgstr ""
+
+msgctxt "LDbeta|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDbeta|"
+msgid "Shape:"
+msgstr ""
+
+msgctxt "LDbeta|"
+msgid "α"
+msgstr ""
+
+msgctxt "LDbeta|"
+msgid "β"
+msgstr ""
+
+msgctxt "LDbeta|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDbeta|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDbeta|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDbeta|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDbeta|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDbeta|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDbeta|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "Free parameter"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "Probability of success:"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "p"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "Fixed parameter"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "Number of trials:"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "n"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "Probability mass function"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "Options"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "Range of x from"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "to"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "Highlight"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "Mass"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "Cumulative Probability"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "Interval"
+msgstr ""
+
+msgctxt "LDbinomial|"
+msgid "≤ X ≤"
+msgstr ""
+
+msgctxt "LDchisq|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDchisq|"
+msgid "Degree of freedom:"
+msgstr ""
+
+msgctxt "LDchisq|"
+msgid "k"
+msgstr ""
+
+msgctxt "LDchisq|"
+msgid "Non-centrality:"
+msgstr ""
+
+msgctxt "LDchisq|"
+msgid "λ"
+msgstr ""
+
+msgctxt "LDchisq|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDchisq|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDchisq|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDchisq|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDchisq|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDchisq|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDchisq|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDexponential|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDexponential|"
+msgid "Parameter"
+msgstr ""
+
+msgctxt "LDexponential|"
+msgid "Rate:"
+msgstr ""
+
+msgctxt "LDexponential|"
+msgid "Scale:"
+msgstr ""
+
+msgctxt "LDexponential|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDexponential|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDexponential|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDexponential|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDexponential|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDexponential|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDexponential|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDf|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDf|"
+msgid "Degree of freedom:"
+msgstr ""
+
+msgctxt "LDf|"
+msgid "df 1"
+msgstr ""
+
+msgctxt "LDf|"
+msgid "df 2"
+msgstr ""
+
+msgctxt "LDf|"
+msgid "Non-centrality:"
+msgstr ""
+
+msgctxt "LDf|"
+msgid "ncp"
+msgstr ""
+
+msgctxt "LDf|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDf|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDf|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDf|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDf|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDf|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDf|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDgamma|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDgamma|"
+msgid "Parameters"
+msgstr ""
+
+msgctxt "LDgamma|"
+msgid "Shape:"
+msgstr ""
+
+msgctxt "LDgamma|"
+msgid "Scale:"
+msgstr ""
+
+msgctxt "LDgamma|"
+msgid "Rate:"
+msgstr ""
+
+msgctxt "LDgamma|"
+msgid "Mean:"
+msgstr ""
+
+msgctxt "LDgamma|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDgamma|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDgamma|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDgamma|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDgamma|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDgamma|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDgamma|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Parameters"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Shape:"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Scale:"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Rate:"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Mean:"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Assess Fit"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Plots"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Histogram vs. theoretical pdf"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Q-Q plot"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Empirical vs. theoretical cdf"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "P-P plot"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Statistics"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Kolmogorov-Smirnov"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Cramér–von Mises"
+msgstr ""
+
+msgctxt "LDgammaInverse|"
+msgid "Anderson-Darling"
+msgstr ""
+
+msgctxt "LDgaussianunivariate|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDgaussianunivariate|"
+msgid "Parameters"
+msgstr ""
+
+msgctxt "LDgaussianunivariate|"
+msgid "Mean:"
+msgstr ""
+
+msgctxt "LDgaussianunivariate|"
+msgid "μ"
+msgstr ""
+
+msgctxt "LDgaussianunivariate|"
+msgid "Variance:"
+msgstr ""
+
+msgctxt "LDgaussianunivariate|"
+msgid "Std. deviation:"
+msgstr ""
+
+msgctxt "LDgaussianunivariate|"
+msgid "Precision:"
+msgstr ""
+
+msgctxt "LDgaussianunivariate|"
+msgid "Square root of precision:"
+msgstr ""
+
+msgctxt "LDgaussianunivariate|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDgaussianunivariate|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDgaussianunivariate|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDgaussianunivariate|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDgaussianunivariate|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDgaussianunivariate|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDgaussianunivariate|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDlogistic|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDlogistic|"
+msgid "Location:"
+msgstr ""
+
+msgctxt "LDlogistic|"
+msgid "μ"
+msgstr ""
+
+msgctxt "LDlogistic|"
+msgid "Scale:"
+msgstr ""
+
+msgctxt "LDlogistic|"
+msgid "σ"
+msgstr ""
+
+msgctxt "LDlogistic|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDlogistic|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDlogistic|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDlogistic|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDlogistic|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDlogistic|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDlogistic|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDlognormal|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDlognormal|"
+msgid "Log Mean:"
+msgstr ""
+
+msgctxt "LDlognormal|"
+msgid "μ"
+msgstr ""
+
+msgctxt "LDlognormal|"
+msgid "Log std. deviation:"
+msgstr ""
+
+msgctxt "LDlognormal|"
+msgid "σ"
+msgstr ""
+
+msgctxt "LDlognormal|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDlognormal|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDlognormal|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDlognormal|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDlognormal|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDlognormal|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDlognormal|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDnegbinomial|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDnegbinomial|"
+msgid "Parameters"
+msgstr ""
+
+msgctxt "LDnegbinomial|"
+msgid "Number of successes:"
+msgstr ""
+
+msgctxt "LDnegbinomial|"
+msgid "Dispersion:"
+msgstr ""
+
+msgctxt "LDnegbinomial|"
+msgid "Probability of success:"
+msgstr ""
+
+msgctxt "LDnegbinomial|"
+msgid "Mean:"
+msgstr ""
+
+msgctxt "LDnegbinomial|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDnegbinomial|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDnegbinomial|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDnegbinomial|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDnegbinomial|"
+msgid "Probability mass function"
+msgstr ""
+
+msgctxt "LDnegbinomial|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDnegbinomial|"
+msgid "Options"
+msgstr ""
+
+msgctxt "LDnegbinomial|"
+msgid "Range of x from"
+msgstr ""
+
+msgctxt "LDnegbinomial|"
+msgid "to"
+msgstr ""
+
+msgctxt "LDnegbinomial|"
+msgid "Highlight"
+msgstr ""
+
+msgctxt "LDnegbinomial|"
+msgid "Mass"
+msgstr ""
+
+msgctxt "LDnegbinomial|"
+msgid "Cumulative Probability"
+msgstr ""
+
+msgctxt "LDnegbinomial|"
+msgid "Interval"
+msgstr ""
+
+msgctxt "LDnegbinomial|"
+msgid "≤ X ≤"
+msgstr ""
+
+msgctxt "LDpoisson|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDpoisson|"
+msgid "Parameter"
+msgstr ""
+
+msgctxt "LDpoisson|"
+msgid "Rate:"
+msgstr ""
+
+msgctxt "LDpoisson|"
+msgid "λ"
+msgstr ""
+
+msgctxt "LDpoisson|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDpoisson|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDpoisson|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDpoisson|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDpoisson|"
+msgid "Probability mass function"
+msgstr ""
+
+msgctxt "LDpoisson|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDpoisson|"
+msgid "Options"
+msgstr ""
+
+msgctxt "LDpoisson|"
+msgid "Range of x from"
+msgstr ""
+
+msgctxt "LDpoisson|"
+msgid "to"
+msgstr ""
+
+msgctxt "LDpoisson|"
+msgid "Highlight"
+msgstr ""
+
+msgctxt "LDpoisson|"
+msgid "Mass"
+msgstr ""
+
+msgctxt "LDpoisson|"
+msgid "Cumulative Probability"
+msgstr ""
+
+msgctxt "LDpoisson|"
+msgid "Interval"
+msgstr ""
+
+msgctxt "LDpoisson|"
+msgid "≤ X ≤"
+msgstr ""
+
+msgctxt "LDt|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDt|"
+msgid "Parameters"
+msgstr ""
+
+msgctxt "LDt|"
+msgid "Degree of freedom:"
+msgstr ""
+
+msgctxt "LDt|"
+msgid "df"
+msgstr ""
+
+msgctxt "LDt|"
+msgid "Non-centrality:"
+msgstr ""
+
+msgctxt "LDt|"
+msgid "ncp"
+msgstr ""
+
+msgctxt "LDt|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDt|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDt|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDt|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDt|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDt|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDt|"
+msgid "Quantile function"
+msgstr ""
