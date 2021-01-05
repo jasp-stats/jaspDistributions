@@ -1,0 +1,559 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: R 3.6.1\n"
+"Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
+"POT-Creation-Date: 2021-01-05 09:39\n"
+"PO-Revision-Date: 2020-12-03 09:42+0000\n"
+"Last-Translator: Thomas Langkamp <thomas.lassdiesonnerein@gmx.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/jasp/jasp-engine/"
+"de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n==0 ? 0 : n==1 ? 0 : 1;\n"
+"X-Generator: Weblate 4.4-dev\n"
+
+msgid ""
+"The following problem(s) occurred while running the analysis:"
+"<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
+msgstr ""
+"Folgende(s) Problem(e) ist beim Ausführen der Analyse aufgetreten:"
+"<ul><li>Variable muss diskret sein (z.B., ganzzahlig)</li></ul>"
+
+msgid "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
+msgstr "<ul><li>Variable muss diskret sein (z.B., ganzzahlig)</li></ul>"
+
+msgid "Overview - %s"
+msgstr "Übersicht - %s"
+
+msgid "Descriptives"
+msgstr "Deskriptive Statistiken"
+
+msgid "Variable"
+msgstr "Variable"
+
+msgid "n"
+msgstr "n"
+
+msgid "Mean"
+msgstr "Mittelwert"
+
+msgid "Variance"
+msgstr "Varianz"
+
+msgid "Std. deviation"
+msgstr "Standardabweichung"
+
+msgid "Minimum"
+msgstr "Minimum"
+
+msgid "25%% Quantile"
+msgstr "25%% Quartil"
+
+msgid "Median"
+msgstr "Median"
+
+msgid "75%% Quantile"
+msgstr "75%% Quartil"
+
+msgid "Maximum"
+msgstr "Maximum"
+
+msgid "Rel. Frequency"
+msgstr "Rel. Häufigkeit"
+
+msgid "Total"
+msgstr "Gesamt"
+
+msgid "Observed Moments"
+msgstr "Empirische Momente"
+
+msgid "Moment"
+msgstr "Moment"
+
+msgid "Raw"
+msgstr "Roh"
+
+msgid "Central"
+msgstr "Zentralität"
+
+msgid "Estimated Parameters"
+msgstr "Geschätzte Parameter"
+
+msgid "Parameter"
+msgstr "Parameter"
+
+msgid "Estimate"
+msgstr "Schätzung"
+
+msgid "SE"
+msgstr "Std.-Fehler"
+
+msgid "Standard errors are unavailable with this method"
+msgstr "Standardfehler sind mit dieser Methode nicht verfügbar"
+
+msgid "Lower"
+msgstr "Untere"
+
+msgid "%s%% CI"
+msgstr "%s%% KI"
+
+msgid "Upper"
+msgstr "Obere"
+
+msgid "Confidence intervals are unavailable with this method."
+msgstr "Konfidenzintervalle sind mit dieser Methode nicht verfügbar."
+
+msgid "Confidence intervals were calculated using the delta method."
+msgstr "Konfidenzintervalle wurden mit der Deltamethode berechnet."
+
+msgid "Standard errors were calculated using the delta method."
+msgstr "Standardfehler wurden mit der Deltamethode berechnet."
+
+msgid ""
+"Standard errors and confidence intervals were calculated using the delta "
+"method."
+msgstr ""
+"Standardfehler und Konfidenzintervalle wurden mit der Deltamethode berechnet."
+
+msgid "Maximum likelihood"
+msgstr "Maximum-Likelihood"
+
+msgid "Fit Assessment"
+msgstr "Anpassungs-Beurteilung"
+
+msgid "Fit Statistics"
+msgstr "Anpassungs-Statistiken"
+
+msgid "Test"
+msgstr "Test"
+
+msgid "Statistic"
+msgstr "Statistik"
+
+msgid "p"
+msgstr "p"
+
+msgid "Kolmogorov-Smirnov"
+msgstr "Kolmogorow-Smirnow"
+
+msgid "Cramér-von Mises"
+msgstr ""
+
+msgid "Anderson-Darling"
+msgstr "Anderson-Darling"
+
+msgid "Shapiro-Wilk"
+msgstr "Shapiro-Wilk"
+
+msgid "Chi-square"
+msgstr "Chi-Quadrat"
+
+msgid "Histogram vs. Theoretical PDF"
+msgstr "Histogramm vs. Theoretische WDF"
+
+msgid "Histogram vs. Theoretical PMF"
+msgstr "Histogramm vs. Theoretische WF"
+
+msgid "Q-Q plot"
+msgstr "Q-Q-Diagramm"
+
+msgid "Empirical vs. Theoretical CDF"
+msgstr "Empirische vs. theoretische KDF"
+
+msgid "P-P plot"
+msgstr "P-P-Diagramm"
+
+msgid "Theoretical"
+msgstr "Theoretisch"
+
+msgid "Sample"
+msgstr "Stichprobe"
+
+msgid "Density"
+msgstr "Dichte"
+
+msgid "Probability Mass"
+msgstr "Wahrscheinlichkeit"
+
+msgid "Probability"
+msgstr "Wahrscheinlichkeit"
+
+msgid "Probability Density Function"
+msgstr "Wahrscheinlichkeitsdichtefunktion"
+
+msgid "Probability Mass Function"
+msgstr "Wahrscheinlichkeitsfunktion"
+
+msgid "Cumulative Distribution Function"
+msgstr "Kumulative Verteilungsfunktion"
+
+msgid "Quantile Function"
+msgstr "Quantilfunktion"
+
+msgid "Formula"
+msgstr "Formel"
+
+msgid "Density Plot"
+msgstr "Dichtediagramm"
+
+msgid "Cumulative Probability Plot"
+msgstr "Diagramm kumulative Wahrscheinlichkeit"
+
+msgid "Slope"
+msgstr "Steigung"
+
+msgid "Quantile Plot"
+msgstr "Quantildiagramm"
+
+msgid "Probability Mass Plot"
+msgstr "Wahrscheinlichkeitsdiagramm"
+
+msgid "Histogram"
+msgstr "Histogramm"
+
+msgid "Bar plot"
+msgstr "Balkendiagramm"
+
+msgid "Rel. Freq (%s in bin)"
+msgstr "Rel. Häufigkeit (%s in Klasse)"
+
+msgid "Empirical Cumulative Distribution"
+msgstr "Empirische kumulative Verteilung"
+
+msgid "Freq"
+msgstr "Häufigkeit"
+
+msgid "Parameters, Support, and Moments"
+msgstr "Parameter, Träger, und Momente"
+
+msgid ""
+"<b>Parameters</b>\n"
+"      %s\n"
+"      \n"
+"      <b>Support</b>\n"
+"      %s\n"
+"      \n"
+"      <b>Moments</b>\n"
+"      E(X) = %s\n"
+"      Var(X) = %s"
+msgstr ""
+"<b>Parameter</b>\n"
+"      %s\n"
+"      \n"
+"      <b>Träger</b>\n"
+"      %s\n"
+"      \n"
+"      <b>Momente</b>\n"
+"      E(X) = %s\n"
+"      Var(X) = %s"
+
+msgid ""
+"<b>Parameters</b>\n"
+"      %s\n"
+"      \n"
+"      <b>Support</b>\n"
+"      %s\n"
+"      \n"
+"      <b>Moments</b>\n"
+"      not available"
+msgstr ""
+"<b>Parameter</b>\n"
+"      %s\n"
+"      \n"
+"      <b>Träger</b>\n"
+"      %s\n"
+"      \n"
+"      <b>Momente</b>\n"
+"      nicht verfügbar"
+
+msgid ""
+"The probability density function (PDF), usually denoted as f(x), is a "
+"function of a random variable X.\n"
+"    The value of f(x) provides the relative likelihood that a realization of "
+"the random variable X yields a value equal to x. \n"
+"    More formally, the PDF is defined as a derivative of a cumulative "
+"distribution function (CDF).\n"
+"    \n"
+"    The density plot displays the probability density function of a random "
+"variable.\n"
+"    The <i>y</i>-axis displays the value of the density function for a "
+"particular value of the random variable (displayed on the <i>x</i>-axis)."
+msgstr ""
+"Die Wahrscheinlichkeitsdichtefunktion (WDF), meist notiert mit f(x), ist "
+"eine Funktion einer Zufallsvariable X.\n"
+"    Der Wert f(x) gibt die relative Wahrscheinlichkeit an, mit der beim "
+"Ziehen aus der Zufallsvariable X der Wert x realisiert wird. \n"
+"    Formal ist die WDF als eine Ableitung einer kumulativen "
+"Verteilungsfunktion (KVF) definiert.\n"
+"    \n"
+"    Das Dichtediagramm zeigt die Wahrscheinlichkeitsdichtefunktion einer "
+"Zufallsvariable.\n"
+"    Die <i>y</i>-Achse zeigt die Werte der Dichtefunktion für einen "
+"bestimmten Wert der Zufallsvariable (auf der <i>x</i>-Achse)."
+
+msgid ""
+"The probability mass function (PMF), usually denoted as f(x), is a function "
+"of a random variable X.\n"
+"    The value of f(x) provides the probability that a realization of the "
+"random variable X yields a value equal to x.\n"
+"    \n"
+"    The probability mass plot displays the probability mass function of a "
+"random variable.\n"
+"    The <i>y</i>-axis displays the value of the probability mass function "
+"for a particular value of the random variable (displayed on the <i>x</i>-"
+"axis)."
+msgstr ""
+"Die Wahrscheinlichkeitsfunktion (WF), meist notiert mit f(x), ist eine "
+"Funktion einer Zufallsvariable X.\n"
+"    Der Wert f(x) gibt die Wahrscheinlichkeit an, mit der beim Ziehen aus "
+"der Zufallsvariable X der Wert x realisiert wird.\n"
+"    \n"
+"    Das Wahrscheinlichkeitsdiagramm zeigt die Wahrscheinlichkeitsmasse einer "
+"Zufallsvariable.\n"
+"    Die <i>y</i>-Achse zeigt die Werte der Wahrscheinlichkeitsfunktion für "
+"einen bestimmten Wert der Zufallsvariable (auf der <i>x</i>-Achse)."
+
+msgid ""
+"The cumulative distribution function (CDF), usually denoted as F(x), is a "
+"function of a random variable X.\n"
+"    The value of F(x) provides the probability that a realization of the "
+"random variable X yields a value that is equal to or smaller than x.\n"
+"    \n"
+"    The cumulative probability plot displays the cumulative distribution of "
+"a random variable.\n"
+"    The <i>y</i>-axis displays the value of the cumulative distribution "
+"function for a particular value of the random variable (displayed on the "
+"<i>x</i>-axis)."
+msgstr ""
+"Die kumulative Verteilungsfunktion (KVF), meist notiert als F(x), ist eine "
+"Funktion einer Zufallsvariable X.\n"
+"    Der Wert F(x) gibt die Wahrscheinlichkeit an, dass beim Ziehen aus der "
+"Zufallsvariable X ein Wert kleiner oder gleich x realisiert wird.\n"
+"    \n"
+"    Das kumulative-Wahrscheinlichkeits-Diagramm zeigt die kumulative "
+"Verteilung einer Zufallsvariable.\n"
+"    Die <i>y</i>-Achse zeigt die Werte der kumulativen Verteilungsfunktion "
+"für einen bestimmten Wert der Zufallsvariable (auf der <i>x</i>-Achse)."
+
+msgid ""
+"The quantile function, usually denoted as Q(p), is the inverse of the "
+"cumulative distribution function.\n"
+"    The function gives the quantile such that the probability of the random "
+"variable being less than or equal to that value equals the given probability "
+"p.   \n"
+"    \n"
+"    The quantile plot displays the quantile function.\n"
+"    The <i>y</i>-axis displays the quantile of which the probability that "
+"the random variable is less or equal to that value is equal to p (displayed "
+"on the <i>x</i>-axis)."
+msgstr ""
+"Die Quantilfunktion, meist notiert als Q(p), ist die Inverse der kumulativen "
+"Verteilungsfunktion.\n"
+"    Die Funktion liefert das Quantil, bei dem die Wahrscheinlichkeit, dass "
+"die Zufallsvariable diesen oder einen kleinerer Wert annimmt, der "
+"angegebenen Wahrscheinlichkeit p entspricht.\n"
+"    \n"
+"    Das Quantildiagramm zeigt die Quantilfunktion. \n"
+"    De <i>y</i>-Achse zeigt das Quantil, für das die Wahrscheinlichkeit der "
+"Zufallsvariable kleiner oder gleich dieses Wertes gleich p ist (gezeigt auf "
+"der <i>x</i>-Achse)."
+
+#, fuzzy
+msgid ""
+"<h3> Demonstration of the %1$s </h3>\n"
+"This demonstration is divided into four parts.\n"
+"The first part displays the %2$s, its probability density function, "
+"cumulative distribution function, and quantile function.\n"
+"The second part allows you to generate data from the %3$s, compute "
+"descriptive statistics, and display descriptive plots.\n"
+"The third part allows you to estimate the parameters of the %4$s.\n"
+"The fourth part allows you to check the fit of the %5$s to the data.\n"
+"\n"
+"<b>References</b>\n"
+"\n"
+"Blitzstein, J. K., & Hwang, J. (2014). <i>Introduction to probability.</i> "
+"Chapman and Hall/CRC.\n"
+"\n"
+"Leemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, "
+"16</i>(4), 8–9.\n"
+"\n"
+"For relationships with other distributions, visit www.math.wm.edu/~leemis/"
+"chart/UDR/UDR.html.\n"
+"\n"
+"https://en.wikipedia.org/wiki/List_of_probability_distributions"
+msgstr ""
+"<h3> Darstellung der %1$s </h3>\n"
+"Diese Darstellung besteht aus vier Teilen.\n"
+"Der erste Teil zeigt die %2$s, ihre Wahrscheinlichkeitsdichtefunktion, die "
+"kumulative Verteilungsfunktion, und Quantilfunktion.\n"
+"Mit dem zweiten Teil kannst Du aus der %3$s Daten generieren, deskriptive "
+"Statistiken berechnen, und deskriptive Diagramme anzeigen.\n"
+"Im dritten Teil kannst Du die Parameter der %4$s schätzen.\n"
+"Im vierten Teil kannst Du die Anpassungsgüte der %5$s an die Daten prüfen.\n"
+"\n"
+"<b>Referenzen</b>\n"
+"\n"
+"Blitzstein, J. K., & Hwang, J. (2014). <i>Introduction to probability.</i> "
+"Chapman and Hall/CRC.\n"
+"\n"
+"Leemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, "
+"16</i>(4), 8-9.\n"
+"\n"
+"Für Verwandschaften mit weiteren Verteilungen, besuche www.math.wm.edu/"
+"~leemis/chart/UDR/UDR.html.\n"
+"\n"
+"https://en.wikipedia.org/wiki/List_of_probability_distributions"
+
+msgid ""
+"Estimation failed: Optimization did not converge. <ul><li>Try adjusting "
+"parameter values, check outliers or feasibility of the distribution fitting "
+"the data.</li></ul>"
+msgstr ""
+"Schätzung fehlgeschlagen: Optimierung ist nicht konvergiert. <ul><li> "
+"Probiere die Parameterwerte anzupassen, prüfe nach Ausreißern oder der "
+"Anpassungsgüte der Verteilung auf die Daten.</li></ul>"
+
+msgid ""
+"Estimation failed: Hessian matrix is not numerically computable. "
+"<ul><li>Check outliers or feasibility of the distribution fitting the data.</"
+"li></ul>"
+msgstr ""
+"Schätzung fehlgeschlagen: Hesse-Matrix is nicht numerisch berechenbar. "
+"<ul><li> Prüfe nach Ausreißern oder der Passgüte der Verteilung auf die "
+"Daten.</li></ul>"
+
+msgid "Bernoulli distribution"
+msgstr "Bernoulli-Verteilung"
+
+msgid "probability of success: p %s %s: 0 %s p %s 1"
+msgstr "Erfolgswahrscheinlichkeit: p %s %s: 0 %s p %s 1"
+
+msgid "x %s {0, 1}"
+msgstr "x %s {0, 1}"
+
+msgid "p(1-p)"
+msgstr "p(1-p)"
+
+msgid "The optimization did not converge, try adjusting the parameter values."
+msgstr ""
+"Die Optimierung ist nicht konvergiert; versuche, die Parameterwerte "
+"anzupassen."
+
+msgid "<i>Warning.</i>"
+msgstr "<i>Warnung.</i>"
+
+msgid "beta distribution"
+msgstr "Beta-Verteilung"
+
+msgid "shape: %s"
+msgstr "Form: %s"
+
+msgid "binomial distribution"
+msgstr "Binomiale Verteilung"
+
+msgid "probability of success: %s"
+msgstr "Erfolgswahrscheinlichkeit: %s"
+
+msgid "number of trials: %s"
+msgstr "Anzahl Versuche: %s"
+
+msgid "Parameter n was fixed at value %s."
+msgstr "Parameter n wurde fixiert auf Wert %s."
+
+msgid "%s<sup>2</sup> distribution"
+msgstr "%s<sup>2</sup> Verteilung"
+
+msgid "degree of freedom: %s"
+msgstr "Freiheitsgrade: %s"
+
+msgid "non-centrality: %s"
+msgstr "Nichtzentralität: %s"
+
+msgid "exponential distribution"
+msgstr "Exponentielle Verteilung"
+
+msgid "scale: %s"
+msgstr "Skalierungsparameter: %s"
+
+msgid "rate: %s"
+msgstr "rate: %s"
+
+msgid "F-distribution"
+msgstr "F-Verteilung"
+
+msgid "gamma distribution"
+msgstr "Gammaverteilung"
+
+msgid "mean: %s"
+msgstr "Mittelwert: %s"
+
+msgid "inverse gamma distribution"
+msgstr "Inverse Gammaverteilung"
+
+msgid "normal distribution"
+msgstr "Normalverteilung"
+
+msgid "mean: &mu; %s"
+msgstr "Mittelwert: &mu; %s"
+
+msgid "variance: %s"
+msgstr "Varianz: %s"
+
+msgid "standard deviation: %s"
+msgstr "Standardabweichung: %s"
+
+msgid "precision: %s"
+msgstr "Präzision: %s"
+
+msgid "square root of precision: %s"
+msgstr "Quadratwurzel der Präzision: %s"
+
+msgid "&mu;"
+msgstr "&mu;"
+
+msgid "logistic distribution"
+msgstr "logistische Verteilung"
+
+msgid "location: &mu; %s"
+msgstr "Lage: &mu; %s"
+
+msgid "(&sigma; &pi;)<sup>2</sup> / 3"
+msgstr "(&sigma; &pi;)<sup>2</sup> / 3"
+
+msgid "log-normal distribution"
+msgstr "Log-Normalverteilung"
+
+msgid "log mean: &mu; %s"
+msgstr "Log-Mittelwert: &mu; %s"
+
+msgid "log standard deviation: %s"
+msgstr "Log-Standardabweichung: %s"
+
+msgid "exp(&mu; + &sigma;<sup>2</sup>/2)"
+msgstr "exp(&mu; + &sigma;<sup>2</sup>/2)"
+
+msgid "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
+msgstr "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
+
+msgid "negative binomial distribution"
+msgstr "Negativ Binomialverteilung"
+
+msgid "number of successes: %s"
+msgstr "Anzahl Erfolge: %s"
+
+msgid "dispersion: %s"
+msgstr "Dispersion: %s"
+
+msgid "Poisson distribution"
+msgstr "Poisson-Verteilung"
+
+msgid "t-distribution"
+msgstr "t-Verteilung"
+
+msgid "does not exist unless df > 1"
+msgstr "existiert nur wenn df > 1"
+
+msgid "does not exist unless df > 2"
+msgstr "existiert nur wenn df > 2"

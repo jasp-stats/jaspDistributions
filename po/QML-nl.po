@@ -1,0 +1,1117 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: en_US\n"
+"X-Source-Language: American English\n"
+"X-Qt-Contexts: true\n"
+
+msgctxt "Description|"
+msgid "Distributions"
+msgstr "Verdelingen"
+
+msgctxt "Description|"
+msgid "Discover distributions with JASP"
+msgstr "Ontdek verdelingen met JASP"
+
+msgctxt "Description|"
+msgid "Continuous"
+msgstr "Continu"
+
+msgctxt "Description|"
+msgid "Normal"
+msgstr "Normaal"
+
+msgctxt "Description|"
+msgid "Student's t"
+msgstr "Student's t"
+
+msgctxt "Description|"
+msgid "F-distribution"
+msgstr "F-verdeling"
+
+msgctxt "Description|"
+msgid "Chi-squared"
+msgstr "Chi-kwadraat"
+
+msgctxt "Description|"
+msgid "Beta"
+msgstr "Beta"
+
+msgctxt "Description|"
+msgid "Gamma"
+msgstr "Gamma"
+
+msgctxt "Description|"
+msgid "Inverse gamma"
+msgstr "Inverse gamma-verdeling"
+
+msgctxt "Description|"
+msgid "Exponential"
+msgstr "Exponentieel"
+
+msgctxt "Description|"
+msgid "Log-normal"
+msgstr "Log-normaal"
+
+msgctxt "Description|"
+msgid "Logistic"
+msgstr "Logistische"
+
+msgctxt "Description|"
+msgid "Discrete"
+msgstr "Discreet"
+
+msgctxt "Description|"
+msgid "Bernoulli"
+msgstr "Bernoulli"
+
+msgctxt "Description|"
+msgid "Binomial"
+msgstr "Binomiaal"
+
+msgctxt "Description|"
+msgid "Negative binomial"
+msgstr "Negatieve binomiaal"
+
+msgctxt "Description|"
+msgid "Poisson"
+msgstr "Poisson"
+
+msgctxt "LDAssessFit|"
+msgid "Assess Fit"
+msgstr "Evalueer Passing"
+
+msgctxt "LDAssessFit|"
+msgid "[requires a loaded data set]"
+msgstr "[vereist een geladen dataset]"
+
+msgctxt "LDAssessFit|"
+msgid "Plots"
+msgstr "Grafieken"
+
+msgctxt "LDAssessFit|"
+msgid "Histogram vs. theoretical pdf"
+msgstr "Histogram vs. theoretische pdf"
+
+msgctxt "LDAssessFit|"
+msgid "Histogram vs. theoretical pmf"
+msgstr "Histogram vs. theoretische pmf"
+
+msgctxt "LDAssessFit|"
+msgid "Q-Q plot"
+msgstr "Q-Q plot"
+
+msgctxt "LDAssessFit|"
+msgid "Empirical vs. theoretical cdf"
+msgstr "Empirische vs. theoretische cdf"
+
+msgctxt "LDAssessFit|"
+msgid "P-P plot"
+msgstr "P-P plot"
+
+msgctxt "LDAssessFit|"
+msgid "Statistics"
+msgstr "Statistieken"
+
+msgctxt "LDAssessFit|"
+msgid "Kolmogorov-Smirnov"
+msgstr "Kolmogorov-Smirnov"
+
+msgctxt "LDAssessFit|"
+msgid "Cramér–von Mises"
+msgstr "Cramér–von Mises"
+
+msgctxt "LDAssessFit|"
+msgid "Anderson-Darling"
+msgstr "Anderson-Darling"
+
+msgctxt "LDAssessFit|"
+msgid "Shapiro-Wilk"
+msgstr "Shapiro-Wilk"
+
+msgctxt "LDAssessFit|"
+msgid "Chi-square"
+msgstr "Chi-kwadraat"
+
+msgctxt "LDEstimateParameters|"
+msgid "Estimate Parameters"
+msgstr "Schat parameters"
+
+msgctxt "LDEstimateParameters|"
+msgid "[requires a loaded data set]"
+msgstr "[vereist een geladen dataset]"
+
+msgctxt "LDEstimateParameters|"
+msgid "Maximum likelihood"
+msgstr "Meest aannemelijke schatter"
+
+msgctxt "LDEstimateParameters|"
+msgid "Output"
+msgstr "Uitvoer"
+
+msgctxt "LDEstimateParameters|"
+msgid "Estimates"
+msgstr "Schattingen"
+
+msgctxt "LDEstimateParameters|"
+msgid "Std. error"
+msgstr "Std. fout"
+
+msgctxt "LDEstimateParameters|"
+msgid "Confidence interval"
+msgstr "Betrouwbaarheidsinterval"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Generate and Display Data"
+msgstr "Genereer en toon gegevens"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "[requires a loaded data set]"
+msgstr "[vereist een geladen dataset]"
+
+#, qt-format
+msgctxt "LDGenerateDisplayData|"
+msgid "Generate new variable from %1"
+msgstr "Genereer nieuwe variabele m.b.v. %1"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Variable name: "
+msgstr "Naam variabele: "
+
+#, qt-format
+msgctxt "LDGenerateDisplayData|"
+msgid "e.g., random %1"
+msgstr "bijv., willekeurig %1"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Number of samples: "
+msgstr "Steekproefgrootte: "
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Draw samples"
+msgstr "Trek steekproef"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Get variable from data set"
+msgstr "Selecteer variabele uit dataset"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Statistics"
+msgstr "Statistieken"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Descriptives"
+msgstr "Beschrijvende statistiek"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "First"
+msgstr "Eerste"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "observed moments"
+msgstr "waargenomen momenten"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Plots"
+msgstr "Grafieken"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Bar plot"
+msgstr "Staafdiagram"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Histogram with"
+msgstr "Histogram met"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "bins"
+msgstr "klassen"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Empirical cumulative distribution"
+msgstr "Empirische cumulatieve verdeling"
+
+msgctxt "LDOptions|"
+msgid "Options"
+msgstr "Opties"
+
+msgctxt "LDOptions|"
+msgid "Range of x from"
+msgstr "Bereik van x vanaf"
+
+msgctxt "LDOptions|"
+msgid "to"
+msgstr "naar"
+
+msgctxt "LDOptions|"
+msgid "Highlight"
+msgstr "Markeer"
+
+msgctxt "LDOptions|"
+msgid "Density"
+msgstr "Dichtheid"
+
+msgctxt "LDOptions|"
+msgid "Probability"
+msgstr "Kansverdeling"
+
+msgctxt "LDOptions|"
+msgid "Interval"
+msgstr "Interval"
+
+msgctxt "LDOptions|"
+msgid "from"
+msgstr "van"
+
+#, qt-format
+msgctxt "LDOptions|"
+msgid "from %1"
+msgstr "van %1"
+
+#, qt-format
+msgctxt "LDOptions|"
+msgid "to %1"
+msgstr "naar %1"
+
+msgctxt "LDbernoulli|"
+msgid "Show Distribution"
+msgstr "Toon verdeling"
+
+msgctxt "LDbernoulli|"
+msgid "Parameter"
+msgstr "Parameter"
+
+msgctxt "LDbernoulli|"
+msgid "Probability of success:"
+msgstr "Kans op succes:"
+
+msgctxt "LDbernoulli|"
+msgid "p"
+msgstr "p"
+
+msgctxt "LDbernoulli|"
+msgid "Display"
+msgstr "Weergeven"
+
+msgctxt "LDbernoulli|"
+msgid "Explanatory text"
+msgstr "Toelichtende tekst"
+
+msgctxt "LDbernoulli|"
+msgid "Parameters, support, and moments"
+msgstr "Parameters, drager en momenten"
+
+msgctxt "LDbernoulli|"
+msgid "Formulas"
+msgstr "Formules"
+
+msgctxt "LDbernoulli|"
+msgid "Probability mass function"
+msgstr "Kansfunctie"
+
+msgctxt "LDbernoulli|"
+msgid "Cumulative distribution function"
+msgstr "Cumulatieve verdelingsfunctie"
+
+msgctxt "LDbernoulli|"
+msgid "Options"
+msgstr "Opties"
+
+msgctxt "LDbernoulli|"
+msgid "Highlight"
+msgstr "Markeer"
+
+msgctxt "LDbernoulli|"
+msgid "Mass"
+msgstr "Massa"
+
+msgctxt "LDbernoulli|"
+msgid "Cumulative Probability"
+msgstr "Cumulatieve Kansverdeling"
+
+msgctxt "LDbernoulli|"
+msgid "Limits"
+msgstr "Limieten"
+
+msgctxt "LDbernoulli|"
+msgid "≤ X ≤"
+msgstr "≤ X ≤"
+
+msgctxt "LDbeta|"
+msgid "Show Distribution"
+msgstr "Toon verdeling"
+
+msgctxt "LDbeta|"
+msgid "Shape:"
+msgstr "Vorm:"
+
+msgctxt "LDbeta|"
+msgid "α"
+msgstr "α"
+
+msgctxt "LDbeta|"
+msgid "β"
+msgstr "β"
+
+msgctxt "LDbeta|"
+msgid "Display"
+msgstr "Weergeven"
+
+msgctxt "LDbeta|"
+msgid "Explanatory text"
+msgstr "Toelichtende tekst"
+
+msgctxt "LDbeta|"
+msgid "Parameters, support, and moments"
+msgstr "Parameters, drager en momenten"
+
+msgctxt "LDbeta|"
+msgid "Formulas"
+msgstr "Formules"
+
+msgctxt "LDbeta|"
+msgid "Probability density function"
+msgstr "Kansfunctie"
+
+msgctxt "LDbeta|"
+msgid "Cumulative distribution function"
+msgstr "Cumulatieve verdelingsfunctie"
+
+msgctxt "LDbeta|"
+msgid "Quantile function"
+msgstr "Kwantielfunctie"
+
+msgctxt "LDbinomial|"
+msgid "Show Distribution"
+msgstr "Toon verdeling"
+
+msgctxt "LDbinomial|"
+msgid "Free parameter"
+msgstr "Vrije parameter"
+
+msgctxt "LDbinomial|"
+msgid "Probability of success:"
+msgstr "Kans op succes:"
+
+msgctxt "LDbinomial|"
+msgid "p"
+msgstr "p"
+
+msgctxt "LDbinomial|"
+msgid "Fixed parameter"
+msgstr "Gefixeerde parameter"
+
+msgctxt "LDbinomial|"
+msgid "Number of trials:"
+msgstr "Steekproefgrootte:"
+
+msgctxt "LDbinomial|"
+msgid "n"
+msgstr "n"
+
+msgctxt "LDbinomial|"
+msgid "Display"
+msgstr "Weergeven"
+
+msgctxt "LDbinomial|"
+msgid "Explanatory text"
+msgstr "Toelichtende tekst"
+
+msgctxt "LDbinomial|"
+msgid "Parameters, support, and moments"
+msgstr "Parameters, drager en momenten"
+
+msgctxt "LDbinomial|"
+msgid "Formulas"
+msgstr "Formules"
+
+msgctxt "LDbinomial|"
+msgid "Probability mass function"
+msgstr "Kansfunctie"
+
+msgctxt "LDbinomial|"
+msgid "Cumulative distribution function"
+msgstr "Cumulatieve verdelingsfunctie"
+
+msgctxt "LDbinomial|"
+msgid "Options"
+msgstr "Opties"
+
+msgctxt "LDbinomial|"
+msgid "Range of x from"
+msgstr "Bereik van x vanaf"
+
+msgctxt "LDbinomial|"
+msgid "to"
+msgstr "naar"
+
+msgctxt "LDbinomial|"
+msgid "Highlight"
+msgstr "Markeer"
+
+msgctxt "LDbinomial|"
+msgid "Mass"
+msgstr "Massa"
+
+msgctxt "LDbinomial|"
+msgid "Cumulative Probability"
+msgstr "Cumulatieve Kansverdeling"
+
+msgctxt "LDbinomial|"
+msgid "Interval"
+msgstr "Interval"
+
+msgctxt "LDbinomial|"
+msgid "≤ X ≤"
+msgstr "≤ X ≤"
+
+msgctxt "LDchisq|"
+msgid "Show Distribution"
+msgstr "Toon verdeling"
+
+msgctxt "LDchisq|"
+msgid "Degree of freedom:"
+msgstr "Vrijheidsgraad:"
+
+msgctxt "LDchisq|"
+msgid "k"
+msgstr "k"
+
+msgctxt "LDchisq|"
+msgid "Non-centrality:"
+msgstr "Niet-centraal:"
+
+msgctxt "LDchisq|"
+msgid "λ"
+msgstr "λ"
+
+msgctxt "LDchisq|"
+msgid "Display"
+msgstr "Weergeven"
+
+msgctxt "LDchisq|"
+msgid "Explanatory text"
+msgstr "Toelichtende tekst"
+
+msgctxt "LDchisq|"
+msgid "Parameters, support, and moments"
+msgstr "Parameters, drager en momenten"
+
+msgctxt "LDchisq|"
+msgid "Formulas"
+msgstr "Formules"
+
+msgctxt "LDchisq|"
+msgid "Probability density function"
+msgstr "Kansfunctie"
+
+msgctxt "LDchisq|"
+msgid "Cumulative distribution function"
+msgstr "Cumulatieve verdelingsfunctie"
+
+msgctxt "LDchisq|"
+msgid "Quantile function"
+msgstr "Kwantielfunctie"
+
+msgctxt "LDexponential|"
+msgid "Show Distribution"
+msgstr "Toon verdeling"
+
+msgctxt "LDexponential|"
+msgid "Parameter"
+msgstr "Parameter"
+
+msgctxt "LDexponential|"
+msgid "Rate:"
+msgstr "Graad:"
+
+msgctxt "LDexponential|"
+msgid "Scale:"
+msgstr "Schaal:"
+
+msgctxt "LDexponential|"
+msgid "Display"
+msgstr "Weergeven"
+
+msgctxt "LDexponential|"
+msgid "Explanatory text"
+msgstr "Toelichtende tekst"
+
+msgctxt "LDexponential|"
+msgid "Parameters, support, and moments"
+msgstr "Parameters, drager en momenten"
+
+msgctxt "LDexponential|"
+msgid "Formulas"
+msgstr "Formules"
+
+msgctxt "LDexponential|"
+msgid "Probability density function"
+msgstr "Kansfunctie"
+
+msgctxt "LDexponential|"
+msgid "Cumulative distribution function"
+msgstr "Cumulatieve verdelingsfunctie"
+
+msgctxt "LDexponential|"
+msgid "Quantile function"
+msgstr "Kwantielfunctie"
+
+msgctxt "LDf|"
+msgid "Show Distribution"
+msgstr "Toon verdeling"
+
+msgctxt "LDf|"
+msgid "Degree of freedom:"
+msgstr "Vrijheidsgraad:"
+
+msgctxt "LDf|"
+msgid "df 1"
+msgstr "vg 1"
+
+msgctxt "LDf|"
+msgid "df 2"
+msgstr "vg 2"
+
+msgctxt "LDf|"
+msgid "Non-centrality:"
+msgstr "niet-centraal:"
+
+msgctxt "LDf|"
+msgid "ncp"
+msgstr "ncp"
+
+msgctxt "LDf|"
+msgid "Display"
+msgstr "Weergeven"
+
+msgctxt "LDf|"
+msgid "Explanatory text"
+msgstr "Toelichtende tekst"
+
+msgctxt "LDf|"
+msgid "Parameters, support, and moments"
+msgstr "Parameters, drager en momenten"
+
+msgctxt "LDf|"
+msgid "Formulas"
+msgstr "Formules"
+
+msgctxt "LDf|"
+msgid "Probability density function"
+msgstr "Kansfunctie"
+
+msgctxt "LDf|"
+msgid "Cumulative distribution function"
+msgstr "Cumulatieve verdelingsfunctie"
+
+msgctxt "LDf|"
+msgid "Quantile function"
+msgstr "Kwantielfunctie"
+
+msgctxt "LDgamma|"
+msgid "Show Distribution"
+msgstr "Toon verdeling"
+
+msgctxt "LDgamma|"
+msgid "Parameters"
+msgstr "Parameters"
+
+msgctxt "LDgamma|"
+msgid "Shape:"
+msgstr "Vorm:"
+
+msgctxt "LDgamma|"
+msgid "Scale:"
+msgstr "Schaal:"
+
+msgctxt "LDgamma|"
+msgid "Rate:"
+msgstr "Graad:"
+
+msgctxt "LDgamma|"
+msgid "Mean:"
+msgstr "Gemiddelde:"
+
+msgctxt "LDgamma|"
+msgid "Display"
+msgstr "Weergeven"
+
+msgctxt "LDgamma|"
+msgid "Explanatory text"
+msgstr "Toelichtende tekst"
+
+msgctxt "LDgamma|"
+msgid "Parameters, support, and moments"
+msgstr "Parameters, drager en momenten"
+
+msgctxt "LDgamma|"
+msgid "Formulas"
+msgstr "Formules"
+
+msgctxt "LDgamma|"
+msgid "Probability density function"
+msgstr "Kansfunctie"
+
+msgctxt "LDgamma|"
+msgid "Cumulative distribution function"
+msgstr "Cumulatieve verdelingsfunctie"
+
+msgctxt "LDgamma|"
+msgid "Quantile function"
+msgstr "Kwantielfunctie"
+
+msgctxt "LDgammaInverse|"
+msgid "Show Distribution"
+msgstr "Toon verdeling"
+
+msgctxt "LDgammaInverse|"
+msgid "Parameters"
+msgstr "Parameters"
+
+msgctxt "LDgammaInverse|"
+msgid "Shape:"
+msgstr "Vorm:"
+
+msgctxt "LDgammaInverse|"
+msgid "Scale:"
+msgstr "Schaal:"
+
+msgctxt "LDgammaInverse|"
+msgid "Rate:"
+msgstr "Graad:"
+
+msgctxt "LDgammaInverse|"
+msgid "Mean:"
+msgstr "Gemiddelde:"
+
+msgctxt "LDgammaInverse|"
+msgid "Display"
+msgstr "Weergeven"
+
+msgctxt "LDgammaInverse|"
+msgid "Explanatory text"
+msgstr "Toelichtende tekst"
+
+msgctxt "LDgammaInverse|"
+msgid "Parameters, support, and moments"
+msgstr "Parameters, drager en momenten"
+
+msgctxt "LDgammaInverse|"
+msgid "Formulas"
+msgstr "Formules"
+
+msgctxt "LDgammaInverse|"
+msgid "Probability density function"
+msgstr "Kansfunctie"
+
+msgctxt "LDgammaInverse|"
+msgid "Cumulative distribution function"
+msgstr "Cumulatieve verdelingsfunctie"
+
+msgctxt "LDgammaInverse|"
+msgid "Quantile function"
+msgstr "Kwantielfunctie"
+
+msgctxt "LDgammaInverse|"
+msgid "Assess Fit"
+msgstr "Evalueer Passing"
+
+msgctxt "LDgammaInverse|"
+msgid "Plots"
+msgstr "Grafieken"
+
+msgctxt "LDgammaInverse|"
+msgid "Histogram vs. theoretical pdf"
+msgstr "Histogram vs. theoretische pdf"
+
+msgctxt "LDgammaInverse|"
+msgid "Q-Q plot"
+msgstr "Q-Q plot"
+
+msgctxt "LDgammaInverse|"
+msgid "Empirical vs. theoretical cdf"
+msgstr "Empirische vs. theoretische cdf"
+
+msgctxt "LDgammaInverse|"
+msgid "P-P plot"
+msgstr "P-P plot"
+
+msgctxt "LDgammaInverse|"
+msgid "Statistics"
+msgstr "Statistieken"
+
+msgctxt "LDgammaInverse|"
+msgid "Kolmogorov-Smirnov"
+msgstr "Kolmogorov-Smirnov"
+
+msgctxt "LDgammaInverse|"
+msgid "Cramér–von Mises"
+msgstr "Cramér–von Mises"
+
+msgctxt "LDgammaInverse|"
+msgid "Anderson-Darling"
+msgstr "Anderson-Darling"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Show Distribution"
+msgstr "Toon verdeling"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Parameters"
+msgstr "Parameters"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Mean:"
+msgstr "Gemiddelde:"
+
+msgctxt "LDgaussianunivariate|"
+msgid "μ"
+msgstr "μ"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Variance:"
+msgstr "Variantie:"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Std. deviation:"
+msgstr "Std. afwijking:"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Precision:"
+msgstr "Nauwkeurigheid:"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Square root of precision:"
+msgstr "Kwadraat van nauwkeurigheid:"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Display"
+msgstr "Weergeven"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Explanatory text"
+msgstr "Toelichtende tekst"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Parameters, support, and moments"
+msgstr "Parameters, drager en momenten"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Formulas"
+msgstr "Formules"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Probability density function"
+msgstr "Kansfunctie"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Cumulative distribution function"
+msgstr "Cumulatieve verdelingsfunctie"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Quantile function"
+msgstr "Kwantielfunctie"
+
+msgctxt "LDlogistic|"
+msgid "Show Distribution"
+msgstr "Toon verdeling"
+
+msgctxt "LDlogistic|"
+msgid "Location:"
+msgstr "Locatie:"
+
+msgctxt "LDlogistic|"
+msgid "μ"
+msgstr "μ"
+
+msgctxt "LDlogistic|"
+msgid "Scale:"
+msgstr "Schaal:"
+
+msgctxt "LDlogistic|"
+msgid "σ"
+msgstr "σ"
+
+msgctxt "LDlogistic|"
+msgid "Display"
+msgstr "Weergeven"
+
+msgctxt "LDlogistic|"
+msgid "Explanatory text"
+msgstr "Toelichtende tekst"
+
+msgctxt "LDlogistic|"
+msgid "Parameters, support, and moments"
+msgstr "Parameters, drager, en momenten"
+
+msgctxt "LDlogistic|"
+msgid "Formulas"
+msgstr "Formules"
+
+msgctxt "LDlogistic|"
+msgid "Probability density function"
+msgstr "Kansfunctie"
+
+msgctxt "LDlogistic|"
+msgid "Cumulative distribution function"
+msgstr "Cumulatieve verdelingsfunctie"
+
+msgctxt "LDlogistic|"
+msgid "Quantile function"
+msgstr "Kwantielfunctie"
+
+msgctxt "LDlognormal|"
+msgid "Show Distribution"
+msgstr "Toon verdeling"
+
+msgctxt "LDlognormal|"
+msgid "Log Mean:"
+msgstr "Log gemiddelde:"
+
+msgctxt "LDlognormal|"
+msgid "μ"
+msgstr "μ"
+
+msgctxt "LDlognormal|"
+msgid "Log std. deviation:"
+msgstr "Log std. afwijking:"
+
+msgctxt "LDlognormal|"
+msgid "σ"
+msgstr "σ"
+
+msgctxt "LDlognormal|"
+msgid "Display"
+msgstr "Weergeven"
+
+msgctxt "LDlognormal|"
+msgid "Explanatory text"
+msgstr "Toelichtende tekst"
+
+msgctxt "LDlognormal|"
+msgid "Parameters, support, and moments"
+msgstr "Parameters, drager, en momenten"
+
+msgctxt "LDlognormal|"
+msgid "Formulas"
+msgstr "Formules"
+
+msgctxt "LDlognormal|"
+msgid "Probability density function"
+msgstr "Kansfunctie"
+
+msgctxt "LDlognormal|"
+msgid "Cumulative distribution function"
+msgstr "Cumulatieve verdelingsfunctie"
+
+msgctxt "LDlognormal|"
+msgid "Quantile function"
+msgstr "Kwantielfunctie"
+
+msgctxt "LDnegbinomial|"
+msgid "Show Distribution"
+msgstr "Toon verdeling"
+
+msgctxt "LDnegbinomial|"
+msgid "Parameters"
+msgstr "Parameters"
+
+msgctxt "LDnegbinomial|"
+msgid "Number of successes:"
+msgstr "Aantal successen:"
+
+msgctxt "LDnegbinomial|"
+msgid "Dispersion:"
+msgstr "Spreiding:"
+
+msgctxt "LDnegbinomial|"
+msgid "Probability of success:"
+msgstr "Kans op succes:"
+
+msgctxt "LDnegbinomial|"
+msgid "Mean:"
+msgstr "Gemiddelde:"
+
+msgctxt "LDnegbinomial|"
+msgid "Display"
+msgstr "Weergeven"
+
+msgctxt "LDnegbinomial|"
+msgid "Explanatory text"
+msgstr "Toelichtende tekst"
+
+msgctxt "LDnegbinomial|"
+msgid "Parameters, support, and moments"
+msgstr "Parameters, drager en momenten"
+
+msgctxt "LDnegbinomial|"
+msgid "Formulas"
+msgstr "Formules"
+
+msgctxt "LDnegbinomial|"
+msgid "Probability mass function"
+msgstr "Kansfunctie"
+
+msgctxt "LDnegbinomial|"
+msgid "Cumulative distribution function"
+msgstr "Cumulatieve verdelingsfunctie"
+
+msgctxt "LDnegbinomial|"
+msgid "Options"
+msgstr "Opties"
+
+msgctxt "LDnegbinomial|"
+msgid "Range of x from"
+msgstr "Bereik van x vanaf"
+
+msgctxt "LDnegbinomial|"
+msgid "to"
+msgstr "naar"
+
+msgctxt "LDnegbinomial|"
+msgid "Highlight"
+msgstr "Markeer"
+
+msgctxt "LDnegbinomial|"
+msgid "Mass"
+msgstr "Massa"
+
+msgctxt "LDnegbinomial|"
+msgid "Cumulative Probability"
+msgstr "Cumulatieve Kansverdeling"
+
+msgctxt "LDnegbinomial|"
+msgid "Interval"
+msgstr "Interval"
+
+msgctxt "LDnegbinomial|"
+msgid "≤ X ≤"
+msgstr "≤ X ≤"
+
+msgctxt "LDpoisson|"
+msgid "Show Distribution"
+msgstr "Toon verdeling"
+
+msgctxt "LDpoisson|"
+msgid "Parameter"
+msgstr "Parameter"
+
+msgctxt "LDpoisson|"
+msgid "Rate:"
+msgstr "Graad:"
+
+msgctxt "LDpoisson|"
+msgid "λ"
+msgstr "λ"
+
+msgctxt "LDpoisson|"
+msgid "Display"
+msgstr "Weergeven"
+
+msgctxt "LDpoisson|"
+msgid "Explanatory text"
+msgstr "Toelichtende tekst"
+
+msgctxt "LDpoisson|"
+msgid "Parameters, support, and moments"
+msgstr "Parameters, drager en momenten"
+
+msgctxt "LDpoisson|"
+msgid "Formulas"
+msgstr "Formules"
+
+msgctxt "LDpoisson|"
+msgid "Probability mass function"
+msgstr "Kansfunctie"
+
+msgctxt "LDpoisson|"
+msgid "Cumulative distribution function"
+msgstr "Cumulatieve verdelingsfunctie"
+
+msgctxt "LDpoisson|"
+msgid "Options"
+msgstr "Opties"
+
+msgctxt "LDpoisson|"
+msgid "Range of x from"
+msgstr "Bereik van x vanaf"
+
+msgctxt "LDpoisson|"
+msgid "to"
+msgstr "naar"
+
+msgctxt "LDpoisson|"
+msgid "Highlight"
+msgstr "Markeer"
+
+msgctxt "LDpoisson|"
+msgid "Mass"
+msgstr "Massa"
+
+msgctxt "LDpoisson|"
+msgid "Cumulative Probability"
+msgstr "Cumulatieve Kansverdeling"
+
+msgctxt "LDpoisson|"
+msgid "Interval"
+msgstr "Interval"
+
+msgctxt "LDpoisson|"
+msgid "≤ X ≤"
+msgstr "≤ X ≤"
+
+msgctxt "LDt|"
+msgid "Show Distribution"
+msgstr "Toon verdeling"
+
+msgctxt "LDt|"
+msgid "Parameters"
+msgstr "Parameters"
+
+msgctxt "LDt|"
+msgid "Degree of freedom:"
+msgstr "Vrijheidsgraad:"
+
+msgctxt "LDt|"
+msgid "df"
+msgstr "vg"
+
+msgctxt "LDt|"
+msgid "Non-centrality:"
+msgstr "Niet-centraal:"
+
+msgctxt "LDt|"
+msgid "ncp"
+msgstr "ncp"
+
+msgctxt "LDt|"
+msgid "Display"
+msgstr "Weergeven"
+
+msgctxt "LDt|"
+msgid "Explanatory text"
+msgstr "Toelichtende tekst"
+
+msgctxt "LDt|"
+msgid "Parameters, support, and moments"
+msgstr "Parameters, drager en momenten"
+
+msgctxt "LDt|"
+msgid "Formulas"
+msgstr "Formules"
+
+msgctxt "LDt|"
+msgid "Probability density function"
+msgstr "Kansfunctie"
+
+msgctxt "LDt|"
+msgid "Cumulative distribution function"
+msgstr "Cumulatieve verdelingsfunctie"
+
+msgctxt "LDt|"
+msgid "Quantile function"
+msgstr "Kwantielfunctie"
