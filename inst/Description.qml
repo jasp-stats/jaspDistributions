@@ -29,7 +29,7 @@ Description
 
 	Analysis
 	{
-		title:	qsTr("Generalized Normal (Version 1)")
+		title:	qsTr("Generalized normal (version 1)")
 		qml:	"LDnormalGeneralized.qml"
 		func:	"LDnormalGeneralized"
 	}
