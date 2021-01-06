@@ -436,6 +436,12 @@
   }
 
   if(isTryError(results)){
+    args <- list(x = variable, densfun = options[['pdfFun']], start = starts, lower = options[['lowerBound']], upper = options[['upperBound']])
+    args <- c(args, options[['fix.pars']])
+    results$fitdist <- try(do.call(MASS::fitdistr, args), silent = TRUE)
+  }
+
+  if(isTryError(results)){
     results$fitdist <- try(fitdistrplus::fitdist(data = variable, distr = distName, method = "mle",
                                                  start = starts, fix.arg = options$fix.pars,
                                                  keepdata = FALSE), silent = TRUE)

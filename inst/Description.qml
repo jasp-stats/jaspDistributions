@@ -57,6 +57,13 @@ Description
 
 	Analysis
 	{
+		title:	qsTr("Stretched Beta")
+		qml:	"LDbetaStretched.qml"
+		func:	"LDbetaStretched"
+	}
+
+	Analysis
+	{
 		title:	qsTr("Gamma")
 		qml:	"LDgamma.qml"
 		func:	"LDgamma"
