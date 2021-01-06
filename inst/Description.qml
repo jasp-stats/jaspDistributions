@@ -127,4 +127,11 @@ Description
 		qml:	"LDpoisson.qml"
 		func:	"LDpoisson"
 	}
+
+	Analysis
+	{
+		title:	qsTr("Hypergeometric")
+		qml:	"LDhypergeometric.qml"
+		func:	"LDhypergeometric"
+	}
 }
