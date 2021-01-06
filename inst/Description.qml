@@ -29,6 +29,13 @@ Description
 
 	Analysis
 	{
+		title:	qsTr("Generalized Normal (Version 1)")
+		qml:	"LDnormalGeneralized.qml"
+		func:	"LDnormalGeneralized"
+	}
+
+	Analysis
+	{
 	  title:	qsTr("Student's t")
 	  qml:		"LDt.qml"
 	  func:		"LDt"
