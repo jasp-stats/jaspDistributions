@@ -438,7 +438,6 @@
   if(isTryError(results)){
     args <- list(x = variable, densfun = options[['pdfFun']], start = starts, lower = options[['lowerBound']], upper = options[['upperBound']])
     args <- c(args, options[['fix.pars']])
-    save(args, file = "~/Downloads/args.Rdata")
     results$fitdist <- try(do.call(MASS::fitdistr, args), silent = TRUE)
   }
 
