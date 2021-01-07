@@ -15,15 +15,15 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDnormalGeneralized <- function(jaspResults, dataset, options, state=NULL){
-  options <- .recodeOptionsLDNormalGeneralized(options)
+LDlaplace <- function(jaspResults, dataset, options, state=NULL){
+  options <- .recodeOptionsLDLaplace(options)
 
   #### Show distribution section ----
-  .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("generalized normal distribution"),
-                      parSupportMoments = .ldNormalGeneralizedParsSupportMoments,
-                      formulaPDF        = .ldFormulaNormalGeneralizedPDF,
-                      formulaCDF        = .ldFormulaNormalGeneralizedCDF,
-                      formulaQF         = .ldFormulaNormalGeneralizedQF)
+  .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("Laplace distribution"),
+                      parSupportMoments = .ldLaplaceParsSupportMoments,
+                      formulaPDF        = .ldFormulaLaplacePDF,
+                      formulaCDF        = .ldFormulaLaplaceCDF,
+                      formulaQF         = .ldFormulaLaplaceQF)
 
   #### Generate and Display data section ----
   # simulate and read data
@@ -46,71 +46,70 @@ LDnormalGeneralized <- function(jaspResults, dataset, options, state=NULL){
   .ldDescriptives(jaspResults, variable, options, ready, errors, "continuous")
 
   #### Fit data and assess fit ----
-  .ldMLE(jaspResults, variable, options, ready, errors, .ldFillNormalGeneralizedEstimatesTable)
+  .ldMLE(jaspResults, variable, options, ready, errors, .ldFillLaplaceEstimatesTable)
 
   return()
 }
 
 ### options ----
-.recodeOptionsLDNormalGeneralized <- function(options){
-  options[['parValNames']] <- c("mu", "alpha", "beta")
+.recodeOptionsLDLaplace <- function(options){
+  options[['parValNames']] <- c("mu", "beta")
 
-  options[['pars']]   <- list(mu = options[['mu']], alpha = options[['alpha']], beta = options[['beta']])
-  options[['pdfFun']] <- gnorm::dgnorm
-  options[['cdfFun']] <- gnorm::pgnorm
-  options[['qFun']]   <- gnorm::qgnorm
-  options[['rFun']]   <- gnorm::rgnorm
+  options[['pars']]   <- list(mu = options[['mu']], beta = options[['beta']])
+  options[['pdfFun']] <- function(x, mu, beta, ...) gnorm::dgnorm(x = x, mu = mu, alpha = beta, beta = 1, ...)
+  options[['cdfFun']] <- function(q, mu, beta, ...) gnorm::pgnorm(q = q, mu = mu, alpha = beta, beta = 1, ...)
+  options[['qFun']]   <- function(p, mu, beta, ...) gnorm::qgnorm(p = p, mu = mu, alpha = beta, beta = 1, ...)
+  options[['rFun']]   <- function(n, mu, beta, ...) gnorm::rgnorm(n = n, mu = mu, alpha = beta, beta = 1, ...)
   options[['distNameInR']] <- "gnorm"
 
   options <- .ldOptionsDeterminePlotLimits(options)
 
   options$support <- list(min = -Inf, max = Inf)
-  options$lowerBound <- c(-Inf, 0, 0)
-  options$upperBound <- c(Inf, Inf, Inf)
+  options$lowerBound <- c(-Inf,   0)
+  options$upperBound <- c( Inf, Inf)
 
-  options$transformations <- c(mu = "mu", alpha = "alpha", beta = "beta")
+  options$transformations <- c(mu = "mu", beta = "beta")
 
   options
 }
 
 ### text fill functions -----
-.ldNormalGeneralizedParsSupportMoments <- function(jaspResults, options){
+.ldLaplaceParsSupportMoments <- function(jaspResults, options){
   if(options$parsSupportMoments && is.null(jaspResults[['parsSupportMoments']])){
     pars <- list()
     pars[[1]] <- gettextf("location: &mu; %s","\u2208 \u211D")
-    pars[[2]] <- gettextf("scale: %s", "&alpha; \u2208 \u211D<sup>+</sup>")
-    pars[[3]] <- gettextf("shape: %s", "&beta; \u2208 \u211D<sup>+</sup>")
+    pars[[2]] <- gettextf("scale: %s", "&beta; \u2208 \u211D<sup>+</sup>")
 
     support <- "x \u2208 \u211D"
 
     moments <- list()
     moments$expectation <- "&mu;"
-    moments$variance <- gettext("see Wikipedia - https://en.wikipedia.org/wiki/Generalized_normal_distribution#Moments")
+    moments$variance <- "2&beta;<sup>2</sup>"
 
     jaspResults[['parsSupportMoments']] <- .ldParsSupportMoments(pars, support, moments)
   }
 }
 
-.ldFormulaNormalGeneralizedPDF <- function(options){
+.ldFormulaLaplacePDF <- function(options){
 
 }
 
-.ldFormulaNormalGeneralizedCDF <- function(options){
+.ldFormulaLaplaceCDF <- function(options){
 
 }
 
-.ldFormulaNormalGeneralizedQF <- function(options){
+.ldFormulaLaplaceQF <- function(options){
 
 }
 
 #### Table functions ----
 
-.ldFillNormalGeneralizedEstimatesTable <- function(table, results, options, ready){
+.ldFillLaplaceEstimatesTable <- function(table, results, options, ready){
   if(!ready) return()
   if(is.null(results)) return()
   if(is.null(table)) return()
 
-  pars <- c(mu = "\u03BC", alpha = "\u03B1", beta = "\u03B2")
+  pars <- c(mu = "\u03BC", beta = "\u03B2")
   res <- results$structured
   res <- res[res$par %in% names(pars),]
   res$parName <- pars

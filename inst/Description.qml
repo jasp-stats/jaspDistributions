@@ -103,6 +103,14 @@ Description
 		qml:	"LDexponential.qml"
 		func:	"LDexponential"
 	}
+
+	Analysis
+	{
+		title:	qsTr("Laplace")
+		qml:	"LDlaplace.qml"
+		func:	"LDlaplace"
+	}
+
 	Analysis
 	{
 		title:	qsTr("Log-normal")
