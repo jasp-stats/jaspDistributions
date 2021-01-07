@@ -29,6 +29,13 @@ Description
 
 	Analysis
 	{
+		title:	qsTr("Skew normal")
+		qml:	"LDnormalSkew.qml"
+		func:	"LDnormalSkew"
+	}
+
+	Analysis
+	{
 		title:	qsTr("Generalized normal (version 1)")
 		qml:	"LDnormalGeneralized.qml"
 		func:	"LDnormalGeneralized"
