@@ -18,7 +18,9 @@ Imports:
   invgamma,
   jaspBase,
   jaspGraphs,
-  MASS
+  MASS,
+  sgt,
+  sn
 Remotes:
   jasp-stats/jaspBase,
   jasp-stats/jaspGraphs

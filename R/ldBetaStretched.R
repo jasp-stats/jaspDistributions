@@ -16,14 +16,14 @@
 #
 
 LDbetaStretched <- function(jaspResults, dataset, options, state=NULL){
-  options <- .ldRecodeOptionsBeta(options)
+  options <- .ldRecodeOptionsBetaStretched(options)
 
   #### Show beta section ----
   .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("beta distribution"),
-                      parSupportMoments = .ldBetaParsSupportMoments,
-                      formulaPDF        = .ldFormulaBetaPDF,
-                      formulaCDF        = .ldFormulaBetaCDF,
-                      formulaQF         = .ldFormulaBetaQF)
+                      parSupportMoments = .ldBetaStretchedParsSupportMoments,
+                      formulaPDF        = .ldFormulaBetaStretchedPDF,
+                      formulaCDF        = .ldFormulaBetaStretchedCDF,
+                      formulaQF         = .ldFormulaBetaStretchedQF)
 
   #### Generate and Display data section ----
   # simulate and read data
@@ -52,7 +52,7 @@ LDbetaStretched <- function(jaspResults, dataset, options, state=NULL){
 }
 
 ### options ----
-.ldRecodeOptionsBeta <- function(options){
+.ldRecodeOptionsBetaStretched <- function(options){
   options[['parValNames']] <- c("alpha", "beta", "lowerBoundPar", "upperBoundPar")
 
   options[['pars']]   <- list(shape1 = options[['alpha']], shape2 = options[['beta']],
@@ -78,7 +78,7 @@ LDbetaStretched <- function(jaspResults, dataset, options, state=NULL){
 
 ### text fill functions -----
 
-.ldBetaParsSupportMoments <- function(jaspResults, options){
+.ldBetaStretchedParsSupportMoments <- function(jaspResults, options){
   if(options$parsSupportMoments && is.null(jaspResults[['parsSupportMoments']])){
     pars <- list()
     pars[[1]] <- gettextf("shape: %s", "&alpha; \u2208 \u211D<sup>+</sup>")
@@ -96,7 +96,7 @@ LDbetaStretched <- function(jaspResults, dataset, options, state=NULL){
   }
 }
 
-.ldFormulaBetaPDF <- function(options){
+.ldFormulaBetaStretchedPDF <- function(options){
   text <- "<MATH>
   f(x; <span style='color:red'>&alpha;</span>, <span style='color:blue'>&beta;</span>) =
   </MATH>"
@@ -104,7 +104,7 @@ LDbetaStretched <- function(jaspResults, dataset, options, state=NULL){
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
-.ldFormulaBetaCDF <- function(options){
+.ldFormulaBetaStretchedCDF <- function(options){
   text <- "<MATH>
   F(x; <span style='color:red'>&alpha;</span>, <span style='color:blue'>&beta;</span>) =
   </MATH>"
@@ -112,7 +112,7 @@ LDbetaStretched <- function(jaspResults, dataset, options, state=NULL){
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
-.ldFormulaBetaQF <- function(options){
+.ldFormulaBetaStretchedQF <- function(options){
   text <- "<MATH>
   Q(p; <span style='color:red'>&alpha;</span>, <span style='color:blue'>&beta;</span>) =
   </MATH>"
@@ -122,7 +122,7 @@ LDbetaStretched <- function(jaspResults, dataset, options, state=NULL){
 
 #### Table functions ----
 
-.ldFillBetaEstimatesTable <- function(table, results, options, ready){
+.ldFillBetaStrtetchedEstimatesTable <- function(table, results, options, ready){
   if(!ready) return()
   if(is.null(results)) return()
   if(is.null(table)) return()
