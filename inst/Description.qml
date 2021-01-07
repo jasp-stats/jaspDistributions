@@ -43,6 +43,13 @@ Description
 
 	Analysis
 	{
+	  title:	qsTr("Skewed generalized t")
+	  qml:		"LDtSkewedGeneralized.qml"
+	  func:		"LDtSkewedGeneralized"
+	}
+
+	Analysis
+	{
 	  title:	qsTr("F-distribution")
 	  qml:		"LDf.qml"
 	  func:		"LDf"

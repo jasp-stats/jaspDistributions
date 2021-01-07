@@ -17,4 +17,4 @@ export(LDpoisson)
 export(LDweibull)
 export(LDhypergeometric)
 export(LDnormalGeneralized)
-
+export(LDtSkewedGeneralized)

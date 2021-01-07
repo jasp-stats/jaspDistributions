@@ -46,7 +46,7 @@ LDbetaStretched <- function(jaspResults, dataset, options, state=NULL){
   .ldDescriptives(jaspResults, variable, options, ready, errors, "continuous")
 
   #### Fit data and assess fit ----
-  .ldMLE(jaspResults, variable, options, ready, errors, .ldFillBetaEstimatesTable)
+  .ldMLE(jaspResults, variable, options, ready, errors, .ldFillBetaStretchedEstimatesTable)
 
   return()
 }
