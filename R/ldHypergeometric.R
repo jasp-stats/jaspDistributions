@@ -27,6 +27,23 @@ LDhypergeometric <- function(jaspResults, dataset, options, state=NULL){
   #### Generate and Display data section ----
   # simulate and read data
   .simulateData(jaspResults, options, "ordinal", "nn")
+
+  ready <- options[['variable']] != ""
+  errors <- FALSE
+  if(ready && is.null(dataset)){
+    dataset <- .readDataSetToEnd(columns.as.numeric = options[['variable']])
+
+    variable <- dataset[[.v(options[['variable']])]]
+    variable <- variable[!is.na(variable)]
+    errors <- .hasErrors(dataset, type = c("observations", "variance", "infinity", "limits"),
+                         observations.amount = "<1",
+                         limits.min = options$support$min, limits.max = options$support$max,
+                         exitAnalysisIfErrors = FALSE)
+    errors <- .ldCheckInteger(variable, errors)
+  }
+
+  # overview of the data
+  .ldDescriptives(jaspResults, variable, options, ready, errors, "discrete")
   return()
 }
 
@@ -72,42 +89,10 @@ LDhypergeometric <- function(jaspResults, dataset, options, state=NULL){
 }
 
 .ldFormulaHypergeometricPMF <- function(options){
-  if(options$parametrization == "prob"){
-    text <- "<MATH>
-    f(x; <span style='color:red'>\u03D5</span>, <span style='color:blue'>p</span>) =
-    </MATH>"
-  } else{
-    text <- "<MATH>
-    f(x; <span style='color:red'>\u03D5</span>, <span style='color:blue'>\u03BC</span>) =
-    </MATH>"
-  }
-
-  return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
 .ldFormulaHypergeometricCDF <- function(options){
-  if(options$parametrization == "prob"){
-    text <- "<MATH>
-    F(x; <span style='color:red'>\u03D5</span>, <span style='color:blue'>p</span>) =
-    </MATH>"
-  } else{
-    text <- "<MATH>
-    F(x; <span style='color:red'>\u03D5</span>, <span style='color:blue'>\u03BC</span>) =
-    </MATH>"
-  }
-
-  return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
 .ldFormulaHypergeometricQF <- function(options){
-  if(options$parametrization == "prob"){
-    text <- "<MATH>
-    Q(p; <span style='color:red'>\u03D5</span>, <span style='color:blue'>p</span>) =
-    </MATH>"
-  } else{
-    text <- "<MATH>
-    Q(p; <span style='color:red'>\u03D5</span>, <span style='color:blue'>\u03BC</span>) =
-    </MATH>"
-  }
-  return(gsub(pattern = "\n", replacement = " ", x = text))
 }
