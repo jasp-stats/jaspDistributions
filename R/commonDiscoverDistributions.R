@@ -454,7 +454,7 @@
     return()
   }
 
-  if(is.na(results$fitdist$vcov)){
+  if(is.null(results$fitdist$vcov)){
     mleContainer$setError(.ldAllTextsList()$feedback$vcovNA)
     #mleContainer[['estParametersTable']]$addFootnote(.ldAllTextsList()$feedback$vcovNA)
     results$fitdist$vcov <- diag(length(results$fitdist$estimate))

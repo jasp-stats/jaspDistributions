@@ -153,6 +153,13 @@ Description
 		func:	"LDweibull"
 	}
 
+	Analysis
+	{
+		title:	qsTr("Triangular")
+		qml:	"LDtriangular.qml"
+		func:	"LDtriangular"
+	}
+
 	GroupTitle
 	{
 		title: 	qsTr("Discrete")
