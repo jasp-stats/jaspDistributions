@@ -117,6 +117,7 @@ Description
 		qml:	"LDlognormal.qml"
 		func:	"LDlognormal"
 	}
+
 	Analysis
 	{
 		title:	qsTr("Logistic")
@@ -130,6 +131,7 @@ Description
 		qml:	"LDamoroso.qml"
 		func:	"LDamoroso"
 	}
+
 	Analysis
 	{
 		title:	qsTr("Weibull")
@@ -169,6 +171,13 @@ Description
 		title:	qsTr("Poisson")
 		qml:	"LDpoisson.qml"
 		func:	"LDpoisson"
+	}
+
+	Analysis
+	{
+		title:	qsTr("Geometric")
+		qml:	"LDgeometric.qml"
+		func:	"LDgeometric"
 	}
 
 	Analysis
