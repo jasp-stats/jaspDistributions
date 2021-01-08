@@ -43,6 +43,13 @@ Description
 
 	Analysis
 	{
+		title:	qsTr("Cauchy")
+		qml:	"LDcauchy.qml"
+		func:	"LDcauchy"
+	}
+
+	Analysis
+	{
 	  title:	qsTr("Student's t")
 	  qml:		"LDt.qml"
 	  func:		"LDt"
