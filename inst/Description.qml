@@ -123,6 +123,13 @@ Description
 		qml:	"LDlogistic.qml"
 		func:	"LDlogistic"
 	}
+
+	Analysis
+	{
+		title:	qsTr("Amoroso")
+		qml:	"LDamoroso.qml"
+		func:	"LDamoroso"
+	}
 	Analysis
 	{
 		title:	qsTr("Weibull")
