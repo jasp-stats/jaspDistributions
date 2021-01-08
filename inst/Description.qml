@@ -57,6 +57,13 @@ Description
 
 	Analysis
 	{
+	  title:	qsTr("Skew t")
+	  qml:		"LDtSkew.qml"
+	  func:		"LDtSkew"
+	}
+
+	Analysis
+	{
 	  title:	qsTr("Skewed generalized t")
 	  qml:		"LDtSkewedGeneralized.qml"
 	  func:		"LDtSkewedGeneralized"
