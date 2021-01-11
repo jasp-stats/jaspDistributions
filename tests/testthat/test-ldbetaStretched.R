@@ -28,7 +28,7 @@ options$ppplot <- TRUE
 options$qqplot <- TRUE
 set.seed(1)
 
-results <- jaspTools::runAnalysis("LDbetaStretched", #"Distributions.csv",
+results <- jaspTools::runAnalysis("LDbetaStretched",
                                   data.frame(StretchedBeta = rbeta(100, 2, 3) * 2 - 1),
                                   options)
 
@@ -47,24 +47,24 @@ test_that("Histogram plot matches", {
 test_that("Observed Moments table results match", {
   table <- results[["results"]][["dataContainer"]][["collection"]][["dataContainer_moments"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                                 list(-0.149612694816551, 1, -0.149612694816551, 0.145237008250419,
-                                      2, 0.16762096670069))
+                                 list(-0.161562045072948, 1, -0.161562045072948, 0.144862564866564,
+                                      2, 0.170964859274717))
 })
 
 test_that("Descriptives table results match", {
   table <- results[["results"]][["dataContainer"]][["collection"]][["dataContainer_summary"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                                 list(0.704601736172115, -0.149612694816551, -0.178488772370614, -0.977916687903688,
-                                      -0.405777755322368, 0.109953461032888, 100, 0.383019645367959,
-                                      0.146704048737797, "StretchedBeta"))
+                                 list(0.690942049509168, -0.161562045072948, -0.192681720437641, -0.923182681929578,
+                                      -0.469059456927801, 0.11199928838096, 100, 0.382525584892749,
+                                      0.14632582309754, "StretchedBeta"))
 })
 
 test_that("Estimated Parameters table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_estParametersTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                                 list(2.35316427479122, 1.73409449561993, "<unicode>", 0.315857732108571,
-                                      2.97223405396252, 3.213371377253, 2.34407128935795, "<unicode>",
-                                      0.443528602949837, 4.08267146514805))
+                                 list(2.38018910197988, 1.75395599858581, "<unicode>", 0.319512556523346,
+                                      3.00642220537396, 3.31726616499632, 2.41866203022626, "<unicode>",
+                                      0.458479922007816, 4.21587029976637))
 })
 
 test_that("Empirical vs. Theoretical CDF plot matches", {
@@ -82,9 +82,9 @@ test_that("Histogram vs. Theoretical PDF plot matches", {
 test_that("Fit Statistics table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_mleFitAssessment"]][["collection"]][["mleContainer_mleFitAssessment_fitStatisticsTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                                 list(0.994348521185481, 0.0421022261786747, "Kolmogorov-Smirnov", 0.996509245896956,
-                                      0.0206575373475204, "Cram<unicode>r-von Mises", 0.997392925158084,
-                                      0.163192574683293, "Anderson-Darling"))
+                                 list(0.99697039547605, 0.0402127742565355, "Kolmogorov-Smirnov", 0.996697873787889,
+                                      0.0204716893482006, "Cram<unicode>r-von Mises", 0.999198252966302,
+                                      0.140159356868608, "Anderson-Darling"))
 })
 
 test_that("P-P plot matches", {
