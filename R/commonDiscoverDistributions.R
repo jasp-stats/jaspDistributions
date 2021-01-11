@@ -858,7 +858,7 @@
 
     # round value under the curve for plotting
     cdfValueRound <- round(cdfValue, 2)
-    if(c(0, 1) %in% cdfValueRound){
+    if(cdfValueRound %in% c(0, 1)){
       cdfValueRound <- round(cdfValue, 3)
     }
 
@@ -1447,7 +1447,7 @@
   formulas$dependOn(c("parsSupportMoments", "parametrization"))
   formulas$position <- 2
 
-  if(!is.na(moments)){
+  if(all(!is.na(moments))){
     text <- gettextf(
       "<b>Parameters</b>
       %s
