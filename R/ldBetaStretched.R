@@ -122,7 +122,7 @@ LDbetaStretched <- function(jaspResults, dataset, options, state=NULL){
 
 #### Table functions ----
 
-.ldFillBetaStrtetchedEstimatesTable <- function(table, results, options, ready){
+.ldFillBetaStretchedEstimatesTable <- function(table, results, options, ready){
   if(!ready) return()
   if(is.null(results)) return()
   if(is.null(table)) return()
