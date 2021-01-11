@@ -129,8 +129,6 @@ LDtriangular <- function(jaspResults, dataset, options, state=NULL){
 dtriangular <- function(x, a, lb, lc, log = FALSE) {
   c <- a + exp(lc)
   b <- c + exp(lb)
-  # parametersAreValid <- a < c && c < b
-  # if(!parametersAreValid) return(rep(NA, length(x)))
 
   out <- sapply(x, function(xx) {
     if(xx < a || xx > b) {
@@ -152,8 +150,6 @@ dtriangular <- function(x, a, lb, lc, log = FALSE) {
 ptriangular <- function(q, a, lb, lc, lower.tail = TRUE, log.p = FALSE) {
   c <- a + exp(lc)
   b <- c + exp(lb)
-  # parametersAreValid <- a < c && c < b
-  # if(!parametersAreValid) return(rep(NA, length(x)))
 
   out <- sapply(q, function(qq) {
     if(qq < a) {
@@ -174,9 +170,6 @@ ptriangular <- function(q, a, lb, lc, lower.tail = TRUE, log.p = FALSE) {
 }
 
 qtriangular <- function(p, a, lb, lc, lower.tail = TRUE, log.p = FALSE) {
-  # parametersAreValid <- a < c && c < b
-  # if(!parametersAreValid) return(rep(NA, length(x)))
-
   if(log.p) p <- exp(p)
   if(!lower.tail) p <- 1-p
 
@@ -205,9 +198,6 @@ qtriangular <- function(p, a, lb, lc, lower.tail = TRUE, log.p = FALSE) {
 }
 
 rtriangular <- function(n, a, lb, lc) {
-  # parametersAreValid <- a < c && c < b
-  # if(!parametersAreValid) return(rep(NA, length(x)))
-
   p <- runif(n, 0, 1)
   q <- qtriangular(p, a, lb, lc)
 

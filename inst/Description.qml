@@ -92,7 +92,7 @@ Description
 
 	Analysis
 	{
-		title:	qsTr("Stretched Beta")
+		title:	qsTr("Stretched beta")
 		qml:	"LDbetaStretched.qml"
 		func:	"LDbetaStretched"
 	}
