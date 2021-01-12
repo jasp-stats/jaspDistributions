@@ -43,7 +43,7 @@ Form
 			DoubleField{ name: "alpha"; label: qsTr("α"); id: alpha; negativeValues: true }
 
 			Text { text: qsTr("Degree of freedom:") }
-			DoubleField{ name: "df"; label: qsTr("df"); id: df; negativeValues: true }
+			DoubleField{ name: "df"; label: qsTr("df"); id: df; negativeValues: true; defaultValue: 1 }
 
 		}
 
