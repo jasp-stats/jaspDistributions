@@ -24,8 +24,8 @@ options$qqplot <- TRUE
 options$variable <- "amoroso"
 set.seed(1)
 results <- jaspTools::runAnalysis("LDamoroso",
-                                  data.frame(amoroso = ramoroso(n = 100, a = options[["a"]], theta = options[["theta"]], alpha = options[["alpha"]], beta = options[["beta"]])),
-                                  options, makeTests = FALSE)
+                                  data.frame(amoroso = jaspDistributions:::ramoroso(n = 100, a = options[["a"]], theta = options[["theta"]], alpha = options[["alpha"]], beta = options[["beta"]])),
+                                  options)
 
 test_that("Descriptives table results match", {
   table <- results[["results"]][["dataContainer"]][["collection"]][["dataContainer_summary"]][["data"]]
