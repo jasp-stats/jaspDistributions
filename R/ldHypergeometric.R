@@ -17,7 +17,6 @@
 
 LDhypergeometric <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsHypergeometric(options)
-
   #### Show hypergeometric section ----
   .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("hypergeometric distribution"),
                       parSupportMoments = .ldHypergeometricParsSupportMoments,
