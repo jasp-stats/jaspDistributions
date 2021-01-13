@@ -441,6 +441,12 @@
     results$fitdist <- try(do.call(MASS::fitdistr, args), silent = TRUE)
   }
 
+  if(isTryError(results)) {
+    results$fitdist <- try(.ldMLEoptim(x = variable, densFun = options[['pdfFun']], start = starts,
+                                       lower = options[['lowerBound']], upper = options[['upperBound']],
+                                       fixPars = options[['fix.pars']]), silent = TRUE)
+  }
+
   if(isTryError(results)){
     results$fitdist <- try(fitdistrplus::fitdist(data = variable, distr = distName, method = "mle",
                                                  start = starts, fix.arg = options$fix.pars,
@@ -469,6 +475,22 @@
   mleContainer[['mleResults']] <- createJaspState(object = results, dependencies = c(options$parValNames, "ciIntervalInterval", "parametrization"))
 
   return(results)
+}
+
+.ldMLEoptim <- function(x, densFun, start, lower, upper, fixPars) {
+
+  .ldMinusLogLikelihood <- function(pars, data) {
+    args <- c(as.list(pars), as.list(fixPars), list(x = as.vector(data), log = TRUE))
+    logliks <- do.call(densFun, args)
+
+    return(-sum(logliks))
+  }
+
+  optimResults <- optim(par = start, fn = .ldMinusLogLikelihood, method = "L-BFGS-B",
+                        lower = lower, upper = upper, hessian = TRUE, data = x)
+  optimResults$vcov <- solve(optimResults[["hessian"]])
+
+  return(optimResults)
 }
 
 .ldStructureResults <- function(fit, options, include.se){

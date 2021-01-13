@@ -46,6 +46,10 @@ LDtriangular <- function(jaspResults, dataset, options, state=NULL){
   .ldDescriptives(jaspResults, variable, options, ready, errors, "continuous")
 
   #### Fit data and assess fit ----
+  if(ready && isFALSE(errors)) {
+    options$lowerBound <- c(-Inf,          max(variable), min(variable))
+    options$upperBound <- c(min(variable), Inf,           max(variable))
+  }
   .ldMLE(jaspResults, variable, options, ready, errors, .ldFillTriangularEstimatesTable)
 
   return()
@@ -54,9 +58,7 @@ LDtriangular <- function(jaspResults, dataset, options, state=NULL){
 .recodeOptionsLDTriangular <- function(options){
   options[['parValNames']] <- c("a", "b", "c")
 
-  lb <- log(options[['b']] - options[['c']])
-  lc <- log(options[['c']] - options[['a']])
-  options[['pars']]   <- list(a  = options[['a']], lb = lb, lc = lc)
+  options[['pars']]   <- list(a  = options[['a']], b = options[['b']], c = options[['c']])
   options[['pdfFun']] <- dtriangular
   options[['cdfFun']] <- ptriangular
   options[['qFun']]   <- qtriangular
@@ -69,7 +71,7 @@ LDtriangular <- function(jaspResults, dataset, options, state=NULL){
   options$lowerBound <- c(-Inf, -Inf, -Inf)
   options$upperBound <- c( Inf,  Inf,  Inf)
 
-  options$transformations <- c(a = "a", b = "a + exp(lb) + exp(lc)", c = "a + exp(lc)")
+  options$transformations <- c(a = "a", b = "b", c = "c")
 
   options
 }
@@ -126,13 +128,12 @@ LDtriangular <- function(jaspResults, dataset, options, state=NULL){
 
 #### distribution functions ----
 
-dtriangular <- function(x, a, lb, lc, log = FALSE) {
-  c <- a + exp(lc)
-  b <- c + exp(lb)
-
+dtriangular <- function(x, a, b, c, log = FALSE) {
   out <- sapply(x, function(xx) {
     if(xx < a || xx > b) {
       return(0)
+    } else if(xx == a || xx == b) {
+      return(.Machine$double.xmin)
     } else if(xx < c) {
       return(2*(xx-a) / ((b-a)*(c-a)))
     } else if(xx == c) {
@@ -147,10 +148,7 @@ dtriangular <- function(x, a, lb, lc, log = FALSE) {
   return(out)
 }
 
-ptriangular <- function(q, a, lb, lc, lower.tail = TRUE, log.p = FALSE) {
-  c <- a + exp(lc)
-  b <- c + exp(lb)
-
+ptriangular <- function(q, a, b, c, lower.tail = TRUE, log.p = FALSE) {
   out <- sapply(q, function(qq) {
     if(qq < a) {
       return(0)
@@ -169,19 +167,19 @@ ptriangular <- function(q, a, lb, lc, lower.tail = TRUE, log.p = FALSE) {
   return(out)
 }
 
-qtriangular <- function(p, a, lb, lc, lower.tail = TRUE, log.p = FALSE) {
+qtriangular <- function(p, a, b, c, lower.tail = TRUE, log.p = FALSE) {
   if(log.p) p <- exp(p)
   if(!lower.tail) p <- 1-p
 
   n <- length(p)
-  q <- sapply(seq_len(n), function(i) {.getQuantileTriangular(p[i], a, lb, lc) })
+  q <- sapply(seq_len(n), function(i) {.getQuantileTriangular(p[i], a, b, c) })
 
   return(q)
 }
 
-.getQuantileTriangular <- function(p, a, lb, lc) {
-  o <- try(optim(par = a + exp(lc), fn = .pErrorTriangular, lower = a, upper = a + exp(lb) + exp(lc), method = "L-BFGS-B",
-                 p = p, pars = list(a = a, lb = lb, lc = lc)), silent = TRUE)
+.getQuantileTriangular <- function(p, a, b, c) {
+  o <- try(optim(par = c, fn = .pErrorTriangular, lower = a, upper = b, method = "L-BFGS-B",
+                 p = p, pars = list(a = a, b = b, c = c)), silent = TRUE)
 
   if(inherits(o, "try-error")) {
     return(NA)
@@ -197,9 +195,9 @@ qtriangular <- function(p, a, lb, lc, lower.tail = TRUE, log.p = FALSE) {
   return((pp-p)^2)
 }
 
-rtriangular <- function(n, a, lb, lc) {
+rtriangular <- function(n, a, b, c) {
   p <- runif(n, 0, 1)
-  q <- qtriangular(p, a, lb, lc)
+  q <- qtriangular(p, a, b, c)
 
   return(q)
 }
