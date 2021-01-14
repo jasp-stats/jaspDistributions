@@ -182,6 +182,13 @@ Description
 
 	Analysis
 	{
+		title:	qsTr("Beta-binomial")
+		qml:	"LDbetaBinomial.qml"
+		func:	"LDbetaBinomial"
+	}
+
+	Analysis
+	{
 		title:	qsTr("Negative binomial")
 		qml:	"LDnegbinomial.qml"
 		func:	"LDnegbinomial"
