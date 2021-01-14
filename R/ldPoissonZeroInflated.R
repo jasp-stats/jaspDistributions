@@ -138,7 +138,7 @@ LDpoissonZeroInflated <- function(jaspResults, dataset, options, state=NULL){
   return()
 }
 
-
+#### distribution functions ----
 dzipois <- function(x, prob, lambda, log = FALSE) {
   out <- (1-prob) * dpois(x, lambda, log = FALSE)
   out[x == 0] <- out[x == 0] + prob
@@ -165,7 +165,7 @@ qzipois <- function(p, prob, lambda, lower.tail = TRUE, log.p = FALSE) {
     q <- 0
     cdf <- 0
     while(cdf < p) {
-      cdf <- cdf + pzipois(q, prob, lambda)
+      cdf <- cdf + dzipois(q, prob, lambda)
       q <- q + 1
     }
     return(q)
