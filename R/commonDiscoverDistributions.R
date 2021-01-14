@@ -377,7 +377,7 @@
 
 ### Fit distributions ----
 ### MLE stuff ----
-.ldMLE <- function(jaspResults, variable, options, ready, errors, fillTable, ...){
+.ldMLE <- function(jaspResults, variable, options, ready, errors, fillTable, analyticEstimates = NULL, ...){
   ready <- ready && isFALSE(errors)
   # override MLE option if any assess fit method is requested
   options[["methodMLE"]] <- options[["methodMLE"]] || .ldAnyAssessFitRequested(options)
@@ -387,8 +387,13 @@
   mleContainer <- .ldGetFitContainer(jaspResults, options, "mleContainer", gettext("Maximum likelihood"), 7, errors)
 
   # parameter estimates
-  mleEstimatesTable  <- .ldEstimatesTable(mleContainer, options, TRUE, TRUE, "methodMLE")
-  mleResults   <- .ldMLEResults(mleContainer, variable, options, ready, options$distNameInR)
+  if(is.null(analyticEstimates)) {
+    mleResults   <- .ldMLEResults(mleContainer, variable, options, ready, options$distNameInR)
+    mleEstimatesTable  <- .ldEstimatesTable(mleContainer, options, TRUE, TRUE, "methodMLE")
+  } else {
+    mleResults <- analyticEstimates
+    mleEstimatesTable  <- .ldEstimatesTable(mleContainer, options, mleResults$ci.possible, mleResults$se.possible, "methodAnalyticMLE")
+  }
   fillTable(mleEstimatesTable, mleResults, options, ready, ...)
 
   # fit assessment

@@ -141,6 +141,13 @@ Description
 
 	Analysis
 	{
+		title:	qsTr("Pareto")
+		qml:	"LDpareto.qml"
+		func:	"LDpareto"
+	}
+
+	Analysis
+	{
 		title:	qsTr("Amoroso")
 		qml:	"LDamoroso.qml"
 		func:	"LDamoroso"
@@ -148,16 +155,16 @@ Description
 
 	Analysis
 	{
-		title:	qsTr("Weibull")
-		qml:	"LDweibull.qml"
-		func:	"LDweibull"
+		title:	qsTr("Triangular")
+		qml:	"LDtriangular.qml"
+		func:	"LDtriangular"
 	}
 
 	Analysis
 	{
-		title:	qsTr("Triangular")
-		qml:	"LDtriangular.qml"
-		func:	"LDtriangular"
+		title:	qsTr("Weibull")
+		qml:	"LDweibull.qml"
+		func:	"LDweibull"
 	}
 
 	GroupTitle
