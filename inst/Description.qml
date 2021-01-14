@@ -162,6 +162,13 @@ Description
 
 	Analysis
 	{
+		title:	qsTr("Wald (inverse Gaussian)")
+		qml:	"LDwald.qml"
+		func:	"LDwald"
+	}
+
+	Analysis
+	{
 		title:	qsTr("Weibull")
 		qml:	"LDweibull.qml"
 		func:	"LDweibull"
