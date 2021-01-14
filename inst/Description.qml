@@ -203,6 +203,13 @@ Description
 
 	Analysis
 	{
+		title:	qsTr("Zero-inflated Poisson")
+		qml:	"LDpoissonZeroInflated.qml"
+		func:	"LDpoissonZeroInflated"
+	}
+
+	Analysis
+	{
 		title:	qsTr("Geometric")
 		qml:	"LDgeometric.qml"
 		func:	"LDgeometric"
