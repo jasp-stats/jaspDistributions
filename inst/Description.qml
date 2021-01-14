@@ -189,13 +189,6 @@ Description
 
 	Analysis
 	{
-		title:	qsTr("Negative binomial")
-		qml:	"LDnegbinomial.qml"
-		func:	"LDnegbinomial"
-	}
-
-	Analysis
-	{
 		title:	qsTr("Poisson")
 		qml:	"LDpoisson.qml"
 		func:	"LDpoisson"
@@ -203,9 +196,23 @@ Description
 
 	Analysis
 	{
+		title:	qsTr("Negative binomial")
+		qml:	"LDnegbinomial.qml"
+		func:	"LDnegbinomial"
+	}
+
+	Analysis
+	{
 		title:	qsTr("Zero-inflated Poisson")
 		qml:	"LDpoissonZeroInflated.qml"
 		func:	"LDpoissonZeroInflated"
+	}
+
+	Analysis
+	{
+		title:	qsTr("Zero-inflated negative binomial")
+		qml:	"LDnegbinomialZeroInflated.qml"
+		func:	"LDnegbinomialZeroInflated"
 	}
 
 	Analysis
