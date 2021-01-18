@@ -99,6 +99,13 @@ Description
 
 	Analysis
 	{
+		title:	qsTr("Beta prime")
+		qml:	"LDbetaPrime.qml"
+		func:	"LDbetaPrime"
+	}
+
+	Analysis
+	{
 		title:	qsTr("Gamma")
 		qml:	"LDgamma.qml"
 		func:	"LDgamma"
