@@ -15,10 +15,10 @@
 // License along with this program.  If not, see
 // <http://www.gnu.org/licenses/>.
 //
-import QtQuick 2.8
-import QtQuick.Layouts 1.3
-import JASP.Controls 1.0
-import JASP.Widgets 1.0
+import QtQuick			2.8
+import QtQuick.Layouts	1.3
+import JASP.Controls	1.0
+import JASP.Widgets		1.0
 
 import "./common" as LD
 
@@ -30,14 +30,30 @@ Form
 		title: qsTr("Show Distribution")
 		Group
 		{
-			title: "Parameters"
 			Layout.columnSpan: 2
-			columns: 2
-			Text { text: qsTr("Location:") }
-			DoubleField{ name: "mu";	label: qsTr("μ"); id: mu;	 negativeValues: true;  defaultValue: 0 }
-			Text { text: qsTr("Scale:") }
-			DoubleField{ name: "beta"; label: qsTr("β"); id: beta; negativeValues: false; defaultValue: 1 }
 
+			Group
+			{
+				columns: 2
+				Text { text: qsTr("Shape:") }
+				DoubleField
+				{
+					name: "shape"
+					label: "η"
+					id: shape
+					negativeValues: false
+					defaultValue: 1
+				}
+				Text { text: qsTr("Scale:") }
+				DoubleField
+				{
+					name: "scale"
+					label: "b"
+					id: scale
+					negativeValues: false
+					defaultValue: 1
+				}
+			}
 		}
 
 		Group
@@ -51,13 +67,21 @@ Form
 			CheckBox{ label: qsTr("Quantile function"); id: plotQF; name: "plotQF"; checked: false }
 		}
 
-		LD.LDOptions { enabled: plotPDF.checked || plotCDF.checked; rangeMinX: -2; rangeMaxX: 5 }
+		LD.LDOptions
+		{
+			enabled				: plotPDF.checked || plotCDF.checked
+			negativeValues		: false
+			intervalMinmaxMin	: 1
+			intervalMinmaxMax	: 2
+			intervalLowerMax	: 1
+			intervalUpperMin	: 1
+		}
 	}
 
 	LD.LDGenerateDisplayData
 	{
-		distributionName		: "Gumbel"
-		formula					: mu.label + " = " + mu.value + ", " + beta.label + " = " + beta.value
+		distributionName		: "Gompertz"
+		formula					: shape.label + " = " + shape.value + ", " + scale.label + " = " + scale.value
 		enabled					: mainWindow.dataAvailable
 	}
 
