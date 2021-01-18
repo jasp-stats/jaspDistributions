@@ -30,17 +30,8 @@ Form
 		title: qsTr("Show Distribution")
 		Group
 		{
-			title: qsTr("Free parameters")
-			columns: 2
-			Text { text: qsTr("Shape:") }
-			DoubleField{ name: "alpha"; label: qsTr("α"); id: alpha; negativeValues: false; defaultValue: 1 }
-			Text { text: qsTr("Shape:") }
-			DoubleField{ name: "beta";  label: qsTr("β"); id: beta; negativeValues: false; defaultValue: 1 }
-		}
-
-		Group
-		{
-			title: qsTr("Fixed parameters")
+			title: qsTr("Parameters")
+			Layout.columnSpan: 2
 			columns: 2
 			Text { text: qsTr("Lower bound:") }
 			DoubleField{ name: "lowerBoundPar"; label: qsTr("a"); id: lowerBound; negativeValues: true; max: parseFloat(upperBound.value); defaultValue: 0 }
@@ -62,10 +53,10 @@ Form
 		LD.LDOptions
 		{
 			enabled				: plotPDF.checked || plotCDF.checked
-			min					: lowerBound.value
-			max					: upperBound.value
-			rangeMinX			: 0
-			rangeMaxX			: 1
+			rangeMinX			: -0.5
+			rangeMaxX			:  1.5
+			intervalMinmaxMin	: .25
+			intervalMinmaxMax	: .75
 			intervalLowerMax	: .5
 			intervalUpperMin	: .5
 		}
@@ -73,8 +64,8 @@ Form
 
 	LD.LDGenerateDisplayData
 	{
-		distributionName	: "Stretched Beta"
-		formula				: "α = " + alpha.value + ", β = " + beta.value + ", a = " + lowerBound.value + ", b = " + upperBound.value
+		distributionName	: "Uniform"
+		formula				: "a = " + lowerBound.value + ", b = " + upperBound.value
 		enabled				: mainWindow.dataAvailable
 	}
 

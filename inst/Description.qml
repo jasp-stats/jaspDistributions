@@ -85,6 +85,13 @@ Description
 
 	Analysis
 	{
+		title:	qsTr("Uniform")
+		qml:	"LDuniform.qml"
+		func:	"LDuniform"
+	}
+
+	Analysis
+	{
 		title:	qsTr("Beta")
 		qml:	"LDbeta.qml"
 		func:	"LDbeta"
