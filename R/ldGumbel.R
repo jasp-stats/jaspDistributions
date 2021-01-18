@@ -15,15 +15,15 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDlogistic <- function(jaspResults, dataset, options, state=NULL){
-  options <- .ldRecodeOptionsLogistic(options)
+LDgumbel <- function(jaspResults, dataset, options, state=NULL){
+  options <- .ldRecodeOptionsGumbel(options)
 
   #### Show distribution section ----
-  .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("logistic distribution"),
-                      parSupportMoments = .ldLogisticParsSupportMoments,
-                      formulaPDF        = .ldFormulaLogisticPDF,
-                      formulaCDF        = .ldFormulaLogisticCDF,
-                      formulaQF         = .ldFormulaLogisticQF)
+  .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("Gumbel distribution"),
+                      parSupportMoments = .ldGumbelParsSupportMoments,
+                      formulaPDF        = .ldFormulaGumbelPDF,
+                      formulaCDF        = .ldFormulaGumbelCDF,
+                      formulaQF         = .ldFormulaGumbelQF)
 
   #### Generate and Display data section ----
   # simulate and read data
@@ -46,20 +46,20 @@ LDlogistic <- function(jaspResults, dataset, options, state=NULL){
   .ldDescriptives(jaspResults, variable, options, ready, errors, "continuous")
 
   #### Fit data and assess fit ----
-  .ldMLE(jaspResults, variable, options, ready, errors, .ldFillLogisticEstimatesTable)
+  .ldMLE(jaspResults, variable, options, ready, errors, .ldFillGumbelEstimatesTable)
 
   return()
 }
 
-.ldRecodeOptionsLogistic <- function(options){
-  options[['parValNames']] <- c("mu", "sigma")
+.ldRecodeOptionsGumbel <- function(options){
+  options[['parValNames']] <- c("mu", "beta")
 
-  options[['pars']]   <- list(location = options[['mu']], scale = options[['sigma']])
-  options[['pdfFun']] <- stats::dlogis
-  options[['cdfFun']] <- stats::plogis
-  options[['qFun']]   <- stats::qlogis
-  options[['rFun']]   <- stats::rlogis
-  options[['distNameInR']] <- "logis"
+  options[['pars']]   <- list(mu = options[['mu']], beta = options[['beta']])
+  options[['pdfFun']] <- dgumbel
+  options[['cdfFun']] <- pgumbel
+  options[['qFun']]   <- qgumbel
+  options[['rFun']]   <- rgumbel
+  options[['distNameInR']] <- "gumbel"
 
   options <- .ldOptionsDeterminePlotLimits(options)
 
@@ -67,70 +67,45 @@ LDlogistic <- function(jaspResults, dataset, options, state=NULL){
   options$lowerBound <- c(-Inf, 0)
   options$upperBound <- c(Inf, Inf)
 
-  options$transformations <- c(mu = "location", sigma = "scale")
+  options$transformations <- c(mu = "mu", beta = "beta")
 
   options
 }
 
 ### text fill functions -----
-.ldLogisticParsSupportMoments <- function(jaspResults, options){
+.ldGumbelParsSupportMoments <- function(jaspResults, options){
   if(options$parsSupportMoments && is.null(jaspResults[['parsSupportMoments']])){
     pars <- list()
     pars[[1]] <- gettextf("location: &mu; %s","\u2208 \u211D")
-    pars[[2]] <- gettextf("scale: %s", "&sigma; \u2208 \u211D<sup>+</sup>")
+    pars[[2]] <- gettextf("scale: %s", "&beta; \u2208 \u211D<sup>+</sup>")
 
     support <- "x \u2208 \u211D"
 
     moments <- list()
-    moments$expectation <- gettext("&mu;")
-    moments$variance <- gettext("(&sigma; &pi;)<sup>2</sup> / 3")
+    moments$expectation <- "&mu; + &beta;&gamma;"
+    moments$variance <- "&beta;<sup>2</sup> &pi;<sup>2</sup>/6"
 
     jaspResults[['parsSupportMoments']] <- .ldParsSupportMoments(pars, support, moments)
   }
 }
 
-.ldFormulaLogisticPDF <- function(options){
-  if(options[['parametrization']] == "scale"){
-    text <- "<MATH>
-    f(x; <span style='color:red'>&beta;</span>) =
-    </MATH>"
-  } else {
-    text <- "<MATH>
-    f(x; <span style='color:red'>&lambda;</span>) = <span style='color:red'>&lambda;</span>exp(-<span style='color:red'>&lambda;</span>x)
-    </MATH>"
-  }
-
-  return(gsub(pattern = "\n", replacement = " ", x = text))
+.ldFormulaGumbelPDF <- function(options){
 }
 
-.ldFormulaLogisticCDF <- function(options){
-  if(options$parametrization == "scale"){
-    text <- "<MATH>
-    F(x; <span style='color:red'>&beta;</span>) =
-    </MATH>"
-  }
-
-  return(gsub(pattern = "\n", replacement = " ", x = text))
+.ldFormulaGumbelCDF <- function(options){
 }
 
-.ldFormulaLogisticQF <- function(options){
-  if(options$parametrization == "rate"){
-    text <- "<MATH>
-    Q(p; <span style='color:red'>&beta;</span>) =
-    </MATH>"
-  }
-
-  return(gsub(pattern = "\n", replacement = " ", x = text))
+.ldFormulaGumbelQF <- function(options){
 }
 
 #### Table functions ----
 
-.ldFillLogisticEstimatesTable <- function(table, results, options, ready){
+.ldFillGumbelEstimatesTable <- function(table, results, options, ready){
   if(!ready) return()
   if(is.null(results)) return()
   if(is.null(table)) return()
 
-  par <- c(location = "\u03BC", scale = "\u03C3")
+  par <- c(location = "\u03BC", scale = "\u03B2")
   res <- results$structured
   res$parName <- par
 
@@ -144,4 +119,42 @@ LDlogistic <- function(jaspResults, dataset, options, state=NULL){
   table$setData(res)
 
   return()
+}
+
+#### Distribution functions ----
+
+dgumbel <- function(x, mu, beta, log = FALSE) {
+  z <- (x - mu)/beta
+
+  out <- -log(beta) - (z + exp(-z))
+
+  if(!log) out <- exp(out)
+
+  return(out)
+}
+
+pgumbel <- function(q, mu, beta, lower.tail = TRUE, log.p = FALSE) {
+  z <- (q - mu)/beta
+  out <- exp(-exp(-z))
+
+  if(!lower.tail) out <- 1-out
+  if(log.p) out <- log(out)
+
+  return(out)
+}
+
+qgumbel <- function(p, mu, beta, lower.tail = TRUE, log.p = FALSE) {
+  if(log.p) p <- exp(p)
+  if(!lower.tail) p <- 1-p
+
+  out <- mu - beta * log(-log(p))
+
+  return(out)
+}
+
+rgumbel <- function(n, mu, beta) {
+  p <- runif(n)
+  q <- qgumbel(p, mu, beta)
+
+  return(q)
 }

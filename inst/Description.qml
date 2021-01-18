@@ -155,6 +155,13 @@ Description
 
 	Analysis
 	{
+		title:	qsTr("Gumbel")
+		qml:	"LDgumbel.qml"
+		func:	"LDgumbel"
+	}
+
+	Analysis
+	{
 		title:	qsTr("Triangular")
 		qml:	"LDtriangular.qml"
 		func:	"LDtriangular"
