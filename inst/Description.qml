@@ -155,6 +155,13 @@ Description
 
 	Analysis
 	{
+		title:	qsTr("Log-logistic")
+		qml:	"LDlogLogistic.qml"
+		func:	"LDlogLogistic"
+	}
+
+	Analysis
+	{
 		title:	qsTr("Pareto")
 		qml:	"LDpareto.qml"
 		func:	"LDpareto"
