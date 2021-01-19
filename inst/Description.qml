@@ -209,6 +209,13 @@ Description
 		func:	"LDweibull"
 	}
 
+	Analysis
+	{
+		title:	qsTr("Mixture of two normal")
+		qml:	"LDmixtureNormalNormal.qml"
+		func:	"LDmixtureNormalNormal"
+	}
+
 	GroupTitle
 	{
 		title: 	qsTr("Discrete")
