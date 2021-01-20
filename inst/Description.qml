@@ -211,9 +211,16 @@ Description
 
 	Analysis
 	{
-		title:	qsTr("Mixture of two normal")
+		title:	qsTr("Mixture of normal and normal")
 		qml:	"LDmixtureNormalNormal.qml"
 		func:	"LDmixtureNormalNormal"
+	}
+
+	Analysis
+	{
+		title:	qsTr("Mixture of normal and uniform")
+		qml:	"LDmixtureNormalUniform.qml"
+		func:	"LDmixtureNormalUniform"
 	}
 
 	GroupTitle

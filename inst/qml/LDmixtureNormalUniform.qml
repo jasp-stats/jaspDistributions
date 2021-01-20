@@ -30,25 +30,29 @@ Form
 		title: qsTr("Show Distribution")
 		Group
 		{
-			title: "Parameters"
-			Layout.columnSpan: 2
-			columns: 4
+			title: qsTr("Free parameters")
+			columns: 2
 
-			Text { text: qsTr("Mean 1:") }
-			DoubleField{ name: "mu1";	label: qsTr("μ₁");	id: mu1;		negativeValues: true;	defaultValue: -3	}
+			Text { text: qsTr("Mean :") }
+			DoubleField{ name: "mu";	label: qsTr("μ");			id: mu;					negativeValues: true;		defaultValue: 0		}
 
-			Text { text: qsTr("Std. deviation 1:") }
-			DoubleField{ name: "sigma1"; label: qsTr("σ₁"); id: sigma1;		negativeValues: false;	defaultValue: 1		}
+			Text { text: qsTr("Std. deviation :") }
+			DoubleField{ name: "sigma"; label: qsTr("σ");			id: sigma;				negativeValues: false;		defaultValue: 1		}
 
-			Text { text: qsTr("Mean 2:") }
-			DoubleField{ name: "mu2";	label: qsTr("μ₂");	id: mu2;		negativeValues: true;	defaultValue: 3	}
+			Text { text: qsTr("Probability of normal component:") }
+			DoubleField{ name: "pi";	label: qsTr("π");			id: pi;					min: 0; max: 1;				defaultValue: 0.5	}
 
-			Text { text: qsTr("Std. deviation 2:") }
-			DoubleField{ name: "sigma2"; label: qsTr("σ₂"); id: sigma2;		negativeValues: false;	defaultValue: 1		}
+		}
 
-			Text { text: qsTr("Probability of component:") }
-			DoubleField{ name: "pi";	label: qsTr("π");	id: pi;			min: 0; max: 1;			defaultValue: 0.5	}
+		Group
+		{
+			title: qsTr("Fixed parameters")
+			columns: 2
+			Text { text: qsTr("Minimum of uniform:") }
+			DoubleField{ name: "lowerBoundPar";	label: qsTr("a");	id: lowerBoundPar;		negativeValues: true; max: upperBoundPar.value;	defaultValue: -10	}
 
+			Text { text: qsTr("Maximum of uniform:") }
+			DoubleField{ name: "upperBoundPar"; label: qsTr("b");	id: upperBoundPar;		min: lowerBoundPar.value;	defaultValue: 10		}
 		}
 
 		Group
@@ -67,8 +71,8 @@ Form
 
 	LD.LDGenerateDisplayData
 	{
-		distributionName		: "Mixture Normal and Normal"
-		formula					: pi.label + " = " + pi.value + ", " + mu1.label + " = " + mu1.value + ", " + sigma1.label + " = " + sigma1.value + ", " + mu2.label + " = " + mu2.value + ", " + sigma2.label + " = " + sigma2.value
+		distributionName		: "Mixture Normal and Uniform"
+		formula					: pi.label + " = " + pi.value + ", " + mu.label + " = " + mu.value + ", " + sigma.label + " = " + sigma.value + ", " + lowerBoundPar.label + " = " + lowerBoundPar.value + ", " + upperBoundPar.label + " = " + upperBoundPar.value
 		enabled					: mainWindow.dataAvailable
 	}
 
