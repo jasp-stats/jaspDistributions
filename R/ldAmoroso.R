@@ -157,7 +157,7 @@ pamoroso <- function(q, a, theta, alpha, beta, lower.tail = TRUE, log.p = FALSE)
   xi <- (q-a)/theta
   arg1 <- alpha
   arg2 <- xi^beta
-  out <- pgamma(q=arg2, scale = 1, shape = arg1, lower.tail = lower.tail, log.p = FALSE)
+  out <- stats::pgamma(q=arg2, scale = 1, shape = arg1, lower.tail = lower.tail, log.p = FALSE)
 
   if(theta > 0) {
     out[q<a] <- if(lower.tail) 0 else 1
@@ -171,44 +171,16 @@ pamoroso <- function(q, a, theta, alpha, beta, lower.tail = TRUE, log.p = FALSE)
 }
 
 qamoroso <- function(p, a, theta, alpha, beta, lower.tail = TRUE, log.p = FALSE) {
-  if(log.p)       p <- exp(p)
-  if(!lower.tail) p <- 1-p
-
-  n <- length(p)
-  q <- sapply(seq_len(n), function(i) {.getQuantileAmoroso(p[i], a, theta, alpha, beta) })
+  gamma <- stats::qgamma(p = p, scale = 1, shape = alpha, lower.tail = lower.tail, log.p = log.p)
+  q <- a + theta*gamma^(1/beta)
 
   return(q)
 }
 
-.getQuantileAmoroso <- function(p, a, theta, alpha, beta) {
-  if(theta > 0) {
-    lower <- 0
-    upper <- Inf
-  } else {
-    lower <- -Inf
-    upper <- 0
-  }
-
-  o <- try(optim(par = c(a+theta), fn = .pErrorAmoroso, lower = lower, upper = upper, method = "L-BFGS-B",
-                 p = p, pars = list(a = a, theta = theta, alpha = alpha, beta = beta)), silent = TRUE)
-
-  if(inherits(o, "try-error")) {
-    return(NA)
-  } else {
-    return(o[["par"]])
-  }
-}
-
-.pErrorAmoroso <- function(q, p, pars) {
-  args <- c(q=q, pars)
-  pp <- do.call(pamoroso, args)
-
-  return((pp-p)^2)
-}
 
 ramoroso <- function(n, a, theta, alpha, beta) {
-  p <- runif(n, 0, 1)
-  q <- qamoroso(p, a, theta, alpha, beta)
+  gamma <- stats::rgamma(n = n, scale = 1, shape = alpha)
+  q <- a + theta*gamma^(1/beta)
 
   return(q)
 }

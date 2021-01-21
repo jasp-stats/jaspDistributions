@@ -30,19 +30,19 @@ results <- jaspTools::runAnalysis("LDamoroso",
 test_that("Descriptives table results match", {
   table <- results[["results"]][["dataContainer"]][["collection"]][["dataContainer_summary"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                                 list(8.67273957458673, 3.00162081546895, 2.62499246469072, 0.486573851508028,
-                                      1.9991072683615, 4.03650907183176, 100, 1.47253075939714, 2.16834683737073,
+                                 list(7.11526104225213, 2.91599104494971, 2.72776768324661, 0.343938829435207,
+                                      1.85908514447057, 3.81583005623678, 100, 1.42042966062756, 2.01762042079053,
                                       "amoroso"))
 })
 
 test_that("Estimated Parameters table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_estParametersTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                                 list(0.315306388770655, -0.28707687861876, "a", 0.307344049248322,
-                                      0.917689656160069, 2.51021082565252, -0.885638764847053, "<unicode>",
-                                      1.73260815876496, 5.90606041615209, 1.2922462916927, -1.20950492617257,
-                                      "<unicode>", 1.2764271372325, 3.79399750955797, 1.64760432991323,
-                                      0.14959346601916, "<unicode>", 0.764305301378082, 3.14561519380731
+                                 list(0.240803290783608, -0.112208459813637, "a", 0.180111345607244,
+                                      0.593815041380853, 3.54003094456327, 1.57429229016312, "<unicode>",
+                                      1.00294631427192, 5.50576959896341, 0.75104336642473, -0.192167505680985,
+                                      "<unicode>", 0.481238879665974, 1.69425423853044, 2.34306497378787,
+                                      0.7049020582066, "<unicode>", 0.835812764164488, 3.98122788936913
                                  ))
 })
 
@@ -61,9 +61,9 @@ test_that("Histogram vs. Theoretical PDF plot matches", {
 test_that("Fit Statistics table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_mleFitAssessment"]][["collection"]][["mleContainer_mleFitAssessment_fitStatisticsTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                                 list(0.923428286191638, 0.0549389826616803, "Kolmogorov-Smirnov", 0.955440227088364,
-                                      0.0355259448556829, "Cram<unicode>r-von Mises", 0.991013210331705,
-                                      0.197810410005047, "Anderson-Darling"))
+                                 list(0.996348236696634, 0.0407506337143581, "Kolmogorov-Smirnov", 0.996424292800046,
+                                      0.020739043517987, "Cram<unicode>r-von Mises", 0.999623186741392,
+                                      0.128661088698408, "Anderson-Darling"))
 })
 
 test_that("P-P plot matches", {
