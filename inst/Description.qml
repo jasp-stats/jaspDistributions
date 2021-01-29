@@ -50,9 +50,16 @@ Description
 
 	Analysis
 	{
-	  title:	qsTr("Student's t")
-	  qml:		"LDt.qml"
-	  func:		"LDt"
+	  title:	qsTr("Scaled, shifted Student's t")
+	  qml:		"LDtStudent.qml"
+	  func:		"LDtStudent"
+	}
+
+	Analysis
+	{
+	  title:	qsTr("Noncentral t")
+	  qml:		"LDtNoncentral.qml"
+	  func:		"LDtNoncentral"
 	}
 
 	Analysis

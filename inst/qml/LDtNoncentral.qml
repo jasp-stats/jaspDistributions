@@ -35,7 +35,7 @@ Form
 			Group
 			{
 				columns: 2
-				Text { text: qsTr("Degree of freedom:") }
+				Text { text: qsTr("Degrees of freedom:") }
 				DoubleField{ name: "df"; label: qsTr("df"); id: df; min: 1; defaultValue: 1 }
 
 				Text { text: qsTr("Non-centrality:") }
@@ -61,7 +61,7 @@ Form
 
 	LD.LDGenerateDisplayData
 	{
-		distributionName		: "t"
+		distributionName		: "noncentral t"
 		formula					: "df = " + df.value + ", ncp = " + ncp.value
 		enabled					: mainWindow.dataAvailable
 	}

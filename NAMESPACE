@@ -1,6 +1,7 @@
 import(jaspBase)
 export(LDgaussianunivariate)
-export(LDt)
+export(LDtStudent)
+export(LDtNoncentral)
 export(LDtSkewedGeneralized)
 export(LDtSkew)
 export(LDf)
