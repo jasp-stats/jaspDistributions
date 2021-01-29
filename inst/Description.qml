@@ -183,6 +183,13 @@ Description
 
 	Analysis
 	{
+		title:	qsTr("Fréchet")
+		qml:	"LDfrechet.qml"
+		func:	"LDfrechet"
+	}
+
+	Analysis
+	{
 		title:	qsTr("Gumbel")
 		qml:	"LDgumbel.qml"
 		func:	"LDgumbel"
