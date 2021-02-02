@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.1.0\n"
 "POT-Creation-Date: 2021-01-05 09:39\n"
-"PO-Revision-Date: 2021-02-01 08:41+0000\n"
+"PO-Revision-Date: 2021-02-03 07:41+0000\n"
 "Last-Translator: Yoshihiko Kunisato <ykunisato@psy.senshu-u.ac.jp>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/ja/>\n"
@@ -80,22 +80,22 @@ msgid "Parameter"
 msgstr ""
 
 msgid "Estimate"
-msgstr ""
+msgstr "推定"
 
 msgid "SE"
-msgstr ""
+msgstr "標準誤差"
 
 msgid "Standard errors are unavailable with this method"
 msgstr ""
 
 msgid "Lower"
-msgstr ""
+msgstr "下"
 
 msgid "%s%% CI"
 msgstr ""
 
 msgid "Upper"
-msgstr ""
+msgstr "上"
 
 msgid "Confidence intervals are unavailable with this method."
 msgstr ""
