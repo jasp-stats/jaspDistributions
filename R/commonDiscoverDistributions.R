@@ -907,7 +907,12 @@
     argsPDF[['x']] <- seq(args[['q']][1], args[['q']][2], length.out = 20)
     x <- weighted.mean(argsPDF[['x']], do.call(options[['pdfFun']], argsPDF))
     argsPDF[['x']] <- x
-    y <- do.call(options[['pdfFun']], argsPDF)/3
+    y <- do.call(options[['pdfFun']], argsPDF)
+
+    argsPDF[['x']] <- seq(options[['range_x']][1], options[['range_x']][2], length.out = 101)
+    max_y <- max(do.call(options[['pdfFun']], argsPDF))
+
+    if(y < 0.1*max_y) y <- y*5 else y <- y/3
 
     plot <- plot +
       ggplot2::stat_function(fun = options[['pdfFun']], n = 101, args = options[['pars']], geom = "area",
