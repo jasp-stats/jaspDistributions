@@ -708,12 +708,15 @@
   counts <- sapply(mids, function(i) sum(variable == i))
   dat  <- data.frame(counts = counts, mids = mids, pmf = do.call(options$pdfFun, c(list(x = mids), estimates)))
 
+  xBreaks <- jaspGraphs::getPrettyAxisBreaks(mids)
+  xLabs   <- jaspGraphs::axesLabeller(xBreaks)
   p <- ggplot2::ggplot(data = dat, ggplot2::aes(x = mids, y = counts/sum(counts))) +
     ggplot2::geom_bar(stat="identity", fill = "grey", colour = "black") +
     jaspGraphs::geom_point(ggplot2::aes(x = mids, y = pmf)) +
     ggplot2::scale_x_continuous(limits = range + c(-0.5, 0.5),
                                 expand = c(0.1, 0.1),
-                                breaks = dat$mids) +
+                                breaks = xBreaks,
+                                labels = xLabs) +
     ggplot2::xlab(options$variable) +
     ggplot2::ylab(gettext("Probability Mass"))
 
