@@ -662,12 +662,23 @@
 }
 
 .ldFillQQPlot <- function(qqplot, estParameters, options, variable){
+  estParameters <- as.list(estParameters)
   yBreaks <- jaspGraphs::getPrettyAxisBreaks(variable)
   yLabs   <- jaspGraphs::axesLabeller(yBreaks)
   yRange  <- range(variable)
 
+  # compute slope and intercept of qq line
+  args <- estParameters
+  args[["p"]] <- c(.25, .75)
+  theoretical <- do.call(options[['qFun']], args)
+  sample <- stats::quantile(variable, c(.25, .75))
+  slope <- diff(sample) / diff(theoretical)
+  intercept <- sample[1L] - slope*theoretical[1L]
+
+
   p <- ggplot2::ggplot(data = data.frame(variable = variable), ggplot2::aes(sample = variable)) +
-    ggplot2::stat_qq_line(distribution = options[['qFun']], dparams = estParameters, col = "darkred", size = 1) +
+    #ggplot2::stat_qq_line(distribution = options[['qFun']], dparams = estParameters, col = "darkred", size = 1) +
+    ggplot2::geom_abline(slope=slope, intercept=intercept, col = "darkred", size = 1) +
     ggplot2::stat_qq(distribution = options[['qFun']], dparams = estParameters, shape = 21, fill = "grey", size = 3) +
     ggplot2::scale_y_continuous(name = gettext("Sample"), breaks = yBreaks, labels = yLabs, limits = yRange)
 
@@ -708,7 +719,7 @@
   counts <- sapply(mids, function(i) sum(variable == i))
   dat  <- data.frame(counts = counts, mids = mids, pmf = do.call(options$pdfFun, c(list(x = mids), estimates)))
 
-  xBreaks <- jaspGraphs::getPrettyAxisBreaks(mids)
+  xBreaks <- unique(floor(jaspGraphs::getPrettyAxisBreaks(mids)))
   xLabs   <- jaspGraphs::axesLabeller(xBreaks)
   p <- ggplot2::ggplot(data = dat, ggplot2::aes(x = mids, y = counts/sum(counts))) +
     ggplot2::geom_bar(stat="identity", fill = "grey", colour = "black") +
@@ -910,7 +921,7 @@
     y <- do.call(options[['pdfFun']], argsPDF)
 
     argsPDF[['x']] <- seq(options[['range_x']][1], options[['range_x']][2], length.out = 101)
-    max_y <- max(do.call(options[['pdfFun']], argsPDF))
+    max_y <- max(do.call(options[['pdfFun']], argsPDF), na.rm = TRUE)
 
     if(y < 0.1*max_y) y <- y*5 else y <- y/3
 

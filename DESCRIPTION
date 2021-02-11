@@ -15,7 +15,6 @@ Imports:
   ggplot2,
   goftest,
   gnorm,
-  invgamma,
   jaspBase,
   jaspGraphs,
   MASS,
