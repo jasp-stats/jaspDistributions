@@ -85,7 +85,7 @@ Form
 		enabled					: mainWindow.dataAvailable
 	}
 
-	LD.LDEstimateParameters { enabled: mainWindow.dataAvailable }
+	LD.LDEstimateParameters { enabled: mainWindow.dataAvailable; includeSE: false; includeCI: false }
 
 	LD.LDAssessFit { enabled: mainWindow.dataAvailable }
 }
