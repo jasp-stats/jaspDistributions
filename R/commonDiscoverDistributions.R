@@ -662,12 +662,22 @@
 }
 
 .ldFillQQPlot <- function(qqplot, estParameters, options, variable){
-  p <- ggplot2::ggplot(data = data.frame(variable = variable), ggplot2::aes(sample = variable)) +
-    ggplot2::stat_qq(distribution = options[['qFun']], dparams = estParameters, shape = 21, fill = "grey", size = 3) +
-    ggplot2::stat_qq_line(distribution = options[['qFun']], dparams = estParameters) +
-    ggplot2::xlab(gettext("Theoretical")) + ggplot2::ylab(gettext("Sample")) +
-    ggplot2::scale_x_continuous(expand = ggplot2::expand_scale(c(0.1,0.15), 0))
+  yBreaks <- jaspGraphs::getPrettyAxisBreaks(variable)
+  yLabs   <- jaspGraphs::axesLabeller(yBreaks)
+  yRange  <- range(variable)
 
+  p <- ggplot2::ggplot(data = data.frame(variable = variable), ggplot2::aes(sample = variable)) +
+    ggplot2::stat_qq_line(distribution = options[['qFun']], dparams = estParameters, col = "darkred", size = 1) +
+    ggplot2::stat_qq(distribution = options[['qFun']], dparams = estParameters, shape = 21, fill = "grey", size = 3) +
+    ggplot2::scale_y_continuous(name = gettext("Sample"), breaks = yBreaks, labels = yLabs, limits = yRange)
+
+  points <- ggplot2::layer_data(p, 2)
+
+  xBreaks <- jaspGraphs::getPrettyAxisBreaks(points$x)
+  xLabs   <- jaspGraphs::axesLabeller(xBreaks)
+  xRange  <- range(points$x)
+
+  p <- p + ggplot2::scale_x_continuous(name = gettext("Theoretical"), breaks = xBreaks, labels = xLabs, limits = xRange)
   p <- jaspGraphs::themeJasp(p)
 
   qqplot$plotObject <- p
@@ -723,7 +733,7 @@
   TheoreticalProp <- sort(do.call(options[['cdfFun']], args))
 
   p <- ggplot2::ggplot(data = data.frame(TheoreticalProp = TheoreticalProp, ObservedProp = ObservedProp)) +
-    ggplot2::geom_abline(slope = 1, intercept = 0) +
+    ggplot2::geom_abline(slope = 1, intercept = 0, col = "darkred", size = 1) +
     jaspGraphs::geom_point(ggplot2::aes(x = TheoreticalProp, y = ObservedProp)) +
     ggplot2::xlab(gettext("Theoretical")) + ggplot2::ylab(gettext("Sample")) +
     ggplot2::scale_x_continuous(limits = 0:1, expand = ggplot2::expand_scale(mult = 0, add = c(0.05, 0.1))) +
