@@ -62,8 +62,6 @@ Form
 		LD.LDOptions
 		{
 			enabled				: plotPDF.checked || plotCDF.checked
-			min					: lowerBound.value
-			max					: upperBound.value
 			rangeMinX			: 0
 			rangeMaxX			: 1
 			intervalLowerMax	: .5
