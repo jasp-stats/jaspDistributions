@@ -1,4 +1,4 @@
-context("Discover Distributions - Mixture of two normal distributions")
+context("Discover Distributions - Mixture of normal and uniform")
 
 options <- jaspTools::analysisOptions("LDmixtureNormalUniform")
 options$andersonDarling <- TRUE

@@ -1461,7 +1461,7 @@
     ggplot2::geom_rug() +
     ggplot2::scale_x_continuous(limits = range(variable)*1.1) +
     ggplot2::xlab(options$variable) +
-    ggplot2::ylab(substitute(f~(v == x), list(f = gettext("Freq"), v = options[['variable']])))
+    ggplot2::ylab(substitute(f~(v <= x), list(f = gettext("Freq"), v = decodeColNames(options[['variable']]))))
 
   p <- jaspGraphs::themeJasp(p)
   plot[['plotObject']] <- p
