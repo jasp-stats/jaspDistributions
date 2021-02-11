@@ -1,4 +1,4 @@
-context("Discover Distributions - Geometric")
+context("Discover Distributions - Hypergeometric")
 
 options <- jaspTools::analysisOptions("LDhypergeometric")
 options$explanatoryText <- TRUE

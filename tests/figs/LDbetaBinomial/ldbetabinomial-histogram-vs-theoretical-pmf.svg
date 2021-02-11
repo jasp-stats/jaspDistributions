@@ -37,7 +37,7 @@
 <circle cx='516.93' cy='181.82' r='3.56pt' style='stroke-width: 0.71; fill: #BEBEBE;' clip-path='url(#cpODEuNzd8NzIwLjAwfDUwNy4xMHwyMC43MQ==)' />
 <circle cx='574.95' cy='279.67' r='3.56pt' style='stroke-width: 0.71; fill: #BEBEBE;' clip-path='url(#cpODEuNzd8NzIwLjAwfDUwNy4xMHwyMC43MQ==)' />
 <circle cx='632.97' cy='381.69' r='3.56pt' style='stroke-width: 0.71; fill: #BEBEBE;' clip-path='url(#cpODEuNzd8NzIwLjAwfDUwNy4xMHwyMC43MQ==)' />
-<line x1='168.48' y1='507.10' x2='633.29' y2='507.10' style='stroke-width: 0.64; stroke-linecap: butt;' clip-path='url(#cpODEuNzd8NzIwLjAwfDUwNy4xMHwyMC43MQ==)' />
+<line x1='110.46' y1='507.10' x2='691.31' y2='507.10' style='stroke-width: 0.64; stroke-linecap: butt;' clip-path='url(#cpODEuNzd8NzIwLjAwfDUwNy4xMHwyMC43MQ==)' />
 <line x1='81.77' y1='485.31' x2='81.77' y2='63.56' style='stroke-width: 0.64; stroke-linecap: butt;' clip-path='url(#cpODEuNzd8NzIwLjAwfDUwNy4xMHwyMC43MQ==)' />
 <rect x='81.77' y='20.71' width='638.23' height='486.38' style='stroke-width: 0.00; stroke: none;' clip-path='url(#cpODEuNzd8NzIwLjAwfDUwNy4xMHwyMC43MQ==)' />
 <defs>
@@ -57,24 +57,18 @@
 <polyline points='73.26,169.16 81.77,169.16 ' style='stroke-width: 0.64; stroke-linecap: butt;' clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)' />
 <polyline points='73.26,63.88 81.77,63.88 ' style='stroke-width: 0.64; stroke-linecap: butt;' clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)' />
 <polyline points='81.77,507.10 720.00,507.10 ' style='stroke-width: 0.00; stroke: none; stroke-linecap: butt;' clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)' />
-<polyline points='168.80,515.60 168.80,507.10 ' style='stroke-width: 0.64; stroke-linecap: butt;' clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)' />
+<polyline points='110.78,515.60 110.78,507.10 ' style='stroke-width: 0.64; stroke-linecap: butt;' clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)' />
 <polyline points='226.82,515.60 226.82,507.10 ' style='stroke-width: 0.64; stroke-linecap: butt;' clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)' />
-<polyline points='284.84,515.60 284.84,507.10 ' style='stroke-width: 0.64; stroke-linecap: butt;' clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)' />
 <polyline points='342.86,515.60 342.86,507.10 ' style='stroke-width: 0.64; stroke-linecap: butt;' clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)' />
-<polyline points='400.88,515.60 400.88,507.10 ' style='stroke-width: 0.64; stroke-linecap: butt;' clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)' />
 <polyline points='458.90,515.60 458.90,507.10 ' style='stroke-width: 0.64; stroke-linecap: butt;' clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)' />
-<polyline points='516.93,515.60 516.93,507.10 ' style='stroke-width: 0.64; stroke-linecap: butt;' clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)' />
 <polyline points='574.95,515.60 574.95,507.10 ' style='stroke-width: 0.64; stroke-linecap: butt;' clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)' />
-<polyline points='632.97,515.60 632.97,507.10 ' style='stroke-width: 0.64; stroke-linecap: butt;' clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)' />
-<g clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)'><text x='164.07' y='534.28' style='font-size: 17.00px; font-family: Liberation Sans;' textLength='9.45px' lengthAdjust='spacingAndGlyphs'>1</text></g>
+<polyline points='690.99,515.60 690.99,507.10 ' style='stroke-width: 0.64; stroke-linecap: butt;' clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)' />
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)'><text x='106.05' y='534.28' style='font-size: 17.00px; font-family: Liberation Sans;' textLength='9.45px' lengthAdjust='spacingAndGlyphs'>0</text></g>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)'><text x='222.09' y='534.28' style='font-size: 17.00px; font-family: Liberation Sans;' textLength='9.45px' lengthAdjust='spacingAndGlyphs'>2</text></g>
-<g clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)'><text x='280.11' y='534.28' style='font-size: 17.00px; font-family: Liberation Sans;' textLength='9.45px' lengthAdjust='spacingAndGlyphs'>3</text></g>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)'><text x='338.13' y='534.28' style='font-size: 17.00px; font-family: Liberation Sans;' textLength='9.45px' lengthAdjust='spacingAndGlyphs'>4</text></g>
-<g clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)'><text x='396.16' y='534.28' style='font-size: 17.00px; font-family: Liberation Sans;' textLength='9.45px' lengthAdjust='spacingAndGlyphs'>5</text></g>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)'><text x='454.18' y='534.28' style='font-size: 17.00px; font-family: Liberation Sans;' textLength='9.45px' lengthAdjust='spacingAndGlyphs'>6</text></g>
-<g clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)'><text x='512.20' y='534.28' style='font-size: 17.00px; font-family: Liberation Sans;' textLength='9.45px' lengthAdjust='spacingAndGlyphs'>7</text></g>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)'><text x='570.22' y='534.28' style='font-size: 17.00px; font-family: Liberation Sans;' textLength='9.45px' lengthAdjust='spacingAndGlyphs'>8</text></g>
-<g clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)'><text x='628.24' y='534.28' style='font-size: 17.00px; font-family: Liberation Sans;' textLength='9.45px' lengthAdjust='spacingAndGlyphs'>9</text></g>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)'><text x='681.54' y='534.28' style='font-size: 17.00px; font-family: Liberation Sans;' textLength='18.91px' lengthAdjust='spacingAndGlyphs'>10</text></g>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)'><text x='352.13' y='566.78' style='font-size: 20.40px; font-family: Liberation Sans;' textLength='97.50px' lengthAdjust='spacingAndGlyphs'>betaBinom</text></g>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)'><text transform='translate(19.01,338.73) rotate(-90)' style='font-size: 20.40px; font-family: Liberation Sans;' textLength='149.64px' lengthAdjust='spacingAndGlyphs'>Probability Mass</text></g>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8NTc2LjAwfDAuMDA=)'><text x='230.37' y='11.70' style='font-size: 17.00px; font-family: Liberation Sans;' textLength='341.02px' lengthAdjust='spacingAndGlyphs'>LDbetaBinomial-histogram-vs-theoretical-pmf</text></g>
