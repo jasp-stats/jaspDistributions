@@ -72,7 +72,7 @@ Form
 				DoubleField
 				{
 					name: "max_x"; label: qsTr("to"); id: max_x;
-					defaultValue: parseFloat(size.value); min: parseFloat(min_x.value); max: parseFloat(size.value)
+					defaultValue: 10; min: parseFloat(min_x.value); max: parseFloat(size.value)
 				}
 			}
 
