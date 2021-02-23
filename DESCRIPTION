@@ -1,7 +1,7 @@
 Package: jaspDistributions
 Type: Package
 Title: Distributions Module for JASP
-Version: 0.1.0
+Version: 0.15
 Date: 2020-07-15
 Author: JASP Team
 Website: www.jasp-stats.org
