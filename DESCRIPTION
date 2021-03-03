@@ -1,8 +1,8 @@
 Package: jaspDistributions
 Type: Package
 Title: Distributions Module for JASP
-Version: 0.15
-Date: 2020-07-15
+Version: 0.3.0
+Date: 2021-01-29
 Author: JASP Team
 Website: www.jasp-stats.org
 Maintainer: JASP Team <info@jasp-stats.org>
@@ -14,10 +14,12 @@ Imports:
   fitdistrplus,
   ggplot2,
   goftest,
-  invgamma,
+  gnorm,
   jaspBase,
   jaspGraphs,
-  MASS
+  MASS,
+  sgt,
+  sn
 Remotes:
   jasp-stats/jaspBase,
   jasp-stats/jaspGraphs

@@ -21,23 +21,20 @@ import JASP.Controls 1.0
 
 Section
 {
+	property bool includeSE: true
+	property bool includeCI: true
+
 	title: enabled ? qsTr("Estimate Parameters") : qsTr("Estimate Parameters") + " - " + qsTr("[requires a loaded data set]")
-
-	Group
+	CheckBox
 	{
-		CheckBox{ name: "methodMLE";      label: qsTr("Maximum likelihood"); visible: true  }
-	}
-
-	Group
-	{
-		title: qsTr("Output")
+		name: "methodMLE";      label: qsTr("Maximum likelihood"); id: methodMLE
 		CheckBox
 		{
 			name: "outputEstimates"; label: qsTr("Estimates"); checked: true
-			CheckBox{ name: "outputSE"; label: qsTr("Std. error"); checked: false }
+			CheckBox{ name: "outputSE"; label: qsTr("Std. error"); checked: false; visible: includeSE }
 			CheckBox
 			{
-				name: "ciInterval"; label: qsTr("Confidence interval"); childrenOnSameRow: true
+				name: "ciInterval"; label: qsTr("Confidence interval"); childrenOnSameRow: true; visible: includeCI
 				PercentField{ name: "ciIntervalInterval"; label: ""; defaultValue: 95 }
 			}
 		}

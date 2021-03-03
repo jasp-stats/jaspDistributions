@@ -15,126 +15,138 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDt <- function(jaspResults, dataset, options, state=NULL){
-  options <- .ldRecodeOptionsT(options)
-  
-  #### Show t section ----
-  .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("t-distribution"), 
-                      parSupportMoments = .ldTParsSupportMoments,
-                      formulaPDF        = .ldFormulaTPDF, 
-                      formulaCDF        = .ldFormulaTCDF, 
-                      formulaQF         = .ldFormulaTQF)
-  
+LDweibull <- function(jaspResults, dataset, options, state=NULL){
+  options <- .ldRecodeOptionsWeibull(options)
+
+  #### Show weibull section ----
+  .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("Weibull distribution"),
+                      parSupportMoments = .ldWeibullParsSupportMoments,
+                      formulaPDF        = .ldFormulaWeibullPDF,
+                      formulaCDF        = .ldFormulaWeibullCDF,
+                      formulaQF         = .ldFormulaWeibullQF)
+
   #### Generate and Display data section ----
   # simulate and read data
   .simulateData(jaspResults, options)
-  
+
   ready <- options[['variable']] != ""
   errors <- FALSE
   if(ready && is.null(dataset)){
     dataset <- .readDataSetToEnd(columns.as.numeric = options[['variable']])
-    
+
     variable <- dataset[[.v(options[['variable']])]]
     variable <- variable[!is.na(variable)]
     errors <- .hasErrors(dataset, type = c("observations", "variance", "infinity", "limits"),
                          observations.amount = "<2",
-                         limits.min = options$support$min, limits.max = options$support$max, 
+                         limits.min = options$support$min, limits.max = options$support$max,
                          exitAnalysisIfErrors = FALSE)
   }
-  
+
   # overview of the data
   .ldDescriptives(jaspResults, variable, options, ready, errors, "continuous")
-  
+
   #### Fit data and assess fit ----
-  .ldMLE(jaspResults, variable, options, ready, errors, .ldFillTEstimatesTable)
-  
+  .ldMLE(jaspResults, variable, options, ready, errors, .ldFillWeibullEstimatesTable)
+
   return()
 }
 
 ### options ----
-.ldRecodeOptionsT <- function(options){
-  options[['parValNames']] <- c("df", "ncp")
-  
-  options[['pars']]   <- list(df = options[['df']], ncp = options[['ncp']])
-  options[['pdfFun']] <- stats::dt
-  options[['cdfFun']] <- stats::pt
-  options[['qFun']]   <- stats::qt
-  options[['rFun']]   <- stats::rt
-  options[['distNameInR']] <- "t"
-  
+.ldRecodeOptionsWeibull <- function(options){
+  options[['parValNames']] <- c("shape", "scale")
+
+  options[['pars']]   <- list(shape = options[["shape"]], scale = options[["scale"]])
+  options[['pdfFun']] <- stats::dweibull
+  options[['cdfFun']] <- stats::pweibull
+  options[['qFun']]   <- stats::qweibull
+  options[['rFun']]   <- stats::rweibull
+  options[['distNameInR']] <- "weibull"
+
   options <- .ldOptionsDeterminePlotLimits(options)
-  
-  options$support <- list(min = -Inf, max = Inf)
-  options$lowerBound <- c(0,  -Inf)
-  options$upperBound <- c(Inf, Inf)
-  
-  options$transformations <- c(df = "df", ncp = "ncp")
-  
+
+  options$support <- list(min = 0, max = Inf)
+  options$lowerBound <- c(0)
+  options$upperBound <- c(Inf)
+
+  options$transformations <- c(shape = "shape", scale = "scale")
+
   options
 }
 
 ### text fill functions -----
-.ldTParsSupportMoments <- function(jaspResults, options){
+.ldWeibullParsSupportMoments <- function(jaspResults, options){
   if(options$parsSupportMoments && is.null(jaspResults[['parsSupportMoments']])){
     pars <- list()
-    pars[[1]] <- gettextf("degree of freedom: %s", "df \u2208 \u211D<sup>+</sup>")
-    pars[[2]] <- gettextf("non-centrality: %s",    "ncp \u2208 \u211D")
-    
-    support <- "x \u2208 \u211D"
-    
+    pars[[1]] <- gettextf("shape: %s \nscale: %s", "k \u2208 \u211D<sup>+</sup>", "&lambda; \u2208 \u211D<sup>+</sup>")
+
+    support <- "x \u2208 \u211D<sup>+</sup>"
+
     moments <- list()
-    moments$expectation <- gettext("does not exist unless df > 1")
-    moments$variance <- gettext("does not exist unless df > 2")
-    
+    moments$expectation <- "&lambda;"
+    moments$variance <- "&lambda;<sup>2</sup>"
+
     jaspResults[['parsSupportMoments']] <- .ldParsSupportMoments(pars, support, moments)
   }
 }
 
-.ldFormulaTPDF <- function(options){
+.ldFormulaWeibullPDF <- function(options){
+  if(options[['parametrization']] == "scale"){
     text <- "<MATH>
-    f(x; <span style='color:red'>&df;</span>, <span style='color:blue'>ncp</span>) =
+    f(x; <span style='color:red'>&beta;</span>) =
     </MATH>"
-  
+  } else {
+    text <- "<MATH>
+    f(x; <span style='color:red'>&lambda;</span>) = <span style='color:red'>&lambda;</span>exp(-<span style='color:red'>&lambda;</span>x)
+    </MATH>"
+  }
+
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
-.ldFormulaTCDF <- function(options){
-  text <- "<MATH>
-    F(x; <span style='color:red'>&df;</span>, <span style='color:blue'>ncp</span>) =
+.ldFormulaWeibullCDF <- function(options){
+  if(options$parametrization == "scale"){
+    text <- "<MATH>
+    F(x; <span style='color:red'>&beta;</span>) =
     </MATH>"
-  
+  } else{
+
+  }
+
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
-.ldFormulaTQF <- function(options){
-  text <- "<MATH>
-    Q(p; <span style='color:red'>&df;</span>, <span style='color:blue'>ncp</span>) =
+.ldFormulaWeibullQF <- function(options){
+  if(options$parametrization == "rate"){
+    text <- "<MATH>
+    Q(p; <span style='color:red'>&beta;</span>) =
     </MATH>"
-  
+  } else{
+
+  }
+
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
 #### Table functions ----
 
-.ldFillTEstimatesTable <- function(table, results, options, ready){
+.ldFillWeibullEstimatesTable <- function(table, results, options, ready){
   if(!ready) return()
   if(is.null(results)) return()
   if(is.null(table)) return()
-  
-  par1 <- c(df = "df")
-  par2 <- c(ncp = "ncp")
+
+  par <- c(shape = "k", scale = "\u03BB")
   res <- results$structured
-  res <- res[res$par %in% names(c(par1, par2)),]
-  res$parName <- c(par1, par2)
-  
+  res <- res[res$par %in% names(par),]
+  res$parName <- par
+
   if(results$fitdist$convergence != 0){
     table$addFootnote(gettext("The optimization did not converge, try adjusting the parameter values."), symbol = gettext("<i>Warning.</i>"))
   }
   if(!is.null(results$fitdist$optim.message)){
     table$addFootnote(results$fitdist$message, symbol = gettext("<i>Warning.</i>"))
   }
-  
+
   table$setData(res)
-  
+
   return()
 }

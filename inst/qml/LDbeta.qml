@@ -31,7 +31,7 @@ Form
 		Group
 		{
 			Layout.columnSpan: 2
-			title: "Parameters"
+			title: qsTr("Parameters")
 			Group
 			{
 				columns: 2

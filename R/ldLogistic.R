@@ -16,59 +16,59 @@
 #
 
 LDlogistic <- function(jaspResults, dataset, options, state=NULL){
-  options <- .recodeOptionsLDLogistic(options)
-  
+  options <- .ldRecodeOptionsLogistic(options)
+
   #### Show distribution section ----
-  .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("logistic distribution"), 
+  .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("logistic distribution"),
                       parSupportMoments = .ldLogisticParsSupportMoments,
-                      formulaPDF        = .ldFormulaLogisticPDF, 
-                      formulaCDF        = .ldFormulaLogisticCDF, 
+                      formulaPDF        = .ldFormulaLogisticPDF,
+                      formulaCDF        = .ldFormulaLogisticCDF,
                       formulaQF         = .ldFormulaLogisticQF)
-  
+
   #### Generate and Display data section ----
   # simulate and read data
   .simulateData(jaspResults, options)
-  
+
   ready <- options[['variable']] != ""
   errors <- FALSE
   if(ready && is.null(dataset)){
     dataset <- .readDataSetToEnd(columns.as.numeric = options[['variable']])
-    
+
     variable <- dataset[[.v(options[['variable']])]]
     variable <- variable[!is.na(variable)]
     errors <- .hasErrors(dataset, type = c("observations", "variance", "infinity", "limits"),
                          observations.amount = "<2",
-                         limits.min = options$support$min, limits.max = options$support$max, 
+                         limits.min = options$support$min, limits.max = options$support$max,
                          exitAnalysisIfErrors = FALSE)
   }
-  
+
   # overview of the data
   .ldDescriptives(jaspResults, variable, options, ready, errors, "continuous")
-  
+
   #### Fit data and assess fit ----
   .ldMLE(jaspResults, variable, options, ready, errors, .ldFillLogisticEstimatesTable)
-  
+
   return()
 }
 
-.recodeOptionsLDLogistic <- function(options){
+.ldRecodeOptionsLogistic <- function(options){
   options[['parValNames']] <- c("mu", "sigma")
-  
+
   options[['pars']]   <- list(location = options[['mu']], scale = options[['sigma']])
   options[['pdfFun']] <- stats::dlogis
   options[['cdfFun']] <- stats::plogis
   options[['qFun']]   <- stats::qlogis
   options[['rFun']]   <- stats::rlogis
   options[['distNameInR']] <- "logis"
-  
+
   options <- .ldOptionsDeterminePlotLimits(options)
-  
+
   options$support <- list(min = -Inf, max = Inf)
   options$lowerBound <- c(-Inf, 0)
   options$upperBound <- c(Inf, Inf)
-  
+
   options$transformations <- c(mu = "location", sigma = "scale")
-  
+
   options
 }
 
@@ -78,13 +78,13 @@ LDlogistic <- function(jaspResults, dataset, options, state=NULL){
     pars <- list()
     pars[[1]] <- gettextf("location: &mu; %s","\u2208 \u211D")
     pars[[2]] <- gettextf("scale: %s", "&sigma; \u2208 \u211D<sup>+</sup>")
-    
+
     support <- "x \u2208 \u211D"
-    
+
     moments <- list()
     moments$expectation <- gettext("&mu;")
     moments$variance <- gettext("(&sigma; &pi;)<sup>2</sup> / 3")
-    
+
     jaspResults[['parsSupportMoments']] <- .ldParsSupportMoments(pars, support, moments)
   }
 }
@@ -92,34 +92,34 @@ LDlogistic <- function(jaspResults, dataset, options, state=NULL){
 .ldFormulaLogisticPDF <- function(options){
   if(options[['parametrization']] == "scale"){
     text <- "<MATH>
-    f(x; <span style='color:red'>&beta;</span>) = 
+    f(x; <span style='color:red'>&beta;</span>) =
     </MATH>"
   } else {
     text <- "<MATH>
     f(x; <span style='color:red'>&lambda;</span>) = <span style='color:red'>&lambda;</span>exp(-<span style='color:red'>&lambda;</span>x)
     </MATH>"
   }
-  
+
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
 .ldFormulaLogisticCDF <- function(options){
   if(options$parametrization == "scale"){
     text <- "<MATH>
-    F(x; <span style='color:red'>&beta;</span>) = 
+    F(x; <span style='color:red'>&beta;</span>) =
     </MATH>"
-  } 
-  
+  }
+
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
 .ldFormulaLogisticQF <- function(options){
   if(options$parametrization == "rate"){
     text <- "<MATH>
-    Q(p; <span style='color:red'>&beta;</span>) = 
+    Q(p; <span style='color:red'>&beta;</span>) =
     </MATH>"
   }
-  
+
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
@@ -129,19 +129,19 @@ LDlogistic <- function(jaspResults, dataset, options, state=NULL){
   if(!ready) return()
   if(is.null(results)) return()
   if(is.null(table)) return()
-  
+
   par <- c(location = "\u03BC", scale = "\u03C3")
   res <- results$structured
   res$parName <- par
-  
+
   if(results$fitdist$convergence != 0){
     table$addFootnote(gettext("The optimization did not converge, try adjusting the parameter values."), symbol = gettext("<i>Warning.</i>"))
   }
   if(!is.null(results$fitdist$optim.message)){
     table$addFootnote(results$fitdist$message, symbol = gettext("<i>Warning.</i>"))
   }
-  
+
   table$setData(res)
-  
+
   return()
 }

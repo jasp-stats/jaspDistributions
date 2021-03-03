@@ -70,7 +70,7 @@ Section
 		{
 			visible: showStatisticsMoment
 			name: "moments"; label: qsTr("First"); childrenOnSameRow: true
-			IntegerField{name: "momentsUpTo"; afterLabel: qsTr("observed moments"); defaultValue: 2; min: 1; max: 10}
+			IntegerField{name: "momentsUpTo"; afterLabel: qsTr("observed moments"); defaultValue: 2; min: 1 }
 		}
 	}
 
