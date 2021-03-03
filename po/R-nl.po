@@ -1,0 +1,564 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: R 3.6.1\n"
+"Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
+"POT-Creation-Date: 2021-01-05 09:39\n"
+"PO-Revision-Date: 2020-12-02 21:29+0000\n"
+"Last-Translator: JASP Stats <F.A.M.Meerhoff@uva.nl>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/jasp/jasp-engine/"
+"nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n==0 ? 0 : n==1 ? 0 : 1;\n"
+"X-Generator: Weblate 4.4-dev\n"
+
+msgid ""
+"The following problem(s) occurred while running the analysis:"
+"<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
+msgstr ""
+"De volgende problemen deden zich voor tijdens uitvoeren van de analyse:"
+"<ul><li>Variabele moet discreet zijn (bijv., integer)</li></ul>"
+
+msgid "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
+msgstr "<ul><li>Variabele moet discreet zijn (bijv., integer)</li></ul>"
+
+msgid "Overview - %s"
+msgstr "Overzicht - %s"
+
+msgid "Descriptives"
+msgstr "Beschrijvende statistiek"
+
+msgid "Variable"
+msgstr "Variabele"
+
+msgid "n"
+msgstr "n"
+
+msgid "Mean"
+msgstr "Gemiddelde"
+
+msgid "Variance"
+msgstr "Variantie"
+
+msgid "Std. deviation"
+msgstr "Standaardafwijking"
+
+msgid "Minimum"
+msgstr "Minimum"
+
+msgid "25%% Quantile"
+msgstr "25%% Kwartiel"
+
+msgid "Median"
+msgstr "Mediaan"
+
+msgid "75%% Quantile"
+msgstr "75%% Kwartiel"
+
+msgid "Maximum"
+msgstr "Maximum"
+
+msgid "Rel. Frequency"
+msgstr "Rel. Frequentie"
+
+msgid "Total"
+msgstr "Totaal"
+
+msgid "Observed Moments"
+msgstr "Geobserveerde momenten"
+
+msgid "Moment"
+msgstr "Moment"
+
+msgid "Raw"
+msgstr "Ruw"
+
+msgid "Central"
+msgstr "Centraal"
+
+msgid "Estimated Parameters"
+msgstr "Geschatte Parameters"
+
+msgid "Parameter"
+msgstr "Parameter"
+
+msgid "Estimate"
+msgstr "Schatting"
+
+msgid "SE"
+msgstr "Std. Fout"
+
+msgid "Standard errors are unavailable with this method"
+msgstr "Standaardfouten zijn niet beschikbaar met deze methode"
+
+msgid "Lower"
+msgstr "Onder"
+
+msgid "%s%% CI"
+msgstr "%s%% BI"
+
+msgid "Upper"
+msgstr "Boven"
+
+msgid "Confidence intervals are unavailable with this method."
+msgstr "Betrouwbaarheidsintervallen zijn niet beschikbaar met deze methode."
+
+msgid "Confidence intervals were calculated using the delta method."
+msgstr "Betrouwbaarheidsintervallen zijn berekend met de delta-methode."
+
+msgid "Standard errors were calculated using the delta method."
+msgstr "Standaardfouten zijn berekend met de delta-methode."
+
+msgid ""
+"Standard errors and confidence intervals were calculated using the delta "
+"method."
+msgstr ""
+"Standaardfouten betrouwbaarheidsintervallen zijn berekend met de "
+"deltamethode."
+
+msgid "Maximum likelihood"
+msgstr "Meest aannemelijke schatter"
+
+msgid "Fit Assessment"
+msgstr "Passingsbeoordeling"
+
+msgid "Fit Statistics"
+msgstr "Pasmaten"
+
+msgid "Test"
+msgstr "Toets"
+
+msgid "Statistic"
+msgstr "Statistiek"
+
+msgid "p"
+msgstr "p"
+
+msgid "Kolmogorov-Smirnov"
+msgstr "Kolmogorov-Smirnov"
+
+msgid "Cramér-von Mises"
+msgstr ""
+
+msgid "Anderson-Darling"
+msgstr "Anderson-Darling"
+
+msgid "Shapiro-Wilk"
+msgstr "Shapiro-Wilk"
+
+msgid "Chi-square"
+msgstr "Chi-kwadraat"
+
+msgid "Histogram vs. Theoretical PDF"
+msgstr "Histogram vs. Theoretische PDF"
+
+msgid "Histogram vs. Theoretical PMF"
+msgstr "Histogram vs. Theoretische PMF"
+
+msgid "Q-Q plot"
+msgstr "Q-Q plot"
+
+msgid "Empirical vs. Theoretical CDF"
+msgstr "Empirische vs. theoretische CDF"
+
+msgid "P-P plot"
+msgstr "P-P plot"
+
+msgid "Theoretical"
+msgstr "Theoretisch"
+
+msgid "Sample"
+msgstr "Steekproef"
+
+msgid "Density"
+msgstr "Dichtheid"
+
+msgid "Probability Mass"
+msgstr "Kansdichtheid"
+
+msgid "Probability"
+msgstr "Kansverdeling"
+
+msgid "Probability Density Function"
+msgstr "Kansdichtheidsfunctie"
+
+msgid "Probability Mass Function"
+msgstr "Kansmassafunctie"
+
+msgid "Cumulative Distribution Function"
+msgstr "Cumulatieve Verdelingsfunctie"
+
+msgid "Quantile Function"
+msgstr "Kwantielfunctie"
+
+msgid "Formula"
+msgstr "Formule"
+
+msgid "Density Plot"
+msgstr "Dichtheid Grafiek"
+
+msgid "Cumulative Probability Plot"
+msgstr "Cumulatieve Kansverdelingsgrafiek"
+
+msgid "Slope"
+msgstr "Helling"
+
+msgid "Quantile Plot"
+msgstr "Kwantiel Grafiek"
+
+msgid "Probability Mass Plot"
+msgstr "Kansdichtheidsgrafiek"
+
+msgid "Histogram"
+msgstr "Histogram"
+
+msgid "Bar plot"
+msgstr "Staafdiagram"
+
+msgid "Rel. Freq (%s in bin)"
+msgstr "Rel. Freq. (%s in bin)"
+
+msgid "Empirical Cumulative Distribution"
+msgstr "Empirische Cumulatieve Verdeling"
+
+msgid "Freq"
+msgstr "Frequentie"
+
+msgid "Parameters, Support, and Moments"
+msgstr "Parameters, Drager, en Momenten"
+
+msgid ""
+"<b>Parameters</b>\n"
+"      %s\n"
+"      \n"
+"      <b>Support</b>\n"
+"      %s\n"
+"      \n"
+"      <b>Moments</b>\n"
+"      E(X) = %s\n"
+"      Var(X) = %s"
+msgstr ""
+"<b>Parameters</b>\n"
+"      %s\n"
+"      \n"
+"      <b>Ondersteuning</b>\n"
+"      %s\n"
+"      \n"
+"      <b>Momenten</b>\n"
+"      E(X) = %s\n"
+"      Var(X) = %s"
+
+msgid ""
+"<b>Parameters</b>\n"
+"      %s\n"
+"      \n"
+"      <b>Support</b>\n"
+"      %s\n"
+"      \n"
+"      <b>Moments</b>\n"
+"      not available"
+msgstr ""
+"<b>Parameters</b>\n"
+"      %s\n"
+"      \n"
+"      <b>Ondersteuning</b>\n"
+"      %s\n"
+"      \n"
+"      <b>Momenten</b>\n"
+"      niet beschikbaar"
+
+msgid ""
+"The probability density function (PDF), usually denoted as f(x), is a "
+"function of a random variable X.\n"
+"    The value of f(x) provides the relative likelihood that a realization of "
+"the random variable X yields a value equal to x. \n"
+"    More formally, the PDF is defined as a derivative of a cumulative "
+"distribution function (CDF).\n"
+"    \n"
+"    The density plot displays the probability density function of a random "
+"variable.\n"
+"    The <i>y</i>-axis displays the value of the density function for a "
+"particular value of the random variable (displayed on the <i>x</i>-axis)."
+msgstr ""
+"De kansdichtheidsfunctie (PDF), meestal genoteerd als f(x), is een functie "
+"van een willekeurige variabele X.\n"
+"    De waarde van f(x) geeft de relatieve kans dat een realisatie van de "
+"willekeurige variabele X een waarde geeft die gelijk is aan x. \n"
+"    Formeel gezegd, de PDF is gedefinieerd als een afgeleide van een "
+"cumulatieve verdelingsfunctie (CDF).\n"
+"    \n"
+"    De dichtheidsgrafiek geeft de kansfunctie van een willekeurige "
+"variabele.\n"
+"    De <i>y</i>-as geeft de waarde van de dichtheidsfunctie voor een "
+"bepaalde waarde van de willekeurige variabele (weergegeven op de <i>x</i>-"
+"as)."
+
+msgid ""
+"The probability mass function (PMF), usually denoted as f(x), is a function "
+"of a random variable X.\n"
+"    The value of f(x) provides the probability that a realization of the "
+"random variable X yields a value equal to x.\n"
+"    \n"
+"    The probability mass plot displays the probability mass function of a "
+"random variable.\n"
+"    The <i>y</i>-axis displays the value of the probability mass function "
+"for a particular value of the random variable (displayed on the <i>x</i>-"
+"axis)."
+msgstr ""
+"De kansmassafunctie (PMF), meestal genoteerd als f(x), is een functie van de "
+"willekeurige variabele X.\n"
+"    De waarde van f(x) geeft de kans dat een realisatie van de willekeurige "
+"variabele X een waarde gelijk aan x geeft.\n"
+"    \n"
+"    De kansmassagrafiek geeft de kansmassafunctie van een willekeurige "
+"variabele.\n"
+"    De <i>y</i>-as geeft de waarde weer van de kansmassafunctie voor een "
+"bepaalde waarde van de willekeurige variabele (weergegeven op de <i>x</i>-"
+"as)."
+
+msgid ""
+"The cumulative distribution function (CDF), usually denoted as F(x), is a "
+"function of a random variable X.\n"
+"    The value of F(x) provides the probability that a realization of the "
+"random variable X yields a value that is equal to or smaller than x.\n"
+"    \n"
+"    The cumulative probability plot displays the cumulative distribution of "
+"a random variable.\n"
+"    The <i>y</i>-axis displays the value of the cumulative distribution "
+"function for a particular value of the random variable (displayed on the "
+"<i>x</i>-axis)."
+msgstr ""
+"De cumulatieve verdelingsfunctie (CDF), meestal genoteerd als F(x), is een "
+"functie van een willekeurige variabele X.\n"
+"    De waarde van F(x) geeft de kans dat een realisatie van de willekeurige "
+"variabele X een waarde geeft die gelijk is of kleiner dan x.\n"
+"    \n"
+"    De cumulatieve kansverdelingsgrafiek geeft de cumulatieve verdeling van "
+"een willekeurige variabele weer.\n"
+"    De <i>y</i>-as geeft de waarde weer van de cumulatieve verdelingsfunctie "
+"van een bepaalde waarde van de willekeurige variabele (weergegeven op de "
+"<i>x</i>-as)."
+
+msgid ""
+"The quantile function, usually denoted as Q(p), is the inverse of the "
+"cumulative distribution function.\n"
+"    The function gives the quantile such that the probability of the random "
+"variable being less than or equal to that value equals the given probability "
+"p.   \n"
+"    \n"
+"    The quantile plot displays the quantile function.\n"
+"    The <i>y</i>-axis displays the quantile of which the probability that "
+"the random variable is less or equal to that value is equal to p (displayed "
+"on the <i>x</i>-axis)."
+msgstr ""
+"De kwantielfunctie, vaak genoteerd als Q(p), is de inverse van de "
+"cumulatieve verdelingsfunctie.\n"
+"    De functie geeft het kwantiel zo dat de kans dat de willekeurige "
+"variabele minder dan of gelijk is aan die waarde gelijk is aan de gegeven "
+"kans p.   \n"
+"    \n"
+"    De kwantielgrafiek geeft de kwantielfunctie weer. \n"
+"    De <i>y</i>-as geeft het kwantiel weer waarvan de kans dat de "
+"willekeurige variabele minder is of gelijk is aan die waarde, gelijk is aan "
+"p (weergegeven op de <i>x</i>-as)."
+
+#, fuzzy
+msgid ""
+"<h3> Demonstration of the %1$s </h3>\n"
+"This demonstration is divided into four parts.\n"
+"The first part displays the %2$s, its probability density function, "
+"cumulative distribution function, and quantile function.\n"
+"The second part allows you to generate data from the %3$s, compute "
+"descriptive statistics, and display descriptive plots.\n"
+"The third part allows you to estimate the parameters of the %4$s.\n"
+"The fourth part allows you to check the fit of the %5$s to the data.\n"
+"\n"
+"<b>References</b>\n"
+"\n"
+"Blitzstein, J. K., & Hwang, J. (2014). <i>Introduction to probability.</i> "
+"Chapman and Hall/CRC.\n"
+"\n"
+"Leemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, "
+"16</i>(4), 8–9.\n"
+"\n"
+"For relationships with other distributions, visit www.math.wm.edu/~leemis/"
+"chart/UDR/UDR.html.\n"
+"\n"
+"https://en.wikipedia.org/wiki/List_of_probability_distributions"
+msgstr ""
+"<h3> Demonstratie van de %1$s </h3>\n"
+"Deze demonstratie bestaat uit vier delen.\n"
+"Het eerste deel toont de %2$s, zijn kansdichtheidsfunctie, de cumulatieve "
+"verdelingsfunctie en kwantielfunctie.\n"
+"Met het tweede deel kunt u gegevens genereren uit de %3$s, beschrijvende "
+"statistieken berekenen en beschrijvende grafieken weergeven.\n"
+"In het derde deel kunt u de parameters van de %4$s schatten.\n"
+"In het vierde deel kunt u de passing van de %5$s met de gegevens "
+"controleren.\n"
+"\n"
+"<b>Referenties</b>\n"
+"\n"
+"Blitzstein, J. K., & Hwang, J. (2014). <i>Introduction to probability.</i> "
+"Chapman and Hall/CRC.\n"
+"\n"
+"Leemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, "
+"16</i>(4), 8-9.\n"
+"\n"
+"Ga voor verwantschappen met andere verdelingen naar www.math.wm.edu/~leemis/"
+"chart/UDR/UDR.html.\n"
+"\n"
+"https://en.wikipedia.org/wiki/List_of_probability_distributions"
+
+msgid ""
+"Estimation failed: Optimization did not converge. <ul><li>Try adjusting "
+"parameter values, check outliers or feasibility of the distribution fitting "
+"the data.</li></ul>"
+msgstr ""
+"Schatting mislukt: Optimalisatie convergeerde niet. <ul><li> Probeer "
+"parameterwaarden bij te stellen, controleer uitschieters of haalbaarheid van "
+"de fitting van de gegevens.</li></ul>"
+
+msgid ""
+"Estimation failed: Hessian matrix is not numerically computable. "
+"<ul><li>Check outliers or feasibility of the distribution fitting the data.</"
+"li></ul>"
+msgstr ""
+"Schatting mislukt: Hessiaanse matrix is niet numeriek te berekenen. <ul><li> "
+"Controleer uitschieters of haalbaarheid van de fitting van de gegevens.</"
+"li></ul>"
+
+msgid "Bernoulli distribution"
+msgstr "Bernoulli verdeling"
+
+msgid "probability of success: p %s %s: 0 %s p %s 1"
+msgstr "kans op succes: p %s %s: 0 %s p %s 1"
+
+msgid "x %s {0, 1}"
+msgstr "x %s {0, 1}"
+
+msgid "p(1-p)"
+msgstr "p(1-p)"
+
+msgid "The optimization did not converge, try adjusting the parameter values."
+msgstr ""
+"De optimalisatie kon niet convergeren, probeer de waarden van de parameters "
+"aan te passen."
+
+msgid "<i>Warning.</i>"
+msgstr "<i>Waarschuwing.</i>"
+
+msgid "beta distribution"
+msgstr "betaverdeling"
+
+msgid "shape: %s"
+msgstr "vorm: %s"
+
+msgid "binomial distribution"
+msgstr "binomiale verdeling"
+
+msgid "probability of success: %s"
+msgstr "kans op succes: %s"
+
+msgid "number of trials: %s"
+msgstr "steekproefgrootte: %s"
+
+msgid "Parameter n was fixed at value %s."
+msgstr "Parameter n werd bepaald op waarde %s."
+
+msgid "%s<sup>2</sup> distribution"
+msgstr "%s<sup>2</sup> verdeling"
+
+msgid "degree of freedom: %s"
+msgstr "vrijheidsgraden: %s"
+
+msgid "non-centrality: %s"
+msgstr "niet-centraal: %s"
+
+msgid "exponential distribution"
+msgstr "exponentiële verdeling"
+
+msgid "scale: %s"
+msgstr "schaal: %s"
+
+msgid "rate: %s"
+msgstr "ratio: %s"
+
+msgid "F-distribution"
+msgstr "F-verdeling"
+
+msgid "gamma distribution"
+msgstr "gamma verdeling"
+
+msgid "mean: %s"
+msgstr "gemiddelde: %s"
+
+msgid "inverse gamma distribution"
+msgstr "inverse gamma verdeling"
+
+msgid "normal distribution"
+msgstr "normaal verdeling"
+
+msgid "mean: &mu; %s"
+msgstr "gemiddelde: &mu; %s"
+
+msgid "variance: %s"
+msgstr "variantie: %s"
+
+msgid "standard deviation: %s"
+msgstr "standaarddeviatie: %s"
+
+msgid "precision: %s"
+msgstr "nauwkeurigheid: %s"
+
+msgid "square root of precision: %s"
+msgstr "kwadraatwortel van nauwkeurigheid: %s"
+
+msgid "&mu;"
+msgstr "&mu;"
+
+msgid "logistic distribution"
+msgstr "Logistische verdeling"
+
+msgid "location: &mu; %s"
+msgstr "locatie: &mu; %s"
+
+msgid "(&sigma; &pi;)<sup>2</sup> / 3"
+msgstr "(&sigma; &pi;)<sup>2</sup> / 3"
+
+msgid "log-normal distribution"
+msgstr "Lognormale verdeling"
+
+msgid "log mean: &mu; %s"
+msgstr "log gemiddelde: &mu; %s"
+
+msgid "log standard deviation: %s"
+msgstr "log standaarddeviatie: %s"
+
+msgid "exp(&mu; + &sigma;<sup>2</sup>/2)"
+msgstr "exp(&mu; + &sigma;<sup>2</sup>/2)"
+
+msgid "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
+msgstr "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
+
+msgid "negative binomial distribution"
+msgstr "negatief-binomiale verdeling"
+
+msgid "number of successes: %s"
+msgstr "aantal successen: %s"
+
+msgid "dispersion: %s"
+msgstr "dispersie: %s"
+
+msgid "Poisson distribution"
+msgstr "Poisson verdeling"
+
+msgid "t-distribution"
+msgstr "t-verdeling"
+
+msgid "does not exist unless df > 1"
+msgstr "bestaat niet tenzij vg > 1"
+
+msgid "does not exist unless df > 2"
+msgstr "bestaat niet tenzij vg > 2"
