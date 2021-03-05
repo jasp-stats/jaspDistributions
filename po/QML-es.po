@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-03-06 09:51+0000\n"
+"Last-Translator: Paulina Elizabeth Robalino <paulina.e.robalino@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.5.1\n"
 "X-Language: en_US\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -350,10 +356,9 @@ msgctxt "LDbernoulli|"
 msgid "Probability of success:"
 msgstr "Probabilidad para:"
 
-#, fuzzy
 msgctxt "LDbernoulli|"
 msgid "p"
-msgstr "pags"
+msgstr "p"
 
 #, fuzzy
 msgctxt "LDbernoulli|"
@@ -485,10 +490,9 @@ msgctxt "LDbinomial|"
 msgid "Probability of success:"
 msgstr "Probabilidad para:"
 
-#, fuzzy
 msgctxt "LDbinomial|"
 msgid "p"
-msgstr "pags"
+msgstr "p"
 
 #, fuzzy
 msgctxt "LDbinomial|"
