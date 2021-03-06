@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: JASP 0.9.2\n"
-"POT-Creation-Date: 2021-01-05 09:39\n"
+"POT-Creation-Date: 2021-03-06 16:28\n"
 "PO-Revision-Date: 2021-03-06 09:51+0000\n"
 "Last-Translator: Paulina Elizabeth Robalino <paulina.e.robalino@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
@@ -161,10 +161,10 @@ msgstr ""
 msgid "P-P plot"
 msgstr ""
 
-msgid "Theoretical"
+msgid "Sample"
 msgstr ""
 
-msgid "Sample"
+msgid "Theoretical"
 msgstr ""
 
 msgid "Density"
@@ -227,10 +227,10 @@ msgstr ""
 msgid ""
 "<b>Parameters</b>\n"
 "      %s\n"
-"      \n"
+"\n"
 "      <b>Support</b>\n"
 "      %s\n"
-"      \n"
+"\n"
 "      <b>Moments</b>\n"
 "      E(X) = %s\n"
 "      Var(X) = %s"
@@ -239,10 +239,10 @@ msgstr ""
 msgid ""
 "<b>Parameters</b>\n"
 "      %s\n"
-"      \n"
+"\n"
 "      <b>Support</b>\n"
 "      %s\n"
-"      \n"
+"\n"
 "      <b>Moments</b>\n"
 "      not available"
 msgstr ""
@@ -251,10 +251,10 @@ msgid ""
 "The probability density function (PDF), usually denoted as f(x), is a "
 "function of a random variable X.\n"
 "    The value of f(x) provides the relative likelihood that a realization of "
-"the random variable X yields a value equal to x. \n"
+"the random variable X yields a value equal to x.\n"
 "    More formally, the PDF is defined as a derivative of a cumulative "
 "distribution function (CDF).\n"
-"    \n"
+"\n"
 "    The density plot displays the probability density function of a random "
 "variable.\n"
 "    The <i>y</i>-axis displays the value of the density function for a "
@@ -266,7 +266,7 @@ msgid ""
 "of a random variable X.\n"
 "    The value of f(x) provides the probability that a realization of the "
 "random variable X yields a value equal to x.\n"
-"    \n"
+"\n"
 "    The probability mass plot displays the probability mass function of a "
 "random variable.\n"
 "    The <i>y</i>-axis displays the value of the probability mass function "
@@ -279,7 +279,7 @@ msgid ""
 "function of a random variable X.\n"
 "    The value of F(x) provides the probability that a realization of the "
 "random variable X yields a value that is equal to or smaller than x.\n"
-"    \n"
+"\n"
 "    The cumulative probability plot displays the cumulative distribution of "
 "a random variable.\n"
 "    The <i>y</i>-axis displays the value of the cumulative distribution "
@@ -292,8 +292,8 @@ msgid ""
 "cumulative distribution function.\n"
 "    The function gives the quantile such that the probability of the random "
 "variable being less than or equal to that value equals the given probability "
-"p.   \n"
-"    \n"
+"p.\n"
+"\n"
 "    The quantile plot displays the quantile function.\n"
 "    The <i>y</i>-axis displays the quantile of which the probability that "
 "the random variable is less or equal to that value is equal to p (displayed "
@@ -336,6 +336,30 @@ msgid ""
 "li></ul>"
 msgstr ""
 
+msgid "Amoroso distribution"
+msgstr ""
+
+msgid "location: a %s"
+msgstr ""
+
+msgid "scale: %s"
+msgstr ""
+
+msgid "shape: %s"
+msgstr ""
+
+msgid "The optimization did not converge, try adjusting the parameter values."
+msgstr ""
+
+msgid "<i>Warning.</i>"
+msgstr ""
+
+msgid "Scale parameter %s is assumed positive."
+msgstr ""
+
+msgid "Scale parameter %s is assumed negative."
+msgstr ""
+
 msgid "Bernoulli distribution"
 msgstr ""
 
@@ -348,16 +372,25 @@ msgstr ""
 msgid "p(1-p)"
 msgstr ""
 
-msgid "The optimization did not converge, try adjusting the parameter values."
-msgstr ""
-
-msgid "<i>Warning.</i>"
-msgstr ""
-
 msgid "beta distribution"
 msgstr ""
 
-msgid "shape: %s"
+msgid "beta-binomial distribution"
+msgstr ""
+
+msgid "number of trials: %s"
+msgstr ""
+
+msgid "Parameter n was fixed at value %s."
+msgstr ""
+
+msgid "beta prime distribution"
+msgstr ""
+
+msgid "lower bound: %s"
+msgstr ""
+
+msgid "upper bound: %s"
 msgstr ""
 
 msgid "binomial distribution"
@@ -366,10 +399,13 @@ msgstr ""
 msgid "probability of success: %s"
 msgstr ""
 
-msgid "number of trials: %s"
+msgid "Cauchy distribution"
 msgstr ""
 
-msgid "Parameter n was fixed at value %s."
+msgid "location: &mu; %s"
+msgstr ""
+
+msgid "undefined"
 msgstr ""
 
 msgid "%s<sup>2</sup> distribution"
@@ -384,13 +420,19 @@ msgstr ""
 msgid "exponential distribution"
 msgstr ""
 
-msgid "scale: %s"
-msgstr ""
-
 msgid "rate: %s"
 msgstr ""
 
 msgid "F-distribution"
+msgstr ""
+
+msgid "Fréchet distribution"
+msgstr ""
+
+msgid "location: %s"
+msgstr ""
+
+msgid "see Wikipedia: https://en.wikipedia.org/wiki/Fr%C3%A9chet_distribution"
 msgstr ""
 
 msgid "gamma distribution"
@@ -423,10 +465,53 @@ msgstr ""
 msgid "&mu;"
 msgstr ""
 
-msgid "logistic distribution"
+msgid "geometric distribution"
 msgstr ""
 
-msgid "location: &mu; %s"
+msgid "population size: %s"
+msgstr ""
+
+msgid "number of success states in the population: %s"
+msgstr ""
+
+msgid "number of draws from the population: %s"
+msgstr ""
+
+msgid "Gompertz distribution"
+msgstr ""
+
+msgid ""
+"shape: %s \n"
+"scale: %s"
+msgstr ""
+
+msgid "Gumbel distribution"
+msgstr ""
+
+msgid "hypergeometric distribution"
+msgstr ""
+
+msgid "Laplace distribution"
+msgstr ""
+
+msgid "log-logistic distribution"
+msgstr ""
+
+msgid "log location: &mu; %s"
+msgstr ""
+
+msgid "log scale: %s"
+msgstr ""
+
+msgid "scale: &alpha; %s"
+msgstr ""
+
+msgid ""
+"see Wikipedia: https://en.wikipedia.org/wiki/Log-"
+"logistic_distribution#Moments"
+msgstr ""
+
+msgid "logistic distribution"
 msgstr ""
 
 msgid "(&sigma; &pi;)<sup>2</sup> / 3"
@@ -447,6 +532,45 @@ msgstr ""
 msgid "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
 msgstr ""
 
+msgid "mixture of two normal distributions"
+msgstr ""
+
+msgid "probability of first component: %s"
+msgstr ""
+
+msgid "mean 1: %s"
+msgstr ""
+
+msgid "std. deviation 1: %s"
+msgstr ""
+
+msgid "mean 2: %s"
+msgstr ""
+
+msgid "std. deviation 2: %s"
+msgstr ""
+
+msgid "mixture of a normal and a uniform distribution"
+msgstr ""
+
+msgid "probability of normal component: %s"
+msgstr ""
+
+msgid "mean of normal distribution: %s"
+msgstr ""
+
+msgid "std. deviation of normal distribution: %s"
+msgstr ""
+
+msgid "minimum of uniform distribution: %s"
+msgstr ""
+
+msgid "maximum of uniform distribution: %s"
+msgstr ""
+
+msgid "Parameter a was fixed at value %s, parameter b was fixed at value %s."
+msgstr ""
+
 msgid "negative binomial distribution"
 msgstr ""
 
@@ -456,14 +580,93 @@ msgstr ""
 msgid "dispersion: %s"
 msgstr ""
 
+msgid "zero-inflated negative binomial distribution"
+msgstr ""
+
+msgid "probability of zero process: %s"
+msgstr ""
+
+msgid "generalized normal distribution"
+msgstr ""
+
+msgid ""
+"see Wikipedia - https://en.wikipedia.org/wiki/"
+"Generalized_normal_distribution#Moments"
+msgstr ""
+
+msgid "skew normal distribution"
+msgstr ""
+
+msgid "Pareto distribution"
+msgstr ""
+
 msgid "Poisson distribution"
 msgstr ""
 
-msgid "t-distribution"
+msgid "zero-inflated Poisson distribution"
+msgstr ""
+
+msgid "noncentral t-distribution"
+msgstr ""
+
+msgid "degrees of freedom: %s"
 msgstr ""
 
 msgid "does not exist unless df > 1"
 msgstr ""
 
 msgid "does not exist unless df > 2"
+msgstr ""
+
+msgid "see Azzalini & Capitanio (2003)"
+msgstr ""
+
+msgid "skewed generalized t-distribution"
+msgstr ""
+
+msgid "skewness: %s"
+msgstr ""
+
+msgid "kurtosis: %s"
+msgstr ""
+
+msgid ""
+"see Wikipedia: https://en.wikipedia.org/wiki/"
+"Skewed_generalized_t_distribution#Moments"
+msgstr ""
+
+msgid "scaled, shifted Student's t-distribution"
+msgstr ""
+
+msgid "triangular distribution"
+msgstr ""
+
+msgid "minimum: %s"
+msgstr ""
+
+msgid "maximum: %s"
+msgstr ""
+
+msgid "mode: %s"
+msgstr ""
+
+msgid "uniform distribution"
+msgstr ""
+
+msgid "Wald distribution"
+msgstr ""
+
+msgid "drift rate: %s"
+msgstr ""
+
+msgid "threshold: %s"
+msgstr ""
+
+msgid "noise: %s"
+msgstr ""
+
+msgid "Parameter %s was fixed to 1."
+msgstr ""
+
+msgid "Weibull distribution"
 msgstr ""
