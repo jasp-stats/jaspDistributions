@@ -3,15 +3,16 @@ msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
 "POT-Creation-Date: 2021-03-06 16:28\n"
-"PO-Revision-Date: 2020-12-02 21:29+0000\n"
-"Last-Translator: JASP Stats <b.boutin@uva.nl>\n"
+"PO-Revision-Date: 2021-03-12 02:20+0000\n"
+"Last-Translator: Alex França <alex.tonante@gmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
-"jaspAnova/pt/>\n"
+"jaspdistributions-r/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.5.2-dev\n"
 "X-Language: en_US\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -42,16 +43,15 @@ msgstr ""
 msgid "Mean"
 msgstr "Médias"
 
-#, fuzzy
 msgid "Variance"
-msgstr "Variáveis"
+msgstr "Variância"
 
 #, fuzzy
 msgid "Std. deviation"
 msgstr "Padronização"
 
 msgid "Minimum"
-msgstr ""
+msgstr "Mínimo"
 
 msgid "25%% Quantile"
 msgstr ""
@@ -63,13 +63,13 @@ msgid "75%% Quantile"
 msgstr ""
 
 msgid "Maximum"
-msgstr ""
+msgstr "Máximo"
 
 msgid "Rel. Frequency"
 msgstr ""
 
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #, fuzzy
 msgid "Observed Moments"
@@ -159,7 +159,7 @@ msgid "Anderson-Darling"
 msgstr ""
 
 msgid "Shapiro-Wilk"
-msgstr ""
+msgstr "Shapiro-Wilk"
 
 msgid "Chi-square"
 msgstr ""
