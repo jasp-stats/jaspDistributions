@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JASP 0.9.2\n"
 "POT-Creation-Date: 2021-03-06 16:28\n"
-"PO-Revision-Date: 2021-03-13 16:02+0000\n"
+"PO-Revision-Date: 2021-03-18 05:18+0000\n"
 "Last-Translator: Paulina Elizabeth Robalino <paulina.e.robalino@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/es/>\n"
@@ -33,37 +33,37 @@ msgid "Variable"
 msgstr ""
 
 msgid "n"
-msgstr ""
+msgstr "n"
 
 msgid "Mean"
 msgstr "Media"
 
 msgid "Variance"
-msgstr ""
+msgstr "Varianza"
 
 msgid "Std. deviation"
 msgstr ""
 
 msgid "Minimum"
-msgstr ""
+msgstr "Mínimo"
 
 msgid "25%% Quantile"
 msgstr ""
 
 msgid "Median"
-msgstr ""
+msgstr "Mediana"
 
 msgid "75%% Quantile"
 msgstr ""
 
 msgid "Maximum"
-msgstr ""
+msgstr "Máximo"
 
 msgid "Rel. Frequency"
 msgstr ""
 
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 msgid "Observed Moments"
 msgstr ""
@@ -81,7 +81,7 @@ msgid "Estimated Parameters"
 msgstr ""
 
 msgid "Parameter"
-msgstr ""
+msgstr "Parametro"
 
 msgid "Estimate"
 msgstr ""
@@ -93,13 +93,13 @@ msgid "Standard errors are unavailable with this method"
 msgstr ""
 
 msgid "Lower"
-msgstr ""
+msgstr "Más bajo"
 
 msgid "%s%% CI"
 msgstr ""
 
 msgid "Upper"
-msgstr ""
+msgstr "Superior"
 
 msgid "Confidence intervals are unavailable with this method."
 msgstr ""
@@ -143,7 +143,7 @@ msgid "Anderson-Darling"
 msgstr ""
 
 msgid "Shapiro-Wilk"
-msgstr ""
+msgstr "Shapiro-Wilk"
 
 msgid "Chi-square"
 msgstr ""
@@ -170,7 +170,7 @@ msgid "Theoretical"
 msgstr ""
 
 msgid "Density"
-msgstr ""
+msgstr "Densidad"
 
 msgid "Probability Mass"
 msgstr ""
