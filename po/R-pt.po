@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
 "POT-Creation-Date: 2021-03-06 16:28\n"
-"PO-Revision-Date: 2021-03-19 18:18+0000\n"
-"Last-Translator: Alex França <alex.tonante@gmail.com>\n"
+"PO-Revision-Date: 2021-03-23 23:29+0000\n"
+"Last-Translator: Laura Durans <lauraadurans@gmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/pt/>\n"
 "Language: pt\n"
@@ -34,14 +34,14 @@ msgstr "Descritivas"
 
 #, fuzzy
 msgid "Variable"
-msgstr "Variáveis"
+msgstr "Variável"
 
 msgid "n"
 msgstr ""
 
 #, fuzzy
 msgid "Mean"
-msgstr "Médias"
+msgstr "Média"
 
 msgid "Variance"
 msgstr "Variância"
@@ -57,7 +57,7 @@ msgid "25%% Quantile"
 msgstr ""
 
 msgid "Median"
-msgstr ""
+msgstr "Mediana"
 
 msgid "75%% Quantile"
 msgstr ""
@@ -94,7 +94,6 @@ msgstr "Parâmetros"
 msgid "Parameter"
 msgstr "Parâmetros"
 
-#, fuzzy
 msgid "Estimate"
 msgstr "Estimativas"
 
@@ -105,14 +104,12 @@ msgstr "EP"
 msgid "Standard errors are unavailable with this method"
 msgstr ""
 
-#, fuzzy
 msgid "Lower"
 msgstr "Inferior"
 
 msgid "%s%% CI"
 msgstr ""
 
-#, fuzzy
 msgid "Upper"
 msgstr "Superior"
 
