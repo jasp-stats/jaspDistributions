@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-03-25 11:29+0000\n"
+"Last-Translator: Johannes Keyser <johanneskeyser@posteo.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.5.2-dev\n"
 "X-Language: en_US\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -294,7 +300,7 @@ msgstr "Erklärungstext"
 
 msgctxt "LDbernoulli|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, Träger und Momente"
+msgstr "Parameter, Träger, und Momente"
 
 msgctxt "LDbernoulli|"
 msgid "Formulas"
@@ -610,7 +616,7 @@ msgstr "Verteilung anzeigen"
 
 msgctxt "LDgamma|"
 msgid "Parameters"
-msgstr "Parameters"
+msgstr "Parameter"
 
 msgctxt "LDgamma|"
 msgid "Shape:"
@@ -1010,7 +1016,7 @@ msgstr "Erklärungstext"
 
 msgctxt "LDpoisson|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, Träger und Momente"
+msgstr "Parameter, Träger, und Momente"
 
 msgctxt "LDpoisson|"
 msgid "Formulas"
@@ -2460,39 +2466,34 @@ msgctxt "LDpareto|"
 msgid "Cumulative distribution function"
 msgstr ""
 
-#, fuzzy
 msgctxt "LDpareto|"
 msgid "Quantile function"
 msgstr "Quantilfunktion"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Show Distribution"
 msgstr "Verteilung anzeigen"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Parameter"
 msgstr "Parameter"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Probability of Zero process:"
-msgstr ""
+msgstr "Wahrscheinlichkeit des Null-Prozesses:"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "π"
-msgstr ""
+msgstr "π"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Rate of Poisson process:"
-msgstr ""
+msgstr "Rate des Poisson-Prozesses:"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "λ"
 msgstr "λ"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Display"
 msgstr "Anzeigen"
@@ -2504,581 +2505,500 @@ msgstr "Erklärungstext"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameter, Träger, und Momente"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Formulas"
 msgstr "Formeln"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Probability mass function"
 msgstr "Wahrscheinlichkeitsdichtefunktion"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "Kumulative Verteilungsfunktion"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Options"
 msgstr "Optionen"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Range of x from"
-msgstr ""
+msgstr "Bereich von x ab"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "to"
 msgstr "bis"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Highlight"
 msgstr "Markieren"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Mass"
 msgstr "Masse"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Cumulative Probability"
 msgstr "Kumulative Wahrscheinlichkeit"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Interval"
 msgstr "Intervall"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "≤ X ≤"
 msgstr "≤ X ≤"
 
-#, fuzzy
 msgctxt "LDtNoncentral|"
 msgid "Show Distribution"
 msgstr "Verteilung anzeigen"
 
 msgctxt "LDtNoncentral|"
 msgid "Parameters"
-msgstr ""
+msgstr "Parameter"
 
 msgctxt "LDtNoncentral|"
 msgid "Degrees of freedom:"
-msgstr ""
+msgstr "Freiheitsgrade:"
 
-#, fuzzy
 msgctxt "LDtNoncentral|"
 msgid "df"
 msgstr "df"
 
-#, fuzzy
 msgctxt "LDtNoncentral|"
 msgid "Non-centrality:"
 msgstr "Nichtzentralität:"
 
-#, fuzzy
 msgctxt "LDtNoncentral|"
 msgid "ncp"
-msgstr "Nonzentralitätsparameter"
+msgstr "Nzp"
 
-#, fuzzy
 msgctxt "LDtNoncentral|"
 msgid "Display"
 msgstr "Anzeigen"
 
-#, fuzzy
 msgctxt "LDtNoncentral|"
 msgid "Explanatory text"
 msgstr "Erklärungstext"
 
 msgctxt "LDtNoncentral|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameter, Träger, und Momente"
 
-#, fuzzy
 msgctxt "LDtNoncentral|"
 msgid "Formulas"
 msgstr "Formeln"
 
-#, fuzzy
 msgctxt "LDtNoncentral|"
 msgid "Probability density function"
 msgstr "Wahrscheinlichkeitsdichtefunktion"
 
 msgctxt "LDtNoncentral|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "Kumulative Verteilungsfunktion"
 
-#, fuzzy
 msgctxt "LDtNoncentral|"
 msgid "Quantile function"
 msgstr "Quantilfunktion"
 
-#, fuzzy
 msgctxt "LDtriangular|"
 msgid "Show Distribution"
 msgstr "Verteilung anzeigen"
 
 msgctxt "LDtriangular|"
 msgid "Minimum:"
-msgstr ""
+msgstr "Minimum:"
 
 msgctxt "LDtriangular|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDtriangular|"
 msgid "Maximum:"
-msgstr ""
+msgstr "Maximum:"
 
 msgctxt "LDtriangular|"
 msgid "b"
-msgstr ""
+msgstr "b"
 
 msgctxt "LDtriangular|"
 msgid "Mode:"
-msgstr ""
+msgstr "Modus:"
 
 msgctxt "LDtriangular|"
 msgid "c"
-msgstr ""
+msgstr "c"
 
-#, fuzzy
 msgctxt "LDtriangular|"
 msgid "Display"
 msgstr "Anzeigen"
 
-#, fuzzy
 msgctxt "LDtriangular|"
 msgid "Explanatory text"
 msgstr "Erklärungstext"
 
 msgctxt "LDtriangular|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameter, Träger, und Momente"
 
-#, fuzzy
 msgctxt "LDtriangular|"
 msgid "Formulas"
 msgstr "Formeln"
 
-#, fuzzy
 msgctxt "LDtriangular|"
 msgid "Probability density function"
 msgstr "Wahrscheinlichkeitsdichtefunktion"
 
 msgctxt "LDtriangular|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "Kumulative Verteilungsfunktion"
 
-#, fuzzy
 msgctxt "LDtriangular|"
 msgid "Quantile function"
 msgstr "Quantilfunktion"
 
-#, fuzzy
 msgctxt "LDtSkew|"
 msgid "Show Distribution"
 msgstr "Verteilung anzeigen"
 
-#, fuzzy
 msgctxt "LDtSkew|"
 msgid "Location:"
 msgstr "Lage:"
 
 msgctxt "LDtSkew|"
 msgid "ξ"
-msgstr ""
+msgstr "ξ"
 
-#, fuzzy
 msgctxt "LDtSkew|"
 msgid "Scale:"
-msgstr "Skala:"
+msgstr "Skalenparameter:"
 
 msgctxt "LDtSkew|"
 msgid "ω"
-msgstr ""
+msgstr "ω"
 
-#, fuzzy
 msgctxt "LDtSkew|"
 msgid "Shape:"
 msgstr "Form:"
 
-#, fuzzy
 msgctxt "LDtSkew|"
 msgid "α"
 msgstr "α"
 
-#, fuzzy
 msgctxt "LDtSkew|"
 msgid "Degree of freedom:"
 msgstr "Freiheitsgrad:"
 
-#, fuzzy
 msgctxt "LDtSkew|"
 msgid "df"
 msgstr "df"
 
-#, fuzzy
 msgctxt "LDtSkew|"
 msgid "Display"
 msgstr "Anzeigen"
 
-#, fuzzy
 msgctxt "LDtSkew|"
 msgid "Explanatory text"
 msgstr "Erklärungstext"
 
 msgctxt "LDtSkew|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameter, Träger, und Momente"
 
-#, fuzzy
 msgctxt "LDtSkew|"
 msgid "Formulas"
 msgstr "Formeln"
 
-#, fuzzy
 msgctxt "LDtSkew|"
 msgid "Probability density function"
 msgstr "Wahrscheinlichkeitsdichtefunktion"
 
 msgctxt "LDtSkew|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "Kumulative Verteilungsfunktion"
 
-#, fuzzy
 msgctxt "LDtSkew|"
 msgid "Quantile function"
 msgstr "Quantilfunktion"
 
-#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "Show Distribution"
 msgstr "Verteilung anzeigen"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Parameters"
-msgstr ""
+msgstr "Parameter"
 
-#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "Location:"
 msgstr "Lage:"
 
-#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "μ"
 msgstr "μ"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Kurtosis:"
-msgstr ""
+msgstr "Wölbung / Kurtosis:"
 
-#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "p"
 msgstr "p"
 
-#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "Scale:"
-msgstr "Skala:"
+msgstr "Skalenparameter:"
 
-#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "σ"
 msgstr "σ"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "q"
-msgstr ""
+msgstr "q"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Skewness:"
-msgstr ""
+msgstr "Schiefe:"
 
-#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "λ"
 msgstr "λ"
 
-#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "Display"
 msgstr "Anzeigen"
 
-#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "Explanatory text"
 msgstr "Erklärungstext"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameter, Träger, und Momente"
 
-#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "Formulas"
 msgstr "Formeln"
 
-#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "Probability density function"
 msgstr "Wahrscheinlichkeitsdichtefunktion"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "Kumulative Verteilungsfunktion"
 
-#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "Quantile function"
 msgstr "Quantilfunktion"
 
-#, fuzzy
 msgctxt "LDtStudent|"
 msgid "Show Distribution"
 msgstr "Verteilung anzeigen"
 
 msgctxt "LDtStudent|"
 msgid "Parameters"
-msgstr ""
+msgstr "Parameter"
 
 msgctxt "LDtStudent|"
 msgid "Degrees of freedom:"
-msgstr ""
+msgstr "Freiheitsgrade:"
 
-#, fuzzy
 msgctxt "LDtStudent|"
 msgid "df"
 msgstr "df"
 
-#, fuzzy
 msgctxt "LDtStudent|"
 msgid "Location:"
 msgstr "Lage:"
 
-#, fuzzy
 msgctxt "LDtStudent|"
 msgid "μ"
 msgstr "μ"
 
-#, fuzzy
 msgctxt "LDtStudent|"
 msgid "Scale:"
-msgstr "Skala:"
+msgstr "Skalenparameter:"
 
-#, fuzzy
 msgctxt "LDtStudent|"
 msgid "σ"
 msgstr "σ"
 
-#, fuzzy
 msgctxt "LDtStudent|"
 msgid "Display"
 msgstr "Anzeigen"
 
-#, fuzzy
 msgctxt "LDtStudent|"
 msgid "Explanatory text"
 msgstr "Erklärungstext"
 
 msgctxt "LDtStudent|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameter, Träger, und Momente"
 
-#, fuzzy
 msgctxt "LDtStudent|"
 msgid "Formulas"
 msgstr "Formeln"
 
-#, fuzzy
 msgctxt "LDtStudent|"
 msgid "Probability density function"
 msgstr "Wahrscheinlichkeitsdichtefunktion"
 
 msgctxt "LDtStudent|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "Kumulative Verteilungsfunktion"
 
-#, fuzzy
 msgctxt "LDtStudent|"
 msgid "Quantile function"
 msgstr "Quantilfunktion"
 
-#, fuzzy
 msgctxt "LDuniform|"
 msgid "Show Distribution"
 msgstr "Verteilung anzeigen"
 
 msgctxt "LDuniform|"
 msgid "Parameters"
-msgstr ""
+msgstr "Parameter"
 
 msgctxt "LDuniform|"
 msgid "Lower bound:"
-msgstr ""
+msgstr "Untere Grenze:"
 
 msgctxt "LDuniform|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDuniform|"
 msgid "Upper bound:"
-msgstr ""
+msgstr "Obere Grenze:"
 
 msgctxt "LDuniform|"
 msgid "b"
-msgstr ""
+msgstr "b"
 
-#, fuzzy
 msgctxt "LDuniform|"
 msgid "Display"
 msgstr "Anzeigen"
 
-#, fuzzy
 msgctxt "LDuniform|"
 msgid "Explanatory text"
 msgstr "Erklärungstext"
 
 msgctxt "LDuniform|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameter, Träger, und Momente"
 
-#, fuzzy
 msgctxt "LDuniform|"
 msgid "Formulas"
 msgstr "Formeln"
 
-#, fuzzy
 msgctxt "LDuniform|"
 msgid "Probability density function"
 msgstr "Wahrscheinlichkeitsdichtefunktion"
 
 msgctxt "LDuniform|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "Kumulative Verteilungsfunktion"
 
-#, fuzzy
 msgctxt "LDuniform|"
 msgid "Quantile function"
 msgstr "Quantilfunktion"
 
-#, fuzzy
 msgctxt "LDwald|"
 msgid "Show Distribution"
 msgstr "Verteilung anzeigen"
 
 msgctxt "LDwald|"
 msgid "Parameters"
-msgstr ""
+msgstr "Parameter"
 
-#, fuzzy
 msgctxt "LDwald|"
 msgid "Mean:"
 msgstr "Mittelwert:"
 
 msgctxt "LDwald|"
 msgid "Threshold:"
-msgstr ""
+msgstr "Schwellenwert:"
 
 msgctxt "LDwald|"
 msgid "Drift rate:"
-msgstr ""
+msgstr "Driftrate:"
 
-#, fuzzy
 msgctxt "LDwald|"
 msgid "Shape:"
 msgstr "Form:"
 
 msgctxt "LDwald|"
 msgid "Noise:"
-msgstr ""
+msgstr "Rauschen:"
 
-#, fuzzy
 msgctxt "LDwald|"
 msgid "Display"
 msgstr "Anzeigen"
 
-#, fuzzy
 msgctxt "LDwald|"
 msgid "Explanatory text"
 msgstr "Erklärungstext"
 
 msgctxt "LDwald|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameter, Träger, und Momente"
 
-#, fuzzy
 msgctxt "LDwald|"
 msgid "Formulas"
 msgstr "Formeln"
 
-#, fuzzy
 msgctxt "LDwald|"
 msgid "Probability density function"
 msgstr "Wahrscheinlichkeitsdichtefunktion"
 
 msgctxt "LDwald|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "Kumulative Verteilungsfunktion"
 
-#, fuzzy
 msgctxt "LDwald|"
 msgid "Quantile function"
 msgstr "Quantilfunktion"
 
-#, fuzzy
 msgctxt "LDweibull|"
 msgid "Show Distribution"
 msgstr "Verteilung anzeigen"
 
-#, fuzzy
 msgctxt "LDweibull|"
 msgid "Shape:"
 msgstr "Form:"
 
-#, fuzzy
 msgctxt "LDweibull|"
 msgid "Scale:"
-msgstr "Skala:"
+msgstr "Skalenparameter:"
 
-#, fuzzy
 msgctxt "LDweibull|"
 msgid "Display"
 msgstr "Anzeigen"
 
-#, fuzzy
 msgctxt "LDweibull|"
 msgid "Explanatory text"
 msgstr "Erklärungstext"
 
 msgctxt "LDweibull|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameter, Träger, und Momente"
 
-#, fuzzy
 msgctxt "LDweibull|"
 msgid "Formulas"
 msgstr "Formeln"
 
-#, fuzzy
 msgctxt "LDweibull|"
 msgid "Probability density function"
 msgstr "Wahrscheinlichkeitsdichtefunktion"
 
 msgctxt "LDweibull|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "Kumulative Verteilungsfunktion"
 
-#, fuzzy
 msgctxt "LDweibull|"
 msgid "Quantile function"
 msgstr "Quantilfunktion"
