@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-25 11:29+0000\n"
+"PO-Revision-Date: 2021-03-31 13:26+0000\n"
 "Last-Translator: Johannes Keyser <johanneskeyser@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-qml/de/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.2-dev\n"
+"X-Generator: Weblate 4.6-dev\n"
 "X-Language: en_US\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -528,7 +528,7 @@ msgstr "Rate:"
 
 msgctxt "LDexponential|"
 msgid "Scale:"
-msgstr "Skala:"
+msgstr "Skalenparameter:"
 
 msgctxt "LDexponential|"
 msgid "Display"
@@ -624,7 +624,7 @@ msgstr "Form:"
 
 msgctxt "LDgamma|"
 msgid "Scale:"
-msgstr "Skala:"
+msgstr "Skalenparameter:"
 
 msgctxt "LDgamma|"
 msgid "Rate:"
@@ -676,7 +676,7 @@ msgstr "Form:"
 
 msgctxt "LDgammaInverse|"
 msgid "Scale:"
-msgstr "Skala:"
+msgstr "Skalenparameter:"
 
 msgctxt "LDgammaInverse|"
 msgid "Rate:"
@@ -828,7 +828,7 @@ msgstr "μ"
 
 msgctxt "LDlogistic|"
 msgid "Scale:"
-msgstr "Skala:"
+msgstr "Skalenparameter:"
 
 msgctxt "LDlogistic|"
 msgid "σ"
@@ -1068,19 +1068,19 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Generalized normal (version 1)"
-msgstr ""
+msgstr "Verallgemeinert Normal (Version 1)"
 
 msgctxt "Description|"
 msgid "Cauchy"
-msgstr ""
+msgstr "Cauchy"
 
 msgctxt "Description|"
 msgid "Scaled, shifted Student's t"
-msgstr ""
+msgstr "Skalierte, verschobene Student's t"
 
 msgctxt "Description|"
 msgid "Noncentral t"
-msgstr ""
+msgstr "Nicht-zentrale t"
 
 msgctxt "Description|"
 msgid "Skew t"
@@ -1092,67 +1092,67 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Uniform"
-msgstr ""
+msgstr "Uniform"
 
 msgctxt "Description|"
 msgid "Stretched beta"
-msgstr ""
+msgstr "Gestreckte Beta"
 
 msgctxt "Description|"
 msgid "Beta prime"
-msgstr ""
+msgstr "Beta-Strich"
 
 msgctxt "Description|"
 msgid "Laplace"
-msgstr ""
+msgstr "Laplace"
 
 msgctxt "Description|"
 msgid "Log-logistic"
-msgstr ""
+msgstr "Log-logistisch"
 
 msgctxt "Description|"
 msgid "Pareto"
-msgstr ""
+msgstr "Pareto"
 
 msgctxt "Description|"
 msgid "Amoroso"
-msgstr ""
+msgstr "Amoroso"
 
 msgctxt "Description|"
 msgid "Fréchet"
-msgstr ""
+msgstr "Fréchet"
 
 msgctxt "Description|"
 msgid "Gumbel"
-msgstr ""
+msgstr "Gumbel"
 
 msgctxt "Description|"
 msgid "Gompertz"
-msgstr ""
+msgstr "Gompertz"
 
 msgctxt "Description|"
 msgid "Triangular"
-msgstr ""
+msgstr "Dreieck"
 
 msgctxt "Description|"
 msgid "Wald (inverse Gaussian)"
-msgstr ""
+msgstr "Wald (invers Gaußsche)"
 
 msgctxt "Description|"
 msgid "Weibull"
-msgstr ""
+msgstr "Weibull"
 
 msgctxt "Description|"
 msgid "Mixture of normal and normal"
-msgstr ""
+msgstr "Mischung aus Normal und Normal"
 
 msgctxt "Description|"
 msgid "Mixture of normal and uniform"
-msgstr ""
+msgstr "Mischung aus Normal und Uniform"
 
 msgctxt "Description|"
 msgid "Beta-binomial"
-msgstr ""
+msgstr "Beta-Binomial"
 
 msgctxt "Description|"
 msgid "Zero-inflated Poisson"
@@ -1164,141 +1164,120 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Geometric"
-msgstr ""
+msgstr "Geometrisch"
 
 msgctxt "Description|"
 msgid "Hypergeometric"
-msgstr ""
+msgstr "Hypergeometrisch"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Show Distribution"
 msgstr "Verteilung anzeigen"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Location:"
 msgstr "Lage:"
 
 msgctxt "LDamoroso|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Scale:"
-msgstr "Skala:"
+msgstr "Skalenparameter:"
 
 msgctxt "LDamoroso|"
 msgid "θ"
-msgstr ""
+msgstr "θ"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Shape:"
 msgstr "Form:"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "α"
 msgstr "α"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "β"
 msgstr "β"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Display"
 msgstr "Anzeigen"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Explanatory text"
 msgstr "Erklärungstext"
 
 msgctxt "LDamoroso|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameter, Träger, und Momente"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Formulas"
 msgstr "Formeln"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Probability density function"
 msgstr "Wahrscheinlichkeitsdichtefunktion"
 
 msgctxt "LDamoroso|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "Kumulative Verteilungsfunktion"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Quantile function"
 msgstr "Quantilfunktion"
 
 msgctxt "LDbeta|"
 msgid "Parameters"
-msgstr ""
+msgstr "Parameter"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Show Distribution"
 msgstr "Verteilung anzeigen"
 
 msgctxt "LDbetaBinomial|"
 msgid "Free parameters"
-msgstr ""
+msgstr "Freie Parameter"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Shape:"
 msgstr "Form:"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "α"
 msgstr "α"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "β"
 msgstr "β"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Fixed parameter"
 msgstr "Fixierte Parameter"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Number of trials:"
 msgstr "Anzahl der Versuche:"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "n"
 msgstr "n"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Display"
 msgstr "Anzeigen"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Explanatory text"
 msgstr "Erklärungstext"
 
 msgctxt "LDbetaBinomial|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameter, Träger, und Momente"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Formulas"
 msgstr "Formeln"
@@ -1310,268 +1289,227 @@ msgstr "Wahrscheinlichkeitsdichtefunktion"
 
 msgctxt "LDbetaBinomial|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "Kumulative Verteilungsfunktion"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Options"
 msgstr "Optionen"
 
 msgctxt "LDbetaBinomial|"
 msgid "Range of x from"
-msgstr ""
+msgstr "Wertebereich von x bis"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "to"
 msgstr "bis"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Highlight"
 msgstr "Markieren"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Mass"
 msgstr "Masse"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Cumulative Probability"
 msgstr "Kumulative Wahrscheinlichkeit"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Interval"
 msgstr "Intervall"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "≤ X ≤"
 msgstr "≤ X ≤"
 
-#, fuzzy
 msgctxt "LDbetaPrime|"
 msgid "Show Distribution"
 msgstr "Verteilung anzeigen"
 
 msgctxt "LDbetaPrime|"
 msgid "Parameters"
-msgstr ""
+msgstr "Parameter"
 
-#, fuzzy
 msgctxt "LDbetaPrime|"
 msgid "Shape:"
 msgstr "Form:"
 
-#, fuzzy
 msgctxt "LDbetaPrime|"
 msgid "α"
 msgstr "α"
 
-#, fuzzy
 msgctxt "LDbetaPrime|"
 msgid "β"
 msgstr "β"
 
-#, fuzzy
 msgctxt "LDbetaPrime|"
 msgid "Display"
 msgstr "Anzeigen"
 
-#, fuzzy
 msgctxt "LDbetaPrime|"
 msgid "Explanatory text"
 msgstr "Erklärungstext"
 
 msgctxt "LDbetaPrime|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameter, Träger, und Momente"
 
-#, fuzzy
 msgctxt "LDbetaPrime|"
 msgid "Formulas"
 msgstr "Formeln"
 
-#, fuzzy
 msgctxt "LDbetaPrime|"
 msgid "Probability density function"
 msgstr "Wahrscheinlichkeitsdichtefunktion"
 
 msgctxt "LDbetaPrime|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "Kumulative Verteilungsfunktion"
 
-#, fuzzy
 msgctxt "LDbetaPrime|"
 msgid "Quantile function"
 msgstr "Quantilfunktion"
 
-#, fuzzy
 msgctxt "LDbetaStretched|"
 msgid "Show Distribution"
 msgstr "Verteilung anzeigen"
 
 msgctxt "LDbetaStretched|"
 msgid "Free parameters"
-msgstr ""
+msgstr "Freie Parameter"
 
-#, fuzzy
 msgctxt "LDbetaStretched|"
 msgid "Shape:"
 msgstr "Form:"
 
-#, fuzzy
 msgctxt "LDbetaStretched|"
 msgid "α"
 msgstr "α"
 
-#, fuzzy
 msgctxt "LDbetaStretched|"
 msgid "β"
 msgstr "β"
 
 msgctxt "LDbetaStretched|"
 msgid "Fixed parameters"
-msgstr ""
+msgstr "Fixierte Parameter"
 
 msgctxt "LDbetaStretched|"
 msgid "Lower bound:"
-msgstr ""
+msgstr "Untere Grenze:"
 
 msgctxt "LDbetaStretched|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDbetaStretched|"
 msgid "Upper bound:"
-msgstr ""
+msgstr "Obere Grenze:"
 
 msgctxt "LDbetaStretched|"
 msgid "b"
-msgstr ""
+msgstr "b"
 
-#, fuzzy
 msgctxt "LDbetaStretched|"
 msgid "Display"
 msgstr "Anzeigen"
 
-#, fuzzy
 msgctxt "LDbetaStretched|"
 msgid "Explanatory text"
 msgstr "Erklärungstext"
 
 msgctxt "LDbetaStretched|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameter, Träger, und Momente"
 
-#, fuzzy
 msgctxt "LDbetaStretched|"
 msgid "Formulas"
 msgstr "Formeln"
 
-#, fuzzy
 msgctxt "LDbetaStretched|"
 msgid "Probability density function"
 msgstr "Wahrscheinlichkeitsdichtefunktion"
 
 msgctxt "LDbetaStretched|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "Kumulative Verteilungsfunktion"
 
-#, fuzzy
 msgctxt "LDbetaStretched|"
 msgid "Quantile function"
 msgstr "Quantilfunktion"
 
-#, fuzzy
 msgctxt "LDcauchy|"
 msgid "Show Distribution"
 msgstr "Verteilung anzeigen"
 
-#, fuzzy
 msgctxt "LDcauchy|"
 msgid "Location:"
 msgstr "Lage:"
 
-#, fuzzy
 msgctxt "LDcauchy|"
 msgid "μ"
 msgstr "μ"
 
-#, fuzzy
 msgctxt "LDcauchy|"
 msgid "Scale:"
-msgstr "Skala:"
+msgstr "Skalenparameter:"
 
-#, fuzzy
 msgctxt "LDcauchy|"
 msgid "σ"
 msgstr "σ"
 
-#, fuzzy
 msgctxt "LDcauchy|"
 msgid "Display"
 msgstr "Anzeigen"
 
-#, fuzzy
 msgctxt "LDcauchy|"
 msgid "Explanatory text"
 msgstr "Erklärungstext"
 
 msgctxt "LDcauchy|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameter, Träger, und Momente"
 
-#, fuzzy
 msgctxt "LDcauchy|"
 msgid "Formulas"
 msgstr "Formeln"
 
-#, fuzzy
 msgctxt "LDcauchy|"
 msgid "Probability density function"
 msgstr "Wahrscheinlichkeitsdichtefunktion"
 
 msgctxt "LDcauchy|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "Kumulative Verteilungsfunktion"
 
-#, fuzzy
 msgctxt "LDcauchy|"
 msgid "Quantile function"
 msgstr "Quantilfunktion"
 
-#, fuzzy
 msgctxt "LDfrechet|"
 msgid "Show Distribution"
 msgstr "Verteilung anzeigen"
 
-#, fuzzy
 msgctxt "LDfrechet|"
 msgid "Shape:"
 msgstr "Form:"
 
-#, fuzzy
 msgctxt "LDfrechet|"
 msgid "α"
 msgstr "α"
 
-#, fuzzy
 msgctxt "LDfrechet|"
 msgid "Location:"
 msgstr "Lage:"
 
-#, fuzzy
 msgctxt "LDfrechet|"
 msgid "μ"
 msgstr "μ"
 
-#, fuzzy
 msgctxt "LDfrechet|"
 msgid "Scale:"
-msgstr "Skala:"
+msgstr "Skalenparameter:"
 
 #, fuzzy
 msgctxt "LDfrechet|"
@@ -1592,58 +1530,49 @@ msgctxt "LDfrechet|"
 msgid "Parameters, support, and moments"
 msgstr ""
 
-#, fuzzy
 msgctxt "LDfrechet|"
 msgid "Formulas"
 msgstr "Formeln"
 
-#, fuzzy
 msgctxt "LDfrechet|"
 msgid "Probability density function"
 msgstr "Wahrscheinlichkeitsdichtefunktion"
 
 msgctxt "LDfrechet|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "Kumulative Verteilungsfunktion"
 
-#, fuzzy
 msgctxt "LDfrechet|"
 msgid "Quantile function"
 msgstr "Quantilfunktion"
 
-#, fuzzy
 msgctxt "LDgeometric|"
 msgid "Show Distribution"
 msgstr "Verteilung anzeigen"
 
-#, fuzzy
 msgctxt "LDgeometric|"
 msgid "Parameter"
 msgstr "Parameter"
 
-#, fuzzy
 msgctxt "LDgeometric|"
 msgid "Probability of success:"
 msgstr "Erfolgswahrscheinlichkeit:"
 
-#, fuzzy
 msgctxt "LDgeometric|"
 msgid "p"
 msgstr "p"
 
-#, fuzzy
 msgctxt "LDgeometric|"
 msgid "Display"
 msgstr "Anzeigen"
 
-#, fuzzy
 msgctxt "LDgeometric|"
 msgid "Explanatory text"
 msgstr "Erklärungstext"
 
 msgctxt "LDgeometric|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameter, Träger, und Momente"
 
 #, fuzzy
 msgctxt "LDgeometric|"
