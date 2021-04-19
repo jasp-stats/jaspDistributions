@@ -6,7 +6,7 @@ Date: 2021-01-29
 Author: JASP Team
 Website: www.jasp-stats.org
 Maintainer: JASP Team <info@jasp-stats.org>
-Description: Discover distributions with JASP
+Description: Visualize distributions and fit them to data
 License: GPL (>= 2)
 Encoding: UTF-8
 Imports:
