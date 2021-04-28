@@ -6,7 +6,7 @@ Description
 	title :			qsTr("Distributions")
 	name:			"jaspDistributions"
 	icon:			"discoverdistributions-distributions.svg"
-	description: 	qsTr("Discover distributions with JASP")
+	description: 	qsTr("Visualize distributions and fit them to data")
 	version:		"0.3.0"
 	author:			"JASP Team"
 	maintainer:		"JASP Team <info@jasp-stats.org>"
