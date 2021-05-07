@@ -10,10 +10,6 @@ msgid "Distributions"
 msgstr ""
 
 msgctxt "Description|"
-msgid "Discover distributions with JASP"
-msgstr ""
-
-msgctxt "Description|"
 msgid "Continuous"
 msgstr ""
 
@@ -2799,4 +2795,8 @@ msgstr ""
 
 msgctxt "LDweibull|"
 msgid "Quantile function"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Visualize distributions and fit them to data"
 msgstr ""
