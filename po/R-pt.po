@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
 "POT-Creation-Date: 2021-03-06 16:28\n"
-"PO-Revision-Date: 2021-05-03 19:31+0000\n"
+"PO-Revision-Date: 2021-05-15 20:50+0000\n"
 "Last-Translator: Alex França <alex.tonante@gmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/pt/>\n"
@@ -30,18 +30,15 @@ msgstr ""
 msgid "Overview - %s"
 msgstr ""
 
-#, fuzzy
 msgid "Descriptives"
 msgstr "Descritivas"
 
-#, fuzzy
 msgid "Variable"
 msgstr "Variável"
 
 msgid "n"
 msgstr ""
 
-#, fuzzy
 msgid "Mean"
 msgstr "Média"
 
@@ -98,25 +95,21 @@ msgstr "Parâmetros"
 msgid "Parameter"
 msgstr "Parâmetros"
 
-#, fuzzy
 msgid "Estimate"
 msgstr "Estimativas"
 
-#, fuzzy
 msgid "SE"
 msgstr "EP"
 
 msgid "Standard errors are unavailable with this method"
 msgstr ""
 
-#, fuzzy
 msgid "Lower"
 msgstr "Inferior"
 
 msgid "%s%% CI"
 msgstr ""
 
-#, fuzzy
 msgid "Upper"
 msgstr "Superior"
 
@@ -149,11 +142,9 @@ msgstr "Estatísticas"
 msgid "Test"
 msgstr ""
 
-#, fuzzy
 msgid "Statistic"
 msgstr "Estatísticas"
 
-#, fuzzy
 msgid "p"
 msgstr "p"
 
@@ -197,7 +188,6 @@ msgstr "Tamanho da amostra"
 msgid "Theoretical"
 msgstr ""
 
-#, fuzzy
 msgid "Density"
 msgstr "Densidade"
 
