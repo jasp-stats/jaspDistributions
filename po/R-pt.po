@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
 "POT-Creation-Date: 2021-03-06 16:28\n"
-"PO-Revision-Date: 2021-05-15 20:50+0000\n"
+"PO-Revision-Date: 2021-05-31 23:32+0000\n"
 "Last-Translator: Alex França <alex.tonante@gmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/pt/>\n"
@@ -42,7 +42,6 @@ msgstr ""
 msgid "Mean"
 msgstr "Média"
 
-#, fuzzy
 msgid "Variance"
 msgstr "Variância"
 
@@ -50,7 +49,6 @@ msgstr "Variância"
 msgid "Std. deviation"
 msgstr "Padronização"
 
-#, fuzzy
 msgid "Minimum"
 msgstr "Mínimo"
 
@@ -63,7 +61,6 @@ msgstr "Mediana"
 msgid "75%% Quantile"
 msgstr ""
 
-#, fuzzy
 msgid "Maximum"
 msgstr "Máximo"
 
