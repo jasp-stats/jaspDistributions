@@ -889,7 +889,6 @@
   # basic density curve
   plot <- ggplot2::ggplot(data = data.frame(x = options[['range_x']]), ggplot2::aes(x = x)) +
     ggplot2::stat_function(fun = options[['pdfFun']], n = 101, args = options[['pars']], size = 1.25)
-
   # highlight probability
   if(options$highlightProbability){
     # determine plotting region
@@ -961,8 +960,10 @@
       jaspGraphs::geom_point(x = args[['x']], y = pdfValue, size = 5)
   }
 
+  lineData <- ggplot2::layer_data(plot, 1)
   plot <- plot + ggplot2::ylab(gettext("Density")) +
-    ggplot2::scale_x_continuous(limits = options[['range_x']], breaks = jaspGraphs::getPrettyAxisBreaks(options[['range_x']]))
+    ggplot2::scale_x_continuous(limits = options[['range_x']],  breaks = jaspGraphs::getPrettyAxisBreaks(options[['range_x']])) +
+    ggplot2::scale_y_continuous(limits = c(0, max(lineData$y)), breaks = jaspGraphs::getPrettyAxisBreaks(lineData$y), expand = ggplot2::expansion(mult=c(0,0.2)))
 
   plot <- jaspGraphs::themeJasp(plot)
 
