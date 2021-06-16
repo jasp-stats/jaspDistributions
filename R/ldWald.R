@@ -170,6 +170,7 @@ dwald <- function(x, mu, lambda, log = FALSE) {
   nu <- alpha / mu
 
   out <- log(alpha) - 1.0/2.0 * log(2*pi) - 3.0/2.0*log(x) - (alpha - nu*x)^2/(2*x)
+  out[x<=0] <- -Inf
 
   if(!log) out <- exp(out)
 
