@@ -886,6 +886,7 @@
 }
 
 .ldFillPlotPDF <- function(pdfPlot, options){
+
   # basic density curve
   plot <- ggplot2::ggplot(data = data.frame(x = options[['range_x']]), ggplot2::aes(x = x)) +
     ggplot2::stat_function(fun = options[['pdfFun']], n = 101, args = options[['pars']], size = 1.25)
