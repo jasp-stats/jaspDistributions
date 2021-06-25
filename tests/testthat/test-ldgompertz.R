@@ -35,13 +35,13 @@ results <- jaspTools::runAnalysis("LDgompertz",
 test_that("Empirical Cumulative Distribution plot matches", {
   plotName <- results[["results"]][["dataContainer"]][["collection"]][["dataContainer_ecdf"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-  jaspTools::expect_equal_plots(testPlot, "empirical-cumulative-distribution", dir="LDgompertz")
+  jaspTools::expect_equal_plots(testPlot, "empirical-cumulative-distribution")
 })
 
 test_that("Histogram plot matches", {
   plotName <- results[["results"]][["dataContainer"]][["collection"]][["dataContainer_histogram"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-  jaspTools::expect_equal_plots(testPlot, "histogram", dir="LDgompertz")
+  jaspTools::expect_equal_plots(testPlot, "histogram")
 })
 
 test_that("Observed Moments table results match", {
@@ -70,13 +70,13 @@ test_that("Estimated Parameters table results match", {
 test_that("Empirical vs. Theoretical CDF plot matches", {
   plotName <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_mleFitAssessment"]][["collection"]][["mleContainer_mleFitAssessment_estCDF"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-  jaspTools::expect_equal_plots(testPlot, "empirical-vs-theoretical-cdf", dir="LDgompertz")
+  jaspTools::expect_equal_plots(testPlot, "empirical-vs-theoretical-cdf")
 })
 
 test_that("Histogram vs. Theoretical PDF plot matches", {
   plotName <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_mleFitAssessment"]][["collection"]][["mleContainer_mleFitAssessment_estPDF"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-  jaspTools::expect_equal_plots(testPlot, "histogram-vs-theoretical-pdf", dir="LDgompertz")
+  jaspTools::expect_equal_plots(testPlot, "histogram-vs-theoretical-pdf")
 })
 
 test_that("Fit Statistics table results match", {
@@ -90,29 +90,29 @@ test_that("Fit Statistics table results match", {
 test_that("P-P plot matches", {
   plotName <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_mleFitAssessment"]][["collection"]][["mleContainer_mleFitAssessment_ppplot"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-  jaspTools::expect_equal_plots(testPlot, "p-p-plot", dir="LDgompertz")
+  jaspTools::expect_equal_plots(testPlot, "p-p-plot")
 })
 
 test_that("Q-Q plot matches", {
   plotName <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_mleFitAssessment"]][["collection"]][["mleContainer_mleFitAssessment_qqplot"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-  jaspTools::expect_equal_plots(testPlot, "q-q-plot", dir="LDgompertz")
+  jaspTools::expect_equal_plots(testPlot, "q-q-plot")
 })
 
 test_that("Cumulative Probability Plot matches", {
   plotName <- results[["results"]][["plotCDF"]][["collection"]][["plotCDF_cdfPlot"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-  jaspTools::expect_equal_plots(testPlot, "cumulative-probability-plot", dir="LDgompertz")
+  jaspTools::expect_equal_plots(testPlot, "cumulative-probability-plot")
 })
 
 test_that("Density Plot matches", {
   plotName <- results[["results"]][["plotPDF"]][["collection"]][["plotPDF_pdfPlot"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-  jaspTools::expect_equal_plots(testPlot, "density-plot", dir="LDgompertz")
+  jaspTools::expect_equal_plots(testPlot, "density-plot")
 })
 
 test_that("Quantile Plot matches", {
   plotName <- results[["results"]][["plotQF"]][["collection"]][["plotQF_qfPlot"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-  jaspTools::expect_equal_plots(testPlot, "quantile-plot", dir="LDgompertz")
+  jaspTools::expect_equal_plots(testPlot, "quantile-plot")
 })
