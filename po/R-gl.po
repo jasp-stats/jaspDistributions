@@ -1,0 +1,786 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-03-06 16:28\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: gl_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Virgin-Header: remove this line if you change anything in the header.\n"
+"X-Language: gl_ES\n"
+"X-Source-Language: C\n"
+"X-Generator: Poedit 2.3\n"
+
+msgid ""
+"The following problem(s) occurred while running the analysis:"
+"<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
+msgstr ""
+
+msgid "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
+msgstr ""
+
+#, fuzzy
+msgid "Overview - %s"
+msgstr "Revisión"
+
+msgid "Descriptives"
+msgstr "Descritivos"
+
+msgid "Variable"
+msgstr "Variable"
+
+msgid "n"
+msgstr "n"
+
+msgid "Mean"
+msgstr "Media"
+
+msgid "Variance"
+msgstr "Varianza"
+
+msgid "Std. deviation"
+msgstr "Desviación típica"
+
+msgid "Minimum"
+msgstr "Mínimo"
+
+#, fuzzy
+msgid "25%% Quantile"
+msgstr "Cuartís"
+
+msgid "Median"
+msgstr "Mediana"
+
+#, fuzzy
+msgid "75%% Quantile"
+msgstr "Cuartís"
+
+msgid "Maximum"
+msgstr "Máximo"
+
+#, fuzzy
+msgid "Rel. Frequency"
+msgstr "Frecuencia do valor p"
+
+msgid "Total"
+msgstr "Total"
+
+#, fuzzy
+msgid "Observed Moments"
+msgstr "momentos observados"
+
+msgid "Moment"
+msgstr ""
+
+msgid "Raw"
+msgstr "Bruto"
+
+#, fuzzy
+msgid "Central"
+msgstr "Centralidade"
+
+#, fuzzy
+msgid "Estimated Parameters"
+msgstr "Estimar parámetros"
+
+msgid "Parameter"
+msgstr "Parámetro"
+
+#, fuzzy
+msgid "Estimate"
+msgstr "Estimado"
+
+#, fuzzy
+msgid "SE"
+msgstr "M.E.S."
+
+msgid "Standard errors are unavailable with this method"
+msgstr ""
+
+msgid "Lower"
+msgstr "Inferior"
+
+msgid "%s%% CI"
+msgstr ""
+
+msgid "Upper"
+msgstr "Superior"
+
+#, fuzzy
+msgid "Confidence intervals are unavailable with this method."
+msgstr "Método do intervalo de confianza"
+
+#, fuzzy
+msgid "Confidence intervals were calculated using the delta method."
+msgstr "Axuste do intervalo de confianza"
+
+msgid "Standard errors were calculated using the delta method."
+msgstr ""
+
+msgid ""
+"Standard errors and confidence intervals were calculated using the delta "
+"method."
+msgstr ""
+
+msgid "Maximum likelihood"
+msgstr "Máxima-Verosimilitude"
+
+#, fuzzy
+msgid "Fit Assessment"
+msgstr "Avaliación do risco"
+
+#, fuzzy
+msgid "Fit Statistics"
+msgstr "Estatísticos"
+
+msgid "Test"
+msgstr "Proba"
+
+#, fuzzy
+msgid "Statistic"
+msgstr "Estatísticos"
+
+msgid "p"
+msgstr "p"
+
+msgid "Kolmogorov-Smirnov"
+msgstr "Kolmogorov-Smirnov"
+
+#, fuzzy
+msgid "Cramér-von Mises"
+msgstr "Cramér–von Mises"
+
+msgid "Anderson-Darling"
+msgstr "Anderson-Darling"
+
+msgid "Shapiro-Wilk"
+msgstr "Shapiro-Wilk"
+
+msgid "Chi-square"
+msgstr "Khi-cadrado"
+
+#, fuzzy
+msgid "Histogram vs. Theoretical PDF"
+msgstr "Func. Dens. Prob. do histograma vs. teórica"
+
+#, fuzzy
+msgid "Histogram vs. Theoretical PMF"
+msgstr "Func. Dens. Prob. do histograma vs. teórica"
+
+msgid "Q-Q plot"
+msgstr "Gráfica Q-Q"
+
+#, fuzzy
+msgid "Empirical vs. Theoretical CDF"
+msgstr "Func. Dens. Acum. empírica vs. teórica"
+
+msgid "P-P plot"
+msgstr "Gráfica P-P"
+
+msgid "Sample"
+msgstr "Mostra"
+
+msgid "Theoretical"
+msgstr ""
+
+msgid "Density"
+msgstr "Densidade"
+
+#, fuzzy
+msgid "Probability Mass"
+msgstr "Probabilidade"
+
+msgid "Probability"
+msgstr "Probabilidade"
+
+#, fuzzy
+msgid "Probability Density Function"
+msgstr "Función de densidade de probabilidade"
+
+#, fuzzy
+msgid "Probability Mass Function"
+msgstr "Función de probabilidade"
+
+#, fuzzy
+msgid "Cumulative Distribution Function"
+msgstr "Función de distribución acumulativa"
+
+#, fuzzy
+msgid "Quantile Function"
+msgstr "Función cuantil"
+
+#, fuzzy
+msgid "Formula"
+msgstr "Fórmulas"
+
+#, fuzzy
+msgid "Density Plot"
+msgstr "Densidade"
+
+#, fuzzy
+msgid "Cumulative Probability Plot"
+msgstr "Probabilidade acumulativa"
+
+msgid "Slope"
+msgstr ""
+
+#, fuzzy
+msgid "Quantile Plot"
+msgstr "Función cuantil"
+
+#, fuzzy
+msgid "Probability Mass Plot"
+msgstr "Función de probabilidade"
+
+msgid "Histogram"
+msgstr "Histograma"
+
+msgid "Bar plot"
+msgstr "Gráfica de barras"
+
+msgid "Rel. Freq (%s in bin)"
+msgstr ""
+
+#, fuzzy
+msgid "Empirical Cumulative Distribution"
+msgstr "Distribución acumulativa empírica"
+
+msgid "Freq"
+msgstr ""
+
+#, fuzzy
+msgid "Parameters, Support, and Moments"
+msgstr "Parámetros, soporte e momentos"
+
+msgid ""
+"<b>Parameters</b>\n"
+"      %s\n"
+"\n"
+"      <b>Support</b>\n"
+"      %s\n"
+"\n"
+"      <b>Moments</b>\n"
+"      E(X) = %s\n"
+"      Var(X) = %s"
+msgstr ""
+
+msgid ""
+"<b>Parameters</b>\n"
+"      %s\n"
+"\n"
+"      <b>Support</b>\n"
+"      %s\n"
+"\n"
+"      <b>Moments</b>\n"
+"      not available"
+msgstr ""
+
+msgid ""
+"The probability density function (PDF), usually denoted as f(x), is a "
+"function of a random variable X.\n"
+"    The value of f(x) provides the relative likelihood that a realization of "
+"the random variable X yields a value equal to x.\n"
+"    More formally, the PDF is defined as a derivative of a cumulative "
+"distribution function (CDF).\n"
+"\n"
+"    The density plot displays the probability density function of a random "
+"variable.\n"
+"    The <i>y</i>-axis displays the value of the density function for a "
+"particular value of the random variable (displayed on the <i>x</i>-axis)."
+msgstr ""
+
+msgid ""
+"The probability mass function (PMF), usually denoted as f(x), is a function "
+"of a random variable X.\n"
+"    The value of f(x) provides the probability that a realization of the "
+"random variable X yields a value equal to x.\n"
+"\n"
+"    The probability mass plot displays the probability mass function of a "
+"random variable.\n"
+"    The <i>y</i>-axis displays the value of the probability mass function "
+"for a particular value of the random variable (displayed on the <i>x</i>-"
+"axis)."
+msgstr ""
+
+msgid ""
+"The cumulative distribution function (CDF), usually denoted as F(x), is a "
+"function of a random variable X.\n"
+"    The value of F(x) provides the probability that a realization of the "
+"random variable X yields a value that is equal to or smaller than x.\n"
+"\n"
+"    The cumulative probability plot displays the cumulative distribution of "
+"a random variable.\n"
+"    The <i>y</i>-axis displays the value of the cumulative distribution "
+"function for a particular value of the random variable (displayed on the "
+"<i>x</i>-axis)."
+msgstr ""
+
+msgid ""
+"The quantile function, usually denoted as Q(p), is the inverse of the "
+"cumulative distribution function.\n"
+"    The function gives the quantile such that the probability of the random "
+"variable being less than or equal to that value equals the given probability "
+"p.\n"
+"\n"
+"    The quantile plot displays the quantile function.\n"
+"    The <i>y</i>-axis displays the quantile of which the probability that "
+"the random variable is less or equal to that value is equal to p (displayed "
+"on the <i>x</i>-axis)."
+msgstr ""
+
+msgid ""
+"<h3> Demonstration of the %1$s </h3>\n"
+"This demonstration is divided into four parts.\n"
+"The first part displays the %2$s, its probability density function, "
+"cumulative distribution function, and quantile function.\n"
+"The second part allows you to generate data from the %3$s, compute "
+"descriptive statistics, and display descriptive plots.\n"
+"The third part allows you to estimate the parameters of the %4$s.\n"
+"The fourth part allows you to check the fit of the %5$s to the data.\n"
+"\n"
+"<b>References</b>\n"
+"\n"
+"Blitzstein, J. K., & Hwang, J. (2014). <i>Introduction to probability.</i> "
+"Chapman and Hall/CRC.\n"
+"\n"
+"Leemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, "
+"16</i>(4), 8–9.\n"
+"\n"
+"For relationships with other distributions, visit www.math.wm.edu/~leemis/"
+"chart/UDR/UDR.html.\n"
+"\n"
+"https://en.wikipedia.org/wiki/List_of_probability_distributions"
+msgstr ""
+
+msgid ""
+"Estimation failed: Optimization did not converge. <ul><li>Try adjusting "
+"parameter values, check outliers or feasibility of the distribution fitting "
+"the data.</li></ul>"
+msgstr ""
+
+msgid ""
+"Estimation failed: Hessian matrix is not numerically computable. "
+"<ul><li>Check outliers or feasibility of the distribution fitting the data.</"
+"li></ul>"
+msgstr ""
+
+#, fuzzy
+msgid "Amoroso distribution"
+msgstr "Distribución previa"
+
+#, fuzzy
+msgid "location: a %s"
+msgstr "posición:"
+
+#, fuzzy
+msgid "scale: %s"
+msgstr "escala:"
+
+#, fuzzy
+msgid "shape: %s"
+msgstr "forma:"
+
+msgid "The optimization did not converge, try adjusting the parameter values."
+msgstr ""
+
+#, fuzzy
+msgid "<i>Warning.</i>"
+msgstr "<b>1. Planificación</b>"
+
+msgid "Scale parameter %s is assumed positive."
+msgstr ""
+
+msgid "Scale parameter %s is assumed negative."
+msgstr ""
+
+#, fuzzy
+msgid "Bernoulli distribution"
+msgstr "Distribución previa"
+
+#, fuzzy
+msgid "probability of success: p %s %s: 0 %s p %s 1"
+msgstr "Probabilidade de éxito:"
+
+msgid "x %s {0, 1}"
+msgstr ""
+
+msgid "p(1-p)"
+msgstr ""
+
+#, fuzzy
+msgid "beta distribution"
+msgstr "F"
+
+#, fuzzy
+msgid "beta-binomial distribution"
+msgstr "Distribución previa"
+
+#, fuzzy
+msgid "number of trials: %s"
+msgstr "Número de ensaios:"
+
+#, fuzzy
+msgid "Parameter n was fixed at value %s."
+msgstr "Estimacións dos parámetros"
+
+#, fuzzy
+msgid "beta prime distribution"
+msgstr "Distribución previa"
+
+#, fuzzy
+msgid "lower bound: %s"
+msgstr "límite inferior:"
+
+#, fuzzy
+msgid "upper bound: %s"
+msgstr "límite superior:"
+
+#, fuzzy
+msgid "binomial distribution"
+msgstr "Distribución previa"
+
+#, fuzzy
+msgid "probability of success: %s"
+msgstr "Probabilidade de éxito:"
+
+#, fuzzy
+msgid "Cauchy distribution"
+msgstr "F"
+
+#, fuzzy
+msgid "location: &mu; %s"
+msgstr "posición:"
+
+msgid "undefined"
+msgstr ""
+
+msgid "%s<sup>2</sup> distribution"
+msgstr ""
+
+#, fuzzy
+msgid "degree of freedom: %s"
+msgstr "Graos de liberdade:"
+
+#, fuzzy
+msgid "non-centrality: %s"
+msgstr "Non centralidade:"
+
+#, fuzzy
+msgid "exponential distribution"
+msgstr "Distribución posterior"
+
+#, fuzzy
+msgid "rate: %s"
+msgstr "Cociente:"
+
+msgid "F-distribution"
+msgstr "F"
+
+#, fuzzy
+msgid "Fréchet distribution"
+msgstr "F"
+
+#, fuzzy
+msgid "location: %s"
+msgstr "posición:"
+
+msgid "see Wikipedia: https://en.wikipedia.org/wiki/Fr%C3%A9chet_distribution"
+msgstr ""
+
+#, fuzzy
+msgid "gamma distribution"
+msgstr "F"
+
+#, fuzzy
+msgid "mean: %s"
+msgstr "media:"
+
+#, fuzzy
+msgid "inverse gamma distribution"
+msgstr "Distribución previa"
+
+#, fuzzy
+msgid "normal distribution"
+msgstr "Distribución previa"
+
+msgid "mean: &mu; %s"
+msgstr ""
+
+#, fuzzy
+msgid "variance: %s"
+msgstr "varianza"
+
+#, fuzzy
+msgid "standard deviation: %s"
+msgstr "desviación típica"
+
+#, fuzzy
+msgid "precision: %s"
+msgstr "Precisión:"
+
+#, fuzzy
+msgid "square root of precision: %s"
+msgstr "Raíz cadrada da precisión:"
+
+msgid "&mu;"
+msgstr ""
+
+#, fuzzy
+msgid "geometric distribution"
+msgstr "Distribución posterior"
+
+#, fuzzy
+msgid "population size: %s"
+msgstr "Poboación"
+
+msgid "number of success states in the population: %s"
+msgstr ""
+
+msgid "number of draws from the population: %s"
+msgstr ""
+
+#, fuzzy
+msgid "Gompertz distribution"
+msgstr "Distribución previa"
+
+msgid ""
+"shape: %s \n"
+"scale: %s"
+msgstr ""
+
+#, fuzzy
+msgid "Gumbel distribution"
+msgstr "F"
+
+#, fuzzy
+msgid "hypergeometric distribution"
+msgstr "Distribución previa"
+
+#, fuzzy
+msgid "Laplace distribution"
+msgstr "F"
+
+#, fuzzy
+msgid "log-logistic distribution"
+msgstr "Distribución posterior"
+
+#, fuzzy
+msgid "log location: &mu; %s"
+msgstr "posición:"
+
+#, fuzzy
+msgid "log scale: %s"
+msgstr "escala:"
+
+msgid "scale: &alpha; %s"
+msgstr ""
+
+msgid ""
+"see Wikipedia: https://en.wikipedia.org/wiki/Log-"
+"logistic_distribution#Moments"
+msgstr ""
+
+#, fuzzy
+msgid "logistic distribution"
+msgstr "Distribución posterior"
+
+msgid "(&sigma; &pi;)<sup>2</sup> / 3"
+msgstr ""
+
+#, fuzzy
+msgid "log-normal distribution"
+msgstr "Distribución previa"
+
+msgid "log mean: &mu; %s"
+msgstr ""
+
+#, fuzzy
+msgid "log standard deviation: %s"
+msgstr "desviación típica"
+
+msgid "exp(&mu; + &sigma;<sup>2</sup>/2)"
+msgstr ""
+
+msgid "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
+msgstr ""
+
+#, fuzzy
+msgid "mixture of two normal distributions"
+msgstr "Distribución previa"
+
+#, fuzzy
+msgid "probability of first component: %s"
+msgstr "Probabilidade de éxito:"
+
+#, fuzzy
+msgid "mean 1: %s"
+msgstr "media:"
+
+#, fuzzy
+msgid "std. deviation 1: %s"
+msgstr "Desviación típica:"
+
+#, fuzzy
+msgid "mean 2: %s"
+msgstr "media:"
+
+#, fuzzy
+msgid "std. deviation 2: %s"
+msgstr "Desviación típica:"
+
+#, fuzzy
+msgid "mixture of a normal and a uniform distribution"
+msgstr "Distribución previa e posterior"
+
+msgid "probability of normal component: %s"
+msgstr ""
+
+#, fuzzy
+msgid "mean of normal distribution: %s"
+msgstr "Distribucións posteriores marxinais"
+
+#, fuzzy
+msgid "std. deviation of normal distribution: %s"
+msgstr "Distribución posterior"
+
+#, fuzzy
+msgid "minimum of uniform distribution: %s"
+msgstr "Distribucións posteriores marxinais"
+
+#, fuzzy
+msgid "maximum of uniform distribution: %s"
+msgstr "Distribucións posteriores marxinais"
+
+msgid "Parameter a was fixed at value %s, parameter b was fixed at value %s."
+msgstr ""
+
+#, fuzzy
+msgid "negative binomial distribution"
+msgstr "Binomial Negativa"
+
+#, fuzzy
+msgid "number of successes: %s"
+msgstr "Número de acertos:"
+
+#, fuzzy
+msgid "dispersion: %s"
+msgstr "Dispersión:"
+
+msgid "zero-inflated negative binomial distribution"
+msgstr ""
+
+#, fuzzy
+msgid "probability of zero process: %s"
+msgstr "Probabilidade de éxito:"
+
+#, fuzzy
+msgid "generalized normal distribution"
+msgstr "Distribución previa"
+
+msgid ""
+"see Wikipedia - https://en.wikipedia.org/wiki/"
+"Generalized_normal_distribution#Moments"
+msgstr ""
+
+#, fuzzy
+msgid "skew normal distribution"
+msgstr "Distribución posterior"
+
+#, fuzzy
+msgid "Pareto distribution"
+msgstr "Distribución previa"
+
+#, fuzzy
+msgid "Poisson distribution"
+msgstr "Distribución previa"
+
+#, fuzzy
+msgid "zero-inflated Poisson distribution"
+msgstr "Distribución posterior"
+
+#, fuzzy
+msgid "noncentral t-distribution"
+msgstr "Distribución previa"
+
+#, fuzzy
+msgid "degrees of freedom: %s"
+msgstr "Graos de liberdade:"
+
+msgid "does not exist unless df > 1"
+msgstr ""
+
+msgid "does not exist unless df > 2"
+msgstr ""
+
+msgid "see Azzalini & Capitanio (2003)"
+msgstr ""
+
+#, fuzzy
+msgid "skewed generalized t-distribution"
+msgstr "Distribución posterior"
+
+#, fuzzy
+msgid "skewness: %s"
+msgstr "Asimetría"
+
+#, fuzzy
+msgid "kurtosis: %s"
+msgstr "Curtose"
+
+msgid ""
+"see Wikipedia: https://en.wikipedia.org/wiki/"
+"Skewed_generalized_t_distribution#Moments"
+msgstr ""
+
+msgid "scaled, shifted Student's t-distribution"
+msgstr ""
+
+#, fuzzy
+msgid "triangular distribution"
+msgstr "Distribución previa"
+
+#, fuzzy
+msgid "minimum: %s"
+msgstr "Mínimo"
+
+#, fuzzy
+msgid "maximum: %s"
+msgstr "Máximo"
+
+#, fuzzy
+msgid "mode: %s"
+msgstr "modelos"
+
+#, fuzzy
+msgid "uniform distribution"
+msgstr "Distribución previa"
+
+#, fuzzy
+msgid "Wald distribution"
+msgstr "F"
+
+msgid "drift rate: %s"
+msgstr ""
+
+#, fuzzy
+msgid "threshold: %s"
+msgstr "Valores límite"
+
+msgid "noise: %s"
+msgstr ""
+
+msgid "Parameter %s was fixed to 1."
+msgstr ""
+
+#, fuzzy
+msgid "Weibull distribution"
+msgstr "Distribución previa"
+
