@@ -1,15 +1,9 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-02 14:03+0000\n"
-"Last-Translator: Diogo Meurer de Souza Castro <diogo.castro@ifal.edu.br>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
-"jaspdistributions-qml/pt/>\n"
-"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Language: pt\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -77,9 +71,10 @@ msgctxt "LDbeta|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDbeta|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDbeta|"
 msgid "Parameters, support, and moments"
@@ -110,9 +105,10 @@ msgctxt "LDbinomial|"
 msgid "Free parameter"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDbinomial|"
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgctxt "LDbinomial|"
 msgid "Fixed parameter"
@@ -127,9 +123,10 @@ msgctxt "LDbinomial|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDbinomial|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDbinomial|"
 msgid "Parameters, support, and moments"
@@ -186,9 +183,10 @@ msgctxt "LDchisq|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDchisq|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDchisq|"
 msgid "Parameters, support, and moments"
@@ -210,18 +208,20 @@ msgctxt "LDchisq|"
 msgid "Quantile function"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDexponential|"
 msgid "Parameter"
-msgstr ""
+msgstr "Parâmetro"
 
 #, fuzzy
 msgctxt "LDexponential|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDexponential|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDexponential|"
 msgid "Parameters, support, and moments"
@@ -260,9 +260,10 @@ msgctxt "LDf|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDf|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDf|"
 msgid "Parameters, support, and moments"
@@ -294,9 +295,10 @@ msgctxt "LDgamma|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDgamma|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDgamma|"
 msgid "Parameters, support, and moments"
@@ -328,9 +330,10 @@ msgctxt "LDgammaInverse|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDgammaInverse|"
 msgid "Parameters, support, and moments"
@@ -400,9 +403,10 @@ msgctxt "LDgaussianunivariate|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDgaussianunivariate|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Parameters, support, and moments"
@@ -434,9 +438,10 @@ msgctxt "LDnegbinomial|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDnegbinomial|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDnegbinomial|"
 msgid "Parameters, support, and moments"
@@ -489,18 +494,20 @@ msgctxt "LDpoisson|"
 msgid "Show Distribution"
 msgstr "Mostrar distribuição"
 
+#, fuzzy
 msgctxt "LDpoisson|"
 msgid "Parameter"
-msgstr ""
+msgstr "Parâmetro"
 
 #, fuzzy
 msgctxt "LDpoisson|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDpoisson|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDpoisson|"
 msgid "Parameters, support, and moments"
@@ -998,9 +1005,10 @@ msgctxt "LDlogistic|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDlogistic|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDlogistic|"
 msgid "Parameters, support, and moments"
@@ -1048,9 +1056,10 @@ msgctxt "LDlognormal|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDlognormal|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDlognormal|"
 msgid "Parameters, support, and moments"
@@ -1250,9 +1259,10 @@ msgctxt "LDamoroso|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDamoroso|"
 msgid "Parameters, support, and moments"
@@ -1317,9 +1327,10 @@ msgctxt "LDbetaBinomial|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDbetaBinomial|"
 msgid "Parameters, support, and moments"
@@ -1398,9 +1409,10 @@ msgctxt "LDbetaPrime|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDbetaPrime|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDbetaPrime|"
 msgid "Parameters, support, and moments"
@@ -1468,9 +1480,10 @@ msgctxt "LDbetaStretched|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDbetaStretched|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDbetaStretched|"
 msgid "Parameters, support, and moments"
@@ -1518,9 +1531,10 @@ msgctxt "LDcauchy|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDcauchy|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDcauchy|"
 msgid "Parameters, support, and moments"
@@ -1576,9 +1590,10 @@ msgctxt "LDfrechet|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDfrechet|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDfrechet|"
 msgid "Parameters, support, and moments"
@@ -1605,26 +1620,29 @@ msgctxt "LDgeometric|"
 msgid "Show Distribution"
 msgstr "Mostrar distribuição"
 
+#, fuzzy
 msgctxt "LDgeometric|"
 msgid "Parameter"
-msgstr ""
+msgstr "Parâmetro"
 
 msgctxt "LDgeometric|"
 msgid "Probability of success:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDgeometric|"
 msgid "p"
-msgstr ""
+msgstr "p"
 
 #, fuzzy
 msgctxt "LDgeometric|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDgeometric|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDgeometric|"
 msgid "Parameters, support, and moments"
@@ -1694,9 +1712,10 @@ msgctxt "LDgompertz|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDgompertz|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDgompertz|"
 msgid "Parameters, support, and moments"
@@ -1744,9 +1763,10 @@ msgctxt "LDgumbel|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDgumbel|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDgumbel|"
 msgid "Parameters, support, and moments"
@@ -1802,9 +1822,10 @@ msgctxt "LDhypergeometric|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDhypergeometric|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDhypergeometric|"
 msgid "Parameters, support, and moments"
@@ -1882,9 +1903,10 @@ msgctxt "LDlaplace|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDlaplace|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDlaplace|"
 msgid "Parameters, support, and moments"
@@ -1937,9 +1959,10 @@ msgctxt "LDlogLogistic|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDlogLogistic|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDlogLogistic|"
 msgid "Parameters, support, and moments"
@@ -2011,9 +2034,10 @@ msgctxt "LDmixtureNormalNormal|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDmixtureNormalNormal|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Parameters, support, and moments"
@@ -2093,9 +2117,10 @@ msgctxt "LDmixtureNormalUniform|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDmixtureNormalUniform|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Parameters, support, and moments"
@@ -2156,9 +2181,10 @@ msgctxt "LDnegbinomialZeroInflated|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Parameters, support, and moments"
@@ -2244,9 +2270,10 @@ msgctxt "LDnormalGeneralized|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDnormalGeneralized|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Parameters, support, and moments"
@@ -2302,9 +2329,10 @@ msgctxt "LDnormalSkew|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDnormalSkew|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDnormalSkew|"
 msgid "Parameters, support, and moments"
@@ -2344,9 +2372,10 @@ msgctxt "LDpareto|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDpareto|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDpareto|"
 msgid "Parameters, support, and moments"
@@ -2373,9 +2402,10 @@ msgctxt "LDpoissonZeroInflated|"
 msgid "Show Distribution"
 msgstr "Mostrar distribuição"
 
+#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Parameter"
-msgstr ""
+msgstr "Parâmetro"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Probability of Zero process:"
@@ -2398,9 +2428,10 @@ msgctxt "LDpoissonZeroInflated|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Parameters, support, and moments"
@@ -2483,9 +2514,10 @@ msgctxt "LDtNoncentral|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDtNoncentral|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDtNoncentral|"
 msgid "Parameters, support, and moments"
@@ -2541,9 +2573,10 @@ msgctxt "LDtriangular|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDtriangular|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDtriangular|"
 msgid "Parameters, support, and moments"
@@ -2607,9 +2640,10 @@ msgctxt "LDtSkew|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDtSkew|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDtSkew|"
 msgid "Parameters, support, and moments"
@@ -2653,9 +2687,10 @@ msgctxt "LDtSkewedGeneralized|"
 msgid "Kurtosis:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Scale:"
@@ -2682,9 +2717,10 @@ msgctxt "LDtSkewedGeneralized|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Parameters, support, and moments"
@@ -2745,9 +2781,10 @@ msgctxt "LDtStudent|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDtStudent|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDtStudent|"
 msgid "Parameters, support, and moments"
@@ -2800,9 +2837,10 @@ msgctxt "LDuniform|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDuniform|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDuniform|"
 msgid "Parameters, support, and moments"
@@ -2859,9 +2897,10 @@ msgctxt "LDwald|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDwald|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDwald|"
 msgid "Parameters, support, and moments"
@@ -2901,9 +2940,10 @@ msgctxt "LDweibull|"
 msgid "Display"
 msgstr "Exibir"
 
+#, fuzzy
 msgctxt "LDweibull|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Texto explicativo"
 
 msgctxt "LDweibull|"
 msgid "Parameters, support, and moments"
