@@ -1,299 +1,307 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-07-02 14:03+0000\n"
+"Last-Translator: sun wong <shuonwang@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"jasp/jaspdistributions-qml/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.8-dev\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
 msgid "Distributions"
-msgstr ""
+msgstr "分布"
 
 msgctxt "Description|"
 msgid "Visualize distributions and fit them to data"
-msgstr ""
+msgstr "将分布可视化并拟合到数据中"
 
 msgctxt "Description|"
 msgid "Continuous"
-msgstr ""
+msgstr "连续"
 
 msgctxt "Description|"
 msgid "Normal"
-msgstr ""
+msgstr "正态"
 
 msgctxt "Description|"
 msgid "Skew normal"
-msgstr ""
+msgstr "斜正态"
 
 msgctxt "Description|"
 msgid "Generalized normal (version 1)"
-msgstr ""
+msgstr "广义正态（版本 1）"
 
 msgctxt "Description|"
 msgid "Cauchy"
-msgstr ""
+msgstr "柯西"
 
 msgctxt "Description|"
 msgid "Scaled, shifted Student's t"
-msgstr ""
+msgstr "Scaled, shifted Student's t"
 
 msgctxt "Description|"
 msgid "Noncentral t"
-msgstr ""
+msgstr "非中心t分布"
 
 msgctxt "Description|"
 msgid "Skew t"
-msgstr ""
+msgstr "Skew t"
 
 msgctxt "Description|"
 msgid "Skewed generalized t"
-msgstr ""
+msgstr "广义偏斜t分布"
 
 msgctxt "Description|"
 msgid "F-distribution"
-msgstr ""
+msgstr "F分布"
 
 msgctxt "Description|"
 msgid "Chi-squared"
-msgstr ""
+msgstr "卡方"
 
+#, fuzzy
 msgctxt "Description|"
 msgid "Uniform"
-msgstr ""
+msgstr "均匀分布"
 
 msgctxt "Description|"
 msgid "Beta"
-msgstr ""
+msgstr "Beta"
 
 msgctxt "Description|"
 msgid "Stretched beta"
-msgstr ""
+msgstr "Stretched beta"
 
 msgctxt "Description|"
 msgid "Beta prime"
-msgstr ""
+msgstr "Beta prime"
 
 msgctxt "Description|"
 msgid "Gamma"
-msgstr ""
+msgstr "伽马分布"
 
 msgctxt "Description|"
 msgid "Inverse gamma"
-msgstr ""
+msgstr "Inverse gamma"
 
 msgctxt "Description|"
 msgid "Exponential"
-msgstr ""
+msgstr "指数分布"
 
 msgctxt "Description|"
 msgid "Laplace"
-msgstr ""
+msgstr "拉普拉斯分布(Laplace)"
 
 msgctxt "Description|"
 msgid "Log-normal"
-msgstr ""
+msgstr "对数正态分布(Log-normal)"
 
 msgctxt "Description|"
 msgid "Logistic"
-msgstr ""
+msgstr "Logistic分布"
 
 msgctxt "Description|"
 msgid "Log-logistic"
-msgstr ""
+msgstr "Log-logistic分布"
 
 msgctxt "Description|"
 msgid "Pareto"
-msgstr ""
+msgstr "帕累托分布(Pareto)"
 
 msgctxt "Description|"
 msgid "Amoroso"
-msgstr ""
+msgstr "Amoroso分布"
 
 msgctxt "Description|"
 msgid "Fréchet"
-msgstr ""
+msgstr "Fréchet"
 
 msgctxt "Description|"
 msgid "Gumbel"
-msgstr ""
+msgstr "耿贝尔 (Gumbel) 分布"
 
 msgctxt "Description|"
 msgid "Gompertz"
-msgstr ""
+msgstr "Gompertz"
 
 msgctxt "Description|"
 msgid "Triangular"
-msgstr ""
+msgstr "三角分布(triangular)"
 
 msgctxt "Description|"
 msgid "Wald (inverse Gaussian)"
-msgstr ""
+msgstr "瓦尔德-逆高斯分布(Wald -inverse Gaussian)"
 
 msgctxt "Description|"
 msgid "Weibull"
-msgstr ""
+msgstr "韦布尔分布(Weibull)"
 
 msgctxt "Description|"
 msgid "Mixture of normal and normal"
-msgstr ""
+msgstr "Mixture of normal and normal"
 
 msgctxt "Description|"
 msgid "Mixture of normal and uniform"
-msgstr ""
+msgstr "Mixture of normal and uniform"
 
 msgctxt "Description|"
 msgid "Discrete"
-msgstr ""
+msgstr "离散"
 
 msgctxt "Description|"
 msgid "Bernoulli"
-msgstr ""
+msgstr "伯努利分布(Bernoulli)"
 
 msgctxt "Description|"
 msgid "Binomial"
-msgstr ""
+msgstr "二项分布(Binomial)"
 
 msgctxt "Description|"
 msgid "Beta-binomial"
-msgstr ""
+msgstr "Beta-binomial分布"
 
 msgctxt "Description|"
 msgid "Poisson"
-msgstr ""
+msgstr "泊松分布(Poisson)"
 
 msgctxt "Description|"
 msgid "Negative binomial"
-msgstr ""
+msgstr "负二项分布"
 
 msgctxt "Description|"
 msgid "Zero-inflated Poisson"
-msgstr ""
+msgstr "Zero-inflated Poisson"
 
 msgctxt "Description|"
 msgid "Zero-inflated negative binomial"
-msgstr ""
+msgstr "Zero-inflated negative binomial"
 
 msgctxt "Description|"
 msgid "Geometric"
-msgstr ""
+msgstr "几何分布(Geometric)"
 
 msgctxt "Description|"
 msgid "Hypergeometric"
-msgstr ""
+msgstr "超几何分布(Hypergeometric)"
 
 msgctxt "LDAssessFit|"
 msgid "Assess Fit"
-msgstr ""
+msgstr "评估拟合度"
 
 msgctxt "LDAssessFit|"
 msgid "[requires a loaded data set]"
-msgstr ""
+msgstr "[需要一个加载的数据集]"
 
 msgctxt "LDAssessFit|"
 msgid "Plots"
-msgstr ""
+msgstr "绘图"
 
 msgctxt "LDAssessFit|"
 msgid "Histogram vs. theoretical pdf"
-msgstr ""
+msgstr "直方图与理论概率密度函数"
 
 msgctxt "LDAssessFit|"
 msgid "Histogram vs. theoretical pmf"
-msgstr ""
+msgstr "直方图与理论概率质量函数"
 
 msgctxt "LDAssessFit|"
 msgid "Q-Q plot"
-msgstr ""
+msgstr "Q-Q图"
 
 msgctxt "LDAssessFit|"
 msgid "Empirical vs. theoretical cdf"
-msgstr ""
+msgstr "经验与理论累积分布函数(cdf)"
 
 msgctxt "LDAssessFit|"
 msgid "P-P plot"
-msgstr ""
+msgstr "P-P图"
 
 msgctxt "LDAssessFit|"
 msgid "Statistics"
-msgstr ""
+msgstr "统计量"
 
 msgctxt "LDAssessFit|"
 msgid "Kolmogorov-Smirnov"
-msgstr ""
+msgstr "K-S 检验"
 
 msgctxt "LDAssessFit|"
 msgid "Cramér–von Mises"
-msgstr ""
+msgstr "Cramér–von Mises检验(CvM)"
 
 msgctxt "LDAssessFit|"
 msgid "Anderson-Darling"
-msgstr ""
+msgstr "AD检验(Anderson-Darling)"
 
 msgctxt "LDAssessFit|"
 msgid "Shapiro-Wilk"
-msgstr ""
+msgstr "Shapiro-Wilk检验"
 
 msgctxt "LDAssessFit|"
 msgid "Chi-square"
-msgstr ""
+msgstr "卡方检验"
 
 msgctxt "LDEstimateParameters|"
 msgid "Estimate Parameters"
-msgstr ""
+msgstr "参数估计"
 
 msgctxt "LDEstimateParameters|"
 msgid "[requires a loaded data set]"
-msgstr ""
+msgstr "[需要一个加载的数据集]"
 
 msgctxt "LDEstimateParameters|"
 msgid "Maximum likelihood"
-msgstr ""
+msgstr "最大似然"
 
 msgctxt "LDEstimateParameters|"
 msgid "Estimates"
-msgstr ""
+msgstr "估算"
 
 msgctxt "LDEstimateParameters|"
 msgid "Std. error"
-msgstr ""
+msgstr "标准误"
 
 msgctxt "LDEstimateParameters|"
 msgid "Confidence interval"
-msgstr ""
+msgstr "置信区间"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Generate and Display Data"
-msgstr ""
+msgstr "生成及显示数据"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "[requires a loaded data set]"
-msgstr ""
+msgstr "[需要一个加载的数据集]"
 
 #, qt-format
 msgctxt "LDGenerateDisplayData|"
 msgid "Generate new variable from %1"
-msgstr ""
+msgstr "从%1生成新的变量"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Variable name: "
-msgstr ""
+msgstr "变量名： "
 
 #, qt-format
 msgctxt "LDGenerateDisplayData|"
 msgid "e.g., random %1"
-msgstr ""
+msgstr "例如,随机%1"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Number of samples: "
-msgstr ""
+msgstr "样本量： "
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Draw samples"
-msgstr ""
+msgstr "抽取样本"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Get variable from data set"
-msgstr ""
+msgstr "从数据集中获取变量"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Statistics"
