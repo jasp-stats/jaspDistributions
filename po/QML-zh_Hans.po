@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-05 18:34+0000\n"
+"PO-Revision-Date: 2021-07-08 19:34+0000\n"
 "Last-Translator: shun wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "jasp/jaspdistributions-qml/zh_Hans/>\n"
@@ -827,7 +827,7 @@ msgstr "标注"
 
 msgctxt "LDbinomial|"
 msgid "Mass"
-msgstr ""
+msgstr "质量"
 
 msgctxt "LDbinomial|"
 msgid "Cumulative Probability"
@@ -839,7 +839,7 @@ msgstr "区间"
 
 msgctxt "LDbinomial|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 msgctxt "LDcauchy|"
 msgid "Show Distribution"
@@ -903,7 +903,7 @@ msgstr ""
 
 msgctxt "LDchisq|"
 msgid "Non-centrality:"
-msgstr ""
+msgstr "非中心性："
 
 msgctxt "LDchisq|"
 msgid "λ"
@@ -947,7 +947,7 @@ msgstr "参数"
 
 msgctxt "LDexponential|"
 msgid "Rate:"
-msgstr ""
+msgstr "率:"
 
 msgctxt "LDexponential|"
 msgid "Scale:"
@@ -987,7 +987,7 @@ msgstr "显示分布"
 
 msgctxt "LDf|"
 msgid "Degree of freedom:"
-msgstr "自由度"
+msgstr "自由度:"
 
 msgctxt "LDf|"
 msgid "df 1"
@@ -999,7 +999,7 @@ msgstr ""
 
 msgctxt "LDf|"
 msgid "Non-centrality:"
-msgstr ""
+msgstr "非中心:"
 
 msgctxt "LDf|"
 msgid "ncp"
@@ -1107,7 +1107,7 @@ msgstr "尺度："
 
 msgctxt "LDgamma|"
 msgid "Rate:"
-msgstr ""
+msgstr "率:"
 
 msgctxt "LDgamma|"
 msgid "Mean:"
