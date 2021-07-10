@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2021-03-06 16:28\n"
-"PO-Revision-Date: 2021-07-02 14:03+0000\n"
+"PO-Revision-Date: 2021-07-08 19:34+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/gl/>\n"
@@ -49,21 +49,19 @@ msgid "Variance"
 msgstr "Varianza"
 
 msgid "Std. deviation"
-msgstr "Desviación típica"
+msgstr "Desviación padrón"
 
 msgid "Minimum"
 msgstr "Mínimo"
 
-#, fuzzy
 msgid "25%% Quantile"
-msgstr "Cuartís"
+msgstr "Cuartil do 25%%"
 
 msgid "Median"
 msgstr "Mediana"
 
-#, fuzzy
 msgid "75%% Quantile"
-msgstr "Cuartís"
+msgstr "Cuantil do 75%%"
 
 msgid "Maximum"
 msgstr "Máximo"
@@ -100,10 +98,10 @@ msgid "Estimate"
 msgstr "Estimar"
 
 msgid "SE"
-msgstr "DT"
+msgstr "ET"
 
 msgid "Standard errors are unavailable with this method"
-msgstr ""
+msgstr "Con este método, os erros padrón non están dispoñibles"
 
 msgid "Lower"
 msgstr "Inferior"
@@ -123,12 +121,14 @@ msgid "Confidence intervals were calculated using the delta method."
 msgstr "Axuste do intervalo de confianza"
 
 msgid "Standard errors were calculated using the delta method."
-msgstr ""
+msgstr "Os erros padrón calculáronse utilizando o método delta."
 
 msgid ""
 "Standard errors and confidence intervals were calculated using the delta "
 "method."
 msgstr ""
+"Os erros padrón e os intervalos de confianza calculáronse utilizando o "
+"método delta."
 
 msgid "Maximum likelihood"
 msgstr "Máxima-Verosimilitude"
@@ -212,9 +212,8 @@ msgstr "Función de probabilidade"
 msgid "Cumulative Distribution Function"
 msgstr "Función de distribución acumulativa"
 
-#, fuzzy
 msgid "Quantile Function"
-msgstr "Función cuantil"
+msgstr "Función Cuantil"
 
 #, fuzzy
 msgid "Formula"
@@ -231,9 +230,8 @@ msgstr "Probabilidade acumulativa"
 msgid "Slope"
 msgstr ""
 
-#, fuzzy
 msgid "Quantile Plot"
-msgstr "Función cuantil"
+msgstr "Gráfica de Cuantiles"
 
 #, fuzzy
 msgid "Probability Mass Plot"
@@ -481,7 +479,7 @@ msgid "rate: %s"
 msgstr "Cociente:"
 
 msgid "F-distribution"
-msgstr "F"
+msgstr "Distribución F"
 
 #, fuzzy
 msgid "Fréchet distribution"
@@ -623,17 +621,15 @@ msgstr "Probabilidade de éxito:"
 msgid "mean 1: %s"
 msgstr "media:"
 
-#, fuzzy
 msgid "std. deviation 1: %s"
-msgstr "Desviación típica:"
+msgstr "desviación padrón 1: %s"
 
 #, fuzzy
 msgid "mean 2: %s"
 msgstr "media:"
 
-#, fuzzy
 msgid "std. deviation 2: %s"
-msgstr "Desviación típica:"
+msgstr "desviación padrón 2: %s"
 
 #, fuzzy
 msgid "mixture of a normal and a uniform distribution"
@@ -646,9 +642,8 @@ msgstr ""
 msgid "mean of normal distribution: %s"
 msgstr "Distribucións posteriores marxinais"
 
-#, fuzzy
 msgid "std. deviation of normal distribution: %s"
-msgstr "Distribución posterior"
+msgstr "desviación padrón da distribución Normal: %s"
 
 #, fuzzy
 msgid "minimum of uniform distribution: %s"
