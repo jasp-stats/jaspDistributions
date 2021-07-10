@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-07-08 19:34+0000\n"
+"Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
+"Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/gl/>\n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8-dev\n"
 "X-Language: gl_ES\n"
 "X-Source-Language: C\n"
 "X-Qt-Contexts: true\n"
@@ -374,7 +380,7 @@ msgstr "Shapiro-Wilk"
 
 msgctxt "LDEstimateParameters|"
 msgid "Std. error"
-msgstr "Desviación padrón"
+msgstr "Erro padrón"
 
 msgctxt "LDEstimateParameters|"
 msgid "Estimate Parameters"
@@ -1517,10 +1523,9 @@ msgctxt "LDgaussianunivariate|"
 msgid "Mean:"
 msgstr "Media:"
 
-#, fuzzy
 msgctxt "LDgaussianunivariate|"
 msgid "Std. deviation:"
-msgstr "Desviación típica:"
+msgstr "Desviación padrón:"
 
 #, fuzzy
 msgctxt "LDgaussianunivariate|"
@@ -2096,7 +2101,7 @@ msgstr ""
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Std. deviation 1:"
-msgstr ""
+msgstr "Desviación padrón 1:"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "σ₁"
@@ -2112,7 +2117,7 @@ msgstr ""
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Std. deviation 2:"
-msgstr ""
+msgstr "Desviación padrón 2:"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "σ₂"
@@ -2181,7 +2186,7 @@ msgstr "μ"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Std. deviation :"
-msgstr ""
+msgstr "Desviación padrón:"
 
 #, fuzzy
 msgctxt "LDmixtureNormalUniform|"

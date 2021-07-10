@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-02 14:03+0000\n"
-"Last-Translator: sun wong <shuonwang@gmail.com>\n"
+"PO-Revision-Date: 2021-07-08 19:34+0000\n"
+"Last-Translator: shun wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "jasp/jaspdistributions-qml/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -259,7 +259,7 @@ msgstr "最大似然"
 
 msgctxt "LDEstimateParameters|"
 msgid "Estimates"
-msgstr "估算"
+msgstr "估计"
 
 msgctxt "LDEstimateParameters|"
 msgid "Std. error"
@@ -305,549 +305,549 @@ msgstr "从数据集中获取变量"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Statistics"
-msgstr ""
+msgstr "统计量"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Descriptives"
-msgstr ""
+msgstr "描述"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "First"
-msgstr ""
+msgstr "前"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "observed moments"
-msgstr ""
+msgstr "个观察到的矩(动差)"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Plots"
-msgstr ""
+msgstr "绘图"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Bar plot"
-msgstr ""
+msgstr "条形图"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Histogram with"
-msgstr ""
+msgstr "直方图"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "bins"
-msgstr ""
+msgstr "个箱条"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Empirical cumulative distribution"
-msgstr ""
+msgstr "经验累积分布图"
 
 msgctxt "LDOptions|"
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 msgctxt "LDOptions|"
 msgid "Range of x from"
-msgstr ""
+msgstr "x 的范围从"
 
 msgctxt "LDOptions|"
 msgid "to"
-msgstr ""
+msgstr "到"
 
 msgctxt "LDOptions|"
 msgid "Highlight"
-msgstr ""
+msgstr "标注"
 
 msgctxt "LDOptions|"
 msgid "Density"
-msgstr ""
+msgstr "密度"
 
 msgctxt "LDOptions|"
 msgid "Probability"
-msgstr ""
+msgstr "概率"
 
 msgctxt "LDOptions|"
 msgid "Interval"
-msgstr ""
+msgstr "区间"
 
 msgctxt "LDOptions|"
 msgid "from"
-msgstr ""
+msgstr "从"
 
 #, qt-format
 msgctxt "LDOptions|"
 msgid "from %1"
-msgstr ""
+msgstr "从 %1"
 
 #, qt-format
 msgctxt "LDOptions|"
 msgid "to %1"
-msgstr ""
+msgstr "到 %1"
 
 msgctxt "LDamoroso|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDamoroso|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDamoroso|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDamoroso|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDamoroso|"
 msgid "θ"
-msgstr ""
+msgstr "θ"
 
 msgctxt "LDamoroso|"
 msgid "Shape:"
-msgstr ""
+msgstr "形状："
 
 msgctxt "LDamoroso|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDamoroso|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 msgctxt "LDamoroso|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDamoroso|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDamoroso|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDamoroso|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDamoroso|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDamoroso|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDamoroso|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDbernoulli|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDbernoulli|"
 msgid "Parameter"
-msgstr ""
+msgstr "参数"
 
 msgctxt "LDbernoulli|"
 msgid "Probability of success:"
-msgstr ""
+msgstr "成功概率："
 
 msgctxt "LDbernoulli|"
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgctxt "LDbernoulli|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDbernoulli|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDbernoulli|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDbernoulli|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDbernoulli|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "概率质量函数"
 
 msgctxt "LDbernoulli|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDbernoulli|"
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 msgctxt "LDbernoulli|"
 msgid "Highlight"
-msgstr ""
+msgstr "标注"
 
 msgctxt "LDbernoulli|"
 msgid "Mass"
-msgstr ""
+msgstr "质量"
 
 msgctxt "LDbernoulli|"
 msgid "Cumulative Probability"
-msgstr ""
+msgstr "累积概率"
 
 msgctxt "LDbernoulli|"
 msgid "Limits"
-msgstr ""
+msgstr "边界"
 
 msgctxt "LDbernoulli|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 msgctxt "LDbeta|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDbeta|"
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 msgctxt "LDbeta|"
 msgid "Shape:"
-msgstr ""
+msgstr "形状:"
 
 msgctxt "LDbeta|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDbeta|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 msgctxt "LDbeta|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDbeta|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDbeta|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDbeta|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDbeta|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDbeta|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDbeta|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDbetaBinomial|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDbetaBinomial|"
 msgid "Free parameters"
-msgstr ""
+msgstr "自由参数"
 
 msgctxt "LDbetaBinomial|"
 msgid "Shape:"
-msgstr ""
+msgstr "形状："
 
 msgctxt "LDbetaBinomial|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDbetaBinomial|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 msgctxt "LDbetaBinomial|"
 msgid "Fixed parameter"
-msgstr ""
+msgstr "固定参数"
 
 msgctxt "LDbetaBinomial|"
 msgid "Number of trials:"
-msgstr ""
+msgstr "试验次数："
 
 msgctxt "LDbetaBinomial|"
 msgid "n"
-msgstr ""
+msgstr "n"
 
 msgctxt "LDbetaBinomial|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDbetaBinomial|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDbetaBinomial|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDbetaBinomial|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDbetaBinomial|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "概率质量函数"
 
 msgctxt "LDbetaBinomial|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDbetaBinomial|"
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 msgctxt "LDbetaBinomial|"
 msgid "Range of x from"
-msgstr ""
+msgstr "x 的范围从"
 
 msgctxt "LDbetaBinomial|"
 msgid "to"
-msgstr ""
+msgstr "到"
 
 msgctxt "LDbetaBinomial|"
 msgid "Highlight"
-msgstr ""
+msgstr "标注"
 
 msgctxt "LDbetaBinomial|"
 msgid "Mass"
-msgstr ""
+msgstr "质量"
 
 msgctxt "LDbetaBinomial|"
 msgid "Cumulative Probability"
-msgstr ""
+msgstr "累积概率"
 
 msgctxt "LDbetaBinomial|"
 msgid "Interval"
-msgstr ""
+msgstr "区间"
 
 msgctxt "LDbetaBinomial|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 msgctxt "LDbetaPrime|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDbetaPrime|"
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 msgctxt "LDbetaPrime|"
 msgid "Shape:"
-msgstr ""
+msgstr "形状:"
 
 msgctxt "LDbetaPrime|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDbetaPrime|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 msgctxt "LDbetaPrime|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDbetaPrime|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDbetaPrime|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDbetaPrime|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDbetaPrime|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDbetaPrime|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDbetaPrime|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDbetaStretched|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDbetaStretched|"
 msgid "Free parameters"
-msgstr ""
+msgstr "自由参数"
 
 msgctxt "LDbetaStretched|"
 msgid "Shape:"
-msgstr ""
+msgstr "形状："
 
 msgctxt "LDbetaStretched|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDbetaStretched|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 msgctxt "LDbetaStretched|"
 msgid "Fixed parameters"
-msgstr ""
+msgstr "固定参数"
 
 msgctxt "LDbetaStretched|"
 msgid "Lower bound:"
-msgstr ""
+msgstr "下限："
 
 msgctxt "LDbetaStretched|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDbetaStretched|"
 msgid "Upper bound:"
-msgstr ""
+msgstr "上限："
 
 msgctxt "LDbetaStretched|"
 msgid "b"
-msgstr ""
+msgstr "b"
 
 msgctxt "LDbetaStretched|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDbetaStretched|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDbetaStretched|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDbetaStretched|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDbetaStretched|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDbetaStretched|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDbetaStretched|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDbinomial|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDbinomial|"
 msgid "Free parameter"
-msgstr ""
+msgstr "自由参数"
 
 msgctxt "LDbinomial|"
 msgid "Probability of success:"
-msgstr ""
+msgstr "成功概率："
 
 msgctxt "LDbinomial|"
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgctxt "LDbinomial|"
 msgid "Fixed parameter"
-msgstr ""
+msgstr "固定参数"
 
 msgctxt "LDbinomial|"
 msgid "Number of trials:"
-msgstr ""
+msgstr "试验次数："
 
 msgctxt "LDbinomial|"
 msgid "n"
-msgstr ""
+msgstr "n"
 
 msgctxt "LDbinomial|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDbinomial|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDbinomial|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDbinomial|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDbinomial|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "概率质量函数"
 
 msgctxt "LDbinomial|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDbinomial|"
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 msgctxt "LDbinomial|"
 msgid "Range of x from"
-msgstr ""
+msgstr "x 的范围从"
 
 msgctxt "LDbinomial|"
 msgid "to"
-msgstr ""
+msgstr "到"
 
 msgctxt "LDbinomial|"
 msgid "Highlight"
-msgstr ""
+msgstr "标注"
 
 msgctxt "LDbinomial|"
 msgid "Mass"
-msgstr ""
+msgstr "质量"
 
 msgctxt "LDbinomial|"
 msgid "Cumulative Probability"
-msgstr ""
+msgstr "累计概率"
 
 msgctxt "LDbinomial|"
 msgid "Interval"
-msgstr ""
+msgstr "区间"
 
 msgctxt "LDbinomial|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 msgctxt "LDcauchy|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDcauchy|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDcauchy|"
 msgid "μ"
@@ -855,7 +855,7 @@ msgstr ""
 
 msgctxt "LDcauchy|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDcauchy|"
 msgid "σ"
@@ -863,39 +863,39 @@ msgstr ""
 
 msgctxt "LDcauchy|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDcauchy|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDcauchy|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDcauchy|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDcauchy|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDcauchy|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDcauchy|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDchisq|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDchisq|"
 msgid "Degree of freedom:"
-msgstr ""
+msgstr "自由度"
 
 msgctxt "LDchisq|"
 msgid "k"
@@ -903,7 +903,7 @@ msgstr ""
 
 msgctxt "LDchisq|"
 msgid "Non-centrality:"
-msgstr ""
+msgstr "非中心性："
 
 msgctxt "LDchisq|"
 msgid "λ"
@@ -911,83 +911,83 @@ msgstr ""
 
 msgctxt "LDchisq|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDchisq|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDchisq|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDchisq|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDchisq|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDchisq|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDchisq|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDexponential|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDexponential|"
 msgid "Parameter"
-msgstr ""
+msgstr "参数"
 
 msgctxt "LDexponential|"
 msgid "Rate:"
-msgstr ""
+msgstr "率:"
 
 msgctxt "LDexponential|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDexponential|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDexponential|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDexponential|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDexponential|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDexponential|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDexponential|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDexponential|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDf|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDf|"
 msgid "Degree of freedom:"
-msgstr ""
+msgstr "自由度:"
 
 msgctxt "LDf|"
 msgid "df 1"
@@ -999,7 +999,7 @@ msgstr ""
 
 msgctxt "LDf|"
 msgid "Non-centrality:"
-msgstr ""
+msgstr "非中心:"
 
 msgctxt "LDf|"
 msgid "ncp"
@@ -1007,39 +1007,39 @@ msgstr ""
 
 msgctxt "LDf|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDf|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDf|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDf|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDf|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDf|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDf|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDfrechet|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDfrechet|"
 msgid "Shape:"
-msgstr ""
+msgstr "形状："
 
 msgctxt "LDfrechet|"
 msgid "α"
@@ -1047,7 +1047,7 @@ msgstr ""
 
 msgctxt "LDfrechet|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDfrechet|"
 msgid "μ"
@@ -1055,7 +1055,7 @@ msgstr ""
 
 msgctxt "LDfrechet|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDfrechet|"
 msgid "σ"
@@ -1063,51 +1063,51 @@ msgstr ""
 
 msgctxt "LDfrechet|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDfrechet|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDfrechet|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDfrechet|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDfrechet|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDfrechet|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDfrechet|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDgamma|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDgamma|"
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 msgctxt "LDgamma|"
 msgid "Shape:"
-msgstr ""
+msgstr "形状："
 
 msgctxt "LDgamma|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDgamma|"
 msgid "Rate:"
-msgstr ""
+msgstr "率:"
 
 msgctxt "LDgamma|"
 msgid "Mean:"
@@ -1115,47 +1115,47 @@ msgstr ""
 
 msgctxt "LDgamma|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDgamma|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDgamma|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDgamma|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDgamma|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDgamma|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDgamma|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDgammaInverse|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDgammaInverse|"
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 msgctxt "LDgammaInverse|"
 msgid "Shape:"
-msgstr ""
+msgstr "形状："
 
 msgctxt "LDgammaInverse|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDgammaInverse|"
 msgid "Rate:"
@@ -1167,43 +1167,43 @@ msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDgammaInverse|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDgammaInverse|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDgammaInverse|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDgammaInverse|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDgammaInverse|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDgammaInverse|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDgammaInverse|"
 msgid "Assess Fit"
-msgstr ""
+msgstr "评估拟合度"
 
 msgctxt "LDgammaInverse|"
 msgid "Plots"
-msgstr ""
+msgstr "绘图"
 
 msgctxt "LDgammaInverse|"
 msgid "Histogram vs. theoretical pdf"
-msgstr ""
+msgstr "直方图与理论概率密度函数"
 
 msgctxt "LDgammaInverse|"
 msgid "Q-Q plot"
@@ -1219,7 +1219,7 @@ msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Statistics"
-msgstr ""
+msgstr "统计量"
 
 msgctxt "LDgammaInverse|"
 msgid "Kolmogorov-Smirnov"
@@ -1235,11 +1235,11 @@ msgstr ""
 
 msgctxt "LDgaussianunivariate|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Mean:"
@@ -1267,43 +1267,43 @@ msgstr ""
 
 msgctxt "LDgaussianunivariate|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDgeometric|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDgeometric|"
 msgid "Parameter"
-msgstr ""
+msgstr "参数"
 
 msgctxt "LDgeometric|"
 msgid "Probability of success:"
-msgstr ""
+msgstr "成功概率："
 
 msgctxt "LDgeometric|"
 msgid "p"
@@ -1311,43 +1311,43 @@ msgstr ""
 
 msgctxt "LDgeometric|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDgeometric|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDgeometric|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDgeometric|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDgeometric|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "概率质量函数"
 
 msgctxt "LDgeometric|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDgeometric|"
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 msgctxt "LDgeometric|"
 msgid "Range of x from"
-msgstr ""
+msgstr "x 的范围从"
 
 msgctxt "LDgeometric|"
 msgid "to"
-msgstr ""
+msgstr "到"
 
 msgctxt "LDgeometric|"
 msgid "Highlight"
-msgstr ""
+msgstr "标注"
 
 msgctxt "LDgeometric|"
 msgid "Mass"
@@ -1355,11 +1355,11 @@ msgstr ""
 
 msgctxt "LDgeometric|"
 msgid "Cumulative Probability"
-msgstr ""
+msgstr "累计概率"
 
 msgctxt "LDgeometric|"
 msgid "Interval"
-msgstr ""
+msgstr "区间"
 
 msgctxt "LDgeometric|"
 msgid "≤ X ≤"
@@ -1367,51 +1367,51 @@ msgstr ""
 
 msgctxt "LDgompertz|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDgompertz|"
 msgid "Shape:"
-msgstr ""
+msgstr "形状："
 
 msgctxt "LDgompertz|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDgompertz|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDgompertz|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDgompertz|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDgompertz|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDgompertz|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDgompertz|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDgompertz|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDgumbel|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDgumbel|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDgumbel|"
 msgid "μ"
@@ -1419,7 +1419,7 @@ msgstr ""
 
 msgctxt "LDgumbel|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDgumbel|"
 msgid "β"
@@ -1427,35 +1427,35 @@ msgstr ""
 
 msgctxt "LDgumbel|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDgumbel|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDgumbel|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDgumbel|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDgumbel|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDgumbel|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDgumbel|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDhypergeometric|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDhypergeometric|"
 msgid "Population size:"
@@ -1483,43 +1483,43 @@ msgstr ""
 
 msgctxt "LDhypergeometric|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDhypergeometric|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDhypergeometric|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDhypergeometric|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDhypergeometric|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "概率质量函数"
 
 msgctxt "LDhypergeometric|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDhypergeometric|"
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 msgctxt "LDhypergeometric|"
 msgid "Range of x from"
-msgstr ""
+msgstr "x 的范围从"
 
 msgctxt "LDhypergeometric|"
 msgid "to"
-msgstr ""
+msgstr "到"
 
 msgctxt "LDhypergeometric|"
 msgid "Highlight"
-msgstr ""
+msgstr "标注"
 
 msgctxt "LDhypergeometric|"
 msgid "Mass"
@@ -1527,11 +1527,11 @@ msgstr ""
 
 msgctxt "LDhypergeometric|"
 msgid "Cumulative Probability"
-msgstr ""
+msgstr "累计概率"
 
 msgctxt "LDhypergeometric|"
 msgid "Interval"
-msgstr ""
+msgstr "区间"
 
 msgctxt "LDhypergeometric|"
 msgid "≤ X ≤"
@@ -1539,11 +1539,11 @@ msgstr ""
 
 msgctxt "LDlaplace|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDlaplace|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDlaplace|"
 msgid "μ"
@@ -1551,7 +1551,7 @@ msgstr ""
 
 msgctxt "LDlaplace|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDlaplace|"
 msgid "β"
@@ -1559,39 +1559,39 @@ msgstr ""
 
 msgctxt "LDlaplace|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDlaplace|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDlaplace|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDlaplace|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDlaplace|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDlaplace|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDlaplace|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDlogistic|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDlogistic|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDlogistic|"
 msgid "μ"
@@ -1599,7 +1599,7 @@ msgstr ""
 
 msgctxt "LDlogistic|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDlogistic|"
 msgid "σ"
@@ -1607,39 +1607,39 @@ msgstr ""
 
 msgctxt "LDlogistic|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDlogistic|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDlogistic|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDlogistic|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDlogistic|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDlogistic|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDlogistic|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDlogLogistic|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDlogLogistic|"
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 msgctxt "LDlogLogistic|"
 msgid "Log location:"
@@ -1647,7 +1647,7 @@ msgstr ""
 
 msgctxt "LDlogLogistic|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDlogLogistic|"
 msgid "Log scale:"
@@ -1655,39 +1655,39 @@ msgstr ""
 
 msgctxt "LDlogLogistic|"
 msgid "Shape:"
-msgstr ""
+msgstr "形状："
 
 msgctxt "LDlogLogistic|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDlogLogistic|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDlogLogistic|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDlogLogistic|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDlogLogistic|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDlogLogistic|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDlogLogistic|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDlognormal|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDlognormal|"
 msgid "Log Mean:"
@@ -1707,35 +1707,35 @@ msgstr ""
 
 msgctxt "LDlognormal|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDlognormal|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDlognormal|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDlognormal|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDlognormal|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDlognormal|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDlognormal|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Mean 1:"
@@ -1779,39 +1779,39 @@ msgstr ""
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Free parameters"
-msgstr ""
+msgstr "自由参数"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Mean :"
@@ -1839,7 +1839,7 @@ msgstr ""
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Fixed parameters"
-msgstr ""
+msgstr "固定参数"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Minimum of uniform:"
@@ -1847,7 +1847,7 @@ msgstr ""
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Maximum of uniform:"
@@ -1855,43 +1855,43 @@ msgstr ""
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "b"
-msgstr ""
+msgstr "b"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDnegbinomial|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDnegbinomial|"
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 msgctxt "LDnegbinomial|"
 msgid "Number of successes:"
@@ -1903,7 +1903,7 @@ msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Probability of success:"
-msgstr ""
+msgstr "成功概率："
 
 msgctxt "LDnegbinomial|"
 msgid "Mean:"
@@ -1911,43 +1911,43 @@ msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDnegbinomial|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDnegbinomial|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDnegbinomial|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDnegbinomial|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "概率质量函数"
 
 msgctxt "LDnegbinomial|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDnegbinomial|"
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 msgctxt "LDnegbinomial|"
 msgid "Range of x from"
-msgstr ""
+msgstr "x 的范围从"
 
 msgctxt "LDnegbinomial|"
 msgid "to"
-msgstr ""
+msgstr "到"
 
 msgctxt "LDnegbinomial|"
 msgid "Highlight"
-msgstr ""
+msgstr "标注"
 
 msgctxt "LDnegbinomial|"
 msgid "Mass"
@@ -1955,11 +1955,11 @@ msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Cumulative Probability"
-msgstr ""
+msgstr "累计概率"
 
 msgctxt "LDnegbinomial|"
 msgid "Interval"
-msgstr ""
+msgstr "区间"
 
 msgctxt "LDnegbinomial|"
 msgid "≤ X ≤"
@@ -1967,11 +1967,11 @@ msgstr ""
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Probability of Zero process:"
@@ -1991,7 +1991,7 @@ msgstr ""
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Probability of success:"
-msgstr ""
+msgstr "成功概率："
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Mean:"
@@ -1999,43 +1999,43 @@ msgstr ""
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "概率质量函数"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Range of x from"
-msgstr ""
+msgstr "x 的范围从"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "to"
-msgstr ""
+msgstr "到"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Highlight"
-msgstr ""
+msgstr "标注"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Mass"
@@ -2043,11 +2043,11 @@ msgstr ""
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Cumulative Probability"
-msgstr ""
+msgstr "累计概率"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Interval"
-msgstr ""
+msgstr "区间"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "≤ X ≤"
@@ -2055,11 +2055,11 @@ msgstr ""
 
 msgctxt "LDnormalGeneralized|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDnormalGeneralized|"
 msgid "μ"
@@ -2067,7 +2067,7 @@ msgstr ""
 
 msgctxt "LDnormalGeneralized|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDnormalGeneralized|"
 msgid "α"
@@ -2075,7 +2075,7 @@ msgstr ""
 
 msgctxt "LDnormalGeneralized|"
 msgid "Shape:"
-msgstr ""
+msgstr "形状："
 
 msgctxt "LDnormalGeneralized|"
 msgid "β"
@@ -2083,39 +2083,39 @@ msgstr ""
 
 msgctxt "LDnormalGeneralized|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDnormalSkew|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDnormalSkew|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDnormalSkew|"
 msgid "ξ"
@@ -2123,7 +2123,7 @@ msgstr ""
 
 msgctxt "LDnormalSkew|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDnormalSkew|"
 msgid "ω"
@@ -2131,7 +2131,7 @@ msgstr ""
 
 msgctxt "LDnormalSkew|"
 msgid "Shape:"
-msgstr ""
+msgstr "形状："
 
 msgctxt "LDnormalSkew|"
 msgid "α"
@@ -2139,79 +2139,79 @@ msgstr ""
 
 msgctxt "LDnormalSkew|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDnormalSkew|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDnormalSkew|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDnormalSkew|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDnormalSkew|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDnormalSkew|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDnormalSkew|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDpareto|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDpareto|"
 msgid "Shape:"
-msgstr ""
+msgstr "形状："
 
 msgctxt "LDpareto|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDpareto|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDpareto|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDpareto|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDpareto|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDpareto|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDpareto|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDpareto|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDpoisson|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDpoisson|"
 msgid "Parameter"
-msgstr ""
+msgstr "参数"
 
 msgctxt "LDpoisson|"
 msgid "Rate:"
@@ -2223,43 +2223,43 @@ msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDpoisson|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDpoisson|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDpoisson|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDpoisson|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "概率质量函数"
 
 msgctxt "LDpoisson|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDpoisson|"
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 msgctxt "LDpoisson|"
 msgid "Range of x from"
-msgstr ""
+msgstr "x 的范围从"
 
 msgctxt "LDpoisson|"
 msgid "to"
-msgstr ""
+msgstr "到"
 
 msgctxt "LDpoisson|"
 msgid "Highlight"
-msgstr ""
+msgstr "标注"
 
 msgctxt "LDpoisson|"
 msgid "Mass"
@@ -2267,11 +2267,11 @@ msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "Cumulative Probability"
-msgstr ""
+msgstr "累计概率"
 
 msgctxt "LDpoisson|"
 msgid "Interval"
-msgstr ""
+msgstr "区间"
 
 msgctxt "LDpoisson|"
 msgid "≤ X ≤"
@@ -2279,11 +2279,11 @@ msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Parameter"
-msgstr ""
+msgstr "参数"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Probability of Zero process:"
@@ -2303,43 +2303,43 @@ msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "概率质量函数"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Range of x from"
-msgstr ""
+msgstr "x 的范围从"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "to"
-msgstr ""
+msgstr "到"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Highlight"
-msgstr ""
+msgstr "标注"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Mass"
@@ -2347,11 +2347,11 @@ msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Cumulative Probability"
-msgstr ""
+msgstr "累计概率"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Interval"
-msgstr ""
+msgstr "区间"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "≤ X ≤"
@@ -2359,15 +2359,15 @@ msgstr ""
 
 msgctxt "LDtNoncentral|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDtNoncentral|"
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 msgctxt "LDtNoncentral|"
 msgid "Degrees of freedom:"
-msgstr ""
+msgstr "自由度"
 
 msgctxt "LDtNoncentral|"
 msgid "df"
@@ -2383,35 +2383,35 @@ msgstr ""
 
 msgctxt "LDtNoncentral|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDtNoncentral|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDtNoncentral|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDtNoncentral|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDtNoncentral|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDtNoncentral|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDtNoncentral|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDtriangular|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDtriangular|"
 msgid "Minimum:"
@@ -2419,7 +2419,7 @@ msgstr ""
 
 msgctxt "LDtriangular|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDtriangular|"
 msgid "Maximum:"
@@ -2427,7 +2427,7 @@ msgstr ""
 
 msgctxt "LDtriangular|"
 msgid "b"
-msgstr ""
+msgstr "b"
 
 msgctxt "LDtriangular|"
 msgid "Mode:"
@@ -2439,39 +2439,39 @@ msgstr ""
 
 msgctxt "LDtriangular|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDtriangular|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDtriangular|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDtriangular|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDtriangular|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDtriangular|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDtriangular|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDtSkew|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDtSkew|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDtSkew|"
 msgid "ξ"
@@ -2479,7 +2479,7 @@ msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDtSkew|"
 msgid "ω"
@@ -2487,7 +2487,7 @@ msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "Shape:"
-msgstr ""
+msgstr "形状："
 
 msgctxt "LDtSkew|"
 msgid "α"
@@ -2495,7 +2495,7 @@ msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "Degree of freedom:"
-msgstr ""
+msgstr "自由度"
 
 msgctxt "LDtSkew|"
 msgid "df"
@@ -2503,43 +2503,43 @@ msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDtSkew|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDtSkew|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDtSkew|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDtSkew|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDtSkew|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDtSkew|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "μ"
@@ -2555,7 +2555,7 @@ msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "σ"
@@ -2575,43 +2575,43 @@ msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDtStudent|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDtStudent|"
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 msgctxt "LDtStudent|"
 msgid "Degrees of freedom:"
-msgstr ""
+msgstr "自由度"
 
 msgctxt "LDtStudent|"
 msgid "df"
@@ -2619,7 +2619,7 @@ msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDtStudent|"
 msgid "μ"
@@ -2627,7 +2627,7 @@ msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDtStudent|"
 msgid "σ"
@@ -2635,39 +2635,39 @@ msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDtStudent|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDtStudent|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDtStudent|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDtStudent|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDtStudent|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDtStudent|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDuniform|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDuniform|"
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 msgctxt "LDuniform|"
 msgid "Lower bound:"
@@ -2675,7 +2675,7 @@ msgstr ""
 
 msgctxt "LDuniform|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDuniform|"
 msgid "Upper bound:"
@@ -2683,43 +2683,43 @@ msgstr ""
 
 msgctxt "LDuniform|"
 msgid "b"
-msgstr ""
+msgstr "b"
 
 msgctxt "LDuniform|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDuniform|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDuniform|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDuniform|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDuniform|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDuniform|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDuniform|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDwald|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDwald|"
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 msgctxt "LDwald|"
 msgid "Mean:"
@@ -2735,7 +2735,7 @@ msgstr ""
 
 msgctxt "LDwald|"
 msgid "Shape:"
-msgstr ""
+msgstr "形状："
 
 msgctxt "LDwald|"
 msgid "Noise:"
@@ -2743,68 +2743,68 @@ msgstr ""
 
 msgctxt "LDwald|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDwald|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDwald|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDwald|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDwald|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDwald|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDwald|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
 
 msgctxt "LDweibull|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "显示分布"
 
 msgctxt "LDweibull|"
 msgid "Shape:"
-msgstr ""
+msgstr "形状："
 
 msgctxt "LDweibull|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDweibull|"
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 msgctxt "LDweibull|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "说明文字"
 
 msgctxt "LDweibull|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "参数、支撑，矩(动差)"
 
 msgctxt "LDweibull|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDweibull|"
 msgid "Probability density function"
-msgstr ""
+msgstr "概率密度函数"
 
 msgctxt "LDweibull|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "累积分布函数"
 
 msgctxt "LDweibull|"
 msgid "Quantile function"
-msgstr ""
+msgstr "分位数函数"
