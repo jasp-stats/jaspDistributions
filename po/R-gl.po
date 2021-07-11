@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2021-03-06 16:28\n"
-"PO-Revision-Date: 2021-07-08 19:34+0000\n"
+"PO-Revision-Date: 2021-07-10 23:34+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/gl/>\n"
@@ -208,9 +208,8 @@ msgstr "Función de densidade de probabilidade"
 msgid "Probability Mass Function"
 msgstr "Función de probabilidade"
 
-#, fuzzy
 msgid "Cumulative Distribution Function"
-msgstr "Función de distribución acumulativa"
+msgstr "Función de Distribución Acumulada"
 
 msgid "Quantile Function"
 msgstr "Función Cuantil"
@@ -223,9 +222,8 @@ msgstr "Fórmulas"
 msgid "Density Plot"
 msgstr "Densidade"
 
-#, fuzzy
 msgid "Cumulative Probability Plot"
-msgstr "Probabilidade acumulativa"
+msgstr "Gráfica de Probabilidade Acumulada"
 
 msgid "Slope"
 msgstr ""
@@ -246,9 +244,8 @@ msgstr "Gráfica de barras"
 msgid "Rel. Freq (%s in bin)"
 msgstr ""
 
-#, fuzzy
 msgid "Empirical Cumulative Distribution"
-msgstr "Distribución acumulativa empírica"
+msgstr "Distribución Acumulada Empírica"
 
 msgid "Freq"
 msgstr ""
@@ -436,9 +433,8 @@ msgstr "Distribución previa"
 msgid "lower bound: %s"
 msgstr "límite inferior:"
 
-#, fuzzy
 msgid "upper bound: %s"
-msgstr "límite superior:"
+msgstr "límite superior: %s"
 
 #, fuzzy
 msgid "binomial distribution"
@@ -764,9 +760,8 @@ msgstr "F"
 msgid "drift rate: %s"
 msgstr ""
 
-#, fuzzy
 msgid "threshold: %s"
-msgstr "Valores límite"
+msgstr "limiar: %s"
 
 msgid "noise: %s"
 msgstr ""
