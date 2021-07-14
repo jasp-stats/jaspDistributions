@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-07-15 17:34+0000\n"
+"Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
+"Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/gl/>\n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 "X-Language: gl_ES\n"
 "X-Source-Language: C\n"
 "X-Qt-Contexts: true\n"
@@ -192,7 +198,7 @@ msgstr "Logaritmo Media:"
 
 msgctxt "LDlognormal|"
 msgid "Log std. deviation:"
-msgstr "Logaritmo da desviación padrón:"
+msgstr "Logaritmo do desvío padrón:"
 
 msgctxt "LDgammaInverse|"
 msgid "Shape:"
@@ -479,10 +485,9 @@ msgctxt "Description|"
 msgid "Mixture of normal and uniform"
 msgstr ""
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Beta-binomial"
-msgstr "Binomial Beta"
+msgstr "Beta-Binomial"
 
 #, fuzzy
 msgctxt "Description|"
@@ -501,32 +506,26 @@ msgctxt "Description|"
 msgid "Geometric"
 msgstr ""
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Hypergeometric"
-msgstr "Hiperxeométrico"
+msgstr "Hiperxeométrica"
 
-#, fuzzy
 msgctxt "LDAssessFit|"
 msgid "[requires a loaded data set]"
 msgstr "[necesita ter cargado un conxunto de datos]"
 
-#, fuzzy
 msgctxt "LDAssessFit|"
 msgid "Plots"
 msgstr "Gráficas"
 
-#, fuzzy
 msgctxt "LDGenerateDisplayData|"
 msgid "[requires a loaded data set]"
 msgstr "[necesita ter cargado un conxunto de datos]"
 
-#, fuzzy
 msgctxt "LDGenerateDisplayData|"
 msgid "Statistics"
 msgstr "Estatísticos"
 
-#, fuzzy
 msgctxt "LDGenerateDisplayData|"
 msgid "Descriptives"
 msgstr "Descritivos"
@@ -1519,7 +1518,7 @@ msgstr "Media:"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Std. deviation:"
-msgstr "Desviación padrón:"
+msgstr "Desvío padrón:"
 
 #, fuzzy
 msgctxt "LDgaussianunivariate|"
@@ -2095,7 +2094,7 @@ msgstr ""
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Std. deviation 1:"
-msgstr "Desviación padrón 1:"
+msgstr "Desvío padrón 1:"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "σ₁"
@@ -2111,7 +2110,7 @@ msgstr ""
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Std. deviation 2:"
-msgstr "Desviación padrón 2:"
+msgstr "Desvío padrón 2:"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "σ₂"
@@ -2180,7 +2179,7 @@ msgstr "μ"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Std. deviation :"
-msgstr "Desviación padrón:"
+msgstr "Desvío padrón:"
 
 #, fuzzy
 msgctxt "LDmixtureNormalUniform|"
