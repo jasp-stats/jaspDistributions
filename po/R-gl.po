@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2021-03-06 16:28\n"
-"PO-Revision-Date: 2021-07-10 23:34+0000\n"
+"PO-Revision-Date: 2021-07-15 17:33+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/gl/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 "X-Virgin-Header: remove this line if you change anything in the header.\n"
 "X-Language: gl_ES\n"
 "X-Source-Language: C\n"
@@ -49,7 +49,7 @@ msgid "Variance"
 msgstr "Varianza"
 
 msgid "Std. deviation"
-msgstr "Desviación padrón"
+msgstr "Desvío padrón"
 
 msgid "Minimum"
 msgstr "Mínimo"
@@ -413,9 +413,8 @@ msgstr ""
 msgid "beta distribution"
 msgstr "F"
 
-#, fuzzy
 msgid "beta-binomial distribution"
-msgstr "Distribución previa"
+msgstr "distribución Beta-Binomial"
 
 #, fuzzy
 msgid "number of trials: %s"
@@ -511,9 +510,8 @@ msgstr ""
 msgid "variance: %s"
 msgstr "varianza"
 
-#, fuzzy
 msgid "standard deviation: %s"
-msgstr "desviación típica"
+msgstr "desvío padrón: %s"
 
 #, fuzzy
 msgid "precision: %s"
@@ -595,9 +593,8 @@ msgstr "Distribución previa"
 msgid "log mean: &mu; %s"
 msgstr ""
 
-#, fuzzy
 msgid "log standard deviation: %s"
-msgstr "desviación típica"
+msgstr "logaritmo do desvío padrón: %s"
 
 msgid "exp(&mu; + &sigma;<sup>2</sup>/2)"
 msgstr ""
@@ -618,14 +615,14 @@ msgid "mean 1: %s"
 msgstr "media:"
 
 msgid "std. deviation 1: %s"
-msgstr "desviación padrón 1: %s"
+msgstr "desvío padrón 1: %s"
 
 #, fuzzy
 msgid "mean 2: %s"
 msgstr "media:"
 
 msgid "std. deviation 2: %s"
-msgstr "desviación padrón 2: %s"
+msgstr "desvío padrón 2: %s"
 
 #, fuzzy
 msgid "mixture of a normal and a uniform distribution"
@@ -639,7 +636,7 @@ msgid "mean of normal distribution: %s"
 msgstr "Distribucións posteriores marxinais"
 
 msgid "std. deviation of normal distribution: %s"
-msgstr "desviación padrón da distribución Normal: %s"
+msgstr "desvío padrón da distribución Normal: %s"
 
 #, fuzzy
 msgid "minimum of uniform distribution: %s"
