@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2021-03-06 16:28\n"
-"PO-Revision-Date: 2021-07-16 01:56+0000\n"
+"PO-Revision-Date: 2021-07-19 17:57+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/gl/>\n"
@@ -78,7 +78,7 @@ msgid "Observed Moments"
 msgstr "momentos observados"
 
 msgid "Moment"
-msgstr ""
+msgstr "Momento"
 
 msgid "Raw"
 msgstr "Bruto"
@@ -112,13 +112,11 @@ msgstr ""
 msgid "Upper"
 msgstr "Superior"
 
-#, fuzzy
 msgid "Confidence intervals are unavailable with this method."
-msgstr "Método do intervalo de confianza"
+msgstr "Os intervalos de confianza non están dispoñibles con este método."
 
-#, fuzzy
 msgid "Confidence intervals were calculated using the delta method."
-msgstr "Axuste do intervalo de confianza"
+msgstr "Os intervalos de confianza calculáronse utilizando o método delta."
 
 msgid "Standard errors were calculated using the delta method."
 msgstr "Os erros padrón calculáronse utilizando o método delta."
@@ -420,9 +418,8 @@ msgstr "distribución Beta-Binomial"
 msgid "number of trials: %s"
 msgstr "Número de ensaios:"
 
-#, fuzzy
 msgid "Parameter n was fixed at value %s."
-msgstr "Estimacións dos parámetros"
+msgstr "Ao parámetro douselle o valor %s."
 
 #, fuzzy
 msgid "beta prime distribution"
@@ -524,9 +521,8 @@ msgstr "Raíz cadrada da precisión:"
 msgid "&mu;"
 msgstr ""
 
-#, fuzzy
 msgid "geometric distribution"
-msgstr "Distribución posterior"
+msgstr "distribución Xeométrica"
 
 #, fuzzy
 msgid "population size: %s"
@@ -551,9 +547,8 @@ msgstr ""
 msgid "Gumbel distribution"
 msgstr "F"
 
-#, fuzzy
 msgid "hypergeometric distribution"
-msgstr "Distribución previa"
+msgstr "distribución Hiperxeométrica"
 
 #, fuzzy
 msgid "Laplace distribution"
