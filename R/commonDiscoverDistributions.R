@@ -1571,7 +1571,7 @@
       cdf = gettext("The cumulative distribution function (CDF), usually denoted as F(x), is a function of a random variable X.
     The value of F(x) provides the probability that a realization of the random variable X yields a value that is equal to or smaller than x.
 
-    The cumulative probability plot displays the cumulative distribution of a random variable.
+    The cumulative probability plot displays the cumulative distribution function of a random variable.
     The <i>y</i>-axis displays the value of the cumulative distribution function for a particular value of the random variable (displayed on the <i>x</i>-axis)."),
 
       qf  = gettext("The quantile function, usually denoted as Q(p), is the inverse of the cumulative distribution function.
