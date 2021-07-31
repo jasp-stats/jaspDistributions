@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.3.0\n"
-"POT-Creation-Date: 2021-03-06 16:28\n"
+"POT-Creation-Date: 2021-07-31 02:56\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -229,7 +229,7 @@ msgstr ""
 msgid "The probability mass function (PMF), usually denoted as f(x), is a function of a random variable X.\n    The value of f(x) provides the probability that a realization of the random variable X yields a value equal to x.\n\n    The probability mass plot displays the probability mass function of a random variable.\n    The <i>y</i>-axis displays the value of the probability mass function for a particular value of the random variable (displayed on the <i>x</i>-axis)."
 msgstr ""
 
-msgid "The cumulative distribution function (CDF), usually denoted as F(x), is a function of a random variable X.\n    The value of F(x) provides the probability that a realization of the random variable X yields a value that is equal to or smaller than x.\n\n    The cumulative probability plot displays the cumulative distribution of a random variable.\n    The <i>y</i>-axis displays the value of the cumulative distribution function for a particular value of the random variable (displayed on the <i>x</i>-axis)."
+msgid "The cumulative distribution function (CDF), usually denoted as F(x), is a function of a random variable X.\n    The value of F(x) provides the probability that a realization of the random variable X yields a value that is equal to or smaller than x.\n\n    The cumulative probability plot displays the cumulative distribution function of a random variable.\n    The <i>y</i>-axis displays the value of the cumulative distribution function for a particular value of the random variable (displayed on the <i>x</i>-axis)."
 msgstr ""
 
 msgid "The quantile function, usually denoted as Q(p), is the inverse of the cumulative distribution function.\n    The function gives the quantile such that the probability of the random variable being less than or equal to that value equals the given probability p.\n\n    The quantile plot displays the quantile function.\n    The <i>y</i>-axis displays the quantile of which the probability that the random variable is less or equal to that value is equal to p (displayed on the <i>x</i>-axis)."
