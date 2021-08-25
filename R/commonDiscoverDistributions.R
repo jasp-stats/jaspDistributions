@@ -962,6 +962,7 @@
   }
 
   lineData <- ggplot2::layer_data(plot, 1)
+  lineData <- lineData[is.finite(lineData$y),]
   plot <- plot + ggplot2::ylab(gettext("Density")) +
     ggplot2::scale_x_continuous(limits = options[['range_x']],  breaks = jaspGraphs::getPrettyAxisBreaks(options[['range_x']])) +
     ggplot2::scale_y_continuous(limits = c(0, max(lineData$y)), breaks = jaspGraphs::getPrettyAxisBreaks(lineData$y), expand = ggplot2::expansion(mult=c(0,0.2)))
