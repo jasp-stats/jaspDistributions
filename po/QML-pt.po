@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-08-27 20:21+0000\n"
+"Last-Translator: Laura Durans <lauraadurans@gmail.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/pt/>\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 "X-Language: pt\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -20,7 +26,6 @@ msgctxt "LDbernoulli|"
 msgid "p"
 msgstr "p"
 
-#, fuzzy
 msgctxt "LDbernoulli|"
 msgid "Display"
 msgstr "Exibir"
@@ -31,11 +36,11 @@ msgstr "Texto explicativo"
 
 msgctxt "LDbernoulli|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parâmetros, suporte e momentos"
 
 msgctxt "LDbernoulli|"
 msgid "Formulas"
-msgstr ""
+msgstr "Fórmulas"
 
 msgctxt "LDbernoulli|"
 msgid "Probability mass function"
@@ -43,108 +48,100 @@ msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "Função distribuição acumulada"
 
-#, fuzzy
 msgctxt "LDbernoulli|"
 msgid "Options"
 msgstr "Opções"
 
 msgctxt "LDbernoulli|"
 msgid "Highlight"
-msgstr ""
+msgstr "Destacar"
 
 msgctxt "LDbernoulli|"
 msgid "Mass"
-msgstr ""
+msgstr "Massa"
 
 msgctxt "LDbernoulli|"
 msgid "Cumulative Probability"
-msgstr ""
+msgstr "Probabilidade cumulativa"
 
 msgctxt "LDbernoulli|"
 msgid "Limits"
-msgstr ""
+msgstr "Limites"
 
-#, fuzzy
 msgctxt "LDbeta|"
 msgid "Display"
 msgstr "Exibir"
 
-#, fuzzy
 msgctxt "LDbeta|"
 msgid "Explanatory text"
 msgstr "Texto explicativo"
 
 msgctxt "LDbeta|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parâmetros, suporte e momentos"
 
 msgctxt "LDbeta|"
 msgid "Formulas"
-msgstr ""
+msgstr "Fórmulas"
 
 msgctxt "LDbeta|"
 msgid "Probability density function"
-msgstr ""
+msgstr "Função densidade de probabilidade"
 
 msgctxt "LDbeta|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "Função distribuição acumulada"
 
 msgctxt "LDbeta|"
 msgid "Quantile function"
-msgstr ""
+msgstr "Função quantil"
 
-#, fuzzy
 msgctxt "LDbinomial|"
 msgid "Show Distribution"
 msgstr "Mostrar distribuição"
 
 msgctxt "LDbinomial|"
 msgid "Free parameter"
-msgstr ""
+msgstr "Parâmetro livre"
 
-#, fuzzy
 msgctxt "LDbinomial|"
 msgid "p"
 msgstr "p"
 
 msgctxt "LDbinomial|"
 msgid "Fixed parameter"
-msgstr ""
+msgstr "Parâmetro fixo"
 
 msgctxt "LDbinomial|"
 msgid "n"
-msgstr ""
+msgstr "n"
 
-#, fuzzy
 msgctxt "LDbinomial|"
 msgid "Display"
 msgstr "Exibir"
 
-#, fuzzy
 msgctxt "LDbinomial|"
 msgid "Explanatory text"
 msgstr "Texto explicativo"
 
 msgctxt "LDbinomial|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parâmetros, suporte e momentos"
 
 msgctxt "LDbinomial|"
 msgid "Formulas"
-msgstr ""
+msgstr "Fórmulas"
 
 msgctxt "LDbinomial|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "Função massa de probabilidade"
 
 msgctxt "LDbinomial|"
 msgid "Cumulative distribution function"
-msgstr ""
+msgstr "Função distribuição acumulada"
 
-#, fuzzy
 msgctxt "LDbinomial|"
 msgid "Options"
 msgstr "Opções"
@@ -153,37 +150,34 @@ msgctxt "LDbinomial|"
 msgid "Range of x from"
 msgstr ""
 
-#, fuzzy
 msgctxt "LDbinomial|"
 msgid "to"
 msgstr "Para"
 
 msgctxt "LDbinomial|"
 msgid "Highlight"
-msgstr ""
+msgstr "Destacar"
 
 msgctxt "LDbinomial|"
 msgid "Mass"
-msgstr ""
+msgstr "Massa"
 
 msgctxt "LDbinomial|"
 msgid "Cumulative Probability"
-msgstr ""
+msgstr "Probabilidade cumulativa"
 
 msgctxt "LDbinomial|"
 msgid "Interval"
-msgstr ""
+msgstr "Intervalo"
 
 msgctxt "LDchisq|"
 msgid "k"
-msgstr ""
+msgstr "k"
 
-#, fuzzy
 msgctxt "LDchisq|"
 msgid "Display"
 msgstr "Exibir"
 
-#, fuzzy
 msgctxt "LDchisq|"
 msgid "Explanatory text"
 msgstr "Texto explicativo"
