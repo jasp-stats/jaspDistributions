@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
 "POT-Creation-Date: 2021-07-31 02:56\n"
-"PO-Revision-Date: 2021-08-26 18:32+0000\n"
-"Last-Translator: Matheus Macena <macenamt21@gmail.com>\n"
+"PO-Revision-Date: 2021-08-27 20:21+0000\n"
+"Last-Translator: Laura Durans <lauraadurans@gmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/pt/>\n"
 "Language: pt\n"
@@ -77,9 +77,8 @@ msgstr "momentos observados"
 msgid "Moment"
 msgstr ""
 
-#, fuzzy
 msgid "Raw"
-msgstr "bruto"
+msgstr "Bruto"
 
 #, fuzzy
 msgid "Central"
@@ -90,7 +89,7 @@ msgid "Estimated Parameters"
 msgstr "Parâmetros"
 
 msgid "Parameter"
-msgstr "Parâmetros"
+msgstr "Parâmetro"
 
 msgid "Estimate"
 msgstr "Estimativa"
@@ -110,13 +109,11 @@ msgstr "%s%% IC"
 msgid "Upper"
 msgstr "Superior"
 
-#, fuzzy
 msgid "Confidence intervals are unavailable with this method."
-msgstr "Ajuste do intervalo de confiança"
+msgstr "Intervalos de confiança estão indisponíveis neste método."
 
-#, fuzzy
 msgid "Confidence intervals were calculated using the delta method."
-msgstr "Ajuste do intervalo de confiança"
+msgstr "Os intervalos de confiança foram calculados com o método delta."
 
 msgid "Standard errors were calculated using the delta method."
 msgstr ""
@@ -156,7 +153,6 @@ msgstr ""
 msgid "Shapiro-Wilk"
 msgstr "Teste de Shapiro-Wilk"
 
-#, fuzzy
 msgid "Chi-square"
 msgstr "Qui-quadrado"
 
@@ -362,9 +358,8 @@ msgstr ""
 msgid "Amoroso distribution"
 msgstr "Distribuição cumulativa empírica"
 
-#, fuzzy
 msgid "location: a %s"
-msgstr "Localização:"
+msgstr "Localização: a %s"
 
 #, fuzzy
 msgid "scale: %s"
@@ -419,9 +414,8 @@ msgstr "Distribuição cumulativa empírica"
 msgid "lower bound: %s"
 msgstr ""
 
-#, fuzzy
 msgid "upper bound: %s"
-msgstr "Versão:"
+msgstr "limite superior: %s"
 
 #, fuzzy
 msgid "binomial distribution"
@@ -434,9 +428,8 @@ msgstr ""
 msgid "Cauchy distribution"
 msgstr "Distribuição cumulativa empírica"
 
-#, fuzzy
 msgid "location: &mu; %s"
-msgstr "Localização:"
+msgstr "Localização: &mu; %s"
 
 msgid "undefined"
 msgstr ""
@@ -463,9 +456,8 @@ msgstr ""
 msgid "Fréchet distribution"
 msgstr "Distribuição cumulativa empírica"
 
-#, fuzzy
 msgid "location: %s"
-msgstr "Localização:"
+msgstr "Localização: %s"
 
 msgid "see Wikipedia: https://en.wikipedia.org/wiki/Fr%C3%A9chet_distribution"
 msgstr ""
@@ -523,11 +515,12 @@ msgstr ""
 msgid "Gompertz distribution"
 msgstr "Distribuição cumulativa empírica"
 
-#, fuzzy
 msgid ""
 "shape: %s \n"
 "scale: %s"
-msgstr "escala"
+msgstr ""
+"forma: %s \n"
+"escala: %s"
 
 #, fuzzy
 msgid "Gumbel distribution"
@@ -545,9 +538,8 @@ msgstr "Distribuição cumulativa empírica"
 msgid "log-logistic distribution"
 msgstr "Distribuição cumulativa empírica"
 
-#, fuzzy
 msgid "log location: &mu; %s"
-msgstr "Localização:"
+msgstr "Localização: &mu; %s"
 
 #, fuzzy
 msgid "log scale: %s"
@@ -638,9 +630,8 @@ msgstr ""
 msgid "number of successes: %s"
 msgstr ""
 
-#, fuzzy
 msgid "dispersion: %s"
-msgstr "Versão:"
+msgstr "dispersão: %s"
 
 #, fuzzy
 msgid "zero-inflated negative binomial distribution"
