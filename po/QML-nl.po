@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-09-03 13:34+0000\n"
+"Last-Translator: DanaJohanna <dana__@live.nl>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/nl/>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 "X-Language: nl\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -390,7 +396,7 @@ msgstr "p"
 
 msgctxt "LDbinomial|"
 msgid "Fixed parameter"
-msgstr "Gefixeerde parameter"
+msgstr "Vaste parameter"
 
 msgctxt "LDbinomial|"
 msgid "Number of trials:"
@@ -1054,146 +1060,140 @@ msgstr "≤ X ≤"
 
 msgctxt "Description|"
 msgid "Skew normal"
-msgstr ""
+msgstr "Scheef normaal"
 
 msgctxt "Description|"
 msgid "Generalized normal (version 1)"
-msgstr ""
+msgstr "Gegeneraliseerd normaal (versie 1)"
 
 msgctxt "Description|"
 msgid "Cauchy"
-msgstr ""
+msgstr "Cauchy"
 
 msgctxt "Description|"
 msgid "Scaled, shifted Student's t"
-msgstr ""
+msgstr "Geschaalde, verschoven Student's t"
 
 msgctxt "Description|"
 msgid "Noncentral t"
-msgstr ""
+msgstr "niet-centrale t"
 
 msgctxt "Description|"
 msgid "Skew t"
-msgstr ""
+msgstr "Scheve t"
 
 msgctxt "Description|"
 msgid "Skewed generalized t"
-msgstr ""
+msgstr "Scheve gegeneraliseerde t"
 
 msgctxt "Description|"
 msgid "Uniform"
-msgstr ""
+msgstr "Uniform"
 
 msgctxt "Description|"
 msgid "Stretched beta"
-msgstr ""
+msgstr "Gestrekte beta"
 
 msgctxt "Description|"
 msgid "Beta prime"
-msgstr ""
+msgstr "Bèta prime"
 
 msgctxt "Description|"
 msgid "Laplace"
-msgstr ""
+msgstr "Laplace"
 
 msgctxt "Description|"
 msgid "Log-logistic"
-msgstr ""
+msgstr "Log-logistisch"
 
 msgctxt "Description|"
 msgid "Pareto"
-msgstr ""
+msgstr "Pareto"
 
 msgctxt "Description|"
 msgid "Amoroso"
-msgstr ""
+msgstr "Amoroso"
 
 msgctxt "Description|"
 msgid "Fréchet"
-msgstr ""
+msgstr "Fréchet"
 
 msgctxt "Description|"
 msgid "Gumbel"
-msgstr ""
+msgstr "Gumbel"
 
 msgctxt "Description|"
 msgid "Gompertz"
-msgstr ""
+msgstr "Gompertz"
 
 msgctxt "Description|"
 msgid "Triangular"
-msgstr ""
+msgstr "Driehoekig"
 
 msgctxt "Description|"
 msgid "Wald (inverse Gaussian)"
-msgstr ""
+msgstr "Wald (omgekeerde Gaussian)"
 
 msgctxt "Description|"
 msgid "Weibull"
-msgstr ""
+msgstr "Weibull"
 
 msgctxt "Description|"
 msgid "Mixture of normal and normal"
-msgstr ""
+msgstr "Mix van normaal en normaal"
 
 msgctxt "Description|"
 msgid "Mixture of normal and uniform"
-msgstr ""
+msgstr "Mix van normaal en uniform"
 
 msgctxt "Description|"
 msgid "Beta-binomial"
-msgstr ""
+msgstr "Bèta-binomiaal"
 
 msgctxt "Description|"
 msgid "Zero-inflated Poisson"
-msgstr ""
+msgstr "Nul-geïnflateerde Poisson"
 
 msgctxt "Description|"
 msgid "Zero-inflated negative binomial"
-msgstr ""
+msgstr "Nul-geïnflateerd negatief binomiaal"
 
 msgctxt "Description|"
 msgid "Geometric"
-msgstr ""
+msgstr "Geometrisch"
 
 msgctxt "Description|"
 msgid "Hypergeometric"
-msgstr ""
+msgstr "Hypergeometrisch"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Show Distribution"
 msgstr "Toon verdeling"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Location:"
 msgstr "Locatie:"
 
 msgctxt "LDamoroso|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Scale:"
 msgstr "Schaal:"
 
 msgctxt "LDamoroso|"
 msgid "θ"
-msgstr ""
+msgstr "θ"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Shape:"
 msgstr "Vorm:"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "α"
 msgstr "α"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "β"
 msgstr "β"
@@ -1244,27 +1244,23 @@ msgstr "Toon verdeling"
 
 msgctxt "LDbetaBinomial|"
 msgid "Free parameters"
-msgstr ""
+msgstr "Vrije parameters"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Shape:"
 msgstr "Vorm:"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "α"
 msgstr "α"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "β"
 msgstr "β"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Fixed parameter"
-msgstr "Gefixeerde parameter"
+msgstr "Vaste parameter"
 
 #, fuzzy
 msgctxt "LDbetaBinomial|"
