@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-09-04 11:39+0000\n"
-"Last-Translator: DanaJohanna <dana__@live.nl>\n"
+"Last-Translator: D.J. Dekker <dj_dekker@hotmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-qml/nl/>\n"
 "Language: nl\n"
@@ -1198,46 +1198,38 @@ msgctxt "LDamoroso|"
 msgid "β"
 msgstr "β"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Display"
 msgstr "Weergeven"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Explanatory text"
 msgstr "Toelichtende tekst"
 
 msgctxt "LDamoroso|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Formulas"
 msgstr "Formules"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Probability density function"
-msgstr "Kansfunctie"
+msgstr "Kansdichtheidsfunctie"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Cumulative distribution function"
 msgstr "Cumulatieve verdelingsfunctie"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Quantile function"
 msgstr "Kwantielfunctie"
 
-#, fuzzy
 msgctxt "LDbeta|"
 msgid "Parameters"
 msgstr "Parameters"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Show Distribution"
 msgstr "Toon verdeling"
@@ -1280,7 +1272,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDbetaBinomial|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 msgctxt "LDbetaBinomial|"
 msgid "Formulas"
@@ -1318,7 +1310,6 @@ msgctxt "LDbetaBinomial|"
 msgid "Cumulative Probability"
 msgstr "Cumulatieve Kans"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Interval"
 msgstr "Interval"
@@ -1357,7 +1348,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDbetaPrime|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDbetaPrime|"
@@ -1406,11 +1397,11 @@ msgstr "β"
 
 msgctxt "LDbetaStretched|"
 msgid "Fixed parameters"
-msgstr ""
+msgstr "Gefixeerde parameters"
 
 msgctxt "LDbetaStretched|"
 msgid "Lower bound:"
-msgstr ""
+msgstr "Ondergrens:"
 
 #, fuzzy
 msgctxt "LDbetaStretched|"
@@ -1419,11 +1410,11 @@ msgstr "a"
 
 msgctxt "LDbetaStretched|"
 msgid "Upper bound:"
-msgstr ""
+msgstr "Bovengrens:"
 
 msgctxt "LDbetaStretched|"
 msgid "b"
-msgstr ""
+msgstr "b"
 
 #, fuzzy
 msgctxt "LDbetaStretched|"
@@ -1437,7 +1428,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDbetaStretched|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDbetaStretched|"
@@ -1496,7 +1487,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDcauchy|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDcauchy|"
@@ -1565,7 +1556,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDfrechet|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDfrechet|"
@@ -1619,7 +1610,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDgeometric|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDgeometric|"
@@ -1666,7 +1657,6 @@ msgctxt "LDgeometric|"
 msgid "Cumulative Probability"
 msgstr "Cumulatieve Kansverdeling"
 
-#, fuzzy
 msgctxt "LDgeometric|"
 msgid "Interval"
 msgstr "Interval"
@@ -1703,7 +1693,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDgompertz|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDgompertz|"
@@ -1762,7 +1752,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDgumbel|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDgumbel|"
@@ -1791,23 +1781,23 @@ msgstr "Toon verdeling"
 
 msgctxt "LDhypergeometric|"
 msgid "Population size:"
-msgstr ""
+msgstr "Omvang van de populatie:"
 
 msgctxt "LDhypergeometric|"
 msgid "N"
-msgstr ""
+msgstr "N"
 
 msgctxt "LDhypergeometric|"
 msgid "Number of success states in the population:"
-msgstr ""
+msgstr "Aantal successen in de populatie:"
 
 msgctxt "LDhypergeometric|"
 msgid "K"
-msgstr ""
+msgstr "K"
 
 msgctxt "LDhypergeometric|"
 msgid "Number of draws from the population:"
-msgstr ""
+msgstr "Aantal trekkingen uit de populatie:"
 
 #, fuzzy
 msgctxt "LDhypergeometric|"
@@ -1826,7 +1816,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDhypergeometric|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDhypergeometric|"
@@ -1873,7 +1863,6 @@ msgctxt "LDhypergeometric|"
 msgid "Cumulative Probability"
 msgstr "Cumulatieve Kansverdeling"
 
-#, fuzzy
 msgctxt "LDhypergeometric|"
 msgid "Interval"
 msgstr "Interval"
@@ -1920,7 +1909,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDlaplace|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDlaplace|"
@@ -1954,7 +1943,7 @@ msgstr "Parameters"
 
 msgctxt "LDlogLogistic|"
 msgid "Log location:"
-msgstr ""
+msgstr "Log-locatie:"
 
 #, fuzzy
 msgctxt "LDlogLogistic|"
@@ -1963,7 +1952,7 @@ msgstr "Schaal:"
 
 msgctxt "LDlogLogistic|"
 msgid "Log scale:"
-msgstr ""
+msgstr "Logschaal:"
 
 #, fuzzy
 msgctxt "LDlogLogistic|"
@@ -1982,7 +1971,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDlogLogistic|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDlogLogistic|"
@@ -2011,43 +2000,43 @@ msgstr "Toon verdeling"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Mean 1:"
-msgstr ""
+msgstr "Gemiddelde 1:"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "μ₁"
-msgstr ""
+msgstr "μ₁"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Std. deviation 1:"
-msgstr ""
+msgstr "Std. afwijking 1:"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "σ₁"
-msgstr ""
+msgstr "σ₁"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Mean 2:"
-msgstr ""
+msgstr "Gemiddelde 2:"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "μ₂"
-msgstr ""
+msgstr "μ₂"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Std. deviation 2:"
-msgstr ""
+msgstr "Std. afwijking 2:"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "σ₂"
-msgstr ""
+msgstr "σ₂"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Probability of component:"
-msgstr ""
+msgstr "Waarschijnlijkheid van component:"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "π"
-msgstr ""
+msgstr "π"
 
 #, fuzzy
 msgctxt "LDmixtureNormalNormal|"
@@ -2061,7 +2050,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDmixtureNormalNormal|"
@@ -2095,7 +2084,7 @@ msgstr "Vrije parameters"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Mean :"
-msgstr ""
+msgstr "Gemiddelde:"
 
 #, fuzzy
 msgctxt "LDmixtureNormalUniform|"
@@ -2104,7 +2093,7 @@ msgstr "μ"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Std. deviation :"
-msgstr ""
+msgstr "Std. afwijking:"
 
 #, fuzzy
 msgctxt "LDmixtureNormalUniform|"
@@ -2113,19 +2102,19 @@ msgstr "σ"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Probability of normal component:"
-msgstr ""
+msgstr "Waarschijnlijkheid van normale component:"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "π"
-msgstr ""
+msgstr "π"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Fixed parameters"
-msgstr ""
+msgstr "Gefixeerde parameters"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Minimum of uniform:"
-msgstr ""
+msgstr "Minimum van uniforme verdeling:"
 
 #, fuzzy
 msgctxt "LDmixtureNormalUniform|"
@@ -2134,11 +2123,11 @@ msgstr "a"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Maximum of uniform:"
-msgstr ""
+msgstr "Maximum van uniforme verdeling:"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "b"
-msgstr ""
+msgstr "b"
 
 #, fuzzy
 msgctxt "LDmixtureNormalUniform|"
@@ -2152,7 +2141,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDmixtureNormalUniform|"
@@ -2186,11 +2175,11 @@ msgstr "Parameters"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Probability of Zero process:"
-msgstr ""
+msgstr "Waarschijnlijkheid van nulproces:"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "π"
-msgstr ""
+msgstr "π"
 
 #, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
@@ -2224,7 +2213,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
@@ -2271,7 +2260,6 @@ msgctxt "LDnegbinomialZeroInflated|"
 msgid "Cumulative Probability"
 msgstr "Cumulatieve Kansverdeling"
 
-#, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Interval"
 msgstr "Interval"
@@ -2328,7 +2316,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDnormalGeneralized|"
@@ -2362,7 +2350,7 @@ msgstr "Locatie:"
 
 msgctxt "LDnormalSkew|"
 msgid "ξ"
-msgstr ""
+msgstr "ξ"
 
 #, fuzzy
 msgctxt "LDnormalSkew|"
@@ -2371,7 +2359,7 @@ msgstr "Schaal:"
 
 msgctxt "LDnormalSkew|"
 msgid "ω"
-msgstr ""
+msgstr "ω"
 
 #, fuzzy
 msgctxt "LDnormalSkew|"
@@ -2395,7 +2383,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDnormalSkew|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDnormalSkew|"
@@ -2444,7 +2432,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDpareto|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDpareto|"
@@ -2478,15 +2466,15 @@ msgstr "Parameter"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Probability of Zero process:"
-msgstr ""
+msgstr "Waarschijnlijkheid van nulproces:"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "π"
-msgstr ""
+msgstr "π"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Rate of Poisson process:"
-msgstr ""
+msgstr "Intensiteit van het Poissonproces:"
 
 #, fuzzy
 msgctxt "LDpoissonZeroInflated|"
@@ -2505,7 +2493,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDpoissonZeroInflated|"
@@ -2552,7 +2540,6 @@ msgctxt "LDpoissonZeroInflated|"
 msgid "Cumulative Probability"
 msgstr "Cumulatieve Kansverdeling"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Interval"
 msgstr "Interval"
@@ -2574,7 +2561,7 @@ msgstr "Parameters"
 
 msgctxt "LDtNoncentral|"
 msgid "Degrees of freedom:"
-msgstr ""
+msgstr "Vrijheidsgraden:"
 
 #, fuzzy
 msgctxt "LDtNoncentral|"
@@ -2583,9 +2570,8 @@ msgstr "vg"
 
 msgctxt "LDtNoncentral|"
 msgid "Non-centrality:"
-msgstr ""
+msgstr "Niet-centraliteit:"
 
-#, fuzzy
 msgctxt "LDtNoncentral|"
 msgid "ncp"
 msgstr "ncp"
@@ -2602,7 +2588,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDtNoncentral|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDtNoncentral|"
@@ -2631,7 +2617,7 @@ msgstr "Toon verdeling"
 
 msgctxt "LDtriangular|"
 msgid "Minimum:"
-msgstr ""
+msgstr "Minimum:"
 
 #, fuzzy
 msgctxt "LDtriangular|"
@@ -2640,19 +2626,19 @@ msgstr "a"
 
 msgctxt "LDtriangular|"
 msgid "Maximum:"
-msgstr ""
+msgstr "Maximum:"
 
 msgctxt "LDtriangular|"
 msgid "b"
-msgstr ""
+msgstr "b"
 
 msgctxt "LDtriangular|"
 msgid "Mode:"
-msgstr ""
+msgstr "Modus:"
 
 msgctxt "LDtriangular|"
 msgid "c"
-msgstr ""
+msgstr "c"
 
 #, fuzzy
 msgctxt "LDtriangular|"
@@ -2666,7 +2652,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDtriangular|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDtriangular|"
@@ -2700,7 +2686,7 @@ msgstr "Locatie:"
 
 msgctxt "LDtSkew|"
 msgid "ξ"
-msgstr ""
+msgstr "ξ"
 
 #, fuzzy
 msgctxt "LDtSkew|"
@@ -2709,7 +2695,7 @@ msgstr "Schaal:"
 
 msgctxt "LDtSkew|"
 msgid "ω"
-msgstr ""
+msgstr "ω"
 
 #, fuzzy
 msgctxt "LDtSkew|"
@@ -2743,7 +2729,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDtSkew|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDtSkew|"
@@ -2787,7 +2773,7 @@ msgstr "μ"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Kurtosis:"
-msgstr ""
+msgstr "Gepiektheid:"
 
 #, fuzzy
 msgctxt "LDtSkewedGeneralized|"
@@ -2806,11 +2792,11 @@ msgstr "σ"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "q"
-msgstr ""
+msgstr "q"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Skewness:"
-msgstr ""
+msgstr "Scheefheid:"
 
 #, fuzzy
 msgctxt "LDtSkewedGeneralized|"
@@ -2829,7 +2815,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDtSkewedGeneralized|"
@@ -2863,7 +2849,7 @@ msgstr "Parameters"
 
 msgctxt "LDtStudent|"
 msgid "Degrees of freedom:"
-msgstr ""
+msgstr "Vrijheidsgraden:"
 
 #, fuzzy
 msgctxt "LDtStudent|"
@@ -2902,7 +2888,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDtStudent|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDtStudent|"
@@ -2936,7 +2922,7 @@ msgstr "Parameters"
 
 msgctxt "LDuniform|"
 msgid "Lower bound:"
-msgstr ""
+msgstr "Ondergrens:"
 
 #, fuzzy
 msgctxt "LDuniform|"
@@ -2945,11 +2931,11 @@ msgstr "a"
 
 msgctxt "LDuniform|"
 msgid "Upper bound:"
-msgstr ""
+msgstr "Bovengrens:"
 
 msgctxt "LDuniform|"
 msgid "b"
-msgstr ""
+msgstr "b"
 
 #, fuzzy
 msgctxt "LDuniform|"
@@ -2963,7 +2949,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDuniform|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDuniform|"
@@ -3002,11 +2988,12 @@ msgstr "Gemiddelde:"
 
 msgctxt "LDwald|"
 msgid "Threshold:"
-msgstr ""
+msgstr "Drempelwaarde:"
 
+#, fuzzy
 msgctxt "LDwald|"
 msgid "Drift rate:"
-msgstr ""
+msgstr "Drift rate:"
 
 #, fuzzy
 msgctxt "LDwald|"
@@ -3015,7 +3002,7 @@ msgstr "Vorm:"
 
 msgctxt "LDwald|"
 msgid "Noise:"
-msgstr ""
+msgstr "Ruis:"
 
 #, fuzzy
 msgctxt "LDwald|"
@@ -3029,7 +3016,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDwald|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDwald|"
@@ -3078,7 +3065,7 @@ msgstr "Toelichtende tekst"
 
 msgctxt "LDweibull|"
 msgid "Parameters, support, and moments"
-msgstr ""
+msgstr "Parameters, dragers en momenten"
 
 #, fuzzy
 msgctxt "LDweibull|"
@@ -3102,4 +3089,4 @@ msgstr "Kwantielfunctie"
 
 msgctxt "Description|"
 msgid "Visualize distributions and fit them to data"
-msgstr ""
+msgstr "Verdelingen visualiseren en aanpassen aan data"
