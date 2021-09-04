@@ -1,15 +1,9 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-09-03 13:34+0000\n"
-"Last-Translator: DanaJohanna <dana__@live.nl>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/jasp/"
-"jaspdistributions-qml/nl/>\n"
-"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Language: nl\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -1405,9 +1399,10 @@ msgctxt "LDbetaStretched|"
 msgid "Show Distribution"
 msgstr "Toon verdeling"
 
+#, fuzzy
 msgctxt "LDbetaStretched|"
 msgid "Free parameters"
-msgstr ""
+msgstr "Vrije parameters"
 
 #, fuzzy
 msgctxt "LDbetaStretched|"
@@ -1432,9 +1427,10 @@ msgctxt "LDbetaStretched|"
 msgid "Lower bound:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDbetaStretched|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDbetaStretched|"
 msgid "Upper bound:"
@@ -2107,9 +2103,10 @@ msgctxt "LDmixtureNormalUniform|"
 msgid "Show Distribution"
 msgstr "Toon verdeling"
 
+#, fuzzy
 msgctxt "LDmixtureNormalUniform|"
 msgid "Free parameters"
-msgstr ""
+msgstr "Vrije parameters"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Mean :"
@@ -2145,9 +2142,10 @@ msgctxt "LDmixtureNormalUniform|"
 msgid "Minimum of uniform:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDmixtureNormalUniform|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Maximum of uniform:"
@@ -2650,9 +2648,10 @@ msgctxt "LDtriangular|"
 msgid "Minimum:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDtriangular|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDtriangular|"
 msgid "Maximum:"
@@ -2954,9 +2953,10 @@ msgctxt "LDuniform|"
 msgid "Lower bound:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDuniform|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDuniform|"
 msgid "Upper bound:"
