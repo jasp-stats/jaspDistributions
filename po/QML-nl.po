@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-09-04 11:39+0000\n"
+"Last-Translator: DanaJohanna <dana__@live.nl>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/nl/>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 "X-Language: nl\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -1256,22 +1262,18 @@ msgctxt "LDbetaBinomial|"
 msgid "Fixed parameter"
 msgstr "Vaste parameter"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Number of trials:"
 msgstr "Steekproefgrootte:"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "n"
 msgstr "n"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Display"
 msgstr "Weergeven"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Explanatory text"
 msgstr "Toelichtende tekst"
@@ -1280,92 +1282,75 @@ msgctxt "LDbetaBinomial|"
 msgid "Parameters, support, and moments"
 msgstr ""
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Formulas"
 msgstr "Formules"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Probability mass function"
 msgstr "Kansfunctie"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Cumulative distribution function"
 msgstr "Cumulatieve verdelingsfunctie"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Options"
 msgstr "Opties"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Range of x from"
 msgstr "Bereik van x vanaf"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "to"
-msgstr "naar"
+msgstr "to"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Highlight"
 msgstr "Markeer"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Mass"
 msgstr "Massa"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Cumulative Probability"
-msgstr "Cumulatieve Kansverdeling"
+msgstr "Cumulatieve Kans"
 
 #, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Interval"
 msgstr "Interval"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "≤ X ≤"
 msgstr "≤ X ≤"
 
-#, fuzzy
 msgctxt "LDbetaPrime|"
 msgid "Show Distribution"
 msgstr "Toon verdeling"
 
-#, fuzzy
 msgctxt "LDbetaPrime|"
 msgid "Parameters"
 msgstr "Parameters"
 
-#, fuzzy
 msgctxt "LDbetaPrime|"
 msgid "Shape:"
 msgstr "Vorm:"
 
-#, fuzzy
 msgctxt "LDbetaPrime|"
 msgid "α"
 msgstr "α"
 
-#, fuzzy
 msgctxt "LDbetaPrime|"
 msgid "β"
 msgstr "β"
 
-#, fuzzy
 msgctxt "LDbetaPrime|"
 msgid "Display"
 msgstr "Weergeven"
 
-#, fuzzy
 msgctxt "LDbetaPrime|"
 msgid "Explanatory text"
 msgstr "Toelichtende tekst"
