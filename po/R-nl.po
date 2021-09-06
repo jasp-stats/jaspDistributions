@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
 "POT-Creation-Date: 2021-07-31 02:56\n"
-"PO-Revision-Date: 2021-09-05 14:32+0000\n"
+"PO-Revision-Date: 2021-09-07 09:34+0000\n"
 "Last-Translator: DanaJohanna <dana__@live.nl>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/nl/>\n"
@@ -630,56 +630,45 @@ msgstr "exp(&mu; + &sigma;<sup>2</sup>/2)"
 msgid "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
 msgstr "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
 
-#, fuzzy
 msgid "mixture of two normal distributions"
-msgstr "normaal verdeling"
+msgstr "mix van twee normaalverdelingen"
 
-#, fuzzy
 msgid "probability of first component: %s"
-msgstr "kans op succes: %s"
+msgstr "kans op het eerste component: %s"
 
-#, fuzzy
 msgid "mean 1: %s"
-msgstr "gemiddelde: %s"
+msgstr "gemiddelde 1: %s"
 
-#, fuzzy
 msgid "std. deviation 1: %s"
-msgstr "standaarddeviatie: %s"
+msgstr "standaarddeviatie 1: %s"
 
-#, fuzzy
 msgid "mean 2: %s"
-msgstr "gemiddelde: %s"
+msgstr "gemiddelde 2: %s"
 
-#, fuzzy
 msgid "std. deviation 2: %s"
-msgstr "standaarddeviatie: %s"
+msgstr "standaarddeviatie 2: %s"
 
 msgid "mixture of a normal and a uniform distribution"
-msgstr ""
+msgstr "mix van een normale en een uniforme verdeling"
 
-#, fuzzy
 msgid "probability of normal component: %s"
-msgstr "kans op succes: %s"
+msgstr "kans op normaal component: %s"
 
-#, fuzzy
 msgid "mean of normal distribution: %s"
-msgstr "normaal verdeling"
+msgstr "gemiddelde van normaalverdeling: %s"
 
-#, fuzzy
 msgid "std. deviation of normal distribution: %s"
-msgstr "negatief-binomiale verdeling"
+msgstr "standaarddeviatie van normaalverdeling: %s"
 
-#, fuzzy
 msgid "minimum of uniform distribution: %s"
-msgstr "normaal verdeling"
+msgstr "minimum van uniforme verdeling: %s"
 
-#, fuzzy
 msgid "maximum of uniform distribution: %s"
-msgstr "normaal verdeling"
+msgstr "maximum van uniforme verdeling: %s"
 
-#, fuzzy
 msgid "Parameter a was fixed at value %s, parameter b was fixed at value %s."
-msgstr "Parameter n werd bepaald op waarde %s."
+msgstr ""
+"Parameter a werd bepaald op waarde %s, parameter b werd bepaald op waarde %s."
 
 msgid "negative binomial distribution"
 msgstr "negatief-binomiale verdeling"
@@ -690,43 +679,37 @@ msgstr "aantal successen: %s"
 msgid "dispersion: %s"
 msgstr "dispersie: %s"
 
-#, fuzzy
 msgid "zero-inflated negative binomial distribution"
-msgstr "negatief-binomiale verdeling"
+msgstr "nul-geïnflateerde negatief-binomiale verdeling"
 
-#, fuzzy
 msgid "probability of zero process: %s"
-msgstr "kans op succes: %s"
+msgstr "kans op nulproces: %s"
 
-#, fuzzy
 msgid "generalized normal distribution"
-msgstr "negatief-binomiale verdeling"
+msgstr "gegeneraliseerde normaalverdeling"
 
 msgid ""
 "see Wikipedia - https://en.wikipedia.org/wiki/"
 "Generalized_normal_distribution#Moments"
 msgstr ""
+"zie Wikipedia - https://en.wikipedia.org/wiki/"
+"Generalized_normal_distribution#Moments"
 
-#, fuzzy
 msgid "skew normal distribution"
-msgstr "normaal verdeling"
+msgstr "scheve normaalverdeling"
 
-#, fuzzy
 msgid "Pareto distribution"
-msgstr "betaverdeling"
+msgstr "Pareto-verdeling"
 
 msgid "Poisson distribution"
-msgstr "Poisson verdeling"
+msgstr "Poissonverdeling"
 
-#, fuzzy
 msgid "zero-inflated Poisson distribution"
-msgstr "Poisson verdeling"
+msgstr "nul-geïnflateerde Poissonverdeling"
 
-#, fuzzy
 msgid "noncentral t-distribution"
-msgstr "normaal verdeling"
+msgstr "niet-centrale t-verdeling"
 
-#, fuzzy
 msgid "degrees of freedom: %s"
 msgstr "vrijheidsgraden: %s"
 
@@ -737,71 +720,59 @@ msgid "does not exist unless df > 2"
 msgstr "bestaat niet tenzij vg > 2"
 
 msgid "see Azzalini & Capitanio (2003)"
-msgstr ""
+msgstr "zie Azzalini & Capitanio (2003)"
 
-#, fuzzy
 msgid "skewed generalized t-distribution"
-msgstr "normaal verdeling"
+msgstr "scheve gegeneraliseerde t-verdeling"
 
-#, fuzzy
 msgid "skewness: %s"
-msgstr "gemiddelde: %s"
+msgstr "scheefheid: %s"
 
-#, fuzzy
 msgid "kurtosis: %s"
-msgstr "ratio: %s"
+msgstr "kurtosis: %s"
 
 msgid ""
 "see Wikipedia: https://en.wikipedia.org/wiki/"
 "Skewed_generalized_t_distribution#Moments"
 msgstr ""
+"zie Wikipedia: https://en.wikipedia.org/wiki/"
+"Skewed_generalized_t_distribution#Moments"
 
 msgid "scaled, shifted Student's t-distribution"
-msgstr ""
+msgstr "geschaalde verschoven Student-/t-verdeling"
 
-#, fuzzy
 msgid "triangular distribution"
-msgstr "normaal verdeling"
+msgstr "driehoekige verdeling"
 
-#, fuzzy
 msgid "minimum: %s"
-msgstr "Minimum"
+msgstr "minimum: %s"
 
-#, fuzzy
 msgid "maximum: %s"
-msgstr "Maximum"
+msgstr "maximum: %s"
 
-#, fuzzy
 msgid "mode: %s"
-msgstr "gemiddelde: %s"
+msgstr "modus: %s"
 
-#, fuzzy
 msgid "uniform distribution"
-msgstr "normaal verdeling"
+msgstr "uniforme verdeling"
 
-#, fuzzy
 msgid "Wald distribution"
-msgstr "normaal verdeling"
+msgstr "Wald-verdeling"
 
-#, fuzzy
 msgid "drift rate: %s"
-msgstr "ratio: %s"
+msgstr "drift rate: %s"
 
-#, fuzzy
 msgid "threshold: %s"
-msgstr "nauwkeurigheid: %s"
+msgstr "grenswaarde: %s"
 
-#, fuzzy
 msgid "noise: %s"
-msgstr "vorm: %s"
+msgstr "ruis: %s"
 
-#, fuzzy
 msgid "Parameter %s was fixed to 1."
-msgstr "Parameter n werd bepaald op waarde %s."
+msgstr "Parameter %s werd bepaald op 1."
 
-#, fuzzy
 msgid "Weibull distribution"
-msgstr "Bernoulli verdeling"
+msgstr "Weibull-verdeling"
 
 #~ msgid "t-distribution"
 #~ msgstr "t-verdeling"
