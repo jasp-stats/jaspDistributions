@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
 "POT-Creation-Date: 2021-07-31 02:56\n"
-"PO-Revision-Date: 2020-12-02 21:29+0000\n"
-"Last-Translator: JASP Stats <F.A.M.Meerhoff@uva.nl>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/jasp/jasp-engine/"
-"nl/>\n"
+"PO-Revision-Date: 2021-09-07 09:34+0000\n"
+"Last-Translator: DanaJohanna <dana__@live.nl>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-r/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n==0 ? 0 : n==1 ? 0 : 1;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 msgid ""
 "The following problem(s) occurred while running the analysis:"
@@ -140,7 +140,7 @@ msgid "Kolmogorov-Smirnov"
 msgstr "Kolmogorov-Smirnov"
 
 msgid "Cramér-von Mises"
-msgstr ""
+msgstr "Cramér-von Mises"
 
 msgid "Anderson-Darling"
 msgstr "Anderson-Darling"
@@ -229,7 +229,6 @@ msgstr "Frequentie"
 msgid "Parameters, Support, and Moments"
 msgstr "Parameters, Drager, en Momenten"
 
-#, fuzzy
 msgid ""
 "<b>Parameters</b>\n"
 "      %s\n"
@@ -243,15 +242,14 @@ msgid ""
 msgstr ""
 "<b>Parameters</b>\n"
 "      %s\n"
-"      \n"
-"      <b>Ondersteuning</b>\n"
+"\n"
+"      <b>Drager</b>\n"
 "      %s\n"
-"      \n"
+"\n"
 "      <b>Momenten</b>\n"
 "      E(X) = %s\n"
 "      Var(X) = %s"
 
-#, fuzzy
 msgid ""
 "<b>Parameters</b>\n"
 "      %s\n"
@@ -271,7 +269,6 @@ msgstr ""
 "      <b>Momenten</b>\n"
 "      niet beschikbaar"
 
-#, fuzzy
 msgid ""
 "The probability density function (PDF), usually denoted as f(x), is a "
 "function of a random variable X.\n"
@@ -292,13 +289,12 @@ msgstr ""
 "    Formeel gezegd, de PDF is gedefinieerd als een afgeleide van een "
 "cumulatieve verdelingsfunctie (CDF).\n"
 "    \n"
-"    De dichtheidsgrafiek geeft de kansfunctie van een willekeurige "
-"variabele.\n"
+"    De dichtheidsgrafiek geeft de kansfunctie van een willekeurige variabele."
+"\n"
 "    De <i>y</i>-as geeft de waarde van de dichtheidsfunctie voor een "
-"bepaalde waarde van de willekeurige variabele (weergegeven op de <i>x</i>-"
-"as)."
+"bepaalde waarde van de willekeurige variabele (weergegeven op de "
+"<i>x</i>-as)."
 
-#, fuzzy
 msgid ""
 "The probability mass function (PMF), usually denoted as f(x), is a function "
 "of a random variable X.\n"
@@ -319,10 +315,9 @@ msgstr ""
 "    De kansmassagrafiek geeft de kansmassafunctie van een willekeurige "
 "variabele.\n"
 "    De <i>y</i>-as geeft de waarde weer van de kansmassafunctie voor een "
-"bepaalde waarde van de willekeurige variabele (weergegeven op de <i>x</i>-"
-"as)."
+"bepaalde waarde van de willekeurige variabele (weergegeven op de "
+"<i>x</i>-as)."
 
-#, fuzzy
 msgid ""
 "The cumulative distribution function (CDF), usually denoted as F(x), is a "
 "function of a random variable X.\n"
@@ -346,7 +341,6 @@ msgstr ""
 "van een bepaalde waarde van de willekeurige variabele (weergegeven op de "
 "<i>x</i>-as)."
 
-#, fuzzy
 msgid ""
 "The quantile function, usually denoted as Q(p), is the inverse of the "
 "cumulative distribution function.\n"
@@ -370,7 +364,6 @@ msgstr ""
 "willekeurige variabele minder is of gelijk is aan die waarde, gelijk is aan "
 "p (weergegeven op de <i>x</i>-as)."
 
-#, fuzzy
 msgid ""
 "<h3> Demonstration of the %1$s </h3>\n"
 "This demonstration is divided into four parts.\n"
@@ -401,8 +394,8 @@ msgstr ""
 "Met het tweede deel kunt u gegevens genereren uit de %3$s, beschrijvende "
 "statistieken berekenen en beschrijvende grafieken weergeven.\n"
 "In het derde deel kunt u de parameters van de %4$s schatten.\n"
-"In het vierde deel kunt u de passing van de %5$s met de gegevens "
-"controleren.\n"
+"In het vierde deel kunt u de passing van de %5$s met de gegevens controleren."
+"\n"
 "\n"
 "<b>Referenties</b>\n"
 "\n"
@@ -435,13 +428,11 @@ msgstr ""
 "Controleer uitschieters of haalbaarheid van de fitting van de gegevens.</"
 "li></ul>"
 
-#, fuzzy
 msgid "Amoroso distribution"
-msgstr "Poisson verdeling"
+msgstr "Amoroso verdeling"
 
-#, fuzzy
 msgid "location: a %s"
-msgstr "locatie: &mu; %s"
+msgstr "locatie: a %s"
 
 msgid "scale: %s"
 msgstr "schaal: %s"
@@ -458,13 +449,13 @@ msgid "<i>Warning.</i>"
 msgstr "<i>Waarschuwing.</i>"
 
 msgid "Scale parameter %s is assumed positive."
-msgstr ""
+msgstr "Schaalparameter %s wordt als positief aangenomen."
 
 msgid "Scale parameter %s is assumed negative."
-msgstr ""
+msgstr "Schaalparameter %s wordt als negatief aangenomen."
 
 msgid "Bernoulli distribution"
-msgstr "Bernoulli verdeling"
+msgstr "Bernoulli-verdeling"
 
 msgid "probability of success: p %s %s: 0 %s p %s 1"
 msgstr "kans op succes: p %s %s: 0 %s p %s 1"
@@ -478,9 +469,8 @@ msgstr "p(1-p)"
 msgid "beta distribution"
 msgstr "betaverdeling"
 
-#, fuzzy
 msgid "beta-binomial distribution"
-msgstr "binomiale verdeling"
+msgstr "bèta-binomiale verdeling"
 
 msgid "number of trials: %s"
 msgstr "steekproefgrootte: %s"
@@ -488,16 +478,14 @@ msgstr "steekproefgrootte: %s"
 msgid "Parameter n was fixed at value %s."
 msgstr "Parameter n werd bepaald op waarde %s."
 
-#, fuzzy
 msgid "beta prime distribution"
-msgstr "betaverdeling"
+msgstr "bèta primaire verdeling"
 
 msgid "lower bound: %s"
-msgstr ""
+msgstr "ondergrens: %s"
 
-#, fuzzy
 msgid "upper bound: %s"
-msgstr "dispersie: %s"
+msgstr "bovengrens: %s"
 
 msgid "binomial distribution"
 msgstr "binomiale verdeling"
@@ -505,15 +493,14 @@ msgstr "binomiale verdeling"
 msgid "probability of success: %s"
 msgstr "kans op succes: %s"
 
-#, fuzzy
 msgid "Cauchy distribution"
-msgstr "betaverdeling"
+msgstr "Cauchy-verdeling"
 
 msgid "location: &mu; %s"
 msgstr "locatie: &mu; %s"
 
 msgid "undefined"
-msgstr ""
+msgstr "ongedefinieerd"
 
 msgid "%s<sup>2</sup> distribution"
 msgstr "%s<sup>2</sup> verdeling"
@@ -533,19 +520,17 @@ msgstr "ratio: %s"
 msgid "F-distribution"
 msgstr "F-verdeling"
 
-#, fuzzy
 msgid "Fréchet distribution"
-msgstr "betaverdeling"
+msgstr "Fréchet-verdeling"
 
-#, fuzzy
 msgid "location: %s"
-msgstr "locatie: &mu; %s"
+msgstr "locatie: %s"
 
 msgid "see Wikipedia: https://en.wikipedia.org/wiki/Fr%C3%A9chet_distribution"
-msgstr ""
+msgstr "Zie Wikipedia: https://nl.wikipedia.org/wiki/Fr%C3%A9chet-verdeling"
 
 msgid "gamma distribution"
-msgstr "gamma verdeling"
+msgstr "gamma-verdeling"
 
 msgid "mean: %s"
 msgstr "gemiddelde: %s"
@@ -574,65 +559,58 @@ msgstr "kwadraatwortel van nauwkeurigheid: %s"
 msgid "&mu;"
 msgstr "&mu;"
 
-#, fuzzy
 msgid "geometric distribution"
-msgstr "Logistische verdeling"
+msgstr "geometrische verdeling"
 
 msgid "population size: %s"
-msgstr ""
+msgstr "populatiegrootte: %s"
 
-#, fuzzy
 msgid "number of success states in the population: %s"
-msgstr "aantal successen: %s"
+msgstr "aantal successen in de populatie: %s"
 
 msgid "number of draws from the population: %s"
-msgstr ""
+msgstr "aantal trekkingen uit de populatie: %s"
 
-#, fuzzy
 msgid "Gompertz distribution"
-msgstr "betaverdeling"
+msgstr "Gompertz-verdeling"
 
-#, fuzzy
 msgid ""
 "shape: %s \n"
 "scale: %s"
-msgstr "vorm: %s"
+msgstr ""
+"vorm: %s\n"
+"schaal: %s"
 
-#, fuzzy
 msgid "Gumbel distribution"
-msgstr "betaverdeling"
+msgstr "Gumbel-verdeling"
 
-#, fuzzy
 msgid "hypergeometric distribution"
-msgstr "Logistische verdeling"
+msgstr "hypergeometrische verdeling"
 
-#, fuzzy
 msgid "Laplace distribution"
-msgstr "gamma verdeling"
+msgstr "Laplace-verdeling"
 
-#, fuzzy
 msgid "log-logistic distribution"
-msgstr "Logistische verdeling"
+msgstr "log-logistische verdeling"
 
-#, fuzzy
 msgid "log location: &mu; %s"
-msgstr "locatie: &mu; %s"
+msgstr "log-locatie: &mu; %s"
 
-#, fuzzy
 msgid "log scale: %s"
-msgstr "schaal: %s"
+msgstr "log-schaal: %s"
 
-#, fuzzy
 msgid "scale: &alpha; %s"
-msgstr "schaal: %s"
+msgstr "schaal: &alpha; %s"
 
 msgid ""
 "see Wikipedia: https://en.wikipedia.org/wiki/Log-"
 "logistic_distribution#Moments"
 msgstr ""
+"zie Wikipedia: https://en.wikipedia.org/wiki/Log-"
+"logistic_distribution#Moments"
 
 msgid "logistic distribution"
-msgstr "Logistische verdeling"
+msgstr "logistische verdeling"
 
 msgid "(&sigma; &pi;)<sup>2</sup> / 3"
 msgstr "(&sigma; &pi;)<sup>2</sup> / 3"
@@ -652,56 +630,45 @@ msgstr "exp(&mu; + &sigma;<sup>2</sup>/2)"
 msgid "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
 msgstr "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
 
-#, fuzzy
 msgid "mixture of two normal distributions"
-msgstr "normaal verdeling"
+msgstr "mix van twee normaalverdelingen"
 
-#, fuzzy
 msgid "probability of first component: %s"
-msgstr "kans op succes: %s"
+msgstr "kans op het eerste component: %s"
 
-#, fuzzy
 msgid "mean 1: %s"
-msgstr "gemiddelde: %s"
+msgstr "gemiddelde 1: %s"
 
-#, fuzzy
 msgid "std. deviation 1: %s"
-msgstr "standaarddeviatie: %s"
+msgstr "standaarddeviatie 1: %s"
 
-#, fuzzy
 msgid "mean 2: %s"
-msgstr "gemiddelde: %s"
+msgstr "gemiddelde 2: %s"
 
-#, fuzzy
 msgid "std. deviation 2: %s"
-msgstr "standaarddeviatie: %s"
+msgstr "standaarddeviatie 2: %s"
 
 msgid "mixture of a normal and a uniform distribution"
-msgstr ""
+msgstr "mix van een normale en een uniforme verdeling"
 
-#, fuzzy
 msgid "probability of normal component: %s"
-msgstr "kans op succes: %s"
+msgstr "kans op normaal component: %s"
 
-#, fuzzy
 msgid "mean of normal distribution: %s"
-msgstr "normaal verdeling"
+msgstr "gemiddelde van normaalverdeling: %s"
 
-#, fuzzy
 msgid "std. deviation of normal distribution: %s"
-msgstr "negatief-binomiale verdeling"
+msgstr "standaarddeviatie van normaalverdeling: %s"
 
-#, fuzzy
 msgid "minimum of uniform distribution: %s"
-msgstr "normaal verdeling"
+msgstr "minimum van uniforme verdeling: %s"
 
-#, fuzzy
 msgid "maximum of uniform distribution: %s"
-msgstr "normaal verdeling"
+msgstr "maximum van uniforme verdeling: %s"
 
-#, fuzzy
 msgid "Parameter a was fixed at value %s, parameter b was fixed at value %s."
-msgstr "Parameter n werd bepaald op waarde %s."
+msgstr ""
+"Parameter a werd bepaald op waarde %s, parameter b werd bepaald op waarde %s."
 
 msgid "negative binomial distribution"
 msgstr "negatief-binomiale verdeling"
@@ -712,43 +679,37 @@ msgstr "aantal successen: %s"
 msgid "dispersion: %s"
 msgstr "dispersie: %s"
 
-#, fuzzy
 msgid "zero-inflated negative binomial distribution"
-msgstr "negatief-binomiale verdeling"
+msgstr "nul-geïnflateerde negatief-binomiale verdeling"
 
-#, fuzzy
 msgid "probability of zero process: %s"
-msgstr "kans op succes: %s"
+msgstr "kans op nulproces: %s"
 
-#, fuzzy
 msgid "generalized normal distribution"
-msgstr "negatief-binomiale verdeling"
+msgstr "gegeneraliseerde normaalverdeling"
 
 msgid ""
 "see Wikipedia - https://en.wikipedia.org/wiki/"
 "Generalized_normal_distribution#Moments"
 msgstr ""
+"zie Wikipedia - https://en.wikipedia.org/wiki/"
+"Generalized_normal_distribution#Moments"
 
-#, fuzzy
 msgid "skew normal distribution"
-msgstr "normaal verdeling"
+msgstr "scheve normaalverdeling"
 
-#, fuzzy
 msgid "Pareto distribution"
-msgstr "betaverdeling"
+msgstr "Pareto-verdeling"
 
 msgid "Poisson distribution"
-msgstr "Poisson verdeling"
+msgstr "Poissonverdeling"
 
-#, fuzzy
 msgid "zero-inflated Poisson distribution"
-msgstr "Poisson verdeling"
+msgstr "nul-geïnflateerde Poissonverdeling"
 
-#, fuzzy
 msgid "noncentral t-distribution"
-msgstr "normaal verdeling"
+msgstr "niet-centrale t-verdeling"
 
-#, fuzzy
 msgid "degrees of freedom: %s"
 msgstr "vrijheidsgraden: %s"
 
@@ -759,71 +720,59 @@ msgid "does not exist unless df > 2"
 msgstr "bestaat niet tenzij vg > 2"
 
 msgid "see Azzalini & Capitanio (2003)"
-msgstr ""
+msgstr "zie Azzalini & Capitanio (2003)"
 
-#, fuzzy
 msgid "skewed generalized t-distribution"
-msgstr "normaal verdeling"
+msgstr "scheve gegeneraliseerde t-verdeling"
 
-#, fuzzy
 msgid "skewness: %s"
-msgstr "gemiddelde: %s"
+msgstr "scheefheid: %s"
 
-#, fuzzy
 msgid "kurtosis: %s"
-msgstr "ratio: %s"
+msgstr "kurtosis: %s"
 
 msgid ""
 "see Wikipedia: https://en.wikipedia.org/wiki/"
 "Skewed_generalized_t_distribution#Moments"
 msgstr ""
+"zie Wikipedia: https://en.wikipedia.org/wiki/"
+"Skewed_generalized_t_distribution#Moments"
 
 msgid "scaled, shifted Student's t-distribution"
-msgstr ""
+msgstr "geschaalde verschoven Student-/t-verdeling"
 
-#, fuzzy
 msgid "triangular distribution"
-msgstr "normaal verdeling"
+msgstr "driehoekige verdeling"
 
-#, fuzzy
 msgid "minimum: %s"
-msgstr "Minimum"
+msgstr "minimum: %s"
 
-#, fuzzy
 msgid "maximum: %s"
-msgstr "Maximum"
+msgstr "maximum: %s"
 
-#, fuzzy
 msgid "mode: %s"
-msgstr "gemiddelde: %s"
+msgstr "modus: %s"
 
-#, fuzzy
 msgid "uniform distribution"
-msgstr "normaal verdeling"
+msgstr "uniforme verdeling"
 
-#, fuzzy
 msgid "Wald distribution"
-msgstr "normaal verdeling"
+msgstr "Wald-verdeling"
 
-#, fuzzy
 msgid "drift rate: %s"
-msgstr "ratio: %s"
+msgstr "drift rate: %s"
 
-#, fuzzy
 msgid "threshold: %s"
-msgstr "nauwkeurigheid: %s"
+msgstr "grenswaarde: %s"
 
-#, fuzzy
 msgid "noise: %s"
-msgstr "vorm: %s"
+msgstr "ruis: %s"
 
-#, fuzzy
 msgid "Parameter %s was fixed to 1."
-msgstr "Parameter n werd bepaald op waarde %s."
+msgstr "Parameter %s werd bepaald op 1."
 
-#, fuzzy
 msgid "Weibull distribution"
-msgstr "Bernoulli verdeling"
+msgstr "Weibull-verdeling"
 
 #~ msgid "t-distribution"
 #~ msgstr "t-verdeling"
