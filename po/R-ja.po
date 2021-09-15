@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.1.0\n"
 "POT-Creation-Date: 2021-07-31 02:56\n"
-"PO-Revision-Date: 2021-09-11 02:55+0000\n"
-"Last-Translator: Koji Kosugi <kosugitti@gmail.com>\n"
+"PO-Revision-Date: 2021-09-15 12:13+0000\n"
+"Last-Translator: Daiki Hojo <dhojo.bayes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/ja/>\n"
 "Language: ja\n"
@@ -16,13 +16,13 @@ msgstr ""
 msgid ""
 "The following problem(s) occurred while running the analysis:"
 "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
-msgstr ""
+msgstr "分析の実行中に次の問題が発生しました:<ul><li>変数は離散的(すなわち整数)である必要があります</li></ul>"
 
 msgid "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
-msgstr ""
+msgstr "<ul><li>変数は離散 (すなわち、整数)である必要があります</li></ul>"
 
 msgid "Overview - %s"
-msgstr ""
+msgstr "全体 - %s"
 
 msgid "Descriptives"
 msgstr "記述統計量"
@@ -52,31 +52,31 @@ msgid "Median"
 msgstr "中央値"
 
 msgid "75%% Quantile"
-msgstr ""
+msgstr "75%% 分位数"
 
 msgid "Maximum"
 msgstr "最大値"
 
 msgid "Rel. Frequency"
-msgstr ""
+msgstr "相対度数"
 
 msgid "Total"
 msgstr "合計"
 
 msgid "Observed Moments"
-msgstr ""
+msgstr "観測度数"
 
 msgid "Moment"
-msgstr ""
+msgstr "度数"
 
 msgid "Raw"
 msgstr "生"
 
 msgid "Central"
-msgstr ""
+msgstr "中心"
 
 msgid "Estimated Parameters"
-msgstr ""
+msgstr "推定パラメータ"
 
 msgid "Parameter"
 msgstr "パラメータ"
@@ -88,7 +88,7 @@ msgid "SE"
 msgstr "標準誤差"
 
 msgid "Standard errors are unavailable with this method"
-msgstr ""
+msgstr "この方法では標準誤差が得られない"
 
 msgid "Lower"
 msgstr "下"
@@ -100,27 +100,27 @@ msgid "Upper"
 msgstr "上"
 
 msgid "Confidence intervals are unavailable with this method."
-msgstr ""
+msgstr "この方法では、信頼区間を得ることはできません."
 
 msgid "Confidence intervals were calculated using the delta method."
-msgstr ""
+msgstr "信頼区間はdelta法を用いて算出した."
 
 msgid "Standard errors were calculated using the delta method."
-msgstr ""
+msgstr "標準誤差はデルタ法を用いて算出した."
 
 msgid ""
 "Standard errors and confidence intervals were calculated using the delta "
 "method."
-msgstr ""
+msgstr "標準誤差と信頼区間はデルタ法を用いて算出した."
 
 msgid "Maximum likelihood"
-msgstr ""
+msgstr "最尤法"
 
 msgid "Fit Assessment"
-msgstr ""
+msgstr "適合度評価"
 
 msgid "Fit Statistics"
-msgstr ""
+msgstr "適合度統計量"
 
 msgid "Test"
 msgstr "検定"
@@ -132,13 +132,13 @@ msgid "p"
 msgstr "p"
 
 msgid "Kolmogorov-Smirnov"
-msgstr ""
+msgstr "コルモゴロフ-スミルノフ"
 
 msgid "Cramér-von Mises"
-msgstr ""
+msgstr "クラメール-フォンミーゼス"
 
 msgid "Anderson-Darling"
-msgstr ""
+msgstr "アンダーソン-ダーリング"
 
 msgid "Shapiro-Wilk"
 msgstr "シャピロ-ウィルク"
@@ -147,82 +147,82 @@ msgid "Chi-square"
 msgstr "カイ二乗"
 
 msgid "Histogram vs. Theoretical PDF"
-msgstr ""
+msgstr "ヒストグラム vs. 理論的確率密度関数"
 
 msgid "Histogram vs. Theoretical PMF"
-msgstr ""
+msgstr "ヒストグラム vs. 理論的な確率密度関数"
 
 msgid "Q-Q plot"
-msgstr ""
+msgstr "Q-Qプロット"
 
 msgid "Empirical vs. Theoretical CDF"
-msgstr ""
+msgstr "経験的累積分布関数 vs. 理論的累積分布関数"
 
 msgid "P-P plot"
-msgstr ""
+msgstr "P-Pプロット"
 
 msgid "Sample"
-msgstr ""
+msgstr "標本"
 
 msgid "Theoretical"
-msgstr ""
+msgstr "理論的"
 
 msgid "Density"
 msgstr "密度"
 
 msgid "Probability Mass"
-msgstr ""
+msgstr "確率質量"
 
 msgid "Probability"
-msgstr ""
+msgstr "確率"
 
 msgid "Probability Density Function"
-msgstr ""
+msgstr "確率密度関数"
 
 msgid "Probability Mass Function"
-msgstr ""
+msgstr "確率質量関数"
 
 msgid "Cumulative Distribution Function"
-msgstr ""
+msgstr "累積分布関数"
 
 msgid "Quantile Function"
-msgstr ""
+msgstr "分位数関数"
 
 msgid "Formula"
-msgstr ""
+msgstr "式"
 
 msgid "Density Plot"
-msgstr ""
+msgstr "密度プロット"
 
 msgid "Cumulative Probability Plot"
-msgstr ""
+msgstr "累積確率プロット"
 
 msgid "Slope"
-msgstr ""
+msgstr "傾き"
 
 msgid "Quantile Plot"
-msgstr ""
+msgstr "分位数プロット"
 
 msgid "Probability Mass Plot"
-msgstr ""
+msgstr "確率質量プロット"
 
 msgid "Histogram"
-msgstr ""
+msgstr "ヒストグラム"
 
 msgid "Bar plot"
-msgstr ""
+msgstr "棒グラフ"
 
 msgid "Rel. Freq (%s in bin)"
-msgstr ""
+msgstr "相対度数 (ビン内の%s)"
 
 msgid "Empirical Cumulative Distribution"
-msgstr ""
+msgstr "経験累積分布"
 
 msgid "Freq"
-msgstr ""
+msgstr "度数"
 
 msgid "Parameters, Support, and Moments"
-msgstr ""
+msgstr "パラメータ, 台, モーメント"
 
 msgid ""
 "<b>Parameters</b>\n"
@@ -235,6 +235,15 @@ msgid ""
 "      E(X) = %s\n"
 "      Var(X) = %s"
 msgstr ""
+"<b>パラメータ</b>\n"
+"      %s\n"
+"\n"
+"      <b>台</b>\n"
+"      %s\n"
+"\n"
+"      <b>モーメント</b>\n"
+"      E(X) = %s\n"
+"      Var(X) = %s"
 
 msgid ""
 "<b>Parameters</b>\n"
@@ -246,6 +255,14 @@ msgid ""
 "      <b>Moments</b>\n"
 "      not available"
 msgstr ""
+"<b>パラメータ</b>\n"
+"      %s\n"
+"\n"
+"      <b>台</b>\n"
+"      %s\n"
+"\n"
+"      <b>モーメント</b>\n"
+"      利用できません"
 
 msgid ""
 "The probability density function (PDF), usually denoted as f(x), is a "
@@ -260,6 +277,12 @@ msgid ""
 "    The <i>y</i>-axis displays the value of the density function for a "
 "particular value of the random variable (displayed on the <i>x</i>-axis)."
 msgstr ""
+"確率密度関数(PDF)は，通常f(x)と表記され，確率変数Xの関数である.\n"
+"     f(x)の値は，確率変数Xの実現値によってxに等しい値が得られる相対的な尤度を示します\n"
+"    より正式には，PDFは累積分布関数（CDF）の導関数として定義される．\n"
+"\n"
+"     密度プロットは，確率変数の確率密度関数を表示します。\n"
+"    <i>y</i> 軸は、確率変数の特定の値（<i>x</i>軸に表示）における密度関数の値を示しています."
 
 msgid ""
 "The probability mass function (PMF), usually denoted as f(x), is a function "
@@ -273,6 +296,11 @@ msgid ""
 "for a particular value of the random variable (displayed on the <i>x</i>-"
 "axis)."
 msgstr ""
+"確率質量関数(PMF)は，通常f(x)と表記され，確率変数Xの関数の一つである.\n"
+"     f(x)の値は、確率変数Xの実現値がxに等しい値をもたらす確率を示します.\n"
+"\n"
+"    確率質量プロットは、確率変数の確率質量関数を表示します.\n"
+"    <i>y</i>-軸には、確率変数の特定の値（<i>x</i>軸に表示）に対する確率質量関数の値が表示されます."
 
 msgid ""
 "The cumulative distribution function (CDF), usually denoted as F(x), is a "
@@ -286,6 +314,11 @@ msgid ""
 "function for a particular value of the random variable (displayed on the "
 "<i>x</i>-axis)."
 msgstr ""
+"累積分布関数(CDF)は，通常F(x)と表記され，確率変数Xの関数である.\n"
+"    F(x)の値は、確率変数Xの実現値がx以下の値をもたらす確率を示します.\n"
+"\n"
+"    累積確率プロットは、確率変数の累積分布関数を表示します.\n"
+"    <i>y</i>-軸には、確率変数の特定の値（<i>x</i>軸に表示）に対する累積分布関数の値が表示されます."
 
 msgid ""
 "The quantile function, usually denoted as Q(p), is the inverse of the "
@@ -299,6 +332,11 @@ msgid ""
 "the random variable is less or equal to that value is equal to p (displayed "
 "on the <i>x</i>-axis)."
 msgstr ""
+"分位値関数は，通常，Q(p)と表記され，累積分布関数の逆関数である.\n"
+"    この関数は，確率変数がその値以下になる確率が，与えられた確率pに等しくなるような分位値を与える.\n"
+"\n"
+"    分位点プロットは、分位点関数を表示します.\n"
+"    <i>y</i>-軸には、確率変数がその値以下になる確率がpに等しくなる分位点が表示されます（<i>x</i>軸に表示）."
 
 msgid ""
 "<h3> Demonstration of the %1$s </h3>\n"
@@ -323,352 +361,382 @@ msgid ""
 "\n"
 "https://en.wikipedia.org/wiki/List_of_probability_distributions"
 msgstr ""
+"<h3> %1$s のデモンストレーション </h3>\n"
+"このデモは4つのパートに分かれています。\n"
+"最初の部分では、%2$s、その確率密度関数、累積分布関数、および分位点関数を表示します。 \n"
+"第2の部分では、%3$s からデータを生成し、記述統計量を計算し、記述プロットを表示します。\n"
+"第3の部分では、%4$s のパラメータを推定できます。 \n"
+"第4の部分では、データに対する %5$s の適合性を確認できます。\n"
+"\n"
+"<b>参考文献</b>\n"
+"\n"
+"Blitzstein, J. K., & Hwang, J. (2014). <i>Introduction to probability.</i> "
+"Chapman and Hall/CRC.\n"
+"\n"
+"Leemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, "
+"16</i>(4), 8–9.\n"
+"\n"
+"For relationships with other distributions, visit www.math.wm.edu/~leemis/"
+"chart/UDR/UDR.html.\n"
+"\n"
+"https://en.wikipedia.org/wiki/List_of_probability_distributions"
 
 msgid ""
 "Estimation failed: Optimization did not converge. <ul><li>Try adjusting "
 "parameter values, check outliers or feasibility of the distribution fitting "
 "the data.</li></ul>"
 msgstr ""
+"推定に失敗しました: "
+"最適化は収束しませんでした。<ul><li>パラメーター値、外れ値、またはデータに適合する分布の実現可能性を確認してみてください。</li></ul>"
 
 msgid ""
 "Estimation failed: Hessian matrix is not numerically computable. "
 "<ul><li>Check outliers or feasibility of the distribution fitting the data.</"
 "li></ul>"
 msgstr ""
+"推定に失敗しました: "
+"ヘシアン行列は数値的に計算できません。<ul><li>データに適合する分布の外れ値または実現可能性を確認してください。</li></ul>"
 
 msgid "Amoroso distribution"
-msgstr ""
+msgstr "アモロソ分布"
 
 msgid "location: a %s"
-msgstr ""
+msgstr "位置: a %s"
 
 msgid "scale: %s"
-msgstr ""
+msgstr "尺度: %s"
 
 msgid "shape: %s"
-msgstr ""
+msgstr "形状: %s"
 
 msgid "The optimization did not converge, try adjusting the parameter values."
-msgstr ""
+msgstr "最適化が収束しませんでした。パラメータ値を調整してみてください."
 
 msgid "<i>Warning.</i>"
-msgstr ""
+msgstr "<i>警告</i>"
 
 msgid "Scale parameter %s is assumed positive."
-msgstr ""
+msgstr "尺度パラメータ %s は正の値と仮定します."
 
 msgid "Scale parameter %s is assumed negative."
-msgstr ""
+msgstr "尺度パラメータ %s は、負の値と仮定されます."
 
 msgid "Bernoulli distribution"
-msgstr ""
+msgstr "ベルヌーイ分布"
 
 msgid "probability of success: p %s %s: 0 %s p %s 1"
-msgstr ""
+msgstr "成功確率: p %s %s: 0 %s p %s 1"
 
 msgid "x %s {0, 1}"
-msgstr ""
+msgstr "x %s {0, 1}"
 
 msgid "p(1-p)"
-msgstr ""
+msgstr "p(1-p)"
 
 msgid "beta distribution"
-msgstr ""
+msgstr "ベータ分布"
 
 msgid "beta-binomial distribution"
-msgstr ""
+msgstr "ベータ二項分布"
 
 msgid "number of trials: %s"
-msgstr ""
+msgstr "試行回数: %s"
 
 msgid "Parameter n was fixed at value %s."
-msgstr ""
+msgstr "パラメータ n は値 %s で固定されています。"
 
 msgid "beta prime distribution"
-msgstr ""
+msgstr "ベータプライム分布"
 
 msgid "lower bound: %s"
-msgstr ""
+msgstr "下限: %s"
 
 msgid "upper bound: %s"
-msgstr ""
+msgstr "上限: %s"
 
 msgid "binomial distribution"
-msgstr ""
+msgstr "二項分布"
 
 msgid "probability of success: %s"
-msgstr ""
+msgstr "成功確率: %s"
 
 msgid "Cauchy distribution"
-msgstr ""
+msgstr "コーシー分布"
 
 msgid "location: &mu; %s"
-msgstr ""
+msgstr "位置: &mu; %s"
 
 msgid "undefined"
-msgstr ""
+msgstr "未定義"
 
 msgid "%s<sup>2</sup> distribution"
-msgstr ""
+msgstr "%s<sup>2</sup> 分布"
 
 msgid "degree of freedom: %s"
-msgstr ""
+msgstr "自由度: %s"
 
 msgid "non-centrality: %s"
-msgstr ""
+msgstr "非心度: %s"
 
 msgid "exponential distribution"
-msgstr ""
+msgstr "指数分布"
 
 msgid "rate: %s"
-msgstr ""
+msgstr "比率: %s"
 
 msgid "F-distribution"
-msgstr ""
+msgstr "F分布"
 
 msgid "Fréchet distribution"
-msgstr ""
+msgstr "フレシェ分布"
 
 msgid "location: %s"
-msgstr ""
+msgstr "位置: %s"
 
 msgid "see Wikipedia: https://en.wikipedia.org/wiki/Fr%C3%A9chet_distribution"
 msgstr ""
+"ウィキペディアを参照してください: https://en.wikipedia.org/wiki/Fr%C3%A9chet_distribution"
 
 msgid "gamma distribution"
-msgstr ""
+msgstr "ガンマ分布"
 
 msgid "mean: %s"
-msgstr ""
+msgstr "平均: %s"
 
 msgid "inverse gamma distribution"
-msgstr ""
+msgstr "逆ガンマ分布"
 
 msgid "normal distribution"
-msgstr ""
+msgstr "正規分布"
 
 msgid "mean: &mu; %s"
-msgstr ""
+msgstr "平均: &mu; %s"
 
 msgid "variance: %s"
-msgstr ""
+msgstr "分散: %s"
 
 msgid "standard deviation: %s"
-msgstr ""
+msgstr "標準偏差: %s"
 
 msgid "precision: %s"
-msgstr ""
+msgstr "精度: %s"
 
 msgid "square root of precision: %s"
-msgstr ""
+msgstr "精度の平方根: %s"
 
 msgid "&mu;"
-msgstr ""
+msgstr "&mu;"
 
 msgid "geometric distribution"
-msgstr ""
+msgstr "幾何分布"
 
 msgid "population size: %s"
-msgstr ""
+msgstr "母集団の大きさ: %s"
 
 msgid "number of success states in the population: %s"
-msgstr ""
+msgstr "母集団内における成功数: %s"
 
 msgid "number of draws from the population: %s"
-msgstr ""
+msgstr "母集団からの抽出数: %s"
 
 msgid "Gompertz distribution"
-msgstr ""
+msgstr "ゴンペルツ分布"
 
 msgid ""
 "shape: %s \n"
 "scale: %s"
 msgstr ""
+"形状: %s \n"
+"尺度: %s"
 
 msgid "Gumbel distribution"
-msgstr ""
+msgstr "ガンベル分布"
 
 msgid "hypergeometric distribution"
-msgstr ""
+msgstr "超幾何分布"
 
 msgid "Laplace distribution"
-msgstr ""
+msgstr "ラプラス分布"
 
 msgid "log-logistic distribution"
-msgstr ""
+msgstr "対数ロジスティック分布"
 
 msgid "log location: &mu; %s"
-msgstr ""
+msgstr "log 位置: &mu; %s"
 
 msgid "log scale: %s"
-msgstr ""
+msgstr "log 尺度: %s"
 
 msgid "scale: &alpha; %s"
-msgstr ""
+msgstr "尺度: &alpha; %s"
 
 msgid ""
 "see Wikipedia: https://en.wikipedia.org/wiki/Log-"
 "logistic_distribution#Moments"
 msgstr ""
+"ウィキペディアを参照してください: https://en.wikipedia.org/wiki/Log-"
+"logistic_distribution#Moments"
 
 msgid "logistic distribution"
-msgstr ""
+msgstr "ロジスティック分布"
 
 msgid "(&sigma; &pi;)<sup>2</sup> / 3"
-msgstr ""
+msgstr "(&sigma; &pi;)<sup>2</sup> / 3"
 
 msgid "log-normal distribution"
-msgstr ""
+msgstr "対数正規分布"
 
 msgid "log mean: &mu; %s"
-msgstr ""
+msgstr "log 平均: &mu; %s"
 
 msgid "log standard deviation: %s"
-msgstr ""
+msgstr "対数標準偏差: %s"
 
 msgid "exp(&mu; + &sigma;<sup>2</sup>/2)"
-msgstr ""
+msgstr "exp(&mu; + &sigma;<sup>2</sup>/2)"
 
 msgid "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
-msgstr ""
+msgstr "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
 
 msgid "mixture of two normal distributions"
-msgstr ""
+msgstr "2つの正規分布の混合"
 
 msgid "probability of first component: %s"
-msgstr ""
+msgstr "第一成分の確率: %s"
 
 msgid "mean 1: %s"
-msgstr ""
+msgstr "平均 1: %s"
 
 msgid "std. deviation 1: %s"
-msgstr ""
+msgstr "標準偏差 1: %s"
 
 msgid "mean 2: %s"
-msgstr ""
+msgstr "平均 2: %s"
 
 msgid "std. deviation 2: %s"
-msgstr ""
+msgstr "標準偏差 2: %s"
 
 msgid "mixture of a normal and a uniform distribution"
-msgstr ""
+msgstr "正規分布と一様分布の混合"
 
 msgid "probability of normal component: %s"
-msgstr ""
+msgstr "正規成分の確率: %s"
 
 msgid "mean of normal distribution: %s"
-msgstr ""
+msgstr "正規分布の平均値: %s"
 
 msgid "std. deviation of normal distribution: %s"
-msgstr ""
+msgstr "正規分布の標準偏差: %s"
 
 msgid "minimum of uniform distribution: %s"
-msgstr ""
+msgstr "一様分布の最小値: %s"
 
 msgid "maximum of uniform distribution: %s"
-msgstr ""
+msgstr "一様分布の最大値: %s"
 
 msgid "Parameter a was fixed at value %s, parameter b was fixed at value %s."
-msgstr ""
+msgstr "パラメータ a は値 %s に固定されており、パラメータ b は値 %s に固定されています."
 
 msgid "negative binomial distribution"
-msgstr ""
+msgstr "負の二項分布"
 
 msgid "number of successes: %s"
-msgstr ""
+msgstr "成功数: %s"
 
 msgid "dispersion: %s"
-msgstr ""
+msgstr "分散: %s"
 
 msgid "zero-inflated negative binomial distribution"
-msgstr ""
+msgstr "ゼロ過剰負の二項分布"
 
 msgid "probability of zero process: %s"
-msgstr ""
+msgstr "ゼロ過程の確率: %s"
 
 msgid "generalized normal distribution"
-msgstr ""
+msgstr "一般化正規分布"
 
 msgid ""
 "see Wikipedia - https://en.wikipedia.org/wiki/"
 "Generalized_normal_distribution#Moments"
 msgstr ""
+"ウィキペディアを参照してください - https://en.wikipedia.org/wiki/"
+"Generalized_normal_distribution#Moments"
 
 msgid "skew normal distribution"
-msgstr ""
+msgstr "歪正規分布"
 
 msgid "Pareto distribution"
-msgstr ""
+msgstr "パレート分布"
 
 msgid "Poisson distribution"
-msgstr ""
+msgstr "ポアソン分布"
 
 msgid "zero-inflated Poisson distribution"
-msgstr ""
+msgstr "ゼロ過剰ポアソン分布"
 
 msgid "noncentral t-distribution"
-msgstr ""
+msgstr "非心t分布"
 
 msgid "degrees of freedom: %s"
-msgstr ""
+msgstr "自由度: %s"
 
 msgid "does not exist unless df > 1"
-msgstr ""
+msgstr "df > 1でない限り存在しません"
 
 msgid "does not exist unless df > 2"
-msgstr ""
+msgstr "df > 2でない限り存在しません"
 
 msgid "see Azzalini & Capitanio (2003)"
-msgstr ""
+msgstr "Azzalini & Capitanio (2003) を参照してください"
 
 msgid "skewed generalized t-distribution"
-msgstr ""
+msgstr "歪一般化t分布"
 
 msgid "skewness: %s"
-msgstr ""
+msgstr "歪度: %s"
 
 msgid "kurtosis: %s"
-msgstr ""
+msgstr "尖度: %s"
 
 msgid ""
 "see Wikipedia: https://en.wikipedia.org/wiki/"
 "Skewed_generalized_t_distribution#Moments"
 msgstr ""
+"ウィキペディアを参照してください: https://en.wikipedia.org/wiki/"
+"Skewed_generalized_t_distribution#Moments"
 
 msgid "scaled, shifted Student's t-distribution"
-msgstr ""
+msgstr "scaled, shifted t分布"
 
 msgid "triangular distribution"
-msgstr ""
+msgstr "三角分布"
 
-#, fuzzy
 msgid "minimum: %s"
-msgstr "最小値"
+msgstr "最小: %s"
 
-#, fuzzy
 msgid "maximum: %s"
-msgstr "最大値"
+msgstr "最大: %s"
 
 msgid "mode: %s"
-msgstr ""
+msgstr "モード: %s"
 
 msgid "uniform distribution"
-msgstr ""
+msgstr "一様分布"
 
 msgid "Wald distribution"
-msgstr ""
+msgstr "ワルド分布"
 
 msgid "drift rate: %s"
-msgstr ""
+msgstr "ドリフト率: %s"
 
 msgid "threshold: %s"
-msgstr ""
+msgstr "閾値: %s"
 
 msgid "noise: %s"
-msgstr ""
+msgstr "ノイズ: %s"
 
 msgid "Parameter %s was fixed to 1."
-msgstr ""
+msgstr "パラメータ %s は 1 に固定されました."
 
 msgid "Weibull distribution"
-msgstr ""
+msgstr "ワイブル分布"
