@@ -1,17 +1,11 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-08 19:34+0000\n"
-"Last-Translator: shun wang <shuonwang@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
-"jasp/jaspdistributions-qml/zh_Hans/>\n"
-"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8-dev\n"
-"X-Qt-Contexts: true\n"
 "X-Language: zh_Hans\n"
+"X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
 msgid "Distributions"
@@ -1042,9 +1036,10 @@ msgctxt "LDfrechet|"
 msgid "Shape:"
 msgstr "形状："
 
+#, fuzzy
 msgctxt "LDfrechet|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDfrechet|"
 msgid "Location:"
@@ -1158,9 +1153,10 @@ msgctxt "LDgammaInverse|"
 msgid "Scale:"
 msgstr "尺度："
 
+#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Rate:"
-msgstr ""
+msgstr "率:"
 
 msgctxt "LDgammaInverse|"
 msgid "Mean:"
@@ -1206,33 +1202,39 @@ msgctxt "LDgammaInverse|"
 msgid "Histogram vs. theoretical pdf"
 msgstr "直方图与理论概率密度函数"
 
+#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Q-Q plot"
-msgstr ""
+msgstr "Q-Q图"
 
+#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Empirical vs. theoretical cdf"
-msgstr ""
+msgstr "经验与理论累积分布函数(cdf)"
 
+#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "P-P plot"
-msgstr ""
+msgstr "P-P图"
 
 msgctxt "LDgammaInverse|"
 msgid "Statistics"
 msgstr "统计量"
 
+#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Kolmogorov-Smirnov"
-msgstr ""
+msgstr "K-S 检验"
 
+#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Cramér–von Mises"
-msgstr ""
+msgstr "Cramér–von Mises检验(CvM)"
 
+#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Anderson-Darling"
-msgstr ""
+msgstr "AD检验(Anderson-Darling)"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Show Distribution"
@@ -1306,9 +1308,10 @@ msgctxt "LDgeometric|"
 msgid "Probability of success:"
 msgstr "成功概率："
 
+#, fuzzy
 msgctxt "LDgeometric|"
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgctxt "LDgeometric|"
 msgid "Display"
@@ -1350,9 +1353,10 @@ msgctxt "LDgeometric|"
 msgid "Highlight"
 msgstr "标注"
 
+#, fuzzy
 msgctxt "LDgeometric|"
 msgid "Mass"
-msgstr ""
+msgstr "质量"
 
 msgctxt "LDgeometric|"
 msgid "Cumulative Probability"
@@ -1362,9 +1366,10 @@ msgctxt "LDgeometric|"
 msgid "Interval"
 msgstr "区间"
 
+#, fuzzy
 msgctxt "LDgeometric|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 msgctxt "LDgompertz|"
 msgid "Show Distribution"
@@ -1422,9 +1427,10 @@ msgctxt "LDgumbel|"
 msgid "Scale:"
 msgstr "尺度："
 
+#, fuzzy
 msgctxt "LDgumbel|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 msgctxt "LDgumbel|"
 msgid "Display"
@@ -1478,9 +1484,10 @@ msgctxt "LDhypergeometric|"
 msgid "Number of draws from the population:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDhypergeometric|"
 msgid "n"
-msgstr ""
+msgstr "n"
 
 msgctxt "LDhypergeometric|"
 msgid "Display"
@@ -1522,9 +1529,10 @@ msgctxt "LDhypergeometric|"
 msgid "Highlight"
 msgstr "标注"
 
+#, fuzzy
 msgctxt "LDhypergeometric|"
 msgid "Mass"
-msgstr ""
+msgstr "质量"
 
 msgctxt "LDhypergeometric|"
 msgid "Cumulative Probability"
@@ -1534,9 +1542,10 @@ msgctxt "LDhypergeometric|"
 msgid "Interval"
 msgstr "区间"
 
+#, fuzzy
 msgctxt "LDhypergeometric|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 msgctxt "LDlaplace|"
 msgid "Show Distribution"
@@ -1554,9 +1563,10 @@ msgctxt "LDlaplace|"
 msgid "Scale:"
 msgstr "尺度："
 
+#, fuzzy
 msgctxt "LDlaplace|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 msgctxt "LDlaplace|"
 msgid "Display"
@@ -1950,9 +1960,10 @@ msgctxt "LDnegbinomial|"
 msgid "Highlight"
 msgstr "标注"
 
+#, fuzzy
 msgctxt "LDnegbinomial|"
 msgid "Mass"
-msgstr ""
+msgstr "质量"
 
 msgctxt "LDnegbinomial|"
 msgid "Cumulative Probability"
@@ -1962,9 +1973,10 @@ msgctxt "LDnegbinomial|"
 msgid "Interval"
 msgstr "区间"
 
+#, fuzzy
 msgctxt "LDnegbinomial|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Show Distribution"
@@ -2038,9 +2050,10 @@ msgctxt "LDnegbinomialZeroInflated|"
 msgid "Highlight"
 msgstr "标注"
 
+#, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Mass"
-msgstr ""
+msgstr "质量"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Cumulative Probability"
@@ -2050,9 +2063,10 @@ msgctxt "LDnegbinomialZeroInflated|"
 msgid "Interval"
 msgstr "区间"
 
+#, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Show Distribution"
@@ -2070,17 +2084,19 @@ msgctxt "LDnormalGeneralized|"
 msgid "Scale:"
 msgstr "尺度："
 
+#, fuzzy
 msgctxt "LDnormalGeneralized|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Shape:"
 msgstr "形状："
 
+#, fuzzy
 msgctxt "LDnormalGeneralized|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Display"
@@ -2134,9 +2150,10 @@ msgctxt "LDnormalSkew|"
 msgid "Shape:"
 msgstr "形状："
 
+#, fuzzy
 msgctxt "LDnormalSkew|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDnormalSkew|"
 msgid "Display"
@@ -2214,9 +2231,10 @@ msgctxt "LDpoisson|"
 msgid "Parameter"
 msgstr "参数"
 
+#, fuzzy
 msgctxt "LDpoisson|"
 msgid "Rate:"
-msgstr ""
+msgstr "率:"
 
 msgctxt "LDpoisson|"
 msgid "λ"
@@ -2262,9 +2280,10 @@ msgctxt "LDpoisson|"
 msgid "Highlight"
 msgstr "标注"
 
+#, fuzzy
 msgctxt "LDpoisson|"
 msgid "Mass"
-msgstr ""
+msgstr "质量"
 
 msgctxt "LDpoisson|"
 msgid "Cumulative Probability"
@@ -2274,9 +2293,10 @@ msgctxt "LDpoisson|"
 msgid "Interval"
 msgstr "区间"
 
+#, fuzzy
 msgctxt "LDpoisson|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Show Distribution"
@@ -2342,9 +2362,10 @@ msgctxt "LDpoissonZeroInflated|"
 msgid "Highlight"
 msgstr "标注"
 
+#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Mass"
-msgstr ""
+msgstr "质量"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Cumulative Probability"
@@ -2354,9 +2375,10 @@ msgctxt "LDpoissonZeroInflated|"
 msgid "Interval"
 msgstr "区间"
 
+#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 msgctxt "LDtNoncentral|"
 msgid "Show Distribution"
@@ -2490,9 +2512,10 @@ msgctxt "LDtSkew|"
 msgid "Shape:"
 msgstr "形状："
 
+#, fuzzy
 msgctxt "LDtSkew|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDtSkew|"
 msgid "Degree of freedom:"
@@ -2550,9 +2573,10 @@ msgctxt "LDtSkewedGeneralized|"
 msgid "Kurtosis:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Scale:"
@@ -2670,17 +2694,19 @@ msgctxt "LDuniform|"
 msgid "Parameters"
 msgstr "参数"
 
+#, fuzzy
 msgctxt "LDuniform|"
 msgid "Lower bound:"
-msgstr ""
+msgstr "下限："
 
 msgctxt "LDuniform|"
 msgid "a"
 msgstr "a"
 
+#, fuzzy
 msgctxt "LDuniform|"
 msgid "Upper bound:"
-msgstr ""
+msgstr "上限："
 
 msgctxt "LDuniform|"
 msgid "b"
