@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-10-11 17:05+0000\n"
+"Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9-dev\n"
 "X-Language: es\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -400,27 +406,22 @@ msgctxt "LDbeta|"
 msgid "β"
 msgstr "β"
 
-#, fuzzy
 msgctxt "LDbeta|"
 msgid "Display"
-msgstr "Monitor"
+msgstr "Mostrar"
 
-#, fuzzy
 msgctxt "LDbeta|"
 msgid "Explanatory text"
 msgstr "Texto explicativo"
 
-#, fuzzy
 msgctxt "LDbeta|"
 msgid "Parameters, support, and moments"
 msgstr "Parámetros, soporte y momentos"
 
-#, fuzzy
 msgctxt "LDbeta|"
 msgid "Formulas"
 msgstr "Fórmulas"
 
-#, fuzzy
 msgctxt "LDbeta|"
 msgid "Probability density function"
 msgstr "Función de densidad de probabilidad"
@@ -462,10 +463,9 @@ msgctxt "LDbinomial|"
 msgid "Number of trials:"
 msgstr "Número de intentos:"
 
-#, fuzzy
 msgctxt "LDbinomial|"
 msgid "n"
-msgstr "norte"
+msgstr "n"
 
 #, fuzzy
 msgctxt "LDbinomial|"
@@ -785,27 +785,22 @@ msgctxt "LDgammaInverse|"
 msgid "Mean:"
 msgstr "Media:"
 
-#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Display"
-msgstr "Monitor"
+msgstr "Mostrar"
 
-#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Explanatory text"
 msgstr "Texto explicativo"
 
-#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Parameters, support, and moments"
 msgstr "Parámetros, soporte y momentos"
 
-#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Formulas"
 msgstr "Fórmulas"
 
-#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Probability density function"
 msgstr "Función de densidad de probabilidad"
@@ -1434,10 +1429,9 @@ msgctxt "LDbetaBinomial|"
 msgid "Number of trials:"
 msgstr "Número de intentos:"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "n"
-msgstr "norte"
+msgstr "n"
 
 msgctxt "LDbetaBinomial|"
 msgid "Display"
@@ -1953,10 +1947,9 @@ msgctxt "LDhypergeometric|"
 msgid "Number of draws from the population:"
 msgstr ""
 
-#, fuzzy
 msgctxt "LDhypergeometric|"
 msgid "n"
-msgstr "norte"
+msgstr "n"
 
 msgctxt "LDhypergeometric|"
 msgid "Display"
@@ -2498,19 +2491,16 @@ msgstr "α"
 
 msgctxt "LDnormalSkew|"
 msgid "Display"
-msgstr ""
+msgstr "Mostrar"
 
-#, fuzzy
 msgctxt "LDnormalSkew|"
 msgid "Explanatory text"
 msgstr "Texto explicativo"
 
-#, fuzzy
 msgctxt "LDnormalSkew|"
 msgid "Parameters, support, and moments"
 msgstr "Parámetros, soporte y momentos"
 
-#, fuzzy
 msgctxt "LDnormalSkew|"
 msgid "Formulas"
 msgstr "Fórmulas"
