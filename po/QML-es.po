@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-11 20:05+0000\n"
+"PO-Revision-Date: 2021-10-14 01:51+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-qml/es/>\n"
@@ -23,30 +23,25 @@ msgctxt "Description|"
 msgid "Continuous"
 msgstr "Continuo"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Normal"
 msgstr "Normal"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "F-distribution"
 msgstr "Distribución F"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Chi-squared"
 msgstr "Chi-cuadrado"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Beta"
 msgstr "Beta"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Gamma"
-msgstr "Gama"
+msgstr "Gamma"
 
 msgctxt "Description|"
 msgid "Inverse gamma"
@@ -66,7 +61,7 @@ msgstr "Logística"
 
 msgctxt "Description|"
 msgid "Discrete"
-msgstr "Discreto"
+msgstr "Discreta"
 
 msgctxt "Description|"
 msgid "Bernoulli"
@@ -163,56 +158,48 @@ msgctxt "LDEstimateParameters|"
 msgid "Std. error"
 msgstr "Error típico"
 
-#, fuzzy
 msgctxt "LDEstimateParameters|"
 msgid "Confidence interval"
 msgstr "Intervalo de confianza"
 
-#, fuzzy
 msgctxt "LDGenerateDisplayData|"
 msgid "Generate and Display Data"
-msgstr "Generar y mostrar datos"
+msgstr "Generar y Mostrar Datos"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "[requires a loaded data set]"
-msgstr ""
+msgstr "[necesita tener cargado un conjunto de datos]"
 
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LDGenerateDisplayData|"
 msgid "Generate new variable from %1"
 msgstr "Generar nueva variable a partir de %1"
 
-#, fuzzy
 msgctxt "LDGenerateDisplayData|"
 msgid "Variable name: "
 msgstr "Nombre de la variable: "
 
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "LDGenerateDisplayData|"
 msgid "e.g., random %1"
 msgstr "p. ej., aleatorio %1"
 
-#, fuzzy
 msgctxt "LDGenerateDisplayData|"
 msgid "Number of samples: "
 msgstr "Número de muestras: "
 
-#, fuzzy
 msgctxt "LDGenerateDisplayData|"
 msgid "Draw samples"
-msgstr "Dibujar muestras"
+msgstr "Extraer muestras"
 
-#, fuzzy
 msgctxt "LDGenerateDisplayData|"
 msgid "Get variable from data set"
-msgstr "Obtener variable del conjunto de datos"
+msgstr "Coger una variable del conjunto de datos"
 
-#, fuzzy
 msgctxt "LDGenerateDisplayData|"
 msgid "Statistics"
-msgstr "Estadísticas"
+msgstr "Estadísticos"
 
-#, fuzzy
 msgctxt "LDGenerateDisplayData|"
 msgid "Descriptives"
 msgstr "Descriptivos"
@@ -306,7 +293,7 @@ msgstr "Parámetro"
 
 msgctxt "LDbernoulli|"
 msgid "Probability of success:"
-msgstr "Probabilidad de éxito:"
+msgstr "Probabilidad de acierto:"
 
 msgctxt "LDbernoulli|"
 msgid "p"
@@ -422,7 +409,7 @@ msgstr "Parámetro libre"
 
 msgctxt "LDbinomial|"
 msgid "Probability of success:"
-msgstr "Probabilidad de éxito:"
+msgstr "Probabilidad de acierto:"
 
 msgctxt "LDbinomial|"
 msgid "p"
@@ -969,14 +956,13 @@ msgctxt "LDnegbinomial|"
 msgid "Show Distribution"
 msgstr "Mostrar Distribución"
 
-#, fuzzy
 msgctxt "LDnegbinomial|"
 msgid "Parameters"
 msgstr "Parámetros"
 
 msgctxt "LDnegbinomial|"
 msgid "Number of successes:"
-msgstr "Número de éxitos:"
+msgstr "Número de aciertos:"
 
 msgctxt "LDnegbinomial|"
 msgid "Dispersion:"
@@ -984,7 +970,7 @@ msgstr "Dispersión:"
 
 msgctxt "LDnegbinomial|"
 msgid "Probability of success:"
-msgstr "Probabilidad de éxito:"
+msgstr "Probabilidad de acierto:"
 
 msgctxt "LDnegbinomial|"
 msgid "Mean:"
@@ -1305,7 +1291,6 @@ msgctxt "LDamoroso|"
 msgid "Quantile function"
 msgstr "Función cuantil"
 
-#, fuzzy
 msgctxt "LDbeta|"
 msgid "Parameters"
 msgstr "Parámetros"
@@ -1648,7 +1633,7 @@ msgstr "Parámetro"
 
 msgctxt "LDgeometric|"
 msgid "Probability of success:"
-msgstr "Probabilidad de éxito:"
+msgstr "Probabilidad de acierto:"
 
 msgctxt "LDgeometric|"
 msgid "p"
@@ -1952,7 +1937,6 @@ msgctxt "LDlogLogistic|"
 msgid "Show Distribution"
 msgstr "Mostrar Distribución"
 
-#, fuzzy
 msgctxt "LDlogLogistic|"
 msgid "Parameters"
 msgstr "Parámetros"
@@ -2159,7 +2143,6 @@ msgctxt "LDnegbinomialZeroInflated|"
 msgid "Show Distribution"
 msgstr "Mostrar Distribución"
 
-#, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Parameters"
 msgstr "Parámetros"
@@ -2174,7 +2157,7 @@ msgstr ""
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Number of successes:"
-msgstr "Numero de éxitos:"
+msgstr "Numero de aciertos:"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Dispersion:"
@@ -2182,7 +2165,7 @@ msgstr "Dispersión:"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Probability of success:"
-msgstr "Probabilidad de éxito:"
+msgstr "Probabilidad de acierto:"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Mean:"
@@ -2190,7 +2173,7 @@ msgstr "Media:"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Display"
-msgstr ""
+msgstr "Mostrar"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Explanatory text"
@@ -2284,7 +2267,7 @@ msgstr "β"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Display"
-msgstr ""
+msgstr "Mostrar"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Explanatory text"
@@ -2383,7 +2366,7 @@ msgstr "Escala:"
 
 msgctxt "LDpareto|"
 msgid "Display"
-msgstr ""
+msgstr "Mostrar"
 
 msgctxt "LDpareto|"
 msgid "Explanatory text"
