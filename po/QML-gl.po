@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-11 20:05+0000\n"
+"PO-Revision-Date: 2021-10-14 01:51+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-qml/gl/>\n"
@@ -299,7 +299,7 @@ msgstr "Coller unha variable do conxunto de datos"
 #, qt-format
 msgctxt "LDGenerateDisplayData|"
 msgid "Generate new variable from %1"
-msgstr "Xerar unha nova variable %1"
+msgstr "Xerar unha nova variable partindo de %1"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Histogram with"
@@ -311,7 +311,7 @@ msgstr "Gráfica de barras"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Generate and Display Data"
-msgstr "Xerar e presentar datos"
+msgstr "Xerar e Presentar Datos"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Draw samples"
