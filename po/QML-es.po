@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-14 01:51+0000\n"
+"PO-Revision-Date: 2021-10-14 20:07+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-qml/es/>\n"
@@ -259,7 +259,6 @@ msgctxt "LDOptions|"
 msgid "Density"
 msgstr "Densidad"
 
-#, fuzzy
 msgctxt "LDOptions|"
 msgid "Probability"
 msgstr "Probabilidad"
@@ -346,7 +345,6 @@ msgctxt "LDbernoulli|"
 msgid "Limits"
 msgstr "Limites"
 
-#, fuzzy
 msgctxt "LDbernoulli|"
 msgid "≤ X ≤"
 msgstr "≤ X ≤"
@@ -481,12 +479,10 @@ msgctxt "LDbinomial|"
 msgid "Cumulative Probability"
 msgstr "Probabilidad acumulada"
 
-#, fuzzy
 msgctxt "LDbinomial|"
 msgid "Interval"
 msgstr "Intervalo"
 
-#, fuzzy
 msgctxt "LDbinomial|"
 msgid "≤ X ≤"
 msgstr "≤ X ≤"
@@ -1029,12 +1025,10 @@ msgctxt "LDnegbinomial|"
 msgid "Cumulative Probability"
 msgstr "Probabilidad acumulada"
 
-#, fuzzy
 msgctxt "LDnegbinomial|"
 msgid "Interval"
 msgstr "Intervalo"
 
-#, fuzzy
 msgctxt "LDnegbinomial|"
 msgid "≤ X ≤"
 msgstr "≤ X ≤"
@@ -1109,12 +1103,10 @@ msgctxt "LDpoisson|"
 msgid "Cumulative Probability"
 msgstr "Probabilidad acumulada"
 
-#, fuzzy
 msgctxt "LDpoisson|"
 msgid "Interval"
 msgstr "Intervalo"
 
-#, fuzzy
 msgctxt "LDpoisson|"
 msgid "≤ X ≤"
 msgstr "≤ X ≤"
@@ -1383,12 +1375,10 @@ msgctxt "LDbetaBinomial|"
 msgid "Cumulative Probability"
 msgstr "Probabilidad acumulada"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Interval"
 msgstr "Intervalo"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "≤ X ≤"
 msgstr "≤ X ≤"
@@ -1692,12 +1682,10 @@ msgctxt "LDgeometric|"
 msgid "Cumulative Probability"
 msgstr "Probabilidad acumulada"
 
-#, fuzzy
 msgctxt "LDgeometric|"
 msgid "Interval"
 msgstr "Intervalo"
 
-#, fuzzy
 msgctxt "LDgeometric|"
 msgid "≤ X ≤"
 msgstr "≤ X ≤"
@@ -1874,12 +1862,10 @@ msgctxt "LDhypergeometric|"
 msgid "Cumulative Probability"
 msgstr "Probabilidad acumulada"
 
-#, fuzzy
 msgctxt "LDhypergeometric|"
 msgid "Interval"
 msgstr "Intervalo"
 
-#, fuzzy
 msgctxt "LDhypergeometric|"
 msgid "≤ X ≤"
 msgstr "≤ X ≤"
@@ -2224,12 +2210,10 @@ msgctxt "LDnegbinomialZeroInflated|"
 msgid "Cumulative Probability"
 msgstr "Probabilidad acumulada"
 
-#, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Interval"
 msgstr "Intervalo"
 
-#, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "≤ X ≤"
 msgstr "≤ X ≤"
@@ -2471,12 +2455,10 @@ msgctxt "LDpoissonZeroInflated|"
 msgid "Cumulative Probability"
 msgstr "Probabilidad acumulada"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Interval"
 msgstr "Intervalo"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "≤ X ≤"
 msgstr "≤ X ≤"
