@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-15 11:32+0000\n"
+"PO-Revision-Date: 2021-10-15 19:45+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-qml/es/>\n"
@@ -29,7 +29,7 @@ msgstr "Normal"
 
 msgctxt "Description|"
 msgid "F-distribution"
-msgstr "Distribución F"
+msgstr "F"
 
 msgctxt "Description|"
 msgid "Chi-squared"
@@ -61,7 +61,7 @@ msgstr "Logística"
 
 msgctxt "Description|"
 msgid "Discrete"
-msgstr "Discreta"
+msgstr "Discretas"
 
 msgctxt "Description|"
 msgid "Bernoulli"
@@ -97,7 +97,7 @@ msgstr "Histograma vs. FDP teórica"
 
 msgctxt "LDAssessFit|"
 msgid "Histogram vs. theoretical pmf"
-msgstr "Histograma frente a FP teórica"
+msgstr "Histograma vs. FP teórica"
 
 msgctxt "LDAssessFit|"
 msgid "Q-Q plot"
@@ -121,7 +121,7 @@ msgstr "Kolmogorov-Smirnov"
 
 msgctxt "LDAssessFit|"
 msgid "Cramér–von Mises"
-msgstr "Cramér – von Mises"
+msgstr "Cramér–von Mises"
 
 msgctxt "LDAssessFit|"
 msgid "Anderson-Darling"
@@ -391,7 +391,6 @@ msgctxt "LDbeta|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDbeta|"
 msgid "Quantile function"
 msgstr "Función cuantil"
@@ -525,7 +524,6 @@ msgctxt "LDchisq|"
 msgid "Formulas"
 msgstr "Fórmulas"
 
-#, fuzzy
 msgctxt "LDchisq|"
 msgid "Probability density function"
 msgstr "Función de densidad de probabilidad"
@@ -534,7 +532,6 @@ msgctxt "LDchisq|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDchisq|"
 msgid "Quantile function"
 msgstr "Función cuantil"
@@ -543,14 +540,13 @@ msgctxt "LDexponential|"
 msgid "Show Distribution"
 msgstr "Mostrar Distribución"
 
-#, fuzzy
 msgctxt "LDexponential|"
 msgid "Parameter"
 msgstr "Parámetro"
 
 msgctxt "LDexponential|"
 msgid "Rate:"
-msgstr ""
+msgstr "Tasa:"
 
 msgctxt "LDexponential|"
 msgid "Scale:"
@@ -580,7 +576,6 @@ msgctxt "LDexponential|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDexponential|"
 msgid "Quantile function"
 msgstr "Función cuantil"
@@ -633,7 +628,6 @@ msgctxt "LDf|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDf|"
 msgid "Quantile function"
 msgstr "Función cuantil"
@@ -656,7 +650,7 @@ msgstr "Escala:"
 
 msgctxt "LDgamma|"
 msgid "Rate:"
-msgstr ""
+msgstr "Tasa:"
 
 msgctxt "LDgamma|"
 msgid "Mean:"
@@ -686,7 +680,6 @@ msgctxt "LDgamma|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDgamma|"
 msgid "Quantile function"
 msgstr "Función cuantil"
@@ -709,7 +702,7 @@ msgstr "Escala:"
 
 msgctxt "LDgammaInverse|"
 msgid "Rate:"
-msgstr ""
+msgstr "Tasa:"
 
 msgctxt "LDgammaInverse|"
 msgid "Mean:"
@@ -776,10 +769,9 @@ msgctxt "LDgammaInverse|"
 msgid "Kolmogorov-Smirnov"
 msgstr "Kolmogorov-Smirnov"
 
-#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Cramér–von Mises"
-msgstr "Cramér – von Mises"
+msgstr "Cramér–von Mises"
 
 msgctxt "LDgammaInverse|"
 msgid "Anderson-Darling"
@@ -843,7 +835,6 @@ msgctxt "LDgaussianunivariate|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDgaussianunivariate|"
 msgid "Quantile function"
 msgstr "Función cuantil"
@@ -893,7 +884,6 @@ msgctxt "LDlogistic|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDlogistic|"
 msgid "Quantile function"
 msgstr "Función cuantil"
@@ -1043,16 +1033,15 @@ msgstr "Parámetro"
 
 msgctxt "LDpoisson|"
 msgid "Rate:"
-msgstr ""
+msgstr "Tasa:"
 
-#, fuzzy
 msgctxt "LDpoisson|"
 msgid "λ"
 msgstr "λ"
 
 msgctxt "LDpoisson|"
 msgid "Display"
-msgstr "Monitor"
+msgstr "Mostrar"
 
 msgctxt "LDpoisson|"
 msgid "Explanatory text"
@@ -1275,7 +1264,6 @@ msgctxt "LDamoroso|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Quantile function"
 msgstr "Función cuantil"
@@ -1496,7 +1484,6 @@ msgctxt "LDbetaStretched|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDbetaStretched|"
 msgid "Quantile function"
 msgstr "Función cuantil"
@@ -1546,7 +1533,6 @@ msgctxt "LDcauchy|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDcauchy|"
 msgid "Quantile function"
 msgstr "Función cuantil"
@@ -1605,7 +1591,6 @@ msgctxt "LDfrechet|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDfrechet|"
 msgid "Quantile function"
 msgstr "Función cuantil"
@@ -1911,7 +1896,6 @@ msgctxt "LDlaplace|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDlaplace|"
 msgid "Quantile function"
 msgstr "Función cuantil"
@@ -2328,7 +2312,6 @@ msgctxt "LDnormalSkew|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDnormalSkew|"
 msgid "Quantile function"
 msgstr "Función cuantil"
@@ -2508,7 +2491,6 @@ msgctxt "LDtNoncentral|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDtNoncentral|"
 msgid "Quantile function"
 msgstr "Función cuantil"
@@ -2566,7 +2548,6 @@ msgctxt "LDtriangular|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDtriangular|"
 msgid "Quantile function"
 msgstr "Función cuantil"
@@ -2657,7 +2638,6 @@ msgctxt "LDtSkewedGeneralized|"
 msgid "Kurtosis:"
 msgstr ""
 
-#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "p"
 msgstr "p"
@@ -2822,7 +2802,6 @@ msgctxt "LDuniform|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDuniform|"
 msgid "Quantile function"
 msgstr "Función cuantil"
@@ -2920,11 +2899,10 @@ msgctxt "LDweibull|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDweibull|"
 msgid "Quantile function"
 msgstr "Función cuantil"
 
 msgctxt "Description|"
 msgid "Visualize distributions and fit them to data"
-msgstr ""
+msgstr "Visualizar las distribuciones y ajustarlas a los datos"
