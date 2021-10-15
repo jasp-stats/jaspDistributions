@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-14 01:51+0000\n"
+"PO-Revision-Date: 2021-10-15 11:32+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-qml/gl/>\n"
@@ -500,7 +500,7 @@ msgstr "Binomial Negativa inchada con cero"
 
 msgctxt "Description|"
 msgid "Geometric"
-msgstr "Xeométrico"
+msgstr "Xeométrica"
 
 msgctxt "Description|"
 msgid "Hypergeometric"
