@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-10-22 11:38+0000\n"
+"Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9-dev\n"
 "X-Language: es\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -231,17 +237,14 @@ msgctxt "LDGenerateDisplayData|"
 msgid "Empirical cumulative distribution"
 msgstr "Distribución acumulada empírica"
 
-#, fuzzy
 msgctxt "LDOptions|"
 msgid "Options"
 msgstr "Opciones"
 
-#, fuzzy
 msgctxt "LDOptions|"
 msgid "Range of x from"
 msgstr "Rango de x desde"
 
-#, fuzzy
 msgctxt "LDOptions|"
 msgid "to"
 msgstr "a"
@@ -259,7 +262,6 @@ msgctxt "LDOptions|"
 msgid "Probability"
 msgstr "Probabilidad"
 
-#, fuzzy
 msgctxt "LDOptions|"
 msgid "Interval"
 msgstr "Intervalo"
@@ -326,20 +328,17 @@ msgctxt "LDbernoulli|"
 msgid "Highlight"
 msgstr "Resaltar"
 
-#, fuzzy
 msgctxt "LDbernoulli|"
 msgid "Mass"
 msgstr "Masa"
 
-#, fuzzy
 msgctxt "LDbernoulli|"
 msgid "Cumulative Probability"
-msgstr "Probabilidad acumulada"
+msgstr "Probabilidad Acumulada"
 
-#, fuzzy
 msgctxt "LDbernoulli|"
 msgid "Limits"
-msgstr "Limites"
+msgstr "Límites"
 
 msgctxt "LDbernoulli|"
 msgid "≤ X ≤"
@@ -445,17 +444,14 @@ msgctxt "LDbinomial|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDbinomial|"
 msgid "Options"
 msgstr "Opciones"
 
-#, fuzzy
 msgctxt "LDbinomial|"
 msgid "Range of x from"
 msgstr "Rango de x desde"
 
-#, fuzzy
 msgctxt "LDbinomial|"
 msgid "to"
 msgstr "a"
@@ -464,15 +460,13 @@ msgctxt "LDbinomial|"
 msgid "Highlight"
 msgstr "Resaltar"
 
-#, fuzzy
 msgctxt "LDbinomial|"
 msgid "Mass"
 msgstr "Masa"
 
-#, fuzzy
 msgctxt "LDbinomial|"
 msgid "Cumulative Probability"
-msgstr "Probabilidad acumulada"
+msgstr "Probabilidad Acumulada"
 
 msgctxt "LDbinomial|"
 msgid "Interval"
@@ -982,17 +976,14 @@ msgctxt "LDnegbinomial|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDnegbinomial|"
 msgid "Options"
 msgstr "Opciones"
 
-#, fuzzy
 msgctxt "LDnegbinomial|"
 msgid "Range of x from"
 msgstr "Rango de x desde"
 
-#, fuzzy
 msgctxt "LDnegbinomial|"
 msgid "to"
 msgstr "a"
@@ -1001,15 +992,13 @@ msgctxt "LDnegbinomial|"
 msgid "Highlight"
 msgstr "Resaltar"
 
-#, fuzzy
 msgctxt "LDnegbinomial|"
 msgid "Mass"
 msgstr "Masa"
 
-#, fuzzy
 msgctxt "LDnegbinomial|"
 msgid "Cumulative Probability"
-msgstr "Probabilidad acumulada"
+msgstr "Probabilidad Acumulada"
 
 msgctxt "LDnegbinomial|"
 msgid "Interval"
@@ -1059,17 +1048,14 @@ msgctxt "LDpoisson|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDpoisson|"
 msgid "Options"
 msgstr "Opciones"
 
-#, fuzzy
 msgctxt "LDpoisson|"
 msgid "Range of x from"
 msgstr "Rango de x desde"
 
-#, fuzzy
 msgctxt "LDpoisson|"
 msgid "to"
 msgstr "a"
@@ -1078,15 +1064,13 @@ msgctxt "LDpoisson|"
 msgid "Highlight"
 msgstr "Resaltar"
 
-#, fuzzy
 msgctxt "LDpoisson|"
 msgid "Mass"
 msgstr "Masa"
 
-#, fuzzy
 msgctxt "LDpoisson|"
 msgid "Cumulative Probability"
-msgstr "Probabilidad acumulada"
+msgstr "Probabilidad Acumulada"
 
 msgctxt "LDpoisson|"
 msgid "Interval"
@@ -1098,43 +1082,43 @@ msgstr "≤ X ≤"
 
 msgctxt "Description|"
 msgid "Skew normal"
-msgstr ""
+msgstr "Normal asimétrica"
 
 msgctxt "Description|"
 msgid "Generalized normal (version 1)"
-msgstr ""
+msgstr "Normal generalizada (versión 1)"
 
 msgctxt "Description|"
 msgid "Cauchy"
-msgstr ""
+msgstr "Cauchy"
 
 msgctxt "Description|"
 msgid "Scaled, shifted Student's t"
-msgstr ""
+msgstr "T de Student desplazada, escalada"
 
 msgctxt "Description|"
 msgid "Noncentral t"
-msgstr ""
+msgstr "T no centrada"
 
 msgctxt "Description|"
 msgid "Skew t"
-msgstr ""
+msgstr "T asimétrica"
 
 msgctxt "Description|"
 msgid "Skewed generalized t"
-msgstr ""
+msgstr "T generalizada asimétrica"
 
 msgctxt "Description|"
 msgid "Uniform"
-msgstr ""
+msgstr "Uniforme"
 
 msgctxt "Description|"
 msgid "Stretched beta"
-msgstr ""
+msgstr "Beta alargada"
 
 msgctxt "Description|"
 msgid "Beta prime"
-msgstr ""
+msgstr "Beta original"
 
 msgctxt "Description|"
 msgid "Laplace"
@@ -1327,17 +1311,14 @@ msgctxt "LDbetaBinomial|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Options"
 msgstr "Opciones"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Range of x from"
 msgstr "Rango de x desde"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "to"
 msgstr "a"
@@ -1346,15 +1327,13 @@ msgctxt "LDbetaBinomial|"
 msgid "Highlight"
 msgstr "Resaltar"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Mass"
 msgstr "Masa"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Cumulative Probability"
-msgstr "Probabilidad acumulada"
+msgstr "Probabilidad Acumulada"
 
 msgctxt "LDbetaBinomial|"
 msgid "Interval"
@@ -1631,17 +1610,14 @@ msgctxt "LDgeometric|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDgeometric|"
 msgid "Options"
 msgstr "Opciones"
 
-#, fuzzy
 msgctxt "LDgeometric|"
 msgid "Range of x from"
 msgstr "Rango de x desde"
 
-#, fuzzy
 msgctxt "LDgeometric|"
 msgid "to"
 msgstr "a"
@@ -1650,15 +1626,13 @@ msgctxt "LDgeometric|"
 msgid "Highlight"
 msgstr "Resaltar"
 
-#, fuzzy
 msgctxt "LDgeometric|"
 msgid "Mass"
 msgstr "Masa"
 
-#, fuzzy
 msgctxt "LDgeometric|"
 msgid "Cumulative Probability"
-msgstr "Probabilidad acumulada"
+msgstr "Probabilidad Acumulada"
 
 msgctxt "LDgeometric|"
 msgid "Interval"
@@ -1811,17 +1785,14 @@ msgctxt "LDhypergeometric|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDhypergeometric|"
 msgid "Options"
 msgstr "Opciones"
 
-#, fuzzy
 msgctxt "LDhypergeometric|"
 msgid "Range of x from"
 msgstr "Rango de x desde"
 
-#, fuzzy
 msgctxt "LDhypergeometric|"
 msgid "to"
 msgstr "a"
@@ -1830,15 +1801,13 @@ msgctxt "LDhypergeometric|"
 msgid "Highlight"
 msgstr "Resaltar"
 
-#, fuzzy
 msgctxt "LDhypergeometric|"
 msgid "Mass"
 msgstr "Masa"
 
-#, fuzzy
 msgctxt "LDhypergeometric|"
 msgid "Cumulative Probability"
-msgstr "Probabilidad acumulada"
+msgstr "Probabilidad Acumulada"
 
 msgctxt "LDhypergeometric|"
 msgid "Interval"
@@ -2159,17 +2128,14 @@ msgctxt "LDnegbinomialZeroInflated|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Options"
 msgstr "Opciones"
 
-#, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Range of x from"
 msgstr "Rango de x desde"
 
-#, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "to"
 msgstr "a"
@@ -2178,15 +2144,13 @@ msgctxt "LDnegbinomialZeroInflated|"
 msgid "Highlight"
 msgstr "Resaltar"
 
-#, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Mass"
 msgstr "Masa"
 
-#, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Cumulative Probability"
-msgstr "Probabilidad acumulada"
+msgstr "Probabilidad Acumulada"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Interval"
@@ -2404,17 +2368,14 @@ msgctxt "LDpoissonZeroInflated|"
 msgid "Cumulative distribution function"
 msgstr "Función de distribución acumulada"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Options"
 msgstr "Opciones"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Range of x from"
 msgstr "Rango de x desde"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "to"
 msgstr "a"
@@ -2423,15 +2384,13 @@ msgctxt "LDpoissonZeroInflated|"
 msgid "Highlight"
 msgstr "Resaltar"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Mass"
 msgstr "Masa"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Cumulative Probability"
-msgstr "Probabilidad acumulada"
+msgstr "Probabilidad Acumulada"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Interval"
@@ -2499,16 +2458,15 @@ msgstr "Mostrar Distribución"
 
 msgctxt "LDtriangular|"
 msgid "Minimum:"
-msgstr ""
+msgstr "Mínimo:"
 
-#, fuzzy
 msgctxt "LDtriangular|"
 msgid "a"
 msgstr "a"
 
 msgctxt "LDtriangular|"
 msgid "Maximum:"
-msgstr ""
+msgstr "Máximo:"
 
 msgctxt "LDtriangular|"
 msgid "b"
