@@ -137,6 +137,7 @@ LDamoroso <- function(jaspResults, dataset, options, state=NULL){
 damoroso <- function(x, a, theta, alpha, beta, log = FALSE) {
   terms <- list()
   xi <- (x-a)/theta
+
   terms[[1]] <- -lgamma(alpha)
   terms[[2]] <- log(abs(beta/theta))
   terms[[3]] <- (alpha*beta - 1) * log(xi)
