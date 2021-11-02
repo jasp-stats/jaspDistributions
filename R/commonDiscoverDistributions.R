@@ -916,7 +916,10 @@
     # calculate position of the geom_text
     args[['q']] <- c(options[['highlightmin']], options[['highlightmax']])
     argsPDF[['x']] <- seq(args[['q']][1], args[['q']][2], length.out = 20)
-    x <- weighted.mean(argsPDF[['x']], do.call(options[['pdfFun']], argsPDF))
+    w <- do.call(options[['pdfFun']], argsPDF)
+    argsPDF[['x']] <- argsPDF[['x']][!is.na(w)]
+    w <- w[!is.na(w)]
+    x <- weighted.mean(argsPDF[['x']], w)
     argsPDF[['x']] <- x
     y <- do.call(options[['pdfFun']], argsPDF)
 
