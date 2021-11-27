@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-11-28 00:43+0000\n"
+"Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"jasp/jaspdistributions-qml/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.10-dev\n"
 "X-Language: zh_Hans\n"
 "X-Qt-Contexts: true\n"
 
@@ -59,7 +65,6 @@ msgctxt "Description|"
 msgid "Chi-squared"
 msgstr "卡方"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Uniform"
 msgstr "均匀分布"
@@ -846,7 +851,7 @@ msgstr "位置："
 
 msgctxt "LDcauchy|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDcauchy|"
 msgid "Scale:"
@@ -854,7 +859,7 @@ msgstr "尺度："
 
 msgctxt "LDcauchy|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 msgctxt "LDcauchy|"
 msgid "Display"
@@ -894,7 +899,7 @@ msgstr "自由度"
 
 msgctxt "LDchisq|"
 msgid "k"
-msgstr ""
+msgstr "k"
 
 msgctxt "LDchisq|"
 msgid "Non-centrality:"
@@ -902,7 +907,7 @@ msgstr "非中心性："
 
 msgctxt "LDchisq|"
 msgid "λ"
-msgstr ""
+msgstr "λ"
 
 msgctxt "LDchisq|"
 msgid "Display"
@@ -986,11 +991,11 @@ msgstr "自由度:"
 
 msgctxt "LDf|"
 msgid "df 1"
-msgstr ""
+msgstr "df 1"
 
 msgctxt "LDf|"
 msgid "df 2"
-msgstr ""
+msgstr "df 2"
 
 msgctxt "LDf|"
 msgid "Non-centrality:"
@@ -998,7 +1003,7 @@ msgstr "非中心:"
 
 msgctxt "LDf|"
 msgid "ncp"
-msgstr ""
+msgstr "ncp"
 
 msgctxt "LDf|"
 msgid "Display"
@@ -1036,7 +1041,6 @@ msgctxt "LDfrechet|"
 msgid "Shape:"
 msgstr "形状："
 
-#, fuzzy
 msgctxt "LDfrechet|"
 msgid "α"
 msgstr "α"
@@ -1047,7 +1051,7 @@ msgstr "位置："
 
 msgctxt "LDfrechet|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDfrechet|"
 msgid "Scale:"
@@ -1055,7 +1059,7 @@ msgstr "尺度："
 
 msgctxt "LDfrechet|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 msgctxt "LDfrechet|"
 msgid "Display"
