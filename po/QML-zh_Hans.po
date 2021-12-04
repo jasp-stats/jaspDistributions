@@ -1,15 +1,9 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-28 00:43+0000\n"
-"Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
-"jasp/jaspdistributions-qml/zh_Hans/>\n"
-"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.10-dev\n"
 "X-Language: zh_Hans\n"
 "X-Qt-Contexts: true\n"
 
@@ -1252,9 +1246,10 @@ msgctxt "LDgaussianunivariate|"
 msgid "Mean:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDgaussianunivariate|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Variance:"
@@ -1423,9 +1418,10 @@ msgctxt "LDgumbel|"
 msgid "Location:"
 msgstr "位置："
 
+#, fuzzy
 msgctxt "LDgumbel|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDgumbel|"
 msgid "Scale:"
@@ -1559,9 +1555,10 @@ msgctxt "LDlaplace|"
 msgid "Location:"
 msgstr "位置："
 
+#, fuzzy
 msgctxt "LDlaplace|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDlaplace|"
 msgid "Scale:"
@@ -1608,17 +1605,19 @@ msgctxt "LDlogistic|"
 msgid "Location:"
 msgstr "位置："
 
+#, fuzzy
 msgctxt "LDlogistic|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDlogistic|"
 msgid "Scale:"
 msgstr "尺度："
 
+#, fuzzy
 msgctxt "LDlogistic|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 msgctxt "LDlogistic|"
 msgid "Display"
@@ -1708,17 +1707,19 @@ msgctxt "LDlognormal|"
 msgid "Log Mean:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDlognormal|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDlognormal|"
 msgid "Log std. deviation:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDlognormal|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 msgctxt "LDlognormal|"
 msgid "Display"
@@ -1832,17 +1833,19 @@ msgctxt "LDmixtureNormalUniform|"
 msgid "Mean :"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDmixtureNormalUniform|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Std. deviation :"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDmixtureNormalUniform|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Probability of normal component:"
@@ -2080,9 +2083,10 @@ msgctxt "LDnormalGeneralized|"
 msgid "Location:"
 msgstr "位置："
 
+#, fuzzy
 msgctxt "LDnormalGeneralized|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Scale:"
@@ -2240,9 +2244,10 @@ msgctxt "LDpoisson|"
 msgid "Rate:"
 msgstr "率:"
 
+#, fuzzy
 msgctxt "LDpoisson|"
 msgid "λ"
-msgstr ""
+msgstr "λ"
 
 msgctxt "LDpoisson|"
 msgid "Display"
@@ -2322,9 +2327,10 @@ msgctxt "LDpoissonZeroInflated|"
 msgid "Rate of Poisson process:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "λ"
-msgstr ""
+msgstr "λ"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Display"
@@ -2404,9 +2410,10 @@ msgctxt "LDtNoncentral|"
 msgid "Non-centrality:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDtNoncentral|"
 msgid "ncp"
-msgstr ""
+msgstr "ncp"
 
 msgctxt "LDtNoncentral|"
 msgid "Display"
@@ -2569,9 +2576,10 @@ msgctxt "LDtSkewedGeneralized|"
 msgid "Location:"
 msgstr "位置："
 
+#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Kurtosis:"
@@ -2586,9 +2594,10 @@ msgctxt "LDtSkewedGeneralized|"
 msgid "Scale:"
 msgstr "尺度："
 
+#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "q"
@@ -2598,9 +2607,10 @@ msgctxt "LDtSkewedGeneralized|"
 msgid "Skewness:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "λ"
-msgstr ""
+msgstr "λ"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Display"
@@ -2650,17 +2660,19 @@ msgctxt "LDtStudent|"
 msgid "Location:"
 msgstr "位置："
 
+#, fuzzy
 msgctxt "LDtStudent|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDtStudent|"
 msgid "Scale:"
 msgstr "尺度："
 
+#, fuzzy
 msgctxt "LDtStudent|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 msgctxt "LDtStudent|"
 msgid "Display"
