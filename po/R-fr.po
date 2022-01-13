@@ -2,61 +2,67 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.3.0\n"
 "POT-Creation-Date: 2021-07-31 02:56\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-01-14 15:52+0000\n"
+"Last-Translator: Jordy STEFAN <jordy.stefan@askoria.eu>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-r/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 msgid "The following problem(s) occurred while running the analysis:<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
 msgstr ""
+"Le ou les problèmes suivants sont survenus lors de l'exécution de l'analyse :"
+"<ul><li>La variable doit être discrète (c'est-à-dire entière)</li></ul>"
 
 msgid "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
 msgstr ""
+"<ul> <li> La variable doit être discrète (par exemple un entier) </li> </ul>"
 
 msgid "Overview - %s"
-msgstr ""
+msgstr "Aperçu - %s"
 
 msgid "Descriptives"
-msgstr ""
+msgstr "Descriptives"
 
 msgid "Variable"
-msgstr ""
+msgstr "Variable"
 
 msgid "n"
-msgstr ""
+msgstr "n"
 
 msgid "Mean"
-msgstr ""
+msgstr "Moyenne"
 
 msgid "Variance"
-msgstr ""
+msgstr "Variance"
 
 msgid "Std. deviation"
-msgstr ""
+msgstr "Ecart-type"
 
 msgid "Minimum"
-msgstr ""
+msgstr "Minimum"
 
 msgid "25%% Quantile"
-msgstr ""
+msgstr "25%% Quantile"
 
 msgid "Median"
-msgstr ""
+msgstr "Médiane"
 
 msgid "75%% Quantile"
-msgstr ""
+msgstr "75%% Quantile"
 
 msgid "Maximum"
-msgstr ""
+msgstr "Maximum"
 
 msgid "Rel. Frequency"
 msgstr ""
 
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 msgid "Observed Moments"
 msgstr ""
@@ -77,31 +83,33 @@ msgid "Parameter"
 msgstr ""
 
 msgid "Estimate"
-msgstr ""
+msgstr "Estimation"
 
 msgid "SE"
-msgstr ""
+msgstr "ES"
 
 msgid "Standard errors are unavailable with this method"
-msgstr ""
+msgstr "Les erreurs standard ne sont pas disponibles avec cette méthode"
 
 msgid "Lower"
-msgstr ""
+msgstr "Inférieur"
 
 msgid "%s%% CI"
-msgstr ""
+msgstr "%s%% IC"
 
 msgid "Upper"
-msgstr ""
+msgstr "Supérieur"
 
 msgid "Confidence intervals are unavailable with this method."
 msgstr ""
+"Les intervalles de confiance ne sont pas disponibles avec cette méthode."
 
 msgid "Confidence intervals were calculated using the delta method."
 msgstr ""
+"Les intervalles de confiance ont été calculés à l'aide de la méthode delta."
 
 msgid "Standard errors were calculated using the delta method."
-msgstr ""
+msgstr "Les erreurs standard ont été calculées à l'aide de la méthode delta."
 
 msgid "Standard errors and confidence intervals were calculated using the delta method."
 msgstr ""
@@ -116,13 +124,13 @@ msgid "Fit Statistics"
 msgstr ""
 
 msgid "Test"
-msgstr ""
+msgstr "Test"
 
 msgid "Statistic"
-msgstr ""
+msgstr "Statistique"
 
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgid "Kolmogorov-Smirnov"
 msgstr ""
@@ -134,7 +142,7 @@ msgid "Anderson-Darling"
 msgstr ""
 
 msgid "Shapiro-Wilk"
-msgstr ""
+msgstr "Shapiro-Wilk"
 
 msgid "Chi-square"
 msgstr ""
@@ -161,7 +169,7 @@ msgid "Theoretical"
 msgstr ""
 
 msgid "Density"
-msgstr ""
+msgstr "Densité"
 
 msgid "Probability Mass"
 msgstr ""
