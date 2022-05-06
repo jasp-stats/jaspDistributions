@@ -1221,8 +1221,8 @@ gettextf <- function(fmt, ..., domain = NULL)  {
     # calculate position of the geom_text
     datShown <- datHigh[datHigh$x %in% dat$x, ]
     if(ncol(datShown) > 0) {
-      x <- datShown$x[which.max(datShown$pmf)]
-      y <- datShown$pmf[which.max(datShown$pmf)] + 0.1 * max(dat$y)
+      x <- datShown$x[which.max(round(datShown$pmf, 3))]
+      y <- datShown$pmf[which.max(round(datShown$pmf, 3))] + 0.1 * max(dat$y)
     } else{ # the entire highlight region is outside of displayed range
       x <- NA
       y <- NA
