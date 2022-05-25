@@ -1,0 +1,3 @@
+module <jaspDistributions>
+NormalDistribution	1.0	qml/LDgaussianunivariate.qml
+BinomialDistribution	1.0	qml/LDbinomial.qml
