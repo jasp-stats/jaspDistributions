@@ -1,15 +1,9 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-13 12:22+0000\n"
-"Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
-"jasp/jaspdistributions-qml/zh_Hans/>\n"
-"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13-dev\n"
 "X-Language: zh_Hans\n"
 "X-Qt-Contexts: true\n"
 
@@ -1241,9 +1235,10 @@ msgctxt "LDgaussianunivariate|"
 msgid "Parameters"
 msgstr "参数"
 
+#, fuzzy
 msgctxt "LDgaussianunivariate|"
 msgid "Mean:"
-msgstr ""
+msgstr "均值："
 
 msgctxt "LDgaussianunivariate|"
 msgid "μ"
@@ -1909,9 +1904,10 @@ msgctxt "LDnegbinomial|"
 msgid "Probability of success:"
 msgstr "成功概率："
 
+#, fuzzy
 msgctxt "LDnegbinomial|"
 msgid "Mean:"
-msgstr ""
+msgstr "均值："
 
 msgctxt "LDnegbinomial|"
 msgid "Display"
@@ -1999,9 +1995,10 @@ msgctxt "LDnegbinomialZeroInflated|"
 msgid "Probability of success:"
 msgstr "成功概率："
 
+#, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Mean:"
-msgstr ""
+msgstr "均值："
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Display"
@@ -2750,9 +2747,10 @@ msgctxt "LDwald|"
 msgid "Parameters"
 msgstr "参数"
 
+#, fuzzy
 msgctxt "LDwald|"
 msgid "Mean:"
-msgstr ""
+msgstr "均值："
 
 msgctxt "LDwald|"
 msgid "Threshold:"
