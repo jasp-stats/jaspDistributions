@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-10-01 03:52+0000\n"
+"Last-Translator: JASP Stats <b.boutin@uva.nl>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.14.1\n"
 "X-Language: fr\n"
 "X-Qt-Contexts: true\n"
 
@@ -61,111 +67,113 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Uniform"
-msgstr ""
+msgstr "Uniforme"
 
 msgctxt "Description|"
 msgid "Beta"
-msgstr ""
+msgstr "Bêta"
 
 msgctxt "Description|"
 msgid "Stretched beta"
-msgstr ""
+msgstr "Bêta étiré"
 
 msgctxt "Description|"
 msgid "Beta prime"
-msgstr ""
+msgstr "Bêta prime"
 
 msgctxt "Description|"
 msgid "Gamma"
-msgstr ""
+msgstr "Gamma"
 
 msgctxt "Description|"
 msgid "Inverse gamma"
-msgstr ""
+msgstr "Gamma inverse"
 
 msgctxt "Description|"
 msgid "Exponential"
-msgstr ""
+msgstr "Exponentiel"
 
 msgctxt "Description|"
 msgid "Laplace"
-msgstr ""
+msgstr "Laplace"
 
 msgctxt "Description|"
 msgid "Log-normal"
-msgstr ""
+msgstr "Log-normal"
 
 msgctxt "Description|"
 msgid "Logistic"
-msgstr ""
+msgstr "Logistique"
 
 msgctxt "Description|"
 msgid "Log-logistic"
-msgstr ""
+msgstr "Log-logistique"
 
 msgctxt "Description|"
 msgid "Pareto"
-msgstr ""
+msgstr "Pareto"
 
 msgctxt "Description|"
 msgid "Amoroso"
-msgstr ""
+msgstr "Amoroso"
 
 msgctxt "Description|"
 msgid "Fréchet"
-msgstr ""
+msgstr "Fréchet"
 
 msgctxt "Description|"
 msgid "Gumbel"
-msgstr ""
+msgstr "Gumbel"
 
+#, fuzzy
 msgctxt "Description|"
 msgid "Gompertz"
-msgstr ""
+msgstr "Gompertz"
 
 msgctxt "Description|"
 msgid "Triangular"
-msgstr ""
+msgstr "Triangulaire"
 
 msgctxt "Description|"
 msgid "Wald (inverse Gaussian)"
-msgstr ""
+msgstr "Wald (gaussien inverse)"
 
 msgctxt "Description|"
 msgid "Weibull"
-msgstr ""
+msgstr "Weibull"
 
 msgctxt "Description|"
 msgid "Mixture of normal and normal"
-msgstr ""
+msgstr "Mélange de normal et normal"
 
 msgctxt "Description|"
 msgid "Mixture of normal and uniform"
-msgstr ""
+msgstr "Mélange de normal et uniforme"
 
 msgctxt "Description|"
 msgid "Discrete"
-msgstr ""
+msgstr "Discret"
 
 msgctxt "Description|"
 msgid "Bernoulli"
-msgstr ""
+msgstr "Bernoulli"
 
 msgctxt "Description|"
 msgid "Binomial"
-msgstr ""
+msgstr "Binomiale"
 
+#, fuzzy
 msgctxt "Description|"
 msgid "Beta-binomial"
-msgstr ""
+msgstr "Bêta-binomiale"
 
 msgctxt "Description|"
 msgid "Poisson"
-msgstr ""
+msgstr "Poisson"
 
 msgctxt "Description|"
 msgid "Negative binomial"
-msgstr ""
+msgstr "Binomial négatif"
 
 msgctxt "Description|"
 msgid "Zero-inflated Poisson"
@@ -177,11 +185,11 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Geometric"
-msgstr ""
+msgstr "Géométrique"
 
 msgctxt "Description|"
 msgid "Hypergeometric"
-msgstr ""
+msgstr "Hypergéométrique"
 
 msgctxt "LDAssessFit|"
 msgid "Assess Fit"
