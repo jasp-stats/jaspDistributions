@@ -37,7 +37,7 @@ Section
 		title: qsTr("Generate new variable from %1").arg(distributionName) + " (" + formula + ")"
 
 		AddColumnField	{ name: "newVariableName"; text: qsTr("Variable name: "); fieldWidth: 120; placeholderText: qsTr("e.g., random %1").arg(distributionSimpleName) }
-		IntegerField	{ name: "sampleSize"; label: qsTr("Number of samples: "); min: 1; defaultValue: dataSetModel.rowCount(); max: dataSetModel.rowCount() }
+		IntegerField	{ name: "sampleSize"; label: qsTr("Number of samples: "); min: mainWindow.dataAvailable ? 1 : 0; defaultValue: dataSetModel.rowCount(); max: dataSetModel.rowCount() }
 		Button
 		{
 			id: simulateNowButton
