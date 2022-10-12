@@ -457,8 +457,8 @@ msgstr "Schaalparameter %s wordt als negatief aangenomen."
 msgid "Bernoulli distribution"
 msgstr "Bernoulli-verdeling"
 
-msgid "probability of success: p %s %s: 0 %s p %s 1"
-msgstr "kans op succes: p %s %s: 0 %s p %s 1"
+msgid "probability of success: p %1$s %2$s: 0 %3$s p %4$s 1"
+msgstr "kans op succes: p %1$s %2$s: 0 %3$s p %4$s 1"
 
 msgid "x %s {0, 1}"
 msgstr "x %s {0, 1}"
