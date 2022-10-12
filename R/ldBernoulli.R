@@ -89,7 +89,7 @@ LDbernoulli <- function(jaspResults, dataset, options, state=NULL){
 .ldBernoulliParsSupportMoments <- function(jaspResults, options){
   if(options$parsSupportMoments && is.null(jaspResults[['parsSupportMoments']])){
     pars <- list()
-    pars[[1]] <- gettextf("probability of success: p %s %s: 0 %s p %s 1", "\u2208", "\u211D", "\u2264", "\u2264")
+    pars[[1]] <- gettextf("probability of success: p %1$s %2$s: 0 %3$s p %4$s 1", "\u2208", "\u211D", "\u2264", "\u2264")
     support <- gettextf("x %s {0, 1}", "\u2208")
     
     moments <- list()

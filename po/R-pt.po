@@ -426,8 +426,8 @@ msgstr "O parâmetro %s da escala é assumido como negativo."
 msgid "Bernoulli distribution"
 msgstr "Distribuição de Bernoulli"
 
-msgid "probability of success: p %s %s: 0 %s p %s 1"
-msgstr "probabilidade de sucesso: p %s %s: 0 %s p %s 1"
+msgid "probability of success: p %1$s %2$s: 0 %3$s p %4$s 1"
+msgstr "probabilidade de sucesso: p %1$s %2$s: 0 %3$s p %4$s 1"
 
 msgid "x %s {0, 1}"
 msgstr ""
