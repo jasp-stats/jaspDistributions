@@ -636,12 +636,12 @@ gettextf <- function(fmt, ..., domain = NULL)  {
 
   if(is.null(fitContainer[['qqplot']]) && options$qqplot){
     qqplot <- createJaspPlot(title = gettext("Q-Q plot"))
-    qqplot$dependOn(c("qqplot"))
+    qqplot$dependOn(c("qqplot", "qqPlotCi", "qqPlotCiLevel"))
     qqplot$position <- 3
     fitContainer[['qqplot']] <- qqplot
 
     if(ready && !fitContainer$getError())
-      .ldFillQQPlot(qqplot, estimates, options, variable)
+      .ldFillQQPlot(qqplot, estimates, options, variable, ci = options[["qqPlotCi"]], ciLevel = options[["qqPlotCiLevel"]])
   }
 
   if(is.null(fitContainer[['estCDF']]) && options$estCDF){
@@ -656,46 +656,71 @@ gettextf <- function(fmt, ..., domain = NULL)  {
 
   if(is.null(fitContainer[['ppplot']]) && options$ppplot){
     ppplot <- createJaspPlot(title = gettext("P-P plot"))
-    ppplot$dependOn(c("ppplot"))
+    ppplot$dependOn(c("ppplot", "ppPlotCi", "ppPlotCiLevel"))
     ppplot$position <-5
     fitContainer[['ppplot']] <- ppplot
 
     if(ready && !fitContainer$getError())
-      .ldFillPPPlot(ppplot, estimates, options, variable)
+      .ldFillPPPlot(ppplot, estimates, options, variable, ci = options[["ppPlotCi"]], ciLevel = options[["ppPlotCiLevel"]])
   }
 
   return()
 }
 
-.ldFillQQPlot <- function(qqplot, estParameters, options, variable){
+.ldFillQQPlot <- function(qqplot, estParameters, options, variable, ci = FALSE, ciLevel = 0.95){
   estParameters <- as.list(estParameters)
-  yBreaks <- jaspGraphs::getPrettyAxisBreaks(variable)
+
+  sample <- sort(variable)
+  n      <- length(sample)
+  p      <- stats::ppoints(n)
+
+  args        <- estParameters
+  args[["p"]] <- p
+
+  theoretical <- do.call(options[["qFun"]], args)
+  lmFit       <- lm(sample~theoretical)
+  intercept   <- coefficients(lmFit)[[1]]
+  slope       <- coefficients(lmFit)[[2]]
+
+  df <- data.frame(sample = sample, theoretical = theoretical)
+
+  if(ci) {
+    # Fox, J. (2016) Applied Regression Analysis and Generalized Linear Models, Third Edition. Sage.
+    # Chapter 3.1.3
+    alpha       <- 1-ciLevel
+    args        <- estParameters
+    args[["x"]] <- theoretical
+    pdf         <- do.call(options[["pdfFun"]], args)
+    se <- sqrt(p * (1 - p) / n) * slope / pdf
+
+    df[["upper"]] <- theoretical + se * qnorm(alpha/2, lower.tail = FALSE)
+    df[["lower"]] <- theoretical + se * qnorm(alpha/2, lower.tail = TRUE)
+
+    ciLayer <-
+      ggplot2::geom_ribbon(
+        mapping = ggplot2::aes(x = theoretical, ymin = lower, ymax = upper),
+        fill = "steelblue", color = "black", alpha = 0.5
+      )
+  } else {
+    ciLayer <- NULL
+  }
+
+  yPoints <- as.vector(as.matrix(df))
+  yBreaks <- jaspGraphs::getPrettyAxisBreaks(yPoints)
   yLabs   <- jaspGraphs::axesLabeller(yBreaks)
-  yRange  <- range(variable)
-
-  # compute slope and intercept of qq line
-  args <- estParameters
-  args[["p"]] <- c(.25, .75)
-  theoretical <- do.call(options[['qFun']], args)
-  sample <- stats::quantile(variable, c(.25, .75))
-  slope <- diff(sample) / diff(theoretical)
-  intercept <- sample[1L] - slope*theoretical[1L]
-
-
-  p <- ggplot2::ggplot(data = data.frame(variable = variable), ggplot2::aes(sample = variable)) +
-    #ggplot2::stat_qq_line(distribution = options[['qFun']], dparams = estParameters, col = "darkred", size = 1) +
-    ggplot2::geom_abline(slope=slope, intercept=intercept, col = "darkred", size = 1) +
-    ggplot2::stat_qq(distribution = options[['qFun']], dparams = estParameters, shape = 21, fill = "grey", size = 3) +
-    ggplot2::scale_y_continuous(name = gettext("Sample"), breaks = yBreaks, labels = yLabs, limits = yRange)
-
-  points <- ggplot2::layer_data(p, 2)
-
-  xBreaks <- jaspGraphs::getPrettyAxisBreaks(points$x)
+  yRange  <- range(yPoints)
+  xBreaks <- jaspGraphs::getPrettyAxisBreaks(theoretical)
   xLabs   <- jaspGraphs::axesLabeller(xBreaks)
-  xRange  <- range(points$x)
+  xRange  <- range(theoretical)
 
-  p <- p + ggplot2::scale_x_continuous(name = gettext("Theoretical"), breaks = xBreaks, labels = xLabs, limits = xRange)
-  p <- jaspGraphs::themeJasp(p)
+  p <- ggplot2::ggplot(data = df, ggplot2::aes(sample = sample)) +
+    ciLayer +
+    ggplot2::geom_line(mapping = ggplot2::aes(x = theoretical, y = theoretical), size = 1) +
+    ggplot2::stat_qq(distribution = options[['qFun']], dparams = estParameters, shape = 21, fill = "grey", size = 3) +
+    ggplot2::scale_y_continuous(name = gettext("Sample"),      breaks = yBreaks, labels = yLabs, limits = yRange) +
+    ggplot2::scale_x_continuous(name = gettext("Theoretical"), breaks = xBreaks, labels = xLabs, limits = xRange) +
+    jaspGraphs::themeJaspRaw() +
+    jaspGraphs::geom_rangeframe()
 
   qqplot$plotObject <- p
 
@@ -744,22 +769,46 @@ gettextf <- function(fmt, ..., domain = NULL)  {
   return()
 }
 
-.ldFillPPPlot <- function(ppplot, estParameters, options, variable){
-  n <- length(variable)
-  ObservedProp <- (1:n)/n - 0.5/n
+.ldFillPPPlot <- function(ppplot, estParameters, options, variable, ci = FALSE, ciLevel = 0.95){
+  estParameters <- as.list(estParameters)
 
-  args <- as.list(estParameters)
-  args[['q']] <- variable
-  TheoreticalProp <- sort(do.call(options[['cdfFun']], args))
+  variable    <- sort(variable)
+  n           <- length(variable)
+  theoretical <- stats::ppoints(n)
 
-  p <- ggplot2::ggplot(data = data.frame(TheoreticalProp = TheoreticalProp, ObservedProp = ObservedProp)) +
-    ggplot2::geom_abline(slope = 1, intercept = 0, col = "darkred", size = 1) +
-    jaspGraphs::geom_point(ggplot2::aes(x = TheoreticalProp, y = ObservedProp)) +
+  args        <- estParameters
+  args[["q"]] <- variable
+
+  sample <- sort(do.call(options[['cdfFun']], args))
+
+  df <- data.frame(sample = sample, theoretical = theoretical)
+
+  if(ci) {
+    # Stirling, W. D. (1982). Enhancements to aid interpretation of probability plots. Journal of the Royal Statistical Society: Series D (The Statistician), 31(3), 211-220.
+    # Quesenberry, C. P., & Hales, C. (1980). Concentration bands for uniformity plots. Journal of Statistical Computation and Simulation, 11(1), 41-53.
+    i     <- seq_along(variable)
+    alpha <- 1-ciLevel
+
+    df[["lower"]] <- qbeta(  alpha/2, i, n-i+1)
+    df[["upper"]] <- qbeta(1-alpha/2, i, n-i+1)
+
+    ciLayer <- ggplot2::geom_ribbon(
+      mapping = ggplot2::aes(x = theoretical, ymin = lower, ymax = upper),
+      fill = "steelblue", color = "black", alpha = 0.5
+    )
+  } else {
+    ciLayer <- NULL
+  }
+
+  p <- ggplot2::ggplot(data = df) +
+    ciLayer +
+    jaspGraphs::geom_abline2(slope = 1, intercept = 0, size = 1) +
+    jaspGraphs::geom_point(ggplot2::aes(x = theoretical, y = sample)) +
     ggplot2::xlab(gettext("Theoretical")) + ggplot2::ylab(gettext("Sample")) +
     ggplot2::scale_x_continuous(limits = 0:1, expand = ggplot2::expand_scale(mult = 0, add = c(0.05, 0.1))) +
-    ggplot2::scale_y_continuous(limits = 0:1, expand = ggplot2::expand_scale(mult = 0, add = c(0.05, 0.1)))
-
-  p <- jaspGraphs::themeJasp(p)
+    ggplot2::scale_y_continuous(limits = 0:1, expand = ggplot2::expand_scale(mult = 0, add = c(0.05, 0.1))) +
+    jaspGraphs::themeJaspRaw() +
+    jaspGraphs::geom_rangeframe()
 
   ppplot$plotObject <- p
 
