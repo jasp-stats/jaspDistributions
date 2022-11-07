@@ -21,6 +21,10 @@ options$plotCDF <- TRUE
 options$plotQF <- TRUE
 options$ppplot <- TRUE
 options$qqplot <- TRUE
+options$qqPlotCi <- FALSE
+options$qqPlotCiLevel <- 0.95
+options$ppPlotCi <- FALSE
+options$ppPlotCiLevel <- 0.95
 options$variable <- "amoroso"
 set.seed(1)
 results <- jaspTools::runAnalysis("LDamoroso",

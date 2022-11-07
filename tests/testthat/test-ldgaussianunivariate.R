@@ -27,6 +27,10 @@ options$plotQF <- TRUE
 options$ppplot <- TRUE
 options$qqplot <- TRUE
 options$shapiroWilk <- TRUE
+options$qqPlotCi <- TRUE
+options$qqPlotCiLevel <- 0.95
+options$ppPlotCi <- TRUE
+options$ppPlotCiLevel <- 0.95
 options$summary <- TRUE
 options$variable <- "Normal100(mu=0,sigma=1)"
 set.seed(1)

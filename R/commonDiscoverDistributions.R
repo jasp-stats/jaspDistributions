@@ -684,7 +684,7 @@ gettextf <- function(fmt, ..., domain = NULL)  {
 
   df <- data.frame(sample = sample, theoretical = theoretical)
 
-  if(ci) {
+  if(isTRUE(ci)) {
     # Fox, J. (2016) Applied Regression Analysis and Generalized Linear Models, Third Edition. Sage.
     # Chapter 3.1.3
     alpha       <- 1-ciLevel
@@ -783,7 +783,7 @@ gettextf <- function(fmt, ..., domain = NULL)  {
 
   df <- data.frame(sample = sample, theoretical = theoretical)
 
-  if(ci) {
+  if(isTRUE(ci)) {
     # Stirling, W. D. (1982). Enhancements to aid interpretation of probability plots. Journal of the Royal Statistical Society: Series D (The Statistician), 31(3), 211-220.
     # Quesenberry, C. P., & Hales, C. (1980). Concentration bands for uniformity plots. Journal of Statistical Computation and Simulation, 11(1), 41-53.
     i     <- seq_along(variable)

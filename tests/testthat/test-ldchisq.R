@@ -22,6 +22,10 @@ options$highlightProbability <- TRUE
 options$variable <- "Chisq1000(df=5,ncp=0)"
 options$moments <- TRUE
 options$ecdf <- TRUE
+options$qqPlotCi <- FALSE
+options$qqPlotCiLevel <- 0.95
+options$ppPlotCi <- FALSE
+options$ppPlotCiLevel <- 0.95
 options$newVariableName <- ""
 set.seed(1)
 results <- jaspTools::runAnalysis("LDchisq", "Distributions.csv", options)

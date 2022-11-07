@@ -25,6 +25,10 @@ options$plotCDF <- TRUE
 options$plotQF <- TRUE
 options$ppplot <- TRUE
 options$qqplot <- TRUE
+options$qqPlotCi <- FALSE
+options$qqPlotCiLevel <- 0.95
+options$ppPlotCi <- FALSE
+options$ppPlotCiLevel <- 0.95
 options$summary <- TRUE
 options$variable <- "Exp100(rate=1)"
 set.seed(1)

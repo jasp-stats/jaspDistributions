@@ -22,6 +22,10 @@ options$outputEstimates <- TRUE
 options$outputSE <- TRUE
 options$ppplot <- TRUE
 options$qqplot <- TRUE
+options$qqPlotCi <- FALSE
+options$qqPlotCiLevel <- 0.95
+options$ppPlotCi <- FALSE
+options$ppPlotCiLevel <- 0.95
 options$variable <- "uniform"
 set.seed(1)
 
