@@ -772,14 +772,14 @@ gettextf <- function(fmt, ..., domain = NULL)  {
 .ldFillPPPlot <- function(ppplot, estParameters, options, variable, ci = FALSE, ciLevel = 0.95){
   estParameters <- as.list(estParameters)
 
-  variable    <- sort(variable)
-  n           <- length(variable)
-  theoretical <- stats::ppoints(n)
+  variable <- sort(variable)
+  n        <- length(variable)
+  sample   <- stats::ppoints(n)
 
   args        <- estParameters
   args[["q"]] <- variable
 
-  sample <- sort(do.call(options[['cdfFun']], args))
+  theoretical <- sort(do.call(options[['cdfFun']], args))
 
   df <- data.frame(sample = sample, theoretical = theoretical)
 
@@ -793,7 +793,7 @@ gettextf <- function(fmt, ..., domain = NULL)  {
     df[["upper"]] <- qbeta(1-alpha/2, i, n-i+1)
 
     ciLayer <- ggplot2::geom_ribbon(
-      mapping = ggplot2::aes(x = theoretical, ymin = lower, ymax = upper),
+      mapping = ggplot2::aes(y = sample, xmin = lower, xmax = upper),
       fill = "steelblue", color = "black", alpha = 0.5
     )
   } else {
