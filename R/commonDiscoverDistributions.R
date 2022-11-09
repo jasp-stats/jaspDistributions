@@ -708,10 +708,10 @@ gettextf <- function(fmt, ..., domain = NULL)  {
   yPoints <- as.vector(as.matrix(df))
   yBreaks <- jaspGraphs::getPrettyAxisBreaks(yPoints)
   yLabs   <- jaspGraphs::axesLabeller(yBreaks)
-  yRange  <- range(yPoints)
+  yRange  <- range(c(yPoints, yBreaks))
   xBreaks <- jaspGraphs::getPrettyAxisBreaks(theoretical)
   xLabs   <- jaspGraphs::axesLabeller(xBreaks)
-  xRange  <- range(theoretical)
+  xRange  <- range(c(theoretical, xBreaks))
 
   p <- ggplot2::ggplot(data = df, ggplot2::aes(sample = sample)) +
     ciLayer +
