@@ -27,16 +27,16 @@
 </defs>
 <g clip-path='url(#cpNzIuMzN8NzIwLjAwfDIwLjcxfDUwNy4wOQ==)'>
 <rect x='72.33' y='20.71' width='647.67' height='486.39' style='stroke-width: 10.67; stroke: none;' />
-<rect x='133.38' y='468.61' width='47.78' height='16.38' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='186.47' y='419.48' width='47.78' height='65.51' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='239.56' y='353.97' width='47.78' height='131.01' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='292.64' y='173.83' width='47.78' height='311.16' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='345.73' y='173.83' width='47.78' height='311.16' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='398.82' y='42.82' width='47.78' height='442.17' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='451.91' y='321.22' width='47.78' height='163.77' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='504.99' y='321.22' width='47.78' height='163.77' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='558.08' y='468.61' width='47.78' height='16.38' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='611.17' y='468.61' width='47.78' height='16.38' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='133.38' y='468.61' width='47.78' height='16.38' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='186.47' y='419.48' width='47.78' height='65.51' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='239.56' y='353.97' width='47.78' height='131.01' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='292.64' y='173.83' width='47.78' height='311.16' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='345.73' y='173.83' width='47.78' height='311.16' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='398.82' y='42.82' width='47.78' height='442.17' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='451.91' y='321.22' width='47.78' height='163.77' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='504.99' y='321.22' width='47.78' height='163.77' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='558.08' y='468.61' width='47.78' height='16.38' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='611.17' y='468.61' width='47.78' height='16.38' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
 <circle cx='157.27' cy='476.08' r='3.56' style='stroke-width: 0.71; fill: #BEBEBE;' />
 <circle cx='210.36' cy='438.88' r='3.56' style='stroke-width: 0.71; fill: #BEBEBE;' />
 <circle cx='263.45' cy='343.52' r='3.56' style='stroke-width: 0.71; fill: #BEBEBE;' />

@@ -27,12 +27,12 @@
 </defs>
 <g clip-path='url(#cpNzIuMzN8NzIwLjAwfDIwLjcxfDUwNy4wOQ==)'>
 <rect x='72.33' y='20.71' width='647.67' height='486.39' style='stroke-width: 10.67; stroke: none;' />
-<rect x='137.97' y='42.82' width='78.77' height='442.17' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='225.49' y='324.89' width='78.77' height='160.10' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='313.02' y='393.50' width='78.77' height='91.48' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='400.54' y='454.49' width='78.77' height='30.49' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='488.06' y='462.11' width='78.77' height='22.87' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='575.59' y='469.74' width='78.77' height='15.25' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='137.97' y='42.82' width='78.77' height='442.17' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='225.49' y='324.89' width='78.77' height='160.10' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='313.02' y='393.50' width='78.77' height='91.48' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='400.54' y='454.49' width='78.77' height='30.49' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='488.06' y='462.11' width='78.77' height='22.87' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='575.59' y='469.74' width='78.77' height='15.25' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
 <circle cx='177.36' cy='48.18' r='3.56' style='stroke-width: 0.71; fill: #BEBEBE;' />
 <circle cx='264.88' cy='307.11' r='3.56' style='stroke-width: 0.71; fill: #BEBEBE;' />
 <circle cx='352.40' cy='405.68' r='3.56' style='stroke-width: 0.71; fill: #BEBEBE;' />

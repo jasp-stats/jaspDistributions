@@ -27,8 +27,8 @@
 </defs>
 <g clip-path='url(#cpOTAuOTZ8NzIwLjAwfDIwLjcxfDUwNy4wOQ==)'>
 <rect x='90.96' y='20.71' width='629.04' height='486.39' style='stroke-width: 10.67; stroke: none;' />
-<rect x='203.29' y='263.90' width='179.73' height='221.08' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='427.94' y='42.82' width='179.73' height='442.17' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='203.29' y='263.90' width='179.73' height='221.08' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='427.94' y='42.82' width='179.73' height='442.17' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
 <line x1='292.83' y1='507.09' x2='518.13' y2='507.09' style='stroke-width: 0.64; stroke-linecap: butt;' />
 <line x1='90.96' y1='485.30' x2='90.96' y2='42.50' style='stroke-width: 0.64; stroke-linecap: butt;' />
 <rect x='90.96' y='20.71' width='629.04' height='486.39' style='stroke-width: 0.00; stroke: none;' />

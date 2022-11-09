@@ -27,8 +27,8 @@
 </defs>
 <g clip-path='url(#cpNzIuMzN8NzIwLjAwfDIwLjcxfDUwNy4wOQ==)'>
 <rect x='72.33' y='20.71' width='647.67' height='486.39' style='stroke-width: 10.67; stroke: none;' />
-<rect x='159.52' y='42.82' width='224.19' height='442.17' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='408.62' y='190.21' width='224.19' height='294.78' style='stroke-width: 1.07; stroke-linecap: square; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='159.52' y='42.82' width='224.19' height='442.17' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='408.62' y='190.21' width='224.19' height='294.78' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
 <circle cx='271.61' cy='42.82' r='3.56' style='stroke-width: 0.71; fill: #BEBEBE;' />
 <circle cx='520.72' cy='190.21' r='3.56' style='stroke-width: 0.71; fill: #BEBEBE;' />
 <line x1='271.29' y1='507.09' x2='521.04' y2='507.09' style='stroke-width: 0.64; stroke-linecap: butt;' />
