@@ -28,12 +28,39 @@ Section
 
 	Group
 	{
-		title: qsTr("Plots")
-		columns: 2
-		CheckBox{ name: distributionType == "continuous" ? "estPDF" : "estPMF"; label: distributionType == "continuous" ? qsTr("Histogram vs. theoretical pdf") : qsTr("Histogram vs. theoretical pmf") }
-		CheckBox{ name: "qqplot"; label: qsTr("Q-Q plot")                      }
+        title: qsTr("Plots")
+        CheckBox
+        {
+            name:  distributionType === "continuous" ? "estPDF" : "estPMF";
+            label: distributionType === "continuous" ? qsTr("Histogram vs. theoretical pdf") : qsTr("Histogram vs. theoretical pmf")
+        }
+        CheckBox
+        {
+            name: "qqplot"
+            label: qsTr("Q-Q plot")
+            CheckBox
+            {
+                name:               "qqPlotCi"
+                label:              qsTr("Confidence interval")
+                childrenOnSameRow:  true
+                visible:            distributionType === "continuous"
+                CIField{ name: "qqPlotCiLevel" }
+            }
+        }
 		CheckBox{ name: "estCDF"; label: qsTr("Empirical vs. theoretical cdf") }
-		CheckBox{ name: "ppplot"; label: qsTr("P-P plot")                      }
+        CheckBox
+        {
+            name: "ppplot";
+            label: qsTr("P-P plot")
+            CheckBox
+            {
+                name:               "ppPlotCi"
+                label:              qsTr("Confidence interval")
+                childrenOnSameRow:  true
+                visible:            distributionType === "continuous"
+                CIField{ name: "ppPlotCiLevel" }
+            }
+        }
 	}
 
 	Loader

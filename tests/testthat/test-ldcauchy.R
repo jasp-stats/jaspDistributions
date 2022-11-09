@@ -20,6 +20,10 @@ options$plotCDF <- TRUE
 options$plotQF <- TRUE
 options$ppplot <- TRUE
 options$qqplot <- TRUE
+options$qqPlotCi <- FALSE
+options$qqPlotCiLevel <- 0.95
+options$ppPlotCi <- FALSE
+options$ppPlotCiLevel <- 0.95
 options$variable <- "t100(df=1,ncp=0)"
 set.seed(1)
 results <- jaspTools::runAnalysis("LDcauchy", "Distributions.csv", options)
