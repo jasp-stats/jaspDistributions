@@ -1,9 +1,16 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-11-23 11:15+0000\n"
+"Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15-dev\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
@@ -2592,43 +2599,43 @@ msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "Pokaż rozkład"
 
 msgctxt "LDtStudent|"
 msgid "Parameters"
-msgstr ""
+msgstr "Parametry"
 
 msgctxt "LDtStudent|"
 msgid "Degrees of freedom:"
-msgstr ""
+msgstr "Stopnie swobody:"
 
 msgctxt "LDtStudent|"
 msgid "df"
-msgstr ""
+msgstr "df"
 
 msgctxt "LDtStudent|"
 msgid "Location:"
-msgstr ""
+msgstr "Lokalizacja:"
 
 msgctxt "LDtStudent|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDtStudent|"
 msgid "Scale:"
-msgstr ""
+msgstr "Skala:"
 
 msgctxt "LDtStudent|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 msgctxt "LDtStudent|"
 msgid "Display"
-msgstr ""
+msgstr "Wyświetl"
 
 msgctxt "LDtStudent|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Objaśnienie"
 
 msgctxt "LDtStudent|"
 msgid "Parameters, support, and moments"
@@ -2636,11 +2643,11 @@ msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Formulas"
-msgstr ""
+msgstr "Formuły"
 
 msgctxt "LDtStudent|"
 msgid "Probability density function"
-msgstr ""
+msgstr "Funkcja gęstości prawdopodobieństwa"
 
 msgctxt "LDtStudent|"
 msgid "Cumulative distribution function"
@@ -2648,7 +2655,7 @@ msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Quantile function"
-msgstr ""
+msgstr "Funkcja kwantylowa"
 
 msgctxt "LDuniform|"
 msgid "Show Distribution"
