@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.17.0\n"
 "POT-Creation-Date: 2022-10-08 03:25\n"
-"PO-Revision-Date: 2022-11-24 17:48+0000\n"
+"PO-Revision-Date: 2022-11-26 00:43+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/pl/>\n"
@@ -30,7 +30,7 @@ msgid "Variable"
 msgstr "Zmienna"
 
 msgid "n"
-msgstr ""
+msgstr "n"
 
 msgid "Mean"
 msgstr ""
@@ -42,7 +42,7 @@ msgid "Std. deviation"
 msgstr ""
 
 msgid "Minimum"
-msgstr ""
+msgstr "Minimum"
 
 msgid "25%% Quantile"
 msgstr ""
@@ -54,13 +54,13 @@ msgid "75%% Quantile"
 msgstr ""
 
 msgid "Maximum"
-msgstr ""
+msgstr "Maksimum"
 
 msgid "Rel. Frequency"
 msgstr ""
 
 msgid "Total"
-msgstr ""
+msgstr "Całość"
 
 msgid "Observed Moments"
 msgstr ""
@@ -78,7 +78,7 @@ msgid "Estimated Parameters"
 msgstr ""
 
 msgid "Parameter"
-msgstr ""
+msgstr "Parametr"
 
 msgid "Estimate"
 msgstr "Oszacuj"
@@ -138,7 +138,7 @@ msgid "Anderson-Darling"
 msgstr ""
 
 msgid "Shapiro-Wilk"
-msgstr ""
+msgstr "Shapiro-Wilk"
 
 msgid "Chi-square"
 msgstr ""
