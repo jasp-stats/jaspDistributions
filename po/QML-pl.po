@@ -1,9 +1,16 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-11-24 17:47+0000\n"
+"Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15-dev\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
@@ -28,11 +35,11 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Beta"
-msgstr ""
+msgstr "Beta"
 
 msgctxt "Description|"
 msgid "Gamma"
-msgstr ""
+msgstr "Gamma"
 
 msgctxt "Description|"
 msgid "Inverse gamma"
@@ -56,7 +63,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bernoulli"
-msgstr ""
+msgstr "Bernoulli"
 
 msgctxt "Description|"
 msgid "Binomial"
@@ -68,7 +75,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Poisson"
-msgstr ""
+msgstr "Poisson"
 
 msgctxt "LDAssessFit|"
 msgid "Assess Fit"
@@ -92,7 +99,7 @@ msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Q-Q plot"
-msgstr ""
+msgstr "Wykres K-K"
 
 msgctxt "LDAssessFit|"
 msgid "Empirical vs. theoretical cdf"
@@ -108,19 +115,19 @@ msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Kolmogorov-Smirnov"
-msgstr ""
+msgstr "Kolmogorov-Smirnov"
 
 msgctxt "LDAssessFit|"
 msgid "Cramér–von Mises"
-msgstr ""
+msgstr "Cramér–von Mises"
 
 msgctxt "LDAssessFit|"
 msgid "Anderson-Darling"
-msgstr ""
+msgstr "Anderson-Darling"
 
 msgctxt "LDAssessFit|"
 msgid "Shapiro-Wilk"
-msgstr ""
+msgstr "Shapiro-Wilk"
 
 msgctxt "LDAssessFit|"
 msgid "Chi-square"
@@ -255,12 +262,12 @@ msgstr ""
 #, qt-format
 msgctxt "LDOptions|"
 msgid "from %1"
-msgstr ""
+msgstr "z %1"
 
 #, qt-format
 msgctxt "LDOptions|"
 msgid "to %1"
-msgstr ""
+msgstr "do %1"
 
 msgctxt "LDbernoulli|"
 msgid "Show Distribution"
@@ -268,7 +275,7 @@ msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "Parameter"
-msgstr ""
+msgstr "Parametr"
 
 msgctxt "LDbernoulli|"
 msgid "Probability of success:"
@@ -276,7 +283,7 @@ msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgctxt "LDbernoulli|"
 msgid "Display"
@@ -292,7 +299,7 @@ msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "Formulas"
-msgstr ""
+msgstr "Formuły"
 
 msgctxt "LDbernoulli|"
 msgid "Probability mass function"
@@ -324,7 +331,7 @@ msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 msgctxt "LDbeta|"
 msgid "Show Distribution"
@@ -336,11 +343,11 @@ msgstr ""
 
 msgctxt "LDbeta|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDbeta|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 msgctxt "LDbeta|"
 msgid "Display"
@@ -384,7 +391,7 @@ msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgctxt "LDbinomial|"
 msgid "Fixed parameter"
@@ -396,7 +403,7 @@ msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "n"
-msgstr ""
+msgstr "n"
 
 msgctxt "LDbinomial|"
 msgid "Display"
@@ -452,7 +459,7 @@ msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 msgctxt "LDchisq|"
 msgid "Show Distribution"
@@ -464,7 +471,7 @@ msgstr ""
 
 msgctxt "LDchisq|"
 msgid "k"
-msgstr ""
+msgstr "k"
 
 msgctxt "LDchisq|"
 msgid "Non-centrality:"
@@ -472,7 +479,7 @@ msgstr ""
 
 msgctxt "LDchisq|"
 msgid "λ"
-msgstr ""
+msgstr "λ"
 
 msgctxt "LDchisq|"
 msgid "Display"
@@ -508,7 +515,7 @@ msgstr ""
 
 msgctxt "LDexponential|"
 msgid "Parameter"
-msgstr ""
+msgstr "Parametr"
 
 msgctxt "LDexponential|"
 msgid "Rate:"
@@ -516,7 +523,7 @@ msgstr ""
 
 msgctxt "LDexponential|"
 msgid "Scale:"
-msgstr ""
+msgstr "Skala:"
 
 msgctxt "LDexponential|"
 msgid "Display"
@@ -556,11 +563,11 @@ msgstr ""
 
 msgctxt "LDf|"
 msgid "df 1"
-msgstr ""
+msgstr "df 1"
 
 msgctxt "LDf|"
 msgid "df 2"
-msgstr ""
+msgstr "df 2"
 
 msgctxt "LDf|"
 msgid "Non-centrality:"
@@ -568,7 +575,7 @@ msgstr ""
 
 msgctxt "LDf|"
 msgid "ncp"
-msgstr ""
+msgstr "ncp"
 
 msgctxt "LDf|"
 msgid "Display"
@@ -604,15 +611,15 @@ msgstr ""
 
 msgctxt "LDgamma|"
 msgid "Parameters"
-msgstr ""
+msgstr "Parametry"
 
 msgctxt "LDgamma|"
 msgid "Shape:"
-msgstr ""
+msgstr "Kształt:"
 
 msgctxt "LDgamma|"
 msgid "Scale:"
-msgstr ""
+msgstr "Skala:"
 
 msgctxt "LDgamma|"
 msgid "Rate:"
@@ -732,15 +739,15 @@ msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Kolmogorov-Smirnov"
-msgstr ""
+msgstr "Kolmogorov-Smirnov"
 
 msgctxt "LDgammaInverse|"
 msgid "Cramér–von Mises"
-msgstr ""
+msgstr "Cramér–von Mises"
 
 msgctxt "LDgammaInverse|"
 msgid "Anderson-Darling"
-msgstr ""
+msgstr "Anderson-Darling"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Show Distribution"
@@ -756,7 +763,7 @@ msgstr ""
 
 msgctxt "LDgaussianunivariate|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Variance:"
@@ -812,7 +819,7 @@ msgstr ""
 
 msgctxt "LDlogistic|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDlogistic|"
 msgid "Scale:"
@@ -820,7 +827,7 @@ msgstr ""
 
 msgctxt "LDlogistic|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 msgctxt "LDlogistic|"
 msgid "Display"
@@ -860,7 +867,7 @@ msgstr ""
 
 msgctxt "LDlognormal|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDlognormal|"
 msgid "Log std. deviation:"
@@ -868,7 +875,7 @@ msgstr ""
 
 msgctxt "LDlognormal|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 msgctxt "LDlognormal|"
 msgid "Display"
@@ -976,7 +983,7 @@ msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 msgctxt "LDpoisson|"
 msgid "Show Distribution"
@@ -992,7 +999,7 @@ msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "λ"
-msgstr ""
+msgstr "λ"
 
 msgctxt "LDpoisson|"
 msgid "Display"
@@ -1048,7 +1055,7 @@ msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 msgctxt "Description|"
 msgid "Skew normal"
@@ -1060,7 +1067,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Cauchy"
-msgstr ""
+msgstr "Cauchy"
 
 msgctxt "Description|"
 msgid "Scaled, shifted Student's t"
@@ -1100,27 +1107,27 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Pareto"
-msgstr ""
+msgstr "Pareto"
 
 msgctxt "Description|"
 msgid "Amoroso"
-msgstr ""
+msgstr "Amoroso"
 
 msgctxt "Description|"
 msgid "Fréchet"
-msgstr ""
+msgstr "Fréchet"
 
 msgctxt "Description|"
 msgid "Gumbel"
-msgstr ""
+msgstr "Gumbel"
 
 msgctxt "Description|"
 msgid "Gompertz"
-msgstr ""
+msgstr "Gompertz"
 
 msgctxt "Description|"
 msgid "Triangular"
-msgstr ""
+msgstr "Triangular"
 
 msgctxt "Description|"
 msgid "Wald (inverse Gaussian)"
@@ -1128,7 +1135,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Weibull"
-msgstr ""
+msgstr "Weibull"
 
 msgctxt "Description|"
 msgid "Mixture of normal and normal"
@@ -1168,7 +1175,7 @@ msgstr ""
 
 msgctxt "LDamoroso|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDamoroso|"
 msgid "Scale:"
@@ -1176,7 +1183,7 @@ msgstr ""
 
 msgctxt "LDamoroso|"
 msgid "θ"
-msgstr ""
+msgstr "θ"
 
 msgctxt "LDamoroso|"
 msgid "Shape:"
@@ -1184,11 +1191,11 @@ msgstr ""
 
 msgctxt "LDamoroso|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDamoroso|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 msgctxt "LDamoroso|"
 msgid "Display"
@@ -1236,11 +1243,11 @@ msgstr ""
 
 msgctxt "LDbetaBinomial|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDbetaBinomial|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 msgctxt "LDbetaBinomial|"
 msgid "Fixed parameter"
@@ -1252,7 +1259,7 @@ msgstr ""
 
 msgctxt "LDbetaBinomial|"
 msgid "n"
-msgstr ""
+msgstr "n"
 
 msgctxt "LDbetaBinomial|"
 msgid "Display"
@@ -1308,7 +1315,7 @@ msgstr ""
 
 msgctxt "LDbetaBinomial|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 msgctxt "LDbetaPrime|"
 msgid "Show Distribution"
@@ -1324,11 +1331,11 @@ msgstr ""
 
 msgctxt "LDbetaPrime|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDbetaPrime|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 msgctxt "LDbetaPrime|"
 msgid "Display"
@@ -1372,11 +1379,11 @@ msgstr ""
 
 msgctxt "LDbetaStretched|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDbetaStretched|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 msgctxt "LDbetaStretched|"
 msgid "Fixed parameters"
@@ -1388,7 +1395,7 @@ msgstr ""
 
 msgctxt "LDbetaStretched|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDbetaStretched|"
 msgid "Upper bound:"
@@ -1396,7 +1403,7 @@ msgstr ""
 
 msgctxt "LDbetaStretched|"
 msgid "b"
-msgstr ""
+msgstr "b"
 
 msgctxt "LDbetaStretched|"
 msgid "Display"
@@ -1436,7 +1443,7 @@ msgstr ""
 
 msgctxt "LDcauchy|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDcauchy|"
 msgid "Scale:"
@@ -1444,7 +1451,7 @@ msgstr ""
 
 msgctxt "LDcauchy|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 msgctxt "LDcauchy|"
 msgid "Display"
@@ -1484,7 +1491,7 @@ msgstr ""
 
 msgctxt "LDfrechet|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDfrechet|"
 msgid "Location:"
@@ -1492,7 +1499,7 @@ msgstr ""
 
 msgctxt "LDfrechet|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDfrechet|"
 msgid "Scale:"
@@ -1500,7 +1507,7 @@ msgstr ""
 
 msgctxt "LDfrechet|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 msgctxt "LDfrechet|"
 msgid "Display"
@@ -1544,7 +1551,7 @@ msgstr ""
 
 msgctxt "LDgeometric|"
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgctxt "LDgeometric|"
 msgid "Display"
@@ -1600,7 +1607,7 @@ msgstr ""
 
 msgctxt "LDgeometric|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 msgctxt "LDgompertz|"
 msgid "Show Distribution"
@@ -1652,7 +1659,7 @@ msgstr ""
 
 msgctxt "LDgumbel|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDgumbel|"
 msgid "Scale:"
@@ -1660,7 +1667,7 @@ msgstr ""
 
 msgctxt "LDgumbel|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 msgctxt "LDgumbel|"
 msgid "Display"
@@ -1700,7 +1707,7 @@ msgstr ""
 
 msgctxt "LDhypergeometric|"
 msgid "N"
-msgstr ""
+msgstr "N"
 
 msgctxt "LDhypergeometric|"
 msgid "Number of success states in the population:"
@@ -1708,7 +1715,7 @@ msgstr ""
 
 msgctxt "LDhypergeometric|"
 msgid "K"
-msgstr ""
+msgstr "K"
 
 msgctxt "LDhypergeometric|"
 msgid "Number of draws from the population:"
@@ -1716,7 +1723,7 @@ msgstr ""
 
 msgctxt "LDhypergeometric|"
 msgid "n"
-msgstr ""
+msgstr "n"
 
 msgctxt "LDhypergeometric|"
 msgid "Display"
@@ -1752,7 +1759,7 @@ msgstr ""
 
 msgctxt "LDhypergeometric|"
 msgid "to"
-msgstr ""
+msgstr "do"
 
 msgctxt "LDhypergeometric|"
 msgid "Highlight"
@@ -1772,7 +1779,7 @@ msgstr ""
 
 msgctxt "LDhypergeometric|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 msgctxt "LDlaplace|"
 msgid "Show Distribution"
@@ -1784,7 +1791,7 @@ msgstr ""
 
 msgctxt "LDlaplace|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDlaplace|"
 msgid "Scale:"
@@ -1792,11 +1799,11 @@ msgstr ""
 
 msgctxt "LDlaplace|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 msgctxt "LDlaplace|"
 msgid "Display"
-msgstr ""
+msgstr "Wyświetl"
 
 msgctxt "LDlaplace|"
 msgid "Explanatory text"
@@ -1808,7 +1815,7 @@ msgstr ""
 
 msgctxt "LDlaplace|"
 msgid "Formulas"
-msgstr ""
+msgstr "Formuły"
 
 msgctxt "LDlaplace|"
 msgid "Probability density function"
@@ -1884,7 +1891,7 @@ msgstr ""
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "μ₁"
-msgstr ""
+msgstr "μ₁"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Std. deviation 1:"
@@ -1892,7 +1899,7 @@ msgstr ""
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "σ₁"
-msgstr ""
+msgstr "σ₁"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Mean 2:"
@@ -1900,7 +1907,7 @@ msgstr ""
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "μ₂"
-msgstr ""
+msgstr "μ₂"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Std. deviation 2:"
@@ -1908,7 +1915,7 @@ msgstr ""
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "σ₂"
-msgstr ""
+msgstr "σ₂"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Probability of component:"
@@ -1916,7 +1923,7 @@ msgstr ""
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "π"
-msgstr ""
+msgstr "π"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Display"
@@ -1960,7 +1967,7 @@ msgstr ""
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Std. deviation :"
@@ -1968,7 +1975,7 @@ msgstr ""
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Probability of normal component:"
@@ -1976,7 +1983,7 @@ msgstr ""
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "π"
-msgstr ""
+msgstr "π"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Fixed parameters"
@@ -1988,7 +1995,7 @@ msgstr ""
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Maximum of uniform:"
@@ -1996,7 +2003,7 @@ msgstr ""
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "b"
-msgstr ""
+msgstr "b"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Display"
@@ -2040,7 +2047,7 @@ msgstr ""
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "π"
-msgstr ""
+msgstr "π"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Number of successes:"
@@ -2112,7 +2119,7 @@ msgstr ""
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Show Distribution"
@@ -2124,7 +2131,7 @@ msgstr ""
 
 msgctxt "LDnormalGeneralized|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Scale:"
@@ -2132,7 +2139,7 @@ msgstr ""
 
 msgctxt "LDnormalGeneralized|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Shape:"
@@ -2140,7 +2147,7 @@ msgstr ""
 
 msgctxt "LDnormalGeneralized|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Display"
@@ -2180,7 +2187,7 @@ msgstr ""
 
 msgctxt "LDnormalSkew|"
 msgid "ξ"
-msgstr ""
+msgstr "ξ"
 
 msgctxt "LDnormalSkew|"
 msgid "Scale:"
@@ -2188,7 +2195,7 @@ msgstr ""
 
 msgctxt "LDnormalSkew|"
 msgid "ω"
-msgstr ""
+msgstr "ω"
 
 msgctxt "LDnormalSkew|"
 msgid "Shape:"
@@ -2196,7 +2203,7 @@ msgstr ""
 
 msgctxt "LDnormalSkew|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDnormalSkew|"
 msgid "Display"
@@ -2280,7 +2287,7 @@ msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "π"
-msgstr ""
+msgstr "π"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Rate of Poisson process:"
@@ -2288,7 +2295,7 @@ msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "λ"
-msgstr ""
+msgstr "λ"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Display"
@@ -2344,7 +2351,7 @@ msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 msgctxt "LDtNoncentral|"
 msgid "Show Distribution"
@@ -2360,7 +2367,7 @@ msgstr ""
 
 msgctxt "LDtNoncentral|"
 msgid "df"
-msgstr ""
+msgstr "df"
 
 msgctxt "LDtNoncentral|"
 msgid "Non-centrality:"
@@ -2368,7 +2375,7 @@ msgstr ""
 
 msgctxt "LDtNoncentral|"
 msgid "ncp"
-msgstr ""
+msgstr "ncp"
 
 msgctxt "LDtNoncentral|"
 msgid "Display"
@@ -2404,19 +2411,19 @@ msgstr ""
 
 msgctxt "LDtriangular|"
 msgid "Minimum:"
-msgstr ""
+msgstr "Minimum:"
 
 msgctxt "LDtriangular|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDtriangular|"
 msgid "Maximum:"
-msgstr ""
+msgstr "Maksimum:"
 
 msgctxt "LDtriangular|"
 msgid "b"
-msgstr ""
+msgstr "b"
 
 msgctxt "LDtriangular|"
 msgid "Mode:"
@@ -2424,7 +2431,7 @@ msgstr ""
 
 msgctxt "LDtriangular|"
 msgid "c"
-msgstr ""
+msgstr "c"
 
 msgctxt "LDtriangular|"
 msgid "Display"
@@ -2464,7 +2471,7 @@ msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "ξ"
-msgstr ""
+msgstr "ξ"
 
 msgctxt "LDtSkew|"
 msgid "Scale:"
@@ -2472,7 +2479,7 @@ msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "ω"
-msgstr ""
+msgstr "ω"
 
 msgctxt "LDtSkew|"
 msgid "Shape:"
@@ -2480,7 +2487,7 @@ msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDtSkew|"
 msgid "Degree of freedom:"
@@ -2488,7 +2495,7 @@ msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "df"
-msgstr ""
+msgstr "df"
 
 msgctxt "LDtSkew|"
 msgid "Display"
@@ -2524,7 +2531,7 @@ msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Parameters"
-msgstr ""
+msgstr "Parametry"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Location:"
@@ -2532,7 +2539,7 @@ msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Kurtosis:"
@@ -2540,7 +2547,7 @@ msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Scale:"
@@ -2548,11 +2555,11 @@ msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "q"
-msgstr ""
+msgstr "q"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Skewness:"
@@ -2560,7 +2567,7 @@ msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "λ"
-msgstr ""
+msgstr "λ"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Display"
@@ -2580,7 +2587,7 @@ msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Probability density function"
-msgstr ""
+msgstr "Funkcja gęstości prawdopodobieństwa"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Cumulative distribution function"
@@ -2592,43 +2599,43 @@ msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "Pokaż rozkład"
 
 msgctxt "LDtStudent|"
 msgid "Parameters"
-msgstr ""
+msgstr "Parametry"
 
 msgctxt "LDtStudent|"
 msgid "Degrees of freedom:"
-msgstr ""
+msgstr "Stopnie swobody:"
 
 msgctxt "LDtStudent|"
 msgid "df"
-msgstr ""
+msgstr "df"
 
 msgctxt "LDtStudent|"
 msgid "Location:"
-msgstr ""
+msgstr "Lokalizacja:"
 
 msgctxt "LDtStudent|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDtStudent|"
 msgid "Scale:"
-msgstr ""
+msgstr "Skala:"
 
 msgctxt "LDtStudent|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 msgctxt "LDtStudent|"
 msgid "Display"
-msgstr ""
+msgstr "Wyświetl"
 
 msgctxt "LDtStudent|"
 msgid "Explanatory text"
-msgstr ""
+msgstr "Objaśnienie"
 
 msgctxt "LDtStudent|"
 msgid "Parameters, support, and moments"
@@ -2636,11 +2643,11 @@ msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Formulas"
-msgstr ""
+msgstr "Formuły"
 
 msgctxt "LDtStudent|"
 msgid "Probability density function"
-msgstr ""
+msgstr "Funkcja gęstości prawdopodobieństwa"
 
 msgctxt "LDtStudent|"
 msgid "Cumulative distribution function"
@@ -2648,7 +2655,7 @@ msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Quantile function"
-msgstr ""
+msgstr "Funkcja kwantylowa"
 
 msgctxt "LDuniform|"
 msgid "Show Distribution"
@@ -2664,7 +2671,7 @@ msgstr ""
 
 msgctxt "LDuniform|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDuniform|"
 msgid "Upper bound:"
@@ -2672,7 +2679,7 @@ msgstr ""
 
 msgctxt "LDuniform|"
 msgid "b"
-msgstr ""
+msgstr "b"
 
 msgctxt "LDuniform|"
 msgid "Display"
