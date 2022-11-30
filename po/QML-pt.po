@@ -2806,3 +2806,8 @@ msgstr "Função quantil"
 msgctxt "Description|"
 msgid "Visualize distributions and fit them to data"
 msgstr "Visualizar distribuições e ajustá-las aos dados"
+
+#, fuzzy
+msgctxt "LDAssessFit|"
+msgid "Confidence interval"
+msgstr "Intervalo de Confiança"

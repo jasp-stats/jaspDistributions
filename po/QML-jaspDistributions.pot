@@ -2800,3 +2800,7 @@ msgstr ""
 msgctxt "Description|"
 msgid "Visualize distributions and fit them to data"
 msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Confidence interval"
+msgstr ""

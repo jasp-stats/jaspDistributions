@@ -2802,3 +2802,8 @@ msgstr "分位数関数"
 msgctxt "Description|"
 msgid "Visualize distributions and fit them to data"
 msgstr "分布の可視化とデータへの適合"
+
+#, fuzzy
+msgctxt "LDAssessFit|"
+msgid "Confidence interval"
+msgstr "信頼区間"

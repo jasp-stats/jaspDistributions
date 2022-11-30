@@ -2835,3 +2835,8 @@ msgstr "累积分布函数"
 msgctxt "LDweibull|"
 msgid "Quantile function"
 msgstr "分位数函数"
+
+#, fuzzy
+msgctxt "LDAssessFit|"
+msgid "Confidence interval"
+msgstr "置信区间"

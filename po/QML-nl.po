@@ -2803,3 +2803,8 @@ msgstr "Kwantielfunctie"
 msgctxt "Description|"
 msgid "Visualize distributions and fit them to data"
 msgstr "Verdelingen visualiseren en aanpassen aan data"
+
+#, fuzzy
+msgctxt "LDAssessFit|"
+msgid "Confidence interval"
+msgstr "Betrouwbaarheidsinterval"

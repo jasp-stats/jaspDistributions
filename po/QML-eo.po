@@ -2800,3 +2800,7 @@ msgstr ""
 msgctxt "LDweibull|"
 msgid "Quantile function"
 msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Confidence interval"
+msgstr ""
