@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDweibull <- function(jaspResults, dataset, options, state=NULL){
+LDweibullInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsWeibull(options)
 
   #### Show weibull section ----

@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDtNoncentral <- function(jaspResults, dataset, options, state=NULL){
+LDtNoncentralInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsTNoncentral(options)
 
   #### Show t section ----

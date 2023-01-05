@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDbeta <- function(jaspResults, dataset, options, state=NULL){
+LDbetaInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsBeta(options)
   
   #### Show beta section ----

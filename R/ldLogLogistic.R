@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDlogLogistic <- function(jaspResults, dataset, options, state=NULL) {
+LDlogLogisticInternal <- function(jaspResults, dataset, options, state=NULL) {
   options <- .ldRecodeOptionsLogLogistic(options)
 
   #### Show distribution section ----

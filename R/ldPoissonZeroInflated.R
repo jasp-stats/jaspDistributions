@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDpoissonZeroInflated <- function(jaspResults, dataset, options, state=NULL){
+LDpoissonZeroInflatedInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsPoissonZeroInflated(options)
 
   #### Show poissonZeroInflated section ----

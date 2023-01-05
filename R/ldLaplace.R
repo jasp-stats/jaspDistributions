@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDlaplace <- function(jaspResults, dataset, options, state=NULL){
+LDlaplaceInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .recodeOptionsLDLaplace(options)
 
   #### Show distribution section ----

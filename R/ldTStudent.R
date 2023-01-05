@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDtStudent <- function(jaspResults, dataset, options, state=NULL){
+LDtStudentInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsTStudent(options)
 
   #### Show t section ----

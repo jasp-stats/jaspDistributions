@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDf <- function(jaspResults, dataset, options, state=NULL){
+LDfInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsF(options)
   
   #### Show f section ----

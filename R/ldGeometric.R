@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDgeometric <- function(jaspResults, dataset, options, state=NULL){
+LDgeometricInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsGeometric(options)
 
   #### Show geometric section ----

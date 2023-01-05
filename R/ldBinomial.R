@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDbinomial <- function(jaspResults, dataset, options, state=NULL){
+LDbinomialInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsBinomial(options)
   
   #### Show binomial section ----

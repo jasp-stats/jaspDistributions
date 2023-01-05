@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDbetaPrime <- function(jaspResults, dataset, options, state=NULL){
+LDbetaPrimeInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsBetaPrime(options)
 
   #### Show betaPrime section ----

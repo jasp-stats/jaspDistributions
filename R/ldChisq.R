@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDchisq <- function(jaspResults, dataset, options, state=NULL){
+LDchisqInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsChisq(options)
   
   #### Show chisq section ----

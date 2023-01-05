@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDgumbel <- function(jaspResults, dataset, options, state=NULL){
+LDgumbelInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsGumbel(options)
 
   #### Show distribution section ----

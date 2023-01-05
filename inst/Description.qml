@@ -13,6 +13,7 @@ Description
 	website:		"www.jasp-stats.org"
 	license:		"GPL (>= 2)"
 	requiresData:	false
+	hasWrappers:	true
 
 	GroupTitle
 	{

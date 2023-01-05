@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDbernoulli <- function(jaspResults, dataset, options, state=NULL){
+LDbernoulliInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsBernoulli(options)
   
   #### Show bernoulli section ----

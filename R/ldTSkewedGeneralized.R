@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDtSkewedGeneralized <- function(jaspResults, dataset, options, state=NULL){
+LDtSkewedGeneralizedInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsTSkewedGeneralized(options)
 
   #### Show t section ----

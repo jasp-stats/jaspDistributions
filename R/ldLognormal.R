@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDlognormal <- function(jaspResults, dataset, options, state=NULL){
+LDlognormalInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .recodeOptionsLDLognormal(options)
   
   #### Show distribution section ----
