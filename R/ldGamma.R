@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDgamma <- function(jaspResults, dataset, options, state=NULL){
+LDgammaInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .recodeOptionsLDgamma(options)
   
   #### Show gamma section ----

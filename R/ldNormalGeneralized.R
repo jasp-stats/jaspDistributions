@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDnormalGeneralized <- function(jaspResults, dataset, options, state=NULL){
+LDnormalGeneralizedInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .recodeOptionsLDNormalGeneralized(options)
 
   #### Show distribution section ----

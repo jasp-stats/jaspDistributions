@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDtriangular <- function(jaspResults, dataset, options, state=NULL){
+LDtriangularInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .recodeOptionsLDTriangular(options)
 
   #### Show distribution section ----

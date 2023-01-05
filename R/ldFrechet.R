@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDfrechet <- function(jaspResults, dataset, options, state=NULL){
+LDfrechetInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .recodeOptionsLDFrechet(options)
 
   #### Show distribution section ----

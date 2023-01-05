@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDtSkew <- function(jaspResults, dataset, options, state=NULL){
+LDtSkewInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .recodeOptionsLDTSkew(options)
 
   #### Show distribution section ----

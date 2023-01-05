@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDbetaStretched <- function(jaspResults, dataset, options, state=NULL){
+LDbetaStretchedInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsBetaStretched(options)
 
   #### Show beta section ----

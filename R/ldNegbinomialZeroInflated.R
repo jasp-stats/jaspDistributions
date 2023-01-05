@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDnegbinomialZeroInflated <- function(jaspResults, dataset, options, state=NULL){
+LDnegbinomialZeroInflatedInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsNegbinomialZeroInflated(options)
 
   #### Show negbinomialZeroInflated section ----

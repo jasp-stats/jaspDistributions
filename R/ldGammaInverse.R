@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDgammaInverse <- function(jaspResults, dataset, options, state=NULL){
+LDgammaInverseInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .recodeOptionsLDgammaInverse(options)
 
   #### Show gammaInverse section ----

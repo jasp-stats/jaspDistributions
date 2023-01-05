@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDnormalSkew <- function(jaspResults, dataset, options, state=NULL){
+LDnormalSkewInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .recodeOptionsLDNormalSkew(options)
 
   #### Show distribution section ----

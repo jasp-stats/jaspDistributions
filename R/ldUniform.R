@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDuniform <- function(jaspResults, dataset, options, state=NULL){
+LDuniformInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsUniform(options)
 
   #### Show beta section ----

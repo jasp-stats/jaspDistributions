@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDmixtureNormalUniform <- function(jaspResults, dataset, options, state=NULL){
+LDmixtureNormalUniformInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsMixtureNormalUniform(options)
 
   #### Show distribution section ----

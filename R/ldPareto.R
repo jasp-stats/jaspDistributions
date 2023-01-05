@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDpareto <- function(jaspResults, dataset, options, state=NULL){
+LDparetoInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsPareto(options)
 
   #### Show pareto section ----

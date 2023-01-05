@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDwald <- function(jaspResults, dataset, options, state=NULL){
+LDwaldInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsWald(options)
 
   #### Show wald section ----

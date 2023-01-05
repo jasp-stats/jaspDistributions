@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDgompertz <- function(jaspResults, dataset, options, state=NULL){
+LDgompertzInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsGompertz(options)
 
   #### Show gompertz section ----

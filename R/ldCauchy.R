@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDcauchy <- function(jaspResults, dataset, options, state=NULL){
+LDcauchyInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .recodeOptionsLDCauchy(options)
 
   #### Show distribution section ----

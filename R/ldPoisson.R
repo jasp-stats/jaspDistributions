@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDpoisson <- function(jaspResults, dataset, options, state=NULL){
+LDpoissonInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsPoisson(options)
   
   #### Show poisson section ----

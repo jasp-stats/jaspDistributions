@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-LDamoroso <- function(jaspResults, dataset, options, state=NULL){
+LDamorosoInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .recodeOptionsLDAmoroso(options)
 
   #### Show distribution section ----
