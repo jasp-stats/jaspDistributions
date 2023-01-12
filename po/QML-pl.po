@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-11-24 17:47+0000\n"
+"PO-Revision-Date: 2023-01-13 12:30+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-qml/pl/>\n"
@@ -10,12 +10,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
 msgid "Distributions"
-msgstr ""
+msgstr "Rozkład"
 
 msgctxt "Description|"
 msgid "Continuous"
@@ -771,7 +771,7 @@ msgstr ""
 
 msgctxt "LDgaussianunivariate|"
 msgid "Std. deviation:"
-msgstr ""
+msgstr "Odchylenie std.:"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Precision:"
@@ -1895,7 +1895,7 @@ msgstr "μ₁"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Std. deviation 1:"
-msgstr ""
+msgstr "Odchylenie std. 1:"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "σ₁"
@@ -1911,7 +1911,7 @@ msgstr "μ₂"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Std. deviation 2:"
-msgstr ""
+msgstr "Odchylenie std. 2:"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "σ₂"
@@ -1971,7 +1971,7 @@ msgstr "μ"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Std. deviation :"
-msgstr ""
+msgstr "Odchylenie std.:"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "σ"
