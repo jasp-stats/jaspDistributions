@@ -19,7 +19,7 @@
 
 LDgumbel <- function(
           data = NULL,
-          version = "0.17",
+          version = "0.17.1",
           andersonDarling = FALSE,
           beta = 1,
           ciInterval = FALSE,

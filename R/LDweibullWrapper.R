@@ -19,7 +19,7 @@
 
 LDweibull <- function(
           data = NULL,
-          version = "0.17",
+          version = "0.17.1",
           andersonDarling = FALSE,
           ciInterval = FALSE,
           ciIntervalInterval = 0.95,
