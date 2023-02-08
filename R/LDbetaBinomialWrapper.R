@@ -19,7 +19,7 @@
 
 LDbetaBinomial <- function(
           data = NULL,
-          version = "0.17",
+          version = "0.17.1",
           alpha = 1,
           beta = 1,
           chiSquare = FALSE,

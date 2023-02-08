@@ -19,7 +19,7 @@
 
 LDamoroso <- function(
           data = NULL,
-          version = "0.17",
+          version = "0.17.1",
           a = 0,
           alpha = 1,
           andersonDarling = FALSE,
