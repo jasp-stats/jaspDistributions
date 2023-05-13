@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.17.0\n"
 "POT-Creation-Date: 2022-10-08 03:25\n"
-"PO-Revision-Date: 2023-05-04 19:40+0000\n"
+"PO-Revision-Date: 2023-05-12 15:47+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/pl/>\n"
@@ -39,7 +39,7 @@ msgid "Variance"
 msgstr "Wariancja"
 
 msgid "Std. deviation"
-msgstr "Odchylenie stand."
+msgstr "Odch. stand."
 
 msgid "Minimum"
 msgstr "Minimum"
@@ -84,13 +84,13 @@ msgid "Estimate"
 msgstr "Oszacowanie"
 
 msgid "SE"
-msgstr "SE"
+msgstr "Błąd stand."
 
 msgid "Standard errors are unavailable with this method"
 msgstr ""
 
 msgid "Lower"
-msgstr "Dolny"
+msgstr "Dolna granica"
 
 msgid "%s%% CI"
 msgstr "%s%% PU"
@@ -159,7 +159,7 @@ msgid "P-P plot"
 msgstr ""
 
 msgid "Sample"
-msgstr ""
+msgstr "Próba"
 
 msgid "Theoretical"
 msgstr ""
@@ -450,13 +450,13 @@ msgid "mean 1: %s"
 msgstr ""
 
 msgid "std. deviation 1: %s"
-msgstr "odchylenie std. 1: %s"
+msgstr "odch. stand. 1: %s"
 
 msgid "mean 2: %s"
 msgstr ""
 
 msgid "std. deviation 2: %s"
-msgstr "odchylenie std. 2: %s"
+msgstr "odch. stand. 2: %s"
 
 msgid "mixture of a normal and a uniform distribution"
 msgstr ""
