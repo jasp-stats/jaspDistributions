@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.17.0\n"
 "POT-Creation-Date: 2022-10-08 03:25\n"
-"PO-Revision-Date: 2023-05-12 15:47+0000\n"
+"PO-Revision-Date: 2023-05-20 02:56+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/pl/>\n"
@@ -45,13 +45,13 @@ msgid "Minimum"
 msgstr "Minimum"
 
 msgid "25%% Quantile"
-msgstr ""
+msgstr "25%% kwantyl"
 
 msgid "Median"
 msgstr "Mediana"
 
 msgid "75%% Quantile"
-msgstr ""
+msgstr "75%% kwantyl"
 
 msgid "Maximum"
 msgstr "Maksimum"
@@ -75,7 +75,7 @@ msgid "Central"
 msgstr ""
 
 msgid "Estimated Parameters"
-msgstr ""
+msgstr "Oszacowane parametry"
 
 msgid "Parameter"
 msgstr "Parametr"
@@ -87,7 +87,7 @@ msgid "SE"
 msgstr "Błąd stand."
 
 msgid "Standard errors are unavailable with this method"
-msgstr ""
+msgstr "Błędy standardowe nie są dostępne dla tej metody."
 
 msgid "Lower"
 msgstr "Dolna granica"
@@ -99,7 +99,7 @@ msgid "Upper"
 msgstr "Górna granica"
 
 msgid "Confidence intervals are unavailable with this method."
-msgstr ""
+msgstr "Przedziały ufności nie są dostępne dla tej metody."
 
 msgid "Confidence intervals were calculated using the delta method."
 msgstr ""
@@ -111,7 +111,7 @@ msgid "Standard errors and confidence intervals were calculated using the delta 
 msgstr ""
 
 msgid "Maximum likelihood"
-msgstr ""
+msgstr "Największej wiarygodności"
 
 msgid "Fit Assessment"
 msgstr ""
@@ -129,19 +129,19 @@ msgid "p"
 msgstr "<em>p</em>"
 
 msgid "Kolmogorov-Smirnov"
-msgstr ""
+msgstr "Kolmogorov-Smirnov"
 
 msgid "Cramér-von Mises"
-msgstr ""
+msgstr "Cramér-von Mises"
 
 msgid "Anderson-Darling"
-msgstr ""
+msgstr "Anderson-Darling"
 
 msgid "Shapiro-Wilk"
 msgstr "Shapiro-Wilk"
 
 msgid "Chi-square"
-msgstr ""
+msgstr "Chi-kwadrat"
 
 msgid "Histogram vs. Theoretical PDF"
 msgstr ""
@@ -150,19 +150,19 @@ msgid "Histogram vs. Theoretical PMF"
 msgstr ""
 
 msgid "Q-Q plot"
-msgstr ""
+msgstr "Wykres K-K"
 
 msgid "Empirical vs. Theoretical CDF"
 msgstr ""
 
 msgid "P-P plot"
-msgstr ""
+msgstr "Wykres P-P"
 
 msgid "Sample"
 msgstr "Próba"
 
 msgid "Theoretical"
-msgstr ""
+msgstr "Teoretyczne"
 
 msgid "Density"
 msgstr "Gęstość"
@@ -186,28 +186,28 @@ msgid "Quantile Function"
 msgstr ""
 
 msgid "Formula"
-msgstr ""
+msgstr "Formuła"
 
 msgid "Density Plot"
-msgstr ""
+msgstr "Wykres gęstości"
 
 msgid "Cumulative Probability Plot"
-msgstr ""
+msgstr "Dystrybuanta"
 
 msgid "Slope"
 msgstr ""
 
 msgid "Quantile Plot"
-msgstr ""
+msgstr "Wykres kwantyli"
 
 msgid "Probability Mass Plot"
 msgstr ""
 
 msgid "Histogram"
-msgstr ""
+msgstr "Histogram"
 
 msgid "Bar plot"
-msgstr ""
+msgstr "Wykres słupkowy"
 
 msgid "Rel. Freq (%s in bin)"
 msgstr ""
@@ -255,16 +255,16 @@ msgid "location: a %s"
 msgstr ""
 
 msgid "scale: %s"
-msgstr ""
+msgstr "skala: %s"
 
 msgid "shape: %s"
-msgstr ""
+msgstr "kształt: %s"
 
 msgid "The optimization did not converge, try adjusting the parameter values."
 msgstr ""
 
 msgid "<i>Warning.</i>"
-msgstr ""
+msgstr "<i>Uwaga.</i>"
 
 msgid "Scale parameter %s is assumed positive."
 msgstr ""
@@ -279,16 +279,16 @@ msgid "probability of success: p %1$s %2$s: 0 %3$s p %4$s 1"
 msgstr ""
 
 msgid "x %s {0, 1}"
-msgstr ""
+msgstr "x %s {0, 1}"
 
 msgid "p(1-p)"
-msgstr ""
+msgstr "p(1-p)"
 
 msgid "beta distribution"
-msgstr ""
+msgstr "rozkład beta"
 
 msgid "beta-binomial distribution"
-msgstr ""
+msgstr "rozkład beta-dwumianowy"
 
 msgid "number of trials: %s"
 msgstr ""
@@ -300,34 +300,34 @@ msgid "beta prime distribution"
 msgstr ""
 
 msgid "lower bound: %s"
-msgstr ""
+msgstr "dolna granica: %s"
 
 msgid "upper bound: %s"
-msgstr ""
+msgstr "górna granica: %s"
 
 msgid "binomial distribution"
-msgstr ""
+msgstr "rozkład dwumianowy"
 
 msgid "probability of success: %s"
-msgstr ""
+msgstr "prawdopodobieństwo sukcesu: %s"
 
 msgid "Cauchy distribution"
-msgstr ""
+msgstr "Rozkład Cauchy'ego"
 
 msgid "location: &mu; %s"
 msgstr ""
 
 msgid "undefined"
-msgstr ""
+msgstr "niezdefiniowany"
 
 msgid "%s<sup>2</sup> distribution"
-msgstr ""
+msgstr "%s<sup>2</sup> rozkład"
 
 msgid "degree of freedom: %s"
-msgstr ""
+msgstr "stopnie swobody: %s"
 
 msgid "non-centrality: %s"
-msgstr ""
+msgstr "niecentralność: %s"
 
 msgid "exponential distribution"
 msgstr ""
@@ -336,37 +336,38 @@ msgid "rate: %s"
 msgstr ""
 
 msgid "F-distribution"
-msgstr ""
+msgstr "Rozkład F"
 
 msgid "Fréchet distribution"
-msgstr ""
+msgstr "Rozkład Frécheta"
 
 msgid "location: %s"
 msgstr ""
 
 msgid "see Wikipedia: https://en.wikipedia.org/wiki/Fr%C3%A9chet_distribution"
 msgstr ""
+"zobacz na Wikipedii: https://en.wikipedia.org/wiki/Fr%C3%A9chet_distribution"
 
 msgid "gamma distribution"
-msgstr ""
+msgstr "rozkład gamma"
 
 msgid "mean: %s"
-msgstr ""
+msgstr "średnia: %s"
 
 msgid "inverse gamma distribution"
-msgstr ""
+msgstr "odwrotny rozkład gamma"
 
 msgid "normal distribution"
-msgstr ""
+msgstr "rozkład normalny"
 
 msgid "mean: &mu; %s"
-msgstr ""
+msgstr "średnia: &mu; %s"
 
 msgid "variance: %s"
-msgstr ""
+msgstr "wariancja: %s"
 
 msgid "standard deviation: %s"
-msgstr ""
+msgstr "odchylenie standardowe: %s"
 
 msgid "precision: %s"
 msgstr ""
@@ -375,13 +376,13 @@ msgid "square root of precision: %s"
 msgstr ""
 
 msgid "&mu;"
-msgstr ""
+msgstr "&mu;"
 
 msgid "geometric distribution"
-msgstr ""
+msgstr "rozkład geometryczny"
 
 msgid "population size: %s"
-msgstr ""
+msgstr "wielkość populacji: %s"
 
 msgid "number of success states in the population: %s"
 msgstr ""
@@ -390,22 +391,24 @@ msgid "number of draws from the population: %s"
 msgstr ""
 
 msgid "Gompertz distribution"
-msgstr ""
+msgstr "rozkład Gompertza"
 
 msgid "shape: %s \nscale: %s"
 msgstr ""
+"kształt: %s \n"
+"skala: %s"
 
 msgid "Gumbel distribution"
-msgstr ""
+msgstr "rozkład Gumbela"
 
 msgid "hypergeometric distribution"
-msgstr ""
+msgstr "rozkład hipergeometryczny"
 
 msgid "Laplace distribution"
-msgstr ""
+msgstr "rozkład Laplace'a"
 
 msgid "log-logistic distribution"
-msgstr ""
+msgstr "rozkład logarytmiczno-logistyczny"
 
 msgid "log location: &mu; %s"
 msgstr ""
@@ -414,19 +417,21 @@ msgid "log scale: %s"
 msgstr ""
 
 msgid "scale: &alpha; %s"
-msgstr ""
+msgstr "skala: &alfa; %s"
 
 msgid "see Wikipedia: https://en.wikipedia.org/wiki/Log-logistic_distribution#Moments"
 msgstr ""
+"zobacz na Wikipedii: https://en.wikipedia.org/wiki/Log-"
+"logistic_distribution#Moments"
 
 msgid "logistic distribution"
-msgstr ""
+msgstr "rozkład logistyczny"
 
 msgid "(&sigma; &pi;)<sup>2</sup> / 3"
-msgstr ""
+msgstr "(&sigma; &pi;)<sup>2</sup> / 3"
 
 msgid "log-normal distribution"
-msgstr ""
+msgstr "rozkład logarytmiczno-normalny"
 
 msgid "log mean: &mu; %s"
 msgstr ""
@@ -435,25 +440,25 @@ msgid "log standard deviation: %s"
 msgstr ""
 
 msgid "exp(&mu; + &sigma;<sup>2</sup>/2)"
-msgstr ""
+msgstr "exp(&mu; + &sigma;<sup>2</sup>/2)"
 
 msgid "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
-msgstr ""
+msgstr "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
 
 msgid "mixture of two normal distributions"
 msgstr ""
 
 msgid "probability of first component: %s"
-msgstr ""
+msgstr "prawdopodobieństwo dla pierwszego składnika: %s"
 
 msgid "mean 1: %s"
-msgstr ""
+msgstr "średnia 1: %s"
 
 msgid "std. deviation 1: %s"
 msgstr "odch. stand. 1: %s"
 
 msgid "mean 2: %s"
-msgstr ""
+msgstr "średnia 2: %s"
 
 msgid "std. deviation 2: %s"
 msgstr "odch. stand. 2: %s"
@@ -486,7 +491,7 @@ msgid "number of successes: %s"
 msgstr ""
 
 msgid "dispersion: %s"
-msgstr ""
+msgstr "rozproszenie: %s"
 
 msgid "zero-inflated negative binomial distribution"
 msgstr ""
@@ -499,15 +504,17 @@ msgstr ""
 
 msgid "see Wikipedia - https://en.wikipedia.org/wiki/Generalized_normal_distribution#Moments"
 msgstr ""
+"zobacz na Wikipedii - https://en.wikipedia.org/wiki/"
+"Generalized_normal_distribution#Moments"
 
 msgid "skew normal distribution"
 msgstr ""
 
 msgid "Pareto distribution"
-msgstr ""
+msgstr "rozkład Pareto"
 
 msgid "Poisson distribution"
-msgstr ""
+msgstr "rozkład Poissona"
 
 msgid "zero-inflated Poisson distribution"
 msgstr ""
@@ -516,7 +523,7 @@ msgid "noncentral t-distribution"
 msgstr ""
 
 msgid "degrees of freedom: %s"
-msgstr ""
+msgstr "stopnie swobody: %s"
 
 msgid "does not exist unless df > 1"
 msgstr ""
@@ -525,52 +532,54 @@ msgid "does not exist unless df > 2"
 msgstr ""
 
 msgid "see Azzalini & Capitanio (2003)"
-msgstr ""
+msgstr "zobacz Azzalini i Capitanio (2003)"
 
 msgid "skewed generalized t-distribution"
 msgstr ""
 
 msgid "skewness: %s"
-msgstr ""
+msgstr "skośność: %s"
 
 msgid "kurtosis: %s"
-msgstr ""
+msgstr "kurtoza: %s"
 
 msgid "see Wikipedia: https://en.wikipedia.org/wiki/Skewed_generalized_t_distribution#Moments"
 msgstr ""
+"zobacz na Wikipedii: https://en.wikipedia.org/wiki/"
+"Skewed_generalized_t_distribution#Moments"
 
 msgid "scaled, shifted Student's t-distribution"
 msgstr ""
 
 msgid "triangular distribution"
-msgstr ""
+msgstr "rozkład trójkątny"
 
 msgid "minimum: %s"
-msgstr ""
+msgstr "minimum: %s"
 
 msgid "maximum: %s"
-msgstr ""
+msgstr "maksimum: %s"
 
 msgid "mode: %s"
-msgstr ""
+msgstr "tryb: %s"
 
 msgid "uniform distribution"
-msgstr ""
+msgstr "rozkład jednostajny"
 
 msgid "Wald distribution"
-msgstr ""
+msgstr "rozkład Walda"
 
 msgid "drift rate: %s"
 msgstr "wskaźnik dryfu: %s"
 
 msgid "threshold: %s"
-msgstr ""
+msgstr "próg: %s"
 
 msgid "noise: %s"
-msgstr ""
+msgstr "szum: %s"
 
 msgid "Parameter %s was fixed to 1."
-msgstr ""
+msgstr "Parametr %s został ustalony na 1."
 
 msgid "Weibull distribution"
-msgstr ""
+msgstr "rozkład Weibulla"
