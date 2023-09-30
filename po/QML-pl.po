@@ -1,10 +1,16 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-09-20 11:21+0000\n"
+"Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/pl/>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.1-dev\n"
 "X-Language: pl\n"
 "X-Qt-Contexts: true\n"
 
@@ -102,7 +108,7 @@ msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "P-P plot"
-msgstr ""
+msgstr "Wykres P-P"
 
 msgctxt "LDAssessFit|"
 msgid "Statistics"
@@ -726,7 +732,7 @@ msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "P-P plot"
-msgstr ""
+msgstr "Wykres P-P"
 
 msgctxt "LDgammaInverse|"
 msgid "Statistics"
@@ -858,7 +864,7 @@ msgstr "Pokaż rozkład"
 
 msgctxt "LDlognormal|"
 msgid "Log Mean:"
-msgstr ""
+msgstr "Log. średnia:"
 
 msgctxt "LDlognormal|"
 msgid "μ"
@@ -866,7 +872,7 @@ msgstr "μ"
 
 msgctxt "LDlognormal|"
 msgid "Log std. deviation:"
-msgstr ""
+msgstr "Log. odch. stand.:"
 
 msgctxt "LDlognormal|"
 msgid "σ"
@@ -1248,7 +1254,6 @@ msgctxt "LDbetaBinomial|"
 msgid "Fixed parameter"
 msgstr "Stałe parametry"
 
-#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Number of trials:"
 msgstr "Liczba prób:"
@@ -1715,7 +1720,7 @@ msgstr "K"
 
 msgctxt "LDhypergeometric|"
 msgid "Number of draws from the population:"
-msgstr ""
+msgstr "Liczba losowań z populacji:"
 
 msgctxt "LDhypergeometric|"
 msgid "n"
@@ -2423,7 +2428,7 @@ msgstr "b"
 
 msgctxt "LDtriangular|"
 msgid "Mode:"
-msgstr ""
+msgstr "Tryb:"
 
 msgctxt "LDtriangular|"
 msgid "c"
