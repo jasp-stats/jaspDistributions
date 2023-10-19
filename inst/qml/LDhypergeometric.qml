@@ -116,7 +116,7 @@ Form
 		histogramIsBarPlot		: true
 		allowOnlyScaleColumns	: false
 		suggestScaleColumns		: true
-		enabled					: mainWindow.dataAvailable
+		enabled					: dataSetInfo.dataAvailable
 	}
 
 }

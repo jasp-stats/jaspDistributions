@@ -69,10 +69,10 @@ Form
 	{
 		distributionName		: "Mixture Normal and Normal"
 		formula					: pi.label + " = " + pi.value + ", " + mu1.label + " = " + mu1.value + ", " + sigma1.label + " = " + sigma1.value + ", " + mu2.label + " = " + mu2.value + ", " + sigma2.label + " = " + sigma2.value
-		enabled					: mainWindow.dataAvailable
+		enabled					: dataSetInfo.dataAvailable
 	}
 
-	LD.LDEstimateParameters { enabled: mainWindow.dataAvailable }
+	LD.LDEstimateParameters { enabled: dataSetInfo.dataAvailable }
 
-	LD.LDAssessFit { enabled: mainWindow.dataAvailable }
+	LD.LDAssessFit { enabled: dataSetInfo.dataAvailable }
 }

@@ -66,10 +66,10 @@ Form
 	{
 		distributionName		: "Student's t"
 		formula					: df.label + " = " + df.value + ", " + location.label + " = " + location.value + ", " + scale.label + " = " + scale.value
-		enabled					: mainWindow.dataAvailable
+		enabled					: dataSetInfo.dataAvailable
 	}
 
-	LD.LDEstimateParameters { enabled: mainWindow.dataAvailable }
+	LD.LDEstimateParameters { enabled: dataSetInfo.dataAvailable }
 
-	LD.LDAssessFit { enabled: mainWindow.dataAvailable }
+	LD.LDAssessFit { enabled: dataSetInfo.dataAvailable }
 }

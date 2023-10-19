@@ -72,10 +72,10 @@ Form
 	{
 		distributionName		: "Mixture Normal and Uniform"
 		formula					: pi.label + " = " + pi.value + ", " + mu.label + " = " + mu.value + ", " + sigma.label + " = " + sigma.value + ", " + lowerBoundPar.label + " = " + lowerBoundPar.value + ", " + upperBoundPar.label + " = " + upperBoundPar.value
-		enabled					: mainWindow.dataAvailable
+		enabled					: dataSetInfo.dataAvailable
 	}
 
-	LD.LDEstimateParameters { enabled: mainWindow.dataAvailable }
+	LD.LDEstimateParameters { enabled: dataSetInfo.dataAvailable }
 
-	LD.LDAssessFit { enabled: mainWindow.dataAvailable }
+	LD.LDAssessFit { enabled: dataSetInfo.dataAvailable }
 }

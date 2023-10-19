@@ -71,10 +71,10 @@ Form
 	{
 		distributionName		: "f"
 		formula					: "df 1 = " + df1.value + ", df 2 = " + df2.value + ", ncp = " + ncp.value
-		enabled					: mainWindow.dataAvailable
+		enabled					: dataSetInfo.dataAvailable
 	}
 
-	LD.LDEstimateParameters { enabled: mainWindow.dataAvailable }
+	LD.LDEstimateParameters { enabled: dataSetInfo.dataAvailable }
 
-	LD.LDAssessFit { enabled: mainWindow.dataAvailable }
+	LD.LDAssessFit { enabled: dataSetInfo.dataAvailable }
 }

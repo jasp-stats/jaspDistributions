@@ -127,10 +127,10 @@ Form
 		histogramIsBarPlot		: true
 		allowOnlyScaleColumns	: false
 		suggestScaleColumns		: true
-		enabled					: mainWindow.dataAvailable
+		enabled					: dataSetInfo.dataAvailable
 	}
 
-	LD.LDEstimateParameters { enabled: mainWindow.dataAvailable }
+	LD.LDEstimateParameters { enabled: dataSetInfo.dataAvailable }
 
-	LD.LDAssessFit { enabled: mainWindow.dataAvailable; distributionType: "counts" }
+	LD.LDAssessFit { enabled: dataSetInfo.dataAvailable; distributionType: "counts" }
 }

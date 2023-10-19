@@ -96,10 +96,10 @@ Form
 	{
 		distributionName		: "Gamma"
 		formula					: par1.label + " = " + par1.value + ", " + par2.label + " = " + par2.value
-		enabled					: mainWindow.dataAvailable
+		enabled					: dataSetInfo.dataAvailable
 	}
 
-	LD.LDEstimateParameters { enabled: mainWindow.dataAvailable }
+	LD.LDEstimateParameters { enabled: dataSetInfo.dataAvailable }
 
-	LD.LDAssessFit { enabled: mainWindow.dataAvailable }
+	LD.LDAssessFit { enabled: dataSetInfo.dataAvailable }
 }
