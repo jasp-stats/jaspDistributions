@@ -82,10 +82,10 @@ Form
 	{
 		distributionName		: "Pareto"
 		formula					: shape.label + " = " + shape.value + ", " + scale.label + " = " + scale.value
-		enabled					: mainWindow.dataAvailable
+		enabled					: dataSetInfo.dataAvailable
 	}
 
-	LD.LDEstimateParameters { enabled: mainWindow.dataAvailable; includeSE: false; includeCI: false }
+	LD.LDEstimateParameters { enabled: dataSetInfo.dataAvailable; includeSE: false; includeCI: false }
 
-	LD.LDAssessFit { enabled: mainWindow.dataAvailable }
+	LD.LDAssessFit { enabled: dataSetInfo.dataAvailable }
 }

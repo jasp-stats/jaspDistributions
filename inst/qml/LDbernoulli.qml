@@ -90,10 +90,10 @@ Form
 		showCumulativeDistribution	: false
 		histogramIsBarPlot			: true
 		allowOnlyScaleColumns		: false
-		enabled						: mainWindow.dataAvailable
+		enabled						: dataSetInfo.dataAvailable
 	}
 
-	LD.LDEstimateParameters { enabled: mainWindow.dataAvailable }
+	LD.LDEstimateParameters { enabled: dataSetInfo.dataAvailable }
 
-	LD.LDAssessFit { enabled: mainWindow.dataAvailable; distributionType: "categorical" }
+	LD.LDAssessFit { enabled: dataSetInfo.dataAvailable; distributionType: "categorical" }
 }

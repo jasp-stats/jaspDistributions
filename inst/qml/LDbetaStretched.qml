@@ -73,10 +73,10 @@ Form
 	{
 		distributionName	: "Stretched Beta"
 		formula				: "α = " + alpha.value + ", β = " + beta.value + ", a = " + lowerBound.value + ", b = " + upperBound.value
-		enabled				: mainWindow.dataAvailable
+		enabled				: dataSetInfo.dataAvailable
 	}
 
-	LD.LDEstimateParameters { enabled: mainWindow.dataAvailable }
+	LD.LDEstimateParameters { enabled: dataSetInfo.dataAvailable }
 
-	LD.LDAssessFit { enabled: mainWindow.dataAvailable }
+	LD.LDAssessFit { enabled: dataSetInfo.dataAvailable }
 }

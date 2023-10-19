@@ -65,10 +65,10 @@ Form
 	{
 		distributionName	: "Beta prime"
 		formula				: "α = " + alpha.value + ", β = " + beta.value
-		enabled				: mainWindow.dataAvailable
+		enabled				: dataSetInfo.dataAvailable
 	}
 
-	LD.LDEstimateParameters { enabled: mainWindow.dataAvailable }
+	LD.LDEstimateParameters { enabled: dataSetInfo.dataAvailable }
 
-	LD.LDAssessFit { enabled: mainWindow.dataAvailable }
+	LD.LDAssessFit { enabled: dataSetInfo.dataAvailable }
 }

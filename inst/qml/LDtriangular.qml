@@ -61,10 +61,10 @@ Form
 	{
 		distributionName		: "Triangular"
 		formula					: a.label + " = " + a.value + ", " + b.label + " = " + b.value + ", " + c.label + " = " + c.value
-		enabled					: mainWindow.dataAvailable
+		enabled					: dataSetInfo.dataAvailable
 	}
 
-	LD.LDEstimateParameters { enabled: mainWindow.dataAvailable }
+	LD.LDEstimateParameters { enabled: dataSetInfo.dataAvailable }
 
-	LD.LDAssessFit { enabled: mainWindow.dataAvailable }
+	LD.LDAssessFit { enabled: dataSetInfo.dataAvailable }
 }

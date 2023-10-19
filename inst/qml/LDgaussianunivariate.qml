@@ -96,10 +96,10 @@ Form
 	{
 		distributionName		: "Normal"
 		formula					: mu.label + " = " + mu.value + ", " + varValue.label + " = " + varValue.value
-		enabled					: mainWindow.dataAvailable
+		enabled					: dataSetInfo.dataAvailable
 	}
 
-	LD.LDEstimateParameters { enabled: mainWindow.dataAvailable }
+	LD.LDEstimateParameters { enabled: dataSetInfo.dataAvailable }
 
-	LD.LDAssessFit{ enabled: mainWindow.dataAvailable; includeShapiroWilk: true }
+	LD.LDAssessFit{ enabled: dataSetInfo.dataAvailable; includeShapiroWilk: true }
 }

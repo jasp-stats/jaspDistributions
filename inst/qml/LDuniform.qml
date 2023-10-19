@@ -65,10 +65,10 @@ Form
 	{
 		distributionName	: "Uniform"
 		formula				: "a = " + lowerBound.value + ", b = " + upperBound.value
-		enabled				: mainWindow.dataAvailable
+		enabled				: dataSetInfo.dataAvailable
 	}
 
-	LD.LDEstimateParameters { enabled: mainWindow.dataAvailable; includeSE: false }
+	LD.LDEstimateParameters { enabled: dataSetInfo.dataAvailable; includeSE: false }
 
-	LD.LDAssessFit { enabled: mainWindow.dataAvailable }
+	LD.LDAssessFit { enabled: dataSetInfo.dataAvailable }
 }
