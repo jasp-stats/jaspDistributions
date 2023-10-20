@@ -113,7 +113,7 @@ LDmixtureNormalUniformInternal <- function(jaspResults, dataset, options, state=
   res <- results$structured
   res$parName <- par
 
-  table$addFootnote(gettextf("Parameter a was fixed at value %s, parameter b was fixed at value %s.", options$fix.pars[1], options$fix.pars[2]))
+  table$addFootnote(gettextf("Parameter a was fixed at value %1$s, parameter b was fixed at value %2$s.", options$fix.pars[1], options$fix.pars[2]))
   if(results$fitdist$convergence != 0){
     table$addFootnote(gettext("The optimization did not converge, try adjusting the parameter values."), symbol = gettext("<i>Warning.</i>"))
   }

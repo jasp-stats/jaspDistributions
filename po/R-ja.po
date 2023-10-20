@@ -634,8 +634,8 @@ msgstr "一様分布の最小値: %s"
 msgid "maximum of uniform distribution: %s"
 msgstr "一様分布の最大値: %s"
 
-msgid "Parameter a was fixed at value %s, parameter b was fixed at value %s."
-msgstr "パラメータ a は値 %s に固定されており、パラメータ b は値 %s に固定されています."
+msgid "Parameter a was fixed at value %1$s, parameter b was fixed at value %2$s."
+msgstr "パラメータ a は値 %1$s に固定されており、パラメータ b は値 %2$s に固定されています."
 
 msgid "negative binomial distribution"
 msgstr "負の二項分布"

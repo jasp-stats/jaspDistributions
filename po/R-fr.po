@@ -574,7 +574,7 @@ msgstr ""
 msgid "maximum of uniform distribution: %s"
 msgstr ""
 
-msgid "Parameter a was fixed at value %s, parameter b was fixed at value %s."
+msgid "Parameter a was fixed at value %1$s, parameter b was fixed at value %2$s."
 msgstr ""
 
 msgid "negative binomial distribution"

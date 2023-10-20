@@ -662,10 +662,10 @@ msgstr "Mínimo de la distribución Uniforme: %s"
 msgid "maximum of uniform distribution: %s"
 msgstr "Máximo de la distribución Uniforme: %s"
 
-msgid "Parameter a was fixed at value %s, parameter b was fixed at value %s."
+msgid "Parameter a was fixed at value %1$s, parameter b was fixed at value %2$s."
 msgstr ""
-"El parámetro a se fijó con el valor %s, y el parámetro b se fijó con el "
-"valor %s."
+"El parámetro a se fijó con el valor %1$s, y el parámetro b se fijó con el "
+"valor %2$s."
 
 msgid "negative binomial distribution"
 msgstr "Distribución Binomial Negativa"
