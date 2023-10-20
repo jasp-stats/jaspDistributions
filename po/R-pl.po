@@ -223,10 +223,10 @@ msgstr ""
 msgid "Parameters, Support, and Moments"
 msgstr ""
 
-msgid "<b>Parameters</b>\n      %s\n\n      <b>Support</b>\n      %s\n\n      <b>Moments</b>\n      E(X) = %s\n      Var(X) = %s"
+msgid "<b>Parameters</b>\n      %1$s\n\n      <b>Support</b>\n      %2$s\n\n      <b>Moments</b>\n      E(X) = %3$s\n      Var(X) = %4$s"
 msgstr ""
 
-msgid "<b>Parameters</b>\n      %s\n\n      <b>Support</b>\n      %s\n\n      <b>Moments</b>\n      not available"
+msgid "<b>Parameters</b>\n      %1$s\n\n      <b>Support</b>\n      %2$s\n\n      <b>Moments</b>\n      not available"
 msgstr ""
 
 msgid "The probability density function (PDF), usually denoted as f(x), is a function of a random variable X.\n    The value of f(x) provides the relative likelihood that a realization of the random variable X yields a value equal to x.\n    More formally, the PDF is defined as a derivative of a cumulative distribution function (CDF).\n\n    The density plot displays the probability density function of a random variable.\n    The <i>y</i>-axis displays the value of the density function for a particular value of the random variable (displayed on the <i>x</i>-axis)."
@@ -346,9 +346,9 @@ msgstr "Rozkład Frécheta"
 msgid "location: %s"
 msgstr ""
 
-msgid "see Wikipedia: https://en.wikipedia.org/wiki/Fr%C3%A9chet_distribution"
+msgid "see Wikipedia: https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution"
 msgstr ""
-"zobacz na Wikipedii: https://en.wikipedia.org/wiki/Fr%C3%A9chet_distribution"
+"zobacz na Wikipedii: https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution"
 
 msgid "gamma distribution"
 msgstr "rozkład gamma"
@@ -395,10 +395,10 @@ msgstr ""
 msgid "Gompertz distribution"
 msgstr "rozkład Gompertza"
 
-msgid "shape: %s \nscale: %s"
+msgid "shape: %1$s \nscale: %2$s"
 msgstr ""
-"kształt: %s \n"
-"skala: %s"
+"kształt: %1$s \n"
+"skala: %2$s"
 
 msgid "Gumbel distribution"
 msgstr "rozkład Gumbela"

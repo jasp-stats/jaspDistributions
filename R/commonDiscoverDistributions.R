@@ -1567,21 +1567,21 @@ gettextf <- function(fmt, ..., domain = NULL)  {
   if(all(!is.na(moments))){
     text <- gettextf(
       "<b>Parameters</b>
-      %s
+      %1$s
 
       <b>Support</b>
-      %s
+      %2$s
 
       <b>Moments</b>
-      E(X) = %s
-      Var(X) = %s", paste(pars, collapse = " \n "), support, moments[[1]], moments[[2]])
+      E(X) = %3$s
+      Var(X) = %4$s", paste(pars, collapse = " \n "), support, moments[[1]], moments[[2]])
   } else{
     text <- gettextf(
       "<b>Parameters</b>
-      %s
+      %1$s
 
       <b>Support</b>
-      %s
+      %2$s
 
       <b>Moments</b>
       not available", paste(pars, collapse = " \n "), support)
