@@ -78,7 +78,7 @@ LDparetoInternal <- function(jaspResults, dataset, options, state=NULL){
 .ldParetoParsSupportMoments <- function(jaspResults, options){
   if(options$parsSupportMoments && is.null(jaspResults[['parsSupportMoments']])){
     pars <- list()
-    pars[[1]] <- gettextf("shape: %s \nscale: %s", "k \u2208 \u211D<sup>+</sup>", "&lambda; \u2208 \u211D<sup>+</sup>")
+    pars[[1]] <- gettextf("shape: %1$s \nscale: %2$s", "k \u2208 \u211D<sup>+</sup>", "&lambda; \u2208 \u211D<sup>+</sup>")
 
     support <- "x \u2208 \u211D<sup>+</sup>"
 

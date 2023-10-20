@@ -83,8 +83,8 @@ LDfrechetInternal <- function(jaspResults, dataset, options, state=NULL){
     support <- "x \u2208 \u211D; x > &mu;"
 
     moments <- list()
-    moments$expectation <- gettext("see Wikipedia: https://en.wikipedia.org/wiki/Fr%C3%A9chet_distribution")
-    moments$variance <- gettext("see Wikipedia: https://en.wikipedia.org/wiki/Fr%C3%A9chet_distribution")
+    moments$expectation <- gettextf("see Wikipedia: https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution")
+    moments$variance <- gettextf("see Wikipedia: https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution")
 
     jaspResults[['parsSupportMoments']] <- .ldParsSupportMoments(pars, support, moments)
   }

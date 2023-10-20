@@ -77,13 +77,13 @@ LDgompertzInternal <- function(jaspResults, dataset, options, state=NULL){
 .ldGompertzParsSupportMoments <- function(jaspResults, options){
   if(options$parsSupportMoments && is.null(jaspResults[['parsSupportMoments']])){
     pars <- list()
-    pars[[1]] <- gettextf("shape: %s \nscale: %s", "\u03B7 \u2208 \u211D<sup>+</sup>", "b \u2208 \u211D<sup>+</sup>")
+    pars[[1]] <- gettextf("shape: %1$s \nscale: %2$s", "\u03B7 \u2208 \u211D<sup>+</sup>", "b \u2208 \u211D<sup>+</sup>")
 
     support <- "x \u2208 \u211D<sup>+</sup>"
 
     moments <- list()
-    moments$expectation <- "see Wikipedia: https://en.wikipedia.org/wiki/Gompertz_distribution"
-    moments$variance <- "see Wikipedia: https://en.wikipedia.org/wiki/Gompertz_distribution"
+    moments$expectation <- gettextf("see Wikipedia: %s", "https://en.wikipedia.org/wiki/Gompertz_distribution")
+    moments$variance <- gettextf("see Wikipedia: %s", "https://en.wikipedia.org/wiki/Gompertz_distribution")
 
     jaspResults[['parsSupportMoments']] <- .ldParsSupportMoments(pars, support, moments)
   }
