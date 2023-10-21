@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.3.0\n"
-"POT-Creation-Date: 2022-10-08 03:25\n"
+"POT-Creation-Date: 2023-10-21 02:57\n"
 "PO-Revision-Date: 2023-05-08 10:16+0000\n"
 "Last-Translator: Josée Turcotte <jturcotte@laurentienne.ca>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/jasp/"
@@ -438,7 +438,8 @@ msgstr ""
 msgid "location: %s"
 msgstr ""
 
-msgid "see Wikipedia: https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution"
+msgid ""
+"see Wikipedia: https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution"
 msgstr ""
 
 msgid "gamma distribution"
@@ -489,6 +490,9 @@ msgstr ""
 msgid ""
 "shape: %1$s \n"
 "scale: %2$s"
+msgstr ""
+
+msgid "see Wikipedia: %s"
 msgstr ""
 
 msgid "Gumbel distribution"
@@ -574,7 +578,8 @@ msgstr ""
 msgid "maximum of uniform distribution: %s"
 msgstr ""
 
-msgid "Parameter a was fixed at value %1$s, parameter b was fixed at value %2$s."
+msgid ""
+"Parameter a was fixed at value %1$s, parameter b was fixed at value %2$s."
 msgstr ""
 
 msgid "negative binomial distribution"

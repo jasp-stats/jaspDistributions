@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.18.1\n"
-"POT-Creation-Date: 2023-10-07 02:57\n"
+"POT-Creation-Date: 2023-10-21 02:57\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -389,6 +389,9 @@ msgid "Gompertz distribution"
 msgstr ""
 
 msgid "shape: %1$s \nscale: %2$s"
+msgstr ""
+
+msgid "see Wikipedia: %s"
 msgstr ""
 
 msgid "Gumbel distribution"
