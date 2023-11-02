@@ -15,12 +15,6 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-# This is a temporary fix
-# TODO: remove it when R will solve this problem!
-gettextf <- function(fmt, ..., domain = NULL)  {
-  return(sprintf(gettext(fmt, domain = domain), ...))
-}
-
 ### Summary stats for distributions module ----
 .simulateData <- function(jaspResults, options, as = "scale", sampleSizeName = "n"){
   if(is.null(jaspResults[['simdata']])){
@@ -31,14 +25,18 @@ gettextf <- function(fmt, ..., domain = NULL)  {
     jaspResults[['simdata']] <- createJaspState(sample)
     jaspResults[['simdata']]$dependOn(c("newVariableName", "simulateNow"))
 
-    if(as == "scale"){
-      .setColumnDataAsScale  (options[["newVariableName"]], sample)
-    } else if(as == "ordinal"){
-      .setColumnDataAsOrdinal(options[["newVariableName"]], sample)
-    } else{
-      .setColumnDataAsNominal(options[["newVariableName"]], sample)
-    }
+    if(options[["newVariableName"]] != "")
+    {
+      jaspResults[['sampleColumn']] <- createJaspColumn(options[["newVariableName"]])
+      
+      didItWork <- switch(as,
+      scale=  jaspResults[['sampleColumn']]$setScale(  sample),
+      ordinal=jaspResults[['sampleColumn']]$setOrdinal(sample),
+              jaspResults[['sampleColumn']]$setNominal(sample))
 
+      if(!didItWork) 
+        jaspResults[['sampleColumnError']] <- createJaspHtml(text=gettextf("Could not write to column '%s', probably because it wasn't created by this analysis", options[["newVariableName"]]), elementType="errorMsg", dependencies="newVariableName")
+    }
   }
 
   return()
