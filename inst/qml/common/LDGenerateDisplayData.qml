@@ -44,7 +44,12 @@ Section
 			id: simulateNowButton
 			name: "simulateNowButton"
 			label: qsTr("Draw samples")
-			onClicked: if (simulateNow.checked) simulateNow.checked = false; else simulateNow.checked = true
+			onClicked:
+			{
+				simulateNowButton.forceActiveFocus();
+				simulateNow.checked = !simulateNow.checked
+
+			}
 		}
 		CheckBox { name: "simulateNow"; visible: false; id: simulateNow }
 	}
