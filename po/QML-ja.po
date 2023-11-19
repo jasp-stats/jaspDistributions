@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-11-20 23:00+0000\n"
+"Last-Translator: Daiki Hojo <dhojo.bayes@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.2\n"
 "X-Language: ja\n"
 "X-Qt-Contexts: true\n"
 
@@ -2803,7 +2809,6 @@ msgctxt "Description|"
 msgid "Visualize distributions and fit them to data"
 msgstr "分布の可視化とデータへの適合"
 
-#, fuzzy
 msgctxt "LDAssessFit|"
 msgid "Confidence interval"
 msgstr "信頼区間"
