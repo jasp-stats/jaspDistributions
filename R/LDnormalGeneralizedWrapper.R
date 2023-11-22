@@ -19,7 +19,7 @@
 
 LDnormalGeneralized <- function(
           data = NULL,
-          version = "0.17.1",
+          version = "0.18.2",
           alpha = 1,
           andersonDarling = FALSE,
           beta = 2,

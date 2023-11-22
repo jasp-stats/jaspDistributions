@@ -19,7 +19,7 @@
 
 LDgeometric <- function(
           data = NULL,
-          version = "0.17.1",
+          version = "0.18.2",
           chiSquare = FALSE,
           ciInterval = FALSE,
           ciIntervalInterval = 0.95,

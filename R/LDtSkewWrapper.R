@@ -19,7 +19,7 @@
 
 LDtSkew <- function(
           data = NULL,
-          version = "0.17.1",
+          version = "0.18.2",
           alpha = 0,
           andersonDarling = FALSE,
           ciInterval = FALSE,

@@ -19,7 +19,7 @@
 
 LDbetaBinomial <- function(
           data = NULL,
-          version = "0.17.1",
+          version = "0.18.2",
           alpha = 1,
           beta = 1,
           chiSquare = FALSE,
@@ -34,7 +34,7 @@ LDbetaBinomial <- function(
           highlightProbability = FALSE,
           histogram = FALSE,
           histogramBins = 30,
-          max = 0,
+          max = 10,
           max_x = 10,
           methodMLE = FALSE,
           min = 0,

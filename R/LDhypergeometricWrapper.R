@@ -19,7 +19,7 @@
 
 LDhypergeometric <- function(
           data = NULL,
-          version = "0.17.1",
+          version = "0.18.2",
           draws = 5,
           ecdf = FALSE,
           explanatoryText = FALSE,
