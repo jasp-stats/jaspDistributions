@@ -19,7 +19,7 @@
 
 LDbinomial <- function(
           data = NULL,
-          version = "0.17.1",
+          version = "0.18.2",
           chiSquare = FALSE,
           ciInterval = FALSE,
           ciIntervalInterval = 0.95,
@@ -32,8 +32,8 @@ LDbinomial <- function(
           highlightProbability = FALSE,
           histogram = FALSE,
           histogramBins = 30,
-          max = 0,
-          max_x = nan,
+          max = 10,
+          max_x = 10,
           methodMLE = FALSE,
           min = 0,
           min_x = 0,

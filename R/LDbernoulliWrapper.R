@@ -19,7 +19,7 @@
 
 LDbernoulli <- function(
           data = NULL,
-          version = "0.17.1",
+          version = "0.18.2",
           ciInterval = FALSE,
           ciIntervalInterval = 0.95,
           ecdf = FALSE,
