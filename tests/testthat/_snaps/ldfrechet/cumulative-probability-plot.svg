@@ -18,7 +18,7 @@
   </clipPath>
 </defs>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw1NzYuMDA=)'>
-<rect x='-0.000000000000064' y='0.00' width='720.00' height='576.00' style='stroke-width: 10.67; stroke: none;' />
+<rect x='0.00' y='0.00' width='720.00' height='576.00' style='stroke-width: 10.67; stroke: none;' />
 </g>
 <defs>
   <clipPath id='cpOTAuOTZ8NzIwLjAwfDIwLjcxfDUwNy4wOQ=='>
@@ -77,17 +77,17 @@
 <text transform='translate(23.83,219.94) rotate(-90)' style='font-size: 20.40px; font-family: sans;' textLength='15.85px' lengthAdjust='spacingAndGlyphs'>≤</text>
 <text transform='translate(23.83,199.37) rotate(-90)' style='font-size: 20.40px; font-family: sans;' textLength='10.21px' lengthAdjust='spacingAndGlyphs'>x</text>
 <text transform='translate(23.83,189.16) rotate(-90)' style='font-size: 25.50px; font-family: sans;' textLength='8.48px' lengthAdjust='spacingAndGlyphs'>)</text>
-<rect x='585.21' y='312.54' width='80.86' height='91.35' style='stroke-width: 0.75; stroke: none;' />
-<rect x='585.21' y='312.54' width='80.86' height='91.35' style='stroke-width: 10.67; stroke: none;' />
+<rect x='586.71' y='312.54' width='77.87' height='88.36' style='stroke-width: 0.75; stroke: none;' />
+<rect x='586.71' y='312.54' width='77.87' height='88.36' style='stroke-width: 10.67; stroke: none;' />
 <text x='625.64' y='331.48' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='43.48px' lengthAdjust='spacingAndGlyphs'>Slope</text>
-<rect x='590.69' y='341.72' width='28.35' height='28.35' style='stroke-width: 10.67; stroke: none;' />
-<line x1='590.69' y1='370.06' x2='619.04' y2='341.72' style='stroke-width: 2.13; stroke: #1B9E77; stroke-linecap: butt;' />
-<circle cx='604.86' cy='355.89' r='5.69' style='stroke-width: 0.71; stroke: #1B9E77; fill: #BEBEBE;' />
-<rect x='590.69' y='370.06' width='28.35' height='28.35' style='stroke-width: 10.67; stroke: none;' />
-<line x1='590.69' y1='398.41' x2='619.04' y2='370.06' style='stroke-width: 2.13; stroke: #666666; stroke-linecap: butt;' />
-<circle cx='604.86' cy='384.24' r='5.69' style='stroke-width: 0.71; stroke: #666666; fill: #BEBEBE;' />
-<text x='627.51' y='361.74' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>0</text>
-<text x='627.51' y='390.09' style='font-size: 17.00px; font-family: sans;' textLength='33.09px' lengthAdjust='spacingAndGlyphs'>0.64</text>
+<rect x='592.19' y='338.73' width='28.35' height='28.35' style='stroke-width: 10.67; stroke: none;' />
+<line x1='592.19' y1='367.07' x2='620.53' y2='338.73' style='stroke-width: 2.13; stroke: #1B9E77; stroke-linecap: butt;' />
+<circle cx='606.36' cy='352.90' r='5.69' style='stroke-width: 0.71; stroke: #1B9E77; fill: #BEBEBE;' />
+<rect x='592.19' y='367.07' width='28.35' height='28.35' style='stroke-width: 10.67; stroke: none;' />
+<line x1='592.19' y1='395.42' x2='620.53' y2='367.07' style='stroke-width: 2.13; stroke: #666666; stroke-linecap: butt;' />
+<circle cx='606.36' cy='381.25' r='5.69' style='stroke-width: 0.71; stroke: #666666; fill: #BEBEBE;' />
+<text x='626.01' y='358.75' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='626.01' y='387.10' style='font-size: 17.00px; font-family: sans;' textLength='33.09px' lengthAdjust='spacingAndGlyphs'>0.64</text>
 <text x='405.48' y='11.70' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='197.49px' lengthAdjust='spacingAndGlyphs'>cumulative-probability-plot</text>
 </g>
 </svg>
