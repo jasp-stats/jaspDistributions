@@ -1,10 +1,16 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-03-07 11:01+0000\n"
+"Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/pl/>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.5-dev\n"
 "X-Language: pl\n"
 "X-Qt-Contexts: true\n"
 
@@ -298,7 +304,7 @@ msgstr "Formuły"
 
 msgctxt "LDbernoulli|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "Funkcja masy prawdopodobieństwa"
 
 msgctxt "LDbernoulli|"
 msgid "Cumulative distribution function"
@@ -314,7 +320,7 @@ msgstr "Oznacz"
 
 msgctxt "LDbernoulli|"
 msgid "Mass"
-msgstr ""
+msgstr "Masa"
 
 msgctxt "LDbernoulli|"
 msgid "Cumulative Probability"
@@ -418,7 +424,7 @@ msgstr "Formuły"
 
 msgctxt "LDbinomial|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "Funkcja masy prawdopodobieństwa"
 
 msgctxt "LDbinomial|"
 msgid "Cumulative distribution function"
@@ -442,7 +448,7 @@ msgstr "Oznacz"
 
 msgctxt "LDbinomial|"
 msgid "Mass"
-msgstr ""
+msgstr "Masa"
 
 msgctxt "LDbinomial|"
 msgid "Cumulative Probability"
@@ -942,7 +948,7 @@ msgstr "Formuły"
 
 msgctxt "LDnegbinomial|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "Funkcja masy prawdopodobieństwa"
 
 msgctxt "LDnegbinomial|"
 msgid "Cumulative distribution function"
@@ -966,7 +972,7 @@ msgstr "Oznacz"
 
 msgctxt "LDnegbinomial|"
 msgid "Mass"
-msgstr ""
+msgstr "Masa"
 
 msgctxt "LDnegbinomial|"
 msgid "Cumulative Probability"
@@ -1014,7 +1020,7 @@ msgstr "Formuły"
 
 msgctxt "LDpoisson|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "Funkcja masy prawdopodobieństwa"
 
 msgctxt "LDpoisson|"
 msgid "Cumulative distribution function"
@@ -1038,7 +1044,7 @@ msgstr "Oznacz"
 
 msgctxt "LDpoisson|"
 msgid "Mass"
-msgstr ""
+msgstr "Masa"
 
 msgctxt "LDpoisson|"
 msgid "Cumulative Probability"
@@ -1274,7 +1280,7 @@ msgstr "Formuły"
 
 msgctxt "LDbetaBinomial|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "Funkcja masy prawdopodobieństwa"
 
 msgctxt "LDbetaBinomial|"
 msgid "Cumulative distribution function"
@@ -1298,7 +1304,7 @@ msgstr "Oznacz"
 
 msgctxt "LDbetaBinomial|"
 msgid "Mass"
-msgstr ""
+msgstr "Masa"
 
 msgctxt "LDbetaBinomial|"
 msgid "Cumulative Probability"
@@ -1566,7 +1572,7 @@ msgstr "Formuły"
 
 msgctxt "LDgeometric|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "Funkcja masy prawdopodobieństwa"
 
 msgctxt "LDgeometric|"
 msgid "Cumulative distribution function"
@@ -1590,7 +1596,7 @@ msgstr "Oznacz"
 
 msgctxt "LDgeometric|"
 msgid "Mass"
-msgstr ""
+msgstr "Masa"
 
 msgctxt "LDgeometric|"
 msgid "Cumulative Probability"
@@ -1738,7 +1744,7 @@ msgstr "Formuły"
 
 msgctxt "LDhypergeometric|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "Funkcja masy prawdopodobieństwa"
 
 msgctxt "LDhypergeometric|"
 msgid "Cumulative distribution function"
@@ -1762,7 +1768,7 @@ msgstr "Oznacz"
 
 msgctxt "LDhypergeometric|"
 msgid "Mass"
-msgstr ""
+msgstr "Masa"
 
 msgctxt "LDhypergeometric|"
 msgid "Cumulative Probability"
@@ -2078,7 +2084,7 @@ msgstr "Formuły"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "Funkcja masy prawdopodobieństwa"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Cumulative distribution function"
@@ -2102,7 +2108,7 @@ msgstr "Oznacz"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Mass"
-msgstr ""
+msgstr "Masa"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Cumulative Probability"
@@ -2310,7 +2316,7 @@ msgstr "Formuły"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "Funkcja masy prawdopodobieństwa"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Cumulative distribution function"
@@ -2334,7 +2340,7 @@ msgstr "Oznacz"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Mass"
-msgstr ""
+msgstr "Masa"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Cumulative Probability"
