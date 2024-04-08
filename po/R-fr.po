@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.3.0\n"
 "POT-Creation-Date: 2023-11-18 02:58\n"
-"PO-Revision-Date: 2024-01-21 19:01+0000\n"
+"PO-Revision-Date: 2024-04-09 13:34+0000\n"
 "Last-Translator: robachowyk <kaya.robach@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/fr/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 msgid ""
 "Could not write to column '%s', probably because it wasn't created by this "
@@ -77,9 +77,8 @@ msgid "Observed Moments"
 msgstr ""
 
 msgid "Moment"
-msgstr ""
+msgstr "Moment"
 
-#, fuzzy
 msgid "Raw"
 msgstr "Brut"
 
