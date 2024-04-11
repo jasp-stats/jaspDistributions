@@ -2,67 +2,74 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.18.3\n"
 "POT-Creation-Date: 2024-01-13 02:57\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-04-11 15:17+0000\n"
+"Last-Translator: federicapicogna <picognafederica@gmail.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-r/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 msgid "Could not write to column '%s', probably because it wasn't created by this analysis"
 msgstr ""
 
 msgid "The following problem(s) occurred while running the analysis:<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
 msgstr ""
+"Il(I) seguente(i) problema(i) è(sono) avvenuto(i) durante l'esecuzione "
+"dell'analisi:<ul><li>La variable deve essere discreta (cioè un numero "
+"intero)</li></ul>"
 
 msgid "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
 msgstr ""
+"<ul><li>La variable deve essere discreta (cioè, un numero intero )</li></ul>"
 
 msgid "Overview - %s"
-msgstr ""
+msgstr "Panoramica - %"
 
 msgid "Descriptives"
 msgstr ""
 
 msgid "Variable"
-msgstr ""
+msgstr "Variabile"
 
 msgid "n"
-msgstr ""
+msgstr "n"
 
 msgid "Mean"
-msgstr ""
+msgstr "Media"
 
 msgid "Variance"
-msgstr ""
+msgstr "Varianza"
 
 msgid "Std. deviation"
-msgstr ""
+msgstr "Deviazione std."
 
 msgid "Minimum"
-msgstr ""
+msgstr "Minimo"
 
 msgid "25%% Quantile"
-msgstr ""
+msgstr "25%% Quantile"
 
 msgid "Median"
-msgstr ""
+msgstr "Mediana"
 
 msgid "75%% Quantile"
-msgstr ""
+msgstr "75%% Quantile"
 
 msgid "Maximum"
-msgstr ""
+msgstr "Massimo"
 
 msgid "Rel. Frequency"
 msgstr ""
 
 msgid "Total"
-msgstr ""
+msgstr "Totale"
 
 msgid "Observed Moments"
-msgstr ""
+msgstr "Momenti osservati"
 
 msgid "Moment"
 msgstr ""
@@ -71,46 +78,50 @@ msgid "Raw"
 msgstr ""
 
 msgid "Central"
-msgstr ""
+msgstr "Centrale"
 
 msgid "Estimated Parameters"
-msgstr ""
+msgstr "Parametri stimati"
 
 msgid "Parameter"
-msgstr ""
+msgstr "Parametro"
 
 msgid "Estimate"
-msgstr ""
+msgstr "Stima"
 
 msgid "SE"
-msgstr ""
+msgstr "SE"
 
 msgid "Standard errors are unavailable with this method"
-msgstr ""
+msgstr "Gli errori standard non sono disponibili con questo metodo"
 
 msgid "Lower"
-msgstr ""
+msgstr "Inferiore"
 
 msgid "%s%% CI"
 msgstr ""
 
 msgid "Upper"
-msgstr ""
+msgstr "Superiore"
 
 msgid "Confidence intervals are unavailable with this method."
-msgstr ""
+msgstr "Gli intervalli di confidenza non sono disponibili con questo metodo."
 
 msgid "Confidence intervals were calculated using the delta method."
 msgstr ""
+"Gli intervalli di confidenza sono stati calcolati utilizzando il metodo "
+"delta."
 
 msgid "Standard errors were calculated using the delta method."
-msgstr ""
+msgstr "Gli errori standard sono stati calcolati utilizzando il metodo delta."
 
 msgid "Standard errors and confidence intervals were calculated using the delta method."
 msgstr ""
+"Gli errori standard e gli intervalli di confidenza sono stati calcolati "
+"utilizzando il metodo delta."
 
 msgid "Maximum likelihood"
-msgstr ""
+msgstr "Massima verosimiglianza"
 
 msgid "Fit Assessment"
 msgstr ""
@@ -125,22 +136,23 @@ msgid "Statistic"
 msgstr ""
 
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgid "Kolmogorov-Smirnov"
-msgstr ""
+msgstr "Kolmogorov-Smirnov"
 
 msgid "Cramér-von Mises"
-msgstr ""
+msgstr "Cramér-von Mises"
 
 msgid "Anderson-Darling"
-msgstr ""
+msgstr "Anderson-Darling"
 
 msgid "Shapiro-Wilk"
-msgstr ""
+msgstr "Shapiro-Wilk"
 
+#, fuzzy
 msgid "Chi-square"
-msgstr ""
+msgstr "Chi-quadrato"
 
 msgid "Histogram vs. Theoretical PDF"
 msgstr ""
@@ -149,82 +161,104 @@ msgid "Histogram vs. Theoretical PMF"
 msgstr ""
 
 msgid "Q-Q plot"
-msgstr ""
+msgstr "Q-Q Plot"
 
 msgid "Empirical vs. Theoretical CDF"
 msgstr ""
 
 msgid "P-P plot"
-msgstr ""
+msgstr "P-P Plot"
 
 msgid "Sample"
-msgstr ""
+msgstr "Campione"
 
+#, fuzzy
 msgid "Theoretical"
-msgstr ""
+msgstr "Teoretici"
 
 msgid "Density"
-msgstr ""
+msgstr "Densità"
 
 msgid "Probability Mass"
 msgstr ""
 
 msgid "Probability"
-msgstr ""
+msgstr "Probabilità"
 
 msgid "Probability Density Function"
-msgstr ""
+msgstr "Funzione di densità di probabilità"
 
 msgid "Probability Mass Function"
-msgstr ""
+msgstr "Funzione (di massa) di probabilità"
 
+#, fuzzy
 msgid "Cumulative Distribution Function"
-msgstr ""
+msgstr "Funzione di ripartizione (funzione di distribuzione cumulativa)"
 
 msgid "Quantile Function"
-msgstr ""
+msgstr "Funzione quantilica"
 
+#, fuzzy
 msgid "Formula"
-msgstr ""
+msgstr "Formula"
 
 msgid "Density Plot"
-msgstr ""
+msgstr "Grafico della Densità"
 
+#, fuzzy
 msgid "Cumulative Probability Plot"
-msgstr ""
+msgstr "Grafico della Probabilità Cumulativa"
 
 msgid "Slope"
-msgstr ""
+msgstr "Pendenza"
 
 msgid "Quantile Plot"
-msgstr ""
+msgstr "Grafico dei quantili"
 
 msgid "Probability Mass Plot"
 msgstr ""
 
 msgid "Histogram"
-msgstr ""
+msgstr "Istogramma"
 
 msgid "Bar plot"
-msgstr ""
+msgstr "Grafico a barre"
 
 msgid "Rel. Freq (%s in bin)"
 msgstr ""
 
+#, fuzzy
 msgid "Empirical Cumulative Distribution"
-msgstr ""
+msgstr "Distribuzione cumulativa empirica"
 
 msgid "Freq"
-msgstr ""
+msgstr "Freq."
 
 msgid "Parameters, Support, and Moments"
-msgstr ""
+msgstr "Parametri, Supporto e Momenti"
 
 msgid "<b>Parameters</b>\n      %1$s\n\n      <b>Support</b>\n      %2$s\n\n      <b>Moments</b>\n      E(X) = %3$s\n      Var(X) = %4$s"
 msgstr ""
+"<b>Parametri</b>\n"
+"%1$\n"
+"\n"
+"<b> Supporto</b>\n"
+"%2$\n"
+"\n"
+"<b>Momenti</b>\n"
+"E(X) = %3$\n"
+"Var(X) = %4$"
 
 msgid "<b>Parameters</b>\n      %1$s\n\n      <b>Support</b>\n      %2$s\n\n      <b>Moments</b>\n      not available"
 msgstr ""
+"<b>Parametri</b>\n"
+"%1$\n"
+"\n"
+"<b> Supporto</b>\n"
+"%2$\n"
+"\n"
+"<b>Momenti</b>\n"
+"non disponibile"
 
 msgid "The probability density function (PDF), usually denoted as f(x), is a function of a random variable X.\n    The value of f(x) provides the relative likelihood that a realization of the random variable X yields a value equal to x.\n    More formally, the PDF is defined as a derivative of a cumulative distribution function (CDF).\n\n    The density plot displays the probability density function of a random variable.\n    The <i>y</i>-axis displays the value of the density function for a particular value of the random variable (displayed on the <i>x</i>-axis)."
 msgstr ""
@@ -248,7 +282,7 @@ msgid "Estimation failed: Hessian matrix is not numerically computable. <ul><li>
 msgstr ""
 
 msgid "Amoroso distribution"
-msgstr ""
+msgstr "Distribuzione di Amoroso"
 
 msgid "location: a %s"
 msgstr ""
@@ -259,53 +293,60 @@ msgstr ""
 msgid "shape: %s"
 msgstr ""
 
+#, fuzzy
 msgid "The optimization did not converge, try adjusting the parameter values."
 msgstr ""
+"La convergenza dell'ottimizzazione non è stata raggiunta. Prova a regolare i "
+"valori dei parametri."
 
 msgid "<i>Warning.</i>"
 msgstr ""
 
 msgid "Scale parameter %s is assumed positive."
-msgstr ""
+msgstr "Il parametro di scala %s è assunto positivo."
 
 msgid "Scale parameter %s is assumed negative."
-msgstr ""
+msgstr "Il parametro di scala %s è assunto negativo."
 
+#, fuzzy
 msgid "Bernoulli distribution"
-msgstr ""
+msgstr "Distribuzione di Bernoulli"
 
 msgid "probability of success: p %1$s %2$s: 0 %3$s p %4$s 1"
-msgstr ""
+msgstr "probabilità di successo: p %1$s %2$s: 0 %3$s p %4$s 1"
 
+#, fuzzy
 msgid "x %s {0, 1}"
-msgstr ""
+msgstr "x % {0, 1}"
 
 msgid "p(1-p)"
-msgstr ""
+msgstr "p(1-p)"
 
 msgid "beta distribution"
-msgstr ""
+msgstr "distribuzione Beta"
 
 msgid "beta-binomial distribution"
-msgstr ""
+msgstr "distribuzione Beta-binomiale"
 
 msgid "number of trials: %s"
-msgstr ""
+msgstr "numero di tentativi: %"
 
+#, fuzzy
 msgid "Parameter n was fixed at value %s."
-msgstr ""
+msgstr "Il parametro n è stato fissato al valore %."
 
 msgid "beta prime distribution"
 msgstr ""
 
+#, fuzzy
 msgid "lower bound: %s"
-msgstr ""
+msgstr "limite inferiore: %s"
 
 msgid "upper bound: %s"
 msgstr ""
 
 msgid "binomial distribution"
-msgstr ""
+msgstr "distribuzione binomiale"
 
 msgid "probability of success: %s"
 msgstr ""
