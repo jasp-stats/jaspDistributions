@@ -34,6 +34,7 @@ Section
         {
             name:  distributionType === "continuous" ? "estPDF" : "estPMF";
             label: distributionType === "continuous" ? qsTr("Histogram vs. theoretical pdf") : qsTr("Histogram vs. theoretical pmf")
+			info: qsTr("Displays a histogram of the selected variable overlayed with the probability density function of the fitted distribution")
         }
         CheckBox
         {
@@ -45,10 +46,16 @@ Section
                 label:              qsTr("Confidence interval")
                 childrenOnSameRow:  true
                 visible:            distributionType === "continuous"
+				info:				visible ? qsTr("Displays the quantile-quantile plot. The *x*-axis shows the theoretical quantiles of the data points under the fitted distribution, the *y*-axis shows the empirical quantiles of the selected variable.") : ""
                 CIField{ name: "qqPlotCiLevel" }
             }
         }
-		CheckBox{ name: "estCDF"; label: qsTr("Empirical vs. theoretical cdf") }
+		CheckBox
+		{
+			name: "estCDF"
+			label: qsTr("Empirical vs. theoretical cdf")
+			info: qsTr("Displays an empirical cumulative distribution plot overlayed with the cumulative distribution function of the fitted distribution")
+		}
         CheckBox
         {
             name: "ppplot";
@@ -59,6 +66,7 @@ Section
                 label:              qsTr("Confidence interval")
                 childrenOnSameRow:  true
                 visible:            distributionType === "continuous"
+				info:				visible ? qsTr("Displays the probability-probability plot. The *x*-axis shows the theoretical value of the cumulative density function of the data points under the fitted distribution, the *y*-axis shows the empirical percentiles of the selected variable.") : ""
                 CIField{ name: "ppPlotCiLevel" }
             }
         }
@@ -73,10 +81,10 @@ Section
 			Group
 			{
 				title: qsTr("Statistics")
-				CheckBox{ name: "kolmogorovSmirnov"; label: qsTr("Kolmogorov-Smirnov")}
-				CheckBox{ name: "cramerVonMisses";   label: qsTr("Cramér–von Mises")  }
-				CheckBox{ name: "andersonDarling";   label: qsTr("Anderson-Darling")  }
-				CheckBox{ name: "shapiroWilk";       label: qsTr("Shapiro-Wilk");	visible: includeShapiroWilk }
+				CheckBox{ name: "kolmogorovSmirnov"; label: qsTr("Kolmogorov-Smirnov"); info: qsTr("Displays the Kolmogorov-Smirnov test") }
+				CheckBox{ name: "cramerVonMisses";   label: qsTr("Cramér–von Mises");	info: qsTr("Displays the Cramér-von Mises test") }
+				CheckBox{ name: "andersonDarling";   label: qsTr("Anderson-Darling");	info: qsTr("Displays the Anderson-Darling test") }
+				CheckBox{ name: "shapiroWilk";       label: qsTr("Shapiro-Wilk");		info: qsTr("Displays the Shapiro-Wilk test of normality"); visible: includeShapiroWilk }
 			}
 		}
 
