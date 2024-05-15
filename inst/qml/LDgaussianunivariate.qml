@@ -24,10 +24,12 @@ import "./common" as LD
 
 Form
 {
+	info: qsTr("Demonstration of the Normal (Gaussian) distribution")
 	Section
 	{
 		expanded: true
 		title: qsTr("Show Distribution")
+		info: qsTr("Displays theoretical Normal distribution, given specified parameter values.")
 		Group
 		{
 			Layout.columnSpan: 2
@@ -37,11 +39,12 @@ Form
 				id:   parametrization
 				indexDefaultValue: 0
 				label: qsTr("Parameters")
+				infoLabel: "<h3>" + label + "</h3>"
 				values: [
-					{ label: "μ, σ²", value: "sigma2"},
-					{ label: "μ, σ",  value: "sigma" },
-					{ label: "μ, τ",  value: "tau"   },
-					{ label: "μ, κ",  value: "kappa" }
+					{ label: "μ, σ²", value: "sigma2",	info: qsTr("The Normal distribution is specified using the mean and variance parameters") },
+					{ label: "μ, σ",  value: "sigma",	info: qsTr("The Normal distribution is specified using the mean and standard deviation parameters") },
+					{ label: "μ, τ",  value: "tau",		info: qsTr("The Normal distribution is specified using the mean and precision parameters") },
+					{ label: "μ, κ",  value: "kappa",	info: qsTr("The Normal distribution is specified using the mean and square root of precision parameters") }
 				]
 			}
 
@@ -67,8 +70,8 @@ Form
 		Group
 		{
 			title: qsTr("Display")
-			CheckBox{ label: qsTr("Explanatory text"); name: "explanatoryText"}
-			CheckBox{ label: qsTr("Parameters, support, and moments"); name: "parsSupportMoments" }
+			CheckBox{ label: qsTr("Explanatory text"); name: "explanatoryText"; info: qsTr("Displays explanatory text")}
+			CheckBox{ label: qsTr("Parameters, support, and moments"); name: "parsSupportMoments"; info: qsTr("Displays the definition of parameters, the support of the random variable, and the moments of the theoretical distribution") }
 			CheckBox{ label: qsTr("Formulas"); name: "formulas"; visible: false}
 			CheckBox
 			{
@@ -76,16 +79,19 @@ Form
 				id: plotPDF
 				name: "plotPDF"
 				checked: true
+				info: qsTr("Displays the probability density plot")
 			}
 
 			CheckBox{
 				label: qsTr("Cumulative distribution function")
 				id: plotCDF
 				name: "plotCDF"
+				info: qsTr("Displays the cumulative distribution plot")
 			}
 			CheckBox{
 				label: qsTr("Quantile function")
 				name: "plotQF"
+				info: qsTr("Displays the quantile plot")
 			}
 		}
 

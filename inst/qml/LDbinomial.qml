@@ -24,16 +24,23 @@ import "./common" as LD
 
 Form
 {
+	info: qsTr("Demonstration of the Binomial distribution.")
 	Section
 	{
 		expanded: true
 		title: qsTr("Show Distribution")
+		info: qsTr("Displays theoretical Binomial distribution, given specified parameter values.")
 		Group
 		{
 			title: qsTr("Free parameter")
 			columns: 2
 			Text { text: qsTr("Probability of success:") }
-			DoubleField{ name: "prob"; label: qsTr("p"); id: prob; min: 0; max: 1; defaultValue: 0.5 }
+			DoubleField
+			{
+				name: "prob"; label: qsTr("p")
+				info: qsTr("probability of \"success\". This parameter can be freely estimated from the data.")
+				id: prob; min: 0; max: 1; defaultValue: 0.5
+			}
 		}
 
 		Group
@@ -41,17 +48,22 @@ Form
 			title: qsTr("Fixed parameter")
 			columns: 2
 			Text { text: qsTr("Number of trials:") }
-			IntegerField{ name: "size"; label: qsTr("n"); id: size; defaultValue: 10 }
+			IntegerField
+			{
+				name: "size"; label: qsTr("n")
+				info: qsTr("number of trials. This parameter is fixed when fitting the data.")
+				id: size; defaultValue: 10
+			}
 		}
 
 		Group
 		{
 			title: qsTr("Display")
-			CheckBox{ label: qsTr("Explanatory text"); name: "explanatoryText"}
-			CheckBox{ label: qsTr("Parameters, support, and moments"); name: "parsSupportMoments" }
+			CheckBox{ label: qsTr("Explanatory text"); name: "explanatoryText"; info: qsTr("Displays explanatory text") }
+			CheckBox{ label: qsTr("Parameters, support, and moments"); name: "parsSupportMoments"; info: qsTr("Displays the definition of parameters, the support of the random variable, and the moments of the theoretical distribution") }
 			CheckBox{ label: qsTr("Formulas"); name: "formulas"; visible: false}
-			CheckBox{ label: qsTr("Probability mass function"); id: plotPMF; name: "plotPMF"; checked: true }
-			CheckBox{ label: qsTr("Cumulative distribution function"); id: plotCMF; name: "plotCMF"; checked: false }
+			CheckBox{ label: qsTr("Probability mass function"); id: plotPMF; name: "plotPMF"; checked: true; info: qsTr("Displays the probability mass plot") }
+			CheckBox{ label: qsTr("Cumulative distribution function"); id: plotCMF; name: "plotCMF"; checked: false; info: qsTr("Displays the cumulative distribution plot") }
 		}
 
 		Group
@@ -66,6 +78,7 @@ Form
 				{
 					name: "min_x"; label: qsTr("Range of x from"); id: min_x;
 					defaultValue: 0; min: 0; max: parseFloat(max_x.value)
+					info: qsTr("Defines the limits of the x-axis of the probability density plot and cumulative distribution plot.")
 				}
 				DoubleField
 				{
@@ -80,8 +93,8 @@ Form
 				Group
 				{
 					columns: 2
-					CheckBox{ name: "highlightDensity"; label: qsTr("Mass"); id: highlightDensity }
-					CheckBox{ name: "highlightProbability"; label: qsTr("Cumulative Probability"); id: highlightProbability }
+					CheckBox{ name: "highlightDensity"; label: qsTr("Mass"); id: highlightDensity; info: qsTr("Highlights the probability density on the probability density plot and cumulative distribution plot at specified values of x") }
+					CheckBox{ name: "highlightProbability"; label: qsTr("Cumulative Probability"); id: highlightProbability; info: qsTr("Highlights the probability in between the specified values of x in the density plot (area under the curve), and highlights the cumulative probability at the specified values in the cumulative distribution plot") }
 				}
 				Row
 				{
@@ -89,6 +102,7 @@ Form
 					IntegerField
 					{
 						name: "min"; label: qsTr("Interval"); afterLabel: qsTr("≤ X ≤"); id: min;
+						info: qsTr("Select the bounds of the ordered set to display: Density is highlighted at the lower and upper bounds, the probability is displayed for the specified interval.")
 						negativeValues: false; defaultValue: 0; max: parseInt(max.value)
 					}
 					IntegerField

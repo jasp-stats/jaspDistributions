@@ -37,13 +37,14 @@ Section
 		Layout.columnSpan: 2
 		title: qsTr("Generate new variable from %1").arg(distributionName) + " (" + formula + ")"
 
-		AddColumnField	{ name: "newVariableName"; text: qsTr("Variable name: "); fieldWidth: 120; placeholderText: qsTr("e.g., random %1").arg(distributionSimpleName) }
-		IntegerField	{ name: "sampleSize"; label: qsTr("Number of samples: "); min: dataSetInfo.dataAvailable ? 1 : 0; defaultValue: dataSetInfo.rowCount; max: dataSetInfo.rowCount }
+		AddColumnField	{ name: "newVariableName"; text: qsTr("Variable name: "); info: qsTr("Specify the name of the variable. Once filled, creates a column with samples drawn from the specified distribution in the current data set."); fieldWidth: 120; placeholderText: qsTr("e.g., random %1").arg(distributionSimpleName) }
+		IntegerField	{ name: "sampleSize"; label: qsTr("Number of samples: "); info: qsTr("Specify the number of samples."); min: dataSetInfo.dataAvailable ? 1 : 0; defaultValue: dataSetInfo.rowCount; max: dataSetInfo.rowCount }
 		Button
 		{
 			id: simulateNowButton
 			name: "simulateNowButton"
 			label: qsTr("Draw samples")
+			info: qsTr("Sample from the theoretical distribution.")
 			onClicked:
 			{
 				simulateNowButton.forceActiveFocus();
@@ -54,9 +55,11 @@ Section
 		CheckBox { name: "simulateNow"; visible: false; id: simulateNow }
 	}
 
+
 	VariablesForm
 	{
 		preferredHeight: jaspTheme.smallDefaultVariablesFormHeight
+		info: "<h3>" + qsTr("Get variable from data set: ") + "</h3>" + qsTr("Select a variable to display and fit with the theoretical distribution.")
 		visible: true
 		AvailableVariablesList { name: "allVariables" }
 		AssignedVariablesList
@@ -71,11 +74,19 @@ Section
 	Group
 	{
 		title: qsTr("Statistics")
-		CheckBox{ name: "summary"; label: qsTr("Descriptives"); checked: true  }
+		CheckBox
+		{
+			name: "summary"
+			label: qsTr("Descriptives")
+			info: qsTr("Displays a descriptive table of the selected variable.")
+			checked: true
+		}
 		CheckBox
 		{
 			visible: showStatisticsMoment
 			name: "moments"; label: qsTr("First"); childrenOnSameRow: true
+			infoLabel: qsTr("First observed moments")
+			info: qsTr("Displays a table with the raw and central sample moments of the selected variable. Defaults to first 2 moments.")
 			IntegerField{name: "momentsUpTo"; afterLabel: qsTr("observed moments"); defaultValue: 2; min: 1 }
 		}
 	}
@@ -86,8 +97,15 @@ Section
 		CheckBox
 		{
 			name: "histogram";  label: histogramIsBarPlot ? qsTr("Bar plot") : qsTr("Histogram with"); childrenOnSameRow: true
+			infoLabel: histogramIsBarPlot ? qsTr("Bar plot") : qsTr("Histogram with ... bins")
+			info: histogramIsBarPlot ? qsTr("Display a bar plot of the selected variable.") : qsTr("Display a histogram of the selected variable with the number of specified bins.")
 			IntegerField { visible: !histogramIsBarPlot; name: "histogramBins"; afterLabel: qsTr("bins"); defaultValue: 30 }
 		}
-		CheckBox{ visible: showCumulativeDistribution; name: "ecdf"; label: qsTr("Empirical cumulative distribution") }
+		CheckBox
+		{
+			visible: showCumulativeDistribution; name: "ecdf"
+			label: qsTr("Empirical cumulative distribution")
+			info: qsTr("Displays an empirical cumulative distribution plot of the selected variable.")
+		}
 	}
 }
