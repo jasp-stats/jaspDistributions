@@ -97,8 +97,15 @@ Section
 		CheckBox
 		{
 			name: "histogram";  label: histogramIsBarPlot ? qsTr("Bar plot") : qsTr("Histogram with"); childrenOnSameRow: true
+			infoLabel: histogramIsBarPlot ? qsTr("Bar plot") : qsTr("Histogram with ... bins")
+			info: histogramIsBarPlot ? qsTr("Display a bar plot of the selected variable.") : qsTr("Display a histogram of the selected variable with the number of specified bins.")
 			IntegerField { visible: !histogramIsBarPlot; name: "histogramBins"; afterLabel: qsTr("bins"); defaultValue: 30 }
 		}
-		CheckBox{ visible: showCumulativeDistribution; name: "ecdf"; label: qsTr("Empirical cumulative distribution") }
+		CheckBox
+		{
+			visible: showCumulativeDistribution; name: "ecdf"
+			label: qsTr("Empirical cumulative distribution")
+			info: qsTr("Displays an empirical cumulative distribution plot of the selected variable.")
+		}
 	}
 }

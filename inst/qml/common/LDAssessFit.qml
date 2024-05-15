@@ -24,6 +24,7 @@ Section
 {
 	property string	distributionType		: "continuous" // "counts" or "categorical"
 	property bool includeShapiroWilk		: false
+	property bool isDistributionContinuous	: distributionType === "continuous"
 
 	title: enabled ? qsTr("Assess Fit") : qsTr("Assess Fit") + " - " + qsTr("[requires a loaded data set]")
 
@@ -32,21 +33,21 @@ Section
         title: qsTr("Plots")
         CheckBox
         {
-            name:  distributionType === "continuous" ? "estPDF" : "estPMF";
-            label: distributionType === "continuous" ? qsTr("Histogram vs. theoretical pdf") : qsTr("Histogram vs. theoretical pmf")
+			name:  isDistributionContinuous ? "estPDF" : "estPMF";
+			label: isDistributionContinuous ? qsTr("Histogram vs. theoretical pdf") : qsTr("Histogram vs. theoretical pmf")
 			info: qsTr("Displays a histogram of the selected variable overlayed with the probability density function of the fitted distribution")
         }
         CheckBox
         {
-            name: "qqplot"
-            label: qsTr("Q-Q plot")
-            CheckBox
+			name:	"qqplot"
+			label:	qsTr("Q-Q plot")
+			info:	qsTr("Displays the quantile-quantile plot. The *x*-axis shows the theoretical quantiles of the data points under the fitted distribution, the *y*-axis shows the empirical quantiles of the selected variable.")
+			CheckBox
             {
                 name:               "qqPlotCi"
                 label:              qsTr("Confidence interval")
                 childrenOnSameRow:  true
-                visible:            distributionType === "continuous"
-				info:				visible ? qsTr("Displays the quantile-quantile plot. The *x*-axis shows the theoretical quantiles of the data points under the fitted distribution, the *y*-axis shows the empirical quantiles of the selected variable.") : ""
+				visible:            isDistributionContinuous
                 CIField{ name: "qqPlotCiLevel" }
             }
         }
@@ -60,13 +61,13 @@ Section
         {
             name: "ppplot";
             label: qsTr("P-P plot")
-            CheckBox
+			info:	qsTr("Displays the probability-probability plot. The *x*-axis shows the theoretical value of the cumulative density function of the data points under the fitted distribution, the *y*-axis shows the empirical percentiles of the selected variable.")
+			CheckBox
             {
                 name:               "ppPlotCi"
                 label:              qsTr("Confidence interval")
                 childrenOnSameRow:  true
-                visible:            distributionType === "continuous"
-				info:				visible ? qsTr("Displays the probability-probability plot. The *x*-axis shows the theoretical value of the cumulative density function of the data points under the fitted distribution, the *y*-axis shows the empirical percentiles of the selected variable.") : ""
+				visible:            isDistributionContinuous
                 CIField{ name: "ppPlotCiLevel" }
             }
         }
@@ -74,7 +75,7 @@ Section
 
 	Loader
 	{
-		sourceComponent: distributionType == "continuous" ? continuous : ( distributionType == "counts" ? counts : categorical )
+		sourceComponent: isDistributionContinuous ? continuous : ( distributionType == "counts" ? counts : categorical )
 		Component
 		{
 			id: continuous
@@ -94,7 +95,7 @@ Section
 			Group
 			{
 				title: qsTr("Statistics")
-				CheckBox{ name: "chiSquare"; label: qsTr("Chi-square")}
+				CheckBox{ name: "chiSquare"; label: qsTr("Chi-square"); info: qsTr("Displays the chi-square goodness of fit test")}
 			}
 		}
 
