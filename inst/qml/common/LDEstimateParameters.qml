@@ -26,7 +26,7 @@ Section
 	property bool includeCI: true
 
 	title: enabled ? qsTr("Estimate Parameters") : qsTr("Estimate Parameters") + " - " + qsTr("[requires a loaded data set]")
-	info: qsTr("Displays a table with the parameter estimates. Changing parametrization changes which parameters are displayed.") + "<br><br>"
+	info: qsTr("Displays a table with the parameter estimates. Changing parametrization changes which parameters are displayed.")
 	CheckBox
 	{
 		name: "methodMLE";      label: qsTr("Maximum likelihood"); id: methodMLE
