@@ -19,7 +19,7 @@
 
 LDtriangular <- function(
           data = NULL,
-          version = "0.18.2",
+          version = "0.19",
           a = -1,
           andersonDarling = FALSE,
           b = 1,
@@ -61,7 +61,7 @@ LDtriangular <- function(
           qqPlotCi = FALSE,
           qqPlotCiLevel = 0.95,
           qqplot = FALSE,
-          sampleSize = 0,
+          sampleSize = 7,
           shapiroWilk = FALSE,
           simulateNow = FALSE,
           summary = TRUE,

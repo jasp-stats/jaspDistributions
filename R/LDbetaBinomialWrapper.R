@@ -19,7 +19,7 @@
 
 LDbetaBinomial <- function(
           data = NULL,
-          version = "0.18.2",
+          version = "0.19",
           alpha = 1,
           beta = 1,
           chiSquare = FALSE,
@@ -55,7 +55,7 @@ LDbetaBinomial <- function(
           qqPlotCi = FALSE,
           qqPlotCiLevel = 0.95,
           qqplot = FALSE,
-          sampleSize = 0,
+          sampleSize = 7,
           simulateNow = FALSE,
           size = 10,
           summary = TRUE,

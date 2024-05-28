@@ -19,7 +19,7 @@
 
 LDgeometric <- function(
           data = NULL,
-          version = "0.18.2",
+          version = "0.19",
           chiSquare = FALSE,
           ciInterval = FALSE,
           ciIntervalInterval = 0.95,
@@ -54,7 +54,7 @@ LDgeometric <- function(
           qqPlotCi = FALSE,
           qqPlotCiLevel = 0.95,
           qqplot = FALSE,
-          sampleSize = 0,
+          sampleSize = 7,
           simulateNow = FALSE,
           summary = TRUE,
           variable = "") {

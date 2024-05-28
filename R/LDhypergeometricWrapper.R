@@ -19,7 +19,7 @@
 
 LDhypergeometric <- function(
           data = NULL,
-          version = "0.18.2",
+          version = "0.19",
           draws = 5,
           ecdf = FALSE,
           explanatoryText = FALSE,
@@ -40,7 +40,7 @@ LDhypergeometric <- function(
           plotHeight = 320,
           plotPMF = TRUE,
           plotWidth = 480,
-          sampleSize = 0,
+          sampleSize = 7,
           simulateNow = FALSE,
           size = 10,
           success = 5,
