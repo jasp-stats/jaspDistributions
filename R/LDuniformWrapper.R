@@ -19,7 +19,7 @@
 
 LDuniform <- function(
           data = NULL,
-          version = "0.18.2",
+          version = "0.19",
           andersonDarling = FALSE,
           ciInterval = FALSE,
           ciIntervalInterval = 0.95,
@@ -59,7 +59,7 @@ LDuniform <- function(
           qqPlotCi = FALSE,
           qqPlotCiLevel = 0.95,
           qqplot = FALSE,
-          sampleSize = 0,
+          sampleSize = 7,
           shapiroWilk = FALSE,
           simulateNow = FALSE,
           summary = TRUE,

@@ -19,7 +19,7 @@
 
 LDgammaInverse <- function(
           data = NULL,
-          version = "0.18.2",
+          version = "0.19",
           andersonDarling = FALSE,
           ciInterval = FALSE,
           ciIntervalInterval = 0.95,
@@ -56,7 +56,7 @@ LDgammaInverse <- function(
           plotWidth = 480,
           ppplot = FALSE,
           qqplot = FALSE,
-          sampleSize = 0,
+          sampleSize = 7,
           shape = 1,
           simulateNow = FALSE,
           summary = TRUE,

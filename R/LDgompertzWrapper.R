@@ -19,7 +19,7 @@
 
 LDgompertz <- function(
           data = NULL,
-          version = "0.18.2",
+          version = "0.19",
           andersonDarling = FALSE,
           ciInterval = FALSE,
           ciIntervalInterval = 0.95,
@@ -58,7 +58,7 @@ LDgompertz <- function(
           qqPlotCi = FALSE,
           qqPlotCiLevel = 0.95,
           qqplot = FALSE,
-          sampleSize = 0,
+          sampleSize = 7,
           scale = 1,
           shape = 1,
           shapiroWilk = FALSE,

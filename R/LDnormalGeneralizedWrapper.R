@@ -19,7 +19,7 @@
 
 LDnormalGeneralized <- function(
           data = NULL,
-          version = "0.18.2",
+          version = "0.19",
           alpha = 1,
           andersonDarling = FALSE,
           beta = 2,
@@ -61,7 +61,7 @@ LDnormalGeneralized <- function(
           qqPlotCi = FALSE,
           qqPlotCiLevel = 0.95,
           qqplot = FALSE,
-          sampleSize = 0,
+          sampleSize = 7,
           shapiroWilk = FALSE,
           simulateNow = FALSE,
           summary = TRUE,
