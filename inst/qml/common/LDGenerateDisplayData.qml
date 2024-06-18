@@ -65,7 +65,7 @@ Section
 		AssignedVariablesList
 		{
 			name: "variable"; label: qsTr("Get variable from data set");
-			allowedColumns: allowOnlyScaleColumns ? ["scale"] : []
+			allowedColumns: allowOnlyScaleColumns ? ["scale"] : ["nominal"]
 			singleVariable: true
 		}
 	}
