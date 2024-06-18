@@ -66,7 +66,6 @@ Section
 		{
 			name: "variable"; label: qsTr("Get variable from data set");
 			allowedColumns: allowOnlyScaleColumns ? ["scale"] : []
-			suggestedColumns: suggestScaleColumns ? ['scale'] : []
 			singleVariable: true
 		}
 	}
