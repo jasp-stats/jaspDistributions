@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-06-09 16:10+0000\n"
-"Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
+"PO-Revision-Date: 2024-06-27 07:09+0000\n"
+"Last-Translator: Thomas Langkamp <thomas.lassdiesonnerein@gmx.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-qml/de/>\n"
 "Language: de\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.6-rc\n"
 "X-Language: de\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -288,7 +288,7 @@ msgstr "p"
 
 msgctxt "LDbernoulli|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDbernoulli|"
 msgid "Explanatory text"
@@ -352,7 +352,7 @@ msgstr "β"
 
 msgctxt "LDbeta|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDbeta|"
 msgid "Explanatory text"
@@ -408,7 +408,7 @@ msgstr "n"
 
 msgctxt "LDbinomial|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDbinomial|"
 msgid "Explanatory text"
@@ -484,7 +484,7 @@ msgstr "λ"
 
 msgctxt "LDchisq|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDchisq|"
 msgid "Explanatory text"
@@ -528,7 +528,7 @@ msgstr "Skalenparameter:"
 
 msgctxt "LDexponential|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDexponential|"
 msgid "Explanatory text"
@@ -580,7 +580,7 @@ msgstr "Nzp"
 
 msgctxt "LDf|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDf|"
 msgid "Explanatory text"
@@ -632,7 +632,7 @@ msgstr "Mittelwert:"
 
 msgctxt "LDgamma|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDgamma|"
 msgid "Explanatory text"
@@ -684,7 +684,7 @@ msgstr "Mittelwert:"
 
 msgctxt "LDgammaInverse|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDgammaInverse|"
 msgid "Explanatory text"
@@ -784,7 +784,7 @@ msgstr "Quadratwurzel der Präzision:"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Explanatory text"
@@ -832,7 +832,7 @@ msgstr "σ"
 
 msgctxt "LDlogistic|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDlogistic|"
 msgid "Explanatory text"
@@ -880,7 +880,7 @@ msgstr "σ"
 
 msgctxt "LDlognormal|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDlognormal|"
 msgid "Explanatory text"
@@ -932,7 +932,7 @@ msgstr "Mittelwert:"
 
 msgctxt "LDnegbinomial|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDnegbinomial|"
 msgid "Explanatory text"
@@ -1004,7 +1004,7 @@ msgstr "λ"
 
 msgctxt "LDpoisson|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDpoisson|"
 msgid "Explanatory text"
@@ -1200,7 +1200,7 @@ msgstr "β"
 
 msgctxt "LDamoroso|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDamoroso|"
 msgid "Explanatory text"
@@ -1264,7 +1264,7 @@ msgstr "n"
 
 msgctxt "LDbetaBinomial|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDbetaBinomial|"
 msgid "Explanatory text"
@@ -1340,7 +1340,7 @@ msgstr "β"
 
 msgctxt "LDbetaPrime|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDbetaPrime|"
 msgid "Explanatory text"
@@ -1408,7 +1408,7 @@ msgstr "b"
 
 msgctxt "LDbetaStretched|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDbetaStretched|"
 msgid "Explanatory text"
@@ -1456,7 +1456,7 @@ msgstr "σ"
 
 msgctxt "LDcauchy|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDcauchy|"
 msgid "Explanatory text"
@@ -1512,7 +1512,7 @@ msgstr "σ"
 
 msgctxt "LDfrechet|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDfrechet|"
 msgid "Explanatory text"
@@ -1556,7 +1556,7 @@ msgstr "p"
 
 msgctxt "LDgeometric|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDgeometric|"
 msgid "Explanatory text"
@@ -1624,7 +1624,7 @@ msgstr "Skalenparameter:"
 
 msgctxt "LDgompertz|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDgompertz|"
 msgid "Explanatory text"
@@ -1672,7 +1672,7 @@ msgstr "β"
 
 msgctxt "LDgumbel|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDgumbel|"
 msgid "Explanatory text"
@@ -1728,7 +1728,7 @@ msgstr "n"
 
 msgctxt "LDhypergeometric|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDhypergeometric|"
 msgid "Explanatory text"
@@ -1804,7 +1804,7 @@ msgstr "β"
 
 msgctxt "LDlaplace|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDlaplace|"
 msgid "Explanatory text"
@@ -1856,7 +1856,7 @@ msgstr "Form:"
 
 msgctxt "LDlogLogistic|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDlogLogistic|"
 msgid "Explanatory text"
@@ -1928,7 +1928,7 @@ msgstr "π"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Explanatory text"
@@ -2008,7 +2008,7 @@ msgstr "b"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Explanatory text"
@@ -2068,7 +2068,7 @@ msgstr "Mittelwert:"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Explanatory text"
@@ -2152,7 +2152,7 @@ msgstr "β"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Explanatory text"
@@ -2208,7 +2208,7 @@ msgstr "α"
 
 msgctxt "LDnormalSkew|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDnormalSkew|"
 msgid "Explanatory text"
@@ -2248,7 +2248,7 @@ msgstr "Skalenparameter:"
 
 msgctxt "LDpareto|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDpareto|"
 msgid "Explanatory text"
@@ -2300,7 +2300,7 @@ msgstr "λ"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Explanatory text"
@@ -2380,7 +2380,7 @@ msgstr "Nzp"
 
 msgctxt "LDtNoncentral|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDtNoncentral|"
 msgid "Explanatory text"
@@ -2436,7 +2436,7 @@ msgstr "c"
 
 msgctxt "LDtriangular|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDtriangular|"
 msgid "Explanatory text"
@@ -2500,7 +2500,7 @@ msgstr "df"
 
 msgctxt "LDtSkew|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDtSkew|"
 msgid "Explanatory text"
@@ -2572,7 +2572,7 @@ msgstr "λ"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Explanatory text"
@@ -2632,7 +2632,7 @@ msgstr "σ"
 
 msgctxt "LDtStudent|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDtStudent|"
 msgid "Explanatory text"
@@ -2684,7 +2684,7 @@ msgstr "b"
 
 msgctxt "LDuniform|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDuniform|"
 msgid "Explanatory text"
@@ -2740,7 +2740,7 @@ msgstr "Rauschen:"
 
 msgctxt "LDwald|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDwald|"
 msgid "Explanatory text"
@@ -2780,7 +2780,7 @@ msgstr "Skalenparameter:"
 
 msgctxt "LDweibull|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDweibull|"
 msgid "Explanatory text"
