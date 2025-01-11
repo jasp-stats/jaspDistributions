@@ -1,0 +1,578 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jaspDistributions 0.19.2\n"
+"POT-Creation-Date: 2024-10-19 03:03\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Could not write to column '%s', probably because it wasn't created by this analysis"
+msgstr ""
+
+msgid "The following problem(s) occurred while running the analysis:<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
+msgstr ""
+
+msgid "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
+msgstr ""
+
+msgid "Overview - %s"
+msgstr ""
+
+msgid "Descriptives"
+msgstr ""
+
+msgid "Variable"
+msgstr ""
+
+msgid "n"
+msgstr ""
+
+msgid "Mean"
+msgstr ""
+
+msgid "Variance"
+msgstr ""
+
+msgid "Std. deviation"
+msgstr ""
+
+msgid "Minimum"
+msgstr ""
+
+msgid "25%% Quantile"
+msgstr ""
+
+msgid "Median"
+msgstr ""
+
+msgid "75%% Quantile"
+msgstr ""
+
+msgid "Maximum"
+msgstr ""
+
+msgid "Rel. Frequency"
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Observed Moments"
+msgstr ""
+
+msgid "Moment"
+msgstr ""
+
+msgid "Raw"
+msgstr ""
+
+msgid "Central"
+msgstr ""
+
+msgid "Estimated Parameters"
+msgstr ""
+
+msgid "Parameter"
+msgstr ""
+
+msgid "Estimate"
+msgstr ""
+
+msgid "SE"
+msgstr ""
+
+msgid "Standard errors are unavailable with this method"
+msgstr ""
+
+msgid "Lower"
+msgstr ""
+
+msgid "%s%% CI"
+msgstr ""
+
+msgid "Upper"
+msgstr ""
+
+msgid "Confidence intervals are unavailable with this method."
+msgstr ""
+
+msgid "Confidence intervals were calculated using the delta method."
+msgstr ""
+
+msgid "Standard errors were calculated using the delta method."
+msgstr ""
+
+msgid "Standard errors and confidence intervals were calculated using the delta method."
+msgstr ""
+
+msgid "Maximum likelihood"
+msgstr ""
+
+msgid "Fit Assessment"
+msgstr ""
+
+msgid "Fit Statistics"
+msgstr ""
+
+msgid "Test"
+msgstr ""
+
+msgid "Statistic"
+msgstr ""
+
+msgid "p"
+msgstr ""
+
+msgid "Kolmogorov-Smirnov"
+msgstr ""
+
+msgid "Cramér-von Mises"
+msgstr ""
+
+msgid "Anderson-Darling"
+msgstr ""
+
+msgid "Shapiro-Wilk"
+msgstr ""
+
+msgid "Chi-square"
+msgstr ""
+
+msgid "Histogram vs. Theoretical PDF"
+msgstr ""
+
+msgid "Histogram vs. Theoretical PMF"
+msgstr ""
+
+msgid "Q-Q plot"
+msgstr ""
+
+msgid "Empirical vs. Theoretical CDF"
+msgstr ""
+
+msgid "P-P plot"
+msgstr ""
+
+msgid "Sample"
+msgstr ""
+
+msgid "Theoretical"
+msgstr ""
+
+msgid "Density"
+msgstr ""
+
+msgid "Probability Mass"
+msgstr ""
+
+msgid "Probability"
+msgstr ""
+
+msgid "Probability Density Function"
+msgstr ""
+
+msgid "Probability Mass Function"
+msgstr ""
+
+msgid "Cumulative Distribution Function"
+msgstr ""
+
+msgid "Quantile Function"
+msgstr ""
+
+msgid "Formula"
+msgstr ""
+
+msgid "Density Plot"
+msgstr ""
+
+msgid "Cumulative Probability Plot"
+msgstr ""
+
+msgid "Slope"
+msgstr ""
+
+msgid "Quantile Plot"
+msgstr ""
+
+msgid "Probability Mass Plot"
+msgstr ""
+
+msgid "Histogram"
+msgstr ""
+
+msgid "Bar plot"
+msgstr ""
+
+msgid "Rel. Freq (%s in bin)"
+msgstr ""
+
+msgid "Empirical Cumulative Distribution"
+msgstr ""
+
+msgid "Freq"
+msgstr ""
+
+msgid "Parameters, Support, and Moments"
+msgstr ""
+
+msgid "<b>Parameters</b>\n      %1$s\n\n      <b>Support</b>\n      %2$s\n\n      <b>Moments</b>\n      E(X) = %3$s\n      Var(X) = %4$s"
+msgstr ""
+
+msgid "<b>Parameters</b>\n      %1$s\n\n      <b>Support</b>\n      %2$s\n\n      <b>Moments</b>\n      not available"
+msgstr ""
+
+msgid "The probability density function (PDF), usually denoted as f(x), is a function of a random variable X.\n    The value of f(x) provides the relative likelihood that a realization of the random variable X yields a value equal to x.\n    More formally, the PDF is defined as a derivative of a cumulative distribution function (CDF).\n\n    The density plot displays the probability density function of a random variable.\n    The <i>y</i>-axis displays the value of the density function for a particular value of the random variable (displayed on the <i>x</i>-axis)."
+msgstr ""
+
+msgid "The probability mass function (PMF), usually denoted as f(x), is a function of a random variable X.\n    The value of f(x) provides the probability that a realization of the random variable X yields a value equal to x.\n\n    The probability mass plot displays the probability mass function of a random variable.\n    The <i>y</i>-axis displays the value of the probability mass function for a particular value of the random variable (displayed on the <i>x</i>-axis)."
+msgstr ""
+
+msgid "The cumulative distribution function (CDF), usually denoted as F(x), is a function of a random variable X.\n    The value of F(x) provides the probability that a realization of the random variable X yields a value that is equal to or smaller than x.\n\n    The cumulative probability plot displays the cumulative distribution function of a random variable.\n    The <i>y</i>-axis displays the value of the cumulative distribution function for a particular value of the random variable (displayed on the <i>x</i>-axis)."
+msgstr ""
+
+msgid "The quantile function, usually denoted as Q(p), is the inverse of the cumulative distribution function.\n    The function gives the quantile such that the probability of the random variable being less than or equal to that value equals the given probability p.\n\n    The quantile plot displays the quantile function.\n    The <i>y</i>-axis displays the quantile of which the probability that the random variable is less or equal to that value is equal to p (displayed on the <i>x</i>-axis)."
+msgstr ""
+
+msgid "<h3> Demonstration of the %1$s </h3>\nThis demonstration is divided into four parts.\nThe first part displays the %2$s, its probability density function, cumulative distribution function, and quantile function.\nThe second part allows you to generate data from the %3$s, compute descriptive statistics, and display descriptive plots.\nThe third part allows you to estimate the parameters of the %4$s.\nThe fourth part allows you to check the fit of the %5$s to the data.\n\n<b>References</b>\n\nBlitzstein, J. K., & Hwang, J. (2014). <i>Introduction to probability.</i> Chapman and Hall/CRC.\n\nLeemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, 16</i>(4), 8–9.\n\nFor relationships with other distributions, visit www.math.wm.edu/~leemis/chart/UDR/UDR.html.\n\nhttps://en.wikipedia.org/wiki/List_of_probability_distributions"
+msgstr ""
+
+msgid "Estimation failed: Optimization did not converge. <ul><li>Try adjusting parameter values, check outliers or feasibility of the distribution fitting the data.</li></ul>"
+msgstr ""
+
+msgid "Estimation failed: Hessian matrix is not numerically computable. <ul><li>Check outliers or feasibility of the distribution fitting the data.</li></ul>"
+msgstr ""
+
+msgid "Amoroso distribution"
+msgstr ""
+
+msgid "location: a %s"
+msgstr ""
+
+msgid "scale: %s"
+msgstr ""
+
+msgid "shape: %s"
+msgstr ""
+
+msgid "The optimization did not converge, try adjusting the parameter values."
+msgstr ""
+
+msgid "<i>Warning.</i>"
+msgstr ""
+
+msgid "Scale parameter %s is assumed positive."
+msgstr ""
+
+msgid "Scale parameter %s is assumed negative."
+msgstr ""
+
+msgid "Bernoulli distribution"
+msgstr ""
+
+msgid "probability of success: p %1$s %2$s: 0 %3$s p %4$s 1"
+msgstr ""
+
+msgid "x %s {0, 1}"
+msgstr ""
+
+msgid "p(1-p)"
+msgstr ""
+
+msgid "beta distribution"
+msgstr ""
+
+msgid "beta-binomial distribution"
+msgstr ""
+
+msgid "number of trials: %s"
+msgstr ""
+
+msgid "Parameter n was fixed at value %s."
+msgstr ""
+
+msgid "beta prime distribution"
+msgstr ""
+
+msgid "lower bound: %s"
+msgstr ""
+
+msgid "upper bound: %s"
+msgstr ""
+
+msgid "binomial distribution"
+msgstr ""
+
+msgid "probability of success: %s"
+msgstr ""
+
+msgid "Cauchy distribution"
+msgstr ""
+
+msgid "location: &mu; %s"
+msgstr ""
+
+msgid "undefined"
+msgstr ""
+
+msgid "%s<sup>2</sup> distribution"
+msgstr ""
+
+msgid "degree of freedom: %s"
+msgstr ""
+
+msgid "non-centrality: %s"
+msgstr ""
+
+msgid "exponential distribution"
+msgstr ""
+
+msgid "rate: %s"
+msgstr ""
+
+msgid "F-distribution"
+msgstr ""
+
+msgid "Fréchet distribution"
+msgstr ""
+
+msgid "location: %s"
+msgstr ""
+
+msgid "see Wikipedia: https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution"
+msgstr ""
+
+msgid "gamma distribution"
+msgstr ""
+
+msgid "mean: %s"
+msgstr ""
+
+msgid "inverse gamma distribution"
+msgstr ""
+
+msgid "normal distribution"
+msgstr ""
+
+msgid "mean: &mu; %s"
+msgstr ""
+
+msgid "variance: %s"
+msgstr ""
+
+msgid "standard deviation: %s"
+msgstr ""
+
+msgid "precision: %s"
+msgstr ""
+
+msgid "square root of precision: %s"
+msgstr ""
+
+msgid "&mu;"
+msgstr ""
+
+msgid "geometric distribution"
+msgstr ""
+
+msgid "population size: %s"
+msgstr ""
+
+msgid "number of success states in the population: %s"
+msgstr ""
+
+msgid "number of draws from the population: %s"
+msgstr ""
+
+msgid "Gompertz distribution"
+msgstr ""
+
+msgid "shape: %1$s \nscale: %2$s"
+msgstr ""
+
+msgid "see Wikipedia: %s"
+msgstr ""
+
+msgid "Gumbel distribution"
+msgstr ""
+
+msgid "hypergeometric distribution"
+msgstr ""
+
+msgid "Laplace distribution"
+msgstr ""
+
+msgid "log-logistic distribution"
+msgstr ""
+
+msgid "log location: &mu; %s"
+msgstr ""
+
+msgid "log scale: %s"
+msgstr ""
+
+msgid "scale: &alpha; %s"
+msgstr ""
+
+msgid "see Wikipedia: https://en.wikipedia.org/wiki/Log-logistic_distribution#Moments"
+msgstr ""
+
+msgid "logistic distribution"
+msgstr ""
+
+msgid "(&sigma; &pi;)<sup>2</sup> / 3"
+msgstr ""
+
+msgid "log-normal distribution"
+msgstr ""
+
+msgid "log mean: &mu; %s"
+msgstr ""
+
+msgid "log standard deviation: %s"
+msgstr ""
+
+msgid "exp(&mu; + &sigma;<sup>2</sup>/2)"
+msgstr ""
+
+msgid "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
+msgstr ""
+
+msgid "mixture of two normal distributions"
+msgstr ""
+
+msgid "probability of first component: %s"
+msgstr ""
+
+msgid "mean 1: %s"
+msgstr ""
+
+msgid "std. deviation 1: %s"
+msgstr ""
+
+msgid "mean 2: %s"
+msgstr ""
+
+msgid "std. deviation 2: %s"
+msgstr ""
+
+msgid "mixture of a normal and a uniform distribution"
+msgstr ""
+
+msgid "probability of normal component: %s"
+msgstr ""
+
+msgid "mean of normal distribution: %s"
+msgstr ""
+
+msgid "std. deviation of normal distribution: %s"
+msgstr ""
+
+msgid "minimum of uniform distribution: %s"
+msgstr ""
+
+msgid "maximum of uniform distribution: %s"
+msgstr ""
+
+msgid "Parameter a was fixed at value %1$s, parameter b was fixed at value %2$s."
+msgstr ""
+
+msgid "negative binomial distribution"
+msgstr ""
+
+msgid "number of successes: %s"
+msgstr ""
+
+msgid "dispersion: %s"
+msgstr ""
+
+msgid "zero-inflated negative binomial distribution"
+msgstr ""
+
+msgid "probability of zero process: %s"
+msgstr ""
+
+msgid "generalized normal distribution"
+msgstr ""
+
+msgid "see Wikipedia - https://en.wikipedia.org/wiki/Generalized_normal_distribution#Moments"
+msgstr ""
+
+msgid "skew normal distribution"
+msgstr ""
+
+msgid "Pareto distribution"
+msgstr ""
+
+msgid "Poisson distribution"
+msgstr ""
+
+msgid "zero-inflated Poisson distribution"
+msgstr ""
+
+msgid "noncentral t-distribution"
+msgstr ""
+
+msgid "degrees of freedom: %s"
+msgstr ""
+
+msgid "does not exist unless df > 1"
+msgstr ""
+
+msgid "does not exist unless df > 2"
+msgstr ""
+
+msgid "see Azzalini & Capitanio (2003)"
+msgstr ""
+
+msgid "skewed generalized t-distribution"
+msgstr ""
+
+msgid "skewness: %s"
+msgstr ""
+
+msgid "kurtosis: %s"
+msgstr ""
+
+msgid "see Wikipedia: https://en.wikipedia.org/wiki/Skewed_generalized_t_distribution#Moments"
+msgstr ""
+
+msgid "scaled, shifted Student's t-distribution"
+msgstr ""
+
+msgid "triangular distribution"
+msgstr ""
+
+msgid "minimum: %s"
+msgstr ""
+
+msgid "maximum: %s"
+msgstr ""
+
+msgid "mode: %s"
+msgstr ""
+
+msgid "uniform distribution"
+msgstr ""
+
+msgid "Wald distribution"
+msgstr ""
+
+msgid "drift rate: %s"
+msgstr ""
+
+msgid "threshold: %s"
+msgstr ""
+
+msgid "noise: %s"
+msgstr ""
+
+msgid "Parameter %s was fixed to 1."
+msgstr ""
+
+msgid "Weibull distribution"
+msgstr ""
