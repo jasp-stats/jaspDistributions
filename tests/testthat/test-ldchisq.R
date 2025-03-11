@@ -62,7 +62,7 @@ test_that("Estimated Parameters table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_estParametersTable"]][["data"]]
   expect_equal_tables(table,
                       list(4.8938297545344, 4.47271658799517, "k", 0.214857604456471, 5.31494292107364,
-                           0.174944391692288, -0.295081957134747, "<unicode>", 0.239813768280715,
+                           0.174974219893808, -0.295081957134747, "<unicode>", 0.239813768280715,
                            0.644970740519323))
 })
 

@@ -28,13 +28,13 @@
     if(options[["newVariableName"]] != "")
     {
       jaspResults[['sampleColumn']] <- createJaspColumn(options[["newVariableName"]])
-      
+
       didItWork <- switch(as,
       scale=  jaspResults[['sampleColumn']]$setScale(  sample),
       ordinal=jaspResults[['sampleColumn']]$setOrdinal(sample),
               jaspResults[['sampleColumn']]$setNominal(sample))
 
-      if(!didItWork) 
+      if(!didItWork)
         jaspResults[['sampleColumnError']] <- createJaspHtml(text=gettextf("Could not write to column '%s', probably because it wasn't created by this analysis", options[["newVariableName"]]), elementType="errorMsg", dependencies="newVariableName")
     }
   }

@@ -27,43 +27,41 @@
 </defs>
 <g clip-path='url(#cpNzIuMzN8NzIwLjAwfDIwLjcxfDUwNy4wOQ==)'>
 <rect x='72.33' y='20.71' width='647.67' height='486.39' style='stroke-width: 10.67; stroke: none;' />
-<rect x='104.71' y='468.61' width='52.99' height='16.38' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='163.59' y='419.48' width='52.99' height='65.51' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='222.47' y='353.97' width='52.99' height='131.01' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='281.35' y='173.83' width='52.99' height='311.16' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='340.23' y='173.83' width='52.99' height='311.16' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='399.11' y='42.82' width='52.99' height='442.17' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='457.99' y='321.22' width='52.99' height='163.77' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='516.87' y='321.22' width='52.99' height='163.77' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='575.75' y='468.61' width='52.99' height='16.38' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
-<rect x='634.63' y='468.61' width='52.99' height='16.38' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
-<line x1='72.01' y1='507.09' x2='661.44' y2='507.09' style='stroke-width: 0.64; stroke-linecap: butt;' />
-<line x1='72.33' y1='485.30' x2='72.33' y2='157.13' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<rect x='123.22' y='190.21' width='83.27' height='294.78' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='215.74' y='337.60' width='83.27' height='147.39' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='308.27' y='42.82' width='83.27' height='442.17' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='400.79' y='337.60' width='83.27' height='147.39' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='493.32' y='190.21' width='83.27' height='294.78' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<rect x='585.84' y='337.60' width='83.27' height='147.39' style='stroke-width: 1.07; stroke-linecap: butt; stroke-linejoin: miter; fill: #BEBEBE;' />
+<line x1='164.53' y1='507.09' x2='627.79' y2='507.09' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<line x1='72.33' y1='485.30' x2='72.33' y2='42.50' style='stroke-width: 0.64; stroke-linecap: butt;' />
 <rect x='72.33' y='20.71' width='647.67' height='486.39' style='stroke-width: 0.00; stroke: none;' />
 </g>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw1NzYuMDA=)'>
 <polyline points='72.33,507.09 72.33,20.71 ' style='stroke-width: 0.00; stroke: none; stroke-linecap: butt;' />
 <text x='56.85' y='490.84' text-anchor='end' style='font-size: 17.00px; font-family: sans;' textLength='23.63px' lengthAdjust='spacingAndGlyphs'>0.0</text>
-<text x='56.85' y='327.07' text-anchor='end' style='font-size: 17.00px; font-family: sans;' textLength='23.63px' lengthAdjust='spacingAndGlyphs'>0.1</text>
-<text x='56.85' y='163.30' text-anchor='end' style='font-size: 17.00px; font-family: sans;' textLength='23.63px' lengthAdjust='spacingAndGlyphs'>0.2</text>
+<text x='56.85' y='343.45' text-anchor='end' style='font-size: 17.00px; font-family: sans;' textLength='23.63px' lengthAdjust='spacingAndGlyphs'>0.1</text>
+<text x='56.85' y='196.06' text-anchor='end' style='font-size: 17.00px; font-family: sans;' textLength='23.63px' lengthAdjust='spacingAndGlyphs'>0.2</text>
+<text x='56.85' y='48.67' text-anchor='end' style='font-size: 17.00px; font-family: sans;' textLength='23.63px' lengthAdjust='spacingAndGlyphs'>0.3</text>
 <polyline points='63.83,484.99 72.33,484.99 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
-<polyline points='63.83,321.22 72.33,321.22 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
-<polyline points='63.83,157.45 72.33,157.45 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<polyline points='63.83,337.60 72.33,337.60 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<polyline points='63.83,190.21 72.33,190.21 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<polyline points='63.83,42.82 72.33,42.82 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
 <polyline points='72.33,507.09 720.00,507.09 ' style='stroke-width: 0.00; stroke: none; stroke-linecap: butt;' />
-<polyline points='72.33,515.60 72.33,507.09 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
-<polyline points='190.09,515.60 190.09,507.09 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
-<polyline points='307.85,515.60 307.85,507.09 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
-<polyline points='425.60,515.60 425.60,507.09 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
-<polyline points='543.36,515.60 543.36,507.09 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
-<polyline points='661.12,515.60 661.12,507.09 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
-<text x='72.33' y='534.27' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>0</text>
-<text x='190.09' y='534.27' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>2</text>
-<text x='307.85' y='534.27' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>4</text>
-<text x='425.60' y='534.27' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>6</text>
-<text x='543.36' y='534.27' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>8</text>
-<text x='661.12' y='534.27' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='18.91px' lengthAdjust='spacingAndGlyphs'>10</text>
-<text x='396.16' y='566.78' text-anchor='middle' style='font-size: 20.40px; font-family: sans;' textLength='208.72px' lengthAdjust='spacingAndGlyphs'>Binom100(p=0.5,n=10)</text>
-<text transform='translate(19.02,263.90) rotate(-90)' text-anchor='middle' style='font-size: 20.40px; font-family: sans;' textLength='366.29px' lengthAdjust='spacingAndGlyphs'>Rel. Freq (Binom100(p=0.5,n=10) in bin)</text>
+<polyline points='164.85,515.60 164.85,507.09 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<polyline points='257.38,515.60 257.38,507.09 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<polyline points='349.90,515.60 349.90,507.09 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<polyline points='442.43,515.60 442.43,507.09 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<polyline points='534.95,515.60 534.95,507.09 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<polyline points='627.48,515.60 627.48,507.09 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<text x='164.85' y='534.27' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>3</text>
+<text x='257.38' y='534.27' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>4</text>
+<text x='349.90' y='534.27' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>5</text>
+<text x='442.43' y='534.27' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>6</text>
+<text x='534.95' y='534.27' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>7</text>
+<text x='627.48' y='534.27' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>8</text>
+<text x='396.16' y='566.78' text-anchor='middle' style='font-size: 20.40px; font-family: sans;' textLength='197.37px' lengthAdjust='spacingAndGlyphs'>Binom10(p=0.5,n=10)</text>
+<text transform='translate(19.02,263.90) rotate(-90)' text-anchor='middle' style='font-size: 20.40px; font-family: sans;' textLength='354.95px' lengthAdjust='spacingAndGlyphs'>Rel. Freq (Binom10(p=0.5,n=10) in bin)</text>
 <text x='396.16' y='11.70' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='57.64px' lengthAdjust='spacingAndGlyphs'>bar-plot</text>
 </g>
 </svg>

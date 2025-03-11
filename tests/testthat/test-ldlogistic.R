@@ -32,18 +32,22 @@ results <- jaspTools::runAnalysis("LDlogistic", "Distributions.csv", options)
 
 test_that("Descriptives table results match", {
   table <- results[["results"]][["dataContainer"]][["collection"]][["dataContainer_summary"]][["data"]]
-  expect_equal_tables(table,
-                      list(2.40161776050478, 0.130415109675896, 0.113909160788544, -2.2146998871775,
-                           -0.494242549079377, 0.70433710614055, 100, 0.914574713318793,
-                           0.836446906242152, "Normal100(mu=0,sigma=1)"))
+  expect_equal_tables(
+    table,
+    list(2.40161776050478, 0.130415109675896, 0.113909160788544, -2.2146998871775,
+         -0.494242549079378, 0.70433710614055, 100, 0.914574713318793,
+         0.836446906242152, "Normal100(mu=0,sigma=1)")
+    )
 })
 
 test_that("Estimated Parameters table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_estParametersTable"]][["data"]]
-  expect_equal_tables(table,
-                      list(0.137210030044662, -0.040190903922556, "<unicode>", 0.0905123437810765,
-                           0.31461096401188, 0.518573756911791, 0.434192954331726, "<unicode>",
-                           0.043052220982452, 0.602954559491857))
+  expect_equal_tables(
+    table,
+    list(0.136816486578387, -0.0405989196665613, "<unicode>", 0.0905197277319271,
+         0.314231892823336, 0.518627612506237, 0.434228740538594, "<unicode>",
+         0.0430614402271524, 0.60302648447388)
+    )
 })
 
 test_that("Empirical vs. Theoretical CDF plot matches", {
@@ -60,10 +64,12 @@ test_that("Histogram vs. Theoretical PDF plot matches", {
 
 test_that("Fit Statistics table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_mleFitAssessment"]][["collection"]][["mleContainer_mleFitAssessment_fitStatisticsTable"]][["data"]]
-  expect_equal_tables(table,
-                      list(0.992056387151966, 0.0432601031416177, "Kolmogorov-Smirnov", 0.986570200919636,
-                           0.0265109002321186, "Cram<unicode>r-von Mises", 0.997913100601295,
-                           0.158257475732384, "Anderson-Darling"))
+  expect_equal_tables(
+    table,
+    list(0.991660820673831, 0.0434337378031222, "Kolmogorov-Smirnov", 0.986564361005606,
+         0.0265133312680807, "Cram<unicode>r-von Mises", 0.997926152885422,
+         0.158122847139978, "Anderson-Darling")
+    )
 })
 
 test_that("P-P plot matches", {

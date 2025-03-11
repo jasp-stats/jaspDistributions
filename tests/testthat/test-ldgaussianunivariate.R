@@ -32,6 +32,7 @@ options$qqPlotCiLevel <- 0.95
 options$ppPlotCi <- TRUE
 options$ppPlotCiLevel <- 0.95
 options$summary <- TRUE
+options$parametrization <- "sigma2"
 options$variable <- "Normal100(mu=0,sigma=1)"
 set.seed(1)
 results <- jaspTools::runAnalysis("LDgaussianunivariate", "Distributions.csv", options)
