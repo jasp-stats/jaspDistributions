@@ -27,12 +27,11 @@ LDbernoulliInternal <- function(jaspResults, dataset, options, state=NULL){
   #### Generate and Display data section ----
   # simulate and read data
   .simulateData(jaspResults, options, as="nominal")
-
   ready <- options[['variable']] != ""
   errors <- FALSE
   if(ready){
     variable <- dataset[[options[['variable']]]]
-    variable <- variable[!is.na(variable)]
+    variable <- as.factor(variable[!is.na(variable)])
     errors <- .hasErrors(dataset, type = c("observations", "factorLevels"),
                          observations.amount = "<2",
                          factorLevels.amount = "!=2",
