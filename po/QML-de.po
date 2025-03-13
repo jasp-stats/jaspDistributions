@@ -2964,7 +2964,7 @@ msgstr ""
 
 msgctxt "LDOptions|"
 msgid "Range of x from ... to ..."
-msgstr "Bereich von x ab ... bis ..."
+msgstr "Bereich von x von ... bis ..."
 
 msgctxt "LDOptions|"
 msgid ""
