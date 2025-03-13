@@ -120,7 +120,7 @@ Form
 		distributionName		: "Binomial"
 		formula					: "p = " + prob.value + ", n = " + size.value
 		histogramIsBarPlot		: true
-		allowOnlyScaleColumns	: false
+		allowOnlyScaleColumns	: true
 		suggestScaleColumns		: true
 		enabled					: dataSetInfo.dataAvailable
 	}

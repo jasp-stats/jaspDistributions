@@ -99,7 +99,7 @@ Form
 		distributionName		: "Geometric"
 		formula					: "p = " + prob.value
 		histogramIsBarPlot		: true
-		allowOnlyScaleColumns	: false
+		allowOnlyScaleColumns	: true
 		suggestScaleColumns		: true
 		enabled					: dataSetInfo.dataAvailable
 	}

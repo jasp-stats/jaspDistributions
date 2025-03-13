@@ -98,7 +98,7 @@ Form
 		distributionName		: "Poisson"
 		formula					: "λ = " + lambda.value
 		histogramIsBarPlot		: true
-		allowOnlyScaleColumns	: false
+		allowOnlyScaleColumns	: true
 		suggestScaleColumns		: true
 		enabled					: dataSetInfo.dataAvailable
 	}

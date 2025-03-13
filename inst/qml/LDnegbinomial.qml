@@ -125,7 +125,7 @@ Form
 		distributionName		: "NBinomial"
 		formula					: ["k = ", "φ = "][parametrization.currentIndex] + size.value + [",p = ", ",μ = "][parametrization.currentIndex] + par.value
 		histogramIsBarPlot		: true
-		allowOnlyScaleColumns	: false
+		allowOnlyScaleColumns	: true
 		suggestScaleColumns		: true
 		enabled					: dataSetInfo.dataAvailable
 	}
