@@ -1657,9 +1657,11 @@ Blitzstein, J. K., & Hwang, J. (2014). <i>Introduction to probability.</i> Chapm
 
 Leemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, 16</i>(4), 8–9.
 
-For relationships with other distributions, visit www.math.wm.edu/~leemis/chart/UDR/UDR.html.
+For relationships with other distributions, visit %6$s.
 
-https://en.wikipedia.org/wiki/List_of_probability_distributions", distributionName, distributionName, distributionName, distributionName, distributionName)
+%7$s", distributionName, distributionName, distributionName, distributionName, distributionName,
+                       "www.math.wm.edu/~leemis/chart/UDR/UDR.html",
+                       "https://en.wikipedia.org/wiki/List_of_probability_distributions")
     ),
     references   = list(
       jasp = "JASP Team (2020). JASP (Version 0.12) [Computer software].",

@@ -83,7 +83,7 @@ LDnormalGeneralizedInternal <- function(jaspResults, dataset, options, state=NUL
 
     moments <- list()
     moments$expectation <- "&mu;"
-    moments$variance <- gettext("see Wikipedia - https://en.wikipedia.org/wiki/Generalized_normal_distribution#Moments")
+    moments$variance <- gettextf("see Wikipedia: %s", "https://en.wikipedia.org/wiki/Generalized_normal_distribution#Moments")
 
     jaspResults[['parsSupportMoments']] <- .ldParsSupportMoments(pars, support, moments)
   }

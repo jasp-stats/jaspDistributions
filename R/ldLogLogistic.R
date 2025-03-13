@@ -92,8 +92,8 @@ LDlogLogisticInternal <- function(jaspResults, dataset, options, state=NULL) {
     support <- "x \u2208 \u211D"
 
     moments <- list()
-    moments$expectation <- gettext("see Wikipedia: https://en.wikipedia.org/wiki/Log-logistic_distribution#Moments")
-    moments$variance    <- gettext("see Wikipedia: https://en.wikipedia.org/wiki/Log-logistic_distribution#Moments")
+    moments$expectation <- gettextf("see Wikipedia: %s", "https://en.wikipedia.org/wiki/Log-logistic_distribution#Moments")
+    moments$variance    <- gettextf("see Wikipedia: %s", "https://en.wikipedia.org/wiki/Log-logistic_distribution#Moments")
 
     jaspResults[['parsSupportMoments']] <- .ldParsSupportMoments(pars, support, moments)
   }

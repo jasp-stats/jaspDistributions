@@ -86,8 +86,8 @@ LDtSkewedGeneralizedInternal <- function(jaspResults, dataset, options, state=NU
     support <- "x \u2208 \u211D"
 
     moments <- list()
-    moments$expectation <- gettext("see Wikipedia: https://en.wikipedia.org/wiki/Skewed_generalized_t_distribution#Moments")
-    moments$variance <- gettext("see Wikipedia: https://en.wikipedia.org/wiki/Skewed_generalized_t_distribution#Moments")
+    moments$expectation <- gettextf("see Wikipedia: %s", "https://en.wikipedia.org/wiki/Skewed_generalized_t_distribution#Moments")
+    moments$variance <- gettextf("see Wikipedia: %s", "https://en.wikipedia.org/wiki/Skewed_generalized_t_distribution#Moments")
 
     jaspResults[['parsSupportMoments']] <- .ldParsSupportMoments(pars, support, moments)
   }
