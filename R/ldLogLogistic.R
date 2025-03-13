@@ -31,10 +31,8 @@ LDlogLogisticInternal <- function(jaspResults, dataset, options, state=NULL) {
 
   ready <- options[['variable']] != ""
   errors <- FALSE
-  if(ready && is.null(dataset)){
-    dataset <- .readDataSetToEnd(columns.as.numeric = options[['variable']])
-
-    variable <- dataset[[.v(options[['variable']])]]
+  if(ready){
+    variable <- dataset[[options[['variable']]]]
     variable <- variable[!is.na(variable)]
     errors <- .hasErrors(dataset, type = c("observations", "variance", "infinity", "limits"),
                          observations.amount = "<2",

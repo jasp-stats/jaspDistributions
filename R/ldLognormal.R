@@ -17,58 +17,56 @@
 
 LDlognormalInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .recodeOptionsLDLognormal(options)
-  
+
   #### Show distribution section ----
-  .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("log-normal distribution"), 
+  .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("log-normal distribution"),
                       parSupportMoments = .ldLognormalParsSupportMoments,
-                      formulaPDF        = .ldFormulaLognormalPDF, 
-                      formulaCDF        = .ldFormulaLognormalCDF, 
+                      formulaPDF        = .ldFormulaLognormalPDF,
+                      formulaCDF        = .ldFormulaLognormalCDF,
                       formulaQF         = .ldFormulaLognormalQF)
-  
+
   #### Generate and Display data section ----
   # simulate and read data
   .simulateData(jaspResults, options)
-  
+
   ready <- options[['variable']] != ""
   errors <- FALSE
-  if(ready && is.null(dataset)){
-    dataset <- .readDataSetToEnd(columns.as.numeric = options[['variable']])
-    
-    variable <- dataset[[.v(options[['variable']])]]
+  if(ready){
+    variable <- dataset[[options[['variable']]]]
     variable <- variable[!is.na(variable)]
     errors <- .hasErrors(dataset, type = c("observations", "variance", "infinity", "limits"),
                          observations.amount = "<2",
-                         limits.min = options$support$min, limits.max = options$support$max, 
+                         limits.min = options$support$min, limits.max = options$support$max,
                          exitAnalysisIfErrors = FALSE)
   }
-  
+
   # overview of the data
   .ldDescriptives(jaspResults, variable, options, ready, errors, "continuous")
-  
+
   #### Fit data and assess fit ----
   .ldMLE(jaspResults, variable, options, ready, errors, .ldFillLognormalEstimatesTable)
-  
+
   return()
 }
 
 .recodeOptionsLDLognormal <- function(options){
   options[['parValNames']] <- c("mu", "sigma")
-  
+
   options[['pars']]   <- list(meanlog = options[['mu']], sdlog = options[['sigma']])
   options[['pdfFun']] <- stats::dlnorm
   options[['cdfFun']] <- stats::plnorm
   options[['qFun']]   <- stats::qlnorm
   options[['rFun']]   <- stats::rlnorm
   options[['distNameInR']] <- "lnorm"
-  
+
   options <- .ldOptionsDeterminePlotLimits(options)
-  
+
   options$support <- list(min = 0, max = Inf)
   options$lowerBound <- c(-Inf, 0)
   options$upperBound <- c(Inf, Inf)
-  
+
   options$transformations <- c(mu = "meanlog", sigma = "sdlog")
-  
+
   options
 }
 
@@ -78,13 +76,13 @@ LDlognormalInternal <- function(jaspResults, dataset, options, state=NULL){
     pars <- list()
     pars[[1]] <- gettextf("log mean: &mu; %s","\u2208 \u211D")
     pars[[2]] <- gettextf("log standard deviation: %s", "&sigma; \u2208 \u211D<sup>+</sup>")
-    
+
     support <- "x \u2208 \u211D<sup>+</sup>"
-    
+
     moments <- list()
     moments$expectation <- gettext("exp(&mu; + &sigma;<sup>2</sup>/2)")
     moments$variance <- gettext("[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)")
-    
+
     jaspResults[['parsSupportMoments']] <- .ldParsSupportMoments(pars, support, moments)
   }
 }
@@ -92,34 +90,34 @@ LDlognormalInternal <- function(jaspResults, dataset, options, state=NULL){
 .ldFormulaLognormalPDF <- function(options){
   if(options[['parametrization']] == "scale"){
     text <- "<MATH>
-    f(x; <span style='color:red'>&beta;</span>) = 
+    f(x; <span style='color:red'>&beta;</span>) =
     </MATH>"
   } else {
     text <- "<MATH>
     f(x; <span style='color:red'>&lambda;</span>) = <span style='color:red'>&lambda;</span>exp(-<span style='color:red'>&lambda;</span>x)
     </MATH>"
   }
-  
+
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
 .ldFormulaLognormalCDF <- function(options){
   if(options$parametrization == "scale"){
     text <- "<MATH>
-    F(x; <span style='color:red'>&beta;</span>) = 
+    F(x; <span style='color:red'>&beta;</span>) =
     </MATH>"
   }
-  
+
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
 .ldFormulaLognormalQF <- function(options){
   if(options$parametrization == "rate"){
     text <- "<MATH>
-    Q(p; <span style='color:red'>&beta;</span>) = 
+    Q(p; <span style='color:red'>&beta;</span>) =
     </MATH>"
   }
-  
+
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
@@ -129,19 +127,19 @@ LDlognormalInternal <- function(jaspResults, dataset, options, state=NULL){
   if(!ready) return()
   if(is.null(results)) return()
   if(is.null(table)) return()
-  
+
   par <- c(meanlog = "\u03BC", sdlog = "\u03C3")
   res <- results$structured
   res$parName <- par
-  
+
   if(results$fitdist$convergence != 0){
     table$addFootnote(gettext("The optimization did not converge, try adjusting the parameter values."), symbol = gettext("<i>Warning.</i>"))
   }
   if(!is.null(results$fitdist$optim.message)){
     table$addFootnote(results$fitdist$message, symbol = gettext("<i>Warning.</i>"))
   }
-  
+
   table$setData(res)
-  
+
   return()
 }

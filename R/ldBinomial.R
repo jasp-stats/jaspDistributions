@@ -17,62 +17,60 @@
 
 LDbinomialInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsBinomial(options)
-  
+
   #### Show binomial section ----
-  .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("binomial distribution"), 
+  .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("binomial distribution"),
                       parSupportMoments = .ldBinomialParsSupportMoments,
-                      formulaPMF        = .ldFormulaBinomialPMF, 
+                      formulaPMF        = .ldFormulaBinomialPMF,
                       formulaCMF        = .ldFormulaBinomialCDF)
-  
+
   #### Generate and Display data section ----
   # simulate and read data
   .simulateData(jaspResults, options)
-  
+
   ready <- options[['variable']] != ""
   errors <- FALSE
-  if(ready && is.null(dataset)){
-    dataset <- .readDataSetToEnd(columns.as.numeric = options[['variable']])
-    
-    variable <- dataset[[.v(options[['variable']])]]
+  if(ready){
+    variable <- dataset[[options[['variable']]]]
     variable <- variable[!is.na(variable)]
     errors <- .hasErrors(dataset, type = c("observations", "variance", "infinity", "limits"),
                          observations.amount = "<1",
-                         limits.min = options$support$min, limits.max = options$support$max, 
+                         limits.min = options$support$min, limits.max = options$support$max,
                          exitAnalysisIfErrors = FALSE)
     errors <- .ldCheckInteger(variable, errors)
   }
-  
+
   # overview of the data
   .ldDescriptives(jaspResults, variable, options, ready, errors, "discrete")
-  
+
   #### Fit data and assess fit ----
   .ldMLE(jaspResults, variable, options, ready, errors, .ldFillBinomialEstimatesTable)
-  
+
   return()
 }
 
 ### options ----
 .ldRecodeOptionsBinomial <- function(options){
-  
+
   options[['parValNames']] <- c("prob", "size")
-  
+
   options[['pars']]   <- list(prob = options[['prob']], size = options[['size']])
   options[['fix.pars']] <- list(size = options[['size']])
-    
+
   options[['pdfFun']] <- stats::dbinom
   options[['cdfFun']] <- stats::pbinom
   options[['qFun']]   <- stats::qbinom
   options[['rFun']]   <- stats::rbinom
   options[['distNameInR']] <- "binom"
-  
+
   options <- .ldOptionsDeterminePlotLimits(options, FALSE)
- 
+
   options$support <- list(min = 0, max = options[['size']])
   options$lowerBound <- c(0)
   options$upperBound <- c(1)
-  
+
   options$transformations <- c(prob = "prob")
-  
+
   options
 }
 
@@ -82,38 +80,38 @@ LDbinomialInternal <- function(jaspResults, dataset, options, state=NULL){
     pars <- list()
     pars[[1]] <- gettextf("probability of success: %s", "p \u2208 \u211D: 0 \u2264 p \u2264 1")
     pars[[2]] <- gettextf("number of trials: %s",       "n \u2208 \u2124: n \u2265 0")
-    
+
     support <- "x \u2208 {0, 1, ..., n}"
-    
+
     moments <- list()
     moments$expectation <- "np"
     moments$variance <- "np(1-p)"
-    
+
     jaspResults[['parsSupportMoments']] <- .ldParsSupportMoments(pars, support, moments)
   }
 }
 
 .ldFormulaBinomialPMF <- function(options){
     text <- "<MATH>
-    f(x; <span style='color:red'>p</span>, <span style='color:blue'>n</span>) = 
+    f(x; <span style='color:red'>p</span>, <span style='color:blue'>n</span>) =
     </MATH>"
-  
+
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
 .ldFormulaBinomialCDF <- function(options){
   text <- "<MATH>
-    F(x; <span style='color:red'>p</span>, <span style='color:blue'>n</span>) = 
+    F(x; <span style='color:red'>p</span>, <span style='color:blue'>n</span>) =
     </MATH>"
-  
+
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
 .ldFormulaBinomialQF <- function(options){
   text <- "<MATH>
-    Q(x; <span style='color:red'>p</span>, <span style='color:blue'>n</span>) = 
+    Q(x; <span style='color:red'>p</span>, <span style='color:blue'>n</span>) =
     </MATH>"
-  
+
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
@@ -123,19 +121,19 @@ LDbinomialInternal <- function(jaspResults, dataset, options, state=NULL){
   if(!ready) return()
   if(is.null(results)) return()
   if(is.null(table)) return()
-  
+
   res <- results$structured
   res$parName <- c("p")
-  
+
   if(results$fitdist$convergence != 0){
     table$addFootnote(gettext("The optimization did not converge, try adjusting the parameter values."), symbol = gettext("<i>Warning.</i>"))
   }
   if(!is.null(results$fitdist$optim.message)){
     table$addFootnote(results$fitdist$message, symbol = gettext("<i>Warning.</i>"))
   }
-  
+
   table$addFootnote(message = gettextf("Parameter n was fixed at value %s.", options[['size']]))
   table$setData(res)
-  
+
   return()
 }
