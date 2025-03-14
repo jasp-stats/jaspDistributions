@@ -100,7 +100,7 @@ Form
 		distributionName		: "Zero-inflated Poisson"
 		formula					: "π = " + prob.value + ", λ = " + lambda.value
 		histogramIsBarPlot		: true
-		allowOnlyScaleColumns	: false
+		allowOnlyScaleColumns	: true
 		suggestScaleColumns		: true
 		enabled					: dataSetInfo.dataAvailable
 	}

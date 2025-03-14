@@ -114,7 +114,7 @@ Form
 		distributionName		: "Hypergeometric"
 		formula					: "N = " + size.value + ", K = " + success.value + ", n = " + draws.value
 		histogramIsBarPlot		: true
-		allowOnlyScaleColumns	: false
+		allowOnlyScaleColumns	: true
 		suggestScaleColumns		: true
 		enabled					: dataSetInfo.dataAvailable
 	}

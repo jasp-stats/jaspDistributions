@@ -17,61 +17,59 @@
 
 LDpoissonInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsPoisson(options)
-  
+
   #### Show poisson section ----
-  .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("Poisson distribution"), 
+  .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("Poisson distribution"),
                       parSupportMoments = .ldPoissonParsSupportMoments,
-                      formulaPMF        = .ldFormulaPoissonPMF, 
+                      formulaPMF        = .ldFormulaPoissonPMF,
                       formulaCMF        = .ldFormulaPoissonCDF)
-  
+
   #### Generate and Display data section ----
   # simulate and read data
   .simulateData(jaspResults, options)
-  
+
   ready <- options[['variable']] != ""
   errors <- FALSE
-  if(ready && is.null(dataset)){
-    dataset <- .readDataSetToEnd(columns.as.numeric = options[['variable']])
-    
-    variable <- dataset[[.v(options[['variable']])]]
+  if(ready){
+    variable <- dataset[[options[['variable']]]]
     variable <- variable[!is.na(variable)]
     errors <- .hasErrors(dataset, type = c("observations", "variance", "infinity", "limits"),
                          observations.amount = "<2",
-                         limits.min = options$support$min, limits.max = options$support$max, 
+                         limits.min = options$support$min, limits.max = options$support$max,
                          exitAnalysisIfErrors = FALSE)
     errors <- .ldCheckInteger(variable, errors)
   }
-  
+
   # overview of the data
   .ldDescriptives(jaspResults, variable, options, ready, errors, "discrete")
-  
+
   #### Fit data and assess fit ----
   .ldMLE(jaspResults, variable, options, ready, errors, .ldFillPoissonEstimatesTable)
-  
+
   return()
 }
 
 ### options ----
 .ldRecodeOptionsPoisson <- function(options){
-  
+
   options[['parValNames']] <- c("lambda")
-  
+
   options[['pars']]   <- list(lambda = options[['lambda']])
-    
+
   options[['pdfFun']] <- stats::dpois
   options[['cdfFun']] <- stats::ppois
   options[['qFun']]   <- stats::qpois
   options[['rFun']]   <- stats::rpois
   options[['distNameInR']] <- "pois"
-  
+
   options <- .ldOptionsDeterminePlotLimits(options, FALSE)
- 
+
   options$support <- list(min = 0, max = Inf)
   options$lowerBound <- c(0)
   options$upperBound <- c(Inf)
-  
+
   options$transformations <- c(lambda = "lambda")
-  
+
   options
 }
 
@@ -80,38 +78,38 @@ LDpoissonInternal <- function(jaspResults, dataset, options, state=NULL){
   if(options$parsSupportMoments && is.null(jaspResults[['parsSupportMoments']])){
     pars <- list()
     pars[[1]] <- gettextf("rate: %s", "\u03BB \u2208 \u211D: \u03BB \u003E 0")
-    
+
     support <- "x \u2208 {0, 1, 2, ...}"
-    
+
     moments <- list()
     moments$expectation <- "\u03BB"
     moments$variance <- "\u03BB"
-    
+
     jaspResults[['parsSupportMoments']] <- .ldParsSupportMoments(pars, support, moments)
   }
 }
 
 .ldFormulaPoissonPMF <- function(options){
     text <- "<MATH>
-    f(x; <span style='color:red'>\u03BB</span>) = 
+    f(x; <span style='color:red'>\u03BB</span>) =
     </MATH>"
-  
+
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
 .ldFormulaPoissonCDF <- function(options){
   text <- "<MATH>
-    F(x; <span style='color:red'>\u03BB</span>) = 
+    F(x; <span style='color:red'>\u03BB</span>) =
     </MATH>"
-  
+
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
 .ldFormulaPoissonQF <- function(options){
   text <- "<MATH>
-    Q(x; <span style='color:red'>\u03BB</span>) = 
+    Q(x; <span style='color:red'>\u03BB</span>) =
     </MATH>"
-  
+
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
@@ -121,18 +119,18 @@ LDpoissonInternal <- function(jaspResults, dataset, options, state=NULL){
   if(!ready) return()
   if(is.null(results)) return()
   if(is.null(table)) return()
-  
+
   res <- results$structured
   res$parName <- c("\u03BB")
-  
+
   if(results$fitdist$convergence != 0){
     table$addFootnote(gettext("The optimization did not converge, try adjusting the parameter values."), symbol = gettext("<i>Warning.</i>"))
   }
   if(!is.null(results$fitdist$optim.message)){
     table$addFootnote(results$fitdist$message, symbol = gettext("<i>Warning.</i>"))
   }
-  
+
   table$setData(res)
-  
+
   return()
 }

@@ -17,37 +17,35 @@
 
 LDnegbinomialInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .ldRecodeOptionsNegbinomial(options)
-  
+
   #### Show negbinomial section ----
-  .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("negative binomial distribution"), 
+  .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("negative binomial distribution"),
                       parSupportMoments = .ldNegbinomialParsSupportMoments,
-                      formulaPMF        = .ldFormulaNegbinomialPMF, 
+                      formulaPMF        = .ldFormulaNegbinomialPMF,
                       formulaCMF        = .ldFormulaNegbinomialCDF)
-  
+
   #### Generate and Display data section ----
   # simulate and read data
   .simulateData(jaspResults, options)
-  
+
   ready <- options[['variable']] != ""
   errors <- FALSE
-  if(ready && is.null(dataset)){
-    dataset <- .readDataSetToEnd(columns.as.numeric = options[['variable']])
-    
-    variable <- dataset[[.v(options[['variable']])]]
+  if(ready){
+    variable <- dataset[[options[['variable']]]]
     variable <- variable[!is.na(variable)]
     errors <- .hasErrors(dataset, type = c("observations", "variance", "infinity", "limits"),
                          observations.amount = "<2",
-                         limits.min = options$support$min, limits.max = options$support$max, 
+                         limits.min = options$support$min, limits.max = options$support$max,
                          exitAnalysisIfErrors = FALSE)
     errors <- .ldCheckInteger(variable, errors)
   }
-  
+
   # overview of the data
   .ldDescriptives(jaspResults, variable, options, ready, errors, "discrete")
-  
+
   #### Fit data and assess fit ----
   .ldMLE(jaspResults, variable, options, ready, errors, .ldFillNegbinomialEstimatesTable)
-  
+
   return()
 }
 
@@ -58,25 +56,25 @@ LDnegbinomialInternal <- function(jaspResults, dataset, options, state=NULL){
   } else {
     options$mu <- options$par
   }
-  
+
   options[['parValNames']] <- c("size", "par")
-  
+
   options[['pars']]   <- list(size = options[['size']], mu = options[['mu']])
-    
+
   options[['pdfFun']] <- stats::dnbinom
   options[['cdfFun']] <- stats::pnbinom
   options[['qFun']]   <- stats::qnbinom
   options[['rFun']]   <- stats::rnbinom
   options[['distNameInR']] <- "nbinom"
-  
+
   options <- .ldOptionsDeterminePlotLimits(options, FALSE)
- 
+
   options$support <- list(min = 0, max = Inf)
   options$lowerBound <- c(0, 0)
   options$upperBound <- c(Inf, Inf)
-  
+
   options$transformations <- c(size = "size", prob = "size / (size + mu)", mu = "mu")
-  
+
   options
 }
 
@@ -90,9 +88,9 @@ LDnegbinomialInternal <- function(jaspResults, dataset, options, state=NULL){
     pars[[2]] <- switch(options[['parametrization']],
                         prob = gettextf("probability of success: %s", "p \u2208 \u211D: 0 \u2264 p \u2264 1"),
                                gettextf("mean: %s",                   "\u03BC \u2208 \u211D: \u03BC \u2265 0"))
-    
+
     support <- "x \u2208 {0, 1, 2, ...}"
-    
+
     moments <- list()
     moments$expectation <- switch(options[['parametrization']],
                                   prob = "pk/(1-p)",
@@ -100,7 +98,7 @@ LDnegbinomialInternal <- function(jaspResults, dataset, options, state=NULL){
     moments$variance <- switch(options[['parametrization']],
                                prob = "pk/(1-p)<sup>2</sup>",
                                       "\u03BC + \u03BC<sup>2</sup>/\u03D5")
-    
+
     jaspResults[['parsSupportMoments']] <- .ldParsSupportMoments(pars, support, moments)
   }
 }
@@ -108,39 +106,39 @@ LDnegbinomialInternal <- function(jaspResults, dataset, options, state=NULL){
 .ldFormulaNegbinomialPMF <- function(options){
   if(options$parametrization == "prob"){
     text <- "<MATH>
-    f(x; <span style='color:red'>\u03D5</span>, <span style='color:blue'>p</span>) = 
+    f(x; <span style='color:red'>\u03D5</span>, <span style='color:blue'>p</span>) =
     </MATH>"
   } else{
     text <- "<MATH>
-    f(x; <span style='color:red'>\u03D5</span>, <span style='color:blue'>\u03BC</span>) = 
+    f(x; <span style='color:red'>\u03D5</span>, <span style='color:blue'>\u03BC</span>) =
     </MATH>"
   }
-  
+
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
 .ldFormulaNegbinomialCDF <- function(options){
   if(options$parametrization == "prob"){
     text <- "<MATH>
-    F(x; <span style='color:red'>\u03D5</span>, <span style='color:blue'>p</span>) = 
+    F(x; <span style='color:red'>\u03D5</span>, <span style='color:blue'>p</span>) =
     </MATH>"
   } else{
     text <- "<MATH>
-    F(x; <span style='color:red'>\u03D5</span>, <span style='color:blue'>\u03BC</span>) = 
+    F(x; <span style='color:red'>\u03D5</span>, <span style='color:blue'>\u03BC</span>) =
     </MATH>"
   }
-  
+
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
 .ldFormulaNegbinomialQF <- function(options){
   if(options$parametrization == "prob"){
     text <- "<MATH>
-    Q(p; <span style='color:red'>\u03D5</span>, <span style='color:blue'>p</span>) = 
+    Q(p; <span style='color:red'>\u03D5</span>, <span style='color:blue'>p</span>) =
     </MATH>"
   } else{
     text <- "<MATH>
-    Q(p; <span style='color:red'>\u03D5</span>, <span style='color:blue'>\u03BC</span>) = 
+    Q(p; <span style='color:red'>\u03D5</span>, <span style='color:blue'>\u03BC</span>) =
     </MATH>"
   }
   return(gsub(pattern = "\n", replacement = " ", x = text))
@@ -152,7 +150,7 @@ LDnegbinomialInternal <- function(jaspResults, dataset, options, state=NULL){
   if(!ready) return()
   if(is.null(results)) return()
   if(is.null(table)) return()
-  
+
   res <- results$structured
   if(options$parametrization == "prob"){
     res$parName <- c("k", "p", "\u03BC")
@@ -161,15 +159,15 @@ LDnegbinomialInternal <- function(jaspResults, dataset, options, state=NULL){
     res$parName <- c("\u03D5", "p", "\u03BC")
     res <- res[res$par != "prob",,drop=FALSE]
   }
-  
+
   if(results$fitdist$convergence != 0){
     table$addFootnote(gettext("The optimization did not converge, try adjusting the parameter values."), symbol = gettext("<i>Warning.</i>"))
   }
   if(!is.null(results$fitdist$optim.message)){
     table$addFootnote(results$fitdist$message, symbol = gettext("<i>Warning.</i>"))
   }
-  
+
   table$setData(res)
-  
+
   return()
 }

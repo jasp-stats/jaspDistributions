@@ -107,7 +107,7 @@ Form
 		distributionName		: "Beta binomial"
 		formula					: "α = " + alpha.value + ", β = " + beta.value + ", n = " + size.value
 		histogramIsBarPlot		: true
-		allowOnlyScaleColumns	: false
+		allowOnlyScaleColumns	: true
 		suggestScaleColumns		: true
 		enabled					: dataSetInfo.dataAvailable
 	}

@@ -14,6 +14,7 @@ Description
 	license:		"GPL (>= 2)"
 	requiresData:	false
 	hasWrappers:	true
+	preloadData:	true
 
 	GroupTitle
 	{

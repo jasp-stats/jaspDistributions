@@ -26,7 +26,7 @@ options$plotCMF <- TRUE
 options$ppplot <- TRUE
 options$qqplot <- TRUE
 options$summary <- TRUE
-options$variable <- "Binom100(p=0.5,n=10)"
+options$variable <- "Binom10(p=0.5,n=10)"
 set.seed(1)
 results <- jaspTools::runAnalysis("LDbinomial", "Distributions.csv", options)
 
@@ -45,22 +45,25 @@ test_that("Bar plot matches", {
 
 test_that("Observed Moments table results match", {
   table <- results[["results"]][["dataContainer"]][["collection"]][["dataContainer_moments"]][["data"]]
-  jaspTools::expect_equal_tables(table,
-                      list(5.35, 1, 5.35, 2.8875, 2, 31.51))
+  jaspTools::expect_equal_tables(
+    table,
+    list(5.3, 1, 5.3, 2.61, 2, 30.7))
 })
 
 test_that("Descriptives table results match", {
   table <- results[["results"]][["dataContainer"]][["collection"]][["dataContainer_summary"]][["data"]]
-  jaspTools::expect_equal_tables(table,
-                      list(10, 5.35, 5, 1, 4, 6, 100, 1.70782512765993, 2.91666666666667,
-                           "Binom100(p=0.5,n=10)"))
+  jaspTools::expect_equal_tables(
+    table,
+    list(8, 5.3, 5, 3, 4.25, 6.75, 10, 1.70293863659264, 2.9, "Binom10(p=0.5,n=10)")
+    )
 })
 
 test_that("Estimated Parameters table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_estParametersTable"]][["data"]]
-  jaspTools::expect_equal_tables(table,
-                      list(0.53499996183676, 0.50408635472958, "p", 0.0157725383481645, 0.565913568943939
-                      ))
+  jaspTools::expect_equal_tables(
+    table,
+    list(0.529999919702743, 0.432178672763417, "p", 0.0499097165615936, 0.627821166642068)
+    )
 })
 
 test_that("Empirical vs. Theoretical CDF plot matches", {
@@ -77,8 +80,10 @@ test_that("Histogram vs. Theoretical PMF plot matches", {
 
 test_that("Fit Statistics table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_mleFitAssessment"]][["collection"]][["mleContainer_mleFitAssessment_fitStatisticsTable"]][["data"]]
-  jaspTools::expect_equal_tables(table,
-                      list(0.345821543758124, 10.0578590082351, "Chi-square"))
+  jaspTools::expect_equal_tables(
+    table,
+    list(0.73599300224494, 2.76609118947259, "Chi-square")
+    )
 })
 
 test_that("P-P plot matches", {
