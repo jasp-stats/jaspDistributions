@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.17.2\n"
-"POT-Creation-Date: 2023-11-18 02:58\n"
+"POT-Creation-Date: 2025-03-15 03:08\n"
 "PO-Revision-Date: 2025-03-12 10:48+0000\n"
 "Last-Translator: MikeWinny <winny63@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jasp/"
@@ -324,10 +324,9 @@ msgid ""
 "Leemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, "
 "16</i>(4), 8–9.\n"
 "\n"
-"For relationships with other distributions, visit www.math.wm.edu/~leemis/"
-"chart/UDR/UDR.html.\n"
+"For relationships with other distributions, visit %6$s.\n"
 "\n"
-"https://en.wikipedia.org/wiki/List_of_probability_distributions"
+"%7$s"
 msgstr ""
 
 msgid ""
@@ -438,8 +437,7 @@ msgstr ""
 msgid "location: %s"
 msgstr ""
 
-msgid ""
-"see Wikipedia: https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution"
+msgid "see Wikipedia: %s"
 msgstr ""
 
 msgid "gamma distribution"
@@ -492,9 +490,6 @@ msgid ""
 "scale: %2$s"
 msgstr ""
 
-msgid "see Wikipedia: %s"
-msgstr ""
-
 msgid "Gumbel distribution"
 msgstr ""
 
@@ -514,11 +509,6 @@ msgid "log scale: %s"
 msgstr ""
 
 msgid "scale: &alpha; %s"
-msgstr ""
-
-msgid ""
-"see Wikipedia: https://en.wikipedia.org/wiki/Log-"
-"logistic_distribution#Moments"
 msgstr ""
 
 msgid "logistic distribution"
@@ -600,11 +590,6 @@ msgstr ""
 msgid "generalized normal distribution"
 msgstr ""
 
-msgid ""
-"see Wikipedia - https://en.wikipedia.org/wiki/"
-"Generalized_normal_distribution#Moments"
-msgstr ""
-
 msgid "skew normal distribution"
 msgstr ""
 
@@ -639,11 +624,6 @@ msgid "skewness: %s"
 msgstr ""
 
 msgid "kurtosis: %s"
-msgstr ""
-
-msgid ""
-"see Wikipedia: https://en.wikipedia.org/wiki/"
-"Skewed_generalized_t_distribution#Moments"
 msgstr ""
 
 msgid "scaled, shifted Student's t-distribution"

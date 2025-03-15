@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.19.2\n"
-"POT-Creation-Date: 2024-10-19 03:03\n"
+"POT-Creation-Date: 2025-03-15 03:08\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -238,7 +238,7 @@ msgstr ""
 msgid "The quantile function, usually denoted as Q(p), is the inverse of the cumulative distribution function.\n    The function gives the quantile such that the probability of the random variable being less than or equal to that value equals the given probability p.\n\n    The quantile plot displays the quantile function.\n    The <i>y</i>-axis displays the quantile of which the probability that the random variable is less or equal to that value is equal to p (displayed on the <i>x</i>-axis)."
 msgstr ""
 
-msgid "<h3> Demonstration of the %1$s </h3>\nThis demonstration is divided into four parts.\nThe first part displays the %2$s, its probability density function, cumulative distribution function, and quantile function.\nThe second part allows you to generate data from the %3$s, compute descriptive statistics, and display descriptive plots.\nThe third part allows you to estimate the parameters of the %4$s.\nThe fourth part allows you to check the fit of the %5$s to the data.\n\n<b>References</b>\n\nBlitzstein, J. K., & Hwang, J. (2014). <i>Introduction to probability.</i> Chapman and Hall/CRC.\n\nLeemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, 16</i>(4), 8–9.\n\nFor relationships with other distributions, visit www.math.wm.edu/~leemis/chart/UDR/UDR.html.\n\nhttps://en.wikipedia.org/wiki/List_of_probability_distributions"
+msgid "<h3> Demonstration of the %1$s </h3>\nThis demonstration is divided into four parts.\nThe first part displays the %2$s, its probability density function, cumulative distribution function, and quantile function.\nThe second part allows you to generate data from the %3$s, compute descriptive statistics, and display descriptive plots.\nThe third part allows you to estimate the parameters of the %4$s.\nThe fourth part allows you to check the fit of the %5$s to the data.\n\n<b>References</b>\n\nBlitzstein, J. K., & Hwang, J. (2014). <i>Introduction to probability.</i> Chapman and Hall/CRC.\n\nLeemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, 16</i>(4), 8–9.\n\nFor relationships with other distributions, visit %6$s.\n\n%7$s"
 msgstr ""
 
 msgid "Estimation failed: Optimization did not converge. <ul><li>Try adjusting parameter values, check outliers or feasibility of the distribution fitting the data.</li></ul>"
@@ -343,7 +343,7 @@ msgstr ""
 msgid "location: %s"
 msgstr ""
 
-msgid "see Wikipedia: https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution"
+msgid "see Wikipedia: %s"
 msgstr ""
 
 msgid "gamma distribution"
@@ -394,9 +394,6 @@ msgstr ""
 msgid "shape: %1$s \nscale: %2$s"
 msgstr ""
 
-msgid "see Wikipedia: %s"
-msgstr ""
-
 msgid "Gumbel distribution"
 msgstr ""
 
@@ -416,9 +413,6 @@ msgid "log scale: %s"
 msgstr ""
 
 msgid "scale: &alpha; %s"
-msgstr ""
-
-msgid "see Wikipedia: https://en.wikipedia.org/wiki/Log-logistic_distribution#Moments"
 msgstr ""
 
 msgid "logistic distribution"
@@ -499,9 +493,6 @@ msgstr ""
 msgid "generalized normal distribution"
 msgstr ""
 
-msgid "see Wikipedia - https://en.wikipedia.org/wiki/Generalized_normal_distribution#Moments"
-msgstr ""
-
 msgid "skew normal distribution"
 msgstr ""
 
@@ -536,9 +527,6 @@ msgid "skewness: %s"
 msgstr ""
 
 msgid "kurtosis: %s"
-msgstr ""
-
-msgid "see Wikipedia: https://en.wikipedia.org/wiki/Skewed_generalized_t_distribution#Moments"
 msgstr ""
 
 msgid "scaled, shifted Student's t-distribution"
