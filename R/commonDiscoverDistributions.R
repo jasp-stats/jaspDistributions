@@ -288,7 +288,7 @@
     fitContainer <- createJaspContainer(title = gettext(title))
     fitContainer$position <- position
 
-    fitContainer$dependOn(c("variable", "simulateNow"))
+    fitContainer$dependOn(c("variable", "simulateNow", "biasCorrected", options$parValNames))
 
     jaspResults[[name]] <- fitContainer
   }
@@ -481,7 +481,7 @@
 
   results$structured <- .ldStructureResults(results$fitdist, options, include.se)
 
-  mleContainer[['mleResults']] <- createJaspState(object = results, dependencies = c(options$parValNames, "ciIntervalInterval", "parametrization"))
+  mleContainer[['mleResults']] <- createJaspState(object = results, dependencies = c(options$parValNames, "ciIntervalInterval", "parametrization", "biasCorrected"))
 
   return(results)
 }
@@ -567,8 +567,9 @@
                                                   )
                                       ),
                                       rescale.p = TRUE),
-                   c(list(x = variable, null = options$cdfFun), pars)
+                   c(list(x = variable, null = options$cdfFun, estimated=TRUE), pars)
     )
+
     fun <- switch (test,
                    "kolmogorovSmirnov" = ks.test,
                    "cramerVonMisses"   = goftest::cvm.test,

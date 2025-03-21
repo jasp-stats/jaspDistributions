@@ -191,6 +191,9 @@ exp[-(x-<span style='color:red'>&mu;</span>)&sup2; &frasl; 2<span style='color:b
   if (options[["outputSE"]])
     table$addFootnote(gettextf("SE is not available."), colNames="se", rowNames="scale")
 
+  if (options[["biasCorrected"]])
+    table$addFootnote(gettext("Unbiased with Bessel's correction."), colNames="estimate", rowNames="scale")
+
   table$setData(results[["structured"]])
 
   return()
@@ -211,7 +214,7 @@ exp[-(x-<span style='color:red'>&mu;</span>)&sup2; &frasl; 2<span style='color:b
   sigma2 <- var(variable)
   chiSq <- qchisq(pCi, df)
 
-  if (isTRUE(options["besselsCorrection"])){
+  if (options[["biasCorrected"]]){
     sigma2Ci <- sigma2 * df / rev(chiSq)
   } else {
     sigma2 <- sigma2 * df / n
