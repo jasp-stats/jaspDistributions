@@ -288,7 +288,7 @@
     fitContainer <- createJaspContainer(title = gettext(title))
     fitContainer$position <- position
 
-    fitContainer$dependOn(c("variable", "simulateNow", "biasCorrected", options$parValNames))
+    fitContainer$dependOn(c("variable", "simulateNow", "biasCorrected", options$parValNames, "methodMLE"))
 
     jaspResults[[name]] <- fitContainer
   }
