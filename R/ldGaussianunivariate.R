@@ -44,7 +44,8 @@ LDgaussianunivariateInternal <- function(jaspResults, dataset, options, state=NU
   .ldDescriptives(jaspResults, variable, options, ready, errors, "continuous")
 
   #### Fit data and assess fit ----
-  .ldMLE(jaspResults, variable, options, ready, errors, .ldFillGaussianEstimatesTable)
+  analyticEstimates <- .ldMLEGaussian(variable, options, ready, errors)
+  .ldMLE(jaspResults, variable, options, ready, errors, .ldFillGaussianEstimatesTable, analyticEstimates)
 
   return()
 }
@@ -187,23 +188,64 @@ exp[-(x-<span style='color:red'>&mu;</span>)&sup2; &frasl; 2<span style='color:b
   if(is.null(results)) return()
   if(is.null(table)) return()
 
-  par1 <- c(mu = "\u03BC")
-  par2 <- c(sigma2 = "\u03C3\u00B2", sigma = "\u03C3",
-            tau    = "\u03C4",       kappa   = "\u03BA")[options$parametrization]
-  res <- results$structured
-  res <- res[res$par %in% names(c(par1, par2)),]
-  res$parName <- c(par1, par2)
+  if (options[["outputSE"]])
+    table$addFootnote(gettextf("SE is not available."), colNames="se", rowNames="scale")
 
-  if(results$fitdist$convergence != 0){
-    table$addFootnote(gettext("The optimization did not converge, try adjusting the parameter values."), symbol = gettext("<i>Warning.</i>"))
-  }
-  if(!is.null(results$fitdist$optim.message)){
-    table$addFootnote(results$fitdist$message, symbol = gettext("<i>Warning.</i>"))
-  }
-
-  table$setData(res)
+  table$setData(results[["structured"]])
 
   return()
+}
+
+
+.ldMLEGaussian <- function(variable, options, ready, errors) {
+  if(!ready || !isFALSE(errors)) return()
+  results <- list()
+
+  pLowerCI <- (1-options[['ciIntervalInterval']]) / 2
+  pUpperCI <- 1 - pLowerCI
+  pCi <- c(pLowerCI, pUpperCI)
+
+  n <- length(variable)
+  df <- n-1
+
+  sigma2 <- var(variable)
+  chiSq <- qchisq(pCi, df)
+
+  if (isTRUE(options["besselsCorrection"])){
+    sigma2Ci <- sigma2 * df / rev(chiSq)
+  } else {
+    sigma2 <- sigma2 * df / n
+    sigma2Ci <- sigma2 * n / rev(chiSq)
+  }
+
+  mu <- mean(variable)
+  t <- qt(pCi, df=df)
+  muSe <- sqrt(sigma2) / sqrt(n)
+  muCi <- mu + t * muSe
+
+  loc <- data.frame(
+    par="mu", parName="\u03BC", estimate=mu, se=muSe, lower=muCi[1], upper=muCi[2]
+  )
+
+  scale <- switch(
+    options[["parametrization"]],
+    sigma2 = data.frame(par="sigma2", parName="\u03C3\u00B2", estimate=sigma2,         se=NA, lower=sigma2Ci[1],         upper=sigma2Ci[2]),
+    sigma  = data.frame(par="sigma",  parName="\u03C3",       estimate=sqrt(sigma2),   se=NA, lower=sqrt(sigma2Ci[1]),   upper=sqrt(sigma2Ci[2])),
+    tau    = data.frame(par="tau",    parName="\u03C4",       estimate=1/sigma2,       se=NA, lower=1/sigma2Ci[1],       upper=1/sigma2Ci[2]),
+    kappa  = data.frame(par="kapp",   parName="\u03BA",       estimate=1/sqrt(sigma2), se=NA, lower=1/sqrt(sigma2Ci[1]), upper=1/sqrt(sigma2Ci[2]))
+  )
+
+  results$structured <- rbind(loc, scale)
+  rownames(results$structured) <- c("loc", "scale")
+
+  results$fitdist <- list()
+  results$fitdist$convergence <- 0
+  results$fitdist$estimate <- c(mean=mu, sd=sqrt(sigma2))
+  results$ci.possible <- TRUE
+  results$se.possible <- TRUE
+
+
+  return(results)
 }
 
 # old ----
