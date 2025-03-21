@@ -639,7 +639,7 @@
 
   table$setData(res)
 
-  if (!normality && (options[["cramerVonMisses"]] || options[["andersonDarling"]])) {
+  if (!normality && (isTRUE(options[["cramerVonMisses"]]) || isTRUE(options[["andersonDarling"]]))) {
     table$addFootnote(gettext("Using Brown (1980) approximation which tends to be innacurate for small sample sizes."),
                       rowNames = c("cramerVonMisses", "andersonDarling"))
     table$addCitation(.ldAllTextsList()$references$brown)

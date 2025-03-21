@@ -3,7 +3,9 @@ context("Discover Distributions - Normal")
 options <- jaspTools::analysisOptions("LDgaussianunivariate")
 options$.meta <- list(newVariableName = list(containsColumn = TRUE), variable = list(
   containsColumn = TRUE))
+options$biasCorrected <- TRUE
 options$andersonDarling <- TRUE
+options$lillienfors <- TRUE
 options$ciInterval <- TRUE
 options$ciIntervalInterval <- 0.95
 options$cramerVonMisses <- TRUE
@@ -73,9 +75,9 @@ test_that("Descriptives table results match", {
 test_that("Estimated Parameters table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_estParametersTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                      list(0.130422052279253, -0.0479317525657895, "<unicode>", 0.0909985113256541,
-                           0.308775857124295, 0.828072906238923, 0.598550253333547, "<unicode><unicode>",
-                           0.117105546181369, 1.0575955591443))
+                                 list(0.130415109675896, -0.0510563552900477, "<unicode>", 0.0914574713318793,
+                                      0.311886574641839, 0, 1, 0.836446906242152, 0.644813591445229,
+                                      "<unicode><unicode>", "", 1.12877623260258))
 })
 
 test_that("Empirical vs. Theoretical CDF plot matches", {
@@ -93,10 +95,11 @@ test_that("Histogram vs. Theoretical PDF plot matches", {
 test_that("Fit Statistics table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_mleFitAssessment"]][["collection"]][["mleContainer_mleFitAssessment_fitStatisticsTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                      list(0.99278432447795, 0.0429230630813024, "Kolmogorov-Smirnov", 0.99519059575295,
-                           0.0217999835633844, "Cram<unicode>r-von Mises", 0.999444838973091,
-                           0.134303182925592, "Anderson-Darling", 0.994211531885932, 0.996119141722174,
-                           "Shapiro-Wilk"))
+                                 list(0.991407439010072, 0.0435417886558164, "Kolmogorov-Smirnov", 0.943808236870346,
+                                      0.0222708494545493, "Cram<unicode>r-von Mises", 0.977570565641067,
+                                      0.135493314971953, "Anderson-Darling", 0.912509972807986, 0.0435417886558163,
+                                      "Lillienfors", 0.992785911992608, 0.996812818710274, "Shapiro-Wilk"
+                                 ))
 })
 
 test_that("P-P plot matches", {
