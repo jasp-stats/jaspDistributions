@@ -45,7 +45,7 @@ LDgaussianunivariateInternal <- function(jaspResults, dataset, options, state=NU
 
   #### Fit data and assess fit ----
   analyticEstimates <- .ldMLEGaussian(variable, options, ready, errors)
-  .ldMLE(jaspResults, variable, options, ready, errors, .ldFillGaussianEstimatesTable, analyticEstimates)
+  .ldMLE(jaspResults, variable, options, ready, errors, .ldFillGaussianEstimatesTable, analyticEstimates, normality=TRUE)
 
   return()
 }

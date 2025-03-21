@@ -107,5 +107,5 @@ Form
 
 	LD.LDEstimateParameters { enabled: dataSetInfo.dataAvailable; includeUnbiased: true }
 
-	LD.LDAssessFit{ enabled: dataSetInfo.dataAvailable; includeShapiroWilk: true }
+	LD.LDAssessFit{ enabled: dataSetInfo.dataAvailable; includeShapiroWilk: true; includeLillienfors: true}
 }

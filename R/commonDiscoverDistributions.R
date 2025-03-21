@@ -381,7 +381,7 @@
 
 ### Fit distributions ----
 ### MLE stuff ----
-.ldMLE <- function(jaspResults, variable, options, ready, errors, fillTable, analyticEstimates = NULL, ...){
+.ldMLE <- function(jaspResults, variable, options, ready, errors, fillTable, analyticEstimates = NULL, normality=FALSE,...){
   ready <- ready && isFALSE(errors)
   # override MLE option if any assess fit method is requested
   options[["methodMLE"]] <- options[["methodMLE"]] || .ldAnyAssessFitRequested(options)
@@ -405,8 +405,8 @@
 
   # fit statistics
   mleFitStatistics   <- .ldFitStatisticsTable(mleFitContainer, options, "methodMLE")
-  mleFitStatisticsResults <- .ldFitStatisticsResults(mleContainer, mleResults$fitdist, variable, options, ready)
-  .ldFillFitStatisticsTable(mleFitStatistics, mleFitStatisticsResults, options, ready)
+  mleFitStatisticsResults <- .ldFitStatisticsResults(mleContainer, mleResults$fitdist, variable, options, ready, normality)
+  .ldFillFitStatisticsTable(mleFitStatistics, mleFitStatisticsResults, options, ready, normality)
   # fit plots
   .ldFitPlots(mleFitContainer, mleResults$fitdist$estimate, options, variable, ready)
 }
@@ -415,6 +415,7 @@
   isTRUE(options[["kolmogorovSmirnov"]]) ||
   isTRUE(options[["cramerVonMisses"]]) ||
   isTRUE(options[["andersonDarling"]]) ||
+  isTRUE(options[["lillienfors"]]) ||
   isTRUE(options[["shapiroWilk"]]) ||
   isTRUE(options[["chiSquare"]]) ||
   isTRUE(options[["estPDF"]]) ||
@@ -521,7 +522,7 @@
 .ldFitStatisticsTable <- function(fitContainer, options, method){
   if(!is.null(fitContainer[['fitStatisticsTable']])) return()
 
-  allTests <- c("kolmogorovSmirnov", "cramerVonMisses", "andersonDarling", "shapiroWilk", "chiSquare")
+  allTests <- c("kolmogorovSmirnov", "cramerVonMisses", "andersonDarling", "lillienfors", "shapiroWilk", "chiSquare")
   optionsTests <- allTests %in% names(options)
   whichTests <- unlist(options[allTests[optionsTests]])
 
@@ -544,12 +545,12 @@
   return(tab)
 }
 
-.ldFitStatisticsResults <- function(fitContainer, fit, variable, options, ready){
+.ldFitStatisticsResults <- function(fitContainer, fit, variable, options, ready, normality=FALSE){
   if(!ready || fitContainer$getError()) return()
   if(is.null(fit)) return()
   if(!is.null(fitContainer[['fitStatisticsResults']])) return(fitContainer[['fitStatisticsResults']]$object)
 
-  allTests <- c("kolmogorovSmirnov", "cramerVonMisses", "andersonDarling", "shapiroWilk", "chiSquare")
+  allTests <- c("kolmogorovSmirnov", "cramerVonMisses", "andersonDarling", "lillienfors", "shapiroWilk", "chiSquare")
   tests <- allTests[allTests %in% names(options)]
 
   res <- data.frame(test = tests, statistic = numeric(length = length(tests)), p.value = numeric(length = length(tests)))
@@ -559,6 +560,7 @@
   for(test in tests){
     arg <- switch (test,
                    "kolmogorovSmirnov" = c(list(x = variable, y = options$cdfFun), pars),
+                   "lillienfors" = list(x = variable),
                    "shapiroWilk" = list(x = variable),
                    "chiSquare" = list(x = as.numeric(table(variable)),
                                       p = do.call(options[['pdfFun']],
@@ -571,12 +573,39 @@
     )
 
     fun <- switch (test,
-                   "kolmogorovSmirnov" = ks.test,
+                   "kolmogorovSmirnov" = stats::ks.test,
                    "cramerVonMisses"   = goftest::cvm.test,
                    "andersonDarling"   = goftest::ad.test,
-                   "shapiroWilk"       = shapiro.test,
-                   "chiSquare"         = chisq.test
+                   "lillienfors"       = nortest::lillie.test,
+                   "shapiroWilk"       = nortest::sf.test,
+                   "chiSquare"         = stats::chisq.test
     )
+
+    # exact normality tests are full of special cases, here they are intercepted
+    if (normality) {
+      if (test == "cramerVonMisses" && length(variable) > 7) {
+        arg <- list(x = variable)
+        fun <- nortest::cvm.test
+      } else if (test == "andersonDarling" && length(variable) > 7) {
+        arg <- list(x = variable)
+        fun <- nortest::ad.test
+      } else if (test == "lillienfors" && length(variable) < 5) {
+        fun <- function(x) {
+          return(list(statistic = NA, p.value = NA))
+        }
+      } else if (test == "shapiroWilk" && (length(variable) < 5 || length(variable) > 5000)) {
+        fun <- stats::shapiro.test
+      }
+    } else {
+      if (test == "shapiroWilk") {
+        fun <- stats::shapiro.test
+      } else if (test=="lillienfors") {
+        fun <- function(x) {
+          return(list(statistic = NA, p.value = NA))
+        }
+      }
+    }
+
     compute <- do.call(fun, arg)
     res[res$test == test, "statistic"] <- as.numeric(compute$statistic)
     res[res$test == test, "p.value"]   <- as.numeric(compute$p.value)
@@ -587,26 +616,34 @@
   return(res)
 }
 
-.ldFillFitStatisticsTable <- function(table, results, options, ready){
+.ldFillFitStatisticsTable <- function(table, results, options, ready, normality=FALSE){
   if(!ready) return()
   if(is.null(results)) return()
   if(is.null(table)) return()
 
 
-  allTests <- c("kolmogorovSmirnov", "cramerVonMisses", "andersonDarling", "shapiroWilk", "chiSquare")
+  allTests <- c("kolmogorovSmirnov", "cramerVonMisses", "andersonDarling", "lillienfors", "shapiroWilk", "chiSquare")
   tests <- allTests[allTests %in% names(options)]
   testNames <- c(gettext("Kolmogorov-Smirnov"),
                  gettext("Cramér-von Mises"),
                  gettext("Anderson-Darling"),
+                 gettext("Lillienfors"),
                  gettext("Shapiro-Wilk"),
                  gettext("Chi-square"))[allTests %in% names(options)]
 
   whichTests <- unlist(options[tests])
 
   results$test <- testNames
+  rownames(results) <- tests
   res <- results[whichTests,]
 
   table$setData(res)
+
+  if (!normality && (options[["cramerVonMisses"]] || options[["andersonDarling"]])) {
+    table$addFootnote(gettext("Using Brown (1980) approximation which tends to be innacurate for small sample sizes."),
+                      rowNames = c("cramerVonMisses", "andersonDarling"))
+    table$addCitation(.ldAllTextsList()$references$brown)
+  }
 
   return()
 }
@@ -1668,7 +1705,8 @@ For relationships with other distributions, visit %6$s.
       jasp = "JASP Team (2020). JASP (Version 0.12) [Computer software].",
       goftest = "Julian Faraway, George Marsaglia, John Marsaglia and Adrian Baddeley (2017). goftest: Classical Goodness-of-Fit Tests for Univariate Distributions. R package version 1.1-1. https://CRAN.R-project.org/package=goftest",
       fitdistrplus = "Marie Laure Delignette-Muller, Christophe Dutang (2015). fitdistrplus: An R Package for Fitting Distributions. Journal of Statistical Software, 64(4), 1-34. URL: http://www.jstatsoft.org/v64/i04/.",
-      car = "John Fox and Sanford Weisberg (2011). An R Companion to Applied Regression, Second Edition. Thousand Oaks CA: Sage. URL: http://socserv.socsci.mcmaster.ca/jfox/Books/Companion."
+      car = "John Fox and Sanford Weisberg (2011). An R Companion to Applied Regression, Second Edition. Thousand Oaks CA: Sage. URL: http://socserv.socsci.mcmaster.ca/jfox/Books/Companion.",
+      brown = "Braun, H. (1980) A simple method for testing goodness-of-fit in the presence of nuisance parameters. Journal of the Royal Statistical Society 42, 53–63."
     ),
     feedback = list(
       fitdistrError = gettext("Estimation failed: Optimization did not converge. <ul><li>Try adjusting parameter values, check outliers or feasibility of the distribution fitting the data.</li></ul>"),
