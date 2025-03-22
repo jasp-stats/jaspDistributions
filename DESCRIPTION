@@ -18,6 +18,7 @@ Imports:
   jaspBase,
   jaspGraphs,
   MASS,
+  nortest,
   sgt,
   sn
 Remotes:

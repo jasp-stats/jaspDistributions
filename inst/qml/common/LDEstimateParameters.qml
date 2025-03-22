@@ -24,6 +24,7 @@ Section
 {
 	property bool includeSE: true
 	property bool includeCI: true
+	property bool includeUnbiased: false
 
 	title: enabled ? qsTr("Estimate Parameters") : qsTr("Estimate Parameters") + " - " + qsTr("[requires a loaded data set]")
 	info: qsTr("Displays a table with the parameter estimates. Changing parametrization changes which parameters are displayed.")
@@ -34,6 +35,7 @@ Section
 		CheckBox
 		{
 			name: "outputEstimates"; label: qsTr("Estimates"); checked: true
+			CheckBox{ name: "biasCorrected"; label: qsTr("Bias corrected"); checked: false; visible: includeUnbiased}
 			CheckBox{ name: "outputSE"; label: qsTr("Std. error"); checked: false; visible: includeSE }
 			CheckBox
 			{
