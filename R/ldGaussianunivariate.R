@@ -188,9 +188,6 @@ exp[-(x-<span style='color:red'>&mu;</span>)&sup2; &frasl; 2<span style='color:b
   if(is.null(results)) return()
   if(is.null(table)) return()
 
-  if (options[["outputSE"]])
-    table$addFootnote(gettextf("SE is not available."), colNames="se", rowNames="scale")
-
   if (options[["biasCorrected"]])
     table$addFootnote(gettext("Unbiased with Bessel's correction."), colNames="estimate", rowNames="scale")
 
@@ -216,9 +213,11 @@ exp[-(x-<span style='color:red'>&mu;</span>)&sup2; &frasl; 2<span style='color:b
 
   if (options[["biasCorrected"]]){
     sigma2Ci <- sigma2 * df / rev(chiSq)
+    seScale <- df
   } else {
     sigma2 <- sigma2 * df / n
     sigma2Ci <- sigma2 * n / rev(chiSq)
+    seScale <- n
   }
 
   mu <- mean(variable)
@@ -232,10 +231,30 @@ exp[-(x-<span style='color:red'>&mu;</span>)&sup2; &frasl; 2<span style='color:b
 
   scale <- switch(
     options[["parametrization"]],
-    sigma2 = data.frame(par="sigma2", parName="\u03C3\u00B2", estimate=sigma2,         se=NA, lower=sigma2Ci[1],         upper=sigma2Ci[2]),
-    sigma  = data.frame(par="sigma",  parName="\u03C3",       estimate=sqrt(sigma2),   se=NA, lower=sqrt(sigma2Ci[1]),   upper=sqrt(sigma2Ci[2])),
-    tau    = data.frame(par="tau",    parName="\u03C4",       estimate=1/sigma2,       se=NA, lower=1/sigma2Ci[1],       upper=1/sigma2Ci[2]),
-    kappa  = data.frame(par="kapp",   parName="\u03BA",       estimate=1/sqrt(sigma2), se=NA, lower=1/sqrt(sigma2Ci[1]), upper=1/sqrt(sigma2Ci[2]))
+    sigma2 = data.frame(par="sigma2",
+                        parName="\u03C3\u00B2",
+                        estimate=sigma2,
+                        se=sigma2 * sqrt(2) / seScale,
+                        lower=sigma2Ci[1],
+                        upper=sigma2Ci[2]),
+    sigma  = data.frame(par="sigma",
+                        parName="\u03C3",
+                        estimate=sqrt(sigma2),
+                        se=sqrt(sigma2 / (2 * seScale)),
+                        lower=sqrt(sigma2Ci[1]),
+                        upper=sqrt(sigma2Ci[2])),
+    tau    = data.frame(par="tau",
+                        parName="\u03C4",
+                        estimate=1/sigma2,
+                        se=sqrt(2)/ (sigma2 * seScale),
+                        lower=1/sigma2Ci[2],
+                        upper=1/sigma2Ci[1]),
+    kappa  = data.frame(par="kappa",
+                        parName="\u03BA",
+                        estimate=1/sqrt(sigma2),
+                        se=1/sqrt(2*sigma2*seScale),
+                        lower=1/sqrt(sigma2Ci[2]),
+                        upper=1/sqrt(sigma2Ci[1]))
   )
 
   results$structured <- rbind(loc, scale)
