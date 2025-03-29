@@ -3076,3 +3076,15 @@ msgstr ""
 msgctxt "LDgaussianunivariate|"
 msgid "Displays the quantile plot"
 msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Lillienfors"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Lillienfors test"
+msgstr ""
+
+msgctxt "LDEstimateParameters|"
+msgid "Bias corrected"
+msgstr ""

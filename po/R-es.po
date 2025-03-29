@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: JASP 0.9.2\n"
-"POT-Creation-Date: 2025-03-15 03:08\n"
+"POT-Creation-Date: 2025-03-29 03:09\n"
 "PO-Revision-Date: 2025-03-15 12:44+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
@@ -152,11 +152,19 @@ msgstr "Cramér-von Mises"
 msgid "Anderson-Darling"
 msgstr "Anderson-Darling"
 
+msgid "Lillienfors"
+msgstr ""
+
 msgid "Shapiro-Wilk"
 msgstr "Shapiro-Wilk"
 
 msgid "Chi-square"
 msgstr "Chi-cuadrado"
+
+msgid ""
+"Using Brown (1980) approximation which tends to be innacurate for small "
+"sample sizes."
+msgstr ""
 
 msgid "Histogram vs. Theoretical PDF"
 msgstr "Histograma vs. PDF Teórico"
@@ -559,6 +567,9 @@ msgstr "Raíz cuadrada de la precisión: %s"
 
 msgid "&mu;"
 msgstr "&mu;"
+
+msgid "Unbiased with Bessel's correction."
+msgstr ""
 
 msgid "geometric distribution"
 msgstr "Distribución Geométrica"

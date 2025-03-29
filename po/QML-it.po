@@ -3069,3 +3069,15 @@ msgstr ""
 msgctxt "LDweibull|"
 msgid "Quantile function"
 msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Lillienfors"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Lillienfors test"
+msgstr ""
+
+msgctxt "LDEstimateParameters|"
+msgid "Bias corrected"
+msgstr ""

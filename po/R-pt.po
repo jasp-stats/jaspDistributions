@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
-"POT-Creation-Date: 2025-03-15 03:08\n"
+"POT-Creation-Date: 2025-03-29 03:09\n"
 "PO-Revision-Date: 2021-09-09 23:34+0000\n"
 "Last-Translator: Laura Durans <lauraadurans@gmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
@@ -154,11 +154,19 @@ msgstr "Critério de Cramér-von Mises"
 msgid "Anderson-Darling"
 msgstr "Teste Anderson-Darling"
 
+msgid "Lillienfors"
+msgstr ""
+
 msgid "Shapiro-Wilk"
 msgstr "Teste de Shapiro-Wilk"
 
 msgid "Chi-square"
 msgstr "Qui-quadrado"
+
+msgid ""
+"Using Brown (1980) approximation which tends to be innacurate for small "
+"sample sizes."
+msgstr ""
 
 msgid "Histogram vs. Theoretical PDF"
 msgstr ""
@@ -531,6 +539,9 @@ msgid "square root of precision: %s"
 msgstr "raiz quadrada da precisão: %s"
 
 msgid "&mu;"
+msgstr ""
+
+msgid "Unbiased with Bessel's correction."
 msgstr ""
 
 msgid "geometric distribution"

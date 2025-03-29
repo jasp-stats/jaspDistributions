@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.1.0\n"
-"POT-Creation-Date: 2025-03-15 03:08\n"
+"POT-Creation-Date: 2025-03-29 03:09\n"
 "PO-Revision-Date: 2024-07-02 17:09+0000\n"
 "Last-Translator: Daiki Hojo <dhojo.bayes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/"
@@ -148,11 +148,19 @@ msgstr "クラメール-フォンミーゼス"
 msgid "Anderson-Darling"
 msgstr "アンダーソン-ダーリング"
 
+msgid "Lillienfors"
+msgstr ""
+
 msgid "Shapiro-Wilk"
 msgstr "シャピロ-ウィルク"
 
 msgid "Chi-square"
 msgstr "カイ二乗"
+
+msgid ""
+"Using Brown (1980) approximation which tends to be innacurate for small "
+"sample sizes."
+msgstr ""
 
 msgid "Histogram vs. Theoretical PDF"
 msgstr "ヒストグラム vs. 理論的確率密度関数"
@@ -541,6 +549,9 @@ msgstr "精度の平方根: %s"
 
 msgid "&mu;"
 msgstr "&mu;"
+
+msgid "Unbiased with Bessel's correction."
+msgstr ""
 
 msgid "geometric distribution"
 msgstr "幾何分布"

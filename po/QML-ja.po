@@ -3089,3 +3089,15 @@ msgstr "累積分布プロットを表示"
 msgctxt "LDgaussianunivariate|"
 msgid "Displays the quantile plot"
 msgstr "分位点プロットを表示"
+
+msgctxt "LDAssessFit|"
+msgid "Lillienfors"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Lillienfors test"
+msgstr ""
+
+msgctxt "LDEstimateParameters|"
+msgid "Bias corrected"
+msgstr ""

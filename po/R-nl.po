@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
-"POT-Creation-Date: 2025-03-15 03:08\n"
+"POT-Creation-Date: 2025-03-29 03:09\n"
 "PO-Revision-Date: 2024-05-23 21:57+0000\n"
 "Last-Translator: Koen Derks <koen-derks@hotmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/jasp/"
@@ -152,11 +152,19 @@ msgstr "Cramér-von Mises"
 msgid "Anderson-Darling"
 msgstr "Anderson-Darling"
 
+msgid "Lillienfors"
+msgstr ""
+
 msgid "Shapiro-Wilk"
 msgstr "Shapiro-Wilk"
 
 msgid "Chi-square"
 msgstr "Chi-kwadraat"
+
+msgid ""
+"Using Brown (1980) approximation which tends to be innacurate for small "
+"sample sizes."
+msgstr ""
 
 msgid "Histogram vs. Theoretical PDF"
 msgstr "Histogram vs. Theoretische PDF"
@@ -565,6 +573,9 @@ msgstr "kwadraatwortel van nauwkeurigheid: %s"
 
 msgid "&mu;"
 msgstr "&mu;"
+
+msgid "Unbiased with Bessel's correction."
+msgstr ""
 
 msgid "geometric distribution"
 msgstr "geometrische verdeling"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.3.0\n"
-"POT-Creation-Date: 2025-03-15 03:08\n"
+"POT-Creation-Date: 2025-03-29 03:09\n"
 "PO-Revision-Date: 2024-05-04 02:55+0000\n"
 "Last-Translator: robachowyk <kaya.robach@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/jasp/"
@@ -152,10 +152,18 @@ msgstr ""
 msgid "Anderson-Darling"
 msgstr ""
 
+msgid "Lillienfors"
+msgstr ""
+
 msgid "Shapiro-Wilk"
 msgstr "Shapiro-Wilk"
 
 msgid "Chi-square"
+msgstr ""
+
+msgid ""
+"Using Brown (1980) approximation which tends to be innacurate for small "
+"sample sizes."
 msgstr ""
 
 msgid "Histogram vs. Theoretical PDF"
@@ -474,6 +482,9 @@ msgid "square root of precision: %s"
 msgstr ""
 
 msgid "&mu;"
+msgstr ""
+
+msgid "Unbiased with Bessel's correction."
 msgstr ""
 
 msgid "geometric distribution"

@@ -3142,3 +3142,15 @@ msgstr "Toont de cumulatieve verdelingsfiguur"
 msgctxt "LDgaussianunivariate|"
 msgid "Displays the quantile plot"
 msgstr "Toont de kwantielfiguur"
+
+msgctxt "LDAssessFit|"
+msgid "Lillienfors"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Lillienfors test"
+msgstr ""
+
+msgctxt "LDEstimateParameters|"
+msgid "Bias corrected"
+msgstr ""

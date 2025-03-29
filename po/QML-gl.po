@@ -3139,3 +3139,15 @@ msgstr "Presenta a gráfica de distribución acumulada"
 msgctxt "LDgaussianunivariate|"
 msgid "Displays the quantile plot"
 msgstr "Presenta a gráfica de cuantiles"
+
+msgctxt "LDAssessFit|"
+msgid "Lillienfors"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Lillienfors test"
+msgstr ""
+
+msgctxt "LDEstimateParameters|"
+msgid "Bias corrected"
+msgstr ""
