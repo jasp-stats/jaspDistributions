@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-04-04 15:07+0000\n"
+"PO-Revision-Date: 2025-04-05 03:08+0000\n"
 "Last-Translator: 陳寬裕 <pf.kuan.yu.chen@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jasp/jaspdistributions-qml/zh_Hant/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Distributions"
-msgstr "分配"
+msgstr "分配模組"
 
 msgctxt "Description|"
 msgid "Visualize distributions and fit them to data"
@@ -191,11 +191,11 @@ msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Assess Fit"
-msgstr ""
+msgstr "評估擬合度"
 
 msgctxt "LDAssessFit|"
 msgid "[requires a loaded data set]"
-msgstr ""
+msgstr "[需要載入一個資料集]"
 
 msgctxt "LDAssessFit|"
 msgid "Plots"
@@ -203,43 +203,43 @@ msgstr "圖"
 
 msgctxt "LDAssessFit|"
 msgid "Histogram vs. theoretical pdf"
-msgstr ""
+msgstr "長條圖 vs. 理論概率密度函數"
 
 msgctxt "LDAssessFit|"
 msgid "Histogram vs. theoretical pmf"
-msgstr ""
+msgstr "長條圖 vs. 理論概率密度函數"
 
 msgctxt "LDAssessFit|"
 msgid "Q-Q plot"
-msgstr ""
+msgstr "常態Q-Q圖"
 
 msgctxt "LDAssessFit|"
 msgid "Empirical vs. theoretical cdf"
-msgstr ""
+msgstr "經驗 vs. 理論累積分佈函數(cdf)"
 
 msgctxt "LDAssessFit|"
 msgid "P-P plot"
-msgstr ""
+msgstr "P-P 圖"
 
 msgctxt "LDAssessFit|"
 msgid "Statistics"
-msgstr ""
+msgstr "統計量"
 
 msgctxt "LDAssessFit|"
 msgid "Kolmogorov-Smirnov"
-msgstr ""
+msgstr "Kolmogorov-Smirnov常態檢定"
 
 msgctxt "LDAssessFit|"
 msgid "Cramér–von Mises"
-msgstr ""
+msgstr "Cramér–von Mises 適配度檢定"
 
 msgctxt "LDAssessFit|"
 msgid "Anderson-Darling"
-msgstr ""
+msgstr "Anderson-Darling 適配度檢定"
 
 msgctxt "LDAssessFit|"
 msgid "Shapiro-Wilk"
-msgstr "Shapiro-Wilk"
+msgstr "Shapiro-Wilk常態檢定"
 
 msgctxt "LDAssessFit|"
 msgid "Chi-square"
@@ -305,7 +305,7 @@ msgstr "從數據集中獲取變數"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Statistics"
-msgstr ""
+msgstr "統計量"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Descriptives"
@@ -313,7 +313,7 @@ msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "First"
-msgstr ""
+msgstr "前"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "observed moments"
@@ -329,7 +329,7 @@ msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Histogram with"
-msgstr ""
+msgstr "長條圖帶"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "bins"
@@ -337,7 +337,7 @@ msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Empirical cumulative distribution"
-msgstr ""
+msgstr "經驗累積分佈函數"
 
 msgctxt "LDOptions|"
 msgid "Options"
@@ -365,7 +365,7 @@ msgstr "機率"
 
 msgctxt "LDOptions|"
 msgid "Interval"
-msgstr ""
+msgstr "區間"
 
 msgctxt "LDOptions|"
 msgid "from"
@@ -475,7 +475,7 @@ msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "機率質量函數"
 
 msgctxt "LDbernoulli|"
 msgid "Cumulative distribution function"
@@ -495,7 +495,7 @@ msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "Cumulative Probability"
-msgstr ""
+msgstr "累積機率"
 
 msgctxt "LDbernoulli|"
 msgid "Limits"
@@ -603,7 +603,7 @@ msgstr ""
 
 msgctxt "LDbetaBinomial|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "機率質量函數"
 
 msgctxt "LDbetaBinomial|"
 msgid "Cumulative distribution function"
@@ -631,11 +631,11 @@ msgstr ""
 
 msgctxt "LDbetaBinomial|"
 msgid "Cumulative Probability"
-msgstr ""
+msgstr "累積機率"
 
 msgctxt "LDbetaBinomial|"
 msgid "Interval"
-msgstr ""
+msgstr "區間"
 
 msgctxt "LDbetaBinomial|"
 msgid "≤ X ≤"
@@ -803,7 +803,7 @@ msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "機率質量函數"
 
 msgctxt "LDbinomial|"
 msgid "Cumulative distribution function"
@@ -831,11 +831,11 @@ msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "Cumulative Probability"
-msgstr ""
+msgstr "累積機率"
 
 msgctxt "LDbinomial|"
 msgid "Interval"
-msgstr ""
+msgstr "區間"
 
 msgctxt "LDbinomial|"
 msgid "≤ X ≤"
@@ -1203,35 +1203,35 @@ msgstr "圖"
 
 msgctxt "LDgammaInverse|"
 msgid "Histogram vs. theoretical pdf"
-msgstr ""
+msgstr "長條圖 vs. 理論概率密度函數"
 
 msgctxt "LDgammaInverse|"
 msgid "Q-Q plot"
-msgstr ""
+msgstr "常態Q-Q圖"
 
 msgctxt "LDgammaInverse|"
 msgid "Empirical vs. theoretical cdf"
-msgstr ""
+msgstr "經驗 vs. 理論累積分佈函數(cdf)"
 
 msgctxt "LDgammaInverse|"
 msgid "P-P plot"
-msgstr ""
+msgstr "P-P 圖"
 
 msgctxt "LDgammaInverse|"
 msgid "Statistics"
-msgstr ""
+msgstr "統計量"
 
 msgctxt "LDgammaInverse|"
 msgid "Kolmogorov-Smirnov"
-msgstr ""
+msgstr "Kolmogorov-Smirnov常態檢定"
 
 msgctxt "LDgammaInverse|"
 msgid "Cramér–von Mises"
-msgstr ""
+msgstr "Cramér–von Mises 適配度檢定"
 
 msgctxt "LDgammaInverse|"
 msgid "Anderson-Darling"
-msgstr ""
+msgstr "Anderson-Darling 適配度檢定"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Show Distribution"
@@ -1327,7 +1327,7 @@ msgstr ""
 
 msgctxt "LDgeometric|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "機率質量函數"
 
 msgctxt "LDgeometric|"
 msgid "Cumulative distribution function"
@@ -1355,11 +1355,11 @@ msgstr ""
 
 msgctxt "LDgeometric|"
 msgid "Cumulative Probability"
-msgstr ""
+msgstr "累積機率"
 
 msgctxt "LDgeometric|"
 msgid "Interval"
-msgstr ""
+msgstr "區間"
 
 msgctxt "LDgeometric|"
 msgid "≤ X ≤"
@@ -1499,7 +1499,7 @@ msgstr ""
 
 msgctxt "LDhypergeometric|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "機率質量函數"
 
 msgctxt "LDhypergeometric|"
 msgid "Cumulative distribution function"
@@ -1527,11 +1527,11 @@ msgstr ""
 
 msgctxt "LDhypergeometric|"
 msgid "Cumulative Probability"
-msgstr ""
+msgstr "累積機率"
 
 msgctxt "LDhypergeometric|"
 msgid "Interval"
-msgstr ""
+msgstr "區間"
 
 msgctxt "LDhypergeometric|"
 msgid "≤ X ≤"
@@ -1927,7 +1927,7 @@ msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "機率質量函數"
 
 msgctxt "LDnegbinomial|"
 msgid "Cumulative distribution function"
@@ -1955,11 +1955,11 @@ msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Cumulative Probability"
-msgstr ""
+msgstr "累積機率"
 
 msgctxt "LDnegbinomial|"
 msgid "Interval"
-msgstr ""
+msgstr "區間"
 
 msgctxt "LDnegbinomial|"
 msgid "≤ X ≤"
@@ -2015,7 +2015,7 @@ msgstr ""
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "機率質量函數"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Cumulative distribution function"
@@ -2043,11 +2043,11 @@ msgstr ""
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Cumulative Probability"
-msgstr ""
+msgstr "累積機率"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Interval"
-msgstr ""
+msgstr "區間"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "≤ X ≤"
@@ -2239,7 +2239,7 @@ msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "機率質量函數"
 
 msgctxt "LDpoisson|"
 msgid "Cumulative distribution function"
@@ -2267,11 +2267,11 @@ msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "Cumulative Probability"
-msgstr ""
+msgstr "累積機率"
 
 msgctxt "LDpoisson|"
 msgid "Interval"
-msgstr ""
+msgstr "區間"
 
 msgctxt "LDpoisson|"
 msgid "≤ X ≤"
@@ -2319,7 +2319,7 @@ msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Probability mass function"
-msgstr ""
+msgstr "機率質量函數"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Cumulative distribution function"
@@ -2347,11 +2347,11 @@ msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Cumulative Probability"
-msgstr ""
+msgstr "累積機率"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Interval"
-msgstr ""
+msgstr "區間"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "≤ X ≤"
@@ -2811,7 +2811,7 @@ msgstr "分位數函數"
 
 msgctxt "LDAssessFit|"
 msgid "Confidence interval"
-msgstr ""
+msgstr "信賴區間"
 
 msgctxt "LDAssessFit|"
 msgid ""
@@ -2842,19 +2842,19 @@ msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Kolmogorov-Smirnov test"
-msgstr ""
+msgstr "顯示K-S常態檢定結果"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Cramér-von Mises test"
-msgstr ""
+msgstr "顯示Cramér–von Mises 適配度檢定結果"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Anderson-Darling test"
-msgstr ""
+msgstr "顯示Anderson-Darling 適配度檢定結果"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Shapiro-Wilk test of normality"
-msgstr ""
+msgstr "顯示Shapiro-Wilk常態檢定結果"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the chi-square goodness of fit test"
@@ -2892,7 +2892,7 @@ msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Get variable from data set: "
-msgstr ""
+msgstr "從數據集中獲取變數： "
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Select a variable to display and fit with the theoretical distribution."
@@ -2904,7 +2904,7 @@ msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "First observed moments"
-msgstr ""
+msgstr "第一觀察動差"
 
 msgctxt "LDGenerateDisplayData|"
 msgid ""
@@ -2914,7 +2914,7 @@ msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Histogram with ... bins"
-msgstr ""
+msgstr "長條圖帶...個組數"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Display a bar plot of the selected variable."
