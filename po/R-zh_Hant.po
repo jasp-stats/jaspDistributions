@@ -2,13 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.19.2\n"
 "POT-Creation-Date: 2025-03-29 03:09\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-04-05 03:08+0000\n"
+"Last-Translator: 陳寬裕 <pf.kuan.yu.chen@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
+"projects/jasp/jaspdistributions-r/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 msgid "Could not write to column '%s', probably because it wasn't created by this analysis"
 msgstr ""
@@ -23,7 +26,7 @@ msgid "Overview - %s"
 msgstr ""
 
 msgid "Descriptives"
-msgstr ""
+msgstr "描述性統計"
 
 msgid "Variable"
 msgstr ""
@@ -74,13 +77,13 @@ msgid "Central"
 msgstr ""
 
 msgid "Estimated Parameters"
-msgstr ""
+msgstr "參數估計"
 
 msgid "Parameter"
-msgstr ""
+msgstr "參數"
 
 msgid "Estimate"
-msgstr ""
+msgstr "估計值"
 
 msgid "SE"
 msgstr ""
@@ -110,19 +113,19 @@ msgid "Standard errors and confidence intervals were calculated using the delta 
 msgstr ""
 
 msgid "Maximum likelihood"
-msgstr ""
+msgstr "最大概似估計"
 
 msgid "Fit Assessment"
-msgstr ""
+msgstr "評估配適度"
 
 msgid "Fit Statistics"
-msgstr ""
+msgstr "配適統計量"
 
 msgid "Test"
-msgstr ""
+msgstr "檢定"
 
 msgid "Statistic"
-msgstr ""
+msgstr "統計量"
 
 msgid "p"
 msgstr ""
@@ -149,10 +152,10 @@ msgid "Using Brown (1980) approximation which tends to be innacurate for small s
 msgstr ""
 
 msgid "Histogram vs. Theoretical PDF"
-msgstr ""
+msgstr "長條圖 vs. 理論機率密度函數"
 
 msgid "Histogram vs. Theoretical PMF"
-msgstr ""
+msgstr "長條圖 vs. 理論機率質量函數"
 
 msgid "Q-Q plot"
 msgstr ""
@@ -179,7 +182,7 @@ msgid "Probability"
 msgstr ""
 
 msgid "Probability Density Function"
-msgstr ""
+msgstr "機率密度函數"
 
 msgid "Probability Mass Function"
 msgstr ""
@@ -194,7 +197,7 @@ msgid "Formula"
 msgstr ""
 
 msgid "Density Plot"
-msgstr ""
+msgstr "密度圖"
 
 msgid "Cumulative Probability Plot"
 msgstr ""
@@ -209,7 +212,7 @@ msgid "Probability Mass Plot"
 msgstr ""
 
 msgid "Histogram"
-msgstr ""
+msgstr "長條圖"
 
 msgid "Bar plot"
 msgstr ""
@@ -362,7 +365,7 @@ msgid "inverse gamma distribution"
 msgstr ""
 
 msgid "normal distribution"
-msgstr ""
+msgstr "常態分配"
 
 msgid "mean: &mu; %s"
 msgstr ""
@@ -470,10 +473,10 @@ msgid "probability of normal component: %s"
 msgstr ""
 
 msgid "mean of normal distribution: %s"
-msgstr ""
+msgstr "常態分配的平均數: %s"
 
 msgid "std. deviation of normal distribution: %s"
-msgstr ""
+msgstr "常態分配的標準差: %s"
 
 msgid "minimum of uniform distribution: %s"
 msgstr ""
@@ -500,10 +503,10 @@ msgid "probability of zero process: %s"
 msgstr ""
 
 msgid "generalized normal distribution"
-msgstr ""
+msgstr "廣義常態分配"
 
 msgid "skew normal distribution"
-msgstr ""
+msgstr "偏斜常態分配"
 
 msgid "Pareto distribution"
 msgstr ""
