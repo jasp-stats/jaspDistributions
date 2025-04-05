@@ -1,15 +1,9 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-04-05 03:08+0000\n"
-"Last-Translator: 陳寬裕 <pf.kuan.yu.chen@gmail.com>\n"
-"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
-"projects/jasp/jaspdistributions-qml/zh_Hant/>\n"
-"Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11-dev\n"
 "X-Language: zh_Hant\n"
 "X-Qt-Contexts: true\n"
 
@@ -347,9 +341,10 @@ msgctxt "LDOptions|"
 msgid "Range of x from"
 msgstr "x的範圍從"
 
+#, fuzzy
 msgctxt "LDOptions|"
 msgid "to"
-msgstr ""
+msgstr "到"
 
 msgctxt "LDOptions|"
 msgid "Highlight"
@@ -413,9 +408,10 @@ msgctxt "LDamoroso|"
 msgid "β"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDamoroso|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDamoroso|"
 msgid "Explanatory text"
@@ -457,9 +453,10 @@ msgctxt "LDbernoulli|"
 msgid "p"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDbernoulli|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDbernoulli|"
 msgid "Explanatory text"
@@ -481,9 +478,10 @@ msgctxt "LDbernoulli|"
 msgid "Cumulative distribution function"
 msgstr "累積分配函數"
 
+#, fuzzy
 msgctxt "LDbernoulli|"
 msgid "Options"
-msgstr ""
+msgstr "選項"
 
 msgctxt "LDbernoulli|"
 msgid "Highlight"
@@ -505,9 +503,10 @@ msgctxt "LDbernoulli|"
 msgid "≤ X ≤"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDbeta|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDbeta|"
 msgid "Parameters"
@@ -525,9 +524,10 @@ msgctxt "LDbeta|"
 msgid "β"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDbeta|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDbeta|"
 msgid "Explanatory text"
@@ -553,9 +553,10 @@ msgctxt "LDbeta|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDbetaBinomial|"
 msgid "Free parameters"
@@ -585,9 +586,10 @@ msgctxt "LDbetaBinomial|"
 msgid "n"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDbetaBinomial|"
 msgid "Explanatory text"
@@ -609,9 +611,10 @@ msgctxt "LDbetaBinomial|"
 msgid "Cumulative distribution function"
 msgstr "累積分配函數"
 
+#, fuzzy
 msgctxt "LDbetaBinomial|"
 msgid "Options"
-msgstr ""
+msgstr "選項"
 
 msgctxt "LDbetaBinomial|"
 msgid "Range of x from"
@@ -641,9 +644,10 @@ msgctxt "LDbetaBinomial|"
 msgid "≤ X ≤"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDbetaPrime|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDbetaPrime|"
 msgid "Parameters"
@@ -661,9 +665,10 @@ msgctxt "LDbetaPrime|"
 msgid "β"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDbetaPrime|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDbetaPrime|"
 msgid "Explanatory text"
@@ -689,13 +694,15 @@ msgctxt "LDbetaPrime|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDbetaStretched|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
+#, fuzzy
 msgctxt "LDbetaStretched|"
 msgid "Free parameters"
-msgstr ""
+msgstr "自由參數"
 
 msgctxt "LDbetaStretched|"
 msgid "Shape:"
@@ -729,9 +736,10 @@ msgctxt "LDbetaStretched|"
 msgid "b"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDbetaStretched|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDbetaStretched|"
 msgid "Explanatory text"
@@ -757,9 +765,10 @@ msgctxt "LDbetaStretched|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDbinomial|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDbinomial|"
 msgid "Free parameter"
@@ -773,9 +782,10 @@ msgctxt "LDbinomial|"
 msgid "p"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDbinomial|"
 msgid "Fixed parameter"
-msgstr ""
+msgstr "固定參數"
 
 msgctxt "LDbinomial|"
 msgid "Number of trials:"
@@ -785,9 +795,10 @@ msgctxt "LDbinomial|"
 msgid "n"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDbinomial|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDbinomial|"
 msgid "Explanatory text"
@@ -809,17 +820,19 @@ msgctxt "LDbinomial|"
 msgid "Cumulative distribution function"
 msgstr "累積分配函數"
 
+#, fuzzy
 msgctxt "LDbinomial|"
 msgid "Options"
-msgstr ""
+msgstr "選項"
 
 msgctxt "LDbinomial|"
 msgid "Range of x from"
 msgstr "x的範圍從"
 
+#, fuzzy
 msgctxt "LDbinomial|"
 msgid "to"
-msgstr ""
+msgstr "到"
 
 msgctxt "LDbinomial|"
 msgid "Highlight"
@@ -841,9 +854,10 @@ msgctxt "LDbinomial|"
 msgid "≤ X ≤"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDcauchy|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDcauchy|"
 msgid "Location:"
@@ -861,9 +875,10 @@ msgctxt "LDcauchy|"
 msgid "σ"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDcauchy|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDcauchy|"
 msgid "Explanatory text"
@@ -889,9 +904,10 @@ msgctxt "LDcauchy|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDchisq|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDchisq|"
 msgid "Degree of freedom:"
@@ -909,9 +925,10 @@ msgctxt "LDchisq|"
 msgid "λ"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDchisq|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDchisq|"
 msgid "Explanatory text"
@@ -937,13 +954,15 @@ msgctxt "LDchisq|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDexponential|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
+#, fuzzy
 msgctxt "LDexponential|"
 msgid "Parameter"
-msgstr ""
+msgstr "參數"
 
 msgctxt "LDexponential|"
 msgid "Rate:"
@@ -953,9 +972,10 @@ msgctxt "LDexponential|"
 msgid "Scale:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDexponential|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDexponential|"
 msgid "Explanatory text"
@@ -981,9 +1001,10 @@ msgctxt "LDexponential|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDf|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDf|"
 msgid "Degree of freedom:"
@@ -1005,9 +1026,10 @@ msgctxt "LDf|"
 msgid "ncp"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDf|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDf|"
 msgid "Explanatory text"
@@ -1033,9 +1055,10 @@ msgctxt "LDf|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDfrechet|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDfrechet|"
 msgid "Shape:"
@@ -1061,9 +1084,10 @@ msgctxt "LDfrechet|"
 msgid "σ"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDfrechet|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDfrechet|"
 msgid "Explanatory text"
@@ -1089,13 +1113,15 @@ msgctxt "LDfrechet|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDgamma|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
+#, fuzzy
 msgctxt "LDgamma|"
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 msgctxt "LDgamma|"
 msgid "Shape:"
@@ -1141,13 +1167,15 @@ msgctxt "LDgamma|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
+#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 msgctxt "LDgammaInverse|"
 msgid "Shape:"
@@ -1161,13 +1189,15 @@ msgctxt "LDgammaInverse|"
 msgid "Rate:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Mean:"
-msgstr ""
+msgstr "平均數："
 
+#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDgammaInverse|"
 msgid "Explanatory text"
@@ -1193,9 +1223,10 @@ msgctxt "LDgammaInverse|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Assess Fit"
-msgstr ""
+msgstr "評估擬合度"
 
 msgctxt "LDgammaInverse|"
 msgid "Plots"
@@ -1233,17 +1264,20 @@ msgctxt "LDgammaInverse|"
 msgid "Anderson-Darling"
 msgstr "Anderson-Darling 適配度檢定"
 
+#, fuzzy
 msgctxt "LDgaussianunivariate|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
+#, fuzzy
 msgctxt "LDgaussianunivariate|"
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
+#, fuzzy
 msgctxt "LDgaussianunivariate|"
 msgid "Mean:"
-msgstr ""
+msgstr "平均數："
 
 msgctxt "LDgaussianunivariate|"
 msgid "μ"
@@ -1265,9 +1299,10 @@ msgctxt "LDgaussianunivariate|"
 msgid "Square root of precision:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDgaussianunivariate|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Explanatory text"
@@ -1293,13 +1328,15 @@ msgctxt "LDgaussianunivariate|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDgeometric|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
+#, fuzzy
 msgctxt "LDgeometric|"
 msgid "Parameter"
-msgstr ""
+msgstr "參數"
 
 msgctxt "LDgeometric|"
 msgid "Probability of success:"
@@ -1309,9 +1346,10 @@ msgctxt "LDgeometric|"
 msgid "p"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDgeometric|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDgeometric|"
 msgid "Explanatory text"
@@ -1333,17 +1371,19 @@ msgctxt "LDgeometric|"
 msgid "Cumulative distribution function"
 msgstr "累積分配函數"
 
+#, fuzzy
 msgctxt "LDgeometric|"
 msgid "Options"
-msgstr ""
+msgstr "選項"
 
 msgctxt "LDgeometric|"
 msgid "Range of x from"
 msgstr "x的範圍從"
 
+#, fuzzy
 msgctxt "LDgeometric|"
 msgid "to"
-msgstr ""
+msgstr "到"
 
 msgctxt "LDgeometric|"
 msgid "Highlight"
@@ -1365,9 +1405,10 @@ msgctxt "LDgeometric|"
 msgid "≤ X ≤"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDgompertz|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDgompertz|"
 msgid "Shape:"
@@ -1377,9 +1418,10 @@ msgctxt "LDgompertz|"
 msgid "Scale:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDgompertz|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDgompertz|"
 msgid "Explanatory text"
@@ -1405,9 +1447,10 @@ msgctxt "LDgompertz|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDgumbel|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDgumbel|"
 msgid "Location:"
@@ -1425,9 +1468,10 @@ msgctxt "LDgumbel|"
 msgid "β"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDgumbel|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDgumbel|"
 msgid "Explanatory text"
@@ -1453,9 +1497,10 @@ msgctxt "LDgumbel|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDhypergeometric|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDhypergeometric|"
 msgid "Population size:"
@@ -1481,9 +1526,10 @@ msgctxt "LDhypergeometric|"
 msgid "n"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDhypergeometric|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDhypergeometric|"
 msgid "Explanatory text"
@@ -1505,17 +1551,19 @@ msgctxt "LDhypergeometric|"
 msgid "Cumulative distribution function"
 msgstr "累積分配函數"
 
+#, fuzzy
 msgctxt "LDhypergeometric|"
 msgid "Options"
-msgstr ""
+msgstr "選項"
 
 msgctxt "LDhypergeometric|"
 msgid "Range of x from"
 msgstr "x的範圍從"
 
+#, fuzzy
 msgctxt "LDhypergeometric|"
 msgid "to"
-msgstr ""
+msgstr "到"
 
 msgctxt "LDhypergeometric|"
 msgid "Highlight"
@@ -1537,9 +1585,10 @@ msgctxt "LDhypergeometric|"
 msgid "≤ X ≤"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDlaplace|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDlaplace|"
 msgid "Location:"
@@ -1557,9 +1606,10 @@ msgctxt "LDlaplace|"
 msgid "β"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDlaplace|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDlaplace|"
 msgid "Explanatory text"
@@ -1585,9 +1635,10 @@ msgctxt "LDlaplace|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDlogistic|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDlogistic|"
 msgid "Location:"
@@ -1605,9 +1656,10 @@ msgctxt "LDlogistic|"
 msgid "σ"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDlogistic|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDlogistic|"
 msgid "Explanatory text"
@@ -1633,13 +1685,15 @@ msgctxt "LDlogistic|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDlogLogistic|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
+#, fuzzy
 msgctxt "LDlogLogistic|"
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 msgctxt "LDlogLogistic|"
 msgid "Log location:"
@@ -1657,9 +1711,10 @@ msgctxt "LDlogLogistic|"
 msgid "Shape:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDlogLogistic|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDlogLogistic|"
 msgid "Explanatory text"
@@ -1685,9 +1740,10 @@ msgctxt "LDlogLogistic|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDlognormal|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDlognormal|"
 msgid "Log Mean:"
@@ -1705,9 +1761,10 @@ msgctxt "LDlognormal|"
 msgid "σ"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDlognormal|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDlognormal|"
 msgid "Explanatory text"
@@ -1733,9 +1790,10 @@ msgctxt "LDlognormal|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDmixtureNormalNormal|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Mean 1:"
@@ -1777,9 +1835,10 @@ msgctxt "LDmixtureNormalNormal|"
 msgid "π"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDmixtureNormalNormal|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Explanatory text"
@@ -1805,13 +1864,15 @@ msgctxt "LDmixtureNormalNormal|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDmixtureNormalUniform|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
+#, fuzzy
 msgctxt "LDmixtureNormalUniform|"
 msgid "Free parameters"
-msgstr ""
+msgstr "自由參數"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Mean :"
@@ -1857,9 +1918,10 @@ msgctxt "LDmixtureNormalUniform|"
 msgid "b"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDmixtureNormalUniform|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Explanatory text"
@@ -1885,13 +1947,15 @@ msgctxt "LDmixtureNormalUniform|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDnegbinomial|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
+#, fuzzy
 msgctxt "LDnegbinomial|"
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 msgctxt "LDnegbinomial|"
 msgid "Number of successes:"
@@ -1905,13 +1969,15 @@ msgctxt "LDnegbinomial|"
 msgid "Probability of success:"
 msgstr "成功機率："
 
+#, fuzzy
 msgctxt "LDnegbinomial|"
 msgid "Mean:"
-msgstr ""
+msgstr "平均數："
 
+#, fuzzy
 msgctxt "LDnegbinomial|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDnegbinomial|"
 msgid "Explanatory text"
@@ -1933,17 +1999,19 @@ msgctxt "LDnegbinomial|"
 msgid "Cumulative distribution function"
 msgstr "累積分配函數"
 
+#, fuzzy
 msgctxt "LDnegbinomial|"
 msgid "Options"
-msgstr ""
+msgstr "選項"
 
 msgctxt "LDnegbinomial|"
 msgid "Range of x from"
 msgstr "x的範圍從"
 
+#, fuzzy
 msgctxt "LDnegbinomial|"
 msgid "to"
-msgstr ""
+msgstr "到"
 
 msgctxt "LDnegbinomial|"
 msgid "Highlight"
@@ -1965,13 +2033,15 @@ msgctxt "LDnegbinomial|"
 msgid "≤ X ≤"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
+#, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Probability of Zero process:"
@@ -1993,13 +2063,15 @@ msgctxt "LDnegbinomialZeroInflated|"
 msgid "Probability of success:"
 msgstr "成功機率："
 
+#, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Mean:"
-msgstr ""
+msgstr "平均數："
 
+#, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Explanatory text"
@@ -2021,17 +2093,19 @@ msgctxt "LDnegbinomialZeroInflated|"
 msgid "Cumulative distribution function"
 msgstr "累積分配函數"
 
+#, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Options"
-msgstr ""
+msgstr "選項"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Range of x from"
 msgstr "x的範圍從"
 
+#, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "to"
-msgstr ""
+msgstr "到"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Highlight"
@@ -2053,9 +2127,10 @@ msgctxt "LDnegbinomialZeroInflated|"
 msgid "≤ X ≤"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDnormalGeneralized|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Location:"
@@ -2081,9 +2156,10 @@ msgctxt "LDnormalGeneralized|"
 msgid "β"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDnormalGeneralized|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Explanatory text"
@@ -2109,9 +2185,10 @@ msgctxt "LDnormalGeneralized|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDnormalSkew|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDnormalSkew|"
 msgid "Location:"
@@ -2137,9 +2214,10 @@ msgctxt "LDnormalSkew|"
 msgid "α"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDnormalSkew|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDnormalSkew|"
 msgid "Explanatory text"
@@ -2165,9 +2243,10 @@ msgctxt "LDnormalSkew|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDpareto|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDpareto|"
 msgid "Shape:"
@@ -2177,9 +2256,10 @@ msgctxt "LDpareto|"
 msgid "Scale:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDpareto|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDpareto|"
 msgid "Explanatory text"
@@ -2205,13 +2285,15 @@ msgctxt "LDpareto|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDpoisson|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
+#, fuzzy
 msgctxt "LDpoisson|"
 msgid "Parameter"
-msgstr ""
+msgstr "參數"
 
 msgctxt "LDpoisson|"
 msgid "Rate:"
@@ -2221,9 +2303,10 @@ msgctxt "LDpoisson|"
 msgid "λ"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDpoisson|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDpoisson|"
 msgid "Explanatory text"
@@ -2245,17 +2328,19 @@ msgctxt "LDpoisson|"
 msgid "Cumulative distribution function"
 msgstr "累積分配函數"
 
+#, fuzzy
 msgctxt "LDpoisson|"
 msgid "Options"
-msgstr ""
+msgstr "選項"
 
 msgctxt "LDpoisson|"
 msgid "Range of x from"
 msgstr "x的範圍從"
 
+#, fuzzy
 msgctxt "LDpoisson|"
 msgid "to"
-msgstr ""
+msgstr "到"
 
 msgctxt "LDpoisson|"
 msgid "Highlight"
@@ -2277,13 +2362,15 @@ msgctxt "LDpoisson|"
 msgid "≤ X ≤"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
+#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Parameter"
-msgstr ""
+msgstr "參數"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Probability of Zero process:"
@@ -2301,9 +2388,10 @@ msgctxt "LDpoissonZeroInflated|"
 msgid "λ"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Explanatory text"
@@ -2325,17 +2413,19 @@ msgctxt "LDpoissonZeroInflated|"
 msgid "Cumulative distribution function"
 msgstr "累積分配函數"
 
+#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Options"
-msgstr ""
+msgstr "選項"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Range of x from"
 msgstr "x的範圍從"
 
+#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "to"
-msgstr ""
+msgstr "到"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Highlight"
@@ -2357,13 +2447,15 @@ msgctxt "LDpoissonZeroInflated|"
 msgid "≤ X ≤"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDtNoncentral|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
+#, fuzzy
 msgctxt "LDtNoncentral|"
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 msgctxt "LDtNoncentral|"
 msgid "Degrees of freedom:"
@@ -2381,9 +2473,10 @@ msgctxt "LDtNoncentral|"
 msgid "ncp"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDtNoncentral|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDtNoncentral|"
 msgid "Explanatory text"
@@ -2409,9 +2502,10 @@ msgctxt "LDtNoncentral|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDtriangular|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDtriangular|"
 msgid "Minimum:"
@@ -2437,9 +2531,10 @@ msgctxt "LDtriangular|"
 msgid "c"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDtriangular|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDtriangular|"
 msgid "Explanatory text"
@@ -2465,9 +2560,10 @@ msgctxt "LDtriangular|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDtSkew|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDtSkew|"
 msgid "Location:"
@@ -2501,9 +2597,10 @@ msgctxt "LDtSkew|"
 msgid "df"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDtSkew|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDtSkew|"
 msgid "Explanatory text"
@@ -2529,13 +2626,15 @@ msgctxt "LDtSkew|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
+#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Location:"
@@ -2573,9 +2672,10 @@ msgctxt "LDtSkewedGeneralized|"
 msgid "λ"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Explanatory text"
@@ -2601,13 +2701,15 @@ msgctxt "LDtSkewedGeneralized|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDtStudent|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
+#, fuzzy
 msgctxt "LDtStudent|"
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 msgctxt "LDtStudent|"
 msgid "Degrees of freedom:"
@@ -2633,9 +2735,10 @@ msgctxt "LDtStudent|"
 msgid "σ"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDtStudent|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDtStudent|"
 msgid "Explanatory text"
@@ -2661,13 +2764,15 @@ msgctxt "LDtStudent|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDuniform|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
+#, fuzzy
 msgctxt "LDuniform|"
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
 msgctxt "LDuniform|"
 msgid "Lower bound:"
@@ -2685,9 +2790,10 @@ msgctxt "LDuniform|"
 msgid "b"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDuniform|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDuniform|"
 msgid "Explanatory text"
@@ -2713,17 +2819,20 @@ msgctxt "LDuniform|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDwald|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
+#, fuzzy
 msgctxt "LDwald|"
 msgid "Parameters"
-msgstr ""
+msgstr "參數"
 
+#, fuzzy
 msgctxt "LDwald|"
 msgid "Mean:"
-msgstr ""
+msgstr "平均數："
 
 msgctxt "LDwald|"
 msgid "Threshold:"
@@ -2741,9 +2850,10 @@ msgctxt "LDwald|"
 msgid "Noise:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDwald|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDwald|"
 msgid "Explanatory text"
@@ -2769,9 +2879,10 @@ msgctxt "LDwald|"
 msgid "Quantile function"
 msgstr "分位數函數"
 
+#, fuzzy
 msgctxt "LDweibull|"
 msgid "Show Distribution"
-msgstr ""
+msgstr "顯示分配"
 
 msgctxt "LDweibull|"
 msgid "Shape:"
@@ -2781,9 +2892,10 @@ msgctxt "LDweibull|"
 msgid "Scale:"
 msgstr ""
 
+#, fuzzy
 msgctxt "LDweibull|"
 msgid "Display"
-msgstr ""
+msgstr "顯示"
 
 msgctxt "LDweibull|"
 msgid "Explanatory text"
