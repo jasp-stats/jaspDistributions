@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.19.2\n"
 "POT-Creation-Date: 2025-03-29 03:09\n"
-"PO-Revision-Date: 2025-03-30 09:01+0000\n"
+"PO-Revision-Date: 2025-04-07 02:38+0000\n"
 "Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/sr/>\n"
@@ -51,7 +51,7 @@ msgid "Std. deviation"
 msgstr ""
 
 msgid "Minimum"
-msgstr ""
+msgstr "Минимум"
 
 msgid "25%% Quantile"
 msgstr ""
@@ -63,13 +63,13 @@ msgid "75%% Quantile"
 msgstr ""
 
 msgid "Maximum"
-msgstr ""
+msgstr "Максимум"
 
 msgid "Rel. Frequency"
 msgstr ""
 
 msgid "Total"
-msgstr ""
+msgstr "Укупно"
 
 msgid "Observed Moments"
 msgstr ""
@@ -152,7 +152,7 @@ msgid "Lillienfors"
 msgstr ""
 
 msgid "Shapiro-Wilk"
-msgstr ""
+msgstr "Shapiro-Wilk"
 
 msgid "Chi-square"
 msgstr ""
