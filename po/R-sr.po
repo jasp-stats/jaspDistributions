@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.19.2\n"
 "POT-Creation-Date: 2025-03-29 03:09\n"
-"PO-Revision-Date: 2025-04-07 02:38+0000\n"
+"PO-Revision-Date: 2025-04-14 23:01+0000\n"
 "Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/sr/>\n"
@@ -27,16 +27,16 @@ msgid ""
 msgstr ""
 
 msgid "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
-msgstr ""
+msgstr "<ul><li>Варијабла мора бити дискретна (тј. целобројна))</li></ul>"
 
 msgid "Overview - %s"
-msgstr ""
+msgstr "Преглед - %s"
 
 msgid "Descriptives"
 msgstr "Дескриптивна статистика"
 
 msgid "Variable"
-msgstr ""
+msgstr "Променљива"
 
 msgid "n"
 msgstr "n"
@@ -48,43 +48,43 @@ msgid "Variance"
 msgstr "Варијанца"
 
 msgid "Std. deviation"
-msgstr ""
+msgstr "Станд. девијација"
 
 msgid "Minimum"
 msgstr "Минимум"
 
 msgid "25%% Quantile"
-msgstr ""
+msgstr "25%% Квантил"
 
 msgid "Median"
 msgstr "Медијана"
 
 msgid "75%% Quantile"
-msgstr ""
+msgstr "75%% Квантил"
 
 msgid "Maximum"
 msgstr "Максимум"
 
 msgid "Rel. Frequency"
-msgstr ""
+msgstr "Рел. фреквенција"
 
 msgid "Total"
 msgstr "Укупно"
 
 msgid "Observed Moments"
-msgstr ""
+msgstr "Посматрани моменти"
 
 msgid "Moment"
-msgstr ""
+msgstr "Момент"
 
 msgid "Raw"
 msgstr "Сирово"
 
 msgid "Central"
-msgstr ""
+msgstr "Централно"
 
 msgid "Estimated Parameters"
-msgstr ""
+msgstr "Процењени параметри"
 
 msgid "Parameter"
 msgstr "Параметар"
@@ -96,7 +96,7 @@ msgid "SE"
 msgstr "SE"
 
 msgid "Standard errors are unavailable with this method"
-msgstr ""
+msgstr "Стандардне грешке нису доступне са овом методом"
 
 msgid "Lower"
 msgstr "Ниже"
@@ -108,21 +108,21 @@ msgid "Upper"
 msgstr "Горњи"
 
 msgid "Confidence intervals are unavailable with this method."
-msgstr ""
+msgstr "Интервали поверења нису доступни са овом методом."
 
 msgid "Confidence intervals were calculated using the delta method."
-msgstr ""
+msgstr "Интервали поверења су израчунати делта методом."
 
 msgid "Standard errors were calculated using the delta method."
-msgstr ""
+msgstr "Стандардне грешке су израчунате делта методом."
 
 msgid ""
 "Standard errors and confidence intervals were calculated using the delta "
 "method."
-msgstr ""
+msgstr "Стандардне грешке и интервали поверења су израчунати делта методом."
 
 msgid "Maximum likelihood"
-msgstr ""
+msgstr "Максимална вероватноћа"
 
 msgid "Fit Assessment"
 msgstr ""
