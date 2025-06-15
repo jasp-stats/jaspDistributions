@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2025-06-15 14:04+0000\n"
+"Last-Translator: 陳寬裕 <pf.kuan.yu.chen@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
+"projects/jasp/jaspdistributions-qml/zh_Hant/>\n"
+"Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.12-dev\n"
 "X-Language: zh_Hant\n"
 "X-Qt-Contexts: true\n"
 
@@ -185,7 +191,7 @@ msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Assess Fit"
-msgstr "評估擬合度"
+msgstr "評估資料集與特定分配之配適度"
 
 msgctxt "LDAssessFit|"
 msgid "[requires a loaded data set]"
@@ -197,27 +203,27 @@ msgstr "圖"
 
 msgctxt "LDAssessFit|"
 msgid "Histogram vs. theoretical pdf"
-msgstr "長條圖 vs. 理論概率密度函數"
+msgstr "長條圖 vs. 理論機率密度函數"
 
 msgctxt "LDAssessFit|"
 msgid "Histogram vs. theoretical pmf"
-msgstr "長條圖 vs. 理論概率密度函數"
+msgstr "長條圖 vs. 理論機率密度函數"
 
 msgctxt "LDAssessFit|"
 msgid "Q-Q plot"
-msgstr "常態Q-Q圖"
+msgstr "常態Q-Q圖(針對分位數)"
 
 msgctxt "LDAssessFit|"
 msgid "Empirical vs. theoretical cdf"
-msgstr "經驗 vs. 理論累積分佈函數(cdf)"
+msgstr "經驗 vs. 理論累積分配函數(cdf)"
 
 msgctxt "LDAssessFit|"
 msgid "P-P plot"
-msgstr "P-P 圖"
+msgstr "常態 P-P圖(針對累積機率)"
 
 msgctxt "LDAssessFit|"
 msgid "Statistics"
-msgstr "統計量"
+msgstr "檢定統計量"
 
 msgctxt "LDAssessFit|"
 msgid "Kolmogorov-Smirnov"
@@ -274,7 +280,7 @@ msgstr "[需要載入一個資料集]"
 #, qt-format
 msgctxt "LDGenerateDisplayData|"
 msgid "Generate new variable from %1"
-msgstr "從%1產生新的變數"
+msgstr "從常態分配(%1)產生新的變數"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Variable name: "
@@ -303,7 +309,7 @@ msgstr "統計量"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Descriptives"
-msgstr ""
+msgstr "描述性統計量"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "First"
@@ -311,7 +317,7 @@ msgstr "前"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "observed moments"
-msgstr ""
+msgstr "階的觀察動差(moments)"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Plots"
@@ -323,15 +329,15 @@ msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Histogram with"
-msgstr "長條圖帶"
+msgstr "長條圖...附有"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "bins"
-msgstr ""
+msgstr "個組數"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Empirical cumulative distribution"
-msgstr "經驗累積分佈函數"
+msgstr "經驗累積分配函數"
 
 msgctxt "LDOptions|"
 msgid "Options"
@@ -364,12 +370,12 @@ msgstr "區間"
 
 msgctxt "LDOptions|"
 msgid "from"
-msgstr ""
+msgstr "從"
 
 #, qt-format
 msgctxt "LDOptions|"
 msgid "from %1"
-msgstr ""
+msgstr "從%1"
 
 #, qt-format
 msgctxt "LDOptions|"
@@ -1234,7 +1240,7 @@ msgstr "圖"
 
 msgctxt "LDgammaInverse|"
 msgid "Histogram vs. theoretical pdf"
-msgstr "長條圖 vs. 理論概率密度函數"
+msgstr "長條圖 vs. 理論機率密度函數"
 
 msgctxt "LDgammaInverse|"
 msgid "Q-Q plot"
@@ -1242,7 +1248,7 @@ msgstr "常態Q-Q圖"
 
 msgctxt "LDgammaInverse|"
 msgid "Empirical vs. theoretical cdf"
-msgstr "經驗 vs. 理論累積分佈函數(cdf)"
+msgstr "經驗 vs. 理論累積分配函數(cdf)"
 
 msgctxt "LDgammaInverse|"
 msgid "P-P plot"
@@ -1520,7 +1526,7 @@ msgstr ""
 
 msgctxt "LDhypergeometric|"
 msgid "Number of draws from the population:"
-msgstr ""
+msgstr "從母體中抽取的數量："
 
 msgctxt "LDhypergeometric|"
 msgid "n"
@@ -2929,7 +2935,7 @@ msgctxt "LDAssessFit|"
 msgid ""
 "Displays a histogram of the selected variable overlayed with the probability "
 "density function of the fitted distribution"
-msgstr ""
+msgstr "顯示所選變數的直方圖，並疊加擬合分配的機率密度函數"
 
 msgctxt "LDAssessFit|"
 msgid ""
@@ -3000,7 +3006,7 @@ msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Sample from the theoretical distribution."
-msgstr ""
+msgstr "從理論分配中進行抽樣。"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Get variable from data set: "
@@ -3022,7 +3028,8 @@ msgctxt "LDGenerateDisplayData|"
 msgid ""
 "Displays a table with the raw and central sample moments of the selected "
 "variable. Defaults to first 2 moments."
-msgstr ""
+msgstr "顯示所選變數的原始樣本動差(即第一階樣本平均數)與中心動差(即第二階變異數、第三"
+"階偏態、第四階峰度)的表格，預設將只顯示前兩階動差。"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Histogram with ... bins"
@@ -3036,7 +3043,7 @@ msgctxt "LDGenerateDisplayData|"
 msgid ""
 "Display a histogram of the selected variable with the number of specified "
 "bins."
-msgstr ""
+msgstr "顯示所選變數的直方圖，並使用指定數量的組數（bins）"
 
 msgctxt "LDGenerateDisplayData|"
 msgid ""
@@ -3192,12 +3199,12 @@ msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Lillienfors"
-msgstr ""
+msgstr "Lillienfors常態性檢定"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Lillienfors test"
-msgstr ""
+msgstr "顯示Lillienfors常態性檢定的結果"
 
 msgctxt "LDEstimateParameters|"
 msgid "Bias corrected"
-msgstr ""
+msgstr "偏誤修正(Bias corrected)"
