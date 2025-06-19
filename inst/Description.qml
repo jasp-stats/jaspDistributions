@@ -7,7 +7,7 @@ Description
 	name:			"jaspDistributions"
 	icon:			"discoverdistributions-distributions.svg"
 	description: 	qsTr("Visualize distributions and fit them to data")
-	version			: "0.20.0"
+	version			: "0.95.0"
 	author:			"JASP Team"
 	maintainer:		"JASP Team <info@jasp-stats.org>"
 	website:		"www.jasp-stats.org"
