@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2013-2022 University of Amsterdam
+# Copyright (C) 2013-2025 University of Amsterdam
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -15,11 +15,23 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-# This is a generated file. Don't change it
+# This is a generated file. Don't change it!
 
+#' Hypergeometric
+#'
+#' @param ecdf, Displays an empirical cumulative distribution plot of the selected variable.
+#'    Defaults to \code{FALSE}.
+#' @param histogram, Display a bar plot of the selected variable.
+#'    Defaults to \code{FALSE}.
+#' @param moments, Displays a table with the raw and central sample moments of the selected variable. Defaults to first 2 moments.
+#'    Defaults to \code{FALSE}.
+#' @param newVariableName, Specify the name of the variable. Once filled, creates a column with samples drawn from the specified distribution in the current data set.
+#' @param sampleSize, Specify the number of samples.
+#' @param summary, Displays a descriptive table of the selected variable.
+#'    Defaults to \code{TRUE}.
 LDhypergeometric <- function(
           data = NULL,
-          version = "0.19",
+          version = "0.95",
           draws = 5,
           ecdf = FALSE,
           explanatoryText = FALSE,
@@ -40,12 +52,12 @@ LDhypergeometric <- function(
           plotHeight = 320,
           plotPMF = TRUE,
           plotWidth = 480,
-          sampleSize = 7,
+          sampleSize = 0,
           simulateNow = FALSE,
           size = 10,
           success = 5,
           summary = TRUE,
-          variable = "") {
+          variable = list(types = list(), value = "")) {
 
    defaultArgCalls <- formals(jaspDistributions::LDhypergeometric)
    defaultArgs <- lapply(defaultArgCalls, eval)
@@ -56,9 +68,14 @@ LDhypergeometric <- function(
    options[["data"]] <- NULL
    options[["version"]] <- NULL
 
+
+   if (!jaspBase::jaspResultsCalledFromJasp() && !is.null(data)) {
+      jaspBase::storeDataSet(data)
+   }
+
    optionsWithFormula <- c("variable")
    for (name in optionsWithFormula) {
       if ((name %in% optionsWithFormula) && inherits(options[[name]], "formula")) options[[name]] = jaspBase::jaspFormula(options[[name]], data)   }
 
-   return(jaspBase::runWrappedAnalysis("jaspDistributions::LDhypergeometric", data, options, version))
+   return(jaspBase::runWrappedAnalysis("jaspDistributions", "LDhypergeometric", "LDhypergeometric.qml", options, version, TRUE))
 }
