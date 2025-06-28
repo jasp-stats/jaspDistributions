@@ -54,7 +54,7 @@ msgid "25%% Quantile"
 msgstr ""
 
 msgid "Median"
-msgstr ""
+msgstr "இடைநடு"
 
 msgid "75%% Quantile"
 msgstr ""
@@ -84,10 +84,10 @@ msgid "Estimated Parameters"
 msgstr ""
 
 msgid "Parameter"
-msgstr ""
+msgstr "கூறளவு"
 
 msgid "Estimate"
-msgstr "மதிப்பீடு"
+msgstr "மதிப்பிடு"
 
 msgid "SE"
 msgstr ""
@@ -128,7 +128,7 @@ msgid "Fit Statistics"
 msgstr ""
 
 msgid "Test"
-msgstr ""
+msgstr "தேர்வு"
 
 msgid "Statistic"
 msgstr ""
