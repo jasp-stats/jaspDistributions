@@ -128,7 +128,7 @@ msgid "Fit Statistics"
 msgstr ""
 
 msgid "Test"
-msgstr "தேர்வு"
+msgstr "சோதனை"
 
 msgid "Statistic"
 msgstr ""
