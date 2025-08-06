@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-08-05 15:02+0000\n"
+"PO-Revision-Date: 2025-08-06 07:43+0000\n"
 "Last-Translator: Wendel Paulo Silvestre <wpsilvestre@ucs.br>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-qml/pt/>\n"
@@ -546,7 +546,6 @@ msgctxt "LDOptions|"
 msgid "Probability"
 msgstr "Probabilidade"
 
-#, fuzzy
 msgctxt "LDOptions|"
 msgid "Interval"
 msgstr "Intervalo"
@@ -801,7 +800,7 @@ msgstr "Estimativas"
 
 msgctxt "LDEstimateParameters|"
 msgid "Std. error"
-msgstr "Erro padrão"
+msgstr "Erro pad."
 
 msgctxt "LDEstimateParameters|"
 msgid "Confidence interval"
@@ -2323,7 +2322,6 @@ msgctxt "LDpoissonZeroInflated|"
 msgid "Cumulative distribution function"
 msgstr "Função distribuição acumulada"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Options"
 msgstr "Opções"
