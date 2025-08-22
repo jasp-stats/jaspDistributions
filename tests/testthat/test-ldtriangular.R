@@ -28,16 +28,16 @@ options$variable <- "triangular"
 set.seed(1)
 
 results <- jaspTools::runAnalysis("LDtriangular",
-                                  data.frame(triangular = jaspDistributions:::rtriangular(n = 100, -1, 1, 0)),
+                                  data.frame(triangular = jaspDistributions:::rtriangular(n = 100, -0.5, 0.5, 0)),
                                   options)
 
 
 test_that("Descriptives table results match", {
   table <- results[["results"]][["dataContainer"]][["collection"]][["dataContainer_summary"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                                 list(0.872773903403654, 0.0231008819189913, -0.0122820673389992, -0.836354888401422,
-                                      -0.196171879565242, 0.317646083339521, 100, 0.3620049973184,
-                                      0.131047618083495, "triangular"))
+                                 list(0.436392140930151, 0.0115505028240268, -0.00614120299064866, -0.418182054949254,
+                                      -0.0980870976209011, 0.158824002459433, 100, 0.181003492767002,
+                                      0.0327622643938541, "triangular"))
 })
 
 # Skip on Windows and Linux due to unknown error
@@ -46,10 +46,11 @@ testthat::skip_on_os(c("windows", "linux"))
 test_that("Estimated Parameters table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_estParametersTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                                 list(-0.891338261116431, -0.979215952920212, "a", 0.0448363809217661,
-                                      -0.803460569312651, 0.926386312520549, 0.833851723548821, "b",
-                                      0.0472123925243671, 1.01892090149228, -0.0222925908206981, -0.0619979249110163,
-                                      "c", 0.0202581957645696, 0.0174127432696202))
+                                 list(-0.445691801841425, -0.48965627859016, "a", 0.0224312676638557,
+                                      -0.40172732509269, 0.463269455910836, 0.416904258284535, "b",
+                                      0.0236561477619099, 0.509634653537137, -0.0111069677467409,
+                                      -0.0357020423351634, "c", 0.0125487380290788, 0.0134881068416816
+                                 ))
 })
 
 test_that("Empirical vs. Theoretical CDF plot matches", {
@@ -67,9 +68,9 @@ test_that("Histogram vs. Theoretical PDF plot matches", {
 test_that("Fit Statistics table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_mleFitAssessment"]][["collection"]][["mleContainer_mleFitAssessment_fitStatisticsTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                                 list(0.804310918916537, 0.0641986304635639, "Kolmogorov-Smirnov", 0,
-                                      0, 0, 0.745282082117241, 0.307641080270806, "Cram<unicode>r-von Mises",
-                                      0, 0, 0, 0.867576290745483, 1.47393008976758, "Anderson-Darling"
+                                 list(0.805380860361372, 0.0641281799568325, "Kolmogorov-Smirnov", 0,
+                                      0, 0, 0.745699500622029, 0.307472165821383, "Cram<unicode>r-von Mises",
+                                      0, 0, 0, 0.867975134978885, 1.4729245290738, "Anderson-Darling"
                                  ))
 })
 
