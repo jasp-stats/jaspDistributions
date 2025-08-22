@@ -417,6 +417,7 @@
   isTRUE(options[["andersonDarling"]]) ||
   isTRUE(options[["lillienfors"]]) ||
   isTRUE(options[["shapiroWilk"]]) ||
+  isTRUE(options[["shapiroFrancia"]]) ||
   isTRUE(options[["chiSquare"]]) ||
   isTRUE(options[["estPDF"]]) ||
   isTRUE(options[["estPMF"]]) ||
@@ -522,7 +523,7 @@
 .ldFitStatisticsTable <- function(fitContainer, options, method){
   if(!is.null(fitContainer[['fitStatisticsTable']])) return()
 
-  allTests <- c("kolmogorovSmirnov", "cramerVonMisses", "andersonDarling", "lillienfors", "shapiroWilk", "chiSquare")
+  allTests <- c("kolmogorovSmirnov", "cramerVonMisses", "andersonDarling", "lillienfors", "shapiroWilk", "shapiroFrancia", "chiSquare")
   optionsTests <- allTests %in% names(options)
   whichTests <- unlist(options[allTests[optionsTests]])
 
@@ -550,7 +551,7 @@
   if(is.null(fit)) return()
   if(!is.null(fitContainer[['fitStatisticsResults']])) return(fitContainer[['fitStatisticsResults']]$object)
 
-  allTests <- c("kolmogorovSmirnov", "cramerVonMisses", "andersonDarling", "lillienfors", "shapiroWilk", "chiSquare")
+  allTests <- c("kolmogorovSmirnov", "cramerVonMisses", "andersonDarling", "lillienfors", "shapiroWilk", "shapiroFrancia", "chiSquare")
   tests <- allTests[allTests %in% names(options)]
 
   res <- data.frame(test = tests, statistic = numeric(length = length(tests)), p.value = numeric(length = length(tests)))
@@ -562,6 +563,7 @@
                    "kolmogorovSmirnov" = c(list(x = variable, y = options$cdfFun), pars),
                    "lillienfors" = list(x = variable),
                    "shapiroWilk" = list(x = variable),
+                   "shapiroFrancia" = list(x = variable),
                    "chiSquare" = list(x = as.numeric(table(variable)),
                                       p = do.call(options[['pdfFun']],
                                                   utils::modifyList(pars,
@@ -577,7 +579,8 @@
                    "cramerVonMisses"   = goftest::cvm.test,
                    "andersonDarling"   = goftest::ad.test,
                    "lillienfors"       = nortest::lillie.test,
-                   "shapiroWilk"       = nortest::sf.test,
+                   "shapiroWilk"       = stats::shapiro.test,
+                   "shapiroFrancia"    = nortest::sf.test,
                    "chiSquare"         = stats::chisq.test
     )
 
@@ -593,13 +596,9 @@
         fun <- function(x) {
           return(list(statistic = NA, p.value = NA))
         }
-      } else if (test == "shapiroWilk" && (length(variable) < 5 || length(variable) > 5000)) {
-        fun <- stats::shapiro.test
       }
     } else {
-      if (test == "shapiroWilk") {
-        fun <- stats::shapiro.test
-      } else if (test=="lillienfors") {
+      if (test=="lillienfors") {
         fun <- function(x) {
           return(list(statistic = NA, p.value = NA))
         }
@@ -622,13 +621,14 @@
   if(is.null(table)) return()
 
 
-  allTests <- c("kolmogorovSmirnov", "cramerVonMisses", "andersonDarling", "lillienfors", "shapiroWilk", "chiSquare")
+  allTests <- c("kolmogorovSmirnov", "cramerVonMisses", "andersonDarling", "lillienfors", "shapiroWilk", "shapiroFrancia", "chiSquare")
   tests <- allTests[allTests %in% names(options)]
   testNames <- c(gettext("Kolmogorov-Smirnov"),
                  gettext("Cramér-von Mises"),
                  gettext("Anderson-Darling"),
                  gettext("Lillienfors"),
                  gettext("Shapiro-Wilk"),
+                 gettext("Shapiro-Francia"),
                  gettext("Chi-square"))[allTests %in% names(options)]
 
   whichTests <- unlist(options[tests])

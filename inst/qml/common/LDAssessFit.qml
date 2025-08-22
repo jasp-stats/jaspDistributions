@@ -24,7 +24,7 @@ Section
 {
 	property string	distributionType		: "continuous" // "counts" or "categorical"
 	property bool includeLillienfors		: false
-	property bool includeShapiroWilk		: false
+	property bool includeShapiro			: false
 	property bool isDistributionContinuous	: distributionType === "continuous"
 
 	title: enabled ? qsTr("Assess Fit") : qsTr("Assess Fit") + " - " + qsTr("[requires a loaded data set]")
@@ -86,8 +86,9 @@ Section
 				CheckBox{ name: "kolmogorovSmirnov";	label: qsTr("Kolmogorov-Smirnov");	info: qsTr("Displays the Kolmogorov-Smirnov test")	}
 				CheckBox{ name: "cramerVonMisses";		label: qsTr("Cramér–von Mises");	info: qsTr("Displays the Cramér-von Mises test")	}
 				CheckBox{ name: "andersonDarling";		label: qsTr("Anderson-Darling");	info: qsTr("Displays the Anderson-Darling test")	}
-				CheckBox{ name: "lillienfors";			label: qsTr("Lillienfors");			info: qsTr("Displays the Lillienfors test"); 				visible: includeLillienfors	}
-				CheckBox{ name: "shapiroWilk";			label: qsTr("Shapiro-Wilk");		info: qsTr("Displays the Shapiro-Wilk test of normality");	visible: includeShapiroWilk	}
+				CheckBox{ name: "lillienfors";			label: qsTr("Lillienfors");			info: qsTr("Displays the Lillienfors test"); 					visible: includeLillienfors	}
+				CheckBox{ name: "shapiroWilk";			label: qsTr("Shapiro-Wilk");		info: qsTr("Displays the Shapiro-Wilk test of normality");		visible: includeShapiro	}
+				CheckBox{ name: "shapiroFrancia";		label: qsTr("Shapiro-Francia");		info: qsTr("Displays the Shapiro-Francia test of normality");	visible: includeShapiro	}
 			}
 		}
 
