@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.19.2\n"
 "POT-Creation-Date: 2025-03-29 03:09\n"
-"PO-Revision-Date: 2025-04-24 23:01+0000\n"
+"PO-Revision-Date: 2025-08-24 15:02+0000\n"
 "Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/sr/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.11.1-dev\n"
+"X-Generator: Weblate 5.13\n"
 
 msgid ""
 "Could not write to column '%s', probably because it wasn't created by this "
@@ -25,6 +25,8 @@ msgid ""
 "The following problem(s) occurred while running the analysis:"
 "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
 msgstr ""
+"Следећи проблем(и) су се појавили током покретања анализе:<ul><li>Варијабла "
+"мора бити дискретна (тј. цео број)</li></ul>"
 
 msgid "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
 msgstr "<ul><li>Варијабла мора бити дискретна (тј. целобројна))</li></ul>"
@@ -33,7 +35,7 @@ msgid "Overview - %s"
 msgstr "Преглед - %s"
 
 msgid "Descriptives"
-msgstr "Дескриптивна статистика"
+msgstr "Дескриптивна"
 
 msgid "Variable"
 msgstr "Променљива"
@@ -125,10 +127,10 @@ msgid "Maximum likelihood"
 msgstr "Максимална вероватноћа"
 
 msgid "Fit Assessment"
-msgstr ""
+msgstr "Процена усклађености"
 
 msgid "Fit Statistics"
-msgstr ""
+msgstr "Статистике усклађености"
 
 msgid "Test"
 msgstr "Тест"
@@ -140,96 +142,99 @@ msgid "p"
 msgstr "p"
 
 msgid "Kolmogorov-Smirnov"
-msgstr ""
+msgstr "Kolmogorov-Smirnov"
 
 msgid "Cramér-von Mises"
-msgstr ""
+msgstr "Cramér-von Mises"
 
 msgid "Anderson-Darling"
-msgstr ""
+msgstr "Anderson-Darling"
 
 msgid "Lillienfors"
-msgstr ""
+msgstr "Lillienfors"
 
 msgid "Shapiro-Wilk"
 msgstr "Shapiro-Wilk"
 
 msgid "Chi-square"
-msgstr ""
+msgstr "Хи-квадрат"
 
 msgid ""
 "Using Brown (1980) approximation which tends to be innacurate for small "
 "sample sizes."
 msgstr ""
+"Користи се апроксимација према Brown (1980) која има тенденцију да буде "
+"нетачна за мале узорке."
 
 msgid "Histogram vs. Theoretical PDF"
-msgstr ""
+msgstr "Хистограм vs. теоретска PDF"
 
 msgid "Histogram vs. Theoretical PMF"
-msgstr ""
+msgstr "Хистограм vs. теоретска PMF"
 
 msgid "Q-Q plot"
-msgstr ""
+msgstr "Q-Q графикон"
 
 msgid "Empirical vs. Theoretical CDF"
-msgstr ""
+msgstr "Емперијска vs. теоретска CDF"
 
 msgid "P-P plot"
-msgstr ""
+msgstr "P-P графикон"
 
 msgid "Sample"
-msgstr ""
+msgstr "Узорак"
 
 msgid "Theoretical"
-msgstr ""
+msgstr "Теоретска"
 
 msgid "Density"
 msgstr "Густина"
 
 msgid "Probability Mass"
-msgstr ""
+msgstr "Вероватноћа масе"
 
 msgid "Probability"
-msgstr ""
+msgstr "Вероватноћа"
 
 msgid "Probability Density Function"
-msgstr ""
+msgstr "Функција густине вероватноће"
 
 msgid "Probability Mass Function"
-msgstr ""
+msgstr "Функција масе вероватноће"
 
 msgid "Cumulative Distribution Function"
-msgstr ""
+msgstr "Функција кумулативне расподеле"
 
 msgid "Quantile Function"
-msgstr ""
+msgstr "Квантилна функција"
 
 msgid "Formula"
-msgstr ""
+msgstr "Формула"
 
 msgid "Density Plot"
-msgstr ""
+msgstr "График густине"
 
 msgid "Cumulative Probability Plot"
-msgstr ""
+msgstr "График кумулативне вероватноће"
 
 msgid "Slope"
-msgstr ""
+msgstr "Нагиб"
 
 msgid "Quantile Plot"
-msgstr ""
+msgstr "Квантилни графикон"
 
 msgid "Probability Mass Plot"
-msgstr ""
+msgstr "График вероватноће масе"
 
 msgid "Histogram"
-msgstr ""
+msgstr "Хистограм"
 
 msgid "Bar plot"
-msgstr ""
+msgstr "Стубичасти дијаграм"
 
+#, fuzzy
 msgid "Rel. Freq (%s in bin)"
-msgstr ""
+msgstr "Релат. фрекф. (%s у корпи)"
 
 msgid "Empirical Cumulative Distribution"
 msgstr ""
