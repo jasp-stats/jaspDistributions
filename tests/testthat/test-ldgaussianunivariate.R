@@ -29,6 +29,7 @@ options$plotQF <- TRUE
 options$ppplot <- TRUE
 options$qqplot <- TRUE
 options$shapiroWilk <- TRUE
+options$shapiroFrancia <- TRUE
 options$qqPlotCi <- TRUE
 options$qqPlotCiLevel <- 0.95
 options$ppPlotCi <- TRUE
@@ -99,8 +100,8 @@ test_that("Fit Statistics table results match", {
                                  list(0.991407439010072, 0.0435417886558164, "Kolmogorov-Smirnov", 0.943808236870346,
                                       0.0222708494545493, "Cram<unicode>r-von Mises", 0.977570565641067,
                                       0.135493314971953, "Anderson-Darling", 0.912509972807986, 0.0435417886558163,
-                                      "Lillienfors", 0.992785911992608, 0.996812818710274, "Shapiro-Wilk"
-                                 ))
+                                      "Lillienfors", 0.994211531885928, 0.996119141722174, "Shapiro-Wilk",
+                                      0.992785911992608, 0.996812818710274, "Shapiro-Francia"))
 })
 
 test_that("P-P plot matches", {
