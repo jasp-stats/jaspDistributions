@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
-"POT-Creation-Date: 2025-03-29 03:09\n"
+"POT-Creation-Date: 2025-09-06 03:08\n"
 "PO-Revision-Date: 2025-08-24 15:02+0000\n"
 "Last-Translator: Wendel Paulo Silvestre <wpsilvestre@ucs.br>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
@@ -160,6 +160,10 @@ msgid "Lillienfors"
 msgstr "Lilliefors"
 
 msgid "Shapiro-Wilk"
+msgstr "Teste de Shapiro-Wilk"
+
+#, fuzzy
+msgid "Shapiro-Francia"
 msgstr "Teste de Shapiro-Wilk"
 
 msgid "Chi-square"

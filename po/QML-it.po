@@ -3081,3 +3081,11 @@ msgstr ""
 msgctxt "LDEstimateParameters|"
 msgid "Bias corrected"
 msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Shapiro-Francia"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Shapiro-Francia test of normality"
+msgstr ""

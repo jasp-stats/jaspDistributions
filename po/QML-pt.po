@@ -3151,3 +3151,11 @@ msgstr "Exibe o teste de Lilliefors"
 msgctxt "LDEstimateParameters|"
 msgid "Bias corrected"
 msgstr "Viés corrigido"
+
+msgctxt "LDAssessFit|"
+msgid "Shapiro-Francia"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Shapiro-Francia test of normality"
+msgstr ""

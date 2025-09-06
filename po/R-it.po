@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.18.3\n"
-"POT-Creation-Date: 2025-03-29 03:09\n"
+"POT-Creation-Date: 2025-09-06 03:08\n"
 "PO-Revision-Date: 2024-06-30 10:01+0000\n"
 "Last-Translator: Marco Capozzi <giammarcous@yahoo.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/jasp/"
@@ -157,6 +157,10 @@ msgid "Lillienfors"
 msgstr ""
 
 msgid "Shapiro-Wilk"
+msgstr "Shapiro-Wilk"
+
+#, fuzzy
+msgid "Shapiro-Francia"
 msgstr "Shapiro-Wilk"
 
 #, fuzzy

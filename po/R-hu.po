@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.19.0\n"
-"POT-Creation-Date: 2025-03-29 03:09\n"
+"POT-Creation-Date: 2025-09-06 03:08\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -146,6 +146,9 @@ msgid "Lillienfors"
 msgstr ""
 
 msgid "Shapiro-Wilk"
+msgstr ""
+
+msgid "Shapiro-Francia"
 msgstr ""
 
 msgid "Chi-square"

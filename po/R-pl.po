@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.17.0\n"
-"POT-Creation-Date: 2025-03-29 03:09\n"
+"POT-Creation-Date: 2025-09-06 03:08\n"
 "PO-Revision-Date: 2025-07-16 23:01+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jasp/"
@@ -156,6 +156,10 @@ msgid "Lillienfors"
 msgstr ""
 
 msgid "Shapiro-Wilk"
+msgstr "Shapiro-Wilk"
+
+#, fuzzy
+msgid "Shapiro-Francia"
 msgstr "Shapiro-Wilk"
 
 msgid "Chi-square"

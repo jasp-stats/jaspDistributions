@@ -3154,3 +3154,11 @@ msgstr "Geeft de Lillienfors-test weer"
 msgctxt "LDEstimateParameters|"
 msgid "Bias corrected"
 msgstr "Bias gecorrigeerd"
+
+msgctxt "LDAssessFit|"
+msgid "Shapiro-Francia"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Shapiro-Francia test of normality"
+msgstr ""

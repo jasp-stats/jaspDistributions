@@ -3203,3 +3203,11 @@ msgstr "顯示Lillienfors常態性檢定的結果"
 msgctxt "LDEstimateParameters|"
 msgid "Bias corrected"
 msgstr "偏誤修正(Bias corrected)"
+
+msgctxt "LDAssessFit|"
+msgid "Shapiro-Francia"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Shapiro-Francia test of normality"
+msgstr ""
