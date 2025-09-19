@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.19.2\n"
 "POT-Creation-Date: 2025-09-06 03:08\n"
-"PO-Revision-Date: 2025-09-15 08:01+0000\n"
+"PO-Revision-Date: 2025-09-20 03:08+0000\n"
 "Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/ta/>\n"
@@ -458,304 +458,308 @@ msgid "Scale parameter %s is assumed positive."
 msgstr "அளவிலான அளவுரு %s நேர்மறையாக கருதப்படுகிறது."
 
 msgid "Scale parameter %s is assumed negative."
-msgstr ""
+msgstr "அளவிலான அளவுரு %s எதிர்மறையாக கருதப்படுகிறது."
 
 msgid "Bernoulli distribution"
-msgstr ""
+msgstr "பெர்ன lli லி வழங்கல்"
 
 msgid "probability of success: p %1$s %2$s: 0 %3$s p %4$s 1"
-msgstr ""
+msgstr "வெற்றியின் நிகழ்தகவு: p %1$s %2$s: 0 %3$s p %4 $ s 1"
 
 msgid "x %s {0, 1}"
-msgstr ""
+msgstr "ஃச் %s {0, 1}"
 
 msgid "p(1-p)"
-msgstr ""
+msgstr "பி (1-ப)"
 
 msgid "beta distribution"
-msgstr ""
+msgstr "பீட்டா வழங்கல்"
 
 msgid "beta-binomial distribution"
-msgstr ""
+msgstr "பீட்டா-பினோமியல் வழங்கல்"
 
 msgid "number of trials: %s"
-msgstr ""
+msgstr "சோதனைகளின் எண்ணிக்கை: %s"
 
 msgid "Parameter n was fixed at value %s."
-msgstr ""
+msgstr "அளவுரு n மதிப்பு %s இல் சரி செய்யப்பட்டது."
 
 msgid "beta prime distribution"
-msgstr ""
+msgstr "பீட்டா பிரைம் வழங்கல்"
 
 msgid "lower bound: %s"
-msgstr ""
+msgstr "கீழ் எல்லை: %s"
 
 msgid "upper bound: %s"
-msgstr ""
+msgstr "மேல் பிணைப்பு: %s"
 
 msgid "binomial distribution"
-msgstr ""
+msgstr "பைனோமியல் வழங்கல்"
 
 msgid "probability of success: %s"
-msgstr ""
+msgstr "வெற்றியின் நிகழ்தகவு: %s"
 
 msgid "Cauchy distribution"
-msgstr ""
+msgstr "க uch ச்சி வழங்கல்"
 
 msgid "location: &mu; %s"
-msgstr ""
+msgstr "இடம்: & மு; %s"
 
 msgid "undefined"
-msgstr ""
+msgstr "வரையறுக்கப்படவில்லை"
 
 msgid "%s<sup>2</sup> distribution"
-msgstr ""
+msgstr "%s <sup> 2 </sup> வழங்கல்"
 
 msgid "degree of freedom: %s"
-msgstr ""
+msgstr "சுதந்திரத்தின் பட்டம்: %s"
 
 msgid "non-centrality: %s"
-msgstr ""
+msgstr "மையமற்றது: %s"
 
 msgid "exponential distribution"
-msgstr ""
+msgstr "அதிவேக வழங்கல்"
 
 msgid "rate: %s"
-msgstr ""
+msgstr "விகிதம்: %s"
 
 msgid "F-distribution"
-msgstr ""
+msgstr "எஃப்-விநியோக"
 
 msgid "Fréchet distribution"
-msgstr ""
+msgstr "ஃப்ரீச்செட் வழங்கல்"
 
 msgid "location: %s"
-msgstr ""
+msgstr "இடம்: %s"
 
 msgid "see Wikipedia: %s"
-msgstr ""
+msgstr "விக்கிபீடியாவைக் காண்க: %s"
 
 msgid "gamma distribution"
-msgstr ""
+msgstr "காமா வழங்கல்"
 
 msgid "mean: %s"
-msgstr ""
+msgstr "சராசரி: %s"
 
 msgid "inverse gamma distribution"
-msgstr ""
+msgstr "தலைகீழ் காமா வழங்கல்"
 
 msgid "normal distribution"
-msgstr ""
+msgstr "சாதாரண வழங்கல்"
 
 msgid "mean: &mu; %s"
-msgstr ""
+msgstr "சராசரி: & mu; %s"
 
 msgid "variance: %s"
-msgstr ""
+msgstr "மாறுபாடு: %s"
 
 msgid "standard deviation: %s"
-msgstr ""
+msgstr "நிலையான விலகல்: %s"
 
 msgid "precision: %s"
-msgstr ""
+msgstr "துல்லியம்: %s"
 
 msgid "square root of precision: %s"
-msgstr ""
+msgstr "துல்லியத்தின் சதுர வேர்: %s"
 
 msgid "&mu;"
-msgstr ""
+msgstr "&mu;"
 
 msgid "Unbiased with Bessel's correction."
-msgstr ""
+msgstr "பெசலின் திருத்தத்துடன் பக்கச்சார்பற்றது."
 
 msgid "geometric distribution"
-msgstr ""
+msgstr "வடிவியல் வழங்கல்"
 
 msgid "population size: %s"
-msgstr ""
+msgstr "மக்கள்தொகை அளவு: %s"
 
 msgid "number of success states in the population: %s"
-msgstr ""
+msgstr "மக்கள்தொகையில் செய் நிலைகளின் எண்ணிக்கை: %s"
 
 msgid "number of draws from the population: %s"
-msgstr ""
+msgstr "மக்களிடமிருந்து டிராக்களின் எண்ணிக்கை: %s"
 
 msgid "Gompertz distribution"
-msgstr ""
+msgstr "கோம்பெர்ட்ச் வழங்கல்"
 
 msgid ""
 "shape: %1$s \n"
 "scale: %2$s"
 msgstr ""
+"வடிவம்: %1$s \n"
+"அளவு: %2$s"
 
 msgid "Gumbel distribution"
-msgstr ""
+msgstr "கம்பல் வழங்கல்"
 
 msgid "hypergeometric distribution"
-msgstr ""
+msgstr "ஐப்பர்சோமெட்ரிக் வழங்கல்"
 
 msgid "Laplace distribution"
-msgstr ""
+msgstr "லாப்லேச் வழங்கல்"
 
 msgid "log-logistic distribution"
-msgstr ""
+msgstr "பதிவு-புகழ்பெற்ற வழங்கல்"
 
 msgid "log location: &mu; %s"
-msgstr ""
+msgstr "பதிவு இடம்: & mu; %s"
 
 msgid "log scale: %s"
-msgstr ""
+msgstr "பதிவு அளவு: %s"
 
 msgid "scale: &alpha; %s"
-msgstr ""
+msgstr "அளவு: & ஆல்பா; %s"
 
 msgid "logistic distribution"
-msgstr ""
+msgstr "லாசிச்டிக் வழங்கல்"
 
 msgid "(&sigma; &pi;)<sup>2</sup> / 3"
-msgstr ""
+msgstr "(&sigma; &pi; )<sup>2</sup> / 3"
 
 msgid "log-normal distribution"
-msgstr ""
+msgstr "பதிவு-இயல்பான வழங்கல்"
 
 msgid "log mean: &mu; %s"
-msgstr ""
+msgstr "பதிவு சராசரி: & mu; %s"
 
 msgid "log standard deviation: %s"
-msgstr ""
+msgstr "பதிவு நிலையான விலகல்: %s"
 
 msgid "exp(&mu; + &sigma;<sup>2</sup>/2)"
-msgstr ""
+msgstr "exp(&mu; + &sigma;<sup>2</sup> / 2)"
 
 msgid "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
-msgstr ""
+msgstr "[exp(&sigma;<sup> 2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
 
 msgid "mixture of two normal distributions"
-msgstr ""
+msgstr "இரண்டு சாதாரண விநியோகங்களின் கலவை"
 
 msgid "probability of first component: %s"
-msgstr ""
+msgstr "முதல் கூறுகளின் நிகழ்தகவு: %s"
 
 msgid "mean 1: %s"
-msgstr ""
+msgstr "சராசரி 1: %s"
 
 msgid "std. deviation 1: %s"
-msgstr ""
+msgstr "std. விலகல் 1: %s"
 
 msgid "mean 2: %s"
-msgstr ""
+msgstr "சராசரி 2: %s"
 
 msgid "std. deviation 2: %s"
-msgstr ""
+msgstr "std. விலகல் 2: %s"
 
 msgid "mixture of a normal and a uniform distribution"
-msgstr ""
+msgstr "ஒரு சாதாரண மற்றும் சீரான விநியோகத்தின் கலவை"
 
 msgid "probability of normal component: %s"
-msgstr ""
+msgstr "சாதாரண கூறுகளின் நிகழ்தகவு: %s"
 
 msgid "mean of normal distribution: %s"
-msgstr ""
+msgstr "சாதாரண விநியோகத்தின் சராசரி: %s"
 
 msgid "std. deviation of normal distribution: %s"
-msgstr ""
+msgstr "std. சாதாரண விநியோகத்தின் விலகல்: %s"
 
 msgid "minimum of uniform distribution: %s"
-msgstr ""
+msgstr "சீரான வழங்கல் குறைந்தபட்சம்: %s"
 
 msgid "maximum of uniform distribution: %s"
-msgstr ""
+msgstr "சீரான விநியோகத்தின் அதிகபட்சம்: %s"
 
 msgid ""
 "Parameter a was fixed at value %1$s, parameter b was fixed at value %2$s."
 msgstr ""
+"அளவுரு A மதிப்பு %1$s இல் சரி செய்யப்பட்டது, அளவுரு B மதிப்பு %2$s இல் சரி "
+"செய்யப்பட்டது."
 
 msgid "negative binomial distribution"
-msgstr ""
+msgstr "எதிர்மறை பைனோமியல் வழங்கல்"
 
 msgid "number of successes: %s"
-msgstr ""
+msgstr "வெற்றிகளின் எண்ணிக்கை: %s"
 
 msgid "dispersion: %s"
-msgstr ""
+msgstr "சிதறல்: %s"
 
 msgid "zero-inflated negative binomial distribution"
-msgstr ""
+msgstr "பூச்சியத்தால் பாதிக்கப்பட்ட எதிர்மறை பைனோமியல் வழங்கல்"
 
 msgid "probability of zero process: %s"
-msgstr ""
+msgstr "சுழிய செயல்முறையின் நிகழ்தகவு: %s"
 
 msgid "generalized normal distribution"
-msgstr ""
+msgstr "பொதுவான சாதாரண வழங்கல்"
 
 msgid "skew normal distribution"
-msgstr ""
+msgstr "சாதாரண விநியோகத்தைத் தவிர்க்கவும்"
 
 msgid "Pareto distribution"
-msgstr ""
+msgstr "பரேட்டோ வழங்கல்"
 
 msgid "Poisson distribution"
-msgstr ""
+msgstr "பாய்சன் வழங்கல்"
 
 msgid "zero-inflated Poisson distribution"
-msgstr ""
+msgstr "பூச்சிய-ஊதியம் பெற்ற பாய்சன் வழங்கல்"
 
 msgid "noncentral t-distribution"
-msgstr ""
+msgstr "அல்லாத மைய டி-விநியோக"
 
 msgid "degrees of freedom: %s"
-msgstr ""
+msgstr "சுதந்திரத்தின் டிகிரி: %s"
 
 msgid "does not exist unless df > 1"
-msgstr ""
+msgstr "df> 1 தவிர இல்லை"
 
 msgid "does not exist unless df > 2"
-msgstr ""
+msgstr "df> 2 தவிர இல்லை"
 
 msgid "see Azzalini & Capitanio (2003)"
-msgstr ""
+msgstr "அச்சாலினி & கேபிடானியோ (2003) ஐப் பார்க்கவும்"
 
 msgid "skewed generalized t-distribution"
-msgstr ""
+msgstr "வளைந்த பொதுமைப்படுத்தப்பட்ட டி-விநியோக"
 
 msgid "skewness: %s"
-msgstr ""
+msgstr "வளைவு: %s"
 
 msgid "kurtosis: %s"
-msgstr ""
+msgstr "கர்டோசிச்: %s"
 
 msgid "scaled, shifted Student's t-distribution"
-msgstr ""
+msgstr "அளவிடப்பட்ட, மாணவர்களின் டி-விநியோகத்தை மாற்றியது"
 
 msgid "triangular distribution"
-msgstr ""
+msgstr "முக்கோண வழங்கல்"
 
 msgid "minimum: %s"
-msgstr ""
+msgstr "குறைந்தபட்சம்: %s"
 
 msgid "maximum: %s"
-msgstr ""
+msgstr "அதிகபட்சம்: %s"
 
 msgid "mode: %s"
-msgstr ""
+msgstr "பயன்முறை: %s"
 
 msgid "uniform distribution"
 msgstr "சீரான வழங்கல்"
 
 msgid "Wald distribution"
-msgstr ""
+msgstr "வால்ட் வழங்கல்"
 
 msgid "drift rate: %s"
-msgstr ""
+msgstr "சறுக்கல் வீதம்: %s"
 
 msgid "threshold: %s"
-msgstr ""
+msgstr "வாசல்: %s"
 
 msgid "noise: %s"
-msgstr ""
+msgstr "சத்தம்: %s"
 
 msgid "Parameter %s was fixed to 1."
-msgstr ""
+msgstr "அளவுரு %s 1 க்கு சரி செய்யப்பட்டது."
 
 msgid "Weibull distribution"
-msgstr ""
+msgstr "வெய்புல் வழங்கல்"
