@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-10-01 11:01+0000\n"
-"Last-Translator: Ángel Prieto <angel.prieto.fi@gmail.com>\n"
+"PO-Revision-Date: 2025-10-01 11:02+0000\n"
+"Last-Translator: Jose Ramon Rueda <joseramon.rueda@ehu.eus>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-qml/eu/>\n"
 "Language: eu\n"
@@ -54,7 +54,7 @@ msgstr "Log-normala"
 
 msgctxt "Description|"
 msgid "Logistic"
-msgstr "Logistika"
+msgstr "Logistikoa"
 
 msgctxt "Description|"
 msgid "Discrete"
@@ -66,15 +66,15 @@ msgstr "Bernoulli"
 
 msgctxt "Description|"
 msgid "Binomial"
-msgstr "Binomioa"
+msgstr "Binomiala"
 
 msgctxt "Description|"
 msgid "Negative binomial"
-msgstr "Binomio negatiboa"
+msgstr "Binomial negatiboa"
 
 msgctxt "Description|"
 msgid "Poisson"
-msgstr "Arrain"
+msgstr "Poisson"
 
 msgctxt "LDAssessFit|"
 msgid "Assess Fit"
@@ -86,7 +86,7 @@ msgstr "[datu multzo kargatu bat behar du]"
 
 msgctxt "LDAssessFit|"
 msgid "Plots"
-msgstr "Lursailak"
+msgstr "Grafikoak"
 
 msgctxt "LDAssessFit|"
 msgid "Histogram vs. theoretical pdf"
@@ -111,7 +111,7 @@ msgstr "P-P grafikoa"
 
 msgctxt "LDAssessFit|"
 msgid "Statistics"
-msgstr "Estatistikak"
+msgstr "Estatistikoak"
 
 msgctxt "LDAssessFit|"
 msgid "Kolmogorov-Smirnov"
@@ -135,7 +135,7 @@ msgstr "Chi-karratua"
 
 msgctxt "LDEstimateParameters|"
 msgid "Estimate Parameters"
-msgstr "Estimazio-parametroak"
+msgstr "Estimatu Parametroak"
 
 msgctxt "LDEstimateParameters|"
 msgid "[requires a loaded data set]"
@@ -152,7 +152,7 @@ msgstr "Estimazioak"
 
 msgctxt "LDEstimateParameters|"
 msgid "Std. error"
-msgstr "Ohiko errorea"
+msgstr "Errorea estandarra"
 
 msgctxt "LDEstimateParameters|"
 msgid "Confidence interval"
@@ -160,7 +160,7 @@ msgstr "Konfiantza-tartea"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Generate and Display Data"
-msgstr "Datuak sortu eta erakutsi"
+msgstr "Datuak Sortu eta Erakutsi"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "[requires a loaded data set]"
@@ -173,7 +173,7 @@ msgstr "Sortu aldagai berria %1etik"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Variable name: "
-msgstr ""
+msgstr "Aldagai-izena: "
 
 #, qt-format
 msgctxt "LDGenerateDisplayData|"
@@ -182,19 +182,19 @@ msgstr "adibidez, ausazko %1"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Number of samples: "
-msgstr ""
+msgstr "Lagin kopurua: "
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Draw samples"
-msgstr "Marraztu laginak"
+msgstr "Atera laginak"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Get variable from data set"
-msgstr "Lortu aldagaia datu-multzotik"
+msgstr "Atera aldagaia datu-multzotik"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Statistics"
-msgstr "Estatistikak"
+msgstr "Estatistikoak"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Descriptives"
@@ -210,7 +210,7 @@ msgstr "behatutako uneak"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Plots"
-msgstr "Lursailak"
+msgstr "Grafikoak"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Bar plot"
@@ -222,7 +222,7 @@ msgstr "Histograma honekin"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "bins"
-msgstr "zakarrontziak"
+msgstr "???"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Empirical cumulative distribution"
@@ -235,7 +235,7 @@ msgstr "Aukerak"
 #, fuzzy
 msgctxt "LDOptions|"
 msgid "Range of x from"
-msgstr "x-ren barrutia hemendik aurrera"
+msgstr "x-ren heina -tik"
 
 msgctxt "LDOptions|"
 msgid "to"
@@ -310,7 +310,7 @@ msgstr "Probabilitate masa funtzioa"
 
 msgctxt "LDbernoulli|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDbernoulli|"
 msgid "Options"
@@ -322,11 +322,11 @@ msgstr "Nabarmendu"
 
 msgctxt "LDbernoulli|"
 msgid "Mass"
-msgstr "Meza"
+msgstr "Masa"
 
 msgctxt "LDbernoulli|"
 msgid "Cumulative Probability"
-msgstr "Probabilitate metatua"
+msgstr "Probabilitate Metatua"
 
 msgctxt "LDbernoulli|"
 msgid "Limits"
@@ -338,7 +338,7 @@ msgstr "≤ X ≤"
 
 msgctxt "LDbeta|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDbeta|"
 msgid "Shape:"
@@ -371,15 +371,15 @@ msgstr "Formulak"
 
 msgctxt "LDbeta|"
 msgid "Probability density function"
-msgstr "Probabilitate-dentsitate funtzioa"
+msgstr "Probabilitate dentsitate-funtzioa"
 
 msgctxt "LDbeta|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDbeta|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantila funtzioa"
 
 msgctxt "LDbinomial|"
 msgid "Show Distribution"
@@ -395,7 +395,7 @@ msgstr "Arrakasta izateko probabilitatea:"
 
 msgctxt "LDbinomial|"
 msgid "p"
-msgstr "or"
+msgstr "p"
 
 msgctxt "LDbinomial|"
 msgid "Fixed parameter"
@@ -432,7 +432,7 @@ msgstr "Probabilitate masa funtzioa"
 
 msgctxt "LDbinomial|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDbinomial|"
 msgid "Options"
@@ -441,7 +441,7 @@ msgstr "Aukerak"
 #, fuzzy
 msgctxt "LDbinomial|"
 msgid "Range of x from"
-msgstr "x-ren barrutia hemendik aurrera"
+msgstr "x-ren heina -tik"
 
 msgctxt "LDbinomial|"
 msgid "to"
@@ -453,7 +453,7 @@ msgstr "Nabarmendu"
 
 msgctxt "LDbinomial|"
 msgid "Mass"
-msgstr "Meza"
+msgstr "Masa"
 
 msgctxt "LDbinomial|"
 msgid "Cumulative Probability"
@@ -509,15 +509,15 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDchisq|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDchisq|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDexponential|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDexponential|"
 msgid "Parameter"
@@ -525,7 +525,7 @@ msgstr "Parametroa"
 
 msgctxt "LDexponential|"
 msgid "Rate:"
-msgstr "Tarifa:"
+msgstr "Tasa:"
 
 msgctxt "LDexponential|"
 msgid "Scale:"
@@ -553,11 +553,11 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDexponential|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDexponential|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDf|"
 msgid "Show Distribution"
@@ -605,11 +605,11 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDf|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDf|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDgamma|"
 msgid "Show Distribution"
@@ -629,11 +629,11 @@ msgstr "Eskala:"
 
 msgctxt "LDgamma|"
 msgid "Rate:"
-msgstr "Tarifa:"
+msgstr "Tasa:"
 
 msgctxt "LDgamma|"
 msgid "Mean:"
-msgstr "Batez bestekoa:"
+msgstr "Batez-bestekoa:"
 
 msgctxt "LDgamma|"
 msgid "Display"
@@ -657,15 +657,15 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDgamma|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDgamma|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDgammaInverse|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDgammaInverse|"
 msgid "Parameters"
@@ -681,11 +681,11 @@ msgstr "Eskala:"
 
 msgctxt "LDgammaInverse|"
 msgid "Rate:"
-msgstr "Tarifa:"
+msgstr "Tasa:"
 
 msgctxt "LDgammaInverse|"
 msgid "Mean:"
-msgstr "Batez bestekoa:"
+msgstr "Batez-bestekoa:"
 
 msgctxt "LDgammaInverse|"
 msgid "Display"
@@ -709,19 +709,19 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDgammaInverse|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDgammaInverse|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDgammaInverse|"
 msgid "Assess Fit"
-msgstr "Egokitzapena ebaluatu"
+msgstr "Ebaluatu Egokitzapena"
 
 msgctxt "LDgammaInverse|"
 msgid "Plots"
-msgstr "Lursailak"
+msgstr "Grafikoak"
 
 msgctxt "LDgammaInverse|"
 msgid "Histogram vs. theoretical pdf"
@@ -734,7 +734,7 @@ msgstr "Q-Q grafikoa"
 #, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Empirical vs. theoretical cdf"
-msgstr "Funtzio enpirikoa vs. teorikoa"
+msgstr "Funtzio enpirikoa vs. cdf teorikoa"
 
 msgctxt "LDgammaInverse|"
 msgid "P-P plot"
@@ -742,7 +742,7 @@ msgstr "P-P grafikoa"
 
 msgctxt "LDgammaInverse|"
 msgid "Statistics"
-msgstr "Estatistikak"
+msgstr "Estatistikoak"
 
 msgctxt "LDgammaInverse|"
 msgid "Kolmogorov-Smirnov"
@@ -758,7 +758,7 @@ msgstr "Anderson-Darling"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Parameters"
@@ -766,7 +766,7 @@ msgstr "Parametroak"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Mean:"
-msgstr "Batez bestekoa:"
+msgstr "Batez-bestekoa:"
 
 msgctxt "LDgaussianunivariate|"
 msgid "μ"
@@ -774,11 +774,11 @@ msgstr "μ"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Variance:"
-msgstr "Aldakortasuna:"
+msgstr "Bariantza:"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Std. deviation:"
-msgstr "Desbideratze estandarra:"
+msgstr "Desbideratze-estandarra:"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Precision:"
@@ -810,15 +810,15 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDlogistic|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDlogistic|"
 msgid "Location:"
@@ -858,19 +858,19 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDlogistic|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDlogistic|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDlognormal|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDlognormal|"
 msgid "Log Mean:"
-msgstr "Batez besteko logaritmikoa:"
+msgstr "Batez-besteko logaritmikoa:"
 
 msgctxt "LDlognormal|"
 msgid "μ"
@@ -878,7 +878,7 @@ msgstr "μ"
 
 msgctxt "LDlognormal|"
 msgid "Log std. deviation:"
-msgstr "Log estandar desbideratzea:"
+msgstr "Log desbideratze estandarra:"
 
 msgctxt "LDlognormal|"
 msgid "σ"
@@ -906,15 +906,15 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDlognormal|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDlognormal|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDnegbinomial|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDnegbinomial|"
 msgid "Parameters"
@@ -934,7 +934,7 @@ msgstr "Arrakasta izateko probabilitatea:"
 
 msgctxt "LDnegbinomial|"
 msgid "Mean:"
-msgstr "Batez bestekoa:"
+msgstr "Batez-bestekoa:"
 
 msgctxt "LDnegbinomial|"
 msgid "Display"
@@ -958,7 +958,7 @@ msgstr "Probabilitate masa funtzioa"
 
 msgctxt "LDnegbinomial|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDnegbinomial|"
 msgid "Options"
@@ -966,7 +966,7 @@ msgstr "Aukerak"
 
 msgctxt "LDnegbinomial|"
 msgid "Range of x from"
-msgstr "x-ren barrutia hemendik aurrera"
+msgstr "x-ren heina hemendik aurrera"
 
 msgctxt "LDnegbinomial|"
 msgid "to"
@@ -978,11 +978,11 @@ msgstr "Nabarmendu"
 
 msgctxt "LDnegbinomial|"
 msgid "Mass"
-msgstr "Meza"
+msgstr "Masa"
 
 msgctxt "LDnegbinomial|"
 msgid "Cumulative Probability"
-msgstr "Probabilitate metatua"
+msgstr "Probabilitate Metatua"
 
 msgctxt "LDnegbinomial|"
 msgid "Interval"
@@ -994,7 +994,7 @@ msgstr "≤ X ≤"
 
 msgctxt "LDpoisson|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDpoisson|"
 msgid "Parameter"
@@ -1002,7 +1002,7 @@ msgstr "Parametroa"
 
 msgctxt "LDpoisson|"
 msgid "Rate:"
-msgstr "Tarifa:"
+msgstr "Tasa:"
 
 msgctxt "LDpoisson|"
 msgid "λ"
@@ -1030,7 +1030,7 @@ msgstr "Probabilitate masa funtzioa"
 
 msgctxt "LDpoisson|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDpoisson|"
 msgid "Options"
@@ -1038,7 +1038,7 @@ msgstr "Aukerak"
 
 msgctxt "LDpoisson|"
 msgid "Range of x from"
-msgstr "x-ren barrutia hemendik aurrera"
+msgstr "x-ren heina hemendik aurrera"
 
 msgctxt "LDpoisson|"
 msgid "to"
@@ -1050,11 +1050,11 @@ msgstr "Nabarmendu"
 
 msgctxt "LDpoisson|"
 msgid "Mass"
-msgstr "Meza"
+msgstr "Masa"
 
 msgctxt "LDpoisson|"
 msgid "Cumulative Probability"
-msgstr "Probabilitate metatua"
+msgstr "Probabilitate Metatua"
 
 msgctxt "LDpoisson|"
 msgid "Interval"
@@ -1067,7 +1067,7 @@ msgstr "≤ X ≤"
 #, fuzzy
 msgctxt "Description|"
 msgid "Skew normal"
-msgstr "Normala okertu"
+msgstr "Normala alboratua?"
 
 msgctxt "Description|"
 msgid "Generalized normal (version 1)"
@@ -1088,12 +1088,12 @@ msgstr "Ez-zentral t"
 
 msgctxt "Description|"
 msgid "Skew t"
-msgstr "Okertu t"
+msgstr "Okertu??? t"
 
 #, fuzzy
 msgctxt "Description|"
 msgid "Skewed generalized t"
-msgstr "t orokortu okertua"
+msgstr "t orokortu okertua?"
 
 msgctxt "Description|"
 msgid "Uniform"
@@ -1113,7 +1113,7 @@ msgstr "Laplace"
 
 msgctxt "Description|"
 msgid "Log-logistic"
-msgstr "Logistika-erregistroa"
+msgstr "Log-logistikoa"
 
 msgctxt "Description|"
 msgid "Pareto"
@@ -1141,7 +1141,7 @@ msgstr "Triangeluarra"
 
 msgctxt "Description|"
 msgid "Wald (inverse Gaussian)"
-msgstr "Wald (alderantzizko Gauss-en ekuazioa)"
+msgstr "Wald (alderantzizko Gaussiarra)"
 
 msgctxt "Description|"
 msgid "Weibull"
@@ -1169,7 +1169,7 @@ msgstr "Zero-puztutako Poisson"
 #, fuzzy
 msgctxt "Description|"
 msgid "Zero-inflated negative binomial"
-msgstr "Zero-putzatutako binomio negatiboa"
+msgstr "Zero-putzatutako binomial negatiboa"
 
 msgctxt "Description|"
 msgid "Geometric"
@@ -1181,7 +1181,7 @@ msgstr "Hipergeometrikoa"
 
 msgctxt "LDamoroso|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDamoroso|"
 msgid "Location:"
@@ -1189,7 +1189,7 @@ msgstr "Kokapena:"
 
 msgctxt "LDamoroso|"
 msgid "a"
-msgstr "bat"
+msgstr "a"
 
 msgctxt "LDamoroso|"
 msgid "Scale:"
@@ -1233,11 +1233,11 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDamoroso|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDamoroso|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDbeta|"
 msgid "Parameters"
@@ -1245,7 +1245,7 @@ msgstr "Parametroak"
 
 msgctxt "LDbetaBinomial|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDbetaBinomial|"
 msgid "Free parameters"
@@ -1298,7 +1298,7 @@ msgstr "Probabilitate masa funtzioa"
 
 msgctxt "LDbetaBinomial|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDbetaBinomial|"
 msgid "Options"
@@ -1306,7 +1306,7 @@ msgstr "Aukerak"
 
 msgctxt "LDbetaBinomial|"
 msgid "Range of x from"
-msgstr "x-ren barrutia hemendik aurrera"
+msgstr "x-ren heina hemendik aurrera"
 
 msgctxt "LDbetaBinomial|"
 msgid "to"
@@ -1318,11 +1318,11 @@ msgstr "Nabarmendu"
 
 msgctxt "LDbetaBinomial|"
 msgid "Mass"
-msgstr "Meza"
+msgstr "Masa"
 
 msgctxt "LDbetaBinomial|"
 msgid "Cumulative Probability"
-msgstr "Probabilitate metatua"
+msgstr "Probabilitate Metatua"
 
 msgctxt "LDbetaBinomial|"
 msgid "Interval"
@@ -1334,7 +1334,7 @@ msgstr "≤ X ≤"
 
 msgctxt "LDbetaPrime|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDbetaPrime|"
 msgid "Parameters"
@@ -1374,11 +1374,11 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDbetaPrime|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDbetaPrime|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDbetaStretched|"
 msgid "Show Distribution"
@@ -1410,7 +1410,7 @@ msgstr "Beheko muga:"
 
 msgctxt "LDbetaStretched|"
 msgid "a"
-msgstr "bat"
+msgstr "a"
 
 msgctxt "LDbetaStretched|"
 msgid "Upper bound:"
@@ -1444,15 +1444,15 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDbetaStretched|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDbetaStretched|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDcauchy|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDcauchy|"
 msgid "Location:"
@@ -1492,15 +1492,15 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDcauchy|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDcauchy|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDfrechet|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDfrechet|"
 msgid "Shape:"
@@ -1548,15 +1548,15 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDfrechet|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDfrechet|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDgeometric|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDgeometric|"
 msgid "Parameter"
@@ -1568,7 +1568,7 @@ msgstr "Arrakasta izateko probabilitatea:"
 
 msgctxt "LDgeometric|"
 msgid "p"
-msgstr "or"
+msgstr "p"
 
 msgctxt "LDgeometric|"
 msgid "Display"
@@ -1592,7 +1592,7 @@ msgstr "Probabilitate masa funtzioa"
 
 msgctxt "LDgeometric|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDgeometric|"
 msgid "Options"
@@ -1601,7 +1601,7 @@ msgstr "Aukerak"
 #, fuzzy
 msgctxt "LDgeometric|"
 msgid "Range of x from"
-msgstr "x-ren barrutia hemendik aurrera"
+msgstr "x-ren heina hemendik aurrera"
 
 msgctxt "LDgeometric|"
 msgid "to"
@@ -1613,11 +1613,11 @@ msgstr "Nabarmendu"
 
 msgctxt "LDgeometric|"
 msgid "Mass"
-msgstr "Meza"
+msgstr "Masa"
 
 msgctxt "LDgeometric|"
 msgid "Cumulative Probability"
-msgstr "Probabilitate metatua"
+msgstr "Probabilitate Metatua"
 
 msgctxt "LDgeometric|"
 msgid "Interval"
@@ -1629,7 +1629,7 @@ msgstr "≤ X ≤"
 
 msgctxt "LDgompertz|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDgompertz|"
 msgid "Shape:"
@@ -1661,15 +1661,15 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDgompertz|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDgompertz|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDgumbel|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDgumbel|"
 msgid "Location:"
@@ -1709,15 +1709,15 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDgumbel|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDgumbel|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDhypergeometric|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDhypergeometric|"
 msgid "Population size:"
@@ -1766,7 +1766,7 @@ msgstr "Probabilitate masa funtzioa"
 
 msgctxt "LDhypergeometric|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDhypergeometric|"
 msgid "Options"
@@ -1774,7 +1774,7 @@ msgstr "Aukerak"
 
 msgctxt "LDhypergeometric|"
 msgid "Range of x from"
-msgstr "x-ren barrutia hemendik aurrera"
+msgstr "x-ren heina hemendik aurrera"
 
 msgctxt "LDhypergeometric|"
 msgid "to"
@@ -1786,11 +1786,11 @@ msgstr "Nabarmendu"
 
 msgctxt "LDhypergeometric|"
 msgid "Mass"
-msgstr "Meza"
+msgstr "Masa"
 
 msgctxt "LDhypergeometric|"
 msgid "Cumulative Probability"
-msgstr "Probabilitate metatua"
+msgstr "Probabilitate Metatua"
 
 msgctxt "LDhypergeometric|"
 msgid "Interval"
@@ -1802,7 +1802,7 @@ msgstr "≤ X ≤"
 
 msgctxt "LDlaplace|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDlaplace|"
 msgid "Location:"
@@ -1842,15 +1842,15 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDlaplace|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDlaplace|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDlogLogistic|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDlogLogistic|"
 msgid "Parameters"
@@ -1895,19 +1895,19 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDlogLogistic|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDlogLogistic|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Mean 1:"
-msgstr "Batez bestekoa 1:"
+msgstr "1. Batez-bestekoa:"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "μ₁"
@@ -1939,7 +1939,7 @@ msgstr "σ₂"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Probability of component:"
-msgstr "Osagaien probabilitatea:"
+msgstr "Osagaiaren probabilitatea:"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "π"
@@ -1967,16 +1967,16 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 #, fuzzy
 msgctxt "LDmixtureNormalUniform|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Free parameters"
@@ -2017,7 +2017,7 @@ msgstr "Gutxieneko uniformea:"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "a"
-msgstr "bat"
+msgstr "a"
 
 #, fuzzy
 msgctxt "LDmixtureNormalUniform|"
@@ -2050,15 +2050,15 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Parameters"
@@ -2086,7 +2086,7 @@ msgstr "Arrakasta izateko probabilitatea:"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Mean:"
-msgstr "Batez bestekoa:"
+msgstr "Batez-bestekoa:"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Display"
@@ -2110,7 +2110,7 @@ msgstr "Probabilitate masa funtzioa"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Options"
@@ -2118,7 +2118,7 @@ msgstr "Aukerak"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Range of x from"
-msgstr "x-ren barrutia hemendik aurrera"
+msgstr "x-ren heina hemendik aurrera"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "to"
@@ -2130,11 +2130,11 @@ msgstr "Nabarmendu"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Mass"
-msgstr "Meza"
+msgstr "Masa"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Cumulative Probability"
-msgstr "Probabilitate metatua"
+msgstr "Probabilitate Metatua"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Interval"
@@ -2146,7 +2146,7 @@ msgstr "≤ X ≤"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Location:"
@@ -2194,11 +2194,11 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDnormalSkew|"
 msgid "Show Distribution"
@@ -2250,11 +2250,11 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDnormalSkew|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDnormalSkew|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDpareto|"
 msgid "Show Distribution"
@@ -2290,11 +2290,11 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDpareto|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDpareto|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Show Distribution"
@@ -2314,7 +2314,7 @@ msgstr "π"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Rate of Poisson process:"
-msgstr "Poisson prozesuaren abiadura:"
+msgstr "Poisson prozesuaren tasa:"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "λ"
@@ -2342,7 +2342,7 @@ msgstr "Probabilitate masa funtzioa"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Options"
@@ -2350,7 +2350,7 @@ msgstr "Aukerak"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Range of x from"
-msgstr "x-ren barrutia hemendik aurrera"
+msgstr "x-ren heina hemendik aurrera"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "to"
@@ -2362,11 +2362,11 @@ msgstr "Nabarmendu"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Mass"
-msgstr "Meza"
+msgstr "Masa"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Cumulative Probability"
-msgstr "Probabilitate metatua"
+msgstr "Probabilitate Metatua"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Interval"
@@ -2378,7 +2378,7 @@ msgstr "≤ X ≤"
 
 msgctxt "LDtNoncentral|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDtNoncentral|"
 msgid "Parameters"
@@ -2390,7 +2390,7 @@ msgstr "Askatasun graduak:"
 
 msgctxt "LDtNoncentral|"
 msgid "df"
-msgstr "df"
+msgstr "ag"
 
 msgctxt "LDtNoncentral|"
 msgid "Non-centrality:"
@@ -2422,27 +2422,27 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDtNoncentral|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDtNoncentral|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDtriangular|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDtriangular|"
 msgid "Minimum:"
-msgstr "Gutxienekoa:"
+msgstr "Minimoa:"
 
 msgctxt "LDtriangular|"
 msgid "a"
-msgstr "bat"
+msgstr "a"
 
 msgctxt "LDtriangular|"
 msgid "Maximum:"
-msgstr "Gehienezkoa:"
+msgstr "Maximoa:"
 
 msgctxt "LDtriangular|"
 msgid "b"
@@ -2478,15 +2478,15 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDtriangular|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDtriangular|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDtSkew|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDtSkew|"
 msgid "Location:"
@@ -2518,7 +2518,7 @@ msgstr "Askatasun gradua:"
 
 msgctxt "LDtSkew|"
 msgid "df"
-msgstr "df"
+msgstr "ag"
 
 msgctxt "LDtSkew|"
 msgid "Display"
@@ -2542,15 +2542,15 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDtSkew|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDtSkew|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Parameters"
@@ -2570,7 +2570,7 @@ msgstr "Kurtosia:"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "p"
-msgstr "or"
+msgstr "p"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Scale:"
@@ -2614,16 +2614,16 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 #, fuzzy
 msgctxt "LDtStudent|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDtStudent|"
 msgid "Parameters"
@@ -2635,7 +2635,7 @@ msgstr "Askatasun graduak:"
 
 msgctxt "LDtStudent|"
 msgid "df"
-msgstr "df"
+msgstr "ag"
 
 msgctxt "LDtStudent|"
 msgid "Location:"
@@ -2675,11 +2675,11 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDtStudent|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDtStudent|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDuniform|"
 msgid "Show Distribution"
@@ -2695,7 +2695,7 @@ msgstr "Beheko muga:"
 
 msgctxt "LDuniform|"
 msgid "a"
-msgstr "bat"
+msgstr "a"
 
 msgctxt "LDuniform|"
 msgid "Upper bound:"
@@ -2727,15 +2727,15 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDuniform|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDuniform|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDwald|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDwald|"
 msgid "Parameters"
@@ -2743,7 +2743,7 @@ msgstr "Parametroak"
 
 msgctxt "LDwald|"
 msgid "Mean:"
-msgstr "Batez bestekoa:"
+msgstr "Batez-bestekoa:"
 
 msgctxt "LDwald|"
 msgid "Threshold:"
@@ -2785,15 +2785,15 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDwald|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDwald|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "LDweibull|"
 msgid "Show Distribution"
-msgstr "Erakutsi banaketa"
+msgstr "Erakutsi Banaketa"
 
 msgctxt "LDweibull|"
 msgid "Shape:"
@@ -2825,11 +2825,11 @@ msgstr "Probabilitate-dentsitate funtzioa"
 
 msgctxt "LDweibull|"
 msgid "Cumulative distribution function"
-msgstr "Banaketa-funtzio metatua"
+msgstr "Banaketa-metatuaren funtzioa"
 
 msgctxt "LDweibull|"
 msgid "Quantile function"
-msgstr "Funtzio kuantila"
+msgstr "Kuantil funtzioa"
 
 msgctxt "Description|"
 msgid "Visualize distributions and fit them to data"
@@ -2845,7 +2845,7 @@ msgid ""
 "density function of the fitted distribution"
 msgstr ""
 "Hautatutako aldagaiaren histograma erakusten du, egokitutako banaketaren "
-"probabilitate-dentsitate-funtzioarekin gainjarrita."
+"probabilitate-dentsitate-funtzioarekin gainjarrita"
 
 msgctxt "LDAssessFit|"
 msgid ""
@@ -2863,7 +2863,7 @@ msgid ""
 "cumulative distribution function of the fitted distribution"
 msgstr ""
 "Banaketa egokituaren banaketa-funtzio metatuarekin gainjarritako banaketa-"
-"diagrama metatu enpirikoa erakusten du."
+"diagrama metatu enpirikoa erakusten du"
 
 msgctxt "LDAssessFit|"
 msgid ""
@@ -2879,7 +2879,7 @@ msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Kolmogorov-Smirnov test"
-msgstr "Kolmogorov-Smirnov testa erakusten du"
+msgstr "Kolmogorov-Smirnov proba erakusten du"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Cramér-von Mises test"
@@ -2887,7 +2887,7 @@ msgstr "Cramér-von Misesen proba erakusten du"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Anderson-Darling test"
-msgstr "Anderson-Darling testa erakusten du"
+msgstr "Anderson-Darling proba erakusten du"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Shapiro-Wilk test of normality"
@@ -2938,7 +2938,7 @@ msgstr "Banaketa teorikotik hartutako lagina."
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Get variable from data set: "
-msgstr ""
+msgstr "Atera aldagaia datu-multzotik: "
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Select a variable to display and fit with the theoretical distribution."
@@ -3013,7 +3013,7 @@ msgid ""
 msgstr ""
 "Dentsitate-diagramaren x-ren balio zehaztuen arteko probabilitatea "
 "nabarmentzen du (kurbaren azpiko azalera), eta banaketa-diagramaren balio "
-"zehaztuetan metatutako probabilitatea nabarmentzen du."
+"zehaztuetan metatutako probabilitatea nabarmentzen du"
 
 msgctxt "LDOptions|"
 msgid ""
@@ -3057,7 +3057,7 @@ msgid ""
 "and the moments of the theoretical distribution"
 msgstr ""
 "Parametroen definizioa, ausazko aldagaiaren euskarria eta banaketa "
-"teorikoaren momentuak erakusten ditu."
+"teorikoaren momentuak erakusten ditu"
 
 msgctxt "LDbinomial|"
 msgid "Displays the probability mass plot"
@@ -3091,7 +3091,7 @@ msgid ""
 msgstr ""
 "Dentsitate-diagramaren x-ren balio zehaztuen arteko probabilitatea "
 "nabarmentzen du (kurbaren azpiko azalera), eta banaketa-diagramaren balio "
-"zehaztuetan metatutako probabilitatea nabarmentzen du."
+"zehaztuetan metatutako probabilitatea nabarmentzen du"
 
 msgctxt "LDbinomial|"
 msgid ""
@@ -3141,7 +3141,7 @@ msgid ""
 "precision parameters"
 msgstr ""
 "Banaketa Normala zehazten da zehaztasun-parametroen batez bestekoa eta erro "
-"karratua erabiliz."
+"karratua erabiliz"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Displays explanatory text"
@@ -3153,7 +3153,7 @@ msgid ""
 "and the moments of the theoretical distribution"
 msgstr ""
 "Parametroen definizioa, ausazko aldagaiaren euskarria eta banaketa "
-"teorikoaren momentuak erakusten ditu."
+"teorikoaren momentuak erakusten ditu"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Displays the probability density plot"
@@ -3173,7 +3173,7 @@ msgstr "Lillienfors"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Lillienfors test"
-msgstr "Lillienfors testa erakusten du"
+msgstr "Lillienfors proba erakusten du"
 
 msgctxt "LDEstimateParameters|"
 msgid "Bias corrected"
