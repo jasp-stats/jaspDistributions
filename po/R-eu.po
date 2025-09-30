@@ -2,578 +2,692 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.95.0\n"
 "POT-Creation-Date: 2025-09-06 03:08\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-10-01 11:01+0000\n"
+"Last-Translator: Ángel Prieto <angel.prieto.fi@gmail.com>\n"
+"Language-Team: Basque <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-r/eu/>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 msgid "Could not write to column '%s', probably because it wasn't created by this analysis"
 msgstr ""
+"Ezin izan da '%s' zutabean idatzi, ziurrenik analisi honek sortu ez duelako."
 
 msgid "The following problem(s) occurred while running the analysis:<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
 msgstr ""
+"Arazo hauek gertatu dira analisia egitean:<ul><li>Aldagaia diskretua izan "
+"behar da (hau da, zenbaki osoa)</li></ul>"
 
 msgid "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
 msgstr ""
+"<ul><li>Aldagaiak diskretua izan behar du (hau da, zenbaki osoa)</li></ul>"
 
 msgid "Overview - %s"
-msgstr ""
+msgstr "Orokorra - %s"
 
 msgid "Descriptives"
-msgstr ""
+msgstr "Deskribapenak"
 
 msgid "Variable"
-msgstr ""
+msgstr "Aldagaia"
 
 msgid "n"
-msgstr ""
+msgstr "n"
 
 msgid "Mean"
-msgstr ""
+msgstr "Batez bestekoa"
 
 msgid "Variance"
-msgstr ""
+msgstr "Bariantza"
 
 msgid "Std. deviation"
-msgstr ""
+msgstr "Desbideratze estandarra"
 
 msgid "Minimum"
-msgstr ""
+msgstr "Gutxienekoa"
 
 msgid "25%% Quantile"
-msgstr ""
+msgstr "%25eko kuantila"
 
 msgid "Median"
-msgstr ""
+msgstr "Mediana"
 
 msgid "75%% Quantile"
-msgstr ""
+msgstr "%75eko kuantila"
 
 msgid "Maximum"
-msgstr ""
+msgstr "Gehienezko"
 
 msgid "Rel. Frequency"
-msgstr ""
+msgstr "Maiztasun erlatiboa"
 
 msgid "Total"
-msgstr ""
+msgstr "Guztira"
 
+#, fuzzy
 msgid "Observed Moments"
-msgstr ""
+msgstr "Behatutako uneak"
 
 msgid "Moment"
-msgstr ""
+msgstr "Unea"
 
 msgid "Raw"
-msgstr ""
+msgstr "Gordina"
 
 msgid "Central"
-msgstr ""
+msgstr "Erdialdea"
 
 msgid "Estimated Parameters"
-msgstr ""
+msgstr "Kalkulatutako parametroak"
 
 msgid "Parameter"
-msgstr ""
+msgstr "Parametroa"
 
 msgid "Estimate"
-msgstr ""
+msgstr "Estimazioa"
 
 msgid "SE"
-msgstr ""
+msgstr "SE"
 
 msgid "Standard errors are unavailable with this method"
-msgstr ""
+msgstr "Metodo honekin errore estandarrak ez daude eskuragarri"
 
 msgid "Lower"
-msgstr ""
+msgstr "Beheko"
 
 msgid "%s%% CI"
-msgstr ""
+msgstr "%s%% CI"
 
 msgid "Upper"
-msgstr ""
+msgstr "Goiko"
 
 msgid "Confidence intervals are unavailable with this method."
-msgstr ""
+msgstr "Konfiantza-tarteak ez daude erabilgarri metodo honekin."
 
 msgid "Confidence intervals were calculated using the delta method."
-msgstr ""
+msgstr "Konfiantza-tarteak delta metodoa erabiliz kalkulatu ziren."
 
 msgid "Standard errors were calculated using the delta method."
-msgstr ""
+msgstr "Errore estandarrak delta metodoa erabiliz kalkulatu ziren."
 
 msgid "Standard errors and confidence intervals were calculated using the delta method."
 msgstr ""
+"Delta metodoa erabiliz kalkulatu ziren errore estandarrak eta konfiantza-"
+"tarteak."
 
 msgid "Maximum likelihood"
-msgstr ""
+msgstr "Gehienezko probabilitatea"
 
 msgid "Fit Assessment"
-msgstr ""
+msgstr "Egokitasun Ebaluazioa"
 
 msgid "Fit Statistics"
-msgstr ""
+msgstr "Egokitze-estatistikak"
 
 msgid "Test"
-msgstr ""
+msgstr "Proba"
 
 msgid "Statistic"
-msgstr ""
+msgstr "Estatistika"
 
 msgid "p"
-msgstr ""
+msgstr "or"
 
 msgid "Kolmogorov-Smirnov"
-msgstr ""
+msgstr "Kolmogorov-Smirnov"
 
 msgid "Cramér-von Mises"
-msgstr ""
+msgstr "Cramér-von Mises"
 
 msgid "Anderson-Darling"
-msgstr ""
+msgstr "Anderson-Darling"
 
 msgid "Lillienfors"
-msgstr ""
+msgstr "Lillienfors"
 
 msgid "Shapiro-Wilk"
-msgstr ""
+msgstr "Shapiro-Wilk"
 
 msgid "Shapiro-Francia"
-msgstr ""
+msgstr "Shapiro-Frantzia"
 
 msgid "Chi-square"
-msgstr ""
+msgstr "Chi-karratua"
 
 msgid "Using Brown (1980) approximation which tends to be innacurate for small sample sizes."
 msgstr ""
+"Brownen (1980) hurbilketa erabiliz, lagin-tamaina txikietarako zehaztugabea "
+"izan ohi dena."
 
 msgid "Histogram vs. Theoretical PDF"
-msgstr ""
+msgstr "Histograma vs. PDF teorikoa"
 
 msgid "Histogram vs. Theoretical PMF"
-msgstr ""
+msgstr "Histograma vs. PMF teorikoa"
 
 msgid "Q-Q plot"
-msgstr ""
+msgstr "Q-Q grafikoa"
 
 msgid "Empirical vs. Theoretical CDF"
-msgstr ""
+msgstr "CDF enpirikoa vs. teorikoa"
 
 msgid "P-P plot"
-msgstr ""
+msgstr "P-P grafikoa"
 
 msgid "Sample"
-msgstr ""
+msgstr "Lagina"
 
 msgid "Theoretical"
-msgstr ""
+msgstr "Teorikoa"
 
 msgid "Density"
-msgstr ""
+msgstr "Dentsitatea"
 
 msgid "Probability Mass"
-msgstr ""
+msgstr "Probabilitate-masa"
 
 msgid "Probability"
-msgstr ""
+msgstr "Probabilitatea"
 
 msgid "Probability Density Function"
-msgstr ""
+msgstr "Probabilitate-dentsitate funtzioa"
 
 msgid "Probability Mass Function"
-msgstr ""
+msgstr "Probabilitate Masa Funtzioa"
 
 msgid "Cumulative Distribution Function"
-msgstr ""
+msgstr "Banaketa-funtzio metatua"
 
 msgid "Quantile Function"
-msgstr ""
+msgstr "Funtzio kuantila"
 
 msgid "Formula"
-msgstr ""
+msgstr "Formula"
 
 msgid "Density Plot"
-msgstr ""
+msgstr "Dentsitate-diagrama"
 
 msgid "Cumulative Probability Plot"
-msgstr ""
+msgstr "Probabilitate metatuaren grafikoa"
 
 msgid "Slope"
-msgstr ""
+msgstr "Malda"
 
 msgid "Quantile Plot"
-msgstr ""
+msgstr "Kuantil grafikoa"
 
 msgid "Probability Mass Plot"
-msgstr ""
+msgstr "Probabilitate-masaren grafikoa"
 
 msgid "Histogram"
-msgstr ""
+msgstr "Histograma"
 
 msgid "Bar plot"
-msgstr ""
+msgstr "Barra-diagrama"
 
+#, fuzzy
 msgid "Rel. Freq (%s in bin)"
-msgstr ""
+msgstr "Maiztasun erlatiboa (%s ontzian)"
 
 msgid "Empirical Cumulative Distribution"
-msgstr ""
+msgstr "Banaketa metatu enpirikoa"
 
 msgid "Freq"
-msgstr ""
+msgstr "Maiztasuna"
 
+#, fuzzy
 msgid "Parameters, Support, and Moments"
-msgstr ""
+msgstr "Parametroak, euskarria eta momentuak"
 
 msgid "<b>Parameters</b>\n      %1$s\n\n      <b>Support</b>\n      %2$s\n\n      <b>Moments</b>\n      E(X) = %3$s\n      Var(X) = %4$s"
 msgstr ""
+"<b>Parametroak</b>\n"
+"%1$s\n"
+"\n"
+"<b>Euskarria</b>\n"
+"%2$s\n"
+"\n"
+"<b>Momentuak</b>\n"
+"E(X) = %3$s\n"
+"Var(X) = %4$s"
 
 msgid "<b>Parameters</b>\n      %1$s\n\n      <b>Support</b>\n      %2$s\n\n      <b>Moments</b>\n      not available"
 msgstr ""
+"<b>Parametroak</b>\n"
+"%1$s\n"
+"\n"
+"<b>Laguntza</b>\n"
+"%2$s\n"
+"\n"
+"<b>Uneak</b>\n"
+"ez dago eskuragarri"
 
 msgid "The probability density function (PDF), usually denoted as f(x), is a function of a random variable X.\n    The value of f(x) provides the relative likelihood that a realization of the random variable X yields a value equal to x.\n    More formally, the PDF is defined as a derivative of a cumulative distribution function (CDF).\n\n    The density plot displays the probability density function of a random variable.\n    The <i>y</i>-axis displays the value of the density function for a particular value of the random variable (displayed on the <i>x</i>-axis)."
 msgstr ""
+"Probabilitate-dentsitate funtzioa (PDF), normalean f(x) gisa adierazten "
+"dena, X ausazko aldagai baten funtzio bat da.\n"
+"\n"
+"f(x)-ren balioak X ausazko aldagaiaren gauzatze batek x balioa emateko "
+"probabilitate erlatiboa ematen du.\n"
+"\n"
+"\n"
+"Formalago esanda, PDF banaketa-funtzio metatu (CDF) baten deribatu gisa "
+"definitzen da.\n"
+"\n"
+"\n"
+"Dentsitate-diagramak ausazko aldagai baten probabilitate-dentsitate funtzioa "
+"erakusten du.\n"
+"\n"
+"\n"
+"<i>y</i> ardatzak ausazko aldagaiaren balio jakin baterako dentsitate-"
+"funtzioaren balioa erakusten du (<i>x</i> ardatzean bistaratzen da)."
 
 msgid "The probability mass function (PMF), usually denoted as f(x), is a function of a random variable X.\n    The value of f(x) provides the probability that a realization of the random variable X yields a value equal to x.\n\n    The probability mass plot displays the probability mass function of a random variable.\n    The <i>y</i>-axis displays the value of the probability mass function for a particular value of the random variable (displayed on the <i>x</i>-axis)."
 msgstr ""
+"Probabilitate-masa funtzioa (PMF), normalean f(x) gisa adierazten dena, X "
+"ausazko aldagai baten funtzio bat da.\n"
+"\n"
+"f(x)-ren balioak X ausazko aldagaiaren gauzatze batek x-ren berdina den "
+"balioa emateko probabilitatea ematen du.\n"
+"\n"
+"Probabilitate-masaren grafikoak ausazko aldagai baten probabilitate-masa "
+"funtzioa erakusten du.\n"
+"\n"
+"<i>y</i> ardatzak ausazko aldagaiaren balio jakin baterako probabilitate-"
+"masa funtzioaren balioa erakusten du (<i>x</i> ardatzean bistaratzen da)."
 
 msgid "The cumulative distribution function (CDF), usually denoted as F(x), is a function of a random variable X.\n    The value of F(x) provides the probability that a realization of the random variable X yields a value that is equal to or smaller than x.\n\n    The cumulative probability plot displays the cumulative distribution function of a random variable.\n    The <i>y</i>-axis displays the value of the cumulative distribution function for a particular value of the random variable (displayed on the <i>x</i>-axis)."
 msgstr ""
+"Banaketa-funtzio metatua (BMD), normalean F(x) gisa adierazten dena, X "
+"ausazko aldagai baten funtzio bat da.\n"
+"\n"
+"F(x)-ren balioak X ausazko aldagaiaren gauzatze batek x-ren berdina edo "
+"txikiagoa den balio bat emateko probabilitatea ematen du.\n"
+"\n"
+"Probabilitate metatuaren grafikoak ausazko aldagai baten banaketa-funtzio "
+"metatua erakusten du.\n"
+"\n"
+"<i>y</i> ardatzak ausazko aldagaiaren balio jakin baterako banaketa-funtzio "
+"metatuaren balioa erakusten du (<i>x</i> ardatzean bistaratzen da)."
 
 msgid "The quantile function, usually denoted as Q(p), is the inverse of the cumulative distribution function.\n    The function gives the quantile such that the probability of the random variable being less than or equal to that value equals the given probability p.\n\n    The quantile plot displays the quantile function.\n    The <i>y</i>-axis displays the quantile of which the probability that the random variable is less or equal to that value is equal to p (displayed on the <i>x</i>-axis)."
 msgstr ""
+"Kuantil funtzioa, normalean Q(p) gisa adierazten dena, banaketa funtzio "
+"metatuaren alderantzizkoa da.\n"
+"\n"
+"Funtzioak kuantila ematen du, ausazko aldagaia balio hori baino txikiagoa "
+"edo berdina izateko probabilitatea p probabilitate jakinaren berdina izan "
+"dadin.\n"
+"\n"
+"Kuantil grafikoak kuantil funtzioa erakusten du.\n"
+"<i>y</i> ardatzak ausazko aldagaia balio hori baino txikiagoa edo berdina "
+"izateko probabilitatea p den kuantila erakusten du (<i>x</i> ardatzean "
+"bistaratzen da)."
 
 msgid "<h3> Demonstration of the %1$s </h3>\nThis demonstration is divided into four parts.\nThe first part displays the %2$s, its probability density function, cumulative distribution function, and quantile function.\nThe second part allows you to generate data from the %3$s, compute descriptive statistics, and display descriptive plots.\nThe third part allows you to estimate the parameters of the %4$s.\nThe fourth part allows you to check the fit of the %5$s to the data.\n\n<b>References</b>\n\nBlitzstein, J. K., & Hwang, J. (2014). <i>Introduction to probability.</i> Chapman and Hall/CRC.\n\nLeemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, 16</i>(4), 8–9.\n\nFor relationships with other distributions, visit %6$s.\n\n%7$s"
 msgstr ""
+"<h3> %1$s-ren erakustaldia </h3>\n"
+"Erakustaldi hau lau zatitan banatuta dago.\n"
+"Lehenengo zatiak %2$s, bere probabilitate-dentsitate funtzioa, metatze-"
+"banaketa funtzioa eta kuantil funtzioa erakusten ditu.\n"
+"Bigarren zatiak %3$s-tik datuak sortzeko, estatistika deskribatzaileak "
+"kalkulatzeko eta grafiko deskribatzaileak bistaratzeko aukera ematen dizu.\n"
+"Hirugarren zatiak %4$s-ren parametroak kalkulatzeko aukera ematen dizu.\n"
+"Laugarren zatiak %5$s-en datuetara egokitzen den egiaztatzeko aukera ematen "
+"dizu.\n"
+"\n"
+"<b>Erreferentziak</b>\n"
+"\n"
+"Blitzstein, J. K., & Hwang, J. (2014). <i>Probabilitatearen sarrera.</i> "
+"Chapman eta Hall/CRC.\n"
+"\n"
+"Leemis, L. M., & Pasupathy, R. (2019). Lotzen duten loturak. "
+"<i>Significance, 16</i>(4), 8–9.\n"
+"\n"
+"Beste banaketa batzuekin harremanak ikusteko, bisitatu %6$s.\n"
+"\n"
+"%7$s"
 
 msgid "Estimation failed: Optimization did not converge. <ul><li>Try adjusting parameter values, check outliers or feasibility of the distribution fitting the data.</li></ul>"
 msgstr ""
+"Estimazioak huts egin du: optimizazioak ez du konbergentziarik lortu. "
+"<ul><li>Saiatu parametroen balioak doitzen, egiaztatu muturreko balioak edo "
+"banaketa datuetara egokitzen den bideragarritasuna.</li></ul>"
 
 msgid "Estimation failed: Hessian matrix is not numerically computable. <ul><li>Check outliers or feasibility of the distribution fitting the data.</li></ul>"
 msgstr ""
+"Estimazioak huts egin du: Hess-en matrizea ez da zenbakizko moduan "
+"kalkulagarria. <ul><li>Egiaztatu datuetara egokitzen den banaketaren "
+"muturreko balioak edo bideragarritasuna.</li></ul>"
 
 msgid "Amoroso distribution"
-msgstr ""
+msgstr "Amoroso banaketa"
 
 msgid "location: a %s"
-msgstr ""
+msgstr "kokapena: %s"
 
 msgid "scale: %s"
-msgstr ""
+msgstr "eskala: %s"
 
 msgid "shape: %s"
-msgstr ""
+msgstr "forma: %s"
 
 msgid "The optimization did not converge, try adjusting the parameter values."
-msgstr ""
+msgstr "Optimizazioa ez da bat etorri, saiatu parametroen balioak doitzen."
 
 msgid "<i>Warning.</i>"
-msgstr ""
+msgstr "<i>Abisua.</i>"
 
 msgid "Scale parameter %s is assumed positive."
-msgstr ""
+msgstr "%s eskala-parametroa positiboa dela suposatzen da."
 
 msgid "Scale parameter %s is assumed negative."
-msgstr ""
+msgstr "%s eskala-parametroa negatiboa dela suposatzen da."
 
 msgid "Bernoulli distribution"
-msgstr ""
+msgstr "Bernoulli banaketa"
 
 msgid "probability of success: p %1$s %2$s: 0 %3$s p %4$s 1"
-msgstr ""
+msgstr "arrakasta probabilitatea: p %1$s %2$s: 0 %3$s p %4$s 1"
 
 msgid "x %s {0, 1}"
-msgstr ""
+msgstr "x %s {0, 1}"
 
 msgid "p(1-p)"
-msgstr ""
+msgstr "p(1-p)"
 
 msgid "beta distribution"
-msgstr ""
+msgstr "beta banaketa"
 
 msgid "beta-binomial distribution"
-msgstr ""
+msgstr "beta-binomial banaketa"
 
 msgid "number of trials: %s"
-msgstr ""
+msgstr "saiakera kopurua: %s"
 
 msgid "Parameter n was fixed at value %s."
-msgstr ""
+msgstr "n parametroa %s balioan finkatu da."
 
 msgid "beta prime distribution"
-msgstr ""
+msgstr "beta banaketa nagusia"
 
 msgid "lower bound: %s"
-msgstr ""
+msgstr "beheko muga: %s"
 
 msgid "upper bound: %s"
-msgstr ""
+msgstr "goiko muga: %s"
 
 msgid "binomial distribution"
-msgstr ""
+msgstr "banaketa binomiala"
 
 msgid "probability of success: %s"
-msgstr ""
+msgstr "arrakasta izateko probabilitatea: %s"
 
 msgid "Cauchy distribution"
-msgstr ""
+msgstr "Cauchyren banaketa"
 
 msgid "location: &mu; %s"
-msgstr ""
+msgstr "kokapena: &mu; %s"
 
 msgid "undefined"
-msgstr ""
+msgstr "definitu gabe"
 
 msgid "%s<sup>2</sup> distribution"
-msgstr ""
+msgstr "%s<sup>2</sup> banaketa"
 
 msgid "degree of freedom: %s"
-msgstr ""
+msgstr "askatasun-gradua: %s"
 
 msgid "non-centrality: %s"
-msgstr ""
+msgstr "zentraltasun eza: %s"
 
 msgid "exponential distribution"
-msgstr ""
+msgstr "banaketa esponentziala"
 
 msgid "rate: %s"
-msgstr ""
+msgstr "tasa: %s"
 
 msgid "F-distribution"
-msgstr ""
+msgstr "F-banaketa"
 
 msgid "Fréchet distribution"
-msgstr ""
+msgstr "Fréchet banaketa"
 
 msgid "location: %s"
-msgstr ""
+msgstr "kokapena: %s"
 
 msgid "see Wikipedia: %s"
-msgstr ""
+msgstr "ikus Wikipedia: %s"
 
 msgid "gamma distribution"
-msgstr ""
+msgstr "gamma banaketa"
 
 msgid "mean: %s"
-msgstr ""
+msgstr "batez bestekoa: %s"
 
 msgid "inverse gamma distribution"
-msgstr ""
+msgstr "alderantzizko gamma banaketa"
 
 msgid "normal distribution"
-msgstr ""
+msgstr "banaketa normala"
 
 msgid "mean: &mu; %s"
-msgstr ""
+msgstr "batez bestekoa: &mu; %s"
 
 msgid "variance: %s"
-msgstr ""
+msgstr "aldakuntza: %s"
 
 msgid "standard deviation: %s"
-msgstr ""
+msgstr "desbideratze estandarra: %s"
 
 msgid "precision: %s"
-msgstr ""
+msgstr "zehaztasuna: %s"
 
 msgid "square root of precision: %s"
-msgstr ""
+msgstr "zehaztasunaren erro karratua: %s"
 
 msgid "&mu;"
-msgstr ""
+msgstr "&mu;"
 
 msgid "Unbiased with Bessel's correction."
-msgstr ""
+msgstr "Besselen zuzenketarekin alboragabea."
 
 msgid "geometric distribution"
-msgstr ""
+msgstr "banaketa geometrikoa"
 
 msgid "population size: %s"
-msgstr ""
+msgstr "populazioaren tamaina: %s"
 
 msgid "number of success states in the population: %s"
-msgstr ""
+msgstr "populazioko arrakasta-egoeren kopurua: %s"
 
 msgid "number of draws from the population: %s"
-msgstr ""
+msgstr "populaziotik ateratakoen kopurua: %s"
 
 msgid "Gompertz distribution"
-msgstr ""
+msgstr "Gompertz banaketa"
 
 msgid "shape: %1$s \nscale: %2$s"
 msgstr ""
+"forma: %1$s\n"
+"eskala: %2$s"
 
 msgid "Gumbel distribution"
-msgstr ""
+msgstr "Gumbelen banaketa"
 
 msgid "hypergeometric distribution"
-msgstr ""
+msgstr "banaketa hipergeometrikoa"
 
 msgid "Laplace distribution"
-msgstr ""
+msgstr "Laplace banaketa"
 
 msgid "log-logistic distribution"
-msgstr ""
+msgstr "banaketa logistiko logistikoa"
 
 msgid "log location: &mu; %s"
-msgstr ""
+msgstr "erregistroaren kokapena: &mu; %s"
 
 msgid "log scale: %s"
-msgstr ""
+msgstr "eskala logaritmikoa: %s"
 
 msgid "scale: &alpha; %s"
-msgstr ""
+msgstr "eskala: &alpha; %s"
 
 msgid "logistic distribution"
-msgstr ""
+msgstr "banaketa logistikoa"
 
 msgid "(&sigma; &pi;)<sup>2</sup> / 3"
-msgstr ""
+msgstr "(&sigma; &pi;)<sup>2</sup> / 3"
 
 msgid "log-normal distribution"
-msgstr ""
+msgstr "banaketa log-normala"
 
 msgid "log mean: &mu; %s"
-msgstr ""
+msgstr "batez besteko logaritmikoa: &mu; %s"
 
 msgid "log standard deviation: %s"
-msgstr ""
+msgstr "desbideratze estandar logaritmikoa: %s"
 
 msgid "exp(&mu; + &sigma;<sup>2</sup>/2)"
-msgstr ""
+msgstr "exp(&mu; + &sigma;<sup>2</sup>/2)"
 
 msgid "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
-msgstr ""
+msgstr "[exp(&sigma<sup>2</sup>) - 1] exp(2&mu; + &sigma<sup>2</sup>)"
 
 msgid "mixture of two normal distributions"
-msgstr ""
+msgstr "bi banaketa normalen nahasketa"
 
 msgid "probability of first component: %s"
-msgstr ""
+msgstr "lehenengo osagaiaren probabilitatea: %s"
 
 msgid "mean 1: %s"
-msgstr ""
+msgstr "1. batez bestekoa: %s"
 
 msgid "std. deviation 1: %s"
-msgstr ""
+msgstr "1. desbideratze estandarra: %s"
 
 msgid "mean 2: %s"
-msgstr ""
+msgstr "batez beste 2: %s"
 
 msgid "std. deviation 2: %s"
-msgstr ""
+msgstr "2. desbideratze estandarra: %s"
 
 msgid "mixture of a normal and a uniform distribution"
-msgstr ""
+msgstr "banaketa normal eta uniforme baten nahasketa"
 
 msgid "probability of normal component: %s"
-msgstr ""
+msgstr "osagai normalaren probabilitatea: %s"
 
 msgid "mean of normal distribution: %s"
-msgstr ""
+msgstr "banaketa normalaren batez bestekoa: %s"
 
 msgid "std. deviation of normal distribution: %s"
-msgstr ""
+msgstr "banaketa normalaren desbideratze estandarra: %s"
 
 msgid "minimum of uniform distribution: %s"
-msgstr ""
+msgstr "banaketa uniformearen gutxienekoa: %s"
 
 msgid "maximum of uniform distribution: %s"
-msgstr ""
+msgstr "banaketa uniformearen gehienezko maximoa: %s"
 
 msgid "Parameter a was fixed at value %1$s, parameter b was fixed at value %2$s."
 msgstr ""
+"a parametroa %1$s balioan finkatu da, b parametroa %2$s balioan finkatu da."
 
 msgid "negative binomial distribution"
-msgstr ""
+msgstr "banaketa binomial negatiboa"
 
 msgid "number of successes: %s"
-msgstr ""
+msgstr "arrakasta kopurua: %s"
 
 msgid "dispersion: %s"
-msgstr ""
+msgstr "sakabanaketa: %s"
 
 msgid "zero-inflated negative binomial distribution"
-msgstr ""
+msgstr "zeroz puztutako banaketa binomial negatiboa"
 
 msgid "probability of zero process: %s"
-msgstr ""
+msgstr "zero prozesuaren probabilitatea: %s"
 
 msgid "generalized normal distribution"
-msgstr ""
+msgstr "banaketa normal orokortua"
 
+#, fuzzy
 msgid "skew normal distribution"
-msgstr ""
+msgstr "banaketa normal okertua"
 
 msgid "Pareto distribution"
-msgstr ""
+msgstr "Paretoren banaketa"
 
 msgid "Poisson distribution"
-msgstr ""
+msgstr "Poisson banaketa"
 
 msgid "zero-inflated Poisson distribution"
-msgstr ""
+msgstr "zero-puztutako Poisson banaketa"
 
 msgid "noncentral t-distribution"
-msgstr ""
+msgstr "t banaketa ez-zentrala"
 
 msgid "degrees of freedom: %s"
-msgstr ""
+msgstr "askatasun graduak: %s"
 
+#, fuzzy
 msgid "does not exist unless df > 1"
-msgstr ""
+msgstr "ez da existitzen dl > 1 ez bada"
 
+#, fuzzy
 msgid "does not exist unless df > 2"
-msgstr ""
+msgstr "ez da existitzen dl > 2 ez bada"
 
 msgid "see Azzalini & Capitanio (2003)"
-msgstr ""
+msgstr "ikusi Azzalini & Capitanio (2003)"
 
 msgid "skewed generalized t-distribution"
-msgstr ""
+msgstr "t-banaketa orokortu okertua"
 
 msgid "skewness: %s"
-msgstr ""
+msgstr "asimetria: %s"
 
 msgid "kurtosis: %s"
-msgstr ""
+msgstr "kurtosia: %s"
 
 msgid "scaled, shifted Student's t-distribution"
-msgstr ""
+msgstr "eskalatua, Student-en t banaketa desplazatua"
 
 msgid "triangular distribution"
-msgstr ""
+msgstr "banaketa triangeluarra"
 
 msgid "minimum: %s"
-msgstr ""
+msgstr "gutxienekoa: %s"
 
 msgid "maximum: %s"
-msgstr ""
+msgstr "gehienez: %s"
 
 msgid "mode: %s"
-msgstr ""
+msgstr "modua: %s"
 
 msgid "uniform distribution"
-msgstr ""
+msgstr "banaketa uniformea"
 
 msgid "Wald distribution"
-msgstr ""
+msgstr "Wald banaketa"
 
 msgid "drift rate: %s"
-msgstr ""
+msgstr "desbideratze-tasa: %s"
 
 msgid "threshold: %s"
-msgstr ""
+msgstr "atalasea: %s"
 
+#, fuzzy
 msgid "noise: %s"
-msgstr ""
+msgstr "zarata: %s"
 
 msgid "Parameter %s was fixed to 1."
-msgstr ""
+msgstr "%s parametroa 1era finkatu da."
 
 msgid "Weibull distribution"
-msgstr ""
+msgstr "Weibull banaketa"
