@@ -1,0 +1,3188 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-10-01 11:02+0000\n"
+"Last-Translator: Jose Ramon Rueda <joseramon.rueda@ehu.eus>\n"
+"Language-Team: Basque <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/eu/>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14-dev\n"
+"X-Qt-Contexts: true\n"
+
+msgctxt "Description|"
+msgid "Distributions"
+msgstr "Banaketak"
+
+msgctxt "Description|"
+msgid "Continuous"
+msgstr "Jarraitua"
+
+msgctxt "Description|"
+msgid "Normal"
+msgstr "Normala"
+
+msgctxt "Description|"
+msgid "F-distribution"
+msgstr "F-banaketa"
+
+msgctxt "Description|"
+msgid "Chi-squared"
+msgstr "Chi-karratua"
+
+msgctxt "Description|"
+msgid "Beta"
+msgstr "Beta"
+
+msgctxt "Description|"
+msgid "Gamma"
+msgstr "Gamma"
+
+msgctxt "Description|"
+msgid "Inverse gamma"
+msgstr "Alderantzizko gamma"
+
+msgctxt "Description|"
+msgid "Exponential"
+msgstr "Esponentziala"
+
+msgctxt "Description|"
+msgid "Log-normal"
+msgstr "Log-normala"
+
+msgctxt "Description|"
+msgid "Logistic"
+msgstr "Logistikoa"
+
+msgctxt "Description|"
+msgid "Discrete"
+msgstr "Diskretua"
+
+msgctxt "Description|"
+msgid "Bernoulli"
+msgstr "Bernoulli"
+
+msgctxt "Description|"
+msgid "Binomial"
+msgstr "Binomiala"
+
+msgctxt "Description|"
+msgid "Negative binomial"
+msgstr "Binomial negatiboa"
+
+msgctxt "Description|"
+msgid "Poisson"
+msgstr "Poisson"
+
+msgctxt "LDAssessFit|"
+msgid "Assess Fit"
+msgstr "Egokitzapena ebaluatu"
+
+msgctxt "LDAssessFit|"
+msgid "[requires a loaded data set]"
+msgstr "[datu multzo kargatu bat behar du]"
+
+msgctxt "LDAssessFit|"
+msgid "Plots"
+msgstr "Grafikoak"
+
+msgctxt "LDAssessFit|"
+msgid "Histogram vs. theoretical pdf"
+msgstr "Histograma vs. pdf teorikoa"
+
+msgctxt "LDAssessFit|"
+msgid "Histogram vs. theoretical pmf"
+msgstr "Histograma vs. pmf teorikoa"
+
+msgctxt "LDAssessFit|"
+msgid "Q-Q plot"
+msgstr "Q-Q grafikoa"
+
+#, fuzzy
+msgctxt "LDAssessFit|"
+msgid "Empirical vs. theoretical cdf"
+msgstr "Funtzio enpirikoa vs. teorikoa"
+
+msgctxt "LDAssessFit|"
+msgid "P-P plot"
+msgstr "P-P grafikoa"
+
+msgctxt "LDAssessFit|"
+msgid "Statistics"
+msgstr "Estatistikoak"
+
+msgctxt "LDAssessFit|"
+msgid "Kolmogorov-Smirnov"
+msgstr "Kolmogorov-Smirnov"
+
+msgctxt "LDAssessFit|"
+msgid "Cramér–von Mises"
+msgstr "Cramér-von Mises"
+
+msgctxt "LDAssessFit|"
+msgid "Anderson-Darling"
+msgstr "Anderson-Darling"
+
+msgctxt "LDAssessFit|"
+msgid "Shapiro-Wilk"
+msgstr "Shapiro-Wilk"
+
+msgctxt "LDAssessFit|"
+msgid "Chi-square"
+msgstr "Chi-karratua"
+
+msgctxt "LDEstimateParameters|"
+msgid "Estimate Parameters"
+msgstr "Estimatu Parametroak"
+
+msgctxt "LDEstimateParameters|"
+msgid "[requires a loaded data set]"
+msgstr "[datu multzo kargatu bat behar du]"
+
+#, fuzzy
+msgctxt "LDEstimateParameters|"
+msgid "Maximum likelihood"
+msgstr "Gehienezko probabilitatea"
+
+msgctxt "LDEstimateParameters|"
+msgid "Estimates"
+msgstr "Estimazioak"
+
+msgctxt "LDEstimateParameters|"
+msgid "Std. error"
+msgstr "Errorea estandarra"
+
+msgctxt "LDEstimateParameters|"
+msgid "Confidence interval"
+msgstr "Konfiantza-tartea"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Generate and Display Data"
+msgstr "Datuak Sortu eta Erakutsi"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "[requires a loaded data set]"
+msgstr "[datu multzo kargatu bat behar du]"
+
+#, qt-format
+msgctxt "LDGenerateDisplayData|"
+msgid "Generate new variable from %1"
+msgstr "Sortu aldagai berria %1etik"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Variable name: "
+msgstr "Aldagai-izena: "
+
+#, qt-format
+msgctxt "LDGenerateDisplayData|"
+msgid "e.g., random %1"
+msgstr "adibidez, ausazko %1"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Number of samples: "
+msgstr "Lagin kopurua: "
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Draw samples"
+msgstr "Atera laginak"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Get variable from data set"
+msgstr "Atera aldagaia datu-multzotik"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Statistics"
+msgstr "Estatistikoak"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Descriptives"
+msgstr "Deskribapenak"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "First"
+msgstr "Lehenengoa"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "observed moments"
+msgstr "behatutako uneak"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Plots"
+msgstr "Grafikoak"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Bar plot"
+msgstr "Barra-diagrama"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Histogram with"
+msgstr "Histograma honekin"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "bins"
+msgstr "???"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Empirical cumulative distribution"
+msgstr "Banaketa metatu enpirikoa"
+
+msgctxt "LDOptions|"
+msgid "Options"
+msgstr "Aukerak"
+
+#, fuzzy
+msgctxt "LDOptions|"
+msgid "Range of x from"
+msgstr "x-ren heina -tik"
+
+msgctxt "LDOptions|"
+msgid "to"
+msgstr "ra"
+
+msgctxt "LDOptions|"
+msgid "Highlight"
+msgstr "Nabarmendu"
+
+msgctxt "LDOptions|"
+msgid "Density"
+msgstr "Dentsitatea"
+
+msgctxt "LDOptions|"
+msgid "Probability"
+msgstr "Probabilitatea"
+
+msgctxt "LDOptions|"
+msgid "Interval"
+msgstr "Tartea"
+
+msgctxt "LDOptions|"
+msgid "from"
+msgstr "-tik"
+
+#, qt-format
+msgctxt "LDOptions|"
+msgid "from %1"
+msgstr "%1etik"
+
+#, qt-format
+msgctxt "LDOptions|"
+msgid "to %1"
+msgstr "%1era"
+
+msgctxt "LDbernoulli|"
+msgid "Show Distribution"
+msgstr "Erakutsi banaketa"
+
+msgctxt "LDbernoulli|"
+msgid "Parameter"
+msgstr "Parametroa"
+
+msgctxt "LDbernoulli|"
+msgid "Probability of success:"
+msgstr "Arrakasta izateko probabilitatea:"
+
+msgctxt "LDbernoulli|"
+msgid "p"
+msgstr "or"
+
+msgctxt "LDbernoulli|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDbernoulli|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+#, fuzzy
+msgctxt "LDbernoulli|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDbernoulli|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDbernoulli|"
+msgid "Probability mass function"
+msgstr "Probabilitate masa funtzioa"
+
+msgctxt "LDbernoulli|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDbernoulli|"
+msgid "Options"
+msgstr "Aukerak"
+
+msgctxt "LDbernoulli|"
+msgid "Highlight"
+msgstr "Nabarmendu"
+
+msgctxt "LDbernoulli|"
+msgid "Mass"
+msgstr "Masa"
+
+msgctxt "LDbernoulli|"
+msgid "Cumulative Probability"
+msgstr "Probabilitate Metatua"
+
+msgctxt "LDbernoulli|"
+msgid "Limits"
+msgstr "Mugak"
+
+msgctxt "LDbernoulli|"
+msgid "≤ X ≤"
+msgstr "≤ X ≤"
+
+msgctxt "LDbeta|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDbeta|"
+msgid "Shape:"
+msgstr "Forma:"
+
+msgctxt "LDbeta|"
+msgid "α"
+msgstr "α"
+
+msgctxt "LDbeta|"
+msgid "β"
+msgstr "β"
+
+msgctxt "LDbeta|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDbeta|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+#, fuzzy
+msgctxt "LDbeta|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDbeta|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDbeta|"
+msgid "Probability density function"
+msgstr "Probabilitate dentsitate-funtzioa"
+
+msgctxt "LDbeta|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDbeta|"
+msgid "Quantile function"
+msgstr "Kuantila funtzioa"
+
+msgctxt "LDbinomial|"
+msgid "Show Distribution"
+msgstr "Erakutsi banaketa"
+
+msgctxt "LDbinomial|"
+msgid "Free parameter"
+msgstr "Parametro librea"
+
+msgctxt "LDbinomial|"
+msgid "Probability of success:"
+msgstr "Arrakasta izateko probabilitatea:"
+
+msgctxt "LDbinomial|"
+msgid "p"
+msgstr "p"
+
+msgctxt "LDbinomial|"
+msgid "Fixed parameter"
+msgstr "Parametro finkoa"
+
+msgctxt "LDbinomial|"
+msgid "Number of trials:"
+msgstr "Saiakuntza kopurua:"
+
+msgctxt "LDbinomial|"
+msgid "n"
+msgstr "n"
+
+msgctxt "LDbinomial|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDbinomial|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+#, fuzzy
+msgctxt "LDbinomial|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDbinomial|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDbinomial|"
+msgid "Probability mass function"
+msgstr "Probabilitate masa funtzioa"
+
+msgctxt "LDbinomial|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDbinomial|"
+msgid "Options"
+msgstr "Aukerak"
+
+#, fuzzy
+msgctxt "LDbinomial|"
+msgid "Range of x from"
+msgstr "x-ren heina -tik"
+
+msgctxt "LDbinomial|"
+msgid "to"
+msgstr "ra"
+
+msgctxt "LDbinomial|"
+msgid "Highlight"
+msgstr "Nabarmendu"
+
+msgctxt "LDbinomial|"
+msgid "Mass"
+msgstr "Masa"
+
+msgctxt "LDbinomial|"
+msgid "Cumulative Probability"
+msgstr "Probabilitate metatua"
+
+msgctxt "LDbinomial|"
+msgid "Interval"
+msgstr "Tartea"
+
+msgctxt "LDbinomial|"
+msgid "≤ X ≤"
+msgstr "≤ X ≤"
+
+msgctxt "LDchisq|"
+msgid "Show Distribution"
+msgstr "Erakutsi banaketa"
+
+msgctxt "LDchisq|"
+msgid "Degree of freedom:"
+msgstr "Askatasun gradua:"
+
+msgctxt "LDchisq|"
+msgid "k"
+msgstr "k"
+
+msgctxt "LDchisq|"
+msgid "Non-centrality:"
+msgstr "Ez-zentraltasuna:"
+
+msgctxt "LDchisq|"
+msgid "λ"
+msgstr "λ"
+
+msgctxt "LDchisq|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDchisq|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDchisq|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDchisq|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDchisq|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDchisq|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDchisq|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDexponential|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDexponential|"
+msgid "Parameter"
+msgstr "Parametroa"
+
+msgctxt "LDexponential|"
+msgid "Rate:"
+msgstr "Tasa:"
+
+msgctxt "LDexponential|"
+msgid "Scale:"
+msgstr "Eskala:"
+
+msgctxt "LDexponential|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDexponential|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDexponential|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDexponential|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDexponential|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDexponential|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDexponential|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDf|"
+msgid "Show Distribution"
+msgstr "Erakutsi banaketa"
+
+msgctxt "LDf|"
+msgid "Degree of freedom:"
+msgstr "Askatasun gradua:"
+
+msgctxt "LDf|"
+msgid "df 1"
+msgstr "df 1"
+
+msgctxt "LDf|"
+msgid "df 2"
+msgstr "df 2"
+
+msgctxt "LDf|"
+msgid "Non-centrality:"
+msgstr "Ez-zentraltasuna:"
+
+msgctxt "LDf|"
+msgid "ncp"
+msgstr "ncp"
+
+msgctxt "LDf|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDf|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDf|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDf|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDf|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDf|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDf|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDgamma|"
+msgid "Show Distribution"
+msgstr "Erakutsi banaketa"
+
+msgctxt "LDgamma|"
+msgid "Parameters"
+msgstr "Parametroak"
+
+msgctxt "LDgamma|"
+msgid "Shape:"
+msgstr "Forma:"
+
+msgctxt "LDgamma|"
+msgid "Scale:"
+msgstr "Eskala:"
+
+msgctxt "LDgamma|"
+msgid "Rate:"
+msgstr "Tasa:"
+
+msgctxt "LDgamma|"
+msgid "Mean:"
+msgstr "Batez-bestekoa:"
+
+msgctxt "LDgamma|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDgamma|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDgamma|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDgamma|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDgamma|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDgamma|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDgamma|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDgammaInverse|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDgammaInverse|"
+msgid "Parameters"
+msgstr "Parametroak"
+
+msgctxt "LDgammaInverse|"
+msgid "Shape:"
+msgstr "Forma:"
+
+msgctxt "LDgammaInverse|"
+msgid "Scale:"
+msgstr "Eskala:"
+
+msgctxt "LDgammaInverse|"
+msgid "Rate:"
+msgstr "Tasa:"
+
+msgctxt "LDgammaInverse|"
+msgid "Mean:"
+msgstr "Batez-bestekoa:"
+
+msgctxt "LDgammaInverse|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDgammaInverse|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDgammaInverse|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDgammaInverse|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDgammaInverse|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDgammaInverse|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDgammaInverse|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDgammaInverse|"
+msgid "Assess Fit"
+msgstr "Ebaluatu Egokitzapena"
+
+msgctxt "LDgammaInverse|"
+msgid "Plots"
+msgstr "Grafikoak"
+
+msgctxt "LDgammaInverse|"
+msgid "Histogram vs. theoretical pdf"
+msgstr "Histograma vs. pdf teorikoa"
+
+msgctxt "LDgammaInverse|"
+msgid "Q-Q plot"
+msgstr "Q-Q grafikoa"
+
+#, fuzzy
+msgctxt "LDgammaInverse|"
+msgid "Empirical vs. theoretical cdf"
+msgstr "Funtzio enpirikoa vs. cdf teorikoa"
+
+msgctxt "LDgammaInverse|"
+msgid "P-P plot"
+msgstr "P-P grafikoa"
+
+msgctxt "LDgammaInverse|"
+msgid "Statistics"
+msgstr "Estatistikoak"
+
+msgctxt "LDgammaInverse|"
+msgid "Kolmogorov-Smirnov"
+msgstr "Kolmogorov-Smirnov"
+
+msgctxt "LDgammaInverse|"
+msgid "Cramér–von Mises"
+msgstr "Cramér-von Mises"
+
+msgctxt "LDgammaInverse|"
+msgid "Anderson-Darling"
+msgstr "Anderson-Darling"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Parameters"
+msgstr "Parametroak"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Mean:"
+msgstr "Batez-bestekoa:"
+
+msgctxt "LDgaussianunivariate|"
+msgid "μ"
+msgstr "μ"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Variance:"
+msgstr "Bariantza:"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Std. deviation:"
+msgstr "Desbideratze-estandarra:"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Precision:"
+msgstr "Zehaztasuna:"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Square root of precision:"
+msgstr "Zehaztasunaren erro karratua:"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDlogistic|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDlogistic|"
+msgid "Location:"
+msgstr "Kokapena:"
+
+msgctxt "LDlogistic|"
+msgid "μ"
+msgstr "μ"
+
+msgctxt "LDlogistic|"
+msgid "Scale:"
+msgstr "Eskala:"
+
+msgctxt "LDlogistic|"
+msgid "σ"
+msgstr "σ"
+
+msgctxt "LDlogistic|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDlogistic|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDlogistic|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDlogistic|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDlogistic|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDlogistic|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDlogistic|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDlognormal|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDlognormal|"
+msgid "Log Mean:"
+msgstr "Batez-besteko logaritmikoa:"
+
+msgctxt "LDlognormal|"
+msgid "μ"
+msgstr "μ"
+
+msgctxt "LDlognormal|"
+msgid "Log std. deviation:"
+msgstr "Log desbideratze estandarra:"
+
+msgctxt "LDlognormal|"
+msgid "σ"
+msgstr "σ"
+
+msgctxt "LDlognormal|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDlognormal|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDlognormal|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDlognormal|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDlognormal|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDlognormal|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDlognormal|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDnegbinomial|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDnegbinomial|"
+msgid "Parameters"
+msgstr "Parametroak"
+
+msgctxt "LDnegbinomial|"
+msgid "Number of successes:"
+msgstr "Arrakasta kopurua:"
+
+msgctxt "LDnegbinomial|"
+msgid "Dispersion:"
+msgstr "Dispertsioa:"
+
+msgctxt "LDnegbinomial|"
+msgid "Probability of success:"
+msgstr "Arrakasta izateko probabilitatea:"
+
+msgctxt "LDnegbinomial|"
+msgid "Mean:"
+msgstr "Batez-bestekoa:"
+
+msgctxt "LDnegbinomial|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDnegbinomial|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDnegbinomial|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDnegbinomial|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDnegbinomial|"
+msgid "Probability mass function"
+msgstr "Probabilitate masa funtzioa"
+
+msgctxt "LDnegbinomial|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDnegbinomial|"
+msgid "Options"
+msgstr "Aukerak"
+
+msgctxt "LDnegbinomial|"
+msgid "Range of x from"
+msgstr "x-ren heina hemendik aurrera"
+
+msgctxt "LDnegbinomial|"
+msgid "to"
+msgstr "ra"
+
+msgctxt "LDnegbinomial|"
+msgid "Highlight"
+msgstr "Nabarmendu"
+
+msgctxt "LDnegbinomial|"
+msgid "Mass"
+msgstr "Masa"
+
+msgctxt "LDnegbinomial|"
+msgid "Cumulative Probability"
+msgstr "Probabilitate Metatua"
+
+msgctxt "LDnegbinomial|"
+msgid "Interval"
+msgstr "Tartea"
+
+msgctxt "LDnegbinomial|"
+msgid "≤ X ≤"
+msgstr "≤ X ≤"
+
+msgctxt "LDpoisson|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDpoisson|"
+msgid "Parameter"
+msgstr "Parametroa"
+
+msgctxt "LDpoisson|"
+msgid "Rate:"
+msgstr "Tasa:"
+
+msgctxt "LDpoisson|"
+msgid "λ"
+msgstr "λ"
+
+msgctxt "LDpoisson|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDpoisson|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDpoisson|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDpoisson|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDpoisson|"
+msgid "Probability mass function"
+msgstr "Probabilitate masa funtzioa"
+
+msgctxt "LDpoisson|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDpoisson|"
+msgid "Options"
+msgstr "Aukerak"
+
+msgctxt "LDpoisson|"
+msgid "Range of x from"
+msgstr "x-ren heina hemendik aurrera"
+
+msgctxt "LDpoisson|"
+msgid "to"
+msgstr "ra"
+
+msgctxt "LDpoisson|"
+msgid "Highlight"
+msgstr "Nabarmendu"
+
+msgctxt "LDpoisson|"
+msgid "Mass"
+msgstr "Masa"
+
+msgctxt "LDpoisson|"
+msgid "Cumulative Probability"
+msgstr "Probabilitate Metatua"
+
+msgctxt "LDpoisson|"
+msgid "Interval"
+msgstr "Tartea"
+
+msgctxt "LDpoisson|"
+msgid "≤ X ≤"
+msgstr "≤ X ≤"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "Skew normal"
+msgstr "Normala alboratua?"
+
+msgctxt "Description|"
+msgid "Generalized normal (version 1)"
+msgstr "Normal orokortua (1. bertsioa)"
+
+msgctxt "Description|"
+msgid "Cauchy"
+msgstr "Cauchy"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "Scaled, shifted Student's t"
+msgstr "Eskalatutako eta desplazatutako Student-en t"
+
+msgctxt "Description|"
+msgid "Noncentral t"
+msgstr "Ez-zentral t"
+
+msgctxt "Description|"
+msgid "Skew t"
+msgstr "Okertu??? t"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "Skewed generalized t"
+msgstr "t orokortu okertua?"
+
+msgctxt "Description|"
+msgid "Uniform"
+msgstr "Uniformea"
+
+msgctxt "Description|"
+msgid "Stretched beta"
+msgstr "Beta luzatua"
+
+msgctxt "Description|"
+msgid "Beta prime"
+msgstr "Beta nagusia"
+
+msgctxt "Description|"
+msgid "Laplace"
+msgstr "Laplace"
+
+msgctxt "Description|"
+msgid "Log-logistic"
+msgstr "Log-logistikoa"
+
+msgctxt "Description|"
+msgid "Pareto"
+msgstr "Pareto"
+
+msgctxt "Description|"
+msgid "Amoroso"
+msgstr "Amoroso"
+
+msgctxt "Description|"
+msgid "Fréchet"
+msgstr "Fréchet"
+
+msgctxt "Description|"
+msgid "Gumbel"
+msgstr "Gumbel"
+
+msgctxt "Description|"
+msgid "Gompertz"
+msgstr "Gompertz"
+
+msgctxt "Description|"
+msgid "Triangular"
+msgstr "Triangeluarra"
+
+msgctxt "Description|"
+msgid "Wald (inverse Gaussian)"
+msgstr "Wald (alderantzizko Gaussiarra)"
+
+msgctxt "Description|"
+msgid "Weibull"
+msgstr "Weibull"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "Mixture of normal and normal"
+msgstr "Normalaren eta normalaren nahasketa"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "Mixture of normal and uniform"
+msgstr "Normalaren eta uniformearen nahasketa"
+
+msgctxt "Description|"
+msgid "Beta-binomial"
+msgstr "Beta-binomiala"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "Zero-inflated Poisson"
+msgstr "Zero-puztutako Poisson"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "Zero-inflated negative binomial"
+msgstr "Zero-putzatutako binomial negatiboa"
+
+msgctxt "Description|"
+msgid "Geometric"
+msgstr "Geometrikoa"
+
+msgctxt "Description|"
+msgid "Hypergeometric"
+msgstr "Hipergeometrikoa"
+
+msgctxt "LDamoroso|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDamoroso|"
+msgid "Location:"
+msgstr "Kokapena:"
+
+msgctxt "LDamoroso|"
+msgid "a"
+msgstr "a"
+
+msgctxt "LDamoroso|"
+msgid "Scale:"
+msgstr "Eskala:"
+
+msgctxt "LDamoroso|"
+msgid "θ"
+msgstr "θ"
+
+msgctxt "LDamoroso|"
+msgid "Shape:"
+msgstr "Forma:"
+
+msgctxt "LDamoroso|"
+msgid "α"
+msgstr "α"
+
+msgctxt "LDamoroso|"
+msgid "β"
+msgstr "β"
+
+msgctxt "LDamoroso|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDamoroso|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDamoroso|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDamoroso|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDamoroso|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDamoroso|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDamoroso|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDbeta|"
+msgid "Parameters"
+msgstr "Parametroak"
+
+msgctxt "LDbetaBinomial|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDbetaBinomial|"
+msgid "Free parameters"
+msgstr "Parametro libreak"
+
+msgctxt "LDbetaBinomial|"
+msgid "Shape:"
+msgstr "Forma:"
+
+msgctxt "LDbetaBinomial|"
+msgid "α"
+msgstr "α"
+
+msgctxt "LDbetaBinomial|"
+msgid "β"
+msgstr "β"
+
+msgctxt "LDbetaBinomial|"
+msgid "Fixed parameter"
+msgstr "Parametro finkoa"
+
+msgctxt "LDbetaBinomial|"
+msgid "Number of trials:"
+msgstr "Saiakuntza kopurua:"
+
+msgctxt "LDbetaBinomial|"
+msgid "n"
+msgstr "n"
+
+msgctxt "LDbetaBinomial|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDbetaBinomial|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+#, fuzzy
+msgctxt "LDbetaBinomial|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDbetaBinomial|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDbetaBinomial|"
+msgid "Probability mass function"
+msgstr "Probabilitate masa funtzioa"
+
+msgctxt "LDbetaBinomial|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDbetaBinomial|"
+msgid "Options"
+msgstr "Aukerak"
+
+msgctxt "LDbetaBinomial|"
+msgid "Range of x from"
+msgstr "x-ren heina hemendik aurrera"
+
+msgctxt "LDbetaBinomial|"
+msgid "to"
+msgstr "ra"
+
+msgctxt "LDbetaBinomial|"
+msgid "Highlight"
+msgstr "Nabarmendu"
+
+msgctxt "LDbetaBinomial|"
+msgid "Mass"
+msgstr "Masa"
+
+msgctxt "LDbetaBinomial|"
+msgid "Cumulative Probability"
+msgstr "Probabilitate Metatua"
+
+msgctxt "LDbetaBinomial|"
+msgid "Interval"
+msgstr "Tartea"
+
+msgctxt "LDbetaBinomial|"
+msgid "≤ X ≤"
+msgstr "≤ X ≤"
+
+msgctxt "LDbetaPrime|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDbetaPrime|"
+msgid "Parameters"
+msgstr "Parametroak"
+
+msgctxt "LDbetaPrime|"
+msgid "Shape:"
+msgstr "Forma:"
+
+msgctxt "LDbetaPrime|"
+msgid "α"
+msgstr "α"
+
+msgctxt "LDbetaPrime|"
+msgid "β"
+msgstr "β"
+
+msgctxt "LDbetaPrime|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDbetaPrime|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDbetaPrime|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDbetaPrime|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDbetaPrime|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDbetaPrime|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDbetaPrime|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDbetaStretched|"
+msgid "Show Distribution"
+msgstr "Erakutsi banaketa"
+
+msgctxt "LDbetaStretched|"
+msgid "Free parameters"
+msgstr "Parametro libreak"
+
+msgctxt "LDbetaStretched|"
+msgid "Shape:"
+msgstr "Forma:"
+
+msgctxt "LDbetaStretched|"
+msgid "α"
+msgstr "α"
+
+msgctxt "LDbetaStretched|"
+msgid "β"
+msgstr "β"
+
+msgctxt "LDbetaStretched|"
+msgid "Fixed parameters"
+msgstr "Parametro finkoak"
+
+msgctxt "LDbetaStretched|"
+msgid "Lower bound:"
+msgstr "Beheko muga:"
+
+msgctxt "LDbetaStretched|"
+msgid "a"
+msgstr "a"
+
+msgctxt "LDbetaStretched|"
+msgid "Upper bound:"
+msgstr "Goiko muga:"
+
+msgctxt "LDbetaStretched|"
+msgid "b"
+msgstr "b"
+
+msgctxt "LDbetaStretched|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDbetaStretched|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+#, fuzzy
+msgctxt "LDbetaStretched|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDbetaStretched|"
+msgid "Formulas"
+msgstr "Formulak"
+
+#, fuzzy
+msgctxt "LDbetaStretched|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDbetaStretched|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDbetaStretched|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDcauchy|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDcauchy|"
+msgid "Location:"
+msgstr "Kokapena:"
+
+msgctxt "LDcauchy|"
+msgid "μ"
+msgstr "μ"
+
+msgctxt "LDcauchy|"
+msgid "Scale:"
+msgstr "Eskala:"
+
+msgctxt "LDcauchy|"
+msgid "σ"
+msgstr "σ"
+
+msgctxt "LDcauchy|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDcauchy|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDcauchy|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDcauchy|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDcauchy|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDcauchy|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDcauchy|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDfrechet|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDfrechet|"
+msgid "Shape:"
+msgstr "Forma:"
+
+msgctxt "LDfrechet|"
+msgid "α"
+msgstr "α"
+
+msgctxt "LDfrechet|"
+msgid "Location:"
+msgstr "Kokapena:"
+
+msgctxt "LDfrechet|"
+msgid "μ"
+msgstr "μ"
+
+msgctxt "LDfrechet|"
+msgid "Scale:"
+msgstr "Eskala:"
+
+msgctxt "LDfrechet|"
+msgid "σ"
+msgstr "σ"
+
+msgctxt "LDfrechet|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDfrechet|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDfrechet|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDfrechet|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDfrechet|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDfrechet|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDfrechet|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDgeometric|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDgeometric|"
+msgid "Parameter"
+msgstr "Parametroa"
+
+msgctxt "LDgeometric|"
+msgid "Probability of success:"
+msgstr "Arrakasta izateko probabilitatea:"
+
+msgctxt "LDgeometric|"
+msgid "p"
+msgstr "p"
+
+msgctxt "LDgeometric|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDgeometric|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDgeometric|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDgeometric|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDgeometric|"
+msgid "Probability mass function"
+msgstr "Probabilitate masa funtzioa"
+
+msgctxt "LDgeometric|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDgeometric|"
+msgid "Options"
+msgstr "Aukerak"
+
+#, fuzzy
+msgctxt "LDgeometric|"
+msgid "Range of x from"
+msgstr "x-ren heina hemendik aurrera"
+
+msgctxt "LDgeometric|"
+msgid "to"
+msgstr "ra"
+
+msgctxt "LDgeometric|"
+msgid "Highlight"
+msgstr "Nabarmendu"
+
+msgctxt "LDgeometric|"
+msgid "Mass"
+msgstr "Masa"
+
+msgctxt "LDgeometric|"
+msgid "Cumulative Probability"
+msgstr "Probabilitate Metatua"
+
+msgctxt "LDgeometric|"
+msgid "Interval"
+msgstr "Tartea"
+
+msgctxt "LDgeometric|"
+msgid "≤ X ≤"
+msgstr "≤ X ≤"
+
+msgctxt "LDgompertz|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDgompertz|"
+msgid "Shape:"
+msgstr "Forma:"
+
+msgctxt "LDgompertz|"
+msgid "Scale:"
+msgstr "Eskala:"
+
+msgctxt "LDgompertz|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDgompertz|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDgompertz|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDgompertz|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDgompertz|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDgompertz|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDgompertz|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDgumbel|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDgumbel|"
+msgid "Location:"
+msgstr "Kokapena:"
+
+msgctxt "LDgumbel|"
+msgid "μ"
+msgstr "μ"
+
+msgctxt "LDgumbel|"
+msgid "Scale:"
+msgstr "Eskala:"
+
+msgctxt "LDgumbel|"
+msgid "β"
+msgstr "β"
+
+msgctxt "LDgumbel|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDgumbel|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDgumbel|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDgumbel|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDgumbel|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDgumbel|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDgumbel|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDhypergeometric|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDhypergeometric|"
+msgid "Population size:"
+msgstr "Biztanleriaren tamaina:"
+
+msgctxt "LDhypergeometric|"
+msgid "N"
+msgstr "N"
+
+msgctxt "LDhypergeometric|"
+msgid "Number of success states in the population:"
+msgstr "Populazioko arrakasta-egoeren kopurua:"
+
+msgctxt "LDhypergeometric|"
+msgid "K"
+msgstr "K"
+
+#, fuzzy
+msgctxt "LDhypergeometric|"
+msgid "Number of draws from the population:"
+msgstr "Biztanleriaren ateratze kopurua:"
+
+msgctxt "LDhypergeometric|"
+msgid "n"
+msgstr "n"
+
+msgctxt "LDhypergeometric|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDhypergeometric|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDhypergeometric|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDhypergeometric|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDhypergeometric|"
+msgid "Probability mass function"
+msgstr "Probabilitate masa funtzioa"
+
+msgctxt "LDhypergeometric|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDhypergeometric|"
+msgid "Options"
+msgstr "Aukerak"
+
+msgctxt "LDhypergeometric|"
+msgid "Range of x from"
+msgstr "x-ren heina hemendik aurrera"
+
+msgctxt "LDhypergeometric|"
+msgid "to"
+msgstr "ra"
+
+msgctxt "LDhypergeometric|"
+msgid "Highlight"
+msgstr "Nabarmendu"
+
+msgctxt "LDhypergeometric|"
+msgid "Mass"
+msgstr "Masa"
+
+msgctxt "LDhypergeometric|"
+msgid "Cumulative Probability"
+msgstr "Probabilitate Metatua"
+
+msgctxt "LDhypergeometric|"
+msgid "Interval"
+msgstr "Tartea"
+
+msgctxt "LDhypergeometric|"
+msgid "≤ X ≤"
+msgstr "≤ X ≤"
+
+msgctxt "LDlaplace|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDlaplace|"
+msgid "Location:"
+msgstr "Kokapena:"
+
+msgctxt "LDlaplace|"
+msgid "μ"
+msgstr "μ"
+
+msgctxt "LDlaplace|"
+msgid "Scale:"
+msgstr "Eskala:"
+
+msgctxt "LDlaplace|"
+msgid "β"
+msgstr "β"
+
+msgctxt "LDlaplace|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDlaplace|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDlaplace|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDlaplace|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDlaplace|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDlaplace|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDlaplace|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDlogLogistic|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDlogLogistic|"
+msgid "Parameters"
+msgstr "Parametroak"
+
+#, fuzzy
+msgctxt "LDlogLogistic|"
+msgid "Log location:"
+msgstr "Erregistroaren kokapena:"
+
+msgctxt "LDlogLogistic|"
+msgid "Scale:"
+msgstr "Eskala:"
+
+msgctxt "LDlogLogistic|"
+msgid "Log scale:"
+msgstr "Eskala logaritmikoa:"
+
+msgctxt "LDlogLogistic|"
+msgid "Shape:"
+msgstr "Forma:"
+
+msgctxt "LDlogLogistic|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDlogLogistic|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDlogLogistic|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDlogLogistic|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDlogLogistic|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDlogLogistic|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDlogLogistic|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Mean 1:"
+msgstr "1. Batez-bestekoa:"
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "μ₁"
+msgstr "μ₁"
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Std. deviation 1:"
+msgstr "1. desbideratze estandarra:"
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "σ₁"
+msgstr "σ₁"
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Mean 2:"
+msgstr "2. batez bestekoa:"
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "μ₂"
+msgstr "μ₂"
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Std. deviation 2:"
+msgstr "2. desbideratze estandarra:"
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "σ₂"
+msgstr "σ₂"
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Probability of component:"
+msgstr "Osagaiaren probabilitatea:"
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "π"
+msgstr "π"
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+#, fuzzy
+msgctxt "LDmixtureNormalUniform|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Free parameters"
+msgstr "Parametro libreak"
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Mean :"
+msgstr "Batez bestekoa:"
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "μ"
+msgstr "μ"
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Std. deviation :"
+msgstr "Desbideratze estandarra:"
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "σ"
+msgstr "σ"
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Probability of normal component:"
+msgstr "Osagai normalaren probabilitatea:"
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "π"
+msgstr "π"
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Fixed parameters"
+msgstr "Parametro finkoak"
+
+#, fuzzy
+msgctxt "LDmixtureNormalUniform|"
+msgid "Minimum of uniform:"
+msgstr "Gutxieneko uniformea:"
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "a"
+msgstr "a"
+
+#, fuzzy
+msgctxt "LDmixtureNormalUniform|"
+msgid "Maximum of uniform:"
+msgstr "Uniformearen gehienezko kopurua:"
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "b"
+msgstr "b"
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Parameters"
+msgstr "Parametroak"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Probability of Zero process:"
+msgstr "Zero prozesuaren probabilitatea:"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "π"
+msgstr "π"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Number of successes:"
+msgstr "Arrakasta kopurua:"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Dispersion:"
+msgstr "Dispertsioa:"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Probability of success:"
+msgstr "Arrakasta izateko probabilitatea:"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Mean:"
+msgstr "Batez-bestekoa:"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Probability mass function"
+msgstr "Probabilitate masa funtzioa"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Options"
+msgstr "Aukerak"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Range of x from"
+msgstr "x-ren heina hemendik aurrera"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "to"
+msgstr "ra"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Highlight"
+msgstr "Nabarmendu"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Mass"
+msgstr "Masa"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Cumulative Probability"
+msgstr "Probabilitate Metatua"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Interval"
+msgstr "Tartea"
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "≤ X ≤"
+msgstr "≤ X ≤"
+
+msgctxt "LDnormalGeneralized|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDnormalGeneralized|"
+msgid "Location:"
+msgstr "Kokapena:"
+
+msgctxt "LDnormalGeneralized|"
+msgid "μ"
+msgstr "μ"
+
+msgctxt "LDnormalGeneralized|"
+msgid "Scale:"
+msgstr "Eskala:"
+
+msgctxt "LDnormalGeneralized|"
+msgid "α"
+msgstr "α"
+
+msgctxt "LDnormalGeneralized|"
+msgid "Shape:"
+msgstr "Forma:"
+
+msgctxt "LDnormalGeneralized|"
+msgid "β"
+msgstr "β"
+
+msgctxt "LDnormalGeneralized|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDnormalGeneralized|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDnormalGeneralized|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDnormalGeneralized|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDnormalGeneralized|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDnormalGeneralized|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDnormalGeneralized|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDnormalSkew|"
+msgid "Show Distribution"
+msgstr "Erakutsi banaketa"
+
+msgctxt "LDnormalSkew|"
+msgid "Location:"
+msgstr "Kokapena:"
+
+msgctxt "LDnormalSkew|"
+msgid "ξ"
+msgstr "ξ"
+
+msgctxt "LDnormalSkew|"
+msgid "Scale:"
+msgstr "Eskala:"
+
+msgctxt "LDnormalSkew|"
+msgid "ω"
+msgstr "ω"
+
+msgctxt "LDnormalSkew|"
+msgid "Shape:"
+msgstr "Forma:"
+
+msgctxt "LDnormalSkew|"
+msgid "α"
+msgstr "α"
+
+msgctxt "LDnormalSkew|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDnormalSkew|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDnormalSkew|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDnormalSkew|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDnormalSkew|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDnormalSkew|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDnormalSkew|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDpareto|"
+msgid "Show Distribution"
+msgstr "Erakutsi banaketa"
+
+msgctxt "LDpareto|"
+msgid "Shape:"
+msgstr "Forma:"
+
+msgctxt "LDpareto|"
+msgid "Scale:"
+msgstr "Eskala:"
+
+msgctxt "LDpareto|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDpareto|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDpareto|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDpareto|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDpareto|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDpareto|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDpareto|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDpoissonZeroInflated|"
+msgid "Show Distribution"
+msgstr "Erakutsi banaketa"
+
+msgctxt "LDpoissonZeroInflated|"
+msgid "Parameter"
+msgstr "Parametroa"
+
+msgctxt "LDpoissonZeroInflated|"
+msgid "Probability of Zero process:"
+msgstr "Zero prozesuaren probabilitatea:"
+
+msgctxt "LDpoissonZeroInflated|"
+msgid "π"
+msgstr "π"
+
+msgctxt "LDpoissonZeroInflated|"
+msgid "Rate of Poisson process:"
+msgstr "Poisson prozesuaren tasa:"
+
+msgctxt "LDpoissonZeroInflated|"
+msgid "λ"
+msgstr "λ"
+
+msgctxt "LDpoissonZeroInflated|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDpoissonZeroInflated|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDpoissonZeroInflated|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDpoissonZeroInflated|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDpoissonZeroInflated|"
+msgid "Probability mass function"
+msgstr "Probabilitate masa funtzioa"
+
+msgctxt "LDpoissonZeroInflated|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDpoissonZeroInflated|"
+msgid "Options"
+msgstr "Aukerak"
+
+msgctxt "LDpoissonZeroInflated|"
+msgid "Range of x from"
+msgstr "x-ren heina hemendik aurrera"
+
+msgctxt "LDpoissonZeroInflated|"
+msgid "to"
+msgstr "ra"
+
+msgctxt "LDpoissonZeroInflated|"
+msgid "Highlight"
+msgstr "Nabarmendu"
+
+msgctxt "LDpoissonZeroInflated|"
+msgid "Mass"
+msgstr "Masa"
+
+msgctxt "LDpoissonZeroInflated|"
+msgid "Cumulative Probability"
+msgstr "Probabilitate Metatua"
+
+msgctxt "LDpoissonZeroInflated|"
+msgid "Interval"
+msgstr "Tartea"
+
+msgctxt "LDpoissonZeroInflated|"
+msgid "≤ X ≤"
+msgstr "≤ X ≤"
+
+msgctxt "LDtNoncentral|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDtNoncentral|"
+msgid "Parameters"
+msgstr "Parametroak"
+
+msgctxt "LDtNoncentral|"
+msgid "Degrees of freedom:"
+msgstr "Askatasun graduak:"
+
+msgctxt "LDtNoncentral|"
+msgid "df"
+msgstr "ag"
+
+msgctxt "LDtNoncentral|"
+msgid "Non-centrality:"
+msgstr "Ez-zentraltasuna:"
+
+msgctxt "LDtNoncentral|"
+msgid "ncp"
+msgstr "ncp"
+
+msgctxt "LDtNoncentral|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDtNoncentral|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDtNoncentral|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDtNoncentral|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDtNoncentral|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDtNoncentral|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDtNoncentral|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDtriangular|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDtriangular|"
+msgid "Minimum:"
+msgstr "Minimoa:"
+
+msgctxt "LDtriangular|"
+msgid "a"
+msgstr "a"
+
+msgctxt "LDtriangular|"
+msgid "Maximum:"
+msgstr "Maximoa:"
+
+msgctxt "LDtriangular|"
+msgid "b"
+msgstr "b"
+
+msgctxt "LDtriangular|"
+msgid "Mode:"
+msgstr "Modua:"
+
+msgctxt "LDtriangular|"
+msgid "c"
+msgstr "c"
+
+msgctxt "LDtriangular|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDtriangular|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDtriangular|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDtriangular|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDtriangular|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDtriangular|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDtriangular|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDtSkew|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDtSkew|"
+msgid "Location:"
+msgstr "Kokapena:"
+
+msgctxt "LDtSkew|"
+msgid "ξ"
+msgstr "ξ"
+
+msgctxt "LDtSkew|"
+msgid "Scale:"
+msgstr "Eskala:"
+
+msgctxt "LDtSkew|"
+msgid "ω"
+msgstr "ω"
+
+msgctxt "LDtSkew|"
+msgid "Shape:"
+msgstr "Forma:"
+
+msgctxt "LDtSkew|"
+msgid "α"
+msgstr "α"
+
+msgctxt "LDtSkew|"
+msgid "Degree of freedom:"
+msgstr "Askatasun gradua:"
+
+msgctxt "LDtSkew|"
+msgid "df"
+msgstr "ag"
+
+msgctxt "LDtSkew|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDtSkew|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDtSkew|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDtSkew|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDtSkew|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDtSkew|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDtSkew|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDtSkewedGeneralized|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDtSkewedGeneralized|"
+msgid "Parameters"
+msgstr "Parametroak"
+
+msgctxt "LDtSkewedGeneralized|"
+msgid "Location:"
+msgstr "Kokapena:"
+
+msgctxt "LDtSkewedGeneralized|"
+msgid "μ"
+msgstr "μ"
+
+msgctxt "LDtSkewedGeneralized|"
+msgid "Kurtosis:"
+msgstr "Kurtosia:"
+
+msgctxt "LDtSkewedGeneralized|"
+msgid "p"
+msgstr "p"
+
+msgctxt "LDtSkewedGeneralized|"
+msgid "Scale:"
+msgstr "Eskala:"
+
+msgctxt "LDtSkewedGeneralized|"
+msgid "σ"
+msgstr "σ"
+
+msgctxt "LDtSkewedGeneralized|"
+msgid "q"
+msgstr "q"
+
+msgctxt "LDtSkewedGeneralized|"
+msgid "Skewness:"
+msgstr "Alborapena:"
+
+msgctxt "LDtSkewedGeneralized|"
+msgid "λ"
+msgstr "λ"
+
+msgctxt "LDtSkewedGeneralized|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDtSkewedGeneralized|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDtSkewedGeneralized|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDtSkewedGeneralized|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDtSkewedGeneralized|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDtSkewedGeneralized|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDtSkewedGeneralized|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+#, fuzzy
+msgctxt "LDtStudent|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDtStudent|"
+msgid "Parameters"
+msgstr "Parametroak"
+
+msgctxt "LDtStudent|"
+msgid "Degrees of freedom:"
+msgstr "Askatasun graduak:"
+
+msgctxt "LDtStudent|"
+msgid "df"
+msgstr "ag"
+
+msgctxt "LDtStudent|"
+msgid "Location:"
+msgstr "Kokapena:"
+
+msgctxt "LDtStudent|"
+msgid "μ"
+msgstr "μ"
+
+msgctxt "LDtStudent|"
+msgid "Scale:"
+msgstr "Eskala:"
+
+msgctxt "LDtStudent|"
+msgid "σ"
+msgstr "σ"
+
+msgctxt "LDtStudent|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDtStudent|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDtStudent|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDtStudent|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDtStudent|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDtStudent|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDtStudent|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDuniform|"
+msgid "Show Distribution"
+msgstr "Erakutsi banaketa"
+
+msgctxt "LDuniform|"
+msgid "Parameters"
+msgstr "Parametroak"
+
+msgctxt "LDuniform|"
+msgid "Lower bound:"
+msgstr "Beheko muga:"
+
+msgctxt "LDuniform|"
+msgid "a"
+msgstr "a"
+
+msgctxt "LDuniform|"
+msgid "Upper bound:"
+msgstr "Goiko muga:"
+
+msgctxt "LDuniform|"
+msgid "b"
+msgstr "b"
+
+msgctxt "LDuniform|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDuniform|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDuniform|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDuniform|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDuniform|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDuniform|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDuniform|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDwald|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDwald|"
+msgid "Parameters"
+msgstr "Parametroak"
+
+msgctxt "LDwald|"
+msgid "Mean:"
+msgstr "Batez-bestekoa:"
+
+msgctxt "LDwald|"
+msgid "Threshold:"
+msgstr "Atalasea:"
+
+#, fuzzy
+msgctxt "LDwald|"
+msgid "Drift rate:"
+msgstr "Desbideratze-tasa:"
+
+msgctxt "LDwald|"
+msgid "Shape:"
+msgstr "Forma:"
+
+#, fuzzy
+msgctxt "LDwald|"
+msgid "Noise:"
+msgstr "Zarata:"
+
+msgctxt "LDwald|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDwald|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDwald|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDwald|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDwald|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDwald|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDwald|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "LDweibull|"
+msgid "Show Distribution"
+msgstr "Erakutsi Banaketa"
+
+msgctxt "LDweibull|"
+msgid "Shape:"
+msgstr "Forma:"
+
+msgctxt "LDweibull|"
+msgid "Scale:"
+msgstr "Eskala:"
+
+msgctxt "LDweibull|"
+msgid "Display"
+msgstr "Erakutsi"
+
+msgctxt "LDweibull|"
+msgid "Explanatory text"
+msgstr "Azalpen-testua"
+
+msgctxt "LDweibull|"
+msgid "Parameters, support, and moments"
+msgstr "Parametroak, euskarria eta momentuak"
+
+msgctxt "LDweibull|"
+msgid "Formulas"
+msgstr "Formulak"
+
+msgctxt "LDweibull|"
+msgid "Probability density function"
+msgstr "Probabilitate-dentsitate funtzioa"
+
+msgctxt "LDweibull|"
+msgid "Cumulative distribution function"
+msgstr "Banaketa-metatuaren funtzioa"
+
+msgctxt "LDweibull|"
+msgid "Quantile function"
+msgstr "Kuantil funtzioa"
+
+msgctxt "Description|"
+msgid "Visualize distributions and fit them to data"
+msgstr "Banaketak bistaratu eta datuetara egokitu"
+
+msgctxt "LDAssessFit|"
+msgid "Confidence interval"
+msgstr "Konfiantza-tartea"
+
+msgctxt "LDAssessFit|"
+msgid ""
+"Displays a histogram of the selected variable overlayed with the probability "
+"density function of the fitted distribution"
+msgstr ""
+"Hautatutako aldagaiaren histograma erakusten du, egokitutako banaketaren "
+"probabilitate-dentsitate-funtzioarekin gainjarrita"
+
+msgctxt "LDAssessFit|"
+msgid ""
+"Displays the quantile-quantile plot. The *x*-axis shows the theoretical "
+"quantiles of the data points under the fitted distribution, the *y*-axis "
+"shows the empirical quantiles of the selected variable."
+msgstr ""
+"Kuantil-kuantil grafikoa erakusten du. *x* ardatzak doitutako banaketaren "
+"pean dauden datu-puntuen kuantil teorikoak erakusten ditu, *y* ardatzak "
+"hautatutako aldagaiaren kuantil enpirikoak."
+
+msgctxt "LDAssessFit|"
+msgid ""
+"Displays an empirical cumulative distribution plot overlayed with the "
+"cumulative distribution function of the fitted distribution"
+msgstr ""
+"Banaketa egokituaren banaketa-funtzio metatuarekin gainjarritako banaketa-"
+"diagrama metatu enpirikoa erakusten du"
+
+msgctxt "LDAssessFit|"
+msgid ""
+"Displays the probability-probability plot. The *x*-axis shows the "
+"theoretical value of the cumulative density function of the data points "
+"under the fitted distribution, the *y*-axis shows the empirical percentiles "
+"of the selected variable."
+msgstr ""
+"Probabilitate-probabilitate grafikoa erakusten du. *x* ardatzak doitutako "
+"banaketaren pean datu-puntuen dentsitate-funtzio metatuaren balio teorikoa "
+"erakusten du, *y* ardatzak hautatutako aldagaiaren ehuneko enpirikoak "
+"erakusten ditu."
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Kolmogorov-Smirnov test"
+msgstr "Kolmogorov-Smirnov proba erakusten du"
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Cramér-von Mises test"
+msgstr "Cramér-von Misesen proba erakusten du"
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Anderson-Darling test"
+msgstr "Anderson-Darling proba erakusten du"
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Shapiro-Wilk test of normality"
+msgstr "Shapiro-Wilk normaltasun-proba erakusten du"
+
+msgctxt "LDAssessFit|"
+msgid "Displays the chi-square goodness of fit test"
+msgstr "Chi-karratu egokitzapen proba erakusten du"
+
+msgctxt "LDEstimateParameters|"
+msgid ""
+"Displays a table with the parameter estimates. Changing parametrization "
+"changes which parameters are displayed."
+msgstr ""
+"Parametroen estimazioekin taula bat bistaratzen du. Parametroen ezarpena "
+"aldatzean, bistaratzen diren parametroak aldatzen dira."
+
+msgctxt "LDEstimateParameters|"
+msgid ""
+"Estimates the parameters by the values in the domain at which the likelihood "
+"function is maximized. The likelihood function fixes the data argument "
+"(based on the selected variable) in the theoretical density function and "
+"views it as a function of the parameters. The optimization procedure is "
+"initialized with the values for the parameters entered under \"Show "
+"Distribution\"."
+msgstr ""
+"Parametroak kalkulatzen ditu probabilitate-funtzioa maximizatzen den "
+"domeinuko balioen bidez. Probabilitate-funtzioak datuen argumentua ("
+"hautatutako aldagaian oinarrituta) dentsitate-funtzio teorikoan finkatzen du "
+"eta parametroen funtzio gisa ikusten du. Optimizazio-prozedura "
+"\"Erakutsi Banaketa\" atalean sartutako parametroen balioekin hasten da."
+
+msgctxt "LDGenerateDisplayData|"
+msgid ""
+"Specify the name of the variable. Once filled, creates a column with samples "
+"drawn from the specified distribution in the current data set."
+msgstr ""
+"Zehaztu aldagaiaren izena. Bete ondoren, uneko datu-multzoan zehaztutako "
+"banaketatik ateratako laginak dituen zutabe bat sortzen du."
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Specify the number of samples."
+msgstr "Zehaztu laginen kopurua."
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Sample from the theoretical distribution."
+msgstr "Banaketa teorikotik hartutako lagina."
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Get variable from data set: "
+msgstr "Atera aldagaia datu-multzotik: "
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Select a variable to display and fit with the theoretical distribution."
+msgstr ""
+"Hautatu aldagai bat bistaratzeko eta banaketa teorikoarekin bat etortzeko."
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Displays a descriptive table of the selected variable."
+msgstr "Hautatutako aldagaiaren taula deskribatzaile bat bistaratzen du."
+
+msgctxt "LDGenerateDisplayData|"
+msgid "First observed moments"
+msgstr "Lehenengo une behatuak"
+
+msgctxt "LDGenerateDisplayData|"
+msgid ""
+"Displays a table with the raw and central sample moments of the selected "
+"variable. Defaults to first 2 moments."
+msgstr ""
+"Hautatutako aldagaiaren lagin-momentu gordin eta zentralen taula bat "
+"bistaratzen du. Lehenespenez, lehen 2 momentuak hartzen ditu."
+
+#, fuzzy
+msgctxt "LDGenerateDisplayData|"
+msgid "Histogram with ... bins"
+msgstr "Histograma ... kutxatilekin"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Display a bar plot of the selected variable."
+msgstr "Hautatutako aldagaiaren barra-diagrama bat erakutsi."
+
+msgctxt "LDGenerateDisplayData|"
+msgid ""
+"Display a histogram of the selected variable with the number of specified "
+"bins."
+msgstr ""
+"Hautatutako aldagaiaren histograma erakutsi, zehaztutako tarte kopuruarekin."
+
+msgctxt "LDGenerateDisplayData|"
+msgid ""
+"Displays an empirical cumulative distribution plot of the selected variable."
+msgstr ""
+"Hautatutako aldagaiaren banaketa metatu enpirikoaren grafikoa erakusten du."
+
+msgctxt "LDOptions|"
+msgid "Range of x from ... to ..."
+msgstr "X-ren tartea ...-tik ...-ra"
+
+msgctxt "LDOptions|"
+msgid ""
+"Defines the limits of the x-axis of the probability density plot and "
+"cumulative distribution plot, and the limits of the y-axis of the quantile "
+"plot."
+msgstr ""
+"Probabilitate-dentsitatearen grafikoaren eta banaketa metatuaren grafikoaren "
+"x ardatzaren mugak eta kuantil-grafikoaren y ardatzaren mugak definitzen "
+"ditu."
+
+msgctxt "LDOptions|"
+msgid ""
+"Highlights the probability density on the probability density plot and "
+"cumulative distribution plot at specified values of x"
+msgstr ""
+"Probabilitate-dentsitatea nabarmentzen du probabilitate-dentsitatearen "
+"grafikoan eta banaketa metatuaren grafikoan x-ren balio zehatzetan"
+
+msgctxt "LDOptions|"
+msgid ""
+"Highlights the probability in between the specified values of x in the "
+"density plot (area under the curve), and highlights the cumulative "
+"probability at the specified values in the cumulative distribution plot"
+msgstr ""
+"Dentsitate-diagramaren x-ren balio zehaztuen arteko probabilitatea "
+"nabarmentzen du (kurbaren azpiko azalera), eta banaketa-diagramaren balio "
+"zehaztuetan metatutako probabilitatea nabarmentzen du"
+
+msgctxt "LDOptions|"
+msgid ""
+"Select the bounds of the interval to display: Density is highlighted at the "
+"lower and upper bounds, the probability is displayed for the specified "
+"interval."
+msgstr ""
+"Hautatu bistaratzeko tartearen mugak: Dentsitatea beheko eta goiko mugetan "
+"nabarmenduta dago, zehaztutako tartearen probabilitatea bistaratzen da."
+
+msgctxt "LDbinomial|"
+msgid "Demonstration of the Binomial distribution."
+msgstr "Banaketa binomialaren erakustaldia."
+
+msgctxt "LDbinomial|"
+msgid ""
+"Displays theoretical Binomial distribution, given specified parameter values."
+msgstr ""
+"Zehaztutako parametro-balioak emanda, banaketa binomial teorikoa erakusten "
+"du."
+
+msgctxt "LDbinomial|"
+msgid ""
+"probability of \"success\". This parameter can be freely estimated from the "
+"data."
+msgstr ""
+"\"Arrakasta\" izateko probabilitatea. Parametro hau datuetatik libreki "
+"kalkula daiteke."
+
+msgctxt "LDbinomial|"
+msgid "number of trials. This parameter is fixed when fitting the data."
+msgstr "saiakera kopurua. Parametro hau finkatuta dago datuak doitzean."
+
+msgctxt "LDbinomial|"
+msgid "Displays explanatory text"
+msgstr "Azalpen-testua erakusten du"
+
+msgctxt "LDbinomial|"
+msgid ""
+"Displays the definition of parameters, the support of the random variable, "
+"and the moments of the theoretical distribution"
+msgstr ""
+"Parametroen definizioa, ausazko aldagaiaren euskarria eta banaketa "
+"teorikoaren momentuak erakusten ditu"
+
+msgctxt "LDbinomial|"
+msgid "Displays the probability mass plot"
+msgstr "Probabilitate-masaren grafikoa erakusten du"
+
+msgctxt "LDbinomial|"
+msgid "Displays the cumulative distribution plot"
+msgstr "Banaketa metatuaren grafikoa erakusten du"
+
+msgctxt "LDbinomial|"
+msgid ""
+"Defines the limits of the x-axis of the probability density plot and "
+"cumulative distribution plot."
+msgstr ""
+"Probabilitate-dentsitatearen grafikoaren eta banaketa metatuaren grafikoaren "
+"x ardatzaren mugak definitzen ditu."
+
+msgctxt "LDbinomial|"
+msgid ""
+"Highlights the probability density on the probability density plot and "
+"cumulative distribution plot at specified values of x"
+msgstr ""
+"Probabilitate-dentsitatea nabarmentzen du probabilitate-dentsitatearen "
+"grafikoan eta banaketa metatuaren grafikoan x-ren balio zehatzetan"
+
+msgctxt "LDbinomial|"
+msgid ""
+"Highlights the probability in between the specified values of x in the "
+"density plot (area under the curve), and highlights the cumulative "
+"probability at the specified values in the cumulative distribution plot"
+msgstr ""
+"Dentsitate-diagramaren x-ren balio zehaztuen arteko probabilitatea "
+"nabarmentzen du (kurbaren azpiko azalera), eta banaketa-diagramaren balio "
+"zehaztuetan metatutako probabilitatea nabarmentzen du"
+
+msgctxt "LDbinomial|"
+msgid ""
+"Select the bounds of the ordered set to display: Density is highlighted at "
+"the lower and upper bounds, the probability is displayed for the specified "
+"interval."
+msgstr ""
+"Hautatu ordenatutako multzoaren mugak bistaratzeko: Dentsitatea beheko eta "
+"goiko mugetan nabarmenduta dago, zehaztutako tartearen probabilitatea "
+"bistaratzen da."
+
+msgctxt "LDgaussianunivariate|"
+msgid "Demonstration of the Normal (Gaussian) distribution"
+msgstr "Banaketa Normalaren (Gaussiar) erakustaldia"
+
+msgctxt "LDgaussianunivariate|"
+msgid ""
+"Displays theoretical Normal distribution, given specified parameter values."
+msgstr ""
+"Zehaztutako parametro-balioak emanda, banaketa Normal teorikoa bistaratzen "
+"du."
+
+msgctxt "LDgaussianunivariate|"
+msgid ""
+"The Normal distribution is specified using the mean and variance parameters"
+msgstr ""
+"Banaketa Normala batez besteko eta bariantza parametroak erabiliz zehazten da"
+
+msgctxt "LDgaussianunivariate|"
+msgid ""
+"The Normal distribution is specified using the mean and standard deviation "
+"parameters"
+msgstr ""
+"Banaketa normala batez bestekoaren eta desbideratze estandarraren "
+"parametroak erabiliz zehazten da"
+
+msgctxt "LDgaussianunivariate|"
+msgid ""
+"The Normal distribution is specified using the mean and precision parameters"
+msgstr ""
+"Banaketa Normala batez besteko eta zehaztasun parametroak erabiliz zehazten "
+"da"
+
+msgctxt "LDgaussianunivariate|"
+msgid ""
+"The Normal distribution is specified using the mean and square root of "
+"precision parameters"
+msgstr ""
+"Banaketa Normala zehazten da zehaztasun-parametroen batez bestekoa eta erro "
+"karratua erabiliz"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Displays explanatory text"
+msgstr "Azalpen-testua erakusten du"
+
+msgctxt "LDgaussianunivariate|"
+msgid ""
+"Displays the definition of parameters, the support of the random variable, "
+"and the moments of the theoretical distribution"
+msgstr ""
+"Parametroen definizioa, ausazko aldagaiaren euskarria eta banaketa "
+"teorikoaren momentuak erakusten ditu"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Displays the probability density plot"
+msgstr "Probabilitate-dentsitatearen grafikoa erakusten du"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Displays the cumulative distribution plot"
+msgstr "Banaketa metatuaren grafikoa erakusten du"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Displays the quantile plot"
+msgstr "Kuantilen grafikoa erakusten du"
+
+msgctxt "LDAssessFit|"
+msgid "Lillienfors"
+msgstr "Lillienfors"
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Lillienfors test"
+msgstr "Lillienfors proba erakusten du"
+
+msgctxt "LDEstimateParameters|"
+msgid "Bias corrected"
+msgstr "Alborapena zuzenduta"
+
+msgctxt "LDAssessFit|"
+msgid "Shapiro-Francia"
+msgstr "Shapiro-Frantzia"
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Shapiro-Francia test of normality"
+msgstr "Shapiro-Franciaren normaltasun-proba erakusten du"
