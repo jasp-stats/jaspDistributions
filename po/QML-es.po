@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2025-10-04 22:15+0000\n"
+"Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14-dev\n"
 "X-Language: es\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -154,7 +160,7 @@ msgstr "Intervalo de confianza"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Generate and Display Data"
-msgstr "Generar y Mostrar Datos"
+msgstr "Generar y presentar datos"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "[requires a loaded data set]"
@@ -282,7 +288,7 @@ msgstr "p"
 
 msgctxt "LDbernoulli|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDbernoulli|"
 msgid "Explanatory text"
@@ -346,7 +352,7 @@ msgstr "β"
 
 msgctxt "LDbeta|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDbeta|"
 msgid "Explanatory text"
@@ -402,7 +408,7 @@ msgstr "n"
 
 msgctxt "LDbinomial|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDbinomial|"
 msgid "Explanatory text"
@@ -478,7 +484,7 @@ msgstr "λ"
 
 msgctxt "LDchisq|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDchisq|"
 msgid "Explanatory text"
@@ -522,7 +528,7 @@ msgstr "Escala:"
 
 msgctxt "LDexponential|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDexponential|"
 msgid "Explanatory text"
@@ -574,7 +580,7 @@ msgstr "parámetro de no centrado"
 
 msgctxt "LDf|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDf|"
 msgid "Explanatory text"
@@ -626,7 +632,7 @@ msgstr "Media:"
 
 msgctxt "LDgamma|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDgamma|"
 msgid "Explanatory text"
@@ -678,7 +684,7 @@ msgstr "Media:"
 
 msgctxt "LDgammaInverse|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDgammaInverse|"
 msgid "Explanatory text"
@@ -778,7 +784,7 @@ msgstr "Raíz cuadrada de la precisión:"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Explanatory text"
@@ -826,7 +832,7 @@ msgstr "σ"
 
 msgctxt "LDlogistic|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDlogistic|"
 msgid "Explanatory text"
@@ -874,7 +880,7 @@ msgstr "σ"
 
 msgctxt "LDlognormal|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDlognormal|"
 msgid "Explanatory text"
@@ -926,7 +932,7 @@ msgstr "Media:"
 
 msgctxt "LDnegbinomial|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDnegbinomial|"
 msgid "Explanatory text"
@@ -998,7 +1004,7 @@ msgstr "λ"
 
 msgctxt "LDpoisson|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDpoisson|"
 msgid "Explanatory text"
@@ -1194,7 +1200,7 @@ msgstr "β"
 
 msgctxt "LDamoroso|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDamoroso|"
 msgid "Explanatory text"
@@ -1258,7 +1264,7 @@ msgstr "n"
 
 msgctxt "LDbetaBinomial|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDbetaBinomial|"
 msgid "Explanatory text"
@@ -1334,7 +1340,7 @@ msgstr "β"
 
 msgctxt "LDbetaPrime|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDbetaPrime|"
 msgid "Explanatory text"
@@ -1402,7 +1408,7 @@ msgstr "b"
 
 msgctxt "LDbetaStretched|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDbetaStretched|"
 msgid "Explanatory text"
@@ -1450,7 +1456,7 @@ msgstr "σ"
 
 msgctxt "LDcauchy|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDcauchy|"
 msgid "Explanatory text"
@@ -1506,7 +1512,7 @@ msgstr "σ"
 
 msgctxt "LDfrechet|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDfrechet|"
 msgid "Explanatory text"
@@ -1550,7 +1556,7 @@ msgstr "p"
 
 msgctxt "LDgeometric|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDgeometric|"
 msgid "Explanatory text"
@@ -1618,7 +1624,7 @@ msgstr "Escala:"
 
 msgctxt "LDgompertz|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDgompertz|"
 msgid "Explanatory text"
@@ -1666,7 +1672,7 @@ msgstr "β"
 
 msgctxt "LDgumbel|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDgumbel|"
 msgid "Explanatory text"
@@ -1722,7 +1728,7 @@ msgstr "n"
 
 msgctxt "LDhypergeometric|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDhypergeometric|"
 msgid "Explanatory text"
@@ -1798,7 +1804,7 @@ msgstr "β"
 
 msgctxt "LDlaplace|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDlaplace|"
 msgid "Explanatory text"
@@ -1850,7 +1856,7 @@ msgstr "Forma:"
 
 msgctxt "LDlogLogistic|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDlogLogistic|"
 msgid "Explanatory text"
@@ -1922,7 +1928,7 @@ msgstr "π"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Explanatory text"
@@ -2002,7 +2008,7 @@ msgstr "b"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Explanatory text"
@@ -2062,7 +2068,7 @@ msgstr "Media:"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Explanatory text"
@@ -2146,7 +2152,7 @@ msgstr "β"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Explanatory text"
@@ -2202,7 +2208,7 @@ msgstr "α"
 
 msgctxt "LDnormalSkew|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDnormalSkew|"
 msgid "Explanatory text"
@@ -2242,7 +2248,7 @@ msgstr "Escala:"
 
 msgctxt "LDpareto|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDpareto|"
 msgid "Explanatory text"
@@ -2294,7 +2300,7 @@ msgstr "λ"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Explanatory text"
@@ -2374,7 +2380,7 @@ msgstr "parámetro de no centrado"
 
 msgctxt "LDtNoncentral|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDtNoncentral|"
 msgid "Explanatory text"
@@ -2430,7 +2436,7 @@ msgstr "c"
 
 msgctxt "LDtriangular|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDtriangular|"
 msgid "Explanatory text"
@@ -2494,7 +2500,7 @@ msgstr "gl"
 
 msgctxt "LDtSkew|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDtSkew|"
 msgid "Explanatory text"
@@ -2566,7 +2572,7 @@ msgstr "λ"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Explanatory text"
@@ -2626,7 +2632,7 @@ msgstr "σ"
 
 msgctxt "LDtStudent|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDtStudent|"
 msgid "Explanatory text"
@@ -2678,7 +2684,7 @@ msgstr "b"
 
 msgctxt "LDuniform|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDuniform|"
 msgid "Explanatory text"
@@ -2734,7 +2740,7 @@ msgstr "Ruido:"
 
 msgctxt "LDwald|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDwald|"
 msgid "Explanatory text"
@@ -2774,7 +2780,7 @@ msgstr "Escala:"
 
 msgctxt "LDweibull|"
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Presentar"
 
 msgctxt "LDweibull|"
 msgid "Explanatory text"
@@ -2813,8 +2819,8 @@ msgid ""
 "Displays a histogram of the selected variable overlayed with the probability "
 "density function of the fitted distribution"
 msgstr ""
-"Muestra un histograma de la variable seleccionada superpuesto con la función "
-"de densidad de probabilidad de la distribución ajustada"
+"Presenta un histograma de la variable seleccionada superpuesto con la "
+"función de densidad de probabilidad de la distribución ajustada"
 
 msgctxt "LDAssessFit|"
 msgid ""
@@ -2822,7 +2828,7 @@ msgid ""
 "quantiles of the data points under the fitted distribution, the *y*-axis "
 "shows the empirical quantiles of the selected variable."
 msgstr ""
-"Muestra el gráfico cuantil-cuantil. El eje *X* muestra los cuantiles "
+"Presenta el gráfico cuantil-cuantil. El eje *X* muestra los cuantiles "
 "teóricos de los puntos de datos bajo la distribución ajustada; el eje *Y* "
 "muestra los cuantiles empíricos de la variable seleccionada."
 
@@ -2831,7 +2837,7 @@ msgid ""
 "Displays an empirical cumulative distribution plot overlayed with the "
 "cumulative distribution function of the fitted distribution"
 msgstr ""
-"Muestra un gráfico de distribución acumulada empírica superpuesto con la "
+"Presenta un gráfico de distribución acumulada empírica superpuesto con la "
 "función de distribución acumulada de la distribución ajustada"
 
 msgctxt "LDAssessFit|"
@@ -2841,10 +2847,10 @@ msgid ""
 "under the fitted distribution, the *y*-axis shows the empirical percentiles "
 "of the selected variable."
 msgstr ""
-"Muestra el gráfico de probabilidad-probabilidad. El eje *X* muestra el valor "
-"teórico de la función de densidad acumulada de los puntos de datos bajo la "
-"distribución ajustada; el eje *Y* muestra los percentiles empíricos de la "
-"variable seleccionada."
+"Presenta el gráfico de probabilidad-probabilidad. El eje *X* muestra el "
+"valor teórico de la función de densidad acumulada de los puntos de datos "
+"bajo la distribución ajustada; el eje *Y* muestra los percentiles empíricos "
+"de la variable seleccionada."
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Kolmogorov-Smirnov test"
@@ -2939,14 +2945,14 @@ msgstr "Histograma con ... barras"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Display a bar plot of the selected variable."
-msgstr "Muestra un gráfico de barras de la variable seleccionada."
+msgstr "Presentar un gráfico de barras de la variable seleccionada."
 
 msgctxt "LDGenerateDisplayData|"
 msgid ""
 "Display a histogram of the selected variable with the number of specified "
 "bins."
 msgstr ""
-"Presenta un histograma de la variable seleccionada con el número de barras "
+"Presentar un histograma de la variable seleccionada con el número de barras "
 "especificado."
 
 msgctxt "LDGenerateDisplayData|"
@@ -2996,7 +3002,7 @@ msgid ""
 "interval."
 msgstr ""
 "Selecciona los límites del intervalo a presentar: La densidad se resalta en "
-"los límites inferior y superior; la probabilidad se muestra para el "
+"los límites inferior y superior; la probabilidad se presenta para el "
 "intervalo especificado."
 
 msgctxt "LDbinomial|"
@@ -3076,7 +3082,7 @@ msgid ""
 "interval."
 msgstr ""
 "Selecciona los límites del conjunto ordenado a visualizar: La densidad se "
-"resalta en los límites inferior y superior; la probabilidad se muestra para "
+"resalta en los límites inferior y superior; la probabilidad se presenta para "
 "el intervalo especificado."
 
 msgctxt "LDgaussianunivariate|"
@@ -3150,7 +3156,7 @@ msgstr "Lilliefors"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Lillienfors test"
-msgstr "Muestra el contraste de Lilliefors"
+msgstr "Presenta el contraste de Lilliefors"
 
 msgctxt "LDEstimateParameters|"
 msgid "Bias corrected"
