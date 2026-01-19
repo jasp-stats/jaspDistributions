@@ -37,7 +37,7 @@
 <circle cx='233.92' cy='484.99' r='5.69' style='stroke-width: 0.71; fill: #BEBEBE;' />
 <circle cx='462.66' cy='322.32' r='5.69' style='stroke-width: 0.71; fill: #BEBEBE;' />
 <line x1='-538.09' y1='484.99' x2='1349.04' y2='484.99' style='stroke-width: 2.13; stroke: #1B9E77; stroke-linecap: butt;' />
-<line x1='-538.09' y1='2813.13' x2='1349.04' y2='-1883.82' style='stroke-width: 2.13; stroke: #666666; stroke-linecap: butt;' />
+<line x1='193.01' y1='993.48' x2='779.26' y2='-465.68' style='stroke-width: 2.13; stroke: #666666; stroke-linecap: butt;' />
 <circle cx='233.92' cy='484.99' r='5.69' style='stroke-width: 0.71; stroke: #1B9E77; fill: #BEBEBE;' />
 <circle cx='462.66' cy='322.32' r='5.69' style='stroke-width: 0.71; stroke: #666666; fill: #BEBEBE;' />
 <line x1='119.23' y1='507.09' x2='691.73' y2='507.09' style='stroke-width: 0.64; stroke-linecap: butt;' />
