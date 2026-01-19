@@ -36,8 +36,8 @@
 <line x1='195.80' y1='484.99' x2='195.80' y2='418.28' style='stroke-width: 1.07; stroke-dasharray: 5.69,5.69; stroke-linecap: butt;' />
 <circle cx='157.67' cy='468.43' r='5.69' style='stroke-width: 0.71; fill: #BEBEBE;' />
 <circle cx='195.80' cy='418.28' r='5.69' style='stroke-width: 0.71; fill: #BEBEBE;' />
-<line x1='-538.09' y1='1119.30' x2='1349.04' y2='-646.07' style='stroke-width: 2.13; stroke: #1B9E77; stroke-linecap: butt;' />
-<line x1='-538.09' y1='1596.05' x2='1349.04' y2='-1432.49' style='stroke-width: 2.13; stroke: #666666; stroke-linecap: butt;' />
+<line x1='-403.59' y1='993.48' x2='1156.21' y2='-465.68' style='stroke-width: 2.13; stroke: #1B9E77; stroke-linecap: butt;' />
+<line x1='-162.62' y1='993.48' x2='746.61' y2='-465.68' style='stroke-width: 2.13; stroke: #666666; stroke-linecap: butt;' />
 <circle cx='157.67' cy='468.43' r='5.69' style='stroke-width: 0.71; stroke: #1B9E77; fill: #BEBEBE;' />
 <circle cx='195.80' cy='418.28' r='5.69' style='stroke-width: 0.71; stroke: #666666; fill: #BEBEBE;' />
 <line x1='119.23' y1='507.09' x2='691.73' y2='507.09' style='stroke-width: 0.64; stroke-linecap: butt;' />
