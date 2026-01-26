@@ -51,13 +51,13 @@ msgid "Minimum"
 msgstr "Minimoa"
 
 msgid "25%% Quantile"
-msgstr "%25eko Kuantila"
+msgstr "%%25eko Kuantila"
 
 msgid "Median"
 msgstr "Mediana"
 
 msgid "75%% Quantile"
-msgstr "%75eko Quantila"
+msgstr "%%75eko Quantila"
 
 msgid "Maximum"
 msgstr "Maximoa"
