@@ -429,7 +429,6 @@
 .ldMLEResults <- function(mleContainer, variable, options, ready, distName){
   if(!ready) return()
   if(!is.null(mleContainer[['mleResults']])) return(mleContainer[['mleResults']]$object)
-
   starts <- options$pars
   if(!is.null(options$fix.pars)){
     starts[names(options$fix.pars)] <- NULL
@@ -977,7 +976,6 @@
 }
 
 .ldFillPlotPDF <- function(pdfPlot, options){
-
   # basic density curve
   plot <- ggplot2::ggplot(data = data.frame(x = options[['range_x']]), ggplot2::aes(x = x)) +
     ggplot2::stat_function(fun = options[['pdfFun']], n = 101, args = options[['pars']], size = 1.25)
@@ -1114,7 +1112,6 @@
 }
 
 .ldFillPlotCDF <- function(cdfPlot, options){
-
   plot <- ggplot2::ggplot(data = data.frame(x = options[['range_x']]), ggplot2::aes(x = x)) +
     ggplot2::stat_function(fun = options[['cdfFun']], n = 101, args = options[['pars']], size = 1.25)
 
@@ -1161,7 +1158,7 @@
 
     plot <- plot +
       ggplot2::geom_abline(data = line_data, ggplot2::aes(slope = slope, intercept = intercept, col = col), size = 1) +
-      jaspGraphs::geom_point (data = point_data, ggplot2::aes(x = x, y = y, col = col), size = 5) +
+      ggplot2::geom_point (data = point_data, ggplot2::aes(x = x, y = y, col = col), size = 5, shape = 21, fill = "grey", stroke=0.5) +
       jaspGraphs::scale_JASPcolor_discrete(name = gettext("Slope"), labels = as.character(slopeText))
   }
 
@@ -1347,7 +1344,7 @@
     plot <- plot +
       ggplot2::geom_bar(ggplot2::aes(x = xend, y = y), stat = "identity",
                         data = segment_data,
-                        alpha = 0, colour = "black", size = 1.5, width = 0.8) +
+                        alpha = 0, colour = "black", linewidth = 1.5, width = 0.8) +
       ggplot2::geom_segment(data = segment_data,
                             mapping = ggplot2::aes(x = xseg, xend = xend, y = y, yend = y),
                             linetype = 2) +
@@ -1478,7 +1475,7 @@
     plot <- plot +
       ggplot2::geom_bar(ggplot2::aes(x = xend, y = y), stat = "identity",
                         data = segment_data,
-                        alpha = 0, colour = "black", size = 1.5, width = 0.8) +
+                        alpha = 0, colour = "black", linewidth = 1.5, width = 0.8) +
       ggplot2::geom_segment(data = segment_data,
                             mapping = ggplot2::aes(x = xseg, xend = xend, y = y, yend = y),
                             linetype = 2) +
