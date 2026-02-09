@@ -109,7 +109,13 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
 }
 
 .ccdGetDistributionsManual <- function(jaspResults, variable, options) {
-  return(list())
+  syntax <- strsplit(options[["manualDistributionSpecification"]], "\n")[[1]]
+  env <- asNamespace("DistributionS7")
+  distributions <- lapply(syntax, function(x) {
+    x <- parse(text=x)
+    try(eval(x, envir=env))
+  })
+  return(distributions)
 }
 
 
@@ -134,12 +140,11 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
 
 .ccdFillDistributionComparisonTable <- function(comparisonTable, options, distributions, variable) {
   if (is.null(comparisonTable)) return()
-  if (!isRecomputed(comparisonTable)) return()
 
   results <- lapply(distributions, DistributionS7::information_criteria, data=variable)
   results <- do.call(rbind, results)
 
-  results[["name"]]  <- lapply(distributions, function(d) d@name)
+  results[["name"]]  <- vapply(distributions, DistributionS7::as_latex, character(1)) |> mathExpression()
   results[["w_aic"]] <- DistributionS7::weights_ic(results[["aic"]])
   results[["w_bic"]] <- DistributionS7::weights_ic(results[["bic"]])
 
@@ -160,8 +165,6 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
 }
 
 .ccdPerDistributionOutput <- function(jaspResults, options, distributions, variable) {
-  if (!options[["parameterEstimates"]]) return()
-
   if (options[["outputLimit"]] && options[["outputLimitTo"]] <= length(distributions))
     distributions <- distributions[seq_len(options[["outputLimitTo"]])]
 
@@ -170,35 +173,99 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
 }
 
 .ccdDistributionOutput <- function(jaspResults, options, distribution, variable) {
-  distributionContainer <- createJaspContainer(
+  distributionContainer <- jaspResults[[distribution@name]] %setOrRetrieve% createJaspContainer(
     title = distribution@name,
-    dependencies = .ccdDependencies("outputLimit", "outputLimitTo", "comparisonTableOrder", "comparisonTableOrderBy"))
-
-
-  jaspResults[[distribution@name]] <- distributionContainer
+    dependencies = .ccdDependencies("outputLimit", "outputLimitTo", "comparisonTableOrder", "comparisonTableOrderBy"),
+    initCollapsed = TRUE
+  )
 
   .ccdParameterTable(distributionContainer, options, distribution, variable)
+  .ccdGofTable(distributionContainer, options, distribution, variable)
+  .ccdEmpiricalPlots(distributionContainer, options, distribution, variable)
 
 }
 
 .ccdParameterTable <- function(container, options, distribution, variable) {
   if (!options[["parameterEstimates"]]) return()
+  if (!is.null(container[["parameterEstimates"]])) return()
 
   table <- createJaspTable(title = gettext("Parameter estimates"), dependencies = c("parameterEstimates"))
 
   table$addColumnInfo(name = "key",       title = gettext("Key"),       type = "string")
-  # table$addColumnInfo(name = "name",      title = gettext("Name"),      type = "string")
+  table$addColumnInfo(name = "name",      title = gettext("Name"),      type = "string")
   table$addColumnInfo(name = "estimate",  title = gettext("Estimate"),  type = "number")
 
   results <- list()
 
-  results[["key"]] <- DistributionS7::parameter_properties(distribution, property="key", which="free") |> unlist()
+  results[["key"]]  <- DistributionS7::parameter_properties(distribution, property="key",  which="free") |> unlist()
+  results[["name"]] <- DistributionS7::parameter_properties(distribution, property="name", which="free") |> unlist()
   results[["estimate"]] <- DistributionS7::parameter_values(distribution, which="free") |> unlist()
 
   table$setData(results)
 
   container[["parameterEstimates"]] <- table
+}
 
+.ccdGofTable <- function(container, options, distribution, variable) {
+  if (!options[["goodnessOfFit"]]) return()
+
+  table <- createJaspTable(title = gettext("Goodness of fit"),
+                           dependencies = c("goodnessOfFit", "goodnessOfFitBootstrap", "goodnessOfFitBootstrapSamples"))
+
+  table$addColumnInfo(name = "test", title = gettext("Test"), type = "string")
+  table$addColumnInfo(name = "statistic", title = gettext("Statistic"), type = "number")
+  table$addColumnInfo(name = "p_value", title = gettext("p"), type="pvalue")
+
+  container[["goodnessOfFit"]] <- table
+
+  npar <- !(DistributionS7::parameter_properties(distribution, property="fixed") |> unlist())
+  estimated <- sum(npar) > 0
+
+  results <- try(DistributionS7::gof_test(distribution, variable, estimated=estimated))
+  results[["test"]] <- .ccdGofTestLabels(results[["test"]])
+
+  if(isTryError(results)) results <- NULL
+
+  table$setData(results)
+}
+
+.ccdEmpiricalPlots <- function(distributionContainer, options, distribution, variable) {
+  if (!options[["empiricalPlots"]]) return()
+
+  container <- createJaspContainer(title = gettext("Empirical plots"),
+                                   dependencies = c("empiricalPlots", "empiricalPlotsCi", "empiricalPlotsCiLevel"))
+
+  container[["hist"]] <- createJaspPlot(
+    title = gettext("Histogram vs. theoretical density"),
+    plot = DistributionS7::plot_hist(distribution, variable, name=options[["variable"]])
+  )
+  container[["qq"]] <- createJaspPlot(
+    title = gettext("Q-Q plot"),
+    plot = DistributionS7::plot_qq(distribution, variable, ci = options[["empiricalPlotsCi"]], ci_level = options[["empiricalPlotsCiLevel"]])
+  )
+  container[["ecdf"]] <- createJaspPlot(
+    title = gettext("Empirical vs. theoretical cumulative probability"),
+    plot = DistributionS7::plot_ecdf(distribution, variable, name=options[["variable"]])
+  )
+  container[["pp"]] <- createJaspPlot(
+    title = gettext("P-P plot"),
+    plot = DistributionS7::plot_pp(distribution, variable, ci = options[["empiricalPlotsCi"]], ci_level = options[["empiricalPlotsCiLevel"]])
+  )
+
+  distributionContainer[["empiricalPlots"]] <- container
+}
+
+.ccdGofTestLabels <- function(keys) {
+  labels <- list(
+    ks_test     = gettext("Kolmogorov-Smirnov"),
+    ad_test     = gettext("Anderson-Darling"),
+    cvm_test    = gettext("Cramér–von Mises"),
+    lillie_test = gettext("Lillienfors"),
+    shapiro_wilk_test = gettext("Shapiro-Wilk"),
+    shapiro_francia_test = gettext("Shapiro-Francia")
+  )
+
+  return(labels[keys])
 }
 
 .ccdDependencies <- function(...) {

@@ -89,6 +89,7 @@ Form
 		visible: distributionSpecificationManual.checked
 		name: "manualDistributionSpecification"
 		text: "normal(mu=0, sigma=1)"
+		separator: "\n"
 	}
 
 	Section
