@@ -20,7 +20,9 @@ Imports:
   MASS,
   nortest,
   sgt,
-  sn
+  sn,
+  DistributionS7
 Remotes:
   jasp-stats/jaspBase,
-  jasp-stats/jaspGraphs
+  jasp-stats/jaspGraphs,
+  Kucharssim/DistributionS7
