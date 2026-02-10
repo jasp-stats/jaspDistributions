@@ -4,6 +4,7 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
     .ccdDistributionComparisonTable(jaspResults, options)
 
   if (options[["variable"]] == "") return()
+  if (options[["distributionSpecification"]] == "") return()
 
   variable <- na.omit(dataset[[options[["variable"]]]])
 
@@ -51,7 +52,7 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
 
     if (isTryError(result))
       jaspBase::.quitAnalysis(
-        message = gettextf("Could not fit distribution %1$s, with the following error: </br> %2$s. </br></br> You can try to change the initial parameter values, or remove the distribution from the distribution specifiction.",
+        message = gettextf("Could not fit distribution %1$s, with the following error: </br> %2$s. </br></br> You can try to change the initial parameter values, or remove the distribution from the distribution specification",
                            txt, .extractErrorMessage(result)))
     return(result)
   })
