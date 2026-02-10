@@ -5,7 +5,7 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
 
   if (options[["variable"]] == "") return()
 
-  variable <- dataset[[options[["variable"]]]]
+  variable <- na.omit(dataset[[options[["variable"]]]])
 
   distributions <- jaspResults[["distributions"]] %setOrRetrieve% (
     .ccdGetDistributions(jaspResults, variable, options) |>
@@ -19,102 +19,43 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
 }
 
 .ccdGetDistributions <- function(jaspResults, variable, options) {
-  distributions <- switch(
-    options[["distributionSpecification"]],
-    auto = .ccdGetDistributionsAuto(jaspResults, variable, options),
-    manual = .ccdGetDistributionsManual(jaspResults, variable, options)
-  )
+  syntax <- strsplit(options[["distributionSpecification"]], "\n")[[1]]
+  syntax <- unique(syntax)
 
-  distributions <- lapply(distributions, function(distribution) {
-    fitted <- try(DistributionS7::fit_distribution(distribution, estimator=DistributionS7::Mle(), data=variable))
-    if (isTryError(fitted)) return(distribution) else return(fitted)
-  })
-
-  return(distributions)
-}
-
-.ccdGetDistributionsAuto <- function(jaspResults, variable, options) {
-  if (options[["dataBoundedBelow"]] && options[["dataBoundedAbove"]]) {
-    distributions <- list(
-      DistributionS7::uniform(
-        min = DistributionS7::fixed(options[["dataBoundedBelowAt"]]),
-        max = DistributionS7::fixed(options[["dataBoundedAboveAt"]])
-      ),
-      DistributionS7::stretched_beta(
-        alpha = 1,
-        beta = 1,
-        min = DistributionS7::fixed(options[["dataBoundedBelowAt"]]),
-        max = DistributionS7::fixed(options[["dataBoundedAboveAt"]])
-      ),
-      DistributionS7::triangular(
-        a = DistributionS7::fixed(options[["dataBoundedBelowAt"]]),
-        b = DistributionS7::fixed(options[["dataBoundedAboveAt"]]),
-        c = (options[["dataBoundedBelowAt"]] + options[["dataBoundedAboveAt"]])/2
-      )
-    )
-  } else if (options[["dataBoundedBelow"]] && options[["dataBoundedBelowAt"]] == 0) {
-    distributions <- list(
-      DistributionS7::exponential(lambda=1),
-      DistributionS7::frechet(alpha=2, sigma=1, theta=DistributionS7::fixed(options[["dataBoundedBelowAt"]])),
-      DistributionS7::gamma(alpha = 2, theta = 1),
-      DistributionS7::inverse_gamma(alpha = 2, theta = 1),
-      DistributionS7::gompertz(eta=2, beta=1),
-      DistributionS7::log_logistic(mu=0, sigma=1),
-      DistributionS7::log_normal(mu=0, sigma=1),
-      DistributionS7::wald(mu=1, lambda=1),
-      DistributionS7::weibull(shape=2, scale=1)
-    )
-  } else if (options[["dataBoundedBelow"]]){
-    shift <- DistributionS7::fixed(options[["dataBoundedBelowAt"]])
-    distributions <- list(
-      DistributionS7::shifted_exponential(lambda=1, shift=shift),
-      DistributionS7::shifted_log_normal(mu=0, sigma=1, shift=shift),
-      DistributionS7::shifted_gamma(alpha=2, theta=1, shift=shift),
-      DistributionS7::shifted_inverse_gamma(alpha=2, theta=1, shift=shift),
-      DistributionS7::shifted_log_logistic(mu=0, sigma=1, shift=shift),
-      DistributionS7::shifted_wald(mu=1, lambda=1, shift=shift),
-      DistributionS7::shifted_weibull(shape=2, scale=1, shift=shift)
-    )
-  } else if (options[["dataBoundedAbove"]]) {
-    .quitAnalysis(gettext("Currently, no distributions bounded from above but unbounded from below are available"))
-  } else {
-    distributions <- list(
-      DistributionS7::normal(mu=0, sigma=1),
-      DistributionS7::cauchy(mu=0, sigma=1),
-      DistributionS7::student_t(nu=5, mu=0, sigma=1),
-      DistributionS7::gumbel(mu=0, beta=1),
-      DistributionS7::laplace(mu=0, beta=1),
-      DistributionS7::logistic(mu=0, sigma=1),
-      DistributionS7::skew_normal(xi=0, omega=1, alpha=0),
-      DistributionS7::skew_cauchy(xi=0, omega=1, alpha=0),
-      DistributionS7::skew_t(xi=0, omega=1, alpha=0, nu=5),
-      DistributionS7::symmetric_generalized_normal(mu=0, alpha=1, beta=2)
-    )
-
-    if (options[["shiftedDistributionsIncluded"]]) {
-      shiftedDistributions <- list(
-        DistributionS7::shifted_exponential(lambda=1),
-        DistributionS7::shifted_log_normal(mu=0, sigma=1),
-        DistributionS7::shifted_gamma(alpha=2, theta=1),
-        DistributionS7::shifted_inverse_gamma(alpha=2, theta=1),
-        DistributionS7::shifted_log_logistic(mu=0, sigma=1),
-        DistributionS7::shifted_wald(mu=1, lambda=1),
-        DistributionS7::shifted_weibull(shape=2, scale=1)
-      )
-      distributions <- c(distributions, shiftedDistributions)
-    }
-  }
-
-  return(distributions)
-}
-
-.ccdGetDistributionsManual <- function(jaspResults, variable, options) {
-  syntax <- strsplit(options[["manualDistributionSpecification"]], "\n")[[1]]
   env <- asNamespace("DistributionS7")
-  distributions <- lapply(syntax, function(x) {
-    x <- parse(text=x)
-    try(eval(x, envir=env))
+
+  distributions <- lapply(syntax, function(txt) {
+    expr <- parse(text=txt)
+
+    # make distribution object
+    distribution <- try(eval(expr, envir=env))
+    if (isTryError(distribution))
+      jaspBase::.quitAnalysis(
+        message = gettextf("Could not initialize distribution %1$s, with the following error: </br></br> %2$s",
+                           txt, .extractErrorMessage(distribution)))
+
+    # try fitting
+    result <- try(DistributionS7::fit_distribution(
+      distribution=distribution,
+      estimator=DistributionS7::Mle(),
+      data=variable
+    ))
+
+    # try manual starting values
+    if (isTryError(result))
+      result <- try(DistributionS7::fit_distribution(
+        distribution=distribution,
+        estimator=DistributionS7::Mle(start = DistributionS7::parameter_values(distribution, which="free")),
+        data=variable
+      ))
+
+    if (isTryError(result))
+      jaspBase::.quitAnalysis(
+        message = gettextf("Could not fit distribution %1$s, with the following error: </br> %2$s. </br></br> You can try to change the initial parameter values, or remove the distribution from the distribution specifiction.",
+                           txt, .extractErrorMessage(result)))
+    return(result)
   })
+
   return(distributions)
 }
 
@@ -126,14 +67,14 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
     title = gettext("Distribution comparison table"),
     dependencies = .ccdDependencies("comparisonTable", "comparisonTableOrder", "comparisonTableOrderBy")
   )
+  table$showSpecifiedColumnsOnly <- TRUE
   table$addColumnInfo(name = "name",    title = gettext("Distribution"), type = "string")
-  table$addColumnInfo(name = "n_par",   title = gettext("df"),           type = "integer")
-  table$addColumnInfo(name = "n_obs",   title = gettext("n"),            type = "integer")
-  table$addColumnInfo(name = "log_lik", title = gettext("Log. Lik"),     type = "number")
   table$addColumnInfo(name = "aic",     title = gettext("AIC"),          type = "number")
-  table$addColumnInfo(name = "w_aic",   title = gettext("AIC weight"),   type = "number")
   table$addColumnInfo(name = "bic",     title = gettext("BIC"),          type = "number")
+  table$addColumnInfo(name = "w_aic",   title = gettext("AIC weight"),   type = "number")
   table$addColumnInfo(name = "w_bic",   title = gettext("BIC weight"),   type = "number")
+  table$addColumnInfo(name = "log_lik", title = gettext("Log. Lik"),     type = "number")
+  table$addColumnInfo(name = "n_par",   title = gettext("df"),           type = "integer")
 
   return(table)
 }
@@ -159,6 +100,8 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
     results <- results[order, , drop=FALSE]
   }
 
+  comparisonTable$title <- gettextf("Distribution comparison table (n=%1$i)", length(variable))
+
   comparisonTable$setData(results)
 
   return(distributions[order])
@@ -173,8 +116,8 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
 }
 
 .ccdDistributionOutput <- function(jaspResults, options, distribution, variable) {
-  distributionContainer <- jaspResults[[distribution@name]] %setOrRetrieve% createJaspContainer(
-    title = distribution@name,
+  distributionContainer <- jaspResults[[DistributionS7::as_latex(distribution)]] %setOrRetrieve% createJaspContainer(
+    title = mathExpression(DistributionS7::as_latex(distribution)),
     dependencies = .ccdDependencies("outputLimit", "outputLimitTo", "comparisonTableOrder", "comparisonTableOrderBy"),
     initCollapsed = TRUE
   )
@@ -193,12 +136,14 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
 
   table$addColumnInfo(name = "key",       title = gettext("Key"),       type = "string")
   table$addColumnInfo(name = "name",      title = gettext("Name"),      type = "string")
+  table$addColumnInfo(name = "label",     title = gettext("Label"),     type = "string")
   table$addColumnInfo(name = "estimate",  title = gettext("Estimate"),  type = "number")
 
   results <- list()
 
-  results[["key"]]  <- DistributionS7::parameter_properties(distribution, property="key",  which="free") |> unlist()
-  results[["name"]] <- DistributionS7::parameter_properties(distribution, property="name", which="free") |> unlist()
+  results[["key"]]  <-  DistributionS7::parameter_properties(distribution, property="key",   which="free") |> unlist()
+  results[["name"]] <-  DistributionS7::parameter_properties(distribution, property="name",  which="free") |> unlist()
+  results[["label"]] <- DistributionS7::parameter_properties(distribution, property="label", which="free") |> unlist() |> mathExpression()
   results[["estimate"]] <- DistributionS7::parameter_values(distribution, which="free") |> unlist()
 
   table$setData(results)
@@ -269,8 +214,8 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
 }
 
 .ccdDependencies <- function(...) {
-  c("variable", "distributionSpecification", "manualDistributionSpecification", "shiftedDistributionsIncluded",
-    "dataBoundedBelow", "dataBoundedBelowAt", "dataBoundedAbove", "dataBoundedAboveAt", ...)
+  c("variable", "distributionSpecification", "presetUnbounded", "presetShifted", "presetBounded", "presetBoundedMin",
+    ...)
 }
 
 
