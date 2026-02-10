@@ -2,6 +2,7 @@ import QtQuick
 import QtQuick.Layouts
 import JASP
 import JASP.Controls
+import "./common/DistributionPresets.js" as DistributionPresets
 
 Form
 {
@@ -21,74 +22,59 @@ Form
 		}
 	}
 
-	RadioButtonGroup
+	Group
 	{
-		name: "distributionSpecification"
-		title: qsTr("Distribution specification")
-		RadioButton
+		title: qsTr("Distribution specification presets")
+		CheckBox
 		{
-			id: distributionSpecificationAuto
-			value: "auto"
-			label: qsTr("Automatic")
+			label: qsTr("Unbounded distributions")
+			name: "presetUnbounded"
+			id: presetUnbounded
 			checked: true
 		}
 
-		RadioButton
-		{
-			id: distributionSpecificationManual
-			value: "manual"
-			label: qsTr("Manual")
-		}
-	}
-
-	Group
-	{
-		title: qsTr("Automatic distribution specification")
-		visible: distributionSpecificationAuto.checked
-
-		columns: 1
 		CheckBox
 		{
-			label: qsTr("Data are bounded from below at")
-			id: dataBoundedBelow
-			name: "dataBoundedBelow"
-			childrenOnSameRow: true
+			label: qsTr("Shifted distributions")
+			name: "presetShifted"
+			id: presetShifted
+		}
+
+		CheckBox
+		{
+			label: qsTr("Bounded distributions")
+			name: "presetBounded"
+			id: presetBounded
 			DoubleField
 			{
-				name: "dataBoundedBelowAt"
+				label: qsTr("Minimum")
+				name: "presetBoundedMin"
 				value: 0
-				max: dataBoundedAbove.checked ? dataBoundedAboveAt.value : Infinity
+				min: -Infinity
+				id: presetBoundedMin
 			}
-		}
-
-		CheckBox
-		{
-			label: qsTr("Data are bounded from above at")
-			id: dataBoundedAbove
-			name: "dataBoundedAbove"
-			childrenOnSameRow: true
-			DoubleField
-			{
-				name: "dataBoundedAboveAt"
-				id: dataBoundedAboveAt
-				value: 1
-			}
-		}
-
-		CheckBox
-		{
-			label: qsTr("Include shifted distributions")
-			name: "shiftedDistributionsIncluded"
-			enabled: !dataBoundedAbove.checked & !dataBoundedBelow.checked
 		}
 	}
 
 	TextArea
 	{
-		title: qsTr("Manual distribution specification")
-		visible: distributionSpecificationManual.checked
-		name: "manualDistributionSpecification"
-		text: "normal(mu=0, sigma=1)"
+		title: qsTr("Distribution specification")
+		name: "distributionSpecification"
+		text: {
+			var lines = []
+			if (presetUnbounded.checked)
+				lines = lines.concat(DistributionPresets.unbounded)
+			if (presetShifted.checked)
+				lines = lines.concat(DistributionPresets.shifted)
+			if (presetBounded.checked) {
+				if (presetBoundedMin.value === 0) {
+					lines = lines.concat(DistributionPresets.bounded)
+				} else {
+					lines = lines.concat(DistributionPresets.fixedShifted(presetBoundedMin.value))
+				}
+			}
+			return lines.join("\n")
+		}
 		separator: "\n"
 	}
 
