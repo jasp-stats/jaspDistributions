@@ -24,7 +24,7 @@ Form
 
 	Group
 	{
-		title: qsTr("Distribution specification presets (!)")
+		title: qsTr("Distribution specification presets")
 		CheckBox
 		{
 			label: qsTr("Unbounded distributions")

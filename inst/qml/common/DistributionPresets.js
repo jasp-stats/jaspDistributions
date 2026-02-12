@@ -28,7 +28,6 @@ var bounded = [
     "LogNormal(mu=0, sigma=1)",
     "Gamma(alpha=2, theta=1)",
     "InverseGamma(alpha=2, theta=1)",
-    "Gompertz(eta=2, beta=1)",
     "LogLogistic(mu=0, sigma=1)",
     "Wald(mu=1, lambda=1)",
     "Weibull(shape=2, scale=1)"
