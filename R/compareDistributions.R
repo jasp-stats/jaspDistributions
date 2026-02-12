@@ -253,7 +253,7 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
     ks_test     = gettext("Kolmogorov-Smirnov"),
     ad_test     = gettext("Anderson-Darling"),
     cvm_test    = gettext("Cramér–von Mises"),
-    lillie_test = gettext("Lillienfors"),
+    lillie_test = gettext("Lilliefors"),
     shapiro_wilk_test = gettext("Shapiro-Wilk"),
     shapiro_francia_test = gettext("Shapiro-Francia")
   )
