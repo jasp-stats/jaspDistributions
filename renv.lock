@@ -39,7 +39,7 @@
       "RemoteUsername": "Kucharssim",
       "RemoteRepo": "DistributionS7",
       "RemoteRef": "main",
-      "RemoteSha": "62c7195fe6a1166877bfd8f993df44c19fd04024",
+      "RemoteSha": "ea829d451840c73401610656b8763c2d9411ae30",
       "Remotes": "jasp-stats/jaspGraphs",
       "Requirements": [
         "R",
@@ -57,7 +57,7 @@
         "sgt",
         "sn"
       ],
-      "Hash": "013b459213e5527eb5fdd67a1ef3db91"
+      "Hash": "798548fca621973d80f61789f1d4deaa"
     },
     "Formula": {
       "Package": "Formula",
