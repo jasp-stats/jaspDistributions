@@ -24,13 +24,14 @@ Form
 
 	Group
 	{
-		title: qsTr("Distribution specification presets")
+		title: qsTr("Distribution specification presets (!)")
 		CheckBox
 		{
 			label: qsTr("Unbounded distributions")
 			name: "presetUnbounded"
 			id: presetUnbounded
 			checked: true
+			onClicked: distributionSpecification.userEnteredInput()
 		}
 
 		CheckBox
@@ -38,6 +39,7 @@ Form
 			label: qsTr("Shifted distributions")
 			name: "presetShifted"
 			id: presetShifted
+			onClicked: distributionSpecification.userEnteredInput()
 		}
 
 		CheckBox
@@ -45,6 +47,7 @@ Form
 			label: qsTr("Bounded distributions")
 			name: "presetBounded"
 			id: presetBounded
+			onClicked: distributionSpecification.userEnteredInput()
 			DoubleField
 			{
 				label: qsTr("Minimum")
@@ -60,6 +63,7 @@ Form
 	{
 		title: qsTr("Distribution specification")
 		name: "distributionSpecification"
+		id: distributionSpecification
 		text: {
 			var lines = []
 			if (presetUnbounded.checked)

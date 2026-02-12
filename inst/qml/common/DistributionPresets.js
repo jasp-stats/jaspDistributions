@@ -1,48 +1,48 @@
 .pragma library
 
 var unbounded = [
-    "normal(mu=0, sigma=1)",
-    "cauchy(mu=0, sigma=1)",
-    "student_t(nu=5, mu=0, sigma=1)",
-    "gumbel(mu=0, beta=1)",
-    "laplace(mu=0, beta=1)",
-    "logistic(mu=0, sigma=1)",
-    "skew_normal(xi=0, omega=1, alpha=0)",
-    "skew_cauchy(xi=0, omega=1, alpha=0)",
-    "skew_t(xi=0, omega=1, alpha=0, nu=5)",
-    "symmetric_generalized_normal(mu=0, alpha=1, beta=2)"
+    "Normal(mu=0, sigma=1)",
+    "Cauchy(mu=0, sigma=1)",
+    "StudentT(nu=5, mu=0, sigma=1)",
+    "Gumbel(mu=0, beta=1)",
+    "Laplace(mu=0, beta=1)",
+    "Logistic(mu=0, sigma=1)",
+    "SkewNormal(xi=0, omega=1, alpha=0)",
+    "SkewCauchy(xi=0, omega=1, alpha=0)",
+    "SkewT(xi=0, omega=1, alpha=0, nu=5)",
+    "SymmetricGeneralizedNormal(mu=0, alpha=1, beta=2)"
 ]
 
 var shifted = [
-    "shifted_exponential(lambda=1)",
-    "shifted_log_normal(mu=0, sigma=1)",
-    "shifted_gamma(alpha=2, theta=1)",
-    "shifted_inverse_gamma(alpha=2, theta=1)",
-    "shifted_log_logistic(mu=0, sigma=1)",
-    "shifted_wald(mu=1, lambda=1)",
-    "shifted_weibull(shape=2, scale=1)"
+    "ShiftedExponential(lambda=1)",
+    "ShiftedLogNormal(mu=0, sigma=1)",
+    "ShiftedGamma(alpha=2, theta=1)",
+    "ShiftedInverseGamma(alpha=2, theta=1)",
+    "ShiftedLogLogistic(mu=0, sigma=1)",
+    "ShiftedWald(mu=1, lambda=1)",
+    "ShiftedWeibull(shape=2, scale=1)"
 ]
 
 var bounded = [
-    "exponential(lambda=1)",
-    "log_normal(mu=0, sigma=1)",
-    "gamma(alpha = 2, theta = 1)",
-    "inverse_gamma(alpha = 2, theta = 1)",
-    "gompertz(eta=2, beta=1)",
-    "log_logistic(mu=0, sigma=1)",
-    "wald(mu=1, lambda=1)",
-    "weibull(shape=2, scale=1)"
+    "Exponential(lambda=1)",
+    "LogNormal(mu=0, sigma=1)",
+    "Gamma(alpha=2, theta=1)",
+    "InverseGamma(alpha=2, theta=1)",
+    "Gompertz(eta=2, beta=1)",
+    "LogLogistic(mu=0, sigma=1)",
+    "Wald(mu=1, lambda=1)",
+    "Weibull(shape=2, scale=1)"
 ]
 
 function fixedShifted(shiftValue) {
     var shifted = [
-        "shifted_exponential(lambda=1, shift=fixed(.shift))",
-        "shifted_log_normal(mu=0, sigma=1, shift=fixed(.shift))",
-        "shifted_gamma(alpha=2, theta=1, shift=fixed(.shift))",
-        "shifted_inverse_gamma(alpha=2, theta=1, shift=fixed(.shift))",
-        "shifted_log_logistic(mu=0, sigma=1, shift=fixed(.shift))",
-        "shifted_wald(mu=1, lambda=1, shift=fixed(.shift))",
-        "shifted_weibull(shape=2, scale=1, shift=fixed(.shift))"
+        "ShiftedExponential(lambda=1, shift=fixed(.shift))",
+        "ShiftedLogNormal(mu=0, sigma=1, shift=fixed(.shift))",
+        "ShiftedGamma(alpha=2, theta=1, shift=fixed(.shift))",
+        "ShiftedInverseGamma(alpha=2, theta=1, shift=fixed(.shift))",
+        "ShiftedLogLogistic(mu=0, sigma=1, shift=fixed(.shift))",
+        "ShiftedWald(mu=1, lambda=1, shift=fixed(.shift))",
+        "ShiftedWeibull(shape=2, scale=1, shift=fixed(.shift))"
     ]
     return shifted.map(function(dist) { return dist.replace(".shift", shiftValue) })
 }

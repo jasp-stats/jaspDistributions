@@ -19,14 +19,37 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
   .ccdPerDistributionOutput(jaspResults, options, distributions, variable)
 }
 
+.exportedDistributions <- c("Amoroso", "Beta", "BetaPrime", "Binomial", "Cauchy", "CentralF", "ChiSquared",
+                            "Exponential", "Frechet", "Gamma", "Gompertz", "Gumbel", "InverseGamma", "Laplace", "Logistic",
+                            "LogLogistic", "LogNormal", "NegativeBinomial", "NoncentralChiSquared", "NoncentralF",
+                            "NoncentralStudentT", "NoncentralT", "Normal", "Pareto", "ShiftedExponential",
+                            "ShiftedGamma", "ShiftedInverseGamma", "ShiftedLogLogistic", "ShiftedLogNormal", "ShiftedWald",
+                            "ShiftedWeibull", "SkewCauchy", "SkewedGeneralizedT", "SkewNormal", "SkewT", "StandardNormal",
+                            "StandardT", "StretchedBeta", "StudentT", "SymmetricGeneralizedNormal", "Triangular", "Uniform",
+                            "Wald", "Weibull")
+
+.getSafeEnv <- function() {
+  packenv <- asNamespace("DistributionS7")
+  env <- new.env(parent=emptyenv())
+  names <- c(.exportedDistributions, "fixed", methods::getGroupMembers("Arith"))
+  for (n in names) env[[n]] <- get(n, envir = packenv)
+  return(env)
+}
+
 .ccdGetDistributions <- function(jaspResults, variable, options) {
   syntax <- strsplit(options[["distributionSpecification"]], "\n")[[1]]
   syntax <- unique(syntax)
 
-  env <- asNamespace("DistributionS7")
+  env <- .getSafeEnv()
 
   distributions <- lapply(syntax, function(txt) {
-    expr <- parse(text=txt)
+    expr <- parse(text=txt)[[1]]
+
+    if (!as.character(expr[[1]]) %in% .exportedDistributions)
+      jaspBase::.quitAnalysis(
+        message = gettextf("Distribution definition was %1$s, but must be one of %2$s",
+                           txt, paste(sprintf("`%s`", .exportedDistributions), collapse = ", "))
+      )
 
     # make distribution object
     distribution <- try(eval(expr, envir=env))
@@ -36,16 +59,16 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
                            txt, .extractErrorMessage(distribution)))
 
     # try fitting
-    result <- try(DistributionS7::fit_distribution(
-      distribution=distribution,
+    result <- try(DistributionS7::fit(
+      distribution,
       estimator=DistributionS7::Mle(),
       data=variable
     ))
 
     # try manual starting values
     if (isTryError(result))
-      result <- try(DistributionS7::fit_distribution(
-        distribution=distribution,
+      result <- try(DistributionS7::fit(
+        distribution,
         estimator=DistributionS7::Mle(start = DistributionS7::parameter_values(distribution, which="free")),
         data=variable
       ))
@@ -56,6 +79,8 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
                            txt, .extractErrorMessage(result)))
     return(result)
   })
+  distributions <- unique(distributions)
+
 
   return(distributions)
 }
@@ -70,10 +95,10 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
   )
   table$showSpecifiedColumnsOnly <- TRUE
   table$addColumnInfo(name = "name",    title = gettext("Distribution"), type = "string")
+  table$addColumnInfo(name = "w_aic",   title = gettext("AIC"),          type = "number", overtitle = gettext("Weights"))
+  table$addColumnInfo(name = "w_bic",   title = gettext("BIC"),          type = "number", overtitle = gettext("Weights"))
   table$addColumnInfo(name = "aic",     title = gettext("AIC"),          type = "number")
   table$addColumnInfo(name = "bic",     title = gettext("BIC"),          type = "number")
-  table$addColumnInfo(name = "w_aic",   title = gettext("AIC weight"),   type = "number")
-  table$addColumnInfo(name = "w_bic",   title = gettext("BIC weight"),   type = "number")
   table$addColumnInfo(name = "log_lik", title = gettext("Log. Lik"),     type = "number")
   table$addColumnInfo(name = "n_par",   title = gettext("df"),           type = "integer")
 
@@ -124,7 +149,7 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
   )
 
   .ccdParameterTable(distributionContainer, options, distribution, variable)
-  .ccdGofTable(distributionContainer, options, distribution, variable)
+  .ccdGofTable      (distributionContainer, options, distribution, variable)
   .ccdEmpiricalPlots(distributionContainer, options, distribution, variable)
 
 }
@@ -149,56 +174,78 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
 
   table$setData(results)
 
+  if (DistributionS7::nfixed(distribution) > 0) {
+    parameters <- DistributionS7::parameters(distribution, which="fixed")
+    output <- vapply(parameters, function(p) sprintf("%1$s = %2$s", p@label, format(p@value, digits=3)), character(1))
+    output <- paste(output, collapse = ", ")
+    output <- gettextf("The following parameters were held constant: %s.", mathExpression(output))
+    table$addFootnote(message = output)
+  }
+
   container[["parameterEstimates"]] <- table
 }
 
 .ccdGofTable <- function(container, options, distribution, variable) {
   if (!options[["goodnessOfFit"]]) return()
+  if (!is.null(container[["goodnessOfFit"]])) return()
 
   table <- createJaspTable(title = gettext("Goodness of fit"),
                            dependencies = c("goodnessOfFit", "goodnessOfFitBootstrap", "goodnessOfFitBootstrapSamples"))
 
-  table$addColumnInfo(name = "test", title = gettext("Test"), type = "string")
+  table$addColumnInfo(name = "test",      title = gettext("Test"),      type = "string")
   table$addColumnInfo(name = "statistic", title = gettext("Statistic"), type = "number")
-  table$addColumnInfo(name = "p_value", title = gettext("p"), type="pvalue")
+  table$addColumnInfo(name = "p_value",   title = gettext("p"),         type="pvalue")
 
   container[["goodnessOfFit"]] <- table
 
-  npar <- !(DistributionS7::parameter_properties(distribution, property="fixed") |> unlist())
-  estimated <- sum(npar) > 0
+  samples <- if(options[["goodnessOfFitBootstrap"]]) options[["goodnessOfFitBootstrapSamples"]] else 0L
+  if (samples > 0L) {
+    table$addFootnote(message = gettextf("Based on %1$i parametric bootstrap samples.", samples), colNames = "p_value")
+    jaspBase::startProgressbar(expectedTicks = samples, label = gettext("Bootstrapping..."))
+  }
 
-  results <- try(DistributionS7::gof_test(distribution, variable, estimated=estimated))
+
+  results <- try(DistributionS7::gof_test(
+    distribution, variable, estimated=TRUE,
+    bootstrap=DistributionS7::Bootstrap(samples=samples, callback = jaspBase::progressbarTick)
+    ))
+
+  if (isTryError(results)) {
+    table$setError(gettextf("Could not obtain goodness of fit: </br></br>: %s", .extractErrorMessage(results)))
+    return()
+  }
   results[["test"]] <- .ccdGofTestLabels(results[["test"]])
 
-  if(isTryError(results)) results <- NULL
+
 
   table$setData(results)
 }
 
-.ccdEmpiricalPlots <- function(distributionContainer, options, distribution, variable) {
+.ccdEmpiricalPlots <- function(container, options, distribution, variable) {
   if (!options[["empiricalPlots"]]) return()
+  if (!is.null(container[["empiricalPlots"]])) return()
 
-  container <- createJaspContainer(title = gettext("Empirical plots"),
+  plotContainer <- createJaspContainer(title = gettext("Empirical plots"),
                                    dependencies = c("empiricalPlots", "empiricalPlotsCi", "empiricalPlotsCiLevel"))
 
-  container[["hist"]] <- createJaspPlot(
+  plotContainer[["hist"]] <- createJaspPlot(
     title = gettext("Histogram vs. theoretical density"),
     plot = DistributionS7::plot_hist(distribution, variable, name=options[["variable"]])
   )
-  container[["qq"]] <- createJaspPlot(
+  plotContainer[["qq"]] <- createJaspPlot(
     title = gettext("Q-Q plot"),
     plot = DistributionS7::plot_qq(distribution, variable, ci = options[["empiricalPlotsCi"]], ci_level = options[["empiricalPlotsCiLevel"]])
   )
-  container[["ecdf"]] <- createJaspPlot(
+  plotContainer[["ecdf"]] <- createJaspPlot(
     title = gettext("Empirical vs. theoretical cumulative probability"),
     plot = DistributionS7::plot_ecdf(distribution, variable, name=options[["variable"]])
   )
-  container[["pp"]] <- createJaspPlot(
+  plotContainer[["pp"]] <- createJaspPlot(
     title = gettext("P-P plot"),
     plot = DistributionS7::plot_pp(distribution, variable, ci = options[["empiricalPlotsCi"]], ci_level = options[["empiricalPlotsCiLevel"]])
   )
 
-  distributionContainer[["empiricalPlots"]] <- container
+  container[["empiricalPlots"]] <- plotContainer
 }
 
 .ccdGofTestLabels <- function(keys) {
