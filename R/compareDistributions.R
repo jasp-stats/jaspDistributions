@@ -39,6 +39,9 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
 .ccdGetDistributions <- function(jaspResults, variable, options) {
   syntax <- strsplit(options[["distributionSpecification"]], "\n")[[1]]
   syntax <- unique(syntax)
+  syntax <- gsub(" ", "", syntax)
+  syntax <- syntax[syntax != ""]
+  syntax <- syntax[substring(syntax, first=1, last = 1) != "#"]
 
   env <- .getSafeEnv()
 
@@ -165,16 +168,21 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
   table$addColumnInfo(name = "label",     title = gettext("Label"),     type = "string")
   table$addColumnInfo(name = "estimate",  title = gettext("Estimate"),  type = "number")
 
-  results <- list()
+  if (DistributionS7::nfree(distribution) > 0L) {
+    results <- list()
 
-  results[["key"]]  <-  DistributionS7::parameter_properties(distribution, property="key",   which="free") |> unlist()
-  results[["name"]] <-  DistributionS7::parameter_properties(distribution, property="name",  which="free") |> unlist()
-  results[["label"]] <- DistributionS7::parameter_properties(distribution, property="label", which="free") |> unlist() |> mathExpression()
-  results[["estimate"]] <- DistributionS7::parameter_values(distribution, which="free") |> unlist()
+    results[["key"]]  <-  DistributionS7::parameter_properties(distribution, property="key",   which="free") |> unlist()
+    results[["name"]] <-  DistributionS7::parameter_properties(distribution, property="name",  which="free") |> unlist()
+    results[["label"]] <- DistributionS7::parameter_properties(distribution, property="label", which="free") |> unlist() |> mathExpression()
+    results[["estimate"]] <- DistributionS7::parameter_values(distribution, which="free") |> unlist()
 
-  table$setData(results)
+    table$setData(results)
+  } else {
+    table$addFootnote(message = gettext("Distribution has no parameters to estimate."))
+  }
 
-  if (DistributionS7::nfixed(distribution) > 0) {
+
+  if (DistributionS7::nfixed(distribution) > 0L) {
     parameters <- DistributionS7::parameters(distribution, which="fixed")
     output <- vapply(parameters, function(p) sprintf("%1$s = %2$s", p@label, format(p@value, digits=3)), character(1))
     output <- paste(output, collapse = ", ")
@@ -262,8 +270,7 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
 }
 
 .ccdDependencies <- function(...) {
-  c("variable", "distributionSpecification", "presetUnbounded", "presetShifted", "presetBounded", "presetBoundedMin",
-    ...)
+  c("variable", "distributionSpecification", ...)
 }
 
 

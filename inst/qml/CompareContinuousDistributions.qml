@@ -26,40 +26,71 @@ Form
 	{
 		title: qsTr("Distribution specification presets")
 		info: qsTr("Start with a set of pre-specified distributions")
-		CheckBox
+		Button
 		{
-			label: qsTr("Unbounded distributions")
-			name: "presetUnbounded"
 			id: presetUnbounded
+			label: qsTr("Add unbounded distributions")
 			info: qsTr("Add unbounded distributions (e.g., Normal, Cauchy, ...).")
-			checked: true
-			onClicked: distributionSpecification.userEnteredInput()
+			onClicked: {
+				const text = DistributionPresets.addPresetDistributions(
+					distributionSpecification.text,
+					DistributionPresets.unbounded
+				);
+				distributionSpecification.text = text;
+				distributionSpecification.userEnteredInput();
+			}
 		}
 
-		CheckBox
+		Button
 		{
-			label: qsTr("Shifted distributions")
-			name: "presetShifted"
-			id: presetShifted
-			info: qsTr("Add bounded distributions (Exponential, Gamma, ...) with an added shift parameter. The shift parameter will be estimated by default.")
-			onClicked: distributionSpecification.userEnteredInput()
-		}
-
-		CheckBox
-		{
-			label: qsTr("Bounded distributions")
-			name: "presetBounded"
 			id: presetBounded
+			label: qsTr("Add bounded distributions")
 			info: qsTr("Add bounded distributions (Exponential, Gamma, ...). ")
-			onClicked: distributionSpecification.userEnteredInput()
-			DoubleField
+			onClicked: {
+				const text = DistributionPresets.addPresetDistributions(
+					distributionSpecification.text,
+					DistributionPresets.bounded
+				);
+				distributionSpecification.text = text;
+				distributionSpecification.userEnteredInput();
+			}
+		}
+
+		Group
+		{
+			title: qsTr("Shifted distributions")
+			info: qsTr("Shifted distributions are distributions that have an additional shift parameter to make a bounded distribution (i.e., Gamma) an unbounded one.")
+
+			CheckBox
 			{
-				label: qsTr("Minimum")
-				name: "presetBoundedMin"
-				info: qsTr("Where is the minimum bound of the distribution. If not zero, the equivalent distribution with a shift parameter will be specified; the shift parameter will be by default treated as a constant (not estimated).")
-				value: 0
-				min: -Infinity
-				id: presetBoundedMin
+				id: presetShiftedFixed
+				name: "presetShiftedFixed"
+				label: qsTr("Fix the shift at")
+				info: qsTr("The shift parameter will be consired fixed at a certain value, i.e., not estimated from the data.")
+				childrenOnSameRow: true
+				DoubleField
+				{
+					id: presetShiftedShift
+					name: "presetShiftedShift"
+					value: 0
+					min: -Infinity
+					info: qsTr("Value of the shift parameter (Typically, the theoretical minimum of the data.)")
+				}
+			}
+
+			Button
+			{
+				id: presetShifted
+				label: qsTr("Add shifted distributions")
+				info: qsTr("Add bounded distributions with an added shift parameter (Shifted Exponential, Shifted Gamma, ...).")
+				onClicked: {
+					const text = DistributionPresets.addPresetDistributions(
+						distributionSpecification.text,
+						DistributionPresets.shifted(presetShiftedFixed.checked, presetShiftedShift.value)
+					);
+				distributionSpecification.text = text;
+				distributionSpecification.userEnteredInput();
+				}
 			}
 		}
 	}
@@ -76,21 +107,7 @@ Form
 		name: "distributionSpecification"
 		id: distributionSpecification
 		info: qsTr("Specify a list of distributions to fit to the data and compare.")
-		text: {
-			var lines = []
-			if (presetUnbounded.checked)
-				lines = lines.concat(DistributionPresets.unbounded)
-			if (presetShifted.checked)
-				lines = lines.concat(DistributionPresets.shifted)
-			if (presetBounded.checked) {
-				if (presetBoundedMin.value === 0) {
-					lines = lines.concat(DistributionPresets.bounded)
-				} else {
-					lines = lines.concat(DistributionPresets.fixedShifted(presetBoundedMin.value))
-				}
-			}
-			return lines.join("\n")
-		}
+		text: ""
 		separator: "\n"
 	}
 

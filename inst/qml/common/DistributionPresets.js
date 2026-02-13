@@ -13,16 +13,6 @@ var unbounded = [
     "SymmetricGeneralizedNormal(mu=0, alpha=1, beta=2)"
 ]
 
-var shifted = [
-    "ShiftedExponential(lambda=1)",
-    "ShiftedLogNormal(mu=0, sigma=1)",
-    "ShiftedGamma(alpha=2, theta=1)",
-    "ShiftedInverseGamma(alpha=2, theta=1)",
-    "ShiftedLogLogistic(mu=0, sigma=1)",
-    "ShiftedWald(mu=1, lambda=1)",
-    "ShiftedWeibull(shape=2, scale=1)"
-]
-
 var bounded = [
     "Exponential(lambda=1)",
     "LogNormal(mu=0, sigma=1)",
@@ -33,15 +23,40 @@ var bounded = [
     "Weibull(shape=2, scale=1)"
 ]
 
-function fixedShifted(shiftValue) {
-    var shifted = [
-        "ShiftedExponential(lambda=1, shift=fixed(.shift))",
-        "ShiftedLogNormal(mu=0, sigma=1, shift=fixed(.shift))",
-        "ShiftedGamma(alpha=2, theta=1, shift=fixed(.shift))",
-        "ShiftedInverseGamma(alpha=2, theta=1, shift=fixed(.shift))",
-        "ShiftedLogLogistic(mu=0, sigma=1, shift=fixed(.shift))",
-        "ShiftedWald(mu=1, lambda=1, shift=fixed(.shift))",
-        "ShiftedWeibull(shape=2, scale=1, shift=fixed(.shift))"
-    ]
-    return shifted.map(function(dist) { return dist.replace(".shift", shiftValue) })
+function shifted(fixed, shift) {
+    if (fixed) {
+        var shifted = [
+            "ShiftedExponential(lambda=1, shift=fixed(.shift))",
+            "ShiftedLogNormal(mu=0, sigma=1, shift=fixed(.shift))",
+            "ShiftedGamma(alpha=2, theta=1, shift=fixed(.shift))",
+            "ShiftedInverseGamma(alpha=2, theta=1, shift=fixed(.shift))",
+            "ShiftedLogLogistic(mu=0, sigma=1, shift=fixed(.shift))",
+            "ShiftedWald(mu=1, lambda=1, shift=fixed(.shift))",
+            "ShiftedWeibull(shape=2, scale=1, shift=fixed(.shift))"
+        ]
+        shifted = shifted.map(function(dist) { return dist.replace(".shift", shift) })
+    } else {
+        var shifted = [
+            "ShiftedExponential(lambda=1)",
+            "ShiftedLogNormal(mu=0, sigma=1)",
+            "ShiftedGamma(alpha=2, theta=1)",
+            "ShiftedInverseGamma(alpha=2, theta=1)",
+            "ShiftedLogLogistic(mu=0, sigma=1)",
+            "ShiftedWald(mu=1, lambda=1)",
+            "ShiftedWeibull(shape=2, scale=1)"
+        ]
+    }
+    return shifted
+}
+
+function addPresetDistributions(text, newLines) {
+	var lines = text.split("\n").filter(str => /\w+/.test(str));
+	var specified = new Set(lines.map(str => str.replace(/\s+/g, "")));
+	for (const line of newLines) {
+		if (!specified.has(line.replace(/\s+/g, ""))) {
+			lines.push(line);
+			specified.add(line);
+		}
+	}
+	return lines.join("\n");
 }
