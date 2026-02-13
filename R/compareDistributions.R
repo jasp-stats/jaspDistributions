@@ -140,12 +140,12 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
   if (options[["outputLimit"]] && options[["outputLimitTo"]] <= length(distributions))
     distributions <- distributions[seq_len(options[["outputLimitTo"]])]
 
-  for (distribution in distributions)
-    .ccdDistributionOutput(jaspResults, options, distribution, variable)
+  for (i in seq_along(distributions))
+    .ccdDistributionOutput(jaspResults, options, distributions[[i]], variable, sprintf("distribution%i", i))
 }
 
-.ccdDistributionOutput <- function(jaspResults, options, distribution, variable) {
-  distributionContainer <- jaspResults[[DistributionS7::as_latex(distribution)]] %setOrRetrieve% createJaspContainer(
+.ccdDistributionOutput <- function(jaspResults, options, distribution, variable, name) {
+  distributionContainer <- jaspResults[[name]] %setOrRetrieve% createJaspContainer(
     title = mathExpression(DistributionS7::as_latex(distribution)),
     dependencies = .ccdDependencies("outputLimit", "outputLimitTo", "comparisonTableOrder", "comparisonTableOrderBy"),
     initCollapsed = TRUE
