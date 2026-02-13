@@ -1,5 +1,4 @@
-testthat::local_edition(3)
-
+testthat::context("Compare continuous distributions")
 options(jaspLegacyRngKind=FALSE)
 
 options <- jaspTools::analysisOptions("compareContinuousDistributions")
@@ -18,12 +17,14 @@ results <- jaspTools::runAnalysis("compareContinuousDistributions", "test.csv", 
 
 
 testthat::test_that("Main comparison table works", {
+  testthat::local_edition(3)
   table <- results[["results"]][["comparisonTable"]][["data"]]
   table <- do.call(rbind, table)
   testthat::expect_snapshot(table)
 })
 
 testthat::test_that("Per distribution output works", {
+  testthat::local_edition(3)
   table <- results[["results"]][["distribution1"]][["collection"]][["distribution1_parameterEstimates"]][["data"]]
   table <- do.call(rbind, table)
   testthat::expect_snapshot(table)
@@ -49,3 +50,5 @@ testthat::test_that("Per distribution output works", {
   table <- results[["results"]][["distribution1"]][["collection"]][["distribution1_goodnessOfFit"]][["data"]]
   testthat::expect_snapshot(table)
 })
+
+options(jaspLegacyRngKind=TRUE)
