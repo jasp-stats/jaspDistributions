@@ -36,6 +36,6 @@ Column
 	Row
 	{
 		DoubleField	{ name: "shiftedInverseGammaShift";		label: qsTr("shift");		min: -Infinity;	defaultValue: 0 }
-		CheckBox	{ name: "shiftedInverseGammaShiftFixed";	label: qsTr("Fixed");	checked: true }
+		CheckBox	{ name: "shiftedInverseGammaShiftFixed";	label: qsTr("Fixed")}
 	}
 }

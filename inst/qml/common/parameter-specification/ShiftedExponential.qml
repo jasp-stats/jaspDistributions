@@ -23,6 +23,6 @@ Column
 	Row
 	{
 		DoubleField	{ name: "shiftedExponentialShift";		label: qsTr("shift");		min: -Infinity;	defaultValue: 0 }
-		CheckBox	{ name: "shiftedExponentialShiftFixed";	label: qsTr("Fixed");	checked: true}
+		CheckBox	{ name: "shiftedExponentialShiftFixed";	label: qsTr("Fixed")}
 	}
 }

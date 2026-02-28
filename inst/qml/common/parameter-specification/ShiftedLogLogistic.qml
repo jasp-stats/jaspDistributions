@@ -9,14 +9,14 @@ Column
 	Row
 	{
 		visible: parameters === "mu"
-		DoubleField	{ name: "shiftedLogLogisticMu";		label: qsTr("μ (log-location)");	min: -Infinity;	defaultValue: 0 }
+		DoubleField	{ name: "shiftedLogLogisticMu";		label: qsTr("μ (log location)");	min: -Infinity;	defaultValue: 0 }
 		CheckBox	{ name: "shiftedLogLogisticMuFixed";	label: qsTr("Fixed") }
 	}
 
 	Row
 	{
 		visible: parameters === "mu"
-		DoubleField	{ name: "shiftedLogLogisticSigma";		label: qsTr("σ (log-scale)");	min: 0;			defaultValue: 1 }
+		DoubleField	{ name: "shiftedLogLogisticSigma";		label: qsTr("σ (log scale)");	min: 0;			defaultValue: 1 }
 		CheckBox	{ name: "shiftedLogLogisticSigmaFixed";	label: qsTr("Fixed") }
 	}
 
@@ -37,6 +37,6 @@ Column
 	Row
 	{
 		DoubleField	{ name: "shiftedLogLogisticShift";		label: qsTr("shift");		min: -Infinity;	defaultValue: 0 }
-		CheckBox	{ name: "shiftedLogLogisticShiftFixed";	label: qsTr("Fixed");	checked: true }
+		CheckBox	{ name: "shiftedLogLogisticShiftFixed";	label: qsTr("Fixed") }
 	}
 }

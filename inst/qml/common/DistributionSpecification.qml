@@ -36,7 +36,7 @@ Column
 			]
 		if (distribution.currentValue === "LogLogistic")
 			return [
-				{ label: qsTr("μ (log-location), σ (log-scale)"),	value: "nu"	},
+				{ label: qsTr("μ (log location), σ (log scale)"),	value: "mu"	},
 				{ label: qsTr("α (scale), β (shape)"),				value: "alpha"	}
 			]
 		if (distribution.currentValue === "Wald")
@@ -63,7 +63,7 @@ Column
 			]
 		if (distribution.currentValue === "ShiftedLogLogistic")
 			return [
-				{ label: qsTr("μ (log-location), σ (log-scale), shift"),	value: "mu"	},
+				{ label: qsTr("μ (log location), σ (log scale), shift"),	value: "mu"	},
 				{ label: qsTr("α (scale), β (shape), shift"),				value: "alpha"	}
 			]
 		if (distribution.currentValue === "ShiftedWald")
@@ -84,7 +84,7 @@ Column
 			values: [
 				// Unbounded
 				{ label: qsTr("Normal"),						value: "Normal"						},
-				{ label: qsTr("Standard Normal"),				value: "StandardNormal"				},
+				{ label: qsTr("Standard normal"),				value: "StandardNormal"				},
 				{ label: qsTr("Standard t"),					value: "StandardT"					},
 				{ label: qsTr("Student t"),						value: "StudentT"					},
 				{ label: qsTr("Noncentral t"),					value: "NoncentralT"				},
@@ -93,39 +93,39 @@ Column
 				{ label: qsTr("Gumbel"),						value: "Gumbel"						},
 				{ label: qsTr("Laplace"),						value: "Laplace"					},
 				{ label: qsTr("Logistic"),						value: "Logistic"					},
-				{ label: qsTr("Skewed Generalized t"),			value: "SkewedGeneralizedT"			},
-				{ label: qsTr("Symmetric Generalized Normal"),	value: "SymmetricGeneralizedNormal"	},
-				{ label: qsTr("Skew Normal"),					value: "SkewNormal"					},
+				{ label: qsTr("Skewed generalized t"),			value: "SkewedGeneralizedT"			},
+				{ label: qsTr("Symmetric generalized normal"),	value: "SymmetricGeneralizedNormal"	},
+				{ label: qsTr("Skew normal"),					value: "SkewNormal"					},
 				{ label: qsTr("Skew Cauchy"),					value: "SkewCauchy"					},
 				{ label: qsTr("Skew t"),						value: "SkewT"						},
 				// Bounded — fixed support
 				{ label: qsTr("Beta"),							value: "Beta"						},
-				{ label: qsTr("Beta Prime"),					value: "BetaPrime"					},
+				{ label: qsTr("Beta prime"),					value: "BetaPrime"					},
 				{ label: qsTr("F"),								value: "CentralF"					},
 				{ label: qsTr("Noncentral F"),					value: "NoncentralF"				},
-				{ label: qsTr("Chi-Squared"),					value: "ChiSquared"					},
-				{ label: qsTr("Noncentral Chi-Squared"),		value: "NoncentralChiSquared"		},
+				{ label: qsTr("Chi-squared"),					value: "ChiSquared"					},
+				{ label: qsTr("Noncentral chi-squared"),		value: "NoncentralChiSquared"		},
 				{ label: qsTr("Exponential"),					value: "Exponential"				},
 				{ label: qsTr("Gamma"),							value: "Gamma"						},
-				{ label: qsTr("Inverse Gamma"),					value: "InverseGamma"				},
+				{ label: qsTr("Inverse gamma"),					value: "InverseGamma"				},
 				{ label: qsTr("Gompertz"),						value: "Gompertz"					},
-				{ label: qsTr("Log-Logistic"),					value: "LogLogistic"				},
-				{ label: qsTr("Log-Normal"),					value: "LogNormal"					},
+				{ label: qsTr("Log-logistic"),					value: "LogLogistic"				},
+				{ label: qsTr("Log-normal"),					value: "LogNormal"					},
 				{ label: qsTr("Wald"),							value: "Wald"						},
 				{ label: qsTr("Weibull"),						value: "Weibull"					},
 				// Bounded — dynamic support
 				{ label: qsTr("Amoroso"),						value: "Amoroso"					},
-				{ label: qsTr("Stretched Beta"),				value: "StretchedBeta"				},
+				{ label: qsTr("Stretched beta"),				value: "StretchedBeta"				},
 				{ label: qsTr("Fréchet"),						value: "Frechet"					},
 				{ label: qsTr("Pareto"),						value: "Pareto"						},
 				{ label: qsTr("Triangular"),					value: "Triangular"					},
 				{ label: qsTr("Uniform"),						value: "Uniform"					},
 				// Shifted
 				{ label: qsTr("Shifted Exponential"),			value: "ShiftedExponential"			},
-				{ label: qsTr("Shifted Log-Normal"),			value: "ShiftedLogNormal"			},
+				{ label: qsTr("Shifted Log-normal"),			value: "ShiftedLogNormal"			},
 				{ label: qsTr("Shifted Gamma"),					value: "ShiftedGamma"				},
-				{ label: qsTr("Shifted Inverse Gamma"),			value: "ShiftedInverseGamma"		},
-				{ label: qsTr("Shifted Log-Logistic"),			value: "ShiftedLogLogistic"			},
+				{ label: qsTr("Shifted Inverse gamma"),			value: "ShiftedInverseGamma"		},
+				{ label: qsTr("Shifted Log-logistic"),			value: "ShiftedLogLogistic"			},
 				{ label: qsTr("Shifted Wald"),					value: "ShiftedWald"				},
 				{ label: qsTr("Shifted Weibull"),				value: "ShiftedWeibull"				}
 			]

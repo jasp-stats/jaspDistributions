@@ -8,13 +8,13 @@ Column
 
 	Row
 	{
-		DoubleField	{ name: "logNormalMu";		label: qsTr("μ (log-mean)");		min: -Infinity;	defaultValue: 0 }
+		DoubleField	{ name: "logNormalMu";		label: qsTr("μ (log mean)");		min: -Infinity;	defaultValue: 0 }
 		CheckBox	{ name: "logNormalMuFixed";	label: qsTr("Fixed") }
 	}
 
 	Row
 	{
-		DoubleField	{ name: "logNormalSigma";		label: qsTr("σ (log-std. dev.)");	min: 0;	defaultValue: 1 }
+		DoubleField	{ name: "logNormalSigma";		label: qsTr("σ (log std. deviation)");	min: 0;	defaultValue: 1 }
 		CheckBox	{ name: "logNormalSigmaFixed";	label: qsTr("Fixed") }
 	}
 }

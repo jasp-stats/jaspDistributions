@@ -9,14 +9,14 @@ Column
 	Row
 	{
 		visible: parameters === "mu"
-		DoubleField	{ name: "logLogisticMu";		label: qsTr("μ (log-location)");	min: -Infinity;	defaultValue: 0 }
+		DoubleField	{ name: "logLogisticMu";		label: qsTr("μ (log location)");	min: -Infinity;	defaultValue: 0 }
 		CheckBox	{ name: "logLogisticMuFixed";	label: qsTr("Fixed") }
 	}
 
 	Row
 	{
 		visible: parameters === "mu"
-		DoubleField	{ name: "logLogisticSigma";		label: qsTr("σ (log-scale)");	min: 0;	defaultValue: 1 }
+		DoubleField	{ name: "logLogisticSigma";		label: qsTr("σ (log scale)");	min: 0;	defaultValue: 1 }
 		CheckBox	{ name: "logLogisticSigmaFixed";	label: qsTr("Fixed") }
 	}
 

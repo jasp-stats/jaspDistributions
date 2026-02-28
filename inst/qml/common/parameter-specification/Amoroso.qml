@@ -9,7 +9,7 @@ Column
 	Row
 	{
 		DoubleField	{ name: "amorosoA";			label: qsTr("a (location)");	min: -Infinity;	defaultValue: 0 }
-		CheckBox	{ name: "amorosoAFixed";		label: qsTr("Fixed"); checked: true }
+		CheckBox	{ name: "amorosoAFixed";		label: qsTr("Fixed") }
 	}
 
 	Row

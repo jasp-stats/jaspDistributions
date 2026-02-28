@@ -44,6 +44,6 @@ Column
 	Row
 	{
 		DoubleField	{ name: "shiftedWaldShift";		label: qsTr("shift");		min: -Infinity;	defaultValue: 0 }
-		CheckBox	{ name: "shiftedWaldShiftFixed";	label: qsTr("Fixed");	checked: true }
+		CheckBox	{ name: "shiftedWaldShiftFixed";	label: qsTr("Fixed") }
 	}
 }
