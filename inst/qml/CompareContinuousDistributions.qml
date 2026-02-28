@@ -2,7 +2,7 @@ import QtQuick
 import QtQuick.Layouts
 import JASP
 import JASP.Controls
-import "./common/DistributionPresets.js" as DistributionPresets
+import "./common" as CD
 
 Form
 {
@@ -11,7 +11,7 @@ Form
 	VariablesForm
 	{
 		preferredHeight: jaspTheme.smallDefaultVariablesFormHeight
-		infoLabel: qsTr("Select data for distirbution comparison.")
+		infoLabel: qsTr("Select data for distribution comparison.")
 		visible: true
 		AvailableVariablesList { name: "allVariables" }
 		AssignedVariablesList
@@ -22,93 +22,14 @@ Form
 		}
 	}
 
-	Group
+
+	ComponentsList
 	{
-		title: qsTr("Distribution specification presets")
-		info: qsTr("Start with a set of pre-specified distributions")
-		Button
-		{
-			id: presetUnbounded
-			label: qsTr("Add unbounded distributions")
-			info: qsTr("Add unbounded distributions (e.g., Normal, Cauchy, ...).")
-			onClicked: {
-				const text = DistributionPresets.addPresetDistributions(
-					distributionSpecification.text,
-					DistributionPresets.unbounded
-				);
-				distributionSpecification.text = text;
-				distributionSpecification.userEnteredInput();
-			}
-		}
-
-		Button
-		{
-			id: presetBounded
-			label: qsTr("Add bounded distributions")
-			info: qsTr("Add bounded distributions (Exponential, Gamma, ...). ")
-			onClicked: {
-				const text = DistributionPresets.addPresetDistributions(
-					distributionSpecification.text,
-					DistributionPresets.bounded
-				);
-				distributionSpecification.text = text;
-				distributionSpecification.userEnteredInput();
-			}
-		}
-
-		Group
-		{
-			title: qsTr("Shifted distributions")
-			info: qsTr("Shifted distributions are distributions that have an additional shift parameter to make a bounded distribution (i.e., Gamma) an unbounded one.")
-
-			CheckBox
-			{
-				id: presetShiftedFixed
-				name: "presetShiftedFixed"
-				label: qsTr("Fix the shift at")
-				info: qsTr("The shift parameter will be consired fixed at a certain value, i.e., not estimated from the data.")
-				childrenOnSameRow: true
-				DoubleField
-				{
-					id: presetShiftedShift
-					name: "presetShiftedShift"
-					value: 0
-					min: -Infinity
-					info: qsTr("Value of the shift parameter (Typically, the theoretical minimum of the data.)")
-				}
-			}
-
-			Button
-			{
-				id: presetShifted
-				label: qsTr("Add shifted distributions")
-				info: qsTr("Add bounded distributions with an added shift parameter (Shifted Exponential, Shifted Gamma, ...).")
-				onClicked: {
-					const text = DistributionPresets.addPresetDistributions(
-						distributionSpecification.text,
-						DistributionPresets.shifted(presetShiftedFixed.checked, presetShiftedShift.value)
-					);
-				distributionSpecification.text = text;
-				distributionSpecification.userEnteredInput();
-				}
-			}
-		}
-	}
-
-	HelpButton
-	{
-		toolTip:			qsTr("Click to learn more about the syntax for distribution specification.")
-		helpPage:			"compareDistributionSyntax"
-	}
-
-	TextArea
-	{
-		title: qsTr("Distribution specification")
-		name: "distributionSpecification"
-		id: distributionSpecification
-		info: qsTr("Specify a list of distributions to fit to the data and compare.")
-		text: ""
-		separator: "\n"
+		name:				"distributions"
+		title:				qsTr("Specify distributions")
+		minimumItems:		2
+		rowComponent:		CD.CDDistributionEntry { }
+		// rowComponent: Column{}
 	}
 
 	Section
