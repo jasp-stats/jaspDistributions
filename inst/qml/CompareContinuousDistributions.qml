@@ -2,7 +2,7 @@ import QtQuick
 import QtQuick.Layouts
 import JASP
 import JASP.Controls
-import "./common" as CD
+import "./common" as Common
 
 Form
 {
@@ -22,14 +22,13 @@ Form
 		}
 	}
 
-
 	ComponentsList
 	{
 		name:				"distributions"
 		title:				qsTr("Specify distributions")
-		minimumItems:		2
-		rowComponent:		CD.CDDistributionEntry { }
-		// rowComponent: Column{}
+		info:				qsTr("Specify distributions to be compared...")
+		minimumItems:		1
+		rowComponent:		Common.DistributionSpecification { }
 	}
 
 	Section
