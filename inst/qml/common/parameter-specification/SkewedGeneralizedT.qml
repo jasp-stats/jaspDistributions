@@ -32,7 +32,7 @@ Column
 
 	Row
 	{
-		DoubleField	{ name: "skewedGeneralizedTQ";		label: qsTr("q (kurtosis)");	min: 0;	defaultValue: 10 }
+		DoubleField	{ name: "skewedGeneralizedTQ";		label: qsTr("q (kurtosis)");	min: 0;	defaultValue: 2 }
 		CheckBox	{ name: "skewedGeneralizedTQFixed";	label: qsTr("Fixed") }
 	}
 }

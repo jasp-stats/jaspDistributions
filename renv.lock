@@ -39,7 +39,7 @@
       "RemoteUsername": "Kucharssim",
       "RemoteRepo": "DistributionS7",
       "RemoteRef": "main",
-      "RemoteSha": "efddc6ae9514846f09418fdc92c07f5cdad0e268",
+      "RemoteSha": "8c5a709c120abc0f26697c6009769e4c2d889b9b",
       "Remotes": "jasp-stats/jaspGraphs",
       "Requirements": [
         "R",
@@ -57,7 +57,7 @@
         "sgt",
         "sn"
       ],
-      "Hash": "09479450036570e2b904072930e2fd5b"
+      "Hash": "447943d18df0900837a989b84de9aa5a"
     },
     "Formula": {
       "Package": "Formula",
@@ -1050,7 +1050,7 @@
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspGraphs",
       "RemoteRef": "master",
-      "RemoteSha": "c168567ea259e628ad4972c6b3a15acff1fdb8a3",
+      "RemoteSha": "ae4fcc4da06e459467c61e59a551a69191173e84",
       "Requirements": [
         "R6",
         "cli",
@@ -1064,7 +1064,7 @@
         "rlang",
         "scales"
       ],
-      "Hash": "8fb59e8fa05a2d1345a4179904febcba"
+      "Hash": "3f1e9af1a2815b39b2ff9ffe9851add5"
     },
     "jaspTools": {
       "Package": "jaspTools",
@@ -1889,7 +1889,7 @@
     },
     "sn": {
       "Package": "sn",
-      "Version": "2.1.2",
+      "Version": "2.1.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1901,7 +1901,7 @@
         "stats4",
         "utils"
       ],
-      "Hash": "42a9df211294560509942b6688088518"
+      "Hash": "c5d9fa2d5719642a6fb93a2009cd0132"
     },
     "stringi": {
       "Package": "stringi",
