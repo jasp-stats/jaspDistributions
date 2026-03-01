@@ -136,7 +136,7 @@ Column
 			name: "settings"
 			label: qsTr("Show parameter settings")
 			checked: false
-			visible: !["StandardNormal", "StandardT"].includes(distribution.currentValue)
+			visible: !["StandardNormal"].includes(distribution.currentValue)
 		}
 	}
 

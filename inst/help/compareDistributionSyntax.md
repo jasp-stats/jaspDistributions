@@ -62,7 +62,7 @@ The rest of the distributions are supported on the interval from 0 to infinity.
 Support of these distributions depends on the parameter values.
 
 - `Amoroso(a, theta, alpha, beta)`: Amoroso distribution with parameters `a`: location/bound, `theta`: scale, `alpha`: shape, `beta`: shape. The support is from `a` to infinity if `theta` is positive, and from -infinity to a if `theta` is negative. The parameter `a` is fixed by default. It is advisable to initialize `theta` at negative/positive value, depending on what boundedness you want to capture with the distribution.
-- `StretchedBeta(alpha, beta, min, max)`: Beta distribution (see `Beta(alpa, beta)` above) stretched to the interval between parameters `min` and `max`. These two parameters are fixed by default.
+- `StretchedBeta(alpha, beta, min, max)`: Beta distribution (see `Beta(alpa, beta)` above) stretched to the interval between parameters `min` and `max`. These two parameters are always fixed.
 - `Frechet(alpha, sigma, theta)`: Fréchet distribution with parameters `alpha`: shape, `sigma`: scale, `theta`: location. The distribution is defined from `theta` to infinity.
 - `Pareto(alpha, beta)`: Pareto distribution with parameters `alpha`: shape, `beta`: scale.  The distribution is defined from `beta` to infinity.
 - `Triangular(a, b, c)`: Triangular distribution with `a`: minimum, `b`: maximum, and `c`: mode. The distribution is defined from `a` to `b`.

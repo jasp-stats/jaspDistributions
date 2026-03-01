@@ -8,6 +8,7 @@ Form
 {
 	columns: 1
 	info: qsTr("Specify a set of distributions, estimate their parameters, and compare their fit to data.")
+
 	VariablesForm
 	{
 		preferredHeight: jaspTheme.smallDefaultVariablesFormHeight

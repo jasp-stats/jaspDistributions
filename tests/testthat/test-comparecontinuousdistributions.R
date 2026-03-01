@@ -3,7 +3,33 @@ options(jaspLegacyRngKind=FALSE)
 
 options <- jaspTools::analysisOptions("compareContinuousDistributions")
 options$variable <- "contGamma"
-options$distributionSpecification <- "Normal(mu=0, sigma=fixed(1.4))\nGamma(alpha=2, theta=1)\nStandardNormal()\nExponential(lambda=1)"
+options$distributions <- list(
+  list(
+    distribution    = "Normal",
+    parameters      = "sigma",
+    normalMu        = 0,
+    normalMuFixed   = FALSE,
+    normalSigma     = 1.4,
+    normalSigmaFixed = TRUE
+  ),
+  list(
+    distribution     = "Gamma",
+    parameters       = "theta",
+    gammaAlpha       = 2,
+    gammaAlphaFixed  = FALSE,
+    gammaTheta       = 1,
+    gammaThetaFixed  = FALSE
+  ),
+  list(
+    distribution = "StandardNormal"
+  ),
+  list(
+    distribution           = "Exponential",
+    parameters             = "lambda",
+    exponentialLambda      = 1,
+    exponentialLambdaFixed = FALSE
+  )
+)
 options$comparisonTableOrderBy <- "bic"
 options$outputLimitTo <- 2
 options$goodnessOfFit <- TRUE
