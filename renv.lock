@@ -9,17 +9,6 @@
     ]
   },
   "Packages": {
-    "DBI": {
-      "Package": "DBI",
-      "Version": "1.2.3",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "methods"
-      ],
-      "Hash": "065ae649b05f1ff66bb0c793107508f5"
-    },
     "Deriv": {
       "Package": "Deriv",
       "Version": "4.2.0",
@@ -135,24 +124,6 @@
       ],
       "Hash": "45f0398006e83a5b10b72a90663d8d8c"
     },
-    "RSQLite": {
-      "Package": "RSQLite",
-      "Version": "2.4.6",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "DBI",
-        "R",
-        "bit64",
-        "blob",
-        "cpp11",
-        "memoise",
-        "methods",
-        "pkgconfig",
-        "rlang"
-      ],
-      "Hash": "09ba8d6f810e3818edf73c8063b4e2ff"
-    },
     "Rcpp": {
       "Package": "Rcpp",
       "Version": "1.1.1",
@@ -255,20 +226,6 @@
       ],
       "Hash": "2288423bb0f20a457800d7fc47f6aa54"
     },
-    "archive": {
-      "Package": "archive",
-      "Version": "1.1.12",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "cli",
-        "glue",
-        "rlang",
-        "tibble"
-      ],
-      "Hash": "400011c0eb198658df10ce845a619ff3"
-    },
     "askpass": {
       "Package": "askpass",
       "Version": "1.2.1",
@@ -308,43 +265,6 @@
         "R"
       ],
       "Hash": "543776ae6848fde2f48ff3816d0628bc"
-    },
-    "bit": {
-      "Package": "bit",
-      "Version": "4.6.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R"
-      ],
-      "Hash": "ebe86ffd194564abdc895d87742d5a29"
-    },
-    "bit64": {
-      "Package": "bit64",
-      "Version": "4.6.0-1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "bit",
-        "graphics",
-        "methods",
-        "stats",
-        "utils"
-      ],
-      "Hash": "4f572fbc586294afff277db583b9060f"
-    },
-    "blob": {
-      "Package": "blob",
-      "Version": "1.3.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "methods",
-        "rlang",
-        "vctrs"
-      ],
-      "Hash": "1e0ae40898be928695fd90a80e816253"
     },
     "boot": {
       "Package": "boot",
@@ -1012,8 +932,8 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspBase",
-      "RemoteRef": "master",
-      "RemoteSha": "836023e9f57d39427fc805fb0f4bb2e48a838d56",
+      "RemoteRef": "1d5c8604cdc34555bdcd6d76aadfda580346aaf7",
+      "RemoteSha": "1d5c8604cdc34555bdcd6d76aadfda580346aaf7",
       "Remotes": "jasp-stats/jaspGraphs",
       "Requirements": [
         "R6",
@@ -1039,7 +959,7 @@
         "systemfonts",
         "withr"
       ],
-      "Hash": "32d9d32ba5b3889ca52070a07c98a89a"
+      "Hash": "2373b7e72c10cfde8f797202dd7fb308"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
@@ -1050,7 +970,7 @@
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspGraphs",
       "RemoteRef": "master",
-      "RemoteSha": "ae4fcc4da06e459467c61e59a551a69191173e84",
+      "RemoteSha": "5c68ba4b81afc55e2092e733fe334819c85e354a",
       "Requirements": [
         "R6",
         "cli",
@@ -1064,35 +984,7 @@
         "rlang",
         "scales"
       ],
-      "Hash": "3f1e9af1a2815b39b2ff9ffe9851add5"
-    },
-    "jaspTools": {
-      "Package": "jaspTools",
-      "Version": "0.20.1",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteUsername": "jasp-stats",
-      "RemoteRepo": "jaspTools",
-      "RemoteRef": "master",
-      "RemoteSha": "3928759c1aadd4e000d9ccab75f7e9f4b1d3ba94",
-      "Requirements": [
-        "DBI",
-        "RSQLite",
-        "archive",
-        "data.table",
-        "httr",
-        "jsonlite",
-        "lifecycle",
-        "pkgload",
-        "remotes",
-        "rjson",
-        "stringi",
-        "stringr",
-        "testthat",
-        "vdiffr"
-      ],
-      "Hash": "9e130d9f8929466e81ef66574173ba8a"
+      "Hash": "a0d70e7e137846c4b4e42f79e2236217"
     },
     "jquerylib": {
       "Package": "jquerylib",
@@ -1747,20 +1639,6 @@
       ],
       "Hash": "c6f13f961ca08079b967220726c54cbb"
     },
-    "remotes": {
-      "Package": "remotes",
-      "Version": "2.5.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "methods",
-        "stats",
-        "tools",
-        "utils"
-      ],
-      "Hash": "3ee025083e66f18db6cf27b56e23e141"
-    },
     "renv": {
       "Package": "renv",
       "Version": "1.0.7",
@@ -1770,16 +1648,6 @@
         "utils"
       ],
       "Hash": "397b7b2a265bc5a7a06852524dabae20"
-    },
-    "rjson": {
-      "Package": "rjson",
-      "Version": "0.2.23",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R"
-      ],
-      "Hash": "7a04e9eff95857dbf557b4e5f0b3d1a8"
     },
     "rlang": {
       "Package": "rlang",
@@ -2181,25 +2049,6 @@
         "rlang"
       ],
       "Hash": "2d206148187e93b18ab26fd7f81b99b9"
-    },
-    "vdiffr": {
-      "Package": "vdiffr",
-      "Version": "1.0.8",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "cpp11",
-        "diffobj",
-        "glue",
-        "grDevices",
-        "htmltools",
-        "lifecycle",
-        "rlang",
-        "testthat",
-        "xml2"
-      ],
-      "Hash": "a2c13c62dd86ef646ae276d004deadce"
     },
     "viridisLite": {
       "Package": "viridisLite",
