@@ -100,9 +100,9 @@ Form
 				name: "goodnessOfFit"
 				id: goodnessOfFit
 				label: qsTr("Goodness of fit")
-				info: qsTr("Compute goodness of fit tests. For most of the distributions, the default tests are Cramér von-Misses and Anderson-Darling for composite null hypothesis. Note that these tests rely on randomly splitting the data in two sets;\
+				info: qsTr("Compute goodness of fit tests. For most of the distributions, the default tests are Cramér-von Mises and Anderson-Darling for composite null hypothesis. Note that these tests rely on randomly splitting the data in two sets;\
 				as a result, the results may be variable, especially for small sample sizes.\
-				When a distribution does not have free parameters (i.e., all parameters are fixed), the tests are Kolmorogov-Smirnov, and Cramér von-Misses and Anderson-Darling for simple null hypothesis. \
+				When a distribution does not have free parameters (i.e., all parameters are fixed), the tests are Kolmorogov-Smirnov, and Cramér-von Mises and Anderson-Darling for simple null hypothesis. \
 				For normal distributions with free location and scale parameters, specific versions of goodness of fit tests are computed, appropriate for this setting. If the normal distribution has some parameters fixed, it is treated as any other distribution.")
 
 				CheckBox
