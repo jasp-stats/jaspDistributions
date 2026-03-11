@@ -300,4 +300,18 @@ Description
 		qml:	"LDhypergeometric.qml"
 		func:	"LDhypergeometric"
 	}
+
+	GroupTitle
+	{
+		title: 	qsTr("Compare distributions")
+	}
+
+	Analysis
+	{
+		title:			qsTr("Compare continuous distributions")
+		qml:			"CompareContinuousDistributions.qml"
+		func:			"compareContinuousDistributions"
+		requiresData:	true
+		preloadData:	true
+	}
 }
