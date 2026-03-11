@@ -959,7 +959,11 @@
         "systemfonts",
         "withr"
       ],
-      "Hash": "2373b7e72c10cfde8f797202dd7fb308"
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "jasp-stats",
+      "RemoteRepo": "jaspBase",
+      "RemoteSha": "1d5c8604cdc34555bdcd6d76aadfda580346aaf7"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
@@ -972,7 +976,6 @@
       "RemoteRef": "master",
       "RemoteSha": "5c68ba4b81afc55e2092e733fe334819c85e354a",
       "Requirements": [
-        "R6",
         "cli",
         "ggplot2",
         "gridExtra",
@@ -982,9 +985,15 @@
         "lifecycle",
         "plotly",
         "rlang",
-        "scales"
+        "scales",
+        "testthat",
+        "vdiffr"
       ],
-      "Hash": "a0d70e7e137846c4b4e42f79e2236217"
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "jasp-stats",
+      "RemoteRepo": "jaspGraphs",
+      "RemoteSha": "5c68ba4b81afc55e2092e733fe334819c85e354a"
     },
     "jquerylib": {
       "Package": "jquerylib",
