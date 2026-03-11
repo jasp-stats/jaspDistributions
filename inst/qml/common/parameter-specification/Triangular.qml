@@ -20,7 +20,7 @@ Column
 
 	Row
 	{
-		DoubleField	{ id: trianugularC; name: "triangularC";	label: qsTr("c (mode)"); min: triangularA.value; max: triangularB.value; defaultValue: 0.5 }
+		DoubleField	{ id: triangularC; name: "triangularC";	label: qsTr("c (mode)"); min: triangularA.value; max: triangularB.value; defaultValue: 0.5 }
 		CheckBox	{ name: "triangularCFixed";	label: qsTr("Fixed") }
 	}
 }

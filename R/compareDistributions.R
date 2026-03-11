@@ -101,16 +101,15 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
   results[["w_aic"]] <- DistributionS7::weights_ic(results[["aic"]])
   results[["w_bic"]] <- DistributionS7::weights_ic(results[["bic"]])
 
-  if (options[["comparisonTableOrder"]]) {
-    order <- switch(
-      options[["comparisonTableOrderBy"]],
-      aic = order(results[["aic"]], decreasing = FALSE),
-      bic = order(results[["bic"]], decreasing = FALSE),
-      seq_len(nrow(results))
-    )
+  order <- switch(
+    options[["comparisonTableOrderBy"]],
+    aic = order(results[["aic"]], decreasing = FALSE),
+    bic = order(results[["bic"]], decreasing = FALSE),
+    seq_len(nrow(results))
+  )
 
-    results <- results[order, , drop=FALSE]
-  }
+  if (options[["comparisonTableOrder"]]) results <- results[order, , drop=FALSE]
+  
 
   comparisonTable$title <- gettextf("Distribution comparison table (n=%1$i)", length(variable))
 

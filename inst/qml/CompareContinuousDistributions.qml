@@ -74,7 +74,7 @@ Form
 				label: qsTr("Limit output to the first")
 				infoLabel: qsTr("Limit output to the first x distributions")
 				info: qsTr("Show the detailed output only for the top x distributions.")
-				enabled: parameterEstimates.checked | goodnessOfFit.checked | empiricalPlots.checked
+				enabled: parameterEstimates.checked || goodnessOfFit.checked || empiricalPlots.checked
 				checked: true
 				childrenOnSameRow: true
 				IntegerField
@@ -110,7 +110,7 @@ Form
 					name: "goodnessOfFitBootstrap"
 					label: qsTr("Parametric bootstrap from")
 					infoLabel: qsTr("Parametric bootstrap from x samples")
-					info: qsTr("Obtain the p-value of the goodness-of-fit tests using non-parametric bootstrap. In this case, the test statistics are always Kolmorogov-Smirnov, and Cramér von-Misses and Anderson-Darling for simple null hypothesis.")
+					info: qsTr("Obtain the p-value of the goodness-of-fit tests using parametric bootstrap. In this case, the test statistics are always Kolmorogov-Smirnov, and Cramér–von Mises and Anderson-Darling for simple null hypothesis.")
 					childrenOnSameRow: true
 					IntegerField{
 						name: "goodnessOfFitBootstrapSamples"

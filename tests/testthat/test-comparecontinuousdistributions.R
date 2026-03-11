@@ -1,5 +1,4 @@
 testthat::context("Compare continuous distributions")
-options(jaspLegacyRngKind=FALSE)
 
 options <- jaspTools::analysisOptions("compareContinuousDistributions")
 options$variable <- "contGamma"
@@ -39,7 +38,10 @@ options$empiricalPlots <- TRUE
 options$empiricalPlotsCi <- TRUE
 options$empiricalPlotsCiLevel <- 0.95
 set.seed(1)
-results <- jaspTools::runAnalysis("compareContinuousDistributions", "test.csv", options)
+{
+  withr::local_options(jaspLegacyKind = FALSE)
+  results <- jaspTools::runAnalysis("compareContinuousDistributions", "test.csv", options)
+}
 
 
 testthat::test_that("Main comparison table works", {
@@ -77,4 +79,3 @@ testthat::test_that("Per distribution output works", {
   testthat::expect_snapshot(table)
 })
 
-options(jaspLegacyRngKind=TRUE)
