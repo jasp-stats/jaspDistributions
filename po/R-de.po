@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
 "POT-Creation-Date: 2026-03-14 03:39\n"
-"PO-Revision-Date: 2025-09-11 17:45+0000\n"
+"PO-Revision-Date: 2026-03-15 08:09+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/de/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n==0 ? 0 : n==1 ? 0 : 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 msgid ""
 "Could not write to column '%s', probably because it wasn't created by this "
@@ -445,87 +445,86 @@ msgid ""
 "Could not initialize distribution %1$s, with the following error: </br></br> "
 "%2$s"
 msgstr ""
+"Kann Verteilung %1$s nicht initialisieren, mit folgendem Fehler: </br></br> "
+"%2$s"
 
 msgid ""
 "Could not fit distribution %1$s, with the following error: </br> %2$s. </"
 "br></br> You can try to change the initial parameter values, or remove the "
 "distribution from the distribution specification"
 msgstr ""
+"Konnte Verteilung %1$s nicht anpassen, mit folgendem Fehler: </br> %2$s. </"
+"br></br> Sie können versuchen, die Startwerte der Parameter zu ändern, oder "
+"die Verteilung aus der Verteilungsangabe zu entfernen"
 
 msgid "Distribution comparison table"
-msgstr ""
+msgstr "Verteilungsvergleichstabelle"
 
-#, fuzzy
 msgid "Distribution"
-msgstr "F-Verteilung"
+msgstr "Verteilung"
 
 msgid "AIC"
-msgstr ""
+msgstr "AIC"
 
 msgid "Weights"
-msgstr ""
+msgstr "Gewichte"
 
 msgid "BIC"
-msgstr ""
+msgstr "BIC"
 
 msgid "Log. Lik"
-msgstr ""
+msgstr "Log.-Lik"
 
 msgid "df"
-msgstr ""
+msgstr "df"
 
 msgid "Distribution comparison table (n=%1$i)"
-msgstr ""
+msgstr "Verteilungsvergleichstabelle (n=%1$i)"
 
-#, fuzzy
 msgid "Parameter estimates"
-msgstr "Parameter"
+msgstr "Parameterschätzungen"
 
 msgid "Key"
-msgstr ""
+msgstr "Schlüssel"
 
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 msgid "Label"
-msgstr ""
+msgstr "Beschriftung"
 
 msgid "Distribution has no parameters to estimate."
-msgstr ""
+msgstr "Verteilung hat keine Parameter zum Schätzen."
 
 msgid "The following parameters were held constant: %s."
-msgstr ""
+msgstr "Die folgenden Parameter wurden konstant gehalten: %s."
 
 msgid "Goodness of fit"
-msgstr ""
+msgstr "Anpassungsgüte"
 
 msgid "Based on %1$i parametric bootstrap samples."
-msgstr ""
+msgstr "Basiert auf %1$i parametrischen Bootstrap-Stichproben."
 
 msgid "Bootstrapping..."
-msgstr ""
+msgstr "Bootstrapping..."
 
 msgid "Could not obtain goodness of fit: </br></br>: %s"
-msgstr ""
+msgstr "Konnte Anpassungsgüte nicht ermitteln: </br></br>: %s"
 
 msgid "Empirical plots"
-msgstr ""
+msgstr "Empirische Diagramme"
 
-#, fuzzy
 msgid "Histogram vs. theoretical density"
-msgstr "Histogramm vs. Theoretische WDF"
+msgstr "Histogramm vs. theoretische Dichte"
 
-#, fuzzy
 msgid "Empirical vs. theoretical cumulative probability"
-msgstr "Empirische vs. theoretische KDF"
+msgstr "Empirische vs. theoretische kumulative Wahrscheinlichkeit"
 
-#, fuzzy
 msgid "Cramér–von Mises"
-msgstr "Cramér-von Mises"
+msgstr "Cramér–von Mises"
 
-#, fuzzy
 msgid "Lilliefors"
-msgstr "Lillienfors"
+msgstr "Lilliefors"
 
 msgid "Amoroso distribution"
 msgstr "Amoroso-Verteilung"
