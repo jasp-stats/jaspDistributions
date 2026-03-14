@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-09-06 03:08\n"
+"POT-Creation-Date: 2026-03-14 03:39\n"
 "PO-Revision-Date: 2026-02-21 03:36+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
@@ -310,8 +310,8 @@ msgid ""
 "    The <i>y</i>-axis displays the value of the density function for a "
 "particular value of the random variable (displayed on the <i>x</i>-axis)."
 msgstr ""
-"A función de densidade de probabilidade (FDP), denotada habitualmente como f"
-"(x), é unha función dunha variable aleatoria X.\n"
+"A función de densidade de probabilidade (FDP), denotada habitualmente como "
+"f(x), é unha función dunha variable aleatoria X.\n"
 "    O valor de f(x) proporciona a verosimilitude relativa de que unha "
 "realización da variable aleatoria X produza un valor igual a x.\n"
 "    Máis formalmente, a FDP defínese como a derivada dunha función de "
@@ -356,16 +356,16 @@ msgid ""
 "function for a particular value of the random variable (displayed on the "
 "<i>x</i>-axis)."
 msgstr ""
-"A función de probabilidade acumulada (FPA), denotada habitualmente como F(x)"
-", é unha función dunha variable aleatoria X.\n"
+"A función de probabilidade acumulada (FPA), denotada habitualmente como "
+"F(x), é unha función dunha variable aleatoria X.\n"
 "    O valor de F(x) proporciona a probabilidade de que unha realización da "
 "variable aleatoria X produza un valor que é igual ou menor que x.\n"
 "\n"
 "    A gráfica da probabilidade acumulada presenta a función de distribución "
 "acumulada dunha variable aleatoria.\n"
 "    O eixe <i>y</i> presenta o valor da función de probabilidade acumulada "
-"para un valor concreto da variable aleatoria "
-"(presentado este no eixe <i>x</i>)."
+"para un valor concreto da variable aleatoria (presentado este no eixe <i>x</"
+"i>)."
 
 msgid ""
 "The quantile function, usually denoted as Q(p), is the inverse of the "
@@ -387,8 +387,8 @@ msgstr ""
 "\n"
 "    A gráfica dos cuantiles presenta a función cuantil.\n"
 "    O eixe <i>y</i> presenta o cuantil para o que a probabilidade de que a "
-"variable aleatoria é menor ou igual que ese valor, iguale a p "
-"(presentado este no eixe <i>x</i>)."
+"variable aleatoria é menor ou igual que ese valor, iguale a p (presentado "
+"este no eixe <i>x</i>)."
 
 msgid ""
 "<h3> Demonstration of the %1$s </h3>\n"
@@ -450,6 +450,92 @@ msgstr ""
 "Fallou a estimación: A matriz Hessiana non se pode calcular numericamente. "
 "<ul><li>Comproba os valores atípicos ou a viabilidade da distribución que "
 "axusta os datos.</li></ul>"
+
+msgid ""
+"Could not initialize distribution %1$s, with the following error: </br></br> "
+"%2$s"
+msgstr ""
+
+msgid ""
+"Could not fit distribution %1$s, with the following error: </br> %2$s. </"
+"br></br> You can try to change the initial parameter values, or remove the "
+"distribution from the distribution specification"
+msgstr ""
+
+msgid "Distribution comparison table"
+msgstr ""
+
+#, fuzzy
+msgid "Distribution"
+msgstr "Distribución F"
+
+msgid "AIC"
+msgstr ""
+
+msgid "Weights"
+msgstr ""
+
+msgid "BIC"
+msgstr ""
+
+msgid "Log. Lik"
+msgstr ""
+
+msgid "df"
+msgstr ""
+
+msgid "Distribution comparison table (n=%1$i)"
+msgstr ""
+
+#, fuzzy
+msgid "Parameter estimates"
+msgstr "Parámetro"
+
+msgid "Key"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Distribution has no parameters to estimate."
+msgstr ""
+
+msgid "The following parameters were held constant: %s."
+msgstr ""
+
+msgid "Goodness of fit"
+msgstr ""
+
+msgid "Based on %1$i parametric bootstrap samples."
+msgstr ""
+
+msgid "Bootstrapping..."
+msgstr ""
+
+msgid "Could not obtain goodness of fit: </br></br>: %s"
+msgstr ""
+
+msgid "Empirical plots"
+msgstr ""
+
+#, fuzzy
+msgid "Histogram vs. theoretical density"
+msgstr "Func. Dens. Prob. do Histograma vs. Teórica"
+
+#, fuzzy
+msgid "Empirical vs. theoretical cumulative probability"
+msgstr "Func. Dens. Acum. Empírica vs. Teórica"
+
+#, fuzzy
+msgid "Cramér–von Mises"
+msgstr "Cramér–von Mises"
+
+#, fuzzy
+msgid "Lilliefors"
+msgstr "Lilliefors"
 
 msgid "Amoroso distribution"
 msgstr "Distribución de Amoroso"

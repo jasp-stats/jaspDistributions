@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.19.2\n"
-"POT-Creation-Date: 2025-09-06 03:08\n"
+"POT-Creation-Date: 2026-03-14 03:39\n"
 "PO-Revision-Date: 2025-10-25 03:19+0000\n"
 "Last-Translator: 陳寬裕 <pf.kuan.yu.chen@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
@@ -349,6 +349,89 @@ msgid ""
 "Estimation failed: Hessian matrix is not numerically computable. "
 "<ul><li>Check outliers or feasibility of the distribution fitting the data.</"
 "li></ul>"
+msgstr ""
+
+msgid ""
+"Could not initialize distribution %1$s, with the following error: </br></br> "
+"%2$s"
+msgstr ""
+
+msgid ""
+"Could not fit distribution %1$s, with the following error: </br> %2$s. </"
+"br></br> You can try to change the initial parameter values, or remove the "
+"distribution from the distribution specification"
+msgstr ""
+
+msgid "Distribution comparison table"
+msgstr ""
+
+#, fuzzy
+msgid "Distribution"
+msgstr "常態分配"
+
+msgid "AIC"
+msgstr ""
+
+msgid "Weights"
+msgstr ""
+
+msgid "BIC"
+msgstr ""
+
+msgid "Log. Lik"
+msgstr ""
+
+msgid "df"
+msgstr ""
+
+msgid "Distribution comparison table (n=%1$i)"
+msgstr ""
+
+#, fuzzy
+msgid "Parameter estimates"
+msgstr "參數"
+
+msgid "Key"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Distribution has no parameters to estimate."
+msgstr ""
+
+msgid "The following parameters were held constant: %s."
+msgstr ""
+
+msgid "Goodness of fit"
+msgstr ""
+
+msgid "Based on %1$i parametric bootstrap samples."
+msgstr ""
+
+msgid "Bootstrapping..."
+msgstr ""
+
+msgid "Could not obtain goodness of fit: </br></br>: %s"
+msgstr ""
+
+msgid "Empirical plots"
+msgstr ""
+
+#, fuzzy
+msgid "Histogram vs. theoretical density"
+msgstr "長條圖 vs. 理論機率密度函數"
+
+msgid "Empirical vs. theoretical cumulative probability"
+msgstr ""
+
+msgid "Cramér–von Mises"
+msgstr ""
+
+msgid "Lilliefors"
 msgstr ""
 
 msgid "Amoroso distribution"

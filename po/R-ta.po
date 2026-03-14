@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.19.2\n"
-"POT-Creation-Date: 2025-09-06 03:08\n"
+"POT-Creation-Date: 2026-03-14 03:39\n"
 "PO-Revision-Date: 2025-12-31 10:01+0000\n"
 "Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/jasp/"
@@ -27,8 +27,7 @@ msgstr ""
 "இருக்க வேண்டும் (அதாவது, முழு எண்) </li> </ul>"
 
 msgid "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
-msgstr ""
-"<ul> <li> மாறி தனித்துவமாக இருக்க வேண்டும் (அதாவது, முழு எண்) </li> </ul>"
+msgstr "<ul> <li> மாறி தனித்துவமாக இருக்க வேண்டும் (அதாவது, முழு எண்) </li> </ul>"
 
 msgid "Overview - %s"
 msgstr "கண்ணோட்டம் - %s"
@@ -165,8 +164,7 @@ msgstr "சி-சதுரம்"
 msgid ""
 "Using Brown (1980) approximation which tends to be innacurate for small "
 "sample sizes."
-msgstr ""
-"பிரவுன் (1980) தோராயத்தைப் பயன்படுத்தி சிறிய மாதிரி அளவுகளுக்கு தவறானது."
+msgstr "பிரவுன் (1980) தோராயத்தைப் பயன்படுத்தி சிறிய மாதிரி அளவுகளுக்கு தவறானது."
 
 msgid "Histogram vs. Theoretical PDF"
 msgstr "இச்டோகிராம் வெர்சச் தத்துவார்த்த பி.டி.எஃப்"
@@ -327,8 +325,8 @@ msgstr ""
 "F (x) இன் மதிப்பு சீரற்ற மாறி ஃச் இன் உணர்தல் ஃச் க்கு சமமான மதிப்பைக் கொடுக்கும் நிகழ்தகவை "
 "வழங்குகிறது. \n"
 "\n"
-"நிகழ்தகவு வெகுசன சூழ்ச்சி ஒரு சீரற்ற மாறியின் நிகழ்தகவு வெகுசன செயல்பாட்டைக் காட்டுகிறது"
-". \n"
+"நிகழ்தகவு வெகுசன சூழ்ச்சி ஒரு சீரற்ற மாறியின் நிகழ்தகவு வெகுசன செயல்பாட்டைக் "
+"காட்டுகிறது. \n"
 "<i> ஒய் </i> -axis சீரற்ற மாறியின் ஒரு குறிப்பிட்ட மதிப்புக்கு நிகழ்தகவு வெகுசன "
 "செயல்பாட்டின் மதிப்பைக் காட்டுகிறது (<i> ஃச் </i> -axis இல் காட்டப்பட்டுள்ளது)."
 
@@ -344,8 +342,8 @@ msgid ""
 "function for a particular value of the random variable (displayed on the "
 "<i>x</i>-axis)."
 msgstr ""
-"ஒட்டுமொத்த விநியோக செயல்பாடு (சி.டி.எஃப்), பொதுவாக எஃப் (எக்ச்) எனக் குறிக்கப்படுகிறது"
-", இது ஒரு சீரற்ற மாறி ஃச். \n"
+"ஒட்டுமொத்த விநியோக செயல்பாடு (சி.டி.எஃப்), பொதுவாக எஃப் (எக்ச்) எனக் "
+"குறிக்கப்படுகிறது, இது ஒரு சீரற்ற மாறி ஃச். \n"
 "F (x) இன் மதிப்பு சீரற்ற மாறி ஃச் இன் உணர்தல் ஃச் ஐ விட சமமான அல்லது சிறிய மதிப்பைக் "
 "கொடுக்கும் நிகழ்தகவை வழங்குகிறது. \n"
 "\n"
@@ -401,8 +399,8 @@ msgstr ""
 "இந்த ஆர்ப்பாட்டம் நான்கு பகுதிகளாக பிரிக்கப்பட்டுள்ளது. \n"
 "முதல் பகுதி %2$s, அதன் நிகழ்தகவு அடர்த்தி செயல்பாடு, ஒட்டுமொத்த விநியோக செயல்பாடு "
 "மற்றும் அளவு செயல்பாடு ஆகியவற்றைக் காட்டுகிறது. \n"
-"இரண்டாவது பகுதி %3$s இலிருந்து தரவை உருவாக்கவும், விளக்க புள்ளிவிவரங்களைக் கணக்கிடவும்"
-", விளக்கக் கதைகளைக் காண்பிக்கவும் உங்களை அனுமதிக்கிறது. \n"
+"இரண்டாவது பகுதி %3$s இலிருந்து தரவை உருவாக்கவும், விளக்க புள்ளிவிவரங்களைக் "
+"கணக்கிடவும், விளக்கக் கதைகளைக் காண்பிக்கவும் உங்களை அனுமதிக்கிறது. \n"
 "மூன்றாவது பகுதி %4$s இன் அளவுருக்களை மதிப்பிட அனுமதிக்கிறது. \n"
 "தரவுக்கு %5$s இன் பொருத்தத்தை சரிபார்க்க நான்காவது பகுதி உங்களை அனுமதிக்கிறது. \n"
 "\n"
@@ -432,9 +430,95 @@ msgid ""
 "<ul><li>Check outliers or feasibility of the distribution fitting the data.</"
 "li></ul>"
 msgstr ""
-"மதிப்பீடு தோல்வியுற்றது: எசியன் மேட்ரிக்ச் எண்ணிக்கையில் கணக்கிடப்படவில்லை. <ul> <li> தரவைப்"
-" பொருத்தும் விநியோகத்தின் சாத்தியக்கூறுகளை சரிபார்க்கவும் அல்லது சாத்தியக்கூறுகள். </li> "
-"</ul>"
+"மதிப்பீடு தோல்வியுற்றது: எசியன் மேட்ரிக்ச் எண்ணிக்கையில் கணக்கிடப்படவில்லை. <ul> <li> "
+"தரவைப் பொருத்தும் விநியோகத்தின் சாத்தியக்கூறுகளை சரிபார்க்கவும் அல்லது சாத்தியக்கூறுகள். </"
+"li> </ul>"
+
+msgid ""
+"Could not initialize distribution %1$s, with the following error: </br></br> "
+"%2$s"
+msgstr ""
+
+msgid ""
+"Could not fit distribution %1$s, with the following error: </br> %2$s. </"
+"br></br> You can try to change the initial parameter values, or remove the "
+"distribution from the distribution specification"
+msgstr ""
+
+msgid "Distribution comparison table"
+msgstr ""
+
+#, fuzzy
+msgid "Distribution"
+msgstr "எஃப்-விநியோக"
+
+msgid "AIC"
+msgstr ""
+
+msgid "Weights"
+msgstr ""
+
+msgid "BIC"
+msgstr ""
+
+msgid "Log. Lik"
+msgstr ""
+
+msgid "df"
+msgstr ""
+
+msgid "Distribution comparison table (n=%1$i)"
+msgstr ""
+
+#, fuzzy
+msgid "Parameter estimates"
+msgstr "கூறளவு"
+
+msgid "Key"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Distribution has no parameters to estimate."
+msgstr ""
+
+msgid "The following parameters were held constant: %s."
+msgstr ""
+
+msgid "Goodness of fit"
+msgstr ""
+
+msgid "Based on %1$i parametric bootstrap samples."
+msgstr ""
+
+msgid "Bootstrapping..."
+msgstr ""
+
+msgid "Could not obtain goodness of fit: </br></br>: %s"
+msgstr ""
+
+msgid "Empirical plots"
+msgstr ""
+
+#, fuzzy
+msgid "Histogram vs. theoretical density"
+msgstr "இச்டோகிராம் வெர்சச் தத்துவார்த்த பி.டி.எஃப்"
+
+#, fuzzy
+msgid "Empirical vs. theoretical cumulative probability"
+msgstr "அனுபவ வெர்சச் தத்துவார்த்த சி.டி.எஃப்"
+
+#, fuzzy
+msgid "Cramér–von Mises"
+msgstr "க்ராமர்-வோன் தவறவிட்டார்"
+
+#, fuzzy
+msgid "Lilliefors"
+msgstr "லில்லியன்ஃபோர்ச்"
 
 msgid "Amoroso distribution"
 msgstr "அமோரோசோ வழங்கல்"

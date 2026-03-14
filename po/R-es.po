@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: JASP 0.9.2\n"
-"POT-Creation-Date: 2025-09-06 03:08\n"
+"POT-Creation-Date: 2026-03-14 03:39\n"
 "PO-Revision-Date: 2026-02-21 03:36+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
@@ -334,8 +334,8 @@ msgstr ""
 "    El gráfico de masa de probabilidad presenta la función de masa de "
 "probabilidad de una variable aleatoria.\n"
 "    El eje <i>y</i> presenta el valor de la función de masa de probabilidad "
-"para un valor particular de la variable aleatoria "
-"(presentado en el eje <i>x</i>)."
+"para un valor particular de la variable aleatoria (presentado en el eje "
+"<i>x</i>)."
 
 msgid ""
 "The cumulative distribution function (CDF), usually denoted as F(x), is a "
@@ -349,16 +349,16 @@ msgid ""
 "function for a particular value of the random variable (displayed on the "
 "<i>x</i>-axis)."
 msgstr ""
-"La función de distribución acumulada (FDA, CDF), normalmente denotada como F"
-"(x), es una función de una variable aleatoria X.\n"
+"La función de distribución acumulada (FDA, CDF), normalmente denotada como "
+"F(x), es una función de una variable aleatoria X.\n"
 "    El valor de F(x) proporciona la probabilidad de que una realización de "
 "la variable aleatoria X produzca un valor que es igual o menor que x.\n"
 "\n"
 "    El gráfico de probabilidad acumulada presenta la distribución acumulada "
 "de una variable aleatoria.\n"
 "    El eje <i>y</i> presenta el valor de la función de distribución "
-"acumulada para un valor particular de la variable aleatoria "
-"(presentado este en el eje <i>x</i>)."
+"acumulada para un valor particular de la variable aleatoria (presentado este "
+"en el eje <i>x</i>)."
 
 msgid ""
 "The quantile function, usually denoted as Q(p), is the inverse of the "
@@ -379,8 +379,8 @@ msgstr ""
 "\n"
 "    El gráfico de cuantiles presenta la función de cuantiles.\n"
 "    El eje <i>y</i> presenta el cuantil cuya probabilidad de que la variable "
-"aleatoria sea menor o igual a ese valor es igual a p "
-"(presentado en el eje <i>x</i>)."
+"aleatoria sea menor o igual a ese valor es igual a p (presentado en el eje "
+"<i>x</i>)."
 
 msgid ""
 "<h3> Demonstration of the %1$s </h3>\n"
@@ -442,6 +442,92 @@ msgstr ""
 "Estimación fallida: La matriz Hessiana no es computable numéricamente. "
 "<ul><li>Comprueba los valores atípicos o la viabilidad de la distribución "
 "que se ajusta a los datos. </li></ul>"
+
+msgid ""
+"Could not initialize distribution %1$s, with the following error: </br></br> "
+"%2$s"
+msgstr ""
+
+msgid ""
+"Could not fit distribution %1$s, with the following error: </br> %2$s. </"
+"br></br> You can try to change the initial parameter values, or remove the "
+"distribution from the distribution specification"
+msgstr ""
+
+msgid "Distribution comparison table"
+msgstr ""
+
+#, fuzzy
+msgid "Distribution"
+msgstr "Distribución F"
+
+msgid "AIC"
+msgstr ""
+
+msgid "Weights"
+msgstr ""
+
+msgid "BIC"
+msgstr ""
+
+msgid "Log. Lik"
+msgstr ""
+
+msgid "df"
+msgstr ""
+
+msgid "Distribution comparison table (n=%1$i)"
+msgstr ""
+
+#, fuzzy
+msgid "Parameter estimates"
+msgstr "Parámetro"
+
+msgid "Key"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Distribution has no parameters to estimate."
+msgstr ""
+
+msgid "The following parameters were held constant: %s."
+msgstr ""
+
+msgid "Goodness of fit"
+msgstr ""
+
+msgid "Based on %1$i parametric bootstrap samples."
+msgstr ""
+
+msgid "Bootstrapping..."
+msgstr ""
+
+msgid "Could not obtain goodness of fit: </br></br>: %s"
+msgstr ""
+
+msgid "Empirical plots"
+msgstr ""
+
+#, fuzzy
+msgid "Histogram vs. theoretical density"
+msgstr "Histograma vs. PDF Teórico"
+
+#, fuzzy
+msgid "Empirical vs. theoretical cumulative probability"
+msgstr "FDA empírica vs teórica"
+
+#, fuzzy
+msgid "Cramér–von Mises"
+msgstr "Cramér-von Mises"
+
+#, fuzzy
+msgid "Lilliefors"
+msgstr "Lilliefors"
 
 msgid "Amoroso distribution"
 msgstr "Distribución de Amoroso"
