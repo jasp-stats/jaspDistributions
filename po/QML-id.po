@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-03-16 21:51+0000\n"
+"Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/id/>\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17-dev\n"
 "X-Language: id\n"
 "X-Qt-Contexts: true\n"
 
@@ -11,10 +17,9 @@ msgctxt "Description|"
 msgid "Distributions"
 msgstr "Distribusi"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Visualize distributions and fit them to data"
-msgstr "Memvisualisasikan distribusi dan menyesuaikannya dengan data"
+msgstr "Visualisasikan distribusi dan sesuaikannya dengan data"
 
 msgctxt "Description|"
 msgid "Continuous"
@@ -34,7 +39,7 @@ msgstr "Normal yang digeneralisasi (versi 1)"
 
 msgctxt "Description|"
 msgid "Cauchy"
-msgstr ""
+msgstr "Cauchy"
 
 msgctxt "Description|"
 msgid "Scaled, shifted Student's t"
@@ -90,7 +95,7 @@ msgstr "Eksponensial"
 
 msgctxt "Description|"
 msgid "Laplace"
-msgstr ""
+msgstr "Laplace"
 
 msgctxt "Description|"
 msgid "Log-normal"
@@ -106,23 +111,23 @@ msgstr "Log-logistik"
 
 msgctxt "Description|"
 msgid "Pareto"
-msgstr ""
+msgstr "Pareto"
 
 msgctxt "Description|"
 msgid "Amoroso"
-msgstr ""
+msgstr "Amoroso"
 
 msgctxt "Description|"
 msgid "Fréchet"
-msgstr ""
+msgstr "Fréchet"
 
 msgctxt "Description|"
 msgid "Gumbel"
-msgstr ""
+msgstr "Gumbel"
 
 msgctxt "Description|"
 msgid "Gompertz"
-msgstr ""
+msgstr "Gompertz"
 
 msgctxt "Description|"
 msgid "Triangular"
@@ -150,7 +155,7 @@ msgstr "Diskrit"
 
 msgctxt "Description|"
 msgid "Bernoulli"
-msgstr ""
+msgstr "Bernoulli"
 
 msgctxt "Description|"
 msgid "Binomial"
@@ -158,7 +163,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Beta-binomial"
-msgstr ""
+msgstr "Binomial-beta"
 
 msgctxt "Description|"
 msgid "Poisson"
@@ -222,11 +227,11 @@ msgstr "Statistik"
 
 msgctxt "LDAssessFit|"
 msgid "Kolmogorov-Smirnov"
-msgstr ""
+msgstr "Kolmogorov-Smirnov"
 
 msgctxt "LDAssessFit|"
 msgid "Cramér–von Mises"
-msgstr ""
+msgstr "Cramér–von Mises"
 
 msgctxt "LDAssessFit|"
 msgid "Anderson-Darling"
@@ -234,7 +239,7 @@ msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Shapiro-Wilk"
-msgstr ""
+msgstr "Shapiro-Wilk"
 
 msgctxt "LDAssessFit|"
 msgid "Chi-square"
@@ -360,7 +365,7 @@ msgstr "Probabilitas"
 
 msgctxt "LDOptions|"
 msgid "Interval"
-msgstr ""
+msgstr "Interval"
 
 msgctxt "LDOptions|"
 msgid "from"
@@ -630,7 +635,7 @@ msgstr "Probabilitas Kumulatif"
 
 msgctxt "LDbetaBinomial|"
 msgid "Interval"
-msgstr ""
+msgstr "Interval"
 
 msgctxt "LDbetaBinomial|"
 msgid "≤ X ≤"
@@ -830,7 +835,7 @@ msgstr "Probabilitas Kumulatif"
 
 msgctxt "LDbinomial|"
 msgid "Interval"
-msgstr ""
+msgstr "Interval"
 
 msgctxt "LDbinomial|"
 msgid "≤ X ≤"
@@ -998,7 +1003,7 @@ msgstr "Non-sentralitas:"
 
 msgctxt "LDf|"
 msgid "ncp"
-msgstr ""
+msgstr "ncp"
 
 msgctxt "LDf|"
 msgid "Display"
@@ -1250,7 +1255,7 @@ msgstr "Varians:"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Std. deviation:"
-msgstr ""
+msgstr "Deviasi std.:"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Precision:"
@@ -1292,7 +1297,6 @@ msgctxt "LDgeometric|"
 msgid "Show Distribution"
 msgstr "Tampilkan Distribusi"
 
-#, fuzzy
 msgctxt "LDgeometric|"
 msgid "Parameter"
 msgstr "Parameter"
@@ -1695,7 +1699,7 @@ msgstr "μ"
 
 msgctxt "LDlognormal|"
 msgid "Log std. deviation:"
-msgstr ""
+msgstr "Deviasi std. log:"
 
 msgctxt "LDlognormal|"
 msgid "σ"
@@ -1743,7 +1747,7 @@ msgstr "μ₁"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Std. deviation 1:"
-msgstr ""
+msgstr "Deviasi std. 1:"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "σ₁"
@@ -1759,7 +1763,7 @@ msgstr "μ₂"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Std. deviation 2:"
-msgstr ""
+msgstr "Deviasi std. 2:"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "σ₂"
@@ -1819,7 +1823,7 @@ msgstr "μ"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Std. deviation :"
-msgstr ""
+msgstr "Deviasi std. :"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "σ"
@@ -2205,7 +2209,6 @@ msgctxt "LDpoisson|"
 msgid "Show Distribution"
 msgstr "Tampilkan Distribusi"
 
-#, fuzzy
 msgctxt "LDpoisson|"
 msgid "Parameter"
 msgstr "Parameter"
@@ -2278,7 +2281,6 @@ msgctxt "LDpoissonZeroInflated|"
 msgid "Show Distribution"
 msgstr "Tampilkan Distribusi"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Parameter"
 msgstr "Parameter"
@@ -2467,7 +2469,6 @@ msgctxt "LDtSkew|"
 msgid "Show Distribution"
 msgstr "Tampilkan Distribusi"
 
-#, fuzzy
 msgctxt "LDtSkew|"
 msgid "Location:"
 msgstr "Lokasi:"
@@ -2484,7 +2485,6 @@ msgctxt "LDtSkew|"
 msgid "ω"
 msgstr "ω"
 
-#, fuzzy
 msgctxt "LDtSkew|"
 msgid "Shape:"
 msgstr "Bentuk:"
@@ -2493,7 +2493,6 @@ msgctxt "LDtSkew|"
 msgid "α"
 msgstr "α"
 
-#, fuzzy
 msgctxt "LDtSkew|"
 msgid "Degree of freedom:"
 msgstr "Derajat kebebasan:"
@@ -2538,7 +2537,6 @@ msgctxt "LDtSkewedGeneralized|"
 msgid "Parameters"
 msgstr "Parameter"
 
-#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "Location:"
 msgstr "Lokasi:"
@@ -2579,7 +2577,6 @@ msgctxt "LDtSkewedGeneralized|"
 msgid "Display"
 msgstr "Tampilan"
 
-#, fuzzy
 msgctxt "LDtSkewedGeneralized|"
 msgid "Explanatory text"
 msgstr "Teks penjelasan"
@@ -2640,7 +2637,6 @@ msgctxt "LDtStudent|"
 msgid "Display"
 msgstr "Tampilan"
 
-#, fuzzy
 msgctxt "LDtStudent|"
 msgid "Explanatory text"
 msgstr "Teks penjelasan"
@@ -2749,7 +2745,6 @@ msgctxt "LDwald|"
 msgid "Display"
 msgstr "Tampilan"
 
-#, fuzzy
 msgctxt "LDwald|"
 msgid "Explanatory text"
 msgstr "Teks penjelasan"
@@ -2790,7 +2785,6 @@ msgctxt "LDweibull|"
 msgid "Display"
 msgstr "Tampilan"
 
-#, fuzzy
 msgctxt "LDweibull|"
 msgid "Explanatory text"
 msgstr "Teks penjelasan"
@@ -3200,7 +3194,6 @@ msgctxt "DistributionSpecification|"
 msgid "default"
 msgstr ""
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Normal"
 msgstr "Normal"
@@ -3217,10 +3210,9 @@ msgctxt "DistributionSpecification|"
 msgid "Student t"
 msgstr ""
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Noncentral t"
-msgstr "T yang tidak terpusat"
+msgstr "Nonpusat t"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral Student t"
@@ -3238,21 +3230,18 @@ msgctxt "DistributionSpecification|"
 msgid "Laplace"
 msgstr ""
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Logistic"
 msgstr "Logistik"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Skewed generalized t"
-msgstr "t tergeneralisasi miring"
+msgstr "Kemiringan tergeneralisasi t"
 
 msgctxt "DistributionSpecification|"
 msgid "Symmetric generalized normal"
 msgstr ""
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Skew normal"
 msgstr "Kemiringan normal"
@@ -3261,17 +3250,14 @@ msgctxt "DistributionSpecification|"
 msgid "Skew Cauchy"
 msgstr ""
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Skew t"
 msgstr "Kemiringan t"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Beta"
 msgstr "Beta"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Beta prime"
 msgstr "Beta prima"
@@ -3284,7 +3270,6 @@ msgctxt "DistributionSpecification|"
 msgid "Noncentral F"
 msgstr ""
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Chi-squared"
 msgstr "Chi-kuadrat"
@@ -3293,17 +3278,14 @@ msgctxt "DistributionSpecification|"
 msgid "Noncentral chi-squared"
 msgstr ""
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Exponential"
 msgstr "Eksponensial"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Gamma"
 msgstr "Gamma"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Inverse gamma"
 msgstr "Gamma terbalik"
@@ -3312,12 +3294,10 @@ msgctxt "DistributionSpecification|"
 msgid "Gompertz"
 msgstr ""
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Log-logistic"
 msgstr "Log-logistik"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Log-normal"
 msgstr "Log-normal"
@@ -3334,7 +3314,6 @@ msgctxt "DistributionSpecification|"
 msgid "Amoroso"
 msgstr ""
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Stretched beta"
 msgstr "Beta yang membentang"
@@ -3347,12 +3326,10 @@ msgctxt "DistributionSpecification|"
 msgid "Pareto"
 msgstr ""
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Triangular"
 msgstr "Segitiga"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Uniform"
 msgstr "Seragam"
@@ -3389,7 +3366,6 @@ msgctxt "DistributionSpecification|"
 msgid "Show parameter settings"
 msgstr ""
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Parameters"
 msgstr "Parameter"
@@ -4200,7 +4176,6 @@ msgid ""
 "cumulative distribution function, the Q-Q plot, and the P-P plot."
 msgstr ""
 
-#, fuzzy
 msgctxt "CompareContinuousDistributions|"
 msgid "Confidence interval"
 msgstr "Interval kepercayaan"
