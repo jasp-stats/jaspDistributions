@@ -9,6 +9,10 @@ Description
 	requiresData:	false
 	hasWrappers	: true
 
+	// Setting directly the useSubMenus property would crash in JASP 0.96.0, since this setting does not exist in this version.
+	// Instead set it via jasvaScript: this will just add a warning in the log file if the property does not exist.
+	Component.onCompleted: useSubMenus = true
+
 	GroupTitle
 	{
 		title: 	qsTr("Continuous")
