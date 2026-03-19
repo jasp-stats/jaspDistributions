@@ -139,5 +139,12 @@ Form
 				}
 			}
 		}
+
+		CheckBox
+		{
+			name: "fullDistributionName"
+			label: qsTr("Full distribution name")
+			info: qsTr("Displays the full distribution name, including parameter specification. If unchecked, names are shortened.")
+		}
 	}
 }

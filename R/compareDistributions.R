@@ -16,8 +16,7 @@
 #
 
 compareContinuousDistributionsInternal <- function(jaspResults, dataset, options, state=NULL){
-  comparisonTable <- jaspResults[["comparisonTable"]] %setOrRetrieve%
-    .ccdDistributionComparisonTable(jaspResults, options)
+  .ccdDistributionComparisonTable(jaspResults, options)
 
   if (options[["variable"]] == "") return()
   if (length(options[["distributions"]]) == 0L) return()
@@ -27,60 +26,96 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
 
   variable <- na.omit(dataset[[options[["variable"]]]])
 
-  distributions <- jaspResults[["distributions"]] %setOrRetrieve% (
-    .ccdGetDistributions(jaspResults, variable, options) |>
-    createJaspState(dependencies = .ccdDependencies())
-  )
+  distributions <- .ccdGetDistributions(jaspResults, variable, options)
+  distributions <- .ccdSortDistributions(distributions, options)
 
-  # here the list gets possibly sorted by AIC/BIC values...
-  distributions <- .ccdFillDistributionComparisonTable(comparisonTable, options, distributions, variable)
-
+  .ccdFillDistributionComparisonTable(jaspResults, options, distributions, variable)
   .ccdPerDistributionOutput(jaspResults, options, distributions, variable)
 }
 
 .ccdGetDistributions <- function(jaspResults, variable, options) {
-  distributions <- lapply(unique(options[["distributions"]]), function(specification) {
-    distribution <- try(.makeDistribution(specification))
+  distributions <- list()
+  for (i in seq_along(options[["distributions"]])) {
+    specification <- options[["distributions"]][[i]]
+    key <- sprintf("distributionState%i", i)
+    nestedOptions <- lapply(names(specification), \(opt) c("distributions", i, opt))
+    distributions[[key]] <- jaspResults[[key]] %setOrRetrieve% (
+      .ccdComputeDistributionResults(specification, variable) |>
+      createJaspState(
+        dependencies = jaspDeps(
+          options = "variable",
+          nestedOptions = nestedOptions
+          )
+      )
+    )
+    distributions[[key]][["nestedOptions"]] <- nestedOptions # for reuse of deps of per-distribution output
+  }
+  distributions <- unique(distributions)
+  names(distributions) <- .ccdDistributionNames(distributions, full=options[["fullDistributionName"]])
+  return(distributions)
+}
 
-    # make distribution object
-    if (isTryError(distribution))
-      jaspBase::.quitAnalysis(
-        message = gettextf("Could not initialize distribution %1$s, with the following error: </br></br> %2$s",
-                           specification[["distribution"]], .extractErrorMessage(distribution)))
+.ccdSortDistributions <- function(distributions, options) {
+  if (!options[["comparisonTableOrder"]]) return(distributions)
 
-    # try fitting
+  if (options[["comparisonTableOrderBy"]] == "aic") ic <- vapply(distributions, \(d) d[["ic"]][["aic"]], numeric(1))
+  if (options[["comparisonTableOrderBy"]] == "bic") ic <- vapply(distributions, \(d) d[["ic"]][["bic"]], numeric(1))
+
+  return(distributions[order(ic, decreasing = FALSE)])
+}
+
+.ccdComputeDistributionResults <- function(specification, variable) {
+  distribution <- try(.makeDistribution(specification))
+
+  # make distribution object
+  if (isTryError(distribution))
+    jaspBase::.quitAnalysis(
+      message = gettextf("Could not initialize distribution %1$s, with the following error: </br></br> %2$s",
+                         specification[["distribution"]], .extractErrorMessage(distribution))
+      )
+
+  # try fitting
+  result <- try(DistributionS7::fit(
+    distribution,
+    estimator=DistributionS7::Mle(),
+    data=variable
+  ))
+
+  # try manual starting values
+  if (isTryError(result))
     result <- try(DistributionS7::fit(
       distribution,
-      estimator=DistributionS7::Mle(),
-      data=variable
-    ))
+      estimator=DistributionS7::Mle(start = DistributionS7::parameter_values(distribution, which="free")),
+      data=variable)
+      )
 
-    # try manual starting values
-    if (isTryError(result))
-      result <- try(DistributionS7::fit(
-        distribution,
-        estimator=DistributionS7::Mle(start = DistributionS7::parameter_values(distribution, which="free")),
-        data=variable
-      ))
+  if (isTryError(result))
+    jaspBase::.quitAnalysis(
+      message = gettextf("Could not fit distribution %1$s, with the following error: </br> %2$s. </br></br> You can try to change the initial parameter values, or remove the distribution from the distribution specification",
+                         specification[["distribution"]], .extractErrorMessage(result))
+      )
 
-    if (isTryError(result))
-      jaspBase::.quitAnalysis(
-        message = gettextf("Could not fit distribution %1$s, with the following error: </br> %2$s. </br></br> You can try to change the initial parameter values, or remove the distribution from the distribution specification",
-                           specification[["distribution"]], .extractErrorMessage(result)))
-    return(result)
-  })
-  distributions <- unique(distributions)
+  # get information criteria
+  ic <- try(DistributionS7::information_criteria(distribution=distribution, data=variable))
 
-  return(distributions)
+  if (isTryError(ic))
+    jaspBase::.quitAnalysis(
+      message = gettextf("Could not compute information criteria for %1$s, with the following error: <\br> %2$s.",
+                         specification[["distribution"]], .extractErrorMessage(result))
+    )
+
+  result <- list(distribution=result, ic=ic)
+  return(result)
 }
 
 
 .ccdDistributionComparisonTable <- function(jaspResults, options) {
   if (!options[["comparisonTable"]]) return()
+  if (!is.null(jaspResults[["comparisonTable"]])) return()
 
   table <- createJaspTable(
     title = gettext("Distribution comparison table"),
-    dependencies = .ccdDependencies("comparisonTable", "comparisonTableOrder", "comparisonTableOrderBy")
+    dependencies = .ccdDependencies("comparisonTable", "comparisonTableOrder", "comparisonTableOrderBy", "fullDistributionName")
   )
   table$showSpecifiedColumnsOnly <- TRUE
   table$addColumnInfo(name = "name",    title = gettext("Distribution"), type = "string")
@@ -91,34 +126,24 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
   table$addColumnInfo(name = "log_lik", title = gettext("Log. Lik"),     type = "number")
   table$addColumnInfo(name = "n_par",   title = gettext("df"),           type = "integer")
 
-  return(table)
+  jaspResults[["comparisonTable"]] <- table
 }
 
-.ccdFillDistributionComparisonTable <- function(comparisonTable, options, distributions, variable) {
-  if (is.null(comparisonTable)) return()
-
-  results <- lapply(distributions, DistributionS7::information_criteria, data=variable)
-  results <- do.call(rbind, results)
-
-  results[["name"]]  <- vapply(distributions, DistributionS7::as_latex, character(1)) |> mathExpression()
-  results[["w_aic"]] <- DistributionS7::weights_ic(results[["aic"]])
-  results[["w_bic"]] <- DistributionS7::weights_ic(results[["bic"]])
-
-  order <- switch(
-    options[["comparisonTableOrderBy"]],
-    aic = order(results[["aic"]], decreasing = FALSE),
-    bic = order(results[["bic"]], decreasing = FALSE),
-    seq_len(nrow(results))
-  )
-
-  if (options[["comparisonTableOrder"]]) results <- results[order, , drop=FALSE]
+.ccdFillDistributionComparisonTable <- function(jaspResults, options, distributions, variable) {
+  if (is.null(jaspResults[["comparisonTable"]])) return()
+  if (!isRecomputed(jaspResults[["comparisonTable"]])) return()
 
 
-  comparisonTable$title <- gettextf("Distribution comparison table (n=%1$i)", length(variable))
+  ic <- lapply(distributions, "[[", "ic")
+  ic <- do.call(rbind, ic)
 
-  comparisonTable$setData(results)
+  ic[["name"]]  <- names(distributions)
+  ic[["w_aic"]] <- DistributionS7::weights_ic(ic[["aic"]])
+  ic[["w_bic"]] <- DistributionS7::weights_ic(ic[["bic"]])
 
-  return(distributions[order])
+  jaspResults[["comparisonTable"]]$title <- gettextf("Distribution comparison table (n=%1$i)", length(variable))
+
+  jaspResults[["comparisonTable"]]$setData(ic)
 }
 
 .ccdPerDistributionOutput <- function(jaspResults, options, distributions, variable) {
@@ -126,19 +151,23 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
     distributions <- distributions[seq_len(options[["outputLimitTo"]])]
 
   for (i in seq_along(distributions))
-    .ccdDistributionOutput(jaspResults, options, distributions[[i]], variable, sprintf("distribution%i", i))
+    .ccdDistributionOutput(
+      jaspResults, options, distributions[[i]], variable, sprintf("distribution%s", i), names(distributions)[i])
 }
 
-.ccdDistributionOutput <- function(jaspResults, options, distribution, variable, name) {
-  distributionContainer <- jaspResults[[name]] %setOrRetrieve% createJaspContainer(
-    title = mathExpression(DistributionS7::as_latex(distribution)),
-    dependencies = .ccdDependencies("outputLimit", "outputLimitTo", "comparisonTableOrder", "comparisonTableOrderBy"),
+.ccdDistributionOutput <- function(jaspResults, options, distribution, variable, key, title) {
+  distributionContainer <- jaspResults[[key]] %setOrRetrieve% createJaspContainer(
+    title = title,
+    dependencies = jaspBase::jaspDeps(
+      options = .ccdDependencies("outputLimit", "outputLimitTo", "comparisonTableOrder", "comparisonTableOrderBy", "fullDistributionName"),
+      nestedOptions = distribution[["nestedOptions"]]
+    ),
     initCollapsed = TRUE
   )
 
-  .ccdParameterTable(distributionContainer, options, distribution, variable)
-  .ccdGofTable      (distributionContainer, options, distribution, variable)
-  .ccdEmpiricalPlots(distributionContainer, options, distribution, variable)
+  .ccdParameterTable(distributionContainer, options, distribution[["distribution"]], variable)
+  .ccdGofTable      (distributionContainer, options, distribution[["distribution"]], variable)
+  .ccdEmpiricalPlots(distributionContainer, options, distribution[["distribution"]], variable)
 
 }
 
@@ -255,7 +284,29 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
 }
 
 .ccdDependencies <- function(...) {
-  c("variable", "distributions", ...)
+  c("variable", ...)
+}
+
+.ccdDistributionNames <- function(distributions, fullNames) {
+  distributions <- lapply(distributions, "[[", "distribution")
+  if (fullNames)
+    return (vapply(distributions, DistributionS7::as_latex, character(1)) |> mathExpression())
+
+  name <- vapply(distributions, S7::prop, character(1), "name")
+  counts <- table(name)
+  duplicated <- names(counts[counts > 1])
+
+  result <- name
+  counters <- setNames(integer(length(duplicated)), duplicated)
+
+  for (i in seq_along(name)) {
+    if (name[i] %in% duplicated) {
+      counters[name[i]] <- counters[name[i]] + 1
+      result[i] <- paste0(name[i], " (", counters[name[i]], ")")
+    }
+  }
+
+  return(result)
 }
 
 .makeDistribution <- function(specification) {
