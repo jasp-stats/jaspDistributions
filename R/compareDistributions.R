@@ -22,6 +22,9 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
   if (options[["variable"]] == "") return()
   if (length(options[["distributions"]]) == 0L) return()
 
+  .hasErrors(dataset, type=c("infinity", "variance"), all.target = options[["variable"]],
+             exitAnalysisIfErrors = TRUE)
+
   variable <- na.omit(dataset[[options[["variable"]]]])
 
   distributions <- jaspResults[["distributions"]] %setOrRetrieve% (
@@ -109,7 +112,7 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
   )
 
   if (options[["comparisonTableOrder"]]) results <- results[order, , drop=FALSE]
-  
+
 
   comparisonTable$title <- gettextf("Distribution comparison table (n=%1$i)", length(variable))
 
