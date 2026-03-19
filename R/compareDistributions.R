@@ -95,16 +95,20 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
                          specification[["distribution"]], .extractErrorMessage(result))
       )
 
-  # get information criteria
-  ic <- try(DistributionS7::information_criteria(distribution=distribution, data=variable))
+  distribution <- result
 
-  if (isTryError(ic))
+  # get information criteria
+  result <- try(DistributionS7::information_criteria(distribution=distribution, data=variable))
+
+  if (isTryError(result))
     jaspBase::.quitAnalysis(
       message = gettextf("Could not compute information criteria for %1$s, with the following error: <\br> %2$s.",
                          specification[["distribution"]], .extractErrorMessage(result))
     )
 
-  result <- list(distribution=result, ic=ic)
+  ic <- result
+
+  result <- list(distribution=distribution, ic=ic)
   return(result)
 }
 
