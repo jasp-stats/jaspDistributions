@@ -46,6 +46,7 @@ set.seed(1)
 
 testthat::test_that("Main comparison table works", {
   testthat::local_edition(3)
+  withr::local_options(width = 200)
   table <- results[["results"]][["comparisonTable"]][["data"]]
   table <- do.call(rbind, table)
   testthat::expect_snapshot(table)
