@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.96.0\n"
 "POT-Creation-Date: 2026-03-14 03:39\n"
-"PO-Revision-Date: 2026-03-20 12:47+0000\n"
+"PO-Revision-Date: 2026-03-21 03:36+0000\n"
 "Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/id/>\n"
@@ -83,7 +83,7 @@ msgid "Parameter"
 msgstr ""
 
 msgid "Estimate"
-msgstr ""
+msgstr "Estimasi"
 
 msgid "SE"
 msgstr ""
@@ -92,13 +92,13 @@ msgid "Standard errors are unavailable with this method"
 msgstr ""
 
 msgid "Lower"
-msgstr ""
+msgstr "Bawah"
 
 msgid "%s%% CI"
-msgstr ""
+msgstr "%s%% CI"
 
 msgid "Upper"
-msgstr ""
+msgstr "Atas"
 
 msgid "Confidence intervals are unavailable with this method."
 msgstr ""
@@ -125,10 +125,10 @@ msgid "Test"
 msgstr "Uji"
 
 msgid "Statistic"
-msgstr ""
+msgstr "Statistik"
 
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgid "Kolmogorov-Smirnov"
 msgstr ""
@@ -272,13 +272,13 @@ msgid "Distribution"
 msgstr ""
 
 msgid "AIC"
-msgstr ""
+msgstr "AIC"
 
 msgid "Weights"
 msgstr ""
 
 msgid "BIC"
-msgstr ""
+msgstr "BIC"
 
 msgid "Log. Lik"
 msgstr ""
