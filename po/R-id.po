@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.96.0\n"
 "POT-Creation-Date: 2026-03-14 03:39\n"
-"PO-Revision-Date: 2026-03-21 03:36+0000\n"
+"PO-Revision-Date: 2026-03-22 23:25+0000\n"
 "Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/id/>\n"
@@ -50,7 +50,7 @@ msgid "25%% Quantile"
 msgstr ""
 
 msgid "Median"
-msgstr ""
+msgstr "Median"
 
 msgid "75%% Quantile"
 msgstr ""
@@ -80,13 +80,13 @@ msgid "Estimated Parameters"
 msgstr ""
 
 msgid "Parameter"
-msgstr ""
+msgstr "Parameter"
 
 msgid "Estimate"
 msgstr "Estimasi"
 
 msgid "SE"
-msgstr ""
+msgstr "SE"
 
 msgid "Standard errors are unavailable with this method"
 msgstr ""
@@ -182,7 +182,7 @@ msgid "Probability Mass"
 msgstr ""
 
 msgid "Probability"
-msgstr ""
+msgstr "Probabilitas"
 
 msgid "Probability Density Function"
 msgstr ""
@@ -269,7 +269,7 @@ msgid "Distribution comparison table"
 msgstr ""
 
 msgid "Distribution"
-msgstr ""
+msgstr "Distribusi"
 
 msgid "AIC"
 msgstr "AIC"
