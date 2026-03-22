@@ -26,15 +26,16 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
 
   variable <- na.omit(dataset[[options[["variable"]]]])
 
-
   distributions <- .ccdGetDistributions(jaspResults, variable, options)
+
+  if (length(distributions) == 0L) return()
 
   # get distribution comparison results
   comparison <- jaspResults[["comparisonState"]] %setOrRetrieve% (
     .ccdCompareDistributions(distributions, options) |>
     createJaspState(dependencies = c("variable", "distributions", "comparisonTableOrder", "comparisonTableOrderBy"))
   )
-  comparison[["name"]] <- .ccdDistributionNames(distributions, full=options[["fullDistributionName"]])
+  comparison[["name"]] <- .ccdDistributionNames(distributions, full=options[["fullDistributionSpecification"]])
 
   # sort and display distribution results
   distributions <- distributions[comparison[["rank"]]]
@@ -166,7 +167,7 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
   jaspResults[["comparisonTable"]]$setData(comparison)
 }
 
-.ccdPerDistributionOutput <- function(jaspResults, options, distributions, variable, names) {
+.ccdPerDistributionOutput <- function(jaspResults, options, distributions, variable, titles) {
   if (options[["outputLimit"]] && options[["outputLimitTo"]] < length(distributions)) {
     n <- options[["outputLimitTo"]]
   } else {
@@ -177,7 +178,7 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
   for (i in seq_len(n)) {
     key <- sprintf("distributionResults%s", i)
     container <- jaspResults[[key]] %setOrRetrieve% createJaspContainer(
-      title = names[i],
+      title = titles[i],
       dependencies = jaspBase::jaspDeps(
         options = c("variable", "outputLimit", "outputLimitTo", "comparisonTableOrder", "comparisonTableOrderBy"),
         optionsFromObject = jaspResults[[names(distributions)[[i]]]]
@@ -185,7 +186,7 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
       initCollapsed = TRUE
     )
     # override title if changed (not saved as dependency as to not recompute results if only the name changed)
-    container$title <- names[i]
+    container$title <- titles[i]
 
     .ccdFillDistributionContainer(container, options, distributions[[i]][["distribution"]], variable)
   }

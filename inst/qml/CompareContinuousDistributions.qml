@@ -37,33 +37,43 @@ Form
 		title: qsTr("Output")
 		info: qsTr("Control what output will be generated.")
 
-		CheckBox
+		Group
 		{
-			name: "comparisonTable"
-			label: qsTr("Distribution comparison table")
-			checked: true
-			info: qsTr("Outputs the main distribution comparison table.")
-
-			CheckBox 
+			CheckBox
 			{
-				name: "comparisonTableOrder"
-				label: qsTr("Order by")
-				infoLabel: qsTr("Order by AIC/BIC")
-				info: qsTr("Orders the output by how well the distributions fit the data (according to AIC or BIC).")
-				childrenOnSameRow: true
+				name: "comparisonTable"
+				label: qsTr("Distribution comparison table")
 				checked: true
-				DropDown
+				info: qsTr("Outputs the main distribution comparison table.")
+
+				CheckBox 
 				{
-					name: "comparisonTableOrderBy"
-					values:   [
-						{ label: qsTr("AIC"), value: "aic"},
-						{ label: qsTr("BIC"), value: "bic"}
-					]
-					startValue: "bic"
+					name: "comparisonTableOrder"
+					label: qsTr("Order by")
+					infoLabel: qsTr("Order by AIC/BIC")
+					info: qsTr("Orders the output by how well the distributions fit the data (according to AIC or BIC).")
+					childrenOnSameRow: true
+					checked: true
+					DropDown
+					{
+						name: "comparisonTableOrderBy"
+						values:   [
+							{ label: qsTr("AIC"), value: "aic"},
+							{ label: qsTr("BIC"), value: "bic"}
+						]
+						startValue: "bic"
+					}
 				}
 			}
+		
+			CheckBox
+			{
+				name: "fullDistributionSpecification"
+				label: qsTr("Show full distribution specification")
+				info: qsTr("Displays the full distribution specification, including its parameters. If unchecked, only distribution names are shown.")
+			}
 		}
-
+		
 		Group
 		{
 			title: qsTr("Output per distribution")
@@ -140,11 +150,6 @@ Form
 			}
 		}
 
-		CheckBox
-		{
-			name: "fullDistributionName"
-			label: qsTr("Full distribution name")
-			info: qsTr("Displays the full distribution name, including parameter specification. If unchecked, names are shortened.")
-		}
+
 	}
 }
