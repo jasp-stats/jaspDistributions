@@ -81,6 +81,8 @@ Column
 		{
 			id: distribution
 			name: "distribution"
+			addEmptyValue: true
+			placeholderText: qsTr("<Select a distribution>")
 			values: [
 				// Unbounded
 				{ label: qsTr("Normal"),						value: "Normal"						},
@@ -136,7 +138,7 @@ Column
 			name: "settings"
 			label: qsTr("Show parameter settings")
 			checked: false
-			visible: !["StandardNormal"].includes(distribution.currentValue)
+			visible: !["", "StandardNormal"].includes(distribution.currentValue)
 		}
 	}
 

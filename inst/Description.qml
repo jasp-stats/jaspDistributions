@@ -307,12 +307,13 @@ Description
 
 	GroupTitle
 	{
-		title: 	qsTr("Compare distributions")
+		title: 	qsTr("Compare Distributions")
+		icon: 	"discoverdistributions-compareDistributions.svg"
 	}
 
 	Analysis
 	{
-		title:			qsTr("Compare continuous distributions")
+		title:			qsTr("Compare Continuous Distributions")
 		qml:			"CompareContinuousDistributions.qml"
 		func:			"compareContinuousDistributions"
 		requiresData:	true

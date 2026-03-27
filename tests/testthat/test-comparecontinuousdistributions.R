@@ -46,6 +46,7 @@ set.seed(1)
 
 testthat::test_that("Main comparison table works", {
   testthat::local_edition(3)
+  withr::local_options(width = 200)
   table <- results[["results"]][["comparisonTable"]][["data"]]
   table <- do.call(rbind, table)
   testthat::expect_snapshot(table)
@@ -53,29 +54,29 @@ testthat::test_that("Main comparison table works", {
 
 testthat::test_that("Per distribution output works", {
   testthat::local_edition(3)
-  table <- results[["results"]][["distribution1"]][["collection"]][["distribution1_parameterEstimates"]][["data"]]
+  table <- results[["results"]][["distributionResults1"]][["collection"]][["distributionResults1_parameterEstimates"]][["data"]]
   table <- do.call(rbind, table)
   testthat::expect_snapshot(table)
 
-  plotName <- results[["results"]][["distribution1"]][["collection"]][["distribution1_empiricalPlots"]][["collection"]][["distribution1_empiricalPlots_hist"]][["data"]]
+  plotName <- results[["results"]][["distributionResults1"]][["collection"]][["distributionResults1_empiricalPlots"]][["collection"]][["distributionResults1_empiricalPlots_hist"]][["data"]]
   plot <- results[["state"]][["figures"]][[plotName]][["obj"]]
   jaspTools::expect_equal_plots(test = plot, name = "hist-plot")
 
-  plotName <- results[["results"]][["distribution1"]][["collection"]][["distribution1_empiricalPlots"]][["collection"]][["distribution1_empiricalPlots_ecdf"]][["data"]]
+  plotName <- results[["results"]][["distributionResults1"]][["collection"]][["distributionResults1_empiricalPlots"]][["collection"]][["distributionResults1_empiricalPlots_ecdf"]][["data"]]
   plot <- results[["state"]][["figures"]][[plotName]][["obj"]]
   jaspTools::expect_equal_plots(test = plot, name = "ecdf-plot")
 
-  plotName <- results[["results"]][["distribution1"]][["collection"]][["distribution1_empiricalPlots"]][["collection"]][["distribution1_empiricalPlots_pp"]][["data"]]
+  plotName <- results[["results"]][["distributionResults1"]][["collection"]][["distributionResults1_empiricalPlots"]][["collection"]][["distributionResults1_empiricalPlots_pp"]][["data"]]
   plot <- results[["state"]][["figures"]][[plotName]][["obj"]]
   jaspTools::expect_equal_plots(test = plot, name = "pp-plot")
 
-  plotName <- results[["results"]][["distribution1"]][["collection"]][["distribution1_empiricalPlots"]][["collection"]][["distribution1_empiricalPlots_qq"]][["data"]]
+  plotName <- results[["results"]][["distributionResults1"]][["collection"]][["distributionResults1_empiricalPlots"]][["collection"]][["distributionResults1_empiricalPlots_qq"]][["data"]]
   plot <- results[["state"]][["figures"]][[plotName]][["obj"]]
   jaspTools::expect_equal_plots(test = plot, name = "qq-plot")
 
   # depends on bootstrapping - small differences possible
   testthat::skip_on_os(c("windows", "linux"))
-  table <- results[["results"]][["distribution1"]][["collection"]][["distribution1_goodnessOfFit"]][["data"]]
+  table <- results[["results"]][["distributionResults1"]][["collection"]][["distributionResults1_goodnessOfFit"]][["data"]]
   testthat::expect_snapshot(table)
 })
 
