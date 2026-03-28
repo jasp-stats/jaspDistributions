@@ -3164,14 +3164,6 @@ msgctxt "LDAssessFit|"
 msgid "Displays the Shapiro-Francia test of normality"
 msgstr "Presenta el contraste de Normalidad de Shapiro-Francia"
 
-msgctxt "Description|"
-msgid "Compare distributions"
-msgstr ""
-
-msgctxt "Description|"
-msgid "Compare continuous distributions"
-msgstr ""
-
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), σ (std.deviation)"
 msgstr ""
@@ -4275,4 +4267,26 @@ msgstr "Intervalo de confianza"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Add the confidence interval to the P-P and Q-Q plots."
+msgstr ""
+
+msgctxt "Description|"
+msgid "Compare Distributions"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Compare Continuous Distributions"
+msgstr ""
+
+msgctxt "DistributionSpecification|"
+msgid "<Select a distribution>"
+msgstr ""
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Show full distribution specification"
+msgstr ""
+
+msgctxt "CompareContinuousDistributions|"
+msgid ""
+"Displays the full distribution specification, including its parameters. If "
+"unchecked, only distribution names are shown."
 msgstr ""

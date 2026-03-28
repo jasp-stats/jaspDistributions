@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: jaspDistributions 0.96.0\n"
-"POT-Creation-Date: 2026-03-14 03:39\n"
+"Project-Id-Version: jaspDistributions 0.96.1\n"
+"POT-Creation-Date: 2026-03-28 03:46\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -256,10 +256,13 @@ msgstr ""
 msgid "Estimation failed: Hessian matrix is not numerically computable. <ul><li>Check outliers or feasibility of the distribution fitting the data.</li></ul>"
 msgstr ""
 
-msgid "Could not initialize distribution %1$s, with the following error: </br></br> %2$s"
+msgid "Could not initialize distribution %1$s, with the following error: <br> %2$s"
 msgstr ""
 
-msgid "Could not fit distribution %1$s, with the following error: </br> %2$s. </br></br> You can try to change the initial parameter values, or remove the distribution from the distribution specification"
+msgid "Could not fit distribution %1$s, with the following error: <br> %2$s. <br> You can try to change the initial parameter values, or remove the distribution from the distribution specification"
+msgstr ""
+
+msgid "Could not compute information criteria for %1$s, with the following error: <br> %2$s."
 msgstr ""
 
 msgid "Distribution comparison table"
@@ -313,7 +316,7 @@ msgstr ""
 msgid "Bootstrapping..."
 msgstr ""
 
-msgid "Could not obtain goodness of fit: </br></br>: %s"
+msgid "Could not obtain goodness of fit: <br> %s"
 msgstr ""
 
 msgid "Empirical plots"

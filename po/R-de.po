@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
-"POT-Creation-Date: 2026-03-14 03:39\n"
+"POT-Creation-Date: 2026-03-28 03:46\n"
 "PO-Revision-Date: 2026-03-15 08:09+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
@@ -441,21 +441,30 @@ msgstr ""
 "<ul><li> Prüfe nach Ausreißern oder der Passgüte der Verteilung auf die "
 "Daten.</li></ul>"
 
+#, fuzzy
 msgid ""
-"Could not initialize distribution %1$s, with the following error: </br></br> "
-"%2$s"
+"Could not initialize distribution %1$s, with the following error: <br> %2$s"
 msgstr ""
 "Kann Verteilung %1$s nicht initialisieren, mit folgendem Fehler: </br></br> "
 "%2$s"
 
+#, fuzzy
 msgid ""
-"Could not fit distribution %1$s, with the following error: </br> %2$s. </"
-"br></br> You can try to change the initial parameter values, or remove the "
+"Could not fit distribution %1$s, with the following error: <br> %2$s. <br> "
+"You can try to change the initial parameter values, or remove the "
 "distribution from the distribution specification"
 msgstr ""
 "Konnte Verteilung %1$s nicht anpassen, mit folgendem Fehler: </br> %2$s. </"
 "br></br> Sie können versuchen, die Startwerte der Parameter zu ändern, oder "
 "die Verteilung aus der Verteilungsangabe zu entfernen"
+
+#, fuzzy
+msgid ""
+"Could not compute information criteria for %1$s, with the following error: "
+"<br> %2$s."
+msgstr ""
+"Kann Verteilung %1$s nicht initialisieren, mit folgendem Fehler: </br></br> "
+"%2$s"
 
 msgid "Distribution comparison table"
 msgstr "Verteilungsvergleichstabelle"
@@ -508,7 +517,8 @@ msgstr "Basiert auf %1$i parametrischen Bootstrap-Stichproben."
 msgid "Bootstrapping..."
 msgstr "Bootstrapping..."
 
-msgid "Could not obtain goodness of fit: </br></br>: %s"
+#, fuzzy
+msgid "Could not obtain goodness of fit: <br> %s"
 msgstr "Konnte Anpassungsgüte nicht ermitteln: </br></br>: %s"
 
 msgid "Empirical plots"

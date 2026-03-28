@@ -1,15 +1,9 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-03-22 09:09+0000\n"
-"Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
-"jaspdistributions-qml/id/>\n"
-"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17-dev\n"
 "X-Language: id\n"
 "X-Qt-Contexts: true\n"
 
@@ -3098,14 +3092,6 @@ msgctxt "LDAssessFit|"
 msgid "Displays the Shapiro-Francia test of normality"
 msgstr ""
 
-msgctxt "Description|"
-msgid "Compare distributions"
-msgstr ""
-
-msgctxt "Description|"
-msgid "Compare continuous distributions"
-msgstr ""
-
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), σ (std.deviation)"
 msgstr ""
@@ -4182,4 +4168,26 @@ msgstr "Interval kepercayaan"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Add the confidence interval to the P-P and Q-Q plots."
+msgstr ""
+
+msgctxt "Description|"
+msgid "Compare Distributions"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Compare Continuous Distributions"
+msgstr ""
+
+msgctxt "DistributionSpecification|"
+msgid "<Select a distribution>"
+msgstr ""
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Show full distribution specification"
+msgstr ""
+
+msgctxt "CompareContinuousDistributions|"
+msgid ""
+"Displays the full distribution specification, including its parameters. If "
+"unchecked, only distribution names are shown."
 msgstr ""
