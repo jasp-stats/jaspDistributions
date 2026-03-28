@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-03-22 09:09+0000\n"
+"Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/id/>\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17-dev\n"
 "X-Language: id\n"
 "X-Qt-Contexts: true\n"
 
@@ -1215,12 +1221,10 @@ msgctxt "LDgammaInverse|"
 msgid "Statistics"
 msgstr "Statistik"
 
-#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Kolmogorov-Smirnov"
 msgstr "Kolmogorov-Smirnov"
 
-#, fuzzy
 msgctxt "LDgammaInverse|"
 msgid "Cramér–von Mises"
 msgstr "Cramér–von Mises"
@@ -1353,7 +1357,6 @@ msgctxt "LDgeometric|"
 msgid "Cumulative Probability"
 msgstr "Probabilitas Kumulatif"
 
-#, fuzzy
 msgctxt "LDgeometric|"
 msgid "Interval"
 msgstr "Interval"
@@ -1526,7 +1529,6 @@ msgctxt "LDhypergeometric|"
 msgid "Cumulative Probability"
 msgstr "Probabilitas Kumulatif"
 
-#, fuzzy
 msgctxt "LDhypergeometric|"
 msgid "Interval"
 msgstr "Interval"
@@ -1955,7 +1957,6 @@ msgctxt "LDnegbinomial|"
 msgid "Cumulative Probability"
 msgstr "Probabilitas Kumulatif"
 
-#, fuzzy
 msgctxt "LDnegbinomial|"
 msgid "Interval"
 msgstr "Interval"
@@ -2044,7 +2045,6 @@ msgctxt "LDnegbinomialZeroInflated|"
 msgid "Cumulative Probability"
 msgstr "Probabilitas Kumulatif"
 
-#, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Interval"
 msgstr "Interval"
@@ -2269,7 +2269,6 @@ msgctxt "LDpoisson|"
 msgid "Cumulative Probability"
 msgstr "Probabilitas Kumulatif"
 
-#, fuzzy
 msgctxt "LDpoisson|"
 msgid "Interval"
 msgstr "Interval"
@@ -2350,7 +2349,6 @@ msgctxt "LDpoissonZeroInflated|"
 msgid "Cumulative Probability"
 msgstr "Probabilitas Kumulatif"
 
-#, fuzzy
 msgctxt "LDpoissonZeroInflated|"
 msgid "Interval"
 msgstr "Interval"
@@ -2379,7 +2377,6 @@ msgctxt "LDtNoncentral|"
 msgid "Non-centrality:"
 msgstr "Non-sentralitas:"
 
-#, fuzzy
 msgctxt "LDtNoncentral|"
 msgid "ncp"
 msgstr "ncp"
@@ -3221,17 +3218,14 @@ msgctxt "DistributionSpecification|"
 msgid "Noncentral Student t"
 msgstr ""
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Cauchy"
 msgstr "Cauchy"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Gumbel"
 msgstr "Gumbel"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Laplace"
 msgstr "Laplace"
@@ -3296,7 +3290,6 @@ msgctxt "DistributionSpecification|"
 msgid "Inverse gamma"
 msgstr "Gamma terbalik"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Gompertz"
 msgstr "Gompertz"
@@ -3317,7 +3310,6 @@ msgctxt "DistributionSpecification|"
 msgid "Weibull"
 msgstr ""
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Amoroso"
 msgstr "Amoroso"
@@ -3326,12 +3318,10 @@ msgctxt "DistributionSpecification|"
 msgid "Stretched beta"
 msgstr "Beta yang membentang"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Fréchet"
 msgstr "Fréchet"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Pareto"
 msgstr "Pareto"
