@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JASP 0.9.2\n"
 "POT-Creation-Date: 2026-03-28 03:46\n"
-"PO-Revision-Date: 2026-02-21 03:36+0000\n"
+"PO-Revision-Date: 2026-03-31 15:09+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/es/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 msgid ""
 "Could not write to column '%s', probably because it wasn't created by this "
@@ -461,24 +461,23 @@ msgstr ""
 msgid "Distribution comparison table"
 msgstr ""
 
-#, fuzzy
 msgid "Distribution"
-msgstr "Distribución F"
+msgstr "Distribución"
 
 msgid "AIC"
-msgstr ""
+msgstr "AIC"
 
 msgid "Weights"
-msgstr ""
+msgstr "Ponderaciones"
 
 msgid "BIC"
-msgstr ""
+msgstr "BIC"
 
 msgid "Log. Lik"
-msgstr ""
+msgstr "Log. Verosim"
 
 msgid "df"
-msgstr ""
+msgstr "gl"
 
 msgid "Distribution comparison table (n=%1$i)"
 msgstr ""
