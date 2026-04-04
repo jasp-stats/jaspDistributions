@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-03-30 00:14+0000\n"
+"Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 "X-Language: de\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -3211,7 +3217,7 @@ msgstr "μ (Mittelwert), λ (Formparameter)"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (drift), α (threshold), σ (noise)"
-msgstr ""
+msgstr "ν (Drift), α (Schwellwert), σ (Rauschen)"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (rate), shift"
@@ -3598,190 +3604,162 @@ msgctxt "InverseGamma|"
 msgid "μ (mean)"
 msgstr "μ (Mittelwert)"
 
-#, fuzzy
 msgctxt "Laplace|"
 msgid "μ (location)"
 msgstr "μ (Lageparameter)"
 
-#, fuzzy
 msgctxt "Laplace|"
 msgid "Fixed"
 msgstr "Fixiert"
 
-#, fuzzy
 msgctxt "Laplace|"
 msgid "β (scale)"
 msgstr "β (Skalenparameter)"
 
-#, fuzzy
 msgctxt "Logistic|"
 msgid "μ (location)"
 msgstr "μ (Lageparameter)"
 
-#, fuzzy
 msgctxt "Logistic|"
 msgid "Fixed"
 msgstr "Fixiert"
 
-#, fuzzy
 msgctxt "Logistic|"
 msgid "σ (scale)"
 msgstr "σ (Skalenparameter)"
 
 msgctxt "LogLogistic|"
 msgid "μ (log location)"
-msgstr ""
+msgstr "μ (Log-Lageparameter)"
 
-#, fuzzy
 msgctxt "LogLogistic|"
 msgid "Fixed"
 msgstr "Fixiert"
 
 msgctxt "LogLogistic|"
 msgid "σ (log scale)"
-msgstr ""
+msgstr "σ (Log-Skalenparameter)"
 
 msgctxt "LogLogistic|"
 msgid "α (scale)"
-msgstr ""
+msgstr "α (Skalenparameter)"
 
-#, fuzzy
 msgctxt "LogLogistic|"
 msgid "β (shape)"
 msgstr "β (Formparameter)"
 
 msgctxt "LogNormal|"
 msgid "μ (log mean)"
-msgstr ""
+msgstr "μ (Log-Mittelwert)"
 
-#, fuzzy
 msgctxt "LogNormal|"
 msgid "Fixed"
 msgstr "Fixiert"
 
 msgctxt "LogNormal|"
 msgid "σ (log std. deviation)"
-msgstr ""
+msgstr "σ (Log-Std.-Abweichung)"
 
-#, fuzzy
 msgctxt "NoncentralChiSquared|"
 msgid "ν (df)"
 msgstr "ν (Freiheitsgrade)"
 
-#, fuzzy
 msgctxt "NoncentralChiSquared|"
 msgid "Fixed"
 msgstr "Fixiert"
 
 msgctxt "NoncentralChiSquared|"
 msgid "κ (noncentrality)"
-msgstr ""
+msgstr "κ (Nichtzentralität)"
 
-#, fuzzy
 msgctxt "NoncentralF|"
 msgid "ν₁ (df)"
 msgstr "ν₁ (Freiheitsgrade)"
 
-#, fuzzy
 msgctxt "NoncentralF|"
 msgid "Fixed"
 msgstr "Fixiert"
 
-#, fuzzy
 msgctxt "NoncentralF|"
 msgid "ν₂ (df)"
 msgstr "ν₂ (Freiheitsgrade)"
 
 msgctxt "NoncentralF|"
 msgid "κ (noncentrality)"
-msgstr ""
+msgstr "κ (Nichtzentralität)"
 
-#, fuzzy
 msgctxt "NoncentralStudentT|"
 msgid "ν (df)"
 msgstr "ν (Freiheitsgrade)"
 
-#, fuzzy
 msgctxt "NoncentralStudentT|"
 msgid "Fixed"
 msgstr "Fixiert"
 
 msgctxt "NoncentralStudentT|"
 msgid "κ (noncentrality)"
-msgstr ""
+msgstr "κ (Nichtzentralität)"
 
-#, fuzzy
 msgctxt "NoncentralStudentT|"
 msgid "μ (location)"
 msgstr "μ (Lageparameter)"
 
-#, fuzzy
 msgctxt "NoncentralStudentT|"
 msgid "σ (scale)"
 msgstr "σ (Skalenparameter)"
 
-#, fuzzy
 msgctxt "NoncentralT|"
 msgid "ν (df)"
 msgstr "ν (Freiheitsgrade)"
 
-#, fuzzy
 msgctxt "NoncentralT|"
 msgid "Fixed"
 msgstr "Fixiert"
 
 msgctxt "NoncentralT|"
 msgid "κ (noncentrality)"
-msgstr ""
+msgstr "κ (Nichtzentralität)"
 
-#, fuzzy
 msgctxt "Normal|"
 msgid "μ (mean)"
 msgstr "μ (Mittelwert)"
 
-#, fuzzy
 msgctxt "Normal|"
 msgid "Fixed"
 msgstr "Fixiert"
 
 msgctxt "Normal|"
 msgid "σ (std. deviation)"
-msgstr ""
+msgstr "σ (Std.-Abweichung)"
 
 msgctxt "Normal|"
 msgid "σ² (variance)"
-msgstr ""
+msgstr "σ² (Varianz)"
 
 msgctxt "Normal|"
 msgid "τ (precision)"
-msgstr ""
+msgstr "τ (Präzision)"
 
-#, fuzzy
 msgctxt "Pareto|"
 msgid "α (shape)"
 msgstr "α (Formparameter)"
 
-#, fuzzy
 msgctxt "Pareto|"
 msgid "Fixed"
 msgstr "Fixiert"
 
-#, fuzzy
 msgctxt "Pareto|"
 msgid "β (scale)"
 msgstr "β (Skalenparameter)"
 
-#, fuzzy
 msgctxt "ShiftedExponential|"
 msgid "λ (rate)"
 msgstr "λ (Ratenparameter)"
 
-#, fuzzy
 msgctxt "ShiftedExponential|"
 msgid "Fixed"
 msgstr "Fixiert"
 
-#, fuzzy
 msgctxt "ShiftedExponential|"
 msgid "β (scale)"
 msgstr "β (Skalenparameter)"
@@ -3790,27 +3768,22 @@ msgctxt "ShiftedExponential|"
 msgid "shift"
 msgstr ""
 
-#, fuzzy
 msgctxt "ShiftedGamma|"
 msgid "α (shape)"
 msgstr "α (Formparameter)"
 
-#, fuzzy
 msgctxt "ShiftedGamma|"
 msgid "Fixed"
 msgstr "Fixiert"
 
-#, fuzzy
 msgctxt "ShiftedGamma|"
 msgid "θ (scale)"
 msgstr "θ (Skalenparameter)"
 
-#, fuzzy
 msgctxt "ShiftedGamma|"
 msgid "λ (rate)"
 msgstr "λ (Ratenparameter)"
 
-#, fuzzy
 msgctxt "ShiftedGamma|"
 msgid "μ (mean)"
 msgstr "μ (Mittelwert)"
@@ -3819,27 +3792,22 @@ msgctxt "ShiftedGamma|"
 msgid "shift"
 msgstr ""
 
-#, fuzzy
 msgctxt "ShiftedInverseGamma|"
 msgid "α (shape)"
 msgstr "α (Formparameter)"
 
-#, fuzzy
 msgctxt "ShiftedInverseGamma|"
 msgid "Fixed"
 msgstr "Fixiert"
 
-#, fuzzy
 msgctxt "ShiftedInverseGamma|"
 msgid "θ (scale)"
 msgstr "θ (Skalenparameter)"
 
-#, fuzzy
 msgctxt "ShiftedInverseGamma|"
 msgid "λ (rate)"
 msgstr "λ (Ratenparameter)"
 
-#, fuzzy
 msgctxt "ShiftedInverseGamma|"
 msgid "μ (mean)"
 msgstr "μ (Mittelwert)"
@@ -3850,22 +3818,20 @@ msgstr ""
 
 msgctxt "ShiftedLogLogistic|"
 msgid "μ (log location)"
-msgstr ""
+msgstr "μ (Log-Lageparameter)"
 
-#, fuzzy
 msgctxt "ShiftedLogLogistic|"
 msgid "Fixed"
 msgstr "Fixiert"
 
 msgctxt "ShiftedLogLogistic|"
 msgid "σ (log scale)"
-msgstr ""
+msgstr "σ (Log-Skalenparameter)"
 
 msgctxt "ShiftedLogLogistic|"
 msgid "α (scale)"
-msgstr ""
+msgstr "α (Skalenparameter)"
 
-#, fuzzy
 msgctxt "ShiftedLogLogistic|"
 msgid "β (shape)"
 msgstr "β (Formparameter)"
@@ -3876,46 +3842,44 @@ msgstr ""
 
 msgctxt "ShiftedLogNormal|"
 msgid "μ (log mean)"
-msgstr ""
+msgstr "μ (Log-Mittelwert)"
 
-#, fuzzy
 msgctxt "ShiftedLogNormal|"
 msgid "Fixed"
 msgstr "Fixiert"
 
 msgctxt "ShiftedLogNormal|"
 msgid "σ (log std. deviation)"
-msgstr ""
+msgstr "σ (Log-Std.-Abweichung)"
 
 msgctxt "ShiftedLogNormal|"
 msgid "shift"
 msgstr ""
 
-#, fuzzy
 msgctxt "ShiftedWald|"
 msgid "μ (mean)"
 msgstr "μ (Mittelwert)"
 
-#, fuzzy
 msgctxt "ShiftedWald|"
 msgid "Fixed"
 msgstr "Fixiert"
 
 msgctxt "ShiftedWald|"
 msgid "λ (shape)"
-msgstr ""
+msgstr "λ (Formparameter)"
 
+#, fuzzy
 msgctxt "ShiftedWald|"
 msgid "ν (drift)"
-msgstr ""
+msgstr "ν (Drift)"
 
 msgctxt "ShiftedWald|"
 msgid "α (threshold)"
-msgstr ""
+msgstr "α (Schwellwert)"
 
 msgctxt "ShiftedWald|"
 msgid "σ (noise)"
-msgstr ""
+msgstr "σ (Rauschen)"
 
 msgctxt "ShiftedWald|"
 msgid "shift"
@@ -3923,16 +3887,15 @@ msgstr ""
 
 msgctxt "ShiftedWeibull|"
 msgid "shape"
-msgstr ""
+msgstr "Formparameter"
 
-#, fuzzy
 msgctxt "ShiftedWeibull|"
 msgid "Fixed"
 msgstr "Fixiert"
 
 msgctxt "ShiftedWeibull|"
 msgid "scale"
-msgstr ""
+msgstr "Skalenparameter"
 
 msgctxt "ShiftedWeibull|"
 msgid "shift"
@@ -3940,32 +3903,28 @@ msgstr ""
 
 msgctxt "SkewCauchy|"
 msgid "ξ (location)"
-msgstr ""
+msgstr "ξ (Lageparameter)"
 
-#, fuzzy
 msgctxt "SkewCauchy|"
 msgid "Fixed"
 msgstr "Fixiert"
 
 msgctxt "SkewCauchy|"
 msgid "ω (scale)"
-msgstr ""
+msgstr "ω (Skalenparameter)"
 
 msgctxt "SkewCauchy|"
 msgid "α (slant)"
 msgstr ""
 
-#, fuzzy
 msgctxt "SkewedGeneralizedT|"
 msgid "μ (location)"
 msgstr "μ (Lageparameter)"
 
-#, fuzzy
 msgctxt "SkewedGeneralizedT|"
 msgid "Fixed"
 msgstr "Fixiert"
 
-#, fuzzy
 msgctxt "SkewedGeneralizedT|"
 msgid "σ (scale)"
 msgstr "σ (Skalenparameter)"
@@ -3984,16 +3943,15 @@ msgstr ""
 
 msgctxt "SkewNormal|"
 msgid "ξ (location)"
-msgstr ""
+msgstr "ξ (Lageparameter)"
 
-#, fuzzy
 msgctxt "SkewNormal|"
 msgid "Fixed"
 msgstr "Fixiert"
 
 msgctxt "SkewNormal|"
 msgid "ω (scale)"
-msgstr ""
+msgstr "ω (Skalenparameter)"
 
 msgctxt "SkewNormal|"
 msgid "α (slant)"
@@ -4001,212 +3959,195 @@ msgstr ""
 
 msgctxt "SkewT|"
 msgid "ξ (location)"
-msgstr ""
+msgstr "ξ (Lageparameter)"
 
-#, fuzzy
 msgctxt "SkewT|"
 msgid "Fixed"
 msgstr "Fixiert"
 
 msgctxt "SkewT|"
 msgid "ω (scale)"
-msgstr ""
+msgstr "ω (Skalenparameter)"
 
 msgctxt "SkewT|"
 msgid "α (slant)"
 msgstr ""
 
-#, fuzzy
 msgctxt "SkewT|"
 msgid "ν (df)"
 msgstr "ν (Freiheitsgrade)"
 
-#, fuzzy
 msgctxt "StandardT|"
 msgid "ν (df)"
 msgstr "ν (Freiheitsgrade)"
 
-#, fuzzy
 msgctxt "StandardT|"
 msgid "Fixed"
 msgstr "Fixiert"
 
-#, fuzzy
 msgctxt "StretchedBeta|"
 msgid "α (shape)"
 msgstr "α (Formparameter)"
 
-#, fuzzy
 msgctxt "StretchedBeta|"
 msgid "Fixed"
 msgstr "Fixiert"
 
-#, fuzzy
 msgctxt "StretchedBeta|"
 msgid "β (shape)"
 msgstr "β (Formparameter)"
 
 msgctxt "StretchedBeta|"
 msgid "min"
-msgstr ""
+msgstr "Min"
 
 msgctxt "StretchedBeta|"
 msgid "max"
-msgstr ""
+msgstr "Max"
 
-#, fuzzy
 msgctxt "StudentT|"
 msgid "ν (df)"
 msgstr "ν (Freiheitsgrade)"
 
-#, fuzzy
 msgctxt "StudentT|"
 msgid "Fixed"
 msgstr "Fixiert"
 
-#, fuzzy
 msgctxt "StudentT|"
 msgid "μ (location)"
 msgstr "μ (Lageparameter)"
 
-#, fuzzy
 msgctxt "StudentT|"
 msgid "σ (scale)"
 msgstr "σ (Skalenparameter)"
 
-#, fuzzy
 msgctxt "SymmetricGeneralizedNormal|"
 msgid "μ (location)"
 msgstr "μ (Lageparameter)"
 
-#, fuzzy
 msgctxt "SymmetricGeneralizedNormal|"
 msgid "Fixed"
 msgstr "Fixiert"
 
 msgctxt "SymmetricGeneralizedNormal|"
 msgid "α (scale)"
-msgstr ""
+msgstr "α (Skalenparameter)"
 
-#, fuzzy
 msgctxt "SymmetricGeneralizedNormal|"
 msgid "β (shape)"
 msgstr "β (Formparameter)"
 
 msgctxt "Triangular|"
 msgid "a (min)"
-msgstr ""
+msgstr "a (Min)"
 
-#, fuzzy
 msgctxt "Triangular|"
 msgid "Fixed"
 msgstr "Fixiert"
 
 msgctxt "Triangular|"
 msgid "b (max)"
-msgstr ""
+msgstr "b (Max)"
 
 msgctxt "Triangular|"
 msgid "c (mode)"
-msgstr ""
+msgstr "c (Modus)"
 
 msgctxt "Uniform|"
 msgid "min"
-msgstr ""
+msgstr "Min"
 
-#, fuzzy
 msgctxt "Uniform|"
 msgid "Fixed"
 msgstr "Fixiert"
 
 msgctxt "Uniform|"
 msgid "max"
-msgstr ""
+msgstr "Max"
 
-#, fuzzy
 msgctxt "Wald|"
 msgid "μ (mean)"
 msgstr "μ (Mittelwert)"
 
-#, fuzzy
 msgctxt "Wald|"
 msgid "Fixed"
 msgstr "Fixiert"
 
 msgctxt "Wald|"
 msgid "λ (shape)"
-msgstr ""
+msgstr "λ (Formparameter)"
 
 msgctxt "Wald|"
 msgid "ν (drift)"
-msgstr ""
+msgstr "ν (Drift)"
 
 msgctxt "Wald|"
 msgid "α (threshold)"
-msgstr ""
+msgstr "α (Schwellwert)"
 
 msgctxt "Wald|"
 msgid "σ (noise)"
-msgstr ""
+msgstr "σ (Rauschen)"
 
 msgctxt "Weibull|"
 msgid "shape"
-msgstr ""
+msgstr "Formparameter"
 
-#, fuzzy
 msgctxt "Weibull|"
 msgid "Fixed"
 msgstr "Fixiert"
 
 msgctxt "Weibull|"
 msgid "scale"
-msgstr ""
+msgstr "Skalenparameter"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Specify a set of distributions, estimate their parameters, and compare their "
 "fit to data."
 msgstr ""
+"Geben Sie eine Menge von Verteilungen an, schätzen Sie deren Parameter und "
+"vergleichen Sie deren Anpassung an Daten."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Select data for distribution comparison."
-msgstr ""
+msgstr "Wählen Sie Daten für den Verteilungsvergleich aus."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Variable"
-msgstr ""
+msgstr "Variable"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Specify distributions"
-msgstr ""
+msgstr "Verteilungen angeben"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Specify distributions to be compared..."
-msgstr ""
+msgstr "Angabe der zu vergleichenden Verteilungen..."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Output"
-msgstr ""
+msgstr "Ausgabe"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Control what output will be generated."
-msgstr ""
+msgstr "Steuern Sie, welche Ausgabe generiert wird."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Distribution comparison table"
-msgstr ""
+msgstr "Verteilungsvergleichstabelle"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Outputs the main distribution comparison table."
-msgstr ""
+msgstr "Gibt die Hauptverteilungsvergleichstabelle aus."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Order by"
-msgstr ""
+msgstr "Sortieren nach"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Order by AIC/BIC"
-msgstr ""
+msgstr "Sortieren nach AIC/BIC"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
