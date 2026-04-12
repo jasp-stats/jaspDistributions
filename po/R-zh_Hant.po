@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.19.2\n"
 "POT-Creation-Date: 2026-03-28 03:46\n"
-"PO-Revision-Date: 2026-04-04 03:42+0000\n"
+"PO-Revision-Date: 2026-04-12 16:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jasp/jaspdistributions-r/zh_Hant/>\n"
@@ -42,7 +42,7 @@ msgid "Mean"
 msgstr "平均數"
 
 msgid "Variance"
-msgstr ""
+msgstr "變異數"
 
 msgid "Std. deviation"
 msgstr ""
@@ -99,7 +99,7 @@ msgid "Lower"
 msgstr "下界"
 
 msgid "%s%% CI"
-msgstr ""
+msgstr "%s%% 信賴區間"
 
 msgid "Upper"
 msgstr "上界"
@@ -184,10 +184,10 @@ msgid "Theoretical"
 msgstr ""
 
 msgid "Density"
-msgstr ""
+msgstr "密度"
 
 msgid "Probability Mass"
-msgstr ""
+msgstr "機率質量"
 
 msgid "Probability"
 msgstr "機率"
@@ -196,7 +196,7 @@ msgid "Probability Density Function"
 msgstr "機率密度函數"
 
 msgid "Probability Mass Function"
-msgstr ""
+msgstr "機率質量函數"
 
 msgid "Cumulative Distribution Function"
 msgstr ""
@@ -220,7 +220,7 @@ msgid "Quantile Plot"
 msgstr ""
 
 msgid "Probability Mass Plot"
-msgstr ""
+msgstr "機率質量圖"
 
 msgid "Histogram"
 msgstr "長條圖"
@@ -480,7 +480,7 @@ msgid "beta-binomial distribution"
 msgstr ""
 
 msgid "number of trials: %s"
-msgstr ""
+msgstr "實驗次數：%s"
 
 msgid "Parameter n was fixed at value %s."
 msgstr ""
