@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JASP 0.9.2\n"
 "POT-Creation-Date: 2026-03-28 03:46\n"
-"PO-Revision-Date: 2026-03-31 15:09+0000\n"
+"PO-Revision-Date: 2026-04-14 10:09+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/es/>\n"
@@ -446,20 +446,26 @@ msgstr ""
 msgid ""
 "Could not initialize distribution %1$s, with the following error: <br> %2$s"
 msgstr ""
+"No se pudo iniciar la distribución %1$s, con el siguiente fallo: <br> %2$s"
 
 msgid ""
 "Could not fit distribution %1$s, with the following error: <br> %2$s. <br> "
 "You can try to change the initial parameter values, or remove the "
 "distribution from the distribution specification"
 msgstr ""
+"No se pudo ajustar la distribución %1$s, con el siguiente fallo: <br> %2$s. "
+"<br> Puede intentar cambiar los valores iniciales de los parámetros, o "
+"eliminar la distribución de la especificación de distribuciones"
 
 msgid ""
 "Could not compute information criteria for %1$s, with the following error: "
 "<br> %2$s."
 msgstr ""
+"No se pudieron calcular los criterios de información para %1$s, con el "
+"siguiente fallo: <br> %2$s."
 
 msgid "Distribution comparison table"
-msgstr ""
+msgstr "Tabla de comparación de distribuciones"
 
 msgid "Distribution"
 msgstr "Distribución"
@@ -480,51 +486,47 @@ msgid "df"
 msgstr "gl"
 
 msgid "Distribution comparison table (n=%1$i)"
-msgstr ""
+msgstr "Tabla de comparación de distribuciones (n=%1$i)"
 
-#, fuzzy
 msgid "Parameter estimates"
-msgstr "Parámetro"
+msgstr "Estimaciones de parámetros"
 
 msgid "Key"
-msgstr ""
+msgstr "Clave"
 
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 msgid "Label"
-msgstr ""
+msgstr "Etiqueta"
 
 msgid "Distribution has no parameters to estimate."
-msgstr ""
+msgstr "La distribución no tiene parámetros que estimar."
 
 msgid "The following parameters were held constant: %s."
-msgstr ""
+msgstr "Los siguientes parámetros se mantuvieron constantes: %s."
 
 msgid "Goodness of fit"
-msgstr ""
+msgstr "Bondad del ajuste"
 
 msgid "Based on %1$i parametric bootstrap samples."
-msgstr ""
+msgstr "Basado en %1$i muestras paramétricas de bootstrap."
 
 msgid "Bootstrapping..."
-msgstr ""
+msgstr "Haciendo bootstrap..."
 
 msgid "Could not obtain goodness of fit: <br> %s"
-msgstr ""
+msgstr "No se pudo obtener la bondad del ajuste: <br> %s"
 
 msgid "Empirical plots"
-msgstr ""
+msgstr "Gráficos empíricos"
 
-#, fuzzy
 msgid "Histogram vs. theoretical density"
-msgstr "Histograma vs. PDF Teórico"
+msgstr "Histograma vs. densidad teórica"
 
-#, fuzzy
 msgid "Empirical vs. theoretical cumulative probability"
-msgstr "FDA empírica vs teórica"
+msgstr "Probabilidad acumulada empírica vs. teórica"
 
-#, fuzzy
 msgid "Cramér–von Mises"
 msgstr "Cramér-von Mises"
 
