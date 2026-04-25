@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-04-25 03:50+0000\n"
+"Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
+"Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/gl/>\n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 "X-Language: gl_ES\n"
 "X-Source-Language: C\n"
 "X-Qt-Contexts: true\n"
@@ -3246,221 +3252,195 @@ msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "default"
-msgstr ""
+msgstr "Por defecto"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Normal"
 msgstr "Normal"
 
 msgctxt "DistributionSpecification|"
 msgid "Standard normal"
-msgstr ""
+msgstr "Normal tipificada"
 
 msgctxt "DistributionSpecification|"
 msgid "Standard t"
-msgstr ""
+msgstr "T tipificada"
 
 msgctxt "DistributionSpecification|"
 msgid "Student t"
-msgstr ""
+msgstr "T de Student"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Noncentral t"
 msgstr "T non centrada"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral Student t"
-msgstr ""
+msgstr "T de Student non centrada"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Cauchy"
 msgstr "Cauchy"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Gumbel"
 msgstr "Gumbel"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Laplace"
 msgstr "Laplace"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Logistic"
 msgstr "Loxística"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Skewed generalized t"
 msgstr "T xeneralizada asimétrica"
 
 msgctxt "DistributionSpecification|"
 msgid "Symmetric generalized normal"
-msgstr ""
+msgstr "Normal xeneralizada simétrica"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Skew normal"
 msgstr "Normal asimétrica"
 
 msgctxt "DistributionSpecification|"
 msgid "Skew Cauchy"
-msgstr ""
+msgstr "Cauchy asimétrica"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Skew t"
 msgstr "T asimétrica"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Beta"
 msgstr "Beta"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Beta prime"
 msgstr "Beta orixinal"
 
 msgctxt "DistributionSpecification|"
 msgid "F"
-msgstr ""
+msgstr "F"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral F"
-msgstr ""
+msgstr "F non centrada"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Chi-squared"
 msgstr "Khi-cadrado"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral chi-squared"
-msgstr ""
+msgstr "Khi-cadrado non centrada"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Exponential"
 msgstr "Exponencial"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Gamma"
 msgstr "Gamma"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Inverse gamma"
 msgstr "Gamma Inversa"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Gompertz"
 msgstr "Gompertz"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Log-logistic"
 msgstr "Log-loxística"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Log-normal"
 msgstr "Log-Normal"
 
 msgctxt "DistributionSpecification|"
 msgid "Wald"
-msgstr ""
+msgstr "Wald"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Weibull"
 msgstr "Weibull"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Amoroso"
 msgstr "Amoroso"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Stretched beta"
 msgstr "Beta alongada"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Fréchet"
 msgstr "Fréchet"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Pareto"
 msgstr "Pareto"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Triangular"
 msgstr "Triangular"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Uniform"
 msgstr "Uniforme"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Exponential"
-msgstr ""
+msgstr "Exponencial desprazada"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Log-normal"
-msgstr ""
+msgstr "Log-Normal desprazada"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Gamma"
-msgstr ""
+msgstr "Gamma desprazada"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Inverse gamma"
-msgstr ""
+msgstr "Gamma inversa desprazada"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Log-logistic"
-msgstr ""
+msgstr "Log-loxística desprazada"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Wald"
-msgstr ""
+msgstr "Wald desprazada"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Weibull"
-msgstr ""
+msgstr "Weibull desprazada"
 
 msgctxt "DistributionSpecification|"
 msgid "Show parameter settings"
-msgstr ""
+msgstr "Amosar a configuración de parámetros"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Parameters"
 msgstr "Parámetros"
 
 msgctxt "Amoroso|"
 msgid "a (location)"
-msgstr ""
+msgstr "a (posición)"
 
 msgctxt "Amoroso|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fixo"
 
 msgctxt "Amoroso|"
 msgid "θ (scale)"
-msgstr ""
+msgstr "θ (escala)"
 
 msgctxt "Amoroso|"
 msgid "α (shape)"
@@ -3476,7 +3456,7 @@ msgstr ""
 
 msgctxt "Beta|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fixo"
 
 msgctxt "Beta|"
 msgid "β (shape)"
@@ -3488,7 +3468,7 @@ msgstr ""
 
 msgctxt "BetaPrime|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fixo"
 
 msgctxt "BetaPrime|"
 msgid "β (shape)"
@@ -3500,7 +3480,7 @@ msgstr ""
 
 msgctxt "Cauchy|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fixo"
 
 msgctxt "Cauchy|"
 msgid "σ (scale)"
@@ -3512,7 +3492,7 @@ msgstr ""
 
 msgctxt "CentralF|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fixo"
 
 msgctxt "CentralF|"
 msgid "ν₂ (df)"
@@ -3524,7 +3504,7 @@ msgstr ""
 
 msgctxt "ChiSquared|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fixo"
 
 msgctxt "Exponential|"
 msgid "λ (rate)"
@@ -3532,7 +3512,7 @@ msgstr ""
 
 msgctxt "Exponential|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fixo"
 
 msgctxt "Exponential|"
 msgid "β (scale)"
@@ -3544,7 +3524,7 @@ msgstr ""
 
 msgctxt "Frechet|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fixo"
 
 msgctxt "Frechet|"
 msgid "σ (scale)"
@@ -3560,7 +3540,7 @@ msgstr ""
 
 msgctxt "Gamma|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fixo"
 
 msgctxt "Gamma|"
 msgid "θ (scale)"
@@ -3580,7 +3560,7 @@ msgstr ""
 
 msgctxt "Gompertz|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fixo"
 
 msgctxt "Gompertz|"
 msgid "β (scale)"
@@ -3592,7 +3572,7 @@ msgstr ""
 
 msgctxt "Gumbel|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fixo"
 
 msgctxt "Gumbel|"
 msgid "β (scale)"
@@ -3604,7 +3584,7 @@ msgstr ""
 
 msgctxt "InverseGamma|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fixo"
 
 msgctxt "InverseGamma|"
 msgid "θ (scale)"
@@ -3624,7 +3604,7 @@ msgstr ""
 
 msgctxt "Laplace|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fixo"
 
 msgctxt "Laplace|"
 msgid "β (scale)"
@@ -3668,7 +3648,7 @@ msgstr ""
 
 msgctxt "LogNormal|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fixo"
 
 msgctxt "LogNormal|"
 msgid "σ (log std. deviation)"
