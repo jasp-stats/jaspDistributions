@@ -1,15 +1,9 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-04-25 03:50+0000\n"
-"Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
-"jaspdistributions-qml/es/>\n"
-"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Language: es\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -3546,9 +3540,10 @@ msgctxt "Gamma|"
 msgid "Fixed"
 msgstr "Fijo"
 
+#, fuzzy
 msgctxt "Gamma|"
 msgid "θ (scale)"
-msgstr ""
+msgstr "θ (escala)"
 
 msgctxt "Gamma|"
 msgid "λ (rate)"
@@ -3590,9 +3585,10 @@ msgctxt "InverseGamma|"
 msgid "Fixed"
 msgstr "Fijo"
 
+#, fuzzy
 msgctxt "InverseGamma|"
 msgid "θ (scale)"
-msgstr ""
+msgstr "θ (escala)"
 
 msgctxt "InverseGamma|"
 msgid "λ (rate)"
@@ -3606,9 +3602,10 @@ msgctxt "Laplace|"
 msgid "μ (location)"
 msgstr ""
 
+#, fuzzy
 msgctxt "Laplace|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "Laplace|"
 msgid "β (scale)"
@@ -3618,9 +3615,10 @@ msgctxt "Logistic|"
 msgid "μ (location)"
 msgstr ""
 
+#, fuzzy
 msgctxt "Logistic|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "Logistic|"
 msgid "σ (scale)"
@@ -3630,9 +3628,10 @@ msgctxt "LogLogistic|"
 msgid "μ (log location)"
 msgstr ""
 
+#, fuzzy
 msgctxt "LogLogistic|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "LogLogistic|"
 msgid "σ (log scale)"
@@ -3650,9 +3649,10 @@ msgctxt "LogNormal|"
 msgid "μ (log mean)"
 msgstr ""
 
+#, fuzzy
 msgctxt "LogNormal|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "LogNormal|"
 msgid "σ (log std. deviation)"
@@ -3674,9 +3674,10 @@ msgctxt "NoncentralF|"
 msgid "ν₁ (df)"
 msgstr ""
 
+#, fuzzy
 msgctxt "NoncentralF|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "NoncentralF|"
 msgid "ν₂ (df)"
@@ -3690,9 +3691,10 @@ msgctxt "NoncentralStudentT|"
 msgid "ν (df)"
 msgstr ""
 
+#, fuzzy
 msgctxt "NoncentralStudentT|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "NoncentralStudentT|"
 msgid "κ (noncentrality)"
@@ -3710,9 +3712,10 @@ msgctxt "NoncentralT|"
 msgid "ν (df)"
 msgstr ""
 
+#, fuzzy
 msgctxt "NoncentralT|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "NoncentralT|"
 msgid "κ (noncentrality)"
@@ -3722,9 +3725,10 @@ msgctxt "Normal|"
 msgid "μ (mean)"
 msgstr ""
 
+#, fuzzy
 msgctxt "Normal|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "Normal|"
 msgid "σ (std. deviation)"
@@ -3742,9 +3746,10 @@ msgctxt "Pareto|"
 msgid "α (shape)"
 msgstr ""
 
+#, fuzzy
 msgctxt "Pareto|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "Pareto|"
 msgid "β (scale)"
@@ -3754,9 +3759,10 @@ msgctxt "ShiftedExponential|"
 msgid "λ (rate)"
 msgstr ""
 
+#, fuzzy
 msgctxt "ShiftedExponential|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "ShiftedExponential|"
 msgid "β (scale)"
@@ -3770,13 +3776,15 @@ msgctxt "ShiftedGamma|"
 msgid "α (shape)"
 msgstr ""
 
+#, fuzzy
 msgctxt "ShiftedGamma|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
+#, fuzzy
 msgctxt "ShiftedGamma|"
 msgid "θ (scale)"
-msgstr ""
+msgstr "θ (escala)"
 
 msgctxt "ShiftedGamma|"
 msgid "λ (rate)"
@@ -3794,13 +3802,15 @@ msgctxt "ShiftedInverseGamma|"
 msgid "α (shape)"
 msgstr ""
 
+#, fuzzy
 msgctxt "ShiftedInverseGamma|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
+#, fuzzy
 msgctxt "ShiftedInverseGamma|"
 msgid "θ (scale)"
-msgstr ""
+msgstr "θ (escala)"
 
 msgctxt "ShiftedInverseGamma|"
 msgid "λ (rate)"
@@ -3818,9 +3828,10 @@ msgctxt "ShiftedLogLogistic|"
 msgid "μ (log location)"
 msgstr ""
 
+#, fuzzy
 msgctxt "ShiftedLogLogistic|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "ShiftedLogLogistic|"
 msgid "σ (log scale)"
@@ -3842,9 +3853,10 @@ msgctxt "ShiftedLogNormal|"
 msgid "μ (log mean)"
 msgstr ""
 
+#, fuzzy
 msgctxt "ShiftedLogNormal|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "ShiftedLogNormal|"
 msgid "σ (log std. deviation)"
@@ -3858,9 +3870,10 @@ msgctxt "ShiftedWald|"
 msgid "μ (mean)"
 msgstr ""
 
+#, fuzzy
 msgctxt "ShiftedWald|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "ShiftedWald|"
 msgid "λ (shape)"
@@ -3886,9 +3899,10 @@ msgctxt "ShiftedWeibull|"
 msgid "shape"
 msgstr ""
 
+#, fuzzy
 msgctxt "ShiftedWeibull|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "ShiftedWeibull|"
 msgid "scale"
@@ -3902,9 +3916,10 @@ msgctxt "SkewCauchy|"
 msgid "ξ (location)"
 msgstr ""
 
+#, fuzzy
 msgctxt "SkewCauchy|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "SkewCauchy|"
 msgid "ω (scale)"
@@ -3918,9 +3933,10 @@ msgctxt "SkewedGeneralizedT|"
 msgid "μ (location)"
 msgstr ""
 
+#, fuzzy
 msgctxt "SkewedGeneralizedT|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "SkewedGeneralizedT|"
 msgid "σ (scale)"
@@ -3942,9 +3958,10 @@ msgctxt "SkewNormal|"
 msgid "ξ (location)"
 msgstr ""
 
+#, fuzzy
 msgctxt "SkewNormal|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "SkewNormal|"
 msgid "ω (scale)"
@@ -3958,9 +3975,10 @@ msgctxt "SkewT|"
 msgid "ξ (location)"
 msgstr ""
 
+#, fuzzy
 msgctxt "SkewT|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "SkewT|"
 msgid "ω (scale)"
@@ -3978,17 +3996,19 @@ msgctxt "StandardT|"
 msgid "ν (df)"
 msgstr ""
 
+#, fuzzy
 msgctxt "StandardT|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "StretchedBeta|"
 msgid "α (shape)"
 msgstr ""
 
+#, fuzzy
 msgctxt "StretchedBeta|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "StretchedBeta|"
 msgid "β (shape)"
@@ -4006,9 +4026,10 @@ msgctxt "StudentT|"
 msgid "ν (df)"
 msgstr ""
 
+#, fuzzy
 msgctxt "StudentT|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "StudentT|"
 msgid "μ (location)"
@@ -4022,9 +4043,10 @@ msgctxt "SymmetricGeneralizedNormal|"
 msgid "μ (location)"
 msgstr ""
 
+#, fuzzy
 msgctxt "SymmetricGeneralizedNormal|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "SymmetricGeneralizedNormal|"
 msgid "α (scale)"
@@ -4038,9 +4060,10 @@ msgctxt "Triangular|"
 msgid "a (min)"
 msgstr ""
 
+#, fuzzy
 msgctxt "Triangular|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "Triangular|"
 msgid "b (max)"
@@ -4054,9 +4077,10 @@ msgctxt "Uniform|"
 msgid "min"
 msgstr ""
 
+#, fuzzy
 msgctxt "Uniform|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "Uniform|"
 msgid "max"
@@ -4066,9 +4090,10 @@ msgctxt "Wald|"
 msgid "μ (mean)"
 msgstr ""
 
+#, fuzzy
 msgctxt "Wald|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "Wald|"
 msgid "λ (shape)"
@@ -4090,9 +4115,10 @@ msgctxt "Weibull|"
 msgid "shape"
 msgstr ""
 
+#, fuzzy
 msgctxt "Weibull|"
 msgid "Fixed"
-msgstr ""
+msgstr "Fijo"
 
 msgctxt "Weibull|"
 msgid "scale"
