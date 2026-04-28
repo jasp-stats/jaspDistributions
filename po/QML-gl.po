@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-04-27 18:30+0000\n"
+"PO-Revision-Date: 2026-04-29 00:22+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-qml/gl/>\n"
@@ -3168,15 +3168,15 @@ msgstr "Presenta a proba de Normalidade de Shapiro-Francia"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), σ (std.deviation)"
-msgstr ""
+msgstr "μ (media), σ (desvío padrón)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), σ² (variance)"
-msgstr ""
+msgstr "μ (media), σ² (varianza)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), τ (precision)"
-msgstr ""
+msgstr "μ (media), τ (precisión)"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (rate)"
@@ -3188,67 +3188,67 @@ msgstr "β (escala)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), θ (scale)"
-msgstr ""
+msgstr "α (forma), θ (escala)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), λ (rate)"
-msgstr ""
+msgstr "α (forma), λ (proporción)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), μ (mean)"
-msgstr ""
+msgstr "α (forma), μ (media)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (log location), σ (log scale)"
-msgstr ""
+msgstr "μ (log posición), σ (log escala)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (scale), β (shape)"
-msgstr ""
+msgstr "α (escala), β (forma)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), λ (shape)"
-msgstr ""
+msgstr "μ (media), λ (forma)"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (drift), α (threshold), σ (noise)"
-msgstr ""
+msgstr "ν (deriva), α (lindeiro), σ (ruído)"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (rate), shift"
-msgstr ""
+msgstr "λ (proporción), desprazamento"
 
 msgctxt "DistributionSpecification|"
 msgid "β (scale), shift"
-msgstr ""
+msgstr "β (escala), desprazamento"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), θ (scale), shift"
-msgstr ""
+msgstr "α (forma), θ (escala), desprazamento"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), λ (rate), shift"
-msgstr ""
+msgstr "α (forma), λ (proporción), desprazamento"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), μ (mean), shift"
-msgstr ""
+msgstr "α (forma), μ (media), desprazamento"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (log location), σ (log scale), shift"
-msgstr ""
+msgstr "μ (log posición), σ (log escala), desprazamento"
 
 msgctxt "DistributionSpecification|"
 msgid "α (scale), β (shape), shift"
-msgstr ""
+msgstr "α (escala), β (forma), desprazamento"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), λ (shape), shift"
-msgstr ""
+msgstr "μ (media), λ (forma), desprazamento"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (drift), α (threshold), σ (noise), shift"
-msgstr ""
+msgstr "ν (deriva), α (lindeiro), σ (ruído), desprazamento"
 
 msgctxt "DistributionSpecification|"
 msgid "default"
@@ -3532,7 +3532,7 @@ msgstr "σ (escala)"
 
 msgctxt "Frechet|"
 msgid "θ (location)"
-msgstr ""
+msgstr "θ (posición)"
 
 msgctxt "Gamma|"
 msgid "α (shape)"
@@ -3542,7 +3542,6 @@ msgctxt "Gamma|"
 msgid "Fixed"
 msgstr "Fixo"
 
-#, fuzzy
 msgctxt "Gamma|"
 msgid "θ (scale)"
 msgstr "θ (escala)"
@@ -3557,7 +3556,7 @@ msgstr "μ (media)"
 
 msgctxt "Gompertz|"
 msgid "η (shape)"
-msgstr ""
+msgstr "η (forma)"
 
 msgctxt "Gompertz|"
 msgid "Fixed"
@@ -3725,15 +3724,15 @@ msgstr "Fixo"
 
 msgctxt "Normal|"
 msgid "σ (std. deviation)"
-msgstr ""
+msgstr "σ (desvío padrón)"
 
 msgctxt "Normal|"
 msgid "σ² (variance)"
-msgstr ""
+msgstr "σ² (varianza)"
 
 msgctxt "Normal|"
 msgid "τ (precision)"
-msgstr ""
+msgstr "τ (precisión)"
 
 msgctxt "Pareto|"
 msgid "α (shape)"
@@ -3795,7 +3794,6 @@ msgctxt "ShiftedInverseGamma|"
 msgid "Fixed"
 msgstr "Fixo"
 
-#, fuzzy
 msgctxt "ShiftedInverseGamma|"
 msgid "θ (scale)"
 msgstr "θ (escala)"
@@ -3926,15 +3924,15 @@ msgstr "σ (escala)"
 
 msgctxt "SkewedGeneralizedT|"
 msgid "λ (skew)"
-msgstr ""
+msgstr "λ (asimetría)"
 
 msgctxt "SkewedGeneralizedT|"
 msgid "p (kurtosis)"
-msgstr ""
+msgstr "p (curtose)"
 
 msgctxt "SkewedGeneralizedT|"
 msgid "q (kurtosis)"
-msgstr ""
+msgstr "q (curtose)"
 
 msgctxt "SkewNormal|"
 msgid "ξ (location)"
@@ -4101,26 +4099,28 @@ msgid ""
 "Specify a set of distributions, estimate their parameters, and compare their "
 "fit to data."
 msgstr ""
+"Especificar un conxunto de distribucións, estimar os seus parámetros e "
+"comparar os seus axustes cos datos."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Select data for distribution comparison."
-msgstr ""
+msgstr "Seleccionar os datos para a comparación de distribucións."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Variable"
-msgstr ""
+msgstr "Variable"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Specify distributions"
-msgstr ""
+msgstr "Especificar distribucións"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Specify distributions to be compared..."
-msgstr ""
+msgstr "Especificar distribucións para ser comparadas..."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Output"
-msgstr ""
+msgstr "Saída de resultados"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Control what output will be generated."
