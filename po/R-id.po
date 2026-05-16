@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.96.0\n"
 "POT-Creation-Date: 2026-03-28 03:46\n"
-"PO-Revision-Date: 2026-05-16 05:59+0000\n"
+"PO-Revision-Date: 2026-05-17 06:11+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/id/>\n"
@@ -25,9 +25,10 @@ msgstr ""
 
 msgid "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
 msgstr ""
+"<ul><li>Variabel harus bersifat diskret (yaitu, bilangan bulat)</li></ul>"
 
 msgid "Overview - %s"
-msgstr ""
+msgstr "Ikhtisar - %s"
 
 msgid "Descriptives"
 msgstr "Deskriptif"
@@ -45,43 +46,43 @@ msgid "Variance"
 msgstr "Varians"
 
 msgid "Std. deviation"
-msgstr "Deviasi std."
+msgstr "Std. deviasi"
 
 msgid "Minimum"
 msgstr "Minimum"
 
 msgid "25%% Quantile"
-msgstr ""
+msgstr "Kuantil 25%%"
 
 msgid "Median"
 msgstr "Median"
 
 msgid "75%% Quantile"
-msgstr ""
+msgstr "Kuantil 75%%"
 
 msgid "Maximum"
 msgstr "Maksimum"
 
 msgid "Rel. Frequency"
-msgstr ""
+msgstr "Frekuensi Rel."
 
 msgid "Total"
 msgstr "Total"
 
 msgid "Observed Moments"
-msgstr ""
+msgstr "Momen Teramati"
 
 msgid "Moment"
-msgstr ""
+msgstr "Momen"
 
 msgid "Raw"
-msgstr ""
+msgstr "Mentah"
 
 msgid "Central"
-msgstr ""
+msgstr "Sentral"
 
 msgid "Estimated Parameters"
-msgstr ""
+msgstr "Parameter Estimasi"
 
 msgid "Parameter"
 msgstr "Parameter"
@@ -93,7 +94,7 @@ msgid "SE"
 msgstr "SE"
 
 msgid "Standard errors are unavailable with this method"
-msgstr ""
+msgstr "Kesalahan standar tidak tersedia dengan metode ini"
 
 msgid "Lower"
 msgstr "Batas Bawah"
@@ -105,27 +106,28 @@ msgid "Upper"
 msgstr "Batas Atas"
 
 msgid "Confidence intervals are unavailable with this method."
-msgstr ""
+msgstr "Interval kepercayaan tidak tersedia dengan metode ini."
 
 msgid "Confidence intervals were calculated using the delta method."
-msgstr ""
+msgstr "Interval kepercayaan dihitung menggunakan metode delta."
 
 msgid "Standard errors were calculated using the delta method."
-msgstr ""
+msgstr "Kesalahan standar dihitung menggunakan metode delta."
 
 msgid ""
 "Standard errors and confidence intervals were calculated using the delta "
 "method."
 msgstr ""
+"Kesalahan standar dan interval kepercayaan dihitung menggunakan metode delta."
 
 msgid "Maximum likelihood"
-msgstr ""
+msgstr "Kemungkinan maksimum"
 
 msgid "Fit Assessment"
-msgstr ""
+msgstr "Penilaian Kecocokan"
 
 msgid "Fit Statistics"
-msgstr ""
+msgstr "Statistik Kecocokan"
 
 msgid "Test"
 msgstr "Uji"
@@ -137,108 +139,110 @@ msgid "p"
 msgstr "p"
 
 msgid "Kolmogorov-Smirnov"
-msgstr ""
+msgstr "Kolmogorov-Smirnov"
 
 msgid "Cramér-von Mises"
-msgstr ""
+msgstr "Cramér-von Mises"
 
 msgid "Anderson-Darling"
-msgstr ""
+msgstr "Anderson-Darling"
 
 msgid "Lillienfors"
-msgstr ""
+msgstr "Lillienfors"
 
 msgid "Shapiro-Wilk"
 msgstr "Shapiro-Wilk"
 
 msgid "Shapiro-Francia"
-msgstr ""
+msgstr "Shapiro-Francia"
 
 msgid "Chi-square"
-msgstr ""
+msgstr "Chi-kuadrat"
 
 msgid ""
 "Using Brown (1980) approximation which tends to be innacurate for small "
 "sample sizes."
 msgstr ""
+"Menggunakan aproksimasi Brown (1980) yang cenderung tidak akurat untuk "
+"ukuran sampel kecil."
 
 msgid "Histogram vs. Theoretical PDF"
-msgstr ""
+msgstr "Histogram vs. PDF Teoretis"
 
 msgid "Histogram vs. Theoretical PMF"
-msgstr ""
+msgstr "Histogram vs. PMF Teoretis"
 
 msgid "Q-Q plot"
-msgstr ""
+msgstr "Plot Q-Q"
 
 msgid "Empirical vs. Theoretical CDF"
-msgstr ""
+msgstr "CDF Empiris vs. Teoretis"
 
 msgid "P-P plot"
-msgstr ""
+msgstr "Plot P-P"
 
 msgid "Sample"
 msgstr "Sampel"
 
 msgid "Theoretical"
-msgstr ""
+msgstr "Teoretis"
 
 msgid "Density"
 msgstr "Densitas"
 
 msgid "Probability Mass"
-msgstr ""
+msgstr "Massa Probabilitas"
 
 msgid "Probability"
 msgstr "Probabilitas"
 
 msgid "Probability Density Function"
-msgstr ""
+msgstr "Fungsi Kepadatan Probabilitas"
 
 msgid "Probability Mass Function"
-msgstr ""
+msgstr "Fungsi Massa Probabilitas"
 
 msgid "Cumulative Distribution Function"
-msgstr ""
+msgstr "Fungsi Distribusi Kumulatif"
 
 msgid "Quantile Function"
-msgstr ""
+msgstr "Fungsi Kuantil"
 
 msgid "Formula"
-msgstr ""
+msgstr "Rumus"
 
 msgid "Density Plot"
-msgstr ""
+msgstr "Plot Densitas"
 
 msgid "Cumulative Probability Plot"
-msgstr ""
+msgstr "Plot Probabilitas Kumulatif"
 
 msgid "Slope"
-msgstr ""
+msgstr "Kemiringan"
 
 msgid "Quantile Plot"
-msgstr ""
+msgstr "Plot Kuantil"
 
 msgid "Probability Mass Plot"
-msgstr ""
+msgstr "Plot Massa Probabilitas"
 
 msgid "Histogram"
-msgstr ""
+msgstr "Histogram"
 
 msgid "Bar plot"
-msgstr ""
+msgstr "Plot batang"
 
 msgid "Rel. Freq (%s in bin)"
-msgstr ""
+msgstr "Frek. Rel. (%s dalam kelas)"
 
 msgid "Empirical Cumulative Distribution"
-msgstr ""
+msgstr "Distribusi Kumulatif Empiris"
 
 msgid "Freq"
-msgstr ""
+msgstr "Frek"
 
 msgid "Parameters, Support, and Moments"
-msgstr ""
+msgstr "Parameter, Dukungan, dan Momen"
 
 msgid ""
 "<b>Parameters</b>\n"
@@ -251,6 +255,15 @@ msgid ""
 "      E(X) = %3$s\n"
 "      Var(X) = %4$s"
 msgstr ""
+"<b>Parameter</b>\n"
+"      %1$s\n"
+"\n"
+"      <b>Dukungan</b>\n"
+"      %2$s\n"
+"\n"
+"  <b>Momen</b>\n"
+"      E(X) = %3$s\n"
+"      Var(X) = %4$s"
 
 msgid ""
 "<b>Parameters</b>\n"
@@ -262,6 +275,14 @@ msgid ""
 "      <b>Moments</b>\n"
 "      not available"
 msgstr ""
+"<b>Parameter</b>\n"
+"      %1$s\n"
+"\n"
+"      <b>Dukungan</b>\n"
+"      %2$s\n"
+"\n"
+"  <b>Momen</b>\n"
+"      tidak tersedia"
 
 msgid ""
 "The probability density function (PDF), usually denoted as f(x), is a "
@@ -276,6 +297,17 @@ msgid ""
 "    The <i>y</i>-axis displays the value of the density function for a "
 "particular value of the random variable (displayed on the <i>x</i>-axis)."
 msgstr ""
+"Fungsi kepadatan probabilitas (PDF), yang biasa dinotasikan sebagai f(x), "
+"adalah fungsi dari variabel acak X.\n"
+"    Nilai f(x) memberikan kemungkinan relatif bahwa realisasi variabel acak "
+"X menghasilkan nilai yang sama dengan x.\n"
+"    Secara lebih formal, PDF didefinisikan sebagai turunan dari fungsi "
+"distribusi kumulatif (CDF).\n"
+"\n"
+"    Plot densitas menampilkan fungsi kepadatan probabilitas dari suatu "
+"variabel acak.\n"
+"    Sumbu <i>y</i> menampilkan nilai fungsi densitas untuk nilai tertentu "
+"dari variabel acak (yang ditampilkan pada sumbu <i>x</i>)."
 
 msgid ""
 "The probability mass function (PMF), usually denoted as f(x), is a function "
@@ -289,6 +321,15 @@ msgid ""
 "for a particular value of the random variable (displayed on the <i>x</i>-"
 "axis)."
 msgstr ""
+"Fungsi massa probabilitas (PMF), yang biasa dinotasikan sebagai f(x), adalah "
+"fungsi dari variabel acak X.\n"
+"    Nilai f(x) memberikan probabilitas bahwa realisasi variabel acak X "
+"menghasilkan nilai yang sama dengan x.\n"
+"\n"
+"    Plot massa probabilitas menampilkan fungsi massa probabilitas dari suatu "
+"variabel acak.\n"
+"    Sumbu <i>y</i> menampilkan nilai fungsi massa probabilitas untuk nilai "
+"tertentu dari variabel acak (yang ditampilkan pada sumbu <i>x</i>)."
 
 msgid ""
 "The cumulative distribution function (CDF), usually denoted as F(x), is a "
@@ -302,6 +343,15 @@ msgid ""
 "function for a particular value of the random variable (displayed on the "
 "<i>x</i>-axis)."
 msgstr ""
+"Fungsi distribusi kumulatif (CDF), yang biasa dinotasikan sebagai F(x), "
+"adalah fungsi dari variabel acak X.\n"
+"    Nilai F(x) memberikan probabilitas bahwa realisasi variabel acak X "
+"menghasilkan nilai yang sama dengan atau lebih kecil dari x.\n"
+"\n"
+"    Plot probabilitas kumulatif menampilkan fungsi distribusi kumulatif dari "
+"suatu variabel acak.\n"
+"    Sumbu <i>y</i> menampilkan nilai fungsi distribusi kumulatif untuk nilai "
+"tertentu dari variabel acak (yang ditampilkan pada sumbu <i>x</i>)."
 
 msgid ""
 "The quantile function, usually denoted as Q(p), is the inverse of the "
@@ -315,6 +365,16 @@ msgid ""
 "the random variable is less or equal to that value is equal to p (displayed "
 "on the <i>x</i>-axis)."
 msgstr ""
+"Fungsi kuantil, yang biasa dinotasikan sebagai Q(p), adalah invers dari "
+"fungsi distribusi kumulatif.\n"
+"    Fungsi ini memberikan kuantil sedemikian rupa sehingga probabilitas "
+"variabel acak yang kurang dari atau sama dengan nilai tersebut sama dengan "
+"probabilitas p yang diberikan.\n"
+"\n"
+"    Plot kuantil menampilkan fungsi kuantil.\n"
+"    Sumbu <i>y</i> menampilkan kuantil yang probabilitas variabel acak "
+"kurang dari atau sama dengan nilai tersebut adalah p (yang ditampilkan pada "
+"sumbu <i>x</i>)."
 
 msgid ""
 "<h3> Demonstration of the %1$s </h3>\n"
@@ -338,36 +398,68 @@ msgid ""
 "\n"
 "%7$s"
 msgstr ""
+"<h3> Demonstrasi %1$s </h3>\n"
+"Demonstrasi ini dibagi menjadi empat bagian.\n"
+"Bagian pertama menampilkan %2$s, fungsi kepadatan probabilitas, fungsi "
+"distribusi kumulatif, dan fungsi kuantilnya.\n"
+"Bagian kedua memungkinkan Anda membangkitkan data dari %3$s, menghitung "
+"statistik deskriptif, dan menampilkan plot deskriptif.\n"
+"Bagian ketiga memungkinkan Anda mengestimasi parameter dari %4$s.\n"
+"Bagian keempat memungkinkan Anda memeriksa kecocokan %5$s terhadap data.\n"
+"\n"
+"<b>Referensi</b>\n"
+"\n"
+"Blitzstein, J. K., & Hwang, J. (2014). <i>Introduction to probability.</i> "
+"Chapman and Hall/CRC.\n"
+"\n"
+"Leemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, "
+"16</i>(4), 8–9.\n"
+"\n"
+"Untuk hubungan dengan distribusi lain, kunjungi %6$s.\n"
+"\n"
+"%7$s"
 
 msgid ""
 "Estimation failed: Optimization did not converge. <ul><li>Try adjusting "
 "parameter values, check outliers or feasibility of the distribution fitting "
 "the data.</li></ul>"
 msgstr ""
+"Estimasi gagal: Optimasi tidak konvergen. <ul><li>Coba sesuaikan nilai "
+"parameter, periksa pencilan atau kelayakan distribusi yang cocok dengan "
+"data.</li></ul>"
 
 msgid ""
 "Estimation failed: Hessian matrix is not numerically computable. "
 "<ul><li>Check outliers or feasibility of the distribution fitting the data.</"
 "li></ul>"
 msgstr ""
+"Estimasi gagal: Matriks Hessian tidak dapat dihitung secara numerik. <ul><li>"
+"Periksa pencilan atau kelayakan distribusi yang cocok dengan data.</li></ul>"
 
 msgid ""
 "Could not initialize distribution %1$s, with the following error: <br> %2$s"
 msgstr ""
+"Tidak dapat menginisialisasi distribusi %1$s, dengan kesalahan berikut: <br> "
+"%2$s"
 
 msgid ""
 "Could not fit distribution %1$s, with the following error: <br> %2$s. <br> "
 "You can try to change the initial parameter values, or remove the "
 "distribution from the distribution specification"
 msgstr ""
+"Tidak dapat menyesuaikan distribusi %1$s, dengan kesalahan berikut: <br> "
+"%2$s. <br> Anda dapat mencoba mengubah nilai parameter awal, atau menghapus "
+"distribusi dari spesifikasi distribusi"
 
 msgid ""
 "Could not compute information criteria for %1$s, with the following error: "
 "<br> %2$s."
 msgstr ""
+"Tidak dapat menghitung kriteria informasi untuk %1$s, dengan kesalahan "
+"berikut: <br> %2$s."
 
 msgid "Distribution comparison table"
-msgstr ""
+msgstr "Tabel perbandingan distribusi"
 
 msgid "Distribution"
 msgstr "Distribusi"
@@ -376,385 +468,389 @@ msgid "AIC"
 msgstr "AIC"
 
 msgid "Weights"
-msgstr ""
+msgstr "Bobot"
 
 msgid "BIC"
 msgstr "BIC"
 
 msgid "Log. Lik"
-msgstr ""
+msgstr "Log. Lik"
 
 msgid "df"
 msgstr "df"
 
 msgid "Distribution comparison table (n=%1$i)"
-msgstr ""
+msgstr "Tabel perbandingan distribusi (n=%1$i)"
 
 msgid "Parameter estimates"
-msgstr ""
+msgstr "Estimasi parameter"
 
 msgid "Key"
-msgstr ""
+msgstr "Kunci"
 
 msgid "Name"
-msgstr ""
+msgstr "Nama"
 
 msgid "Label"
-msgstr ""
+msgstr "Label"
 
 msgid "Distribution has no parameters to estimate."
-msgstr ""
+msgstr "Distribusi tidak memiliki parameter untuk diestimasi."
 
 msgid "The following parameters were held constant: %s."
-msgstr ""
+msgstr "Parameter berikut dipertahankan konstan: %s."
 
 msgid "Goodness of fit"
-msgstr ""
+msgstr "Kebaikan kecocokan"
 
 msgid "Based on %1$i parametric bootstrap samples."
-msgstr ""
+msgstr "Berdasarkan %1$i sampel bootstrap parametrik."
 
 msgid "Bootstrapping..."
-msgstr ""
+msgstr "Melakukan bootstrap..."
 
 msgid "Could not obtain goodness of fit: <br> %s"
-msgstr ""
+msgstr "Tidak dapat memperoleh kebaikan kecocokan: <br> %s"
 
 msgid "Empirical plots"
-msgstr ""
+msgstr "Plot empiris"
 
 msgid "Histogram vs. theoretical density"
-msgstr ""
+msgstr "Histogram vs. densitas teoretis"
 
 msgid "Empirical vs. theoretical cumulative probability"
-msgstr ""
+msgstr "Probabilitas kumulatif empiris vs. teoretis"
 
 msgid "Cramér–von Mises"
-msgstr ""
+msgstr "Cramér–von Mises"
 
 msgid "Lilliefors"
-msgstr ""
+msgstr "Lilliefors"
 
 msgid "Amoroso distribution"
-msgstr ""
+msgstr "Distribusi Amoroso"
 
 msgid "location: a %s"
-msgstr ""
+msgstr "lokasi: a %s"
 
 msgid "scale: %s"
-msgstr ""
+msgstr "skala: %s"
 
 msgid "shape: %s"
-msgstr ""
+msgstr "bentuk: %s"
 
 msgid "The optimization did not converge, try adjusting the parameter values."
-msgstr ""
+msgstr "Optimasi tidak konvergen, coba sesuaikan nilai parameter."
 
 msgid "<i>Warning.</i>"
-msgstr ""
+msgstr "<i>Peringatan.</i>"
 
 msgid "Scale parameter %s is assumed positive."
-msgstr ""
+msgstr "Parameter skala %s diasumsikan positif."
 
 msgid "Scale parameter %s is assumed negative."
-msgstr ""
+msgstr "Parameter skala %s diasumsikan negatif."
 
 msgid "Bernoulli distribution"
-msgstr ""
+msgstr "Distribusi Bernoulli"
 
 msgid "probability of success: p %1$s %2$s: 0 %3$s p %4$s 1"
-msgstr ""
+msgstr "probabilitas keberhasilan: p %1$s %2$s: 0%3$s p %4$s 1"
 
 msgid "x %s {0, 1}"
-msgstr ""
+msgstr "x %s {0, 1}"
 
 msgid "p(1-p)"
-msgstr ""
+msgstr "p(1-p)"
 
 msgid "beta distribution"
-msgstr ""
+msgstr "Distribusi beta"
 
 msgid "beta-binomial distribution"
-msgstr ""
+msgstr "Distribusi beta-binomial"
 
 msgid "number of trials: %s"
-msgstr ""
+msgstr "jumlah percobaan: %s"
 
 msgid "Parameter n was fixed at value %s."
-msgstr ""
+msgstr "Parameter n ditetapkan pada nilai %s."
 
 msgid "beta prime distribution"
-msgstr ""
+msgstr "Distribusi beta prima"
 
 msgid "lower bound: %s"
-msgstr ""
+msgstr "batas bawah: %s"
 
 msgid "upper bound: %s"
-msgstr ""
+msgstr "batas atas: %s"
 
 msgid "binomial distribution"
-msgstr ""
+msgstr "Distribusi binomial"
 
 msgid "probability of success: %s"
-msgstr ""
+msgstr "probabilitas keberhasilan: %s"
 
 msgid "Cauchy distribution"
-msgstr ""
+msgstr "Distribusi Cauchy"
 
 msgid "location: &mu; %s"
-msgstr ""
+msgstr "lokasi: &mu; %s"
 
 msgid "undefined"
-msgstr ""
+msgstr "tidak terdefinisi"
 
 msgid "%s<sup>2</sup> distribution"
-msgstr ""
+msgstr "Distribusi %s<sup>2</sup>"
 
 msgid "degree of freedom: %s"
-msgstr ""
+msgstr "derajat kebebasan: %s"
 
 msgid "non-centrality: %s"
-msgstr ""
+msgstr "non-sentralitas: %s"
 
 msgid "exponential distribution"
-msgstr ""
+msgstr "Distribusi eksponensial"
 
 msgid "rate: %s"
-msgstr ""
+msgstr "laju: %s"
 
 msgid "F-distribution"
-msgstr ""
+msgstr "Distribusi F"
 
 msgid "Fréchet distribution"
-msgstr ""
+msgstr "Distribusi Fréchet"
 
 msgid "location: %s"
-msgstr ""
+msgstr "lokasi: %s"
 
 msgid "see Wikipedia: %s"
-msgstr ""
+msgstr "lihat Wikipedia: %s"
 
 msgid "gamma distribution"
-msgstr ""
+msgstr "Distribusi gamma"
 
 msgid "mean: %s"
-msgstr ""
+msgstr "rata-rata: %s"
 
 msgid "inverse gamma distribution"
-msgstr ""
+msgstr "Distribusi gamma invers"
 
 msgid "normal distribution"
-msgstr ""
+msgstr "Distribusi normal"
 
 msgid "mean: &mu; %s"
-msgstr ""
+msgstr "rata-rata: &mu; %s"
 
 msgid "variance: %s"
-msgstr ""
+msgstr "varians: %s"
 
 msgid "standard deviation: %s"
-msgstr ""
+msgstr "standar deviasi: %s"
 
 msgid "precision: %s"
-msgstr ""
+msgstr "presisi: %s"
 
 msgid "square root of precision: %s"
-msgstr ""
+msgstr "akar kuadrat presisi: %s"
 
 msgid "&mu;"
-msgstr ""
+msgstr "&mu;"
 
 msgid "Unbiased with Bessel's correction."
-msgstr ""
+msgstr "Tidak bias dengan koreksi Bessel."
 
 msgid "geometric distribution"
-msgstr ""
+msgstr "Distribusi geometrik"
 
 msgid "population size: %s"
-msgstr ""
+msgstr "ukuran populasi: %s"
 
 msgid "number of success states in the population: %s"
-msgstr ""
+msgstr "jumlah keadaan berhasil dalam populasi: %s"
 
 msgid "number of draws from the population: %s"
-msgstr ""
+msgstr "jumlah pengambilan dari populasi: %s"
 
 msgid "Gompertz distribution"
-msgstr ""
+msgstr "Distribusi Gompertz"
 
 msgid ""
 "shape: %1$s \n"
 "scale: %2$s"
 msgstr ""
+"bentuk: %1$s \n"
+"skala: %2$s"
 
 msgid "Gumbel distribution"
-msgstr ""
+msgstr "Distribusi Gumbel"
 
 msgid "hypergeometric distribution"
-msgstr ""
+msgstr "Distribusi hipergeometrik"
 
 msgid "Laplace distribution"
-msgstr ""
+msgstr "Distribusi Laplace"
 
 msgid "log-logistic distribution"
-msgstr ""
+msgstr "Distribusi log-logistik"
 
 msgid "log location: &mu; %s"
-msgstr ""
+msgstr "lokasi log: &mu; %s"
 
 msgid "log scale: %s"
-msgstr ""
+msgstr "skala log: %s"
 
 msgid "scale: &alpha; %s"
-msgstr ""
+msgstr "skala: &alpha; %s"
 
 msgid "logistic distribution"
-msgstr ""
+msgstr "Distribusi logistik"
 
 msgid "(&sigma; &pi;)<sup>2</sup> / 3"
-msgstr ""
+msgstr "(&sigma; &pi;)<sup>2</sup> / 3"
 
 msgid "log-normal distribution"
-msgstr ""
+msgstr "Distribusi log-normal"
 
 msgid "log mean: &mu; %s"
-msgstr ""
+msgstr "rata-rata log: &mu; %s"
 
 msgid "log standard deviation: %s"
-msgstr ""
+msgstr "standar deviasi log: %s"
 
 msgid "exp(&mu; + &sigma;<sup>2</sup>/2)"
-msgstr ""
+msgstr "exp(&mu; + &sigma;<sup>2</sup>/2)"
 
 msgid "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
-msgstr ""
+msgstr "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
 
 msgid "mixture of two normal distributions"
-msgstr ""
+msgstr "campuran dua distribusi normal"
 
 msgid "probability of first component: %s"
-msgstr ""
+msgstr "probabilitas komponen pertama: %s"
 
 msgid "mean 1: %s"
-msgstr ""
+msgstr "rata-rata 1: %s"
 
 msgid "std. deviation 1: %s"
-msgstr ""
+msgstr "std. deviasi 1: %s"
 
 msgid "mean 2: %s"
-msgstr ""
+msgstr "rata-rata 2: %s"
 
 msgid "std. deviation 2: %s"
-msgstr ""
+msgstr "std. deviasi 2: %s"
 
 msgid "mixture of a normal and a uniform distribution"
-msgstr ""
+msgstr "campuran distribusi normal dan seragam"
 
 msgid "probability of normal component: %s"
-msgstr ""
+msgstr "probabilitas komponen normal: %s"
 
 msgid "mean of normal distribution: %s"
-msgstr ""
+msgstr "rata-rata distribusi normal: %s"
 
 msgid "std. deviation of normal distribution: %s"
-msgstr ""
+msgstr "std. deviasi distribusi normal: %s"
 
 msgid "minimum of uniform distribution: %s"
-msgstr ""
+msgstr "minimum distribusi seragam: %s"
 
 msgid "maximum of uniform distribution: %s"
-msgstr ""
+msgstr "maksimum distribusi seragam: %s"
 
 msgid ""
 "Parameter a was fixed at value %1$s, parameter b was fixed at value %2$s."
 msgstr ""
+"Parameter a ditetapkan pada nilai %1$s, parameter b ditetapkan pada nilai "
+"%2$s."
 
 msgid "negative binomial distribution"
-msgstr ""
+msgstr "Distribusi binomial negatif"
 
 msgid "number of successes: %s"
-msgstr ""
+msgstr "jumlah keberhasilan: %s"
 
 msgid "dispersion: %s"
-msgstr ""
+msgstr "dispersi: %s"
 
 msgid "zero-inflated negative binomial distribution"
-msgstr ""
+msgstr "Distribusi binomial negatif zero-inflated"
 
 msgid "probability of zero process: %s"
-msgstr ""
+msgstr "probabilitas proses nol: %s"
 
 msgid "generalized normal distribution"
-msgstr ""
+msgstr "Distribusi normal umum"
 
 msgid "skew normal distribution"
-msgstr ""
+msgstr "Distribusi normal miring"
 
 msgid "Pareto distribution"
-msgstr ""
+msgstr "Distribusi Pareto"
 
 msgid "Poisson distribution"
-msgstr ""
+msgstr "Distribusi Poisson"
 
 msgid "zero-inflated Poisson distribution"
-msgstr ""
+msgstr "Distribusi Poisson zero-inflated"
 
 msgid "noncentral t-distribution"
-msgstr ""
+msgstr "Distribusi t nonsentral"
 
 msgid "degrees of freedom: %s"
-msgstr ""
+msgstr "derajat kebebasan: %s"
 
 msgid "does not exist unless df > 1"
-msgstr ""
+msgstr "tidak ada kecuali df > 1"
 
 msgid "does not exist unless df > 2"
-msgstr ""
+msgstr "tidak ada kecuali df > 2"
 
 msgid "see Azzalini & Capitanio (2003)"
-msgstr ""
+msgstr "lihat Azzalini & Capitanio (2003)"
 
 msgid "skewed generalized t-distribution"
-msgstr ""
+msgstr "Distribusi t umum miring"
 
 msgid "skewness: %s"
-msgstr ""
+msgstr "kecondongan: %s"
 
 msgid "kurtosis: %s"
-msgstr ""
+msgstr "kurtosis: %s"
 
 msgid "scaled, shifted Student's t-distribution"
-msgstr ""
+msgstr "Distribusi t Student terskalakan dan tergeser"
 
 msgid "triangular distribution"
-msgstr ""
+msgstr "Distribusi segitiga"
 
 msgid "minimum: %s"
-msgstr ""
+msgstr "minimum: %s"
 
 msgid "maximum: %s"
-msgstr ""
+msgstr "maksimum: %s"
 
 msgid "mode: %s"
-msgstr ""
+msgstr "modus: %s"
 
 msgid "uniform distribution"
-msgstr ""
+msgstr "Distribusi seragam"
 
 msgid "Wald distribution"
-msgstr ""
+msgstr "Distribusi Wald"
 
 msgid "drift rate: %s"
-msgstr ""
+msgstr "laju drift: %s"
 
 msgid "threshold: %s"
-msgstr ""
+msgstr "ambang batas: %s"
 
 msgid "noise: %s"
-msgstr ""
+msgstr "noise: %s"
 
 msgid "Parameter %s was fixed to 1."
-msgstr ""
+msgstr "Parameter %s ditetapkan ke 1."
 
 msgid "Weibull distribution"
-msgstr ""
+msgstr "Distribusi Weibull"
