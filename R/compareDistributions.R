@@ -68,7 +68,172 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
   return(distributions)
 }
 
+.ccdParameterDefaults <- list(
+  normalMu = 0,            normalMuFixed = FALSE,
+  normalSigma = 1,         normalSigmaFixed = FALSE,
+  normalSigma2 = 1,        normalSigma2Fixed = FALSE,
+  normalTau = 1,           normalTauFixed = FALSE,
+  standardTNu = 5,         standardTNuFixed = FALSE,
+  studentTNu = 5,          studentTNuFixed = FALSE,
+  studentTMu = 0,          studentTMuFixed = FALSE,
+  studentTSigma = 1,       studentTSigmaFixed = FALSE,
+  noncentralTNu = 5,       noncentralTNuFixed = FALSE,
+  noncentralTKappa = 0,    noncentralTKappaFixed = FALSE,
+  noncentralStudentTNu = 5,     noncentralStudentTNuFixed = FALSE,
+  noncentralStudentTKappa = 0,  noncentralStudentTKappaFixed = FALSE,
+  noncentralStudentTMu = 0,     noncentralStudentTMuFixed = FALSE,
+  noncentralStudentTSigma = 1,  noncentralStudentTSigmaFixed = FALSE,
+  cauchyMu = 0,            cauchyMuFixed = FALSE,
+  cauchySigma = 1,         cauchySigmaFixed = FALSE,
+  gumbelMu = 0,            gumbelMuFixed = FALSE,
+  gumbelBeta = 1,          gumbelBetaFixed = FALSE,
+  laplaceMu = 0,           laplaceMuFixed = FALSE,
+  laplaceBeta = 1,         laplaceBetaFixed = FALSE,
+  logisticMu = 0,          logisticMuFixed = FALSE,
+  logisticSigma = 1,       logisticSigmaFixed = FALSE,
+  skewedGeneralizedTMu = 0,      skewedGeneralizedTMuFixed = FALSE,
+  skewedGeneralizedTSigma = 1,   skewedGeneralizedTSigmaFixed = FALSE,
+  skewedGeneralizedTLambda = 0,  skewedGeneralizedTLambdaFixed = FALSE,
+  skewedGeneralizedTP = 2,       skewedGeneralizedTPFixed = FALSE,
+  skewedGeneralizedTQ = 2,       skewedGeneralizedTQFixed = FALSE,
+  symmetricGeneralizedNormalMu = 0,     symmetricGeneralizedNormalMuFixed = FALSE,
+  symmetricGeneralizedNormalAlpha = 1,  symmetricGeneralizedNormalAlphaFixed = FALSE,
+  symmetricGeneralizedNormalBeta = 2,   symmetricGeneralizedNormalBetaFixed = FALSE,
+  skewNormalXi = 0,        skewNormalXiFixed = FALSE,
+  skewNormalOmega = 1,     skewNormalOmegaFixed = FALSE,
+  skewNormalAlpha = 0,     skewNormalAlphaFixed = FALSE,
+  skewCauchyXi = 0,        skewCauchyXiFixed = FALSE,
+  skewCauchyOmega = 1,     skewCauchyOmegaFixed = FALSE,
+  skewCauchyAlpha = 0,     skewCauchyAlphaFixed = FALSE,
+  skewTXi = 0,             skewTXiFixed = FALSE,
+  skewTOmega = 1,          skewTOmegaFixed = FALSE,
+  skewTAlpha = 0,          skewTAlphaFixed = FALSE,
+  skewTNu = 5,             skewTNuFixed = FALSE,
+  betaAlpha = 2,           betaAlphaFixed = FALSE,
+  betaBeta = 2,            betaBetaFixed = FALSE,
+  betaPrimeAlpha = 2,      betaPrimeAlphaFixed = FALSE,
+  betaPrimeBeta = 2,       betaPrimeBetaFixed = FALSE,
+  centralFNu1 = 5,         centralFNu1Fixed = FALSE,
+  centralFNu2 = 5,         centralFNu2Fixed = FALSE,
+  noncentralFNu1 = 5,      noncentralFNu1Fixed = FALSE,
+  noncentralFNu2 = 5,      noncentralFNu2Fixed = FALSE,
+  noncentralFKappa = 1,    noncentralFKappaFixed = FALSE,
+  chiSquaredNu = 5,        chiSquaredNuFixed = FALSE,
+  noncentralChiSquaredNu = 5,     noncentralChiSquaredNuFixed = FALSE,
+  noncentralChiSquaredKappa = 1,  noncentralChiSquaredKappaFixed = FALSE,
+  exponentialLambda = 1,   exponentialLambdaFixed = FALSE,
+  exponentialBeta = 1,     exponentialBetaFixed = FALSE,
+  gammaAlpha = 2,          gammaAlphaFixed = FALSE,
+  gammaTheta = 1,          gammaThetaFixed = FALSE,
+  gammaLambda = 1,         gammaLambdaFixed = FALSE,
+  gammaMu = 1,             gammaMuFixed = FALSE,
+  inverseGammaAlpha = 2,   inverseGammaAlphaFixed = FALSE,
+  inverseGammaTheta = 1,   inverseGammaThetaFixed = FALSE,
+  inverseGammaLambda = 1,  inverseGammaLambdaFixed = FALSE,
+  inverseGammaMu = 1,      inverseGammaMuFixed = FALSE,
+  gompertzEta = 1,         gompertzEtaFixed = FALSE,
+  gompertzBeta = 1,        gompertzBetaFixed = FALSE,
+  logLogisticMu = 0,       logLogisticMuFixed = FALSE,
+  logLogisticSigma = 1,    logLogisticSigmaFixed = FALSE,
+  logLogisticAlpha = 1,    logLogisticAlphaFixed = FALSE,
+  logLogisticBeta = 2,     logLogisticBetaFixed = FALSE,
+  logNormalMu = 0,         logNormalMuFixed = FALSE,
+  logNormalSigma = 1,      logNormalSigmaFixed = FALSE,
+  waldMu = 1,              waldMuFixed = FALSE,
+  waldLambda = 1,          waldLambdaFixed = FALSE,
+  waldNu = 1,              waldNuFixed = FALSE,
+  waldAlpha = 1,           waldAlphaFixed = FALSE,
+  waldSigma = 1,           waldSigmaFixed = FALSE,
+  weibullShape = 2,        weibullShapeFixed = FALSE,
+  weibullScale = 1,        weibullScaleFixed = FALSE,
+  amorosoA = 0,            amorosoAFixed = FALSE,
+  amorosoTheta = 1,        amorosoThetaFixed = FALSE,
+  amorosoAlpha = 2,        amorosoAlphaFixed = FALSE,
+  amorosoBeta = 1,         amorosoBetaFixed = FALSE,
+  stretchedBetaAlpha = 2,  stretchedBetaAlphaFixed = FALSE,
+  stretchedBetaBeta = 2,   stretchedBetaBetaFixed = FALSE,
+  stretchedBetaMin = 0,
+  stretchedBetaMax = 1,
+  frechetAlpha = 2,        frechetAlphaFixed = FALSE,
+  frechetSigma = 1,        frechetSigmaFixed = FALSE,
+  frechetTheta = 0,        frechetThetaFixed = FALSE,
+  paretoAlpha = 2,         paretoAlphaFixed = FALSE,
+  paretoBeta = 1,          paretoBetaFixed = FALSE,
+  triangularA = 0,         triangularAFixed = FALSE,
+  triangularB = 1,         triangularBFixed = FALSE,
+  triangularC = 0.5,       triangularCFixed = FALSE,
+  uniformMin = 0,          uniformMinFixed = FALSE,
+  uniformMax = 1,          uniformMaxFixed = FALSE,
+  shiftedExponentialLambda = 1,  shiftedExponentialLambdaFixed = FALSE,
+  shiftedExponentialBeta = 1,    shiftedExponentialBetaFixed = FALSE,
+  shiftedExponentialShift = 0,   shiftedExponentialShiftFixed = FALSE,
+  shiftedLogNormalMu = 0,    shiftedLogNormalMuFixed = FALSE,
+  shiftedLogNormalSigma = 1, shiftedLogNormalSigmaFixed = FALSE,
+  shiftedLogNormalShift = 0, shiftedLogNormalShiftFixed = FALSE,
+  shiftedGammaAlpha = 2,   shiftedGammaAlphaFixed = FALSE,
+  shiftedGammaTheta = 1,   shiftedGammaThetaFixed = FALSE,
+  shiftedGammaLambda = 1,  shiftedGammaLambdaFixed = FALSE,
+  shiftedGammaMu = 1,      shiftedGammaMuFixed = FALSE,
+  shiftedGammaShift = 0,   shiftedGammaShiftFixed = FALSE,
+  shiftedInverseGammaAlpha = 2,   shiftedInverseGammaAlphaFixed = FALSE,
+  shiftedInverseGammaTheta = 1,   shiftedInverseGammaThetaFixed = FALSE,
+  shiftedInverseGammaLambda = 1,  shiftedInverseGammaLambdaFixed = FALSE,
+  shiftedInverseGammaMu = 1,      shiftedInverseGammaMuFixed = FALSE,
+  shiftedInverseGammaShift = 0,   shiftedInverseGammaShiftFixed = FALSE,
+  shiftedLogLogisticMu = 0,    shiftedLogLogisticMuFixed = FALSE,
+  shiftedLogLogisticSigma = 1, shiftedLogLogisticSigmaFixed = FALSE,
+  shiftedLogLogisticAlpha = 1, shiftedLogLogisticAlphaFixed = FALSE,
+  shiftedLogLogisticBeta = 2,  shiftedLogLogisticBetaFixed = FALSE,
+  shiftedLogLogisticShift = 0, shiftedLogLogisticShiftFixed = FALSE,
+  shiftedWaldMu = 1,       shiftedWaldMuFixed = FALSE,
+  shiftedWaldLambda = 1,   shiftedWaldLambdaFixed = FALSE,
+  shiftedWaldNu = 1,       shiftedWaldNuFixed = FALSE,
+  shiftedWaldAlpha = 1,    shiftedWaldAlphaFixed = FALSE,
+  shiftedWaldSigma = 1,    shiftedWaldSigmaFixed = FALSE,
+  shiftedWaldShift = 0,    shiftedWaldShiftFixed = FALSE,
+  shiftedWeibullShape = 2, shiftedWeibullShapeFixed = FALSE,
+  shiftedWeibullScale = 1, shiftedWeibullScaleFixed = FALSE,
+  shiftedWeibullShift = 0, shiftedWeibullShiftFixed = FALSE
+)
+
+.ccdDefaultParametrization <- c(
+  Normal              = "sigma",
+  Exponential         = "lambda",
+  Gamma               = "theta",
+  InverseGamma        = "theta",
+  LogLogistic         = "mu",
+  Wald                = "mu",
+  ShiftedExponential  = "lambda",
+  ShiftedGamma        = "theta",
+  ShiftedInverseGamma = "theta",
+  ShiftedLogLogistic  = "mu",
+  ShiftedWald         = "mu"
+)
+
+.ccdFlattenSpecification <- function(specification) {
+  flat <- .ccdParameterDefaults
+  flat[["distribution"]] <- specification[["distribution"]]
+  flat[["parameters"]]   <- specification[["parameters"]]
+
+  # When the settings panel is hidden the parameterChoice DropDown (inside
+  # the same Column) sends "" because it has no values while invisible.
+  # Fall back to the first / default parametrization for those distributions.
+  if (flat[["parameters"]] == "") {
+    defaultParam <- .ccdDefaultParametrization[flat[["distribution"]]]
+    if (!is.na(defaultParam))
+      flat[["parameters"]] <- defaultParam
+  }
+
+  for (row in specification[["parametersSettings"]]) {
+    paramName <- row[["value"]][[1]]
+    flat[[paramName]]                  <- row[[paramName]]
+    flat[[paste0(paramName, "Fixed")]] <- isTRUE(row[[paste0(paramName, "Fixed")]])
+  }
+  return(flat)
+}
+
 .ccdComputeDistributionResults <- function(specification, variable) {
+  specification <- .ccdFlattenSpecification(specification)
   distribution <- try(.makeDistribution(specification))
 
   # make distribution object
