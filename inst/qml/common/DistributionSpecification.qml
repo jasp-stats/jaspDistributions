@@ -10,7 +10,7 @@ Column
 
 	property var allDistributionParameters: {
 		"Normal"					: {
-			"parameterChoice": [
+			"parametrization": [
 				{ label: qsTr("μ (mean), σ (std.deviation)"),	value: "sigma"	},
 				{ label: qsTr("μ (mean), σ² (variance)"),		value: "sigma2"	},
 				{ label: qsTr("μ (mean), τ (precision)"),		value: "tau"	}
@@ -152,7 +152,7 @@ Column
 			]
 		},
 		"Exponential"				: {
-			"parameterChoice": [
+			"parametrization": [
 				{ label: qsTr("λ (rate)"),	value: "lambda"	},
 				{ label: qsTr("β (scale)"),	value: "beta"	}
 			],
@@ -164,7 +164,7 @@ Column
 			]
 		},
 		"Gamma"						: {
-			"parameterChoice": [
+			"parametrization": [
 				{ label: qsTr("α (shape), θ (scale)"),	value: "theta"	},
 				{ label: qsTr("α (shape), λ (rate)"),	value: "lambda"	},
 				{ label: qsTr("α (shape), μ (mean)"),	value: "mu"		}
@@ -183,7 +183,7 @@ Column
 			]
 		},
 		"InverseGamma"				: {
-			"parameterChoice": [
+			"parametrization": [
 				{ label: qsTr("α (shape), θ (scale)"),	value: "theta"	},
 				{ label: qsTr("α (shape), λ (rate)"),	value: "lambda"	},
 				{ label: qsTr("α (shape), μ (mean)"),	value: "mu"		}
@@ -208,7 +208,7 @@ Column
 			]
 		},
 		"LogLogistic"				: {
-			"parameterChoice": [
+			"parametrization": [
 				{ label: qsTr("μ (log location), σ (log scale)"),	value: "mu"		},
 				{ label: qsTr("α (scale), β (shape)"),				value: "alpha"	}
 			],
@@ -228,7 +228,7 @@ Column
 			]
 		},
 		"Wald"						: {
-			"parameterChoice": [
+			"parametrization": [
 				{ label: qsTr("μ (mean), λ (shape)"),					value: "mu"	},
 				{ label: qsTr("ν (drift), α (threshold), σ (noise)"),	value: "nu"	}
 			],
@@ -291,7 +291,7 @@ Column
 			]
 		},
 		"ShiftedExponential"		: {
-			"parameterChoice": [
+			"parametrization": [
 				{ label: qsTr("λ (rate), shift"),	value: "lambda"	},
 				{ label: qsTr("β (scale), shift"),	value: "beta"	}
 			],
@@ -312,7 +312,7 @@ Column
 			]
 		},
 		"ShiftedGamma"				: {
-			"parameterChoice": [
+			"parametrization": [
 				{ label: qsTr("α (shape), θ (scale), shift"),	value: "theta"	},
 				{ label: qsTr("α (shape), λ (rate), shift"),	value: "lambda"	},
 				{ label: qsTr("α (shape), μ (mean), shift"),	value: "mu"		}
@@ -334,7 +334,7 @@ Column
 			]
 		},
 		"ShiftedInverseGamma"		: {
-			"parameterChoice": [
+			"parametrization": [
 				{ label: qsTr("α (shape), θ (scale), shift"),	value: "theta"	},
 				{ label: qsTr("α (shape), λ (rate), shift"),	value: "lambda"	},
 				{ label: qsTr("α (shape), μ (mean), shift"),	value: "mu"		}
@@ -356,7 +356,7 @@ Column
 			]
 		},
 		"ShiftedLogLogistic"		: {
-			"parameterChoice": [
+			"parametrization": [
 				{ label: qsTr("μ (log location), σ (log scale), shift"),	value: "mu"		},
 				{ label: qsTr("α (scale), β (shape), shift"),				value: "alpha"	}
 			],
@@ -372,7 +372,7 @@ Column
 			]
 		},
 		"ShiftedWald"				: {
-			"parameterChoice": [
+			"parametrization": [
 				{ label: qsTr("μ (mean), λ (shape), shift"),					value: "mu"	},
 				{ label: qsTr("ν (drift), α (threshold), σ (noise), shift"),	value: "nu"	}
 			],
@@ -474,26 +474,29 @@ Column
 	{
 		spacing:		5 * jaspTheme.uiScale
 		leftPadding:	10 * jaspTheme.uiScale
-		visible:		settings.checked
+		// Simulate visible: settings.checked
+		// the options stay hidden but the parameterSettings property does not get reset when settings checkbox is toggled
+		height: settings.checked ? implicitHeight : 0
+		clip: true
 
 		DropDown
 		{
-			id:			parameterChoice
-			name:		"parameters"
+			id:			parametrization
+			name:		"parametrization"
 			label:		qsTr("Parameters")
-			visible:	distribution.parameters.hasOwnProperty("parameterChoice")
-			values:		(visible && distribution.parameters) ? distribution.parameters["parameterChoice"] : []
+			visible:	distribution.parameters.hasOwnProperty("parametrization")
+			values:		(visible && distribution.parameters) ? distribution.parameters["parametrization"] : []
 
-			property var parametersSettings: currentValue ? distribution.parameters[parameterChoice.currentValue]
+			property var parametersSettings: currentValue ? distribution.parameters[parametrization.currentValue]
 														  : (distribution.parameters.hasOwnProperty("default") ? distribution.parameters["default"] : [])
 
 		}
 
 		ComponentsList
 		{
-			id:					parametersSettingsId
-			values:				parameterChoice.parametersSettings
-			name:				"parametersSettings"
+			id:					parameters
+			values:				parametrization.parametersSettings
+			name:				"parameters"
 			addItemManually:	false
 			visible:			values.length > 0
 
@@ -502,8 +505,8 @@ Column
 			{
 				spacing:		10 * jaspTheme.uiScale
 				Label			{ width: 100 * jaspTheme.uiScale;	text: rowLabel }
-				DoubleField		{ name: rowValue;					min: parameterChoice.parametersSettings[rowIndex].min;    defaultValue: parameterChoice.parametersSettings[rowIndex].defaultValue }
-				CheckBox		{ name: rowValue + "Fixed";			label: qsTr("Fixed") }
+				DoubleField		{ name: rowValue;					min: parametrization.parametersSettings[rowIndex].min;    defaultValue: parametrization.parametersSettings[rowIndex].defaultValue }
+				CheckBox		{ name: "fixed";					label: qsTr("Fixed") }
 			}
 
 		}
