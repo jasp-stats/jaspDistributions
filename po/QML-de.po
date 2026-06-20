@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-06-13 18:18+0000\n"
+"Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.7.dev0\n"
 "X-Language: de\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -3399,27 +3405,27 @@ msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Log-normal"
-msgstr ""
+msgstr "Verschobene Log-Normal"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Gamma"
-msgstr ""
+msgstr "Verschobene Gamma"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Inverse gamma"
-msgstr ""
+msgstr "Verschobene inverse Gamma"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Log-logistic"
-msgstr ""
+msgstr "Verschobene Log-Logistisch"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Wald"
-msgstr ""
+msgstr "Verschobene Wald"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Weibull"
-msgstr ""
+msgstr "Verschobene Weibull"
 
 msgctxt "DistributionSpecification|"
 msgid "Show parameter settings"
@@ -3759,7 +3765,7 @@ msgstr "β (Skalenparameter)"
 
 msgctxt "ShiftedExponential|"
 msgid "shift"
-msgstr ""
+msgstr "Verschiebung"
 
 msgctxt "ShiftedGamma|"
 msgid "α (shape)"
@@ -3783,7 +3789,7 @@ msgstr "μ (Mittelwert)"
 
 msgctxt "ShiftedGamma|"
 msgid "shift"
-msgstr ""
+msgstr "Verschiebung"
 
 msgctxt "ShiftedInverseGamma|"
 msgid "α (shape)"
@@ -3807,7 +3813,7 @@ msgstr "μ (Mittelwert)"
 
 msgctxt "ShiftedInverseGamma|"
 msgid "shift"
-msgstr ""
+msgstr "Verschiebung"
 
 msgctxt "ShiftedLogLogistic|"
 msgid "μ (log location)"
@@ -3831,7 +3837,7 @@ msgstr "β (Formparameter)"
 
 msgctxt "ShiftedLogLogistic|"
 msgid "shift"
-msgstr ""
+msgstr "Verschiebung"
 
 msgctxt "ShiftedLogNormal|"
 msgid "μ (log mean)"
@@ -3847,7 +3853,7 @@ msgstr "σ (Log-Std.-Abweichung)"
 
 msgctxt "ShiftedLogNormal|"
 msgid "shift"
-msgstr ""
+msgstr "Verschiebung"
 
 msgctxt "ShiftedWald|"
 msgid "μ (mean)"
@@ -3876,7 +3882,7 @@ msgstr "σ (Rauschen)"
 
 msgctxt "ShiftedWald|"
 msgid "shift"
-msgstr ""
+msgstr "Verschiebung"
 
 msgctxt "ShiftedWeibull|"
 msgid "shape"
@@ -3892,7 +3898,7 @@ msgstr "Skalenparameter"
 
 msgctxt "ShiftedWeibull|"
 msgid "shift"
-msgstr ""
+msgstr "Verschiebung"
 
 msgctxt "SkewCauchy|"
 msgid "ξ (location)"
@@ -3924,7 +3930,7 @@ msgstr "σ (Skalenparameter)"
 
 msgctxt "SkewedGeneralizedT|"
 msgid "λ (skew)"
-msgstr ""
+msgstr "λ (Schiefe)"
 
 msgctxt "SkewedGeneralizedT|"
 msgid "p (kurtosis)"
