@@ -15,7 +15,9 @@
 ---
 
 # jaspDistributions (development version)
-
+## Changed
+* Upgraded `DistributionS7` to 0.1.3
+    * This update fixes bootstrapping goodness of fit tests, and makes them a little bit more robust.
 
 
 ---
