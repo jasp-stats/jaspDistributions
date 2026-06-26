@@ -248,10 +248,8 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
   container[["goodnessOfFit"]] <- table
 
   samples <- if(options[["goodnessOfFitBootstrap"]]) options[["goodnessOfFitBootstrapSamples"]] else 0L
-  if (samples > 0L) {
-    table$addFootnote(message = gettextf("Based on %1$i parametric bootstrap samples.", samples), colNames = "p_value")
+  if (samples > 0L)
     jaspBase::startProgressbar(expectedTicks = samples, label = gettext("Bootstrapping..."))
-  }
 
 
   results <- try(DistributionS7::gof_test(
@@ -265,7 +263,11 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
   }
   results[["test"]] <- .ccdGofTestLabels(results[["test"]])
 
-
+  if (samples > 0L) 
+    table$addFootnote(
+      message = gettextf("Based on %1$i valid parametric bootstrap samples.", attributes(results)[["bootstrap"]][["valid"]]),
+      colNames = "p_value"
+    )
 
   table$setData(results)
 }
@@ -279,19 +281,27 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
 
   plotContainer[["hist"]] <- createJaspPlot(
     title = gettext("Histogram vs. theoretical density"),
-    plot = DistributionS7::plot_hist(distribution, variable, name=options[["variable"]])
+    plot = DistributionS7::plot_hist(distribution, variable, name=options[["variable"]]) +
+      jaspGraphs::geom_rangeframe() +
+      jaspGraphs::themeJaspRaw()
   )
   plotContainer[["qq"]] <- createJaspPlot(
     title = gettext("Q-Q plot"),
-    plot = DistributionS7::plot_qq(distribution, variable, ci = options[["empiricalPlotsCi"]], ci_level = options[["empiricalPlotsCiLevel"]])
+    plot = DistributionS7::plot_qq(distribution, variable, ci = options[["empiricalPlotsCi"]], ci_level = options[["empiricalPlotsCiLevel"]]) +
+      jaspGraphs::geom_rangeframe() +
+      jaspGraphs::themeJaspRaw()
   )
   plotContainer[["ecdf"]] <- createJaspPlot(
     title = gettext("Empirical vs. theoretical cumulative probability"),
-    plot = DistributionS7::plot_ecdf(distribution, variable, name=options[["variable"]])
+    plot = DistributionS7::plot_ecdf(distribution, variable, name=options[["variable"]]) +
+      jaspGraphs::geom_rangeframe() +
+      jaspGraphs::themeJaspRaw()
   )
   plotContainer[["pp"]] <- createJaspPlot(
     title = gettext("P-P plot"),
-    plot = DistributionS7::plot_pp(distribution, variable, ci = options[["empiricalPlotsCi"]], ci_level = options[["empiricalPlotsCiLevel"]])
+    plot = DistributionS7::plot_pp(distribution, variable, ci = options[["empiricalPlotsCi"]], ci_level = options[["empiricalPlotsCiLevel"]]) +
+      jaspGraphs::geom_rangeframe() +
+      jaspGraphs::themeJaspRaw()
   )
 
   container[["empiricalPlots"]] <- plotContainer
