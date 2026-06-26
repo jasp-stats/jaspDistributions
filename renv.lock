@@ -29,15 +29,14 @@
     },
     "DistributionS7": {
       "Package": "DistributionS7",
-      "Version": "0.1.1",
+      "Version": "0.1.3",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteUsername": "Kucharssim",
       "RemoteRepo": "DistributionS7",
       "RemoteRef": "main",
-      "RemoteSha": "8c5a709c120abc0f26697c6009769e4c2d889b9b",
-      "Remotes": "jasp-stats/jaspGraphs",
+      "RemoteSha": "5eed6bad6d0141a3084d83abe2ea1e1f44b362a5",
       "Requirements": [
         "R",
         "S7",
@@ -47,14 +46,13 @@
         "ggrepel",
         "gnorm",
         "goftest",
-        "jaspGraphs",
         "nortest",
         "patchwork",
         "rlang",
         "sgt",
         "sn"
       ],
-      "Hash": "447943d18df0900837a989b84de9aa5a"
+      "Hash": "79004c501fb62ee302bab5e505b197c4"
     },
     "Formula": {
       "Package": "Formula",
@@ -754,7 +752,7 @@
     },
     "ggplot2": {
       "Package": "ggplot2",
-      "Version": "4.0.2",
+      "Version": "4.0.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -772,7 +770,7 @@
         "vctrs",
         "withr"
       ],
-      "Hash": "24744d322a00a520db329287bf02ce42"
+      "Hash": "98520fe6b2745c466dca8e46aaa86242"
     },
     "ggrepel": {
       "Package": "ggrepel",
@@ -936,38 +934,51 @@
       "Package": "jaspBase",
       "Version": "0.20.4",
       "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "jasp-stats",
+      "RemoteRepo": "jaspBase",
+      "RemoteRef": "master",
+      "RemoteSha": "209d1787d5c9400601df960535b261029a350b12",
+      "Remotes": "jasp-stats/jaspGraphs",
       "Requirements": [
+        "R6",
+        "Rcpp",
         "cli",
         "codetools",
+        "compiler",
         "ggplot2",
+        "grDevices",
+        "grid",
         "gridExtra",
         "gridGraphics",
         "jaspGraphs",
         "jsonlite",
         "lifecycle",
+        "methods",
         "officer",
         "pkgbuild",
         "plyr",
         "ragg",
-        "R6",
-        "Rcpp",
         "rvg",
         "svglite",
         "systemfonts",
-        "withr",
-        "testthat"
+        "withr"
       ],
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteUsername": "jasp-stats",
-      "RemoteRepo": "jaspBase",
-      "RemoteSha": "93f004588f6d56b46d23210e23bff003ae7b1ff4"
+      "Hash": "f702f926c54ef67274d34239d92131f0"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
       "Version": "0.20.0",
       "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "jasp-stats",
+      "RemoteRepo": "jaspGraphs",
+      "RemoteRef": "master",
+      "RemoteSha": "cac753920e984d3628cace64538c00acd3622a58",
       "Requirements": [
+        "R6",
         "cli",
         "ggplot2",
         "gridExtra",
@@ -976,17 +987,10 @@
         "jsonlite",
         "lifecycle",
         "plotly",
-        "R6",
         "rlang",
-        "scales",
-        "testthat",
-        "vdiffr"
+        "scales"
       ],
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteUsername": "jasp-stats",
-      "RemoteRepo": "jaspGraphs",
-      "RemoteSha": "1eb48e7e0fe9559bbd15da25f30703c7cca246bb"
+      "Hash": "bc7ccc83df8863f5b96011fe9b14c019"
     },
     "jquerylib": {
       "Package": "jquerylib",
@@ -1049,7 +1053,7 @@
     },
     "lattice": {
       "Package": "lattice",
-      "Version": "0.22-7",
+      "Version": "0.22-9",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1060,7 +1064,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "934f30aea6442867f57a610034ab06d3"
+      "Hash": "91febc38a877968922d0d37d5db0f674"
     },
     "lazyeval": {
       "Package": "lazyeval",
