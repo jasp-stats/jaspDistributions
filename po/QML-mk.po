@@ -1,2825 +1,2819 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-06-27 03:59+0000\n"
-"Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
-"jaspdistributions-qml/id/>\n"
-"Language: id\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: mk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.7.dev0\n"
-"X-Language: id\n"
+"Plural-Forms: nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
 msgid "Distributions"
-msgstr "Distribusi"
-
-msgctxt "Description|"
-msgid "Visualize distributions and fit them to data"
-msgstr "Visualisasikan distribusi dan sesuaikannya dengan data"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Continuous"
-msgstr "Berkelanjutan"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Normal"
-msgstr "Normal"
-
-msgctxt "Description|"
-msgid "Skew normal"
-msgstr "Kemiringan normal"
-
-msgctxt "Description|"
-msgid "Generalized normal (version 1)"
-msgstr "Normal yang digeneralisasi (versi 1)"
-
-msgctxt "Description|"
-msgid "Cauchy"
-msgstr "Cauchy"
-
-msgctxt "Description|"
-msgid "Scaled, shifted Student's t"
-msgstr "t Student terskala, tergeser"
-
-msgctxt "Description|"
-msgid "Noncentral t"
-msgstr "T yang tidak terpusat"
-
-msgctxt "Description|"
-msgid "Skew t"
-msgstr "Kemiringan t"
-
-msgctxt "Description|"
-msgid "Skewed generalized t"
-msgstr "t tergeneralisasi miring"
+msgstr ""
 
 msgctxt "Description|"
 msgid "F-distribution"
-msgstr "Distribusi-F"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Chi-squared"
-msgstr "Chi-kuadrat"
-
-msgctxt "Description|"
-msgid "Uniform"
-msgstr "Seragam"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Beta"
-msgstr "Beta"
-
-msgctxt "Description|"
-msgid "Stretched beta"
-msgstr "Beta yang membentang"
-
-msgctxt "Description|"
-msgid "Beta prime"
-msgstr "Beta prima"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Gamma"
-msgstr "Gamma"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Inverse gamma"
-msgstr "Gamma terbalik"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Exponential"
-msgstr "Eksponensial"
-
-msgctxt "Description|"
-msgid "Laplace"
-msgstr "Laplace"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Log-normal"
-msgstr "Log-normal"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Logistic"
-msgstr "Logistik"
-
-msgctxt "Description|"
-msgid "Log-logistic"
-msgstr "Log-logistik"
-
-msgctxt "Description|"
-msgid "Pareto"
-msgstr "Pareto"
-
-msgctxt "Description|"
-msgid "Amoroso"
-msgstr "Amoroso"
-
-msgctxt "Description|"
-msgid "Fréchet"
-msgstr "Fréchet"
-
-msgctxt "Description|"
-msgid "Gumbel"
-msgstr "Gumbel"
-
-msgctxt "Description|"
-msgid "Gompertz"
-msgstr "Gompertz"
-
-msgctxt "Description|"
-msgid "Triangular"
-msgstr "Segitiga"
-
-msgctxt "Description|"
-msgid "Wald (inverse Gaussian)"
-msgstr "Wald (Gaussian terbalik)"
-
-msgctxt "Description|"
-msgid "Weibull"
-msgstr "Weibull"
-
-msgctxt "Description|"
-msgid "Mixture of normal and normal"
-msgstr "Campuran antara normal dan biasa"
-
-msgctxt "Description|"
-msgid "Mixture of normal and uniform"
-msgstr "Campuran normal dan seragam"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Discrete"
-msgstr "Diskrit"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Bernoulli"
-msgstr "Bernoulli"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Binomial"
-msgstr "Binomial"
-
-msgctxt "Description|"
-msgid "Beta-binomial"
-msgstr "Binomial-beta"
-
-msgctxt "Description|"
-msgid "Poisson"
-msgstr "Poisson"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Negative binomial"
-msgstr "Binomial negatif"
+msgstr ""
 
 msgctxt "Description|"
-msgid "Zero-inflated Poisson"
-msgstr "Poisson dengan inflasi nol"
-
-msgctxt "Description|"
-msgid "Zero-inflated negative binomial"
-msgstr "Binomial negatif dengan inflasi nol"
-
-msgctxt "Description|"
-msgid "Geometric"
-msgstr "Geometris"
-
-msgctxt "Description|"
-msgid "Hypergeometric"
-msgstr "Hipergeometrik"
+msgid "Poisson"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Assess Fit"
-msgstr "Menilai Kecocokan"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "[requires a loaded data set]"
-msgstr "[membutuhkan set data yang dimuat]"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Plots"
-msgstr "Plot"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Histogram vs. theoretical pdf"
-msgstr "Histogram vs. pdf teoretis"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Histogram vs. theoretical pmf"
-msgstr "Histogram vs. pmf teoretis"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Q-Q plot"
-msgstr "Plot Q-Q"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Empirical vs. theoretical cdf"
-msgstr "Empiris vs. cdf teoretis"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "P-P plot"
-msgstr "Plot P-P"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Statistics"
-msgstr "Statistik"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Kolmogorov-Smirnov"
-msgstr "Kolmogorov-Smirnov"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Cramér–von Mises"
-msgstr "Cramér–von Mises"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Anderson-Darling"
-msgstr "Anderson-Darling"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Shapiro-Wilk"
-msgstr "Shapiro-Wilk"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Chi-square"
-msgstr "Chi-kuadrat"
+msgstr ""
 
 msgctxt "LDEstimateParameters|"
 msgid "Estimate Parameters"
-msgstr "Parameter Estimasi"
+msgstr ""
 
 msgctxt "LDEstimateParameters|"
 msgid "[requires a loaded data set]"
-msgstr "[membutuhkan set data yang dimuat]"
+msgstr ""
 
 msgctxt "LDEstimateParameters|"
 msgid "Maximum likelihood"
-msgstr "Kemungkinan maksimum"
+msgstr ""
 
 msgctxt "LDEstimateParameters|"
 msgid "Estimates"
-msgstr "Perkiraan"
+msgstr ""
 
 msgctxt "LDEstimateParameters|"
 msgid "Std. error"
-msgstr "Std. kesalahan"
+msgstr ""
 
 msgctxt "LDEstimateParameters|"
 msgid "Confidence interval"
-msgstr "Interval kepercayaan"
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Generate and Display Data"
-msgstr "Menghasilkan dan Menampilkan Data"
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "[requires a loaded data set]"
-msgstr "[membutuhkan set data yang dimuat]"
+msgstr ""
 
 #, qt-format
 msgctxt "LDGenerateDisplayData|"
 msgid "Generate new variable from %1"
-msgstr "Buat variabel baru dari %1"
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Variable name: "
-msgstr "Nama variabel: "
+msgstr ""
 
 #, qt-format
 msgctxt "LDGenerateDisplayData|"
 msgid "e.g., random %1"
-msgstr "misalnya, %1 acak"
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Number of samples: "
-msgstr "Jumlah sampel: "
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Draw samples"
-msgstr "Menggambar sampel"
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Get variable from data set"
-msgstr "Dapatkan variabel dari kumpulan data"
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Statistics"
-msgstr "Statistik"
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Descriptives"
-msgstr "Deskriptif"
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "First"
-msgstr "Pertama"
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "observed moments"
-msgstr "momen yang diamati"
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Plots"
-msgstr "Plot"
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Bar plot"
-msgstr "Plot batang"
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Histogram with"
-msgstr "Histogram dengan"
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "bins"
-msgstr "tempat sampah"
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Empirical cumulative distribution"
-msgstr "Distribusi kumulatif empiris"
+msgstr ""
 
 msgctxt "LDOptions|"
 msgid "Options"
-msgstr "Pilihan"
+msgstr ""
 
 msgctxt "LDOptions|"
 msgid "Range of x from"
-msgstr "Rentang x dari"
+msgstr ""
 
 msgctxt "LDOptions|"
 msgid "to"
-msgstr "untuk"
+msgstr ""
 
 msgctxt "LDOptions|"
 msgid "Highlight"
-msgstr "Sorotan"
+msgstr ""
 
 msgctxt "LDOptions|"
 msgid "Density"
-msgstr "Kepadatan"
+msgstr ""
 
 msgctxt "LDOptions|"
 msgid "Probability"
-msgstr "Probabilitas"
+msgstr ""
 
 msgctxt "LDOptions|"
 msgid "Interval"
-msgstr "Interval"
+msgstr ""
 
 msgctxt "LDOptions|"
 msgid "from"
-msgstr "dari"
+msgstr ""
 
 #, qt-format
 msgctxt "LDOptions|"
 msgid "from %1"
-msgstr "dari %1"
+msgstr ""
 
 #, qt-format
 msgctxt "LDOptions|"
 msgid "to %1"
-msgstr "ke %1"
-
-msgctxt "LDamoroso|"
-msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
-
-msgctxt "LDamoroso|"
-msgid "Location:"
-msgstr "Lokasi:"
-
-msgctxt "LDamoroso|"
-msgid "a"
-msgstr "a"
-
-msgctxt "LDamoroso|"
-msgid "Scale:"
-msgstr "Skala:"
-
-msgctxt "LDamoroso|"
-msgid "θ"
-msgstr "θ"
-
-msgctxt "LDamoroso|"
-msgid "Shape:"
-msgstr "Bentuk:"
-
-msgctxt "LDamoroso|"
-msgid "α"
-msgstr "α"
-
-msgctxt "LDamoroso|"
-msgid "β"
-msgstr "β"
-
-msgctxt "LDamoroso|"
-msgid "Display"
-msgstr "Tampilan"
-
-msgctxt "LDamoroso|"
-msgid "Explanatory text"
-msgstr "Teks penjelasan"
-
-msgctxt "LDamoroso|"
-msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
-
-msgctxt "LDamoroso|"
-msgid "Formulas"
-msgstr "Rumus"
-
-msgctxt "LDamoroso|"
-msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
-
-msgctxt "LDamoroso|"
-msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
-
-msgctxt "LDamoroso|"
-msgid "Quantile function"
-msgstr "Fungsi kuantil"
+msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "Parameter"
-msgstr "Parameter"
+msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "Probability of success:"
-msgstr "Probabilitas keberhasilan:"
+msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "p"
-msgstr "p"
+msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "Probability mass function"
-msgstr "Fungsi massa probabilitas"
+msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "Options"
-msgstr "Pilihan"
+msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "Highlight"
-msgstr "Sorotan"
+msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "Mass"
-msgstr "Massa"
+msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "Cumulative Probability"
-msgstr "Probabilitas Kumulatif"
+msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "Limits"
-msgstr "Batas"
+msgstr ""
 
 msgctxt "LDbernoulli|"
 msgid "≤ X ≤"
-msgstr "≤ X ≤"
+msgstr ""
 
 msgctxt "LDbeta|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
-
-msgctxt "LDbeta|"
-msgid "Parameters"
-msgstr "Parameter"
+msgstr ""
 
 msgctxt "LDbeta|"
 msgid "Shape:"
-msgstr "Bentuk:"
+msgstr ""
 
 msgctxt "LDbeta|"
 msgid "α"
-msgstr "α"
+msgstr ""
 
 msgctxt "LDbeta|"
 msgid "β"
-msgstr "β"
+msgstr ""
 
 msgctxt "LDbeta|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDbeta|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDbeta|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDbeta|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDbeta|"
 msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
+msgstr ""
 
 msgctxt "LDbeta|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDbeta|"
 msgid "Quantile function"
-msgstr "Fungsi kuantil"
-
-msgctxt "LDbetaBinomial|"
-msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
-
-msgctxt "LDbetaBinomial|"
-msgid "Free parameters"
-msgstr "Parameter bebas"
-
-msgctxt "LDbetaBinomial|"
-msgid "Shape:"
-msgstr "Bentuk:"
-
-msgctxt "LDbetaBinomial|"
-msgid "α"
-msgstr "α"
-
-msgctxt "LDbetaBinomial|"
-msgid "β"
-msgstr "β"
-
-msgctxt "LDbetaBinomial|"
-msgid "Fixed parameter"
-msgstr "Parameter tetap"
-
-msgctxt "LDbetaBinomial|"
-msgid "Number of trials:"
-msgstr "Jumlah uji coba:"
-
-msgctxt "LDbetaBinomial|"
-msgid "n"
-msgstr "n"
-
-msgctxt "LDbetaBinomial|"
-msgid "Display"
-msgstr "Tampilan"
-
-msgctxt "LDbetaBinomial|"
-msgid "Explanatory text"
-msgstr "Teks penjelasan"
-
-msgctxt "LDbetaBinomial|"
-msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
-
-msgctxt "LDbetaBinomial|"
-msgid "Formulas"
-msgstr "Rumus"
-
-msgctxt "LDbetaBinomial|"
-msgid "Probability mass function"
-msgstr "Fungsi massa probabilitas"
-
-msgctxt "LDbetaBinomial|"
-msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
-
-msgctxt "LDbetaBinomial|"
-msgid "Options"
-msgstr "Pilihan"
-
-msgctxt "LDbetaBinomial|"
-msgid "Range of x from"
-msgstr "Rentang x dari"
-
-msgctxt "LDbetaBinomial|"
-msgid "to"
-msgstr "untuk"
-
-msgctxt "LDbetaBinomial|"
-msgid "Highlight"
-msgstr "Sorotan"
-
-msgctxt "LDbetaBinomial|"
-msgid "Mass"
-msgstr "Massa"
-
-msgctxt "LDbetaBinomial|"
-msgid "Cumulative Probability"
-msgstr "Probabilitas Kumulatif"
-
-msgctxt "LDbetaBinomial|"
-msgid "Interval"
-msgstr "Interval"
-
-msgctxt "LDbetaBinomial|"
-msgid "≤ X ≤"
-msgstr "≤ X ≤"
-
-msgctxt "LDbetaPrime|"
-msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
-
-msgctxt "LDbetaPrime|"
-msgid "Parameters"
-msgstr "Parameter"
-
-msgctxt "LDbetaPrime|"
-msgid "Shape:"
-msgstr "Bentuk:"
-
-msgctxt "LDbetaPrime|"
-msgid "α"
-msgstr "α"
-
-msgctxt "LDbetaPrime|"
-msgid "β"
-msgstr "β"
-
-msgctxt "LDbetaPrime|"
-msgid "Display"
-msgstr "Tampilan"
-
-msgctxt "LDbetaPrime|"
-msgid "Explanatory text"
-msgstr "Teks penjelasan"
-
-msgctxt "LDbetaPrime|"
-msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
-
-msgctxt "LDbetaPrime|"
-msgid "Formulas"
-msgstr "Rumus"
-
-msgctxt "LDbetaPrime|"
-msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
-
-msgctxt "LDbetaPrime|"
-msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
-
-msgctxt "LDbetaPrime|"
-msgid "Quantile function"
-msgstr "Fungsi kuantil"
-
-msgctxt "LDbetaStretched|"
-msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
-
-msgctxt "LDbetaStretched|"
-msgid "Free parameters"
-msgstr "Parameter bebas"
-
-msgctxt "LDbetaStretched|"
-msgid "Shape:"
-msgstr "Bentuk:"
-
-msgctxt "LDbetaStretched|"
-msgid "α"
-msgstr "α"
-
-msgctxt "LDbetaStretched|"
-msgid "β"
-msgstr "β"
-
-msgctxt "LDbetaStretched|"
-msgid "Fixed parameters"
-msgstr "Parameter tetap"
-
-msgctxt "LDbetaStretched|"
-msgid "Lower bound:"
-msgstr "Batas bawah:"
-
-msgctxt "LDbetaStretched|"
-msgid "a"
-msgstr "a"
-
-msgctxt "LDbetaStretched|"
-msgid "Upper bound:"
-msgstr "Batas atas:"
-
-msgctxt "LDbetaStretched|"
-msgid "b"
-msgstr "b"
-
-msgctxt "LDbetaStretched|"
-msgid "Display"
-msgstr "Tampilan"
-
-msgctxt "LDbetaStretched|"
-msgid "Explanatory text"
-msgstr "Teks penjelasan"
-
-msgctxt "LDbetaStretched|"
-msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
-
-msgctxt "LDbetaStretched|"
-msgid "Formulas"
-msgstr "Rumus"
-
-msgctxt "LDbetaStretched|"
-msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
-
-msgctxt "LDbetaStretched|"
-msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
-
-msgctxt "LDbetaStretched|"
-msgid "Quantile function"
-msgstr "Fungsi kuantil"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "Free parameter"
-msgstr "Parameter bebas"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "Probability of success:"
-msgstr "Probabilitas keberhasilan:"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "p"
-msgstr "p"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "Fixed parameter"
-msgstr "Parameter tetap"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "Number of trials:"
-msgstr "Jumlah uji coba:"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "n"
-msgstr "n"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "Probability mass function"
-msgstr "Fungsi massa probabilitas"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "Options"
-msgstr "Pilihan"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "Range of x from"
-msgstr "Rentang x dari"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "to"
-msgstr "untuk"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "Highlight"
-msgstr "Sorotan"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "Mass"
-msgstr "Massa"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "Cumulative Probability"
-msgstr "Probabilitas Kumulatif"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "Interval"
-msgstr "Interval"
+msgstr ""
 
 msgctxt "LDbinomial|"
 msgid "≤ X ≤"
-msgstr "≤ X ≤"
-
-msgctxt "LDcauchy|"
-msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
-
-msgctxt "LDcauchy|"
-msgid "Location:"
-msgstr "Lokasi:"
-
-msgctxt "LDcauchy|"
-msgid "μ"
-msgstr "μ"
-
-msgctxt "LDcauchy|"
-msgid "Scale:"
-msgstr "Skala:"
-
-msgctxt "LDcauchy|"
-msgid "σ"
-msgstr "σ"
-
-msgctxt "LDcauchy|"
-msgid "Display"
-msgstr "Tampilan"
-
-msgctxt "LDcauchy|"
-msgid "Explanatory text"
-msgstr "Teks penjelasan"
-
-msgctxt "LDcauchy|"
-msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
-
-msgctxt "LDcauchy|"
-msgid "Formulas"
-msgstr "Rumus"
-
-msgctxt "LDcauchy|"
-msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
-
-msgctxt "LDcauchy|"
-msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
-
-msgctxt "LDcauchy|"
-msgid "Quantile function"
-msgstr "Fungsi kuantil"
+msgstr ""
 
 msgctxt "LDchisq|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDchisq|"
 msgid "Degree of freedom:"
-msgstr "Derajat kebebasan:"
+msgstr ""
 
 msgctxt "LDchisq|"
 msgid "k"
-msgstr "k"
+msgstr ""
 
 msgctxt "LDchisq|"
 msgid "Non-centrality:"
-msgstr "Non-sentralitas:"
+msgstr ""
 
 msgctxt "LDchisq|"
 msgid "λ"
-msgstr "λ"
+msgstr ""
 
 msgctxt "LDchisq|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDchisq|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDchisq|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDchisq|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDchisq|"
 msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
+msgstr ""
 
 msgctxt "LDchisq|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDchisq|"
 msgid "Quantile function"
-msgstr "Fungsi kuantil"
+msgstr ""
 
 msgctxt "LDexponential|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDexponential|"
 msgid "Parameter"
-msgstr "Parameter"
+msgstr ""
 
 msgctxt "LDexponential|"
 msgid "Rate:"
-msgstr "Nilai:"
+msgstr ""
 
 msgctxt "LDexponential|"
 msgid "Scale:"
-msgstr "Skala:"
+msgstr ""
 
 msgctxt "LDexponential|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDexponential|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDexponential|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDexponential|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDexponential|"
 msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
+msgstr ""
 
 msgctxt "LDexponential|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDexponential|"
 msgid "Quantile function"
-msgstr "Fungsi kuantil"
+msgstr ""
 
 msgctxt "LDf|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDf|"
 msgid "Degree of freedom:"
-msgstr "Derajat kebebasan:"
+msgstr ""
 
 msgctxt "LDf|"
 msgid "df 1"
-msgstr "df 1"
+msgstr ""
 
 msgctxt "LDf|"
 msgid "df 2"
-msgstr "df 2"
+msgstr ""
 
 msgctxt "LDf|"
 msgid "Non-centrality:"
-msgstr "Non-sentralitas:"
+msgstr ""
 
 msgctxt "LDf|"
 msgid "ncp"
-msgstr "ncp"
+msgstr ""
 
 msgctxt "LDf|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDf|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDf|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDf|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDf|"
 msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
+msgstr ""
 
 msgctxt "LDf|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDf|"
 msgid "Quantile function"
-msgstr "Fungsi kuantil"
-
-msgctxt "LDfrechet|"
-msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
-
-msgctxt "LDfrechet|"
-msgid "Shape:"
-msgstr "Bentuk:"
-
-msgctxt "LDfrechet|"
-msgid "α"
-msgstr "α"
-
-msgctxt "LDfrechet|"
-msgid "Location:"
-msgstr "Lokasi:"
-
-msgctxt "LDfrechet|"
-msgid "μ"
-msgstr "μ"
-
-msgctxt "LDfrechet|"
-msgid "Scale:"
-msgstr "Skala:"
-
-msgctxt "LDfrechet|"
-msgid "σ"
-msgstr "σ"
-
-msgctxt "LDfrechet|"
-msgid "Display"
-msgstr "Tampilan"
-
-msgctxt "LDfrechet|"
-msgid "Explanatory text"
-msgstr "Teks penjelasan"
-
-msgctxt "LDfrechet|"
-msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
-
-msgctxt "LDfrechet|"
-msgid "Formulas"
-msgstr "Rumus"
-
-msgctxt "LDfrechet|"
-msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
-
-msgctxt "LDfrechet|"
-msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
-
-msgctxt "LDfrechet|"
-msgid "Quantile function"
-msgstr "Fungsi kuantil"
+msgstr ""
 
 msgctxt "LDgamma|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDgamma|"
 msgid "Parameters"
-msgstr "Parameter"
+msgstr ""
 
 msgctxt "LDgamma|"
 msgid "Shape:"
-msgstr "Bentuk:"
+msgstr ""
 
 msgctxt "LDgamma|"
 msgid "Scale:"
-msgstr "Skala:"
+msgstr ""
 
 msgctxt "LDgamma|"
 msgid "Rate:"
-msgstr "Nilai:"
+msgstr ""
 
 msgctxt "LDgamma|"
 msgid "Mean:"
-msgstr "Rata-rata:"
+msgstr ""
 
 msgctxt "LDgamma|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDgamma|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDgamma|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDgamma|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDgamma|"
 msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
+msgstr ""
 
 msgctxt "LDgamma|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDgamma|"
 msgid "Quantile function"
-msgstr "Fungsi kuantil"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Parameters"
-msgstr "Parameter"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Shape:"
-msgstr "Bentuk:"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Scale:"
-msgstr "Skala:"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Rate:"
-msgstr "Nilai:"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Mean:"
-msgstr "Rata-rata:"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Quantile function"
-msgstr "Fungsi kuantil"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Assess Fit"
-msgstr "Menilai Kecocokan"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Plots"
-msgstr "Plot"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Histogram vs. theoretical pdf"
-msgstr "Histogram vs. teoretis pdf"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Q-Q plot"
-msgstr "Plot Q-Q"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Empirical vs. theoretical cdf"
-msgstr "Empiris vs. teoretis cdf"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "P-P plot"
-msgstr "Plot P-P"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Statistics"
-msgstr "Statistik"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Kolmogorov-Smirnov"
-msgstr "Kolmogorov-Smirnov"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Cramér–von Mises"
-msgstr "Cramér–von Mises"
+msgstr ""
 
 msgctxt "LDgammaInverse|"
 msgid "Anderson-Darling"
-msgstr "Anderson-Darling"
+msgstr ""
 
 msgctxt "LDgaussianunivariate|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDgaussianunivariate|"
 msgid "Parameters"
-msgstr "Parameter"
+msgstr ""
 
 msgctxt "LDgaussianunivariate|"
 msgid "Mean:"
-msgstr "Rata-rata:"
+msgstr ""
 
 msgctxt "LDgaussianunivariate|"
 msgid "μ"
-msgstr "μ"
+msgstr ""
 
 msgctxt "LDgaussianunivariate|"
 msgid "Variance:"
-msgstr "Varians:"
+msgstr ""
 
 msgctxt "LDgaussianunivariate|"
 msgid "Std. deviation:"
-msgstr "Deviasi std.:"
+msgstr ""
 
 msgctxt "LDgaussianunivariate|"
 msgid "Precision:"
-msgstr "Presisi:"
+msgstr ""
 
 msgctxt "LDgaussianunivariate|"
 msgid "Square root of precision:"
-msgstr "Akar kuadrat dari presisi:"
+msgstr ""
 
 msgctxt "LDgaussianunivariate|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDgaussianunivariate|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDgaussianunivariate|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDgaussianunivariate|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDgaussianunivariate|"
 msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
+msgstr ""
 
 msgctxt "LDgaussianunivariate|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDgaussianunivariate|"
 msgid "Quantile function"
-msgstr "Fungsi kuantil"
-
-msgctxt "LDgeometric|"
-msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
-
-msgctxt "LDgeometric|"
-msgid "Parameter"
-msgstr "Parameter"
-
-msgctxt "LDgeometric|"
-msgid "Probability of success:"
-msgstr "Probabilitas keberhasilan:"
-
-msgctxt "LDgeometric|"
-msgid "p"
-msgstr "p"
-
-msgctxt "LDgeometric|"
-msgid "Display"
-msgstr "Tampilan"
-
-msgctxt "LDgeometric|"
-msgid "Explanatory text"
-msgstr "Teks penjelasan"
-
-msgctxt "LDgeometric|"
-msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
-
-msgctxt "LDgeometric|"
-msgid "Formulas"
-msgstr "Rumus"
-
-msgctxt "LDgeometric|"
-msgid "Probability mass function"
-msgstr "Fungsi massa probabilitas"
-
-msgctxt "LDgeometric|"
-msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
-
-msgctxt "LDgeometric|"
-msgid "Options"
-msgstr "Pilihan"
-
-msgctxt "LDgeometric|"
-msgid "Range of x from"
-msgstr "Rentang x dari"
-
-msgctxt "LDgeometric|"
-msgid "to"
-msgstr "untuk"
-
-msgctxt "LDgeometric|"
-msgid "Highlight"
-msgstr "Sorotan"
-
-msgctxt "LDgeometric|"
-msgid "Mass"
-msgstr "Massa"
-
-msgctxt "LDgeometric|"
-msgid "Cumulative Probability"
-msgstr "Probabilitas Kumulatif"
-
-msgctxt "LDgeometric|"
-msgid "Interval"
-msgstr "Interval"
-
-msgctxt "LDgeometric|"
-msgid "≤ X ≤"
-msgstr "≤ X ≤"
-
-msgctxt "LDgompertz|"
-msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
-
-msgctxt "LDgompertz|"
-msgid "Shape:"
-msgstr "Bentuk:"
-
-msgctxt "LDgompertz|"
-msgid "Scale:"
-msgstr "Skala:"
-
-msgctxt "LDgompertz|"
-msgid "Display"
-msgstr "Tampilan"
-
-msgctxt "LDgompertz|"
-msgid "Explanatory text"
-msgstr "Teks penjelasan"
-
-msgctxt "LDgompertz|"
-msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
-
-msgctxt "LDgompertz|"
-msgid "Formulas"
-msgstr "Rumus"
-
-msgctxt "LDgompertz|"
-msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
-
-msgctxt "LDgompertz|"
-msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
-
-msgctxt "LDgompertz|"
-msgid "Quantile function"
-msgstr "Fungsi kuantil"
-
-msgctxt "LDgumbel|"
-msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
-
-msgctxt "LDgumbel|"
-msgid "Location:"
-msgstr "Lokasi:"
-
-msgctxt "LDgumbel|"
-msgid "μ"
-msgstr "μ"
-
-msgctxt "LDgumbel|"
-msgid "Scale:"
-msgstr "Skala:"
-
-msgctxt "LDgumbel|"
-msgid "β"
-msgstr "β"
-
-msgctxt "LDgumbel|"
-msgid "Display"
-msgstr "Tampilan"
-
-msgctxt "LDgumbel|"
-msgid "Explanatory text"
-msgstr "Teks penjelasan"
-
-msgctxt "LDgumbel|"
-msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
-
-msgctxt "LDgumbel|"
-msgid "Formulas"
-msgstr "Rumus"
-
-msgctxt "LDgumbel|"
-msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
-
-msgctxt "LDgumbel|"
-msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
-
-msgctxt "LDgumbel|"
-msgid "Quantile function"
-msgstr "Fungsi kuantil"
-
-msgctxt "LDhypergeometric|"
-msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
-
-msgctxt "LDhypergeometric|"
-msgid "Population size:"
-msgstr "Ukuran populasi:"
-
-msgctxt "LDhypergeometric|"
-msgid "N"
-msgstr "N"
-
-msgctxt "LDhypergeometric|"
-msgid "Number of success states in the population:"
-msgstr "Jumlah status keberhasilan dalam populasi:"
-
-msgctxt "LDhypergeometric|"
-msgid "K"
-msgstr "K"
-
-msgctxt "LDhypergeometric|"
-msgid "Number of draws from the population:"
-msgstr "Jumlah undian dari populasi:"
-
-msgctxt "LDhypergeometric|"
-msgid "n"
-msgstr "n"
-
-msgctxt "LDhypergeometric|"
-msgid "Display"
-msgstr "Tampilan"
-
-msgctxt "LDhypergeometric|"
-msgid "Explanatory text"
-msgstr "Teks penjelasan"
-
-msgctxt "LDhypergeometric|"
-msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
-
-msgctxt "LDhypergeometric|"
-msgid "Formulas"
-msgstr "Rumus"
-
-msgctxt "LDhypergeometric|"
-msgid "Probability mass function"
-msgstr "Fungsi massa probabilitas"
-
-msgctxt "LDhypergeometric|"
-msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
-
-msgctxt "LDhypergeometric|"
-msgid "Options"
-msgstr "Pilihan"
-
-msgctxt "LDhypergeometric|"
-msgid "Range of x from"
-msgstr "Rentang x dari"
-
-msgctxt "LDhypergeometric|"
-msgid "to"
-msgstr "untuk"
-
-msgctxt "LDhypergeometric|"
-msgid "Highlight"
-msgstr "Sorotan"
-
-msgctxt "LDhypergeometric|"
-msgid "Mass"
-msgstr "Massa"
-
-msgctxt "LDhypergeometric|"
-msgid "Cumulative Probability"
-msgstr "Probabilitas Kumulatif"
-
-msgctxt "LDhypergeometric|"
-msgid "Interval"
-msgstr "Interval"
-
-msgctxt "LDhypergeometric|"
-msgid "≤ X ≤"
-msgstr "≤ X ≤"
-
-msgctxt "LDlaplace|"
-msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
-
-msgctxt "LDlaplace|"
-msgid "Location:"
-msgstr "Lokasi:"
-
-msgctxt "LDlaplace|"
-msgid "μ"
-msgstr "μ"
-
-msgctxt "LDlaplace|"
-msgid "Scale:"
-msgstr "Skala:"
-
-msgctxt "LDlaplace|"
-msgid "β"
-msgstr "β"
-
-msgctxt "LDlaplace|"
-msgid "Display"
-msgstr "Tampilan"
-
-msgctxt "LDlaplace|"
-msgid "Explanatory text"
-msgstr "Teks penjelasan"
-
-msgctxt "LDlaplace|"
-msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
-
-msgctxt "LDlaplace|"
-msgid "Formulas"
-msgstr "Rumus"
-
-msgctxt "LDlaplace|"
-msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
-
-msgctxt "LDlaplace|"
-msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
-
-msgctxt "LDlaplace|"
-msgid "Quantile function"
-msgstr "Fungsi kuantil"
+msgstr ""
 
 msgctxt "LDlogistic|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDlogistic|"
 msgid "Location:"
-msgstr "Lokasi:"
+msgstr ""
 
 msgctxt "LDlogistic|"
 msgid "μ"
-msgstr "μ"
+msgstr ""
 
 msgctxt "LDlogistic|"
 msgid "Scale:"
-msgstr "Skala:"
+msgstr ""
 
 msgctxt "LDlogistic|"
 msgid "σ"
-msgstr "σ"
+msgstr ""
 
 msgctxt "LDlogistic|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDlogistic|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDlogistic|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDlogistic|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDlogistic|"
 msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
+msgstr ""
 
 msgctxt "LDlogistic|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDlogistic|"
 msgid "Quantile function"
-msgstr "Fungsi kuantil"
-
-msgctxt "LDlogLogistic|"
-msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
-
-msgctxt "LDlogLogistic|"
-msgid "Parameters"
-msgstr "Parameter"
-
-msgctxt "LDlogLogistic|"
-msgid "Log location:"
-msgstr "Lokasi log:"
-
-msgctxt "LDlogLogistic|"
-msgid "Scale:"
-msgstr "Skala:"
-
-msgctxt "LDlogLogistic|"
-msgid "Log scale:"
-msgstr "Skala log:"
-
-msgctxt "LDlogLogistic|"
-msgid "Shape:"
-msgstr "Bentuk:"
-
-msgctxt "LDlogLogistic|"
-msgid "Display"
-msgstr "Tampilan"
-
-msgctxt "LDlogLogistic|"
-msgid "Explanatory text"
-msgstr "Teks penjelasan"
-
-msgctxt "LDlogLogistic|"
-msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
-
-msgctxt "LDlogLogistic|"
-msgid "Formulas"
-msgstr "Rumus"
-
-msgctxt "LDlogLogistic|"
-msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
-
-msgctxt "LDlogLogistic|"
-msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
-
-msgctxt "LDlogLogistic|"
-msgid "Quantile function"
-msgstr "Fungsi kuantil"
+msgstr ""
 
 msgctxt "LDlognormal|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDlognormal|"
 msgid "Log Mean:"
-msgstr "Rata-rata log:"
+msgstr ""
 
 msgctxt "LDlognormal|"
 msgid "μ"
-msgstr "μ"
+msgstr ""
 
 msgctxt "LDlognormal|"
 msgid "Log std. deviation:"
-msgstr "Deviasi std. log:"
+msgstr ""
 
 msgctxt "LDlognormal|"
 msgid "σ"
-msgstr "σ"
+msgstr ""
 
 msgctxt "LDlognormal|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDlognormal|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDlognormal|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDlognormal|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDlognormal|"
 msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
+msgstr ""
 
 msgctxt "LDlognormal|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDlognormal|"
 msgid "Quantile function"
-msgstr "Fungsi kuantil"
-
-msgctxt "LDmixtureNormalNormal|"
-msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
-
-msgctxt "LDmixtureNormalNormal|"
-msgid "Mean 1:"
-msgstr "Rata-rata 1:"
-
-msgctxt "LDmixtureNormalNormal|"
-msgid "μ₁"
-msgstr "μ₁"
-
-msgctxt "LDmixtureNormalNormal|"
-msgid "Std. deviation 1:"
-msgstr "Deviasi std. 1:"
-
-msgctxt "LDmixtureNormalNormal|"
-msgid "σ₁"
-msgstr "σ₁"
-
-msgctxt "LDmixtureNormalNormal|"
-msgid "Mean 2:"
-msgstr "Rata-rata 2:"
-
-msgctxt "LDmixtureNormalNormal|"
-msgid "μ₂"
-msgstr "μ₂"
-
-msgctxt "LDmixtureNormalNormal|"
-msgid "Std. deviation 2:"
-msgstr "Deviasi std. 2:"
-
-msgctxt "LDmixtureNormalNormal|"
-msgid "σ₂"
-msgstr "σ₂"
-
-msgctxt "LDmixtureNormalNormal|"
-msgid "Probability of component:"
-msgstr "Probabilitas komponen:"
-
-msgctxt "LDmixtureNormalNormal|"
-msgid "π"
-msgstr "π"
-
-msgctxt "LDmixtureNormalNormal|"
-msgid "Display"
-msgstr "Tampilan"
-
-msgctxt "LDmixtureNormalNormal|"
-msgid "Explanatory text"
-msgstr "Teks penjelasan"
-
-msgctxt "LDmixtureNormalNormal|"
-msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
-
-msgctxt "LDmixtureNormalNormal|"
-msgid "Formulas"
-msgstr "Rumus"
-
-msgctxt "LDmixtureNormalNormal|"
-msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
-
-msgctxt "LDmixtureNormalNormal|"
-msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
-
-msgctxt "LDmixtureNormalNormal|"
-msgid "Quantile function"
-msgstr "Fungsi kuantil"
-
-msgctxt "LDmixtureNormalUniform|"
-msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
-
-msgctxt "LDmixtureNormalUniform|"
-msgid "Free parameters"
-msgstr "Parameter bebas"
-
-msgctxt "LDmixtureNormalUniform|"
-msgid "Mean :"
-msgstr "Rata-rata :"
-
-msgctxt "LDmixtureNormalUniform|"
-msgid "μ"
-msgstr "μ"
-
-msgctxt "LDmixtureNormalUniform|"
-msgid "Std. deviation :"
-msgstr "Deviasi std. :"
-
-msgctxt "LDmixtureNormalUniform|"
-msgid "σ"
-msgstr "σ"
-
-msgctxt "LDmixtureNormalUniform|"
-msgid "Probability of normal component:"
-msgstr "Probabilitas komponen normal:"
-
-msgctxt "LDmixtureNormalUniform|"
-msgid "π"
-msgstr "π"
-
-msgctxt "LDmixtureNormalUniform|"
-msgid "Fixed parameters"
-msgstr "Parameter tetap"
-
-msgctxt "LDmixtureNormalUniform|"
-msgid "Minimum of uniform:"
-msgstr "Minimal seragam:"
-
-msgctxt "LDmixtureNormalUniform|"
-msgid "a"
-msgstr "a"
-
-msgctxt "LDmixtureNormalUniform|"
-msgid "Maximum of uniform:"
-msgstr "Maksimal seragam:"
-
-msgctxt "LDmixtureNormalUniform|"
-msgid "b"
-msgstr "b"
-
-msgctxt "LDmixtureNormalUniform|"
-msgid "Display"
-msgstr "Tampilan"
-
-msgctxt "LDmixtureNormalUniform|"
-msgid "Explanatory text"
-msgstr "Teks penjelasan"
-
-msgctxt "LDmixtureNormalUniform|"
-msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
-
-msgctxt "LDmixtureNormalUniform|"
-msgid "Formulas"
-msgstr "Rumus"
-
-msgctxt "LDmixtureNormalUniform|"
-msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
-
-msgctxt "LDmixtureNormalUniform|"
-msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
-
-msgctxt "LDmixtureNormalUniform|"
-msgid "Quantile function"
-msgstr "Fungsi kuantil"
+msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Parameters"
-msgstr "Parameter"
+msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Number of successes:"
-msgstr "Jumlah keberhasilan:"
+msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Dispersion:"
-msgstr "Dispersi:"
+msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Probability of success:"
-msgstr "Probabilitas keberhasilan:"
+msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Mean:"
-msgstr "Rata-rata:"
+msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Probability mass function"
-msgstr "Fungsi massa probabilitas"
+msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Options"
-msgstr "Pilihan"
+msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Range of x from"
-msgstr "Rentang x dari"
+msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "to"
-msgstr "untuk"
+msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Highlight"
-msgstr "Sorotan"
+msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Mass"
-msgstr "Massa"
+msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Cumulative Probability"
-msgstr "Probabilitas Kumulatif"
+msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "Interval"
-msgstr "Interval"
+msgstr ""
 
 msgctxt "LDnegbinomial|"
 msgid "≤ X ≤"
-msgstr "≤ X ≤"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "Parameters"
-msgstr "Parameter"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "Probability of Zero process:"
-msgstr "Probabilitas proses Nol:"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "π"
-msgstr "π"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "Number of successes:"
-msgstr "Jumlah keberhasilan:"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "Dispersion:"
-msgstr "Dispersi:"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "Probability of success:"
-msgstr "Probabilitas keberhasilan:"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "Mean:"
-msgstr "Rata-rata:"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "Display"
-msgstr "Tampilan"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "Explanatory text"
-msgstr "Teks penjelasan"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "Formulas"
-msgstr "Rumus"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "Probability mass function"
-msgstr "Fungsi massa probabilitas"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "Options"
-msgstr "Pilihan"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "Range of x from"
-msgstr "Rentang x dari"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "to"
-msgstr "untuk"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "Highlight"
-msgstr "Sorotan"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "Mass"
-msgstr "Massa"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "Cumulative Probability"
-msgstr "Probabilitas Kumulatif"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "Interval"
-msgstr "Interval"
-
-msgctxt "LDnegbinomialZeroInflated|"
-msgid "≤ X ≤"
-msgstr "≤ X ≤"
-
-msgctxt "LDnormalGeneralized|"
-msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
-
-msgctxt "LDnormalGeneralized|"
-msgid "Location:"
-msgstr "Lokasi:"
-
-msgctxt "LDnormalGeneralized|"
-msgid "μ"
-msgstr "μ"
-
-msgctxt "LDnormalGeneralized|"
-msgid "Scale:"
-msgstr "Skala:"
-
-msgctxt "LDnormalGeneralized|"
-msgid "α"
-msgstr "α"
-
-msgctxt "LDnormalGeneralized|"
-msgid "Shape:"
-msgstr "Bentuk:"
-
-msgctxt "LDnormalGeneralized|"
-msgid "β"
-msgstr "β"
-
-msgctxt "LDnormalGeneralized|"
-msgid "Display"
-msgstr "Tampilan"
-
-msgctxt "LDnormalGeneralized|"
-msgid "Explanatory text"
-msgstr "Teks penjelasan"
-
-msgctxt "LDnormalGeneralized|"
-msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
-
-msgctxt "LDnormalGeneralized|"
-msgid "Formulas"
-msgstr "Rumus"
-
-msgctxt "LDnormalGeneralized|"
-msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
-
-msgctxt "LDnormalGeneralized|"
-msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
-
-msgctxt "LDnormalGeneralized|"
-msgid "Quantile function"
-msgstr "Fungsi kuantil"
-
-msgctxt "LDnormalSkew|"
-msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
-
-msgctxt "LDnormalSkew|"
-msgid "Location:"
-msgstr "Lokasi:"
-
-msgctxt "LDnormalSkew|"
-msgid "ξ"
-msgstr "ξ"
-
-msgctxt "LDnormalSkew|"
-msgid "Scale:"
-msgstr "Skala:"
-
-msgctxt "LDnormalSkew|"
-msgid "ω"
-msgstr "ω"
-
-msgctxt "LDnormalSkew|"
-msgid "Shape:"
-msgstr "Bentuk:"
-
-msgctxt "LDnormalSkew|"
-msgid "α"
-msgstr "α"
-
-msgctxt "LDnormalSkew|"
-msgid "Display"
-msgstr "Tampilan"
-
-msgctxt "LDnormalSkew|"
-msgid "Explanatory text"
-msgstr "Teks penjelasan"
-
-msgctxt "LDnormalSkew|"
-msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
-
-msgctxt "LDnormalSkew|"
-msgid "Formulas"
-msgstr "Rumus"
-
-msgctxt "LDnormalSkew|"
-msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
-
-msgctxt "LDnormalSkew|"
-msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
-
-msgctxt "LDnormalSkew|"
-msgid "Quantile function"
-msgstr "Fungsi kuantil"
-
-msgctxt "LDpareto|"
-msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
-
-msgctxt "LDpareto|"
-msgid "Shape:"
-msgstr "Bentuk:"
-
-msgctxt "LDpareto|"
-msgid "Scale:"
-msgstr "Skala:"
-
-msgctxt "LDpareto|"
-msgid "Display"
-msgstr "Tampilan"
-
-msgctxt "LDpareto|"
-msgid "Explanatory text"
-msgstr "Teks penjelasan"
-
-msgctxt "LDpareto|"
-msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
-
-msgctxt "LDpareto|"
-msgid "Formulas"
-msgstr "Rumus"
-
-msgctxt "LDpareto|"
-msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
-
-msgctxt "LDpareto|"
-msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
-
-msgctxt "LDpareto|"
-msgid "Quantile function"
-msgstr "Fungsi kuantil"
+msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "Parameter"
-msgstr "Parameter"
+msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "Rate:"
-msgstr "Nilai:"
+msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "λ"
-msgstr "λ"
+msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "Probability mass function"
-msgstr "Fungsi massa probabilitas"
+msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "Options"
-msgstr "Pilihan"
+msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "Range of x from"
-msgstr "Rentang x dari"
+msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "to"
-msgstr "untuk"
+msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "Highlight"
-msgstr "Sorotan"
+msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "Mass"
-msgstr "Massa"
+msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "Cumulative Probability"
-msgstr "Probabilitas Kumulatif"
+msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "Interval"
-msgstr "Interval"
+msgstr ""
 
 msgctxt "LDpoisson|"
 msgid "≤ X ≤"
-msgstr "≤ X ≤"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Skew normal"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Generalized normal (version 1)"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Cauchy"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Scaled, shifted Student's t"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Noncentral t"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Skew t"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Skewed generalized t"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Uniform"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Stretched beta"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Beta prime"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Laplace"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Log-logistic"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Pareto"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Amoroso"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Fréchet"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Gumbel"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Gompertz"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Triangular"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Wald (inverse Gaussian)"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Weibull"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Mixture of normal and normal"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Mixture of normal and uniform"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Beta-binomial"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Zero-inflated Poisson"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Zero-inflated negative binomial"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Geometric"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Hypergeometric"
+msgstr ""
+
+msgctxt "LDamoroso|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDamoroso|"
+msgid "Location:"
+msgstr ""
+
+msgctxt "LDamoroso|"
+msgid "a"
+msgstr ""
+
+msgctxt "LDamoroso|"
+msgid "Scale:"
+msgstr ""
+
+msgctxt "LDamoroso|"
+msgid "θ"
+msgstr ""
+
+msgctxt "LDamoroso|"
+msgid "Shape:"
+msgstr ""
+
+msgctxt "LDamoroso|"
+msgid "α"
+msgstr ""
+
+msgctxt "LDamoroso|"
+msgid "β"
+msgstr ""
+
+msgctxt "LDamoroso|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDamoroso|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDamoroso|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDamoroso|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDamoroso|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDamoroso|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDamoroso|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDbeta|"
+msgid "Parameters"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "Free parameters"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "Shape:"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "α"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "β"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "Fixed parameter"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "Number of trials:"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "n"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "Probability mass function"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "Options"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "Range of x from"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "to"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "Highlight"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "Mass"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "Cumulative Probability"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "Interval"
+msgstr ""
+
+msgctxt "LDbetaBinomial|"
+msgid "≤ X ≤"
+msgstr ""
+
+msgctxt "LDbetaPrime|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDbetaPrime|"
+msgid "Parameters"
+msgstr ""
+
+msgctxt "LDbetaPrime|"
+msgid "Shape:"
+msgstr ""
+
+msgctxt "LDbetaPrime|"
+msgid "α"
+msgstr ""
+
+msgctxt "LDbetaPrime|"
+msgid "β"
+msgstr ""
+
+msgctxt "LDbetaPrime|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDbetaPrime|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDbetaPrime|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDbetaPrime|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDbetaPrime|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDbetaPrime|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDbetaPrime|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDbetaStretched|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDbetaStretched|"
+msgid "Free parameters"
+msgstr ""
+
+msgctxt "LDbetaStretched|"
+msgid "Shape:"
+msgstr ""
+
+msgctxt "LDbetaStretched|"
+msgid "α"
+msgstr ""
+
+msgctxt "LDbetaStretched|"
+msgid "β"
+msgstr ""
+
+msgctxt "LDbetaStretched|"
+msgid "Fixed parameters"
+msgstr ""
+
+msgctxt "LDbetaStretched|"
+msgid "Lower bound:"
+msgstr ""
+
+msgctxt "LDbetaStretched|"
+msgid "a"
+msgstr ""
+
+msgctxt "LDbetaStretched|"
+msgid "Upper bound:"
+msgstr ""
+
+msgctxt "LDbetaStretched|"
+msgid "b"
+msgstr ""
+
+msgctxt "LDbetaStretched|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDbetaStretched|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDbetaStretched|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDbetaStretched|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDbetaStretched|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDbetaStretched|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDbetaStretched|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDcauchy|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDcauchy|"
+msgid "Location:"
+msgstr ""
+
+msgctxt "LDcauchy|"
+msgid "μ"
+msgstr ""
+
+msgctxt "LDcauchy|"
+msgid "Scale:"
+msgstr ""
+
+msgctxt "LDcauchy|"
+msgid "σ"
+msgstr ""
+
+msgctxt "LDcauchy|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDcauchy|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDcauchy|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDcauchy|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDcauchy|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDcauchy|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDcauchy|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDfrechet|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDfrechet|"
+msgid "Shape:"
+msgstr ""
+
+msgctxt "LDfrechet|"
+msgid "α"
+msgstr ""
+
+msgctxt "LDfrechet|"
+msgid "Location:"
+msgstr ""
+
+msgctxt "LDfrechet|"
+msgid "μ"
+msgstr ""
+
+msgctxt "LDfrechet|"
+msgid "Scale:"
+msgstr ""
+
+msgctxt "LDfrechet|"
+msgid "σ"
+msgstr ""
+
+msgctxt "LDfrechet|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDfrechet|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDfrechet|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDfrechet|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDfrechet|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDfrechet|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDfrechet|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDgeometric|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDgeometric|"
+msgid "Parameter"
+msgstr ""
+
+msgctxt "LDgeometric|"
+msgid "Probability of success:"
+msgstr ""
+
+msgctxt "LDgeometric|"
+msgid "p"
+msgstr ""
+
+msgctxt "LDgeometric|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDgeometric|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDgeometric|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDgeometric|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDgeometric|"
+msgid "Probability mass function"
+msgstr ""
+
+msgctxt "LDgeometric|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDgeometric|"
+msgid "Options"
+msgstr ""
+
+msgctxt "LDgeometric|"
+msgid "Range of x from"
+msgstr ""
+
+msgctxt "LDgeometric|"
+msgid "to"
+msgstr ""
+
+msgctxt "LDgeometric|"
+msgid "Highlight"
+msgstr ""
+
+msgctxt "LDgeometric|"
+msgid "Mass"
+msgstr ""
+
+msgctxt "LDgeometric|"
+msgid "Cumulative Probability"
+msgstr ""
+
+msgctxt "LDgeometric|"
+msgid "Interval"
+msgstr ""
+
+msgctxt "LDgeometric|"
+msgid "≤ X ≤"
+msgstr ""
+
+msgctxt "LDgompertz|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDgompertz|"
+msgid "Shape:"
+msgstr ""
+
+msgctxt "LDgompertz|"
+msgid "Scale:"
+msgstr ""
+
+msgctxt "LDgompertz|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDgompertz|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDgompertz|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDgompertz|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDgompertz|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDgompertz|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDgompertz|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDgumbel|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDgumbel|"
+msgid "Location:"
+msgstr ""
+
+msgctxt "LDgumbel|"
+msgid "μ"
+msgstr ""
+
+msgctxt "LDgumbel|"
+msgid "Scale:"
+msgstr ""
+
+msgctxt "LDgumbel|"
+msgid "β"
+msgstr ""
+
+msgctxt "LDgumbel|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDgumbel|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDgumbel|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDgumbel|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDgumbel|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDgumbel|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDgumbel|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "Population size:"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "N"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "Number of success states in the population:"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "K"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "Number of draws from the population:"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "n"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "Probability mass function"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "Options"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "Range of x from"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "to"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "Highlight"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "Mass"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "Cumulative Probability"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "Interval"
+msgstr ""
+
+msgctxt "LDhypergeometric|"
+msgid "≤ X ≤"
+msgstr ""
+
+msgctxt "LDlaplace|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDlaplace|"
+msgid "Location:"
+msgstr ""
+
+msgctxt "LDlaplace|"
+msgid "μ"
+msgstr ""
+
+msgctxt "LDlaplace|"
+msgid "Scale:"
+msgstr ""
+
+msgctxt "LDlaplace|"
+msgid "β"
+msgstr ""
+
+msgctxt "LDlaplace|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDlaplace|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDlaplace|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDlaplace|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDlaplace|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDlaplace|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDlaplace|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDlogLogistic|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDlogLogistic|"
+msgid "Parameters"
+msgstr ""
+
+msgctxt "LDlogLogistic|"
+msgid "Log location:"
+msgstr ""
+
+msgctxt "LDlogLogistic|"
+msgid "Scale:"
+msgstr ""
+
+msgctxt "LDlogLogistic|"
+msgid "Log scale:"
+msgstr ""
+
+msgctxt "LDlogLogistic|"
+msgid "Shape:"
+msgstr ""
+
+msgctxt "LDlogLogistic|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDlogLogistic|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDlogLogistic|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDlogLogistic|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDlogLogistic|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDlogLogistic|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDlogLogistic|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Mean 1:"
+msgstr ""
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "μ₁"
+msgstr ""
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Std. deviation 1:"
+msgstr ""
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "σ₁"
+msgstr ""
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Mean 2:"
+msgstr ""
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "μ₂"
+msgstr ""
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Std. deviation 2:"
+msgstr ""
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "σ₂"
+msgstr ""
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Probability of component:"
+msgstr ""
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "π"
+msgstr ""
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDmixtureNormalNormal|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Free parameters"
+msgstr ""
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Mean :"
+msgstr ""
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "μ"
+msgstr ""
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Std. deviation :"
+msgstr ""
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "σ"
+msgstr ""
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Probability of normal component:"
+msgstr ""
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "π"
+msgstr ""
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Fixed parameters"
+msgstr ""
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Minimum of uniform:"
+msgstr ""
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "a"
+msgstr ""
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Maximum of uniform:"
+msgstr ""
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "b"
+msgstr ""
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDmixtureNormalUniform|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Parameters"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Probability of Zero process:"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "π"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Number of successes:"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Dispersion:"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Probability of success:"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Mean:"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Probability mass function"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Options"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Range of x from"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "to"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Highlight"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Mass"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Cumulative Probability"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "Interval"
+msgstr ""
+
+msgctxt "LDnegbinomialZeroInflated|"
+msgid "≤ X ≤"
+msgstr ""
+
+msgctxt "LDnormalGeneralized|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDnormalGeneralized|"
+msgid "Location:"
+msgstr ""
+
+msgctxt "LDnormalGeneralized|"
+msgid "μ"
+msgstr ""
+
+msgctxt "LDnormalGeneralized|"
+msgid "Scale:"
+msgstr ""
+
+msgctxt "LDnormalGeneralized|"
+msgid "α"
+msgstr ""
+
+msgctxt "LDnormalGeneralized|"
+msgid "Shape:"
+msgstr ""
+
+msgctxt "LDnormalGeneralized|"
+msgid "β"
+msgstr ""
+
+msgctxt "LDnormalGeneralized|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDnormalGeneralized|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDnormalGeneralized|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDnormalGeneralized|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDnormalGeneralized|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDnormalGeneralized|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDnormalGeneralized|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDnormalSkew|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDnormalSkew|"
+msgid "Location:"
+msgstr ""
+
+msgctxt "LDnormalSkew|"
+msgid "ξ"
+msgstr ""
+
+msgctxt "LDnormalSkew|"
+msgid "Scale:"
+msgstr ""
+
+msgctxt "LDnormalSkew|"
+msgid "ω"
+msgstr ""
+
+msgctxt "LDnormalSkew|"
+msgid "Shape:"
+msgstr ""
+
+msgctxt "LDnormalSkew|"
+msgid "α"
+msgstr ""
+
+msgctxt "LDnormalSkew|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDnormalSkew|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDnormalSkew|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDnormalSkew|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDnormalSkew|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDnormalSkew|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDnormalSkew|"
+msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDpareto|"
+msgid "Show Distribution"
+msgstr ""
+
+msgctxt "LDpareto|"
+msgid "Shape:"
+msgstr ""
+
+msgctxt "LDpareto|"
+msgid "Scale:"
+msgstr ""
+
+msgctxt "LDpareto|"
+msgid "Display"
+msgstr ""
+
+msgctxt "LDpareto|"
+msgid "Explanatory text"
+msgstr ""
+
+msgctxt "LDpareto|"
+msgid "Parameters, support, and moments"
+msgstr ""
+
+msgctxt "LDpareto|"
+msgid "Formulas"
+msgstr ""
+
+msgctxt "LDpareto|"
+msgid "Probability density function"
+msgstr ""
+
+msgctxt "LDpareto|"
+msgid "Cumulative distribution function"
+msgstr ""
+
+msgctxt "LDpareto|"
+msgid "Quantile function"
+msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Parameter"
-msgstr "Parameter"
+msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Probability of Zero process:"
-msgstr "Probabilitas proses Zero:"
+msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "π"
-msgstr "π"
+msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Rate of Poisson process:"
-msgstr "Laju proses Poisson:"
+msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "λ"
-msgstr "λ"
+msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Probability mass function"
-msgstr "Fungsi massa probabilitas"
+msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Options"
-msgstr "Pilihan"
+msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Range of x from"
-msgstr "Rentang x dari"
+msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "to"
-msgstr "untuk"
+msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Highlight"
-msgstr "Sorotan"
+msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Mass"
-msgstr "Massa"
+msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Cumulative Probability"
-msgstr "Probabilitas Kumulatif"
+msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Interval"
-msgstr "Interval"
+msgstr ""
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "≤ X ≤"
-msgstr "≤ X ≤"
+msgstr ""
 
 msgctxt "LDtNoncentral|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDtNoncentral|"
 msgid "Parameters"
-msgstr "Parameter"
+msgstr ""
 
 msgctxt "LDtNoncentral|"
 msgid "Degrees of freedom:"
-msgstr "Derajat kebebasan:"
+msgstr ""
 
 msgctxt "LDtNoncentral|"
 msgid "df"
-msgstr "df"
+msgstr ""
 
 msgctxt "LDtNoncentral|"
 msgid "Non-centrality:"
-msgstr "Non-sentralitas:"
+msgstr ""
 
 msgctxt "LDtNoncentral|"
 msgid "ncp"
-msgstr "ncp"
+msgstr ""
 
 msgctxt "LDtNoncentral|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDtNoncentral|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDtNoncentral|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDtNoncentral|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDtNoncentral|"
 msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
+msgstr ""
 
 msgctxt "LDtNoncentral|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDtNoncentral|"
 msgid "Quantile function"
-msgstr "Fungsi kuantil"
+msgstr ""
 
 msgctxt "LDtriangular|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDtriangular|"
 msgid "Minimum:"
-msgstr "Minimal:"
+msgstr ""
 
 msgctxt "LDtriangular|"
 msgid "a"
-msgstr "a"
+msgstr ""
 
 msgctxt "LDtriangular|"
 msgid "Maximum:"
-msgstr "Maksimal:"
+msgstr ""
 
 msgctxt "LDtriangular|"
 msgid "b"
-msgstr "b"
+msgstr ""
 
 msgctxt "LDtriangular|"
 msgid "Mode:"
-msgstr "Mode:"
+msgstr ""
 
 msgctxt "LDtriangular|"
 msgid "c"
-msgstr "c"
+msgstr ""
 
 msgctxt "LDtriangular|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDtriangular|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDtriangular|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDtriangular|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDtriangular|"
 msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
+msgstr ""
 
 msgctxt "LDtriangular|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDtriangular|"
 msgid "Quantile function"
-msgstr "Fungsi kuantil"
+msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "Location:"
-msgstr "Lokasi:"
+msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "ξ"
-msgstr "ξ"
+msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "Scale:"
-msgstr "Skala:"
+msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "ω"
-msgstr "ω"
+msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "Shape:"
-msgstr "Bentuk:"
+msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "α"
-msgstr "α"
+msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "Degree of freedom:"
-msgstr "Derajat kebebasan:"
+msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "df"
-msgstr "df"
+msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
+msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDtSkew|"
 msgid "Quantile function"
-msgstr "Fungsi kuantil"
+msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Parameters"
-msgstr "Parameter"
+msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Location:"
-msgstr "Lokasi:"
+msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "μ"
-msgstr "μ"
+msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Kurtosis:"
-msgstr "Kurtosis:"
+msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "p"
-msgstr "p"
+msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Scale:"
-msgstr "Skala:"
+msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "σ"
-msgstr "σ"
+msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "q"
-msgstr "q"
+msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Skewness:"
-msgstr "Kemiringan:"
+msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "λ"
-msgstr "λ"
+msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
+msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Quantile function"
-msgstr "Fungsi kuantil"
+msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Parameters"
-msgstr "Parameter"
+msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Degrees of freedom:"
-msgstr "Derajat kebebasan:"
+msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "df"
-msgstr "df"
+msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Location:"
-msgstr "Lokasi:"
+msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "μ"
-msgstr "μ"
+msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Scale:"
-msgstr "Skala:"
+msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "σ"
-msgstr "σ"
+msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
+msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDtStudent|"
 msgid "Quantile function"
-msgstr "Fungsi kuantil"
+msgstr ""
 
 msgctxt "LDuniform|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDuniform|"
 msgid "Parameters"
-msgstr "Parameter"
+msgstr ""
 
 msgctxt "LDuniform|"
 msgid "Lower bound:"
-msgstr "Batas bawah:"
+msgstr ""
 
 msgctxt "LDuniform|"
 msgid "a"
-msgstr "a"
+msgstr ""
 
 msgctxt "LDuniform|"
 msgid "Upper bound:"
-msgstr "Batas atas:"
+msgstr ""
 
 msgctxt "LDuniform|"
 msgid "b"
-msgstr "b"
+msgstr ""
 
 msgctxt "LDuniform|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDuniform|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDuniform|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDuniform|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDuniform|"
 msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
+msgstr ""
 
 msgctxt "LDuniform|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDuniform|"
 msgid "Quantile function"
-msgstr "Fungsi kuantil"
+msgstr ""
 
 msgctxt "LDwald|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDwald|"
 msgid "Parameters"
-msgstr "Parameter"
+msgstr ""
 
 msgctxt "LDwald|"
 msgid "Mean:"
-msgstr "Rata-rata:"
+msgstr ""
 
 msgctxt "LDwald|"
 msgid "Threshold:"
-msgstr "Ambang batas:"
+msgstr ""
 
 msgctxt "LDwald|"
 msgid "Drift rate:"
-msgstr "Tingkat penyimpangan:"
+msgstr ""
 
 msgctxt "LDwald|"
 msgid "Shape:"
-msgstr "Bentuk:"
+msgstr ""
 
 msgctxt "LDwald|"
 msgid "Noise:"
-msgstr "Kebisingan:"
+msgstr ""
 
 msgctxt "LDwald|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDwald|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDwald|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDwald|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDwald|"
 msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
+msgstr ""
 
 msgctxt "LDwald|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDwald|"
 msgid "Quantile function"
-msgstr "Fungsi kuantil"
+msgstr ""
 
 msgctxt "LDweibull|"
 msgid "Show Distribution"
-msgstr "Tampilkan Distribusi"
+msgstr ""
 
 msgctxt "LDweibull|"
 msgid "Shape:"
-msgstr "Bentuk:"
+msgstr ""
 
 msgctxt "LDweibull|"
 msgid "Scale:"
-msgstr "Skala:"
+msgstr ""
 
 msgctxt "LDweibull|"
 msgid "Display"
-msgstr "Tampilan"
+msgstr ""
 
 msgctxt "LDweibull|"
 msgid "Explanatory text"
-msgstr "Teks penjelasan"
+msgstr ""
 
 msgctxt "LDweibull|"
 msgid "Parameters, support, and moments"
-msgstr "Parameter, dukungan, dan momen"
+msgstr ""
 
 msgctxt "LDweibull|"
 msgid "Formulas"
-msgstr "Rumus"
+msgstr ""
 
 msgctxt "LDweibull|"
 msgid "Probability density function"
-msgstr "Fungsi kepadatan probabilitas"
+msgstr ""
 
 msgctxt "LDweibull|"
 msgid "Cumulative distribution function"
-msgstr "Fungsi distribusi kumulatif"
+msgstr ""
 
 msgctxt "LDweibull|"
 msgid "Quantile function"
-msgstr "Fungsi kuantil"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Visualize distributions and fit them to data"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Confidence interval"
-msgstr "Interval kepercayaan"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid ""
 "Displays a histogram of the selected variable overlayed with the probability "
 "density function of the fitted distribution"
 msgstr ""
-"Menampilkan histogram dari variabel terpilih dihampari dengan fungsi "
-"kepadatan probabilitas dari distrubusi sesuai"
 
 msgctxt "LDAssessFit|"
 msgid ""
@@ -2827,17 +2821,12 @@ msgid ""
 "quantiles of the data points under the fitted distribution, the *y*-axis "
 "shows the empirical quantiles of the selected variable."
 msgstr ""
-"Menampilkan diagram kuantil-kuantil. Sumbu-*x* menampilkan kuantil teoritis "
-"dari titik data di bawah distribusi sesuai, sumbu-*y* menampilkan kuantil "
-"empiris dari variabel terpilih."
 
 msgctxt "LDAssessFit|"
 msgid ""
 "Displays an empirical cumulative distribution plot overlayed with the "
 "cumulative distribution function of the fitted distribution"
 msgstr ""
-"Menampilkan diagram distribusi kumulatif empiris dihampari dengan fungsi "
-"distribusi kumulatif dari distribusi sesuai"
 
 msgctxt "LDAssessFit|"
 msgid ""
@@ -2846,37 +2835,32 @@ msgid ""
 "under the fitted distribution, the *y*-axis shows the empirical percentiles "
 "of the selected variable."
 msgstr ""
-"Menampilkan diagram probabilitas-probabilitas. Sumbu-*x* menampilkan nilai "
-"teoritis dari fungsi kepadatan kumulatif dari titik data di bawah distribusi "
-"sesuai, sumbu-*y* menampilkan persentil empiris dari variabel terpilih."
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Kolmogorov-Smirnov test"
-msgstr "Menampilkan uji Kolmogorov-Smirnov"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Cramér-von Mises test"
-msgstr "Menampilkan uji Cramér-von Mises"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Anderson-Darling test"
-msgstr "Menampilkan uji Anderson-Darling"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Shapiro-Wilk test of normality"
-msgstr "Menampilkan uji Shapiro-Wilk normalitas"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Displays the chi-square goodness of fit test"
-msgstr "Menampilkan uji kesesuaian chi-kuadrat"
+msgstr ""
 
 msgctxt "LDEstimateParameters|"
 msgid ""
 "Displays a table with the parameter estimates. Changing parametrization "
 "changes which parameters are displayed."
 msgstr ""
-"Menampilkan tabel dengan estimasi parameter. Mengubah parameterisasi "
-"mengubah mana parameter ditampilkan."
 
 msgctxt "LDEstimateParameters|"
 msgid ""
@@ -2887,77 +2871,65 @@ msgid ""
 "initialized with the values for the parameters entered under \"Show "
 "Distribution\"."
 msgstr ""
-"Mengestimasi parameter dengan nilai di domain yang mana fungsi kemungkinan "
-"dimaksimalkan. Fungsi kemungkinan memperbaiki argumen data (berdasarkan "
-"variabel terpilih) di fungsi kepadatan teoritis dan melihatnya sebagai "
-"fungsi dari parameter. Prosedur optimasi diinisialisasikan dengan nilai "
-"untuk parameter dimasukkan di bawah \"Tampilkan Distribusi\"."
 
 msgctxt "LDGenerateDisplayData|"
 msgid ""
 "Specify the name of the variable. Once filled, creates a column with samples "
 "drawn from the specified distribution in the current data set."
 msgstr ""
-"Tentukan nama dari variabel. Setelah diisi, membuat kolom dengan sampel "
-"digambarkan dari distribusi tertentu di rangkaian data saat ini."
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Specify the number of samples."
-msgstr "Tentukan jumlah sampel."
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Sample from the theoretical distribution."
-msgstr "Sampel dari distribusi teoritis."
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Get variable from data set: "
-msgstr "Dapatkan variabel dari rangkaian data: "
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Select a variable to display and fit with the theoretical distribution."
 msgstr ""
-"Pilih variabel untuk menampilkan dan menyesuaikan dengan distribusi teoritis."
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Displays a descriptive table of the selected variable."
-msgstr "Menampilkan tabel deskriptif dari variabel terpilih."
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "First observed moments"
-msgstr "Momen terobservasi pertama"
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid ""
 "Displays a table with the raw and central sample moments of the selected "
 "variable. Defaults to first 2 moments."
 msgstr ""
-"Menampilkan tabel dengan momen sampel mentah dan pusat dari variabel "
-"terpilih. Bawaannya adalah 2 momen pertama."
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Histogram with ... bins"
-msgstr "Histogram dengan ... bin"
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Display a bar plot of the selected variable."
-msgstr "Menampilkan diagram batang dari variabel terpilih."
+msgstr ""
 
 msgctxt "LDGenerateDisplayData|"
 msgid ""
 "Display a histogram of the selected variable with the number of specified "
 "bins."
 msgstr ""
-"Menampilkan histogram dari variabel terpilih dengan jumlah bin tertentu."
 
 msgctxt "LDGenerateDisplayData|"
 msgid ""
 "Displays an empirical cumulative distribution plot of the selected variable."
 msgstr ""
-"Menampilkan diagram distribusi kumulatif empiris dari variabel terpilih."
 
 msgctxt "LDOptions|"
 msgid "Range of x from ... to ..."
-msgstr "Rentang x dari ... hingga ..."
+msgstr ""
 
 msgctxt "LDOptions|"
 msgid ""
@@ -3100,27 +3072,27 @@ msgstr ""
 
 msgctxt "LDgaussianunivariate|"
 msgid "Displays the quantile plot"
-msgstr "Menampilkan diagram kuantil"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Lillienfors"
-msgstr "Lillienfors"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Lillienfors test"
-msgstr "Menampilkan uji Lillienfors"
+msgstr ""
 
 msgctxt "LDEstimateParameters|"
 msgid "Bias corrected"
-msgstr "Bias dikoreksi"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Shapiro-Francia"
-msgstr "Shapiro-Francia"
+msgstr ""
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Shapiro-Francia test of normality"
-msgstr "Menampilkan uji Shapiro-Francia dari normalitas"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), σ (std.deviation)"
@@ -3212,7 +3184,7 @@ msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Normal"
-msgstr "Normal"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Standard normal"
@@ -3228,7 +3200,7 @@ msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral t"
-msgstr "Nonpusat t"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral Student t"
@@ -3236,23 +3208,23 @@ msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Cauchy"
-msgstr "Cauchy"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Gumbel"
-msgstr "Gumbel"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Laplace"
-msgstr "Laplace"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Logistic"
-msgstr "Logistik"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Skewed generalized t"
-msgstr "Kemiringan tergeneralisasi t"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Symmetric generalized normal"
@@ -3260,7 +3232,7 @@ msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Skew normal"
-msgstr "Kemiringan normal"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Skew Cauchy"
@@ -3268,15 +3240,15 @@ msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Skew t"
-msgstr "Kemiringan t"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Beta"
-msgstr "Beta"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Beta prime"
-msgstr "Beta prima"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "F"
@@ -3288,7 +3260,7 @@ msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Chi-squared"
-msgstr "Chi-kuadrat"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral chi-squared"
@@ -3296,27 +3268,27 @@ msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Exponential"
-msgstr "Eksponensial"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Gamma"
-msgstr "Gamma"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Inverse gamma"
-msgstr "Gamma terbalik"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Gompertz"
-msgstr "Gompertz"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Log-logistic"
-msgstr "Log-logistik"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Log-normal"
-msgstr "Log-normal"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Wald"
@@ -3328,27 +3300,27 @@ msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Amoroso"
-msgstr "Amoroso"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Stretched beta"
-msgstr "Beta yang membentang"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Fréchet"
-msgstr "Fréchet"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Pareto"
-msgstr "Pareto"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Triangular"
-msgstr "Segitiga"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Uniform"
-msgstr "Seragam"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Exponential"
@@ -3384,7 +3356,7 @@ msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Parameters"
-msgstr "Parameter"
+msgstr ""
 
 msgctxt "Amoroso|"
 msgid "a (location)"
@@ -3804,251 +3776,251 @@ msgstr ""
 
 msgctxt "ShiftedLogNormal|"
 msgid "shift"
-msgstr "shif"
+msgstr ""
 
 msgctxt "ShiftedWald|"
 msgid "μ (mean)"
-msgstr "μ (rerata)"
+msgstr ""
 
 msgctxt "ShiftedWald|"
 msgid "Fixed"
-msgstr "Tetap"
+msgstr ""
 
 msgctxt "ShiftedWald|"
 msgid "λ (shape)"
-msgstr "λ (bentuk)"
+msgstr ""
 
 msgctxt "ShiftedWald|"
 msgid "ν (drift)"
-msgstr "ν (layang)"
+msgstr ""
 
 msgctxt "ShiftedWald|"
 msgid "α (threshold)"
-msgstr "α (ambang batas)"
+msgstr ""
 
 msgctxt "ShiftedWald|"
 msgid "σ (noise)"
-msgstr "σ (bising)"
+msgstr ""
 
 msgctxt "ShiftedWald|"
 msgid "shift"
-msgstr "shif"
+msgstr ""
 
 msgctxt "ShiftedWeibull|"
 msgid "shape"
-msgstr "bentuk"
+msgstr ""
 
 msgctxt "ShiftedWeibull|"
 msgid "Fixed"
-msgstr "Tetap"
+msgstr ""
 
 msgctxt "ShiftedWeibull|"
 msgid "scale"
-msgstr "skala"
+msgstr ""
 
 msgctxt "ShiftedWeibull|"
 msgid "shift"
-msgstr "shif"
+msgstr ""
 
 msgctxt "SkewCauchy|"
 msgid "ξ (location)"
-msgstr "ξ (lokasi)"
+msgstr ""
 
 msgctxt "SkewCauchy|"
 msgid "Fixed"
-msgstr "Tetap"
+msgstr ""
 
 msgctxt "SkewCauchy|"
 msgid "ω (scale)"
-msgstr "ω (skala)"
+msgstr ""
 
 msgctxt "SkewCauchy|"
 msgid "α (slant)"
-msgstr "α (miring)"
+msgstr ""
 
 msgctxt "SkewedGeneralizedT|"
 msgid "μ (location)"
-msgstr "μ (lokasi)"
+msgstr ""
 
 msgctxt "SkewedGeneralizedT|"
 msgid "Fixed"
-msgstr "Tetap"
+msgstr ""
 
 msgctxt "SkewedGeneralizedT|"
 msgid "σ (scale)"
-msgstr "σ (skala)"
+msgstr ""
 
 msgctxt "SkewedGeneralizedT|"
 msgid "λ (skew)"
-msgstr "λ (condong)"
+msgstr ""
 
 msgctxt "SkewedGeneralizedT|"
 msgid "p (kurtosis)"
-msgstr "p (kurtosis)"
+msgstr ""
 
 msgctxt "SkewedGeneralizedT|"
 msgid "q (kurtosis)"
-msgstr "q (kurtosis)"
+msgstr ""
 
 msgctxt "SkewNormal|"
 msgid "ξ (location)"
-msgstr "ξ (lokasi)"
+msgstr ""
 
 msgctxt "SkewNormal|"
 msgid "Fixed"
-msgstr "Tetap"
+msgstr ""
 
 msgctxt "SkewNormal|"
 msgid "ω (scale)"
-msgstr "ω (skala)"
+msgstr ""
 
 msgctxt "SkewNormal|"
 msgid "α (slant)"
-msgstr "α (miring)"
+msgstr ""
 
 msgctxt "SkewT|"
 msgid "ξ (location)"
-msgstr "ξ (lokasi)"
+msgstr ""
 
 msgctxt "SkewT|"
 msgid "Fixed"
-msgstr "Tetap"
+msgstr ""
 
 msgctxt "SkewT|"
 msgid "ω (scale)"
-msgstr "ω (skala)"
+msgstr ""
 
 msgctxt "SkewT|"
 msgid "α (slant)"
-msgstr "α (miring)"
+msgstr ""
 
 msgctxt "SkewT|"
 msgid "ν (df)"
-msgstr "ν (df)"
+msgstr ""
 
 msgctxt "StandardT|"
 msgid "ν (df)"
-msgstr "ν (df)"
+msgstr ""
 
 msgctxt "StandardT|"
 msgid "Fixed"
-msgstr "Tetap"
+msgstr ""
 
 msgctxt "StretchedBeta|"
 msgid "α (shape)"
-msgstr "α (bentuk)"
+msgstr ""
 
 msgctxt "StretchedBeta|"
 msgid "Fixed"
-msgstr "Tetap"
+msgstr ""
 
 msgctxt "StretchedBeta|"
 msgid "β (shape)"
-msgstr "β (bentuk)"
+msgstr ""
 
 msgctxt "StretchedBeta|"
 msgid "min"
-msgstr "min"
+msgstr ""
 
 msgctxt "StretchedBeta|"
 msgid "max"
-msgstr "maks"
+msgstr ""
 
 msgctxt "StudentT|"
 msgid "ν (df)"
-msgstr "ν (df)"
+msgstr ""
 
 msgctxt "StudentT|"
 msgid "Fixed"
-msgstr "Tetap"
+msgstr ""
 
 msgctxt "StudentT|"
 msgid "μ (location)"
-msgstr "μ (lokasi)"
+msgstr ""
 
 msgctxt "StudentT|"
 msgid "σ (scale)"
-msgstr "σ (skala)"
+msgstr ""
 
 msgctxt "SymmetricGeneralizedNormal|"
 msgid "μ (location)"
-msgstr "μ (lokasi)"
+msgstr ""
 
 msgctxt "SymmetricGeneralizedNormal|"
 msgid "Fixed"
-msgstr "Tetap"
+msgstr ""
 
 msgctxt "SymmetricGeneralizedNormal|"
 msgid "α (scale)"
-msgstr "α (skala)"
+msgstr ""
 
 msgctxt "SymmetricGeneralizedNormal|"
 msgid "β (shape)"
-msgstr "β (bentuk)"
+msgstr ""
 
 msgctxt "Triangular|"
 msgid "a (min)"
-msgstr "a (min)"
+msgstr ""
 
 msgctxt "Triangular|"
 msgid "Fixed"
-msgstr "Tetap"
+msgstr ""
 
 msgctxt "Triangular|"
 msgid "b (max)"
-msgstr "b (maks)"
+msgstr ""
 
 msgctxt "Triangular|"
 msgid "c (mode)"
-msgstr "c (mode)"
+msgstr ""
 
 msgctxt "Uniform|"
 msgid "min"
-msgstr "min"
+msgstr ""
 
 msgctxt "Uniform|"
 msgid "Fixed"
-msgstr "Tetap"
+msgstr ""
 
 msgctxt "Uniform|"
 msgid "max"
-msgstr "maks"
+msgstr ""
 
 msgctxt "Wald|"
 msgid "μ (mean)"
-msgstr "μ (rerata)"
+msgstr ""
 
 msgctxt "Wald|"
 msgid "Fixed"
-msgstr "Tetap"
+msgstr ""
 
 msgctxt "Wald|"
 msgid "λ (shape)"
-msgstr "λ (bentuk)"
+msgstr ""
 
 msgctxt "Wald|"
 msgid "ν (drift)"
-msgstr "ν (layang)"
+msgstr ""
 
 msgctxt "Wald|"
 msgid "α (threshold)"
-msgstr "α (ambang batas)"
+msgstr ""
 
 msgctxt "Wald|"
 msgid "σ (noise)"
-msgstr "σ (bising)"
+msgstr ""
 
 msgctxt "Weibull|"
 msgid "shape"
-msgstr "bentuk"
+msgstr ""
 
 msgctxt "Weibull|"
 msgid "Fixed"
-msgstr "Tetap"
+msgstr ""
 
 msgctxt "Weibull|"
 msgid "scale"
-msgstr "skala"
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
@@ -4062,39 +4034,39 @@ msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Variable"
-msgstr "Variabel"
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Specify distributions"
-msgstr "Tentukan distribusi"
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Specify distributions to be compared..."
-msgstr "Tentukan distribusi untuk dibandingkan..."
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Output"
-msgstr "Luaran"
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Control what output will be generated."
-msgstr "Kontrol apa luaran akan dihasilkan."
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Distribution comparison table"
-msgstr "Tabel perbandingan distribusi"
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Outputs the main distribution comparison table."
-msgstr "Mengeluarkan tabel perbandingan distribusi utama."
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Order by"
-msgstr "Urutkan berdasarkan"
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Order by AIC/BIC"
-msgstr "Urutkan berdasarkan AIC/BIC"
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
@@ -4104,15 +4076,15 @@ msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "AIC"
-msgstr "AIC"
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "BIC"
-msgstr "BIC"
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Output per distribution"
-msgstr "Luaran per distribusi"
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Get detailed output for individual distributions."
@@ -4132,11 +4104,11 @@ msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "distributions"
-msgstr "distribusi"
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Parameter estimates"
-msgstr "Estimasi parameter"
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
@@ -4146,7 +4118,7 @@ msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Goodness of fit"
-msgstr "Kesesuaian"
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
@@ -4165,11 +4137,11 @@ msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Parametric bootstrap from"
-msgstr "Bootstrap parametris dari"
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Parametric bootstrap from x samples"
-msgstr "Bootstrap parametris dari x sampel"
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
@@ -4180,48 +4152,44 @@ msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "samples"
-msgstr "sampel"
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Plot the distribution against data"
-msgstr "Diagramkan distribusi terhadap data"
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Outputs histogram vs theoretical density plot, empirical vs. theoretical "
 "cumulative distribution function, the Q-Q plot, and the P-P plot."
 msgstr ""
-"Mengeluarkan diagram kepadatan histogram vs teoritis, fungsi distribusi "
-"kumulatif empiris vs. teoritis, diagram Q-Q, dan diagram P-P."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Confidence interval"
-msgstr "Interval kepercayaan"
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Add the confidence interval to the P-P and Q-Q plots."
-msgstr "Tambahkan interval kepercayaan ke diagram P-P dan Q-Q."
+msgstr ""
 
 msgctxt "Description|"
 msgid "Compare Distributions"
-msgstr "Bandingkan Distribusi"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Compare Continuous Distributions"
-msgstr "Bandingkan Distribusi Keberlanjutan"
+msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "<Select a distribution>"
-msgstr "<Pilih distribusi>"
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Show full distribution specification"
-msgstr "Tampilkan spesifikasi distribusi lengkap"
+msgstr ""
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Displays the full distribution specification, including its parameters. If "
 "unchecked, only distribution names are shown."
 msgstr ""
-"Menampilkan spesifikasi distribusi lengkap, menyertakan parameternya. Jika "
-"tidak dicentang, hanya nama distribusi ditampilkan."
