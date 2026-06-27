@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-03-28 03:46\n"
+"POT-Creation-Date: 2026-06-27 04:16\n"
 "PO-Revision-Date: 2026-04-19 10:09+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
@@ -516,14 +516,15 @@ msgstr "Os seguintes parámetros se mantiveron constantes: %s."
 msgid "Goodness of fit"
 msgstr "Bondade do axuste"
 
-msgid "Based on %1$i parametric bootstrap samples."
-msgstr "Baseado en %1$i mostras paramétricas de bootstrap."
-
 msgid "Bootstrapping..."
 msgstr "Facendo bootstrap..."
 
 msgid "Could not obtain goodness of fit: <br> %s"
 msgstr "Non puido obterse a bondade do axuste: <br> %s"
+
+#, fuzzy
+msgid "Based on %1$i valid parametric bootstrap samples."
+msgstr "Baseado en %1$i mostras paramétricas de bootstrap."
 
 msgid "Empirical plots"
 msgstr "Gráficas empíricas"

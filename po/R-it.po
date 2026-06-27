@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.18.3\n"
-"POT-Creation-Date: 2026-03-28 03:46\n"
+"POT-Creation-Date: 2026-06-27 04:16\n"
 "PO-Revision-Date: 2024-06-30 10:01+0000\n"
 "Last-Translator: Marco Capozzi <giammarcous@yahoo.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/jasp/"
@@ -445,13 +445,13 @@ msgstr ""
 msgid "Goodness of fit"
 msgstr ""
 
-msgid "Based on %1$i parametric bootstrap samples."
-msgstr ""
-
 msgid "Bootstrapping..."
 msgstr ""
 
 msgid "Could not obtain goodness of fit: <br> %s"
+msgstr ""
+
+msgid "Based on %1$i valid parametric bootstrap samples."
 msgstr ""
 
 msgid "Empirical plots"

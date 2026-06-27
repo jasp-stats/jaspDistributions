@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.19.2\n"
-"POT-Creation-Date: 2026-03-28 03:46\n"
+"POT-Creation-Date: 2026-06-27 04:16\n"
 "PO-Revision-Date: 2026-06-20 04:19+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
@@ -412,13 +412,13 @@ msgstr ""
 msgid "Goodness of fit"
 msgstr ""
 
-msgid "Based on %1$i parametric bootstrap samples."
-msgstr ""
-
 msgid "Bootstrapping..."
 msgstr ""
 
 msgid "Could not obtain goodness of fit: <br> %s"
+msgstr ""
+
+msgid "Based on %1$i valid parametric bootstrap samples."
 msgstr ""
 
 msgid "Empirical plots"

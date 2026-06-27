@@ -1,15 +1,9 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-06-27 03:59+0000\n"
-"Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
-"jaspdistributions-qml/id/>\n"
-"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.7.dev0\n"
 "X-Language: id\n"
 "X-Qt-Contexts: true\n"
 
@@ -3322,9 +3316,10 @@ msgctxt "DistributionSpecification|"
 msgid "Wald"
 msgstr ""
 
+#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Weibull"
-msgstr ""
+msgstr "Weibull"
 
 msgctxt "DistributionSpecification|"
 msgid "Amoroso"
@@ -3390,113 +3385,134 @@ msgctxt "Amoroso|"
 msgid "a (location)"
 msgstr ""
 
+#, fuzzy
 msgctxt "Amoroso|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "Amoroso|"
 msgid "θ (scale)"
 msgstr ""
 
+#, fuzzy
 msgctxt "Amoroso|"
 msgid "α (shape)"
-msgstr ""
+msgstr "α (bentuk)"
 
+#, fuzzy
 msgctxt "Amoroso|"
 msgid "β (shape)"
-msgstr ""
+msgstr "β (bentuk)"
 
+#, fuzzy
 msgctxt "Beta|"
 msgid "α (shape)"
-msgstr ""
+msgstr "α (bentuk)"
 
+#, fuzzy
 msgctxt "Beta|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
+#, fuzzy
 msgctxt "Beta|"
 msgid "β (shape)"
-msgstr ""
+msgstr "β (bentuk)"
 
+#, fuzzy
 msgctxt "BetaPrime|"
 msgid "α (shape)"
-msgstr ""
+msgstr "α (bentuk)"
 
+#, fuzzy
 msgctxt "BetaPrime|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
+#, fuzzy
 msgctxt "BetaPrime|"
 msgid "β (shape)"
-msgstr ""
+msgstr "β (bentuk)"
 
+#, fuzzy
 msgctxt "Cauchy|"
 msgid "μ (location)"
-msgstr ""
+msgstr "μ (lokasi)"
 
+#, fuzzy
 msgctxt "Cauchy|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
+#, fuzzy
 msgctxt "Cauchy|"
 msgid "σ (scale)"
-msgstr ""
+msgstr "σ (skala)"
 
 msgctxt "CentralF|"
 msgid "ν₁ (df)"
 msgstr ""
 
+#, fuzzy
 msgctxt "CentralF|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "CentralF|"
 msgid "ν₂ (df)"
 msgstr ""
 
+#, fuzzy
 msgctxt "ChiSquared|"
 msgid "ν (df)"
-msgstr ""
+msgstr "ν (df)"
 
+#, fuzzy
 msgctxt "ChiSquared|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "Exponential|"
 msgid "λ (rate)"
 msgstr ""
 
+#, fuzzy
 msgctxt "Exponential|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "Exponential|"
 msgid "β (scale)"
 msgstr ""
 
+#, fuzzy
 msgctxt "Frechet|"
 msgid "α (shape)"
-msgstr ""
+msgstr "α (bentuk)"
 
+#, fuzzy
 msgctxt "Frechet|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
+#, fuzzy
 msgctxt "Frechet|"
 msgid "σ (scale)"
-msgstr ""
+msgstr "σ (skala)"
 
 msgctxt "Frechet|"
 msgid "θ (location)"
 msgstr ""
 
+#, fuzzy
 msgctxt "Gamma|"
 msgid "α (shape)"
-msgstr ""
+msgstr "α (bentuk)"
 
+#, fuzzy
 msgctxt "Gamma|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "Gamma|"
 msgid "θ (scale)"
@@ -3506,41 +3522,47 @@ msgctxt "Gamma|"
 msgid "λ (rate)"
 msgstr ""
 
+#, fuzzy
 msgctxt "Gamma|"
 msgid "μ (mean)"
-msgstr ""
+msgstr "μ (rerata)"
 
 msgctxt "Gompertz|"
 msgid "η (shape)"
 msgstr ""
 
+#, fuzzy
 msgctxt "Gompertz|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "Gompertz|"
 msgid "β (scale)"
 msgstr ""
 
+#, fuzzy
 msgctxt "Gumbel|"
 msgid "μ (location)"
-msgstr ""
+msgstr "μ (lokasi)"
 
+#, fuzzy
 msgctxt "Gumbel|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "Gumbel|"
 msgid "β (scale)"
 msgstr ""
 
+#, fuzzy
 msgctxt "InverseGamma|"
 msgid "α (shape)"
-msgstr ""
+msgstr "α (bentuk)"
 
+#, fuzzy
 msgctxt "InverseGamma|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "InverseGamma|"
 msgid "θ (scale)"
@@ -3550,73 +3572,85 @@ msgctxt "InverseGamma|"
 msgid "λ (rate)"
 msgstr ""
 
+#, fuzzy
 msgctxt "InverseGamma|"
 msgid "μ (mean)"
-msgstr ""
+msgstr "μ (rerata)"
 
+#, fuzzy
 msgctxt "Laplace|"
 msgid "μ (location)"
-msgstr ""
+msgstr "μ (lokasi)"
 
+#, fuzzy
 msgctxt "Laplace|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "Laplace|"
 msgid "β (scale)"
 msgstr ""
 
+#, fuzzy
 msgctxt "Logistic|"
 msgid "μ (location)"
-msgstr ""
+msgstr "μ (lokasi)"
 
+#, fuzzy
 msgctxt "Logistic|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
+#, fuzzy
 msgctxt "Logistic|"
 msgid "σ (scale)"
-msgstr ""
+msgstr "σ (skala)"
 
 msgctxt "LogLogistic|"
 msgid "μ (log location)"
 msgstr ""
 
+#, fuzzy
 msgctxt "LogLogistic|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "LogLogistic|"
 msgid "σ (log scale)"
 msgstr ""
 
+#, fuzzy
 msgctxt "LogLogistic|"
 msgid "α (scale)"
-msgstr ""
+msgstr "α (skala)"
 
+#, fuzzy
 msgctxt "LogLogistic|"
 msgid "β (shape)"
-msgstr ""
+msgstr "β (bentuk)"
 
 msgctxt "LogNormal|"
 msgid "μ (log mean)"
 msgstr ""
 
+#, fuzzy
 msgctxt "LogNormal|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "LogNormal|"
 msgid "σ (log std. deviation)"
 msgstr ""
 
+#, fuzzy
 msgctxt "NoncentralChiSquared|"
 msgid "ν (df)"
-msgstr ""
+msgstr "ν (df)"
 
+#, fuzzy
 msgctxt "NoncentralChiSquared|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "NoncentralChiSquared|"
 msgid "κ (noncentrality)"
@@ -3626,9 +3660,10 @@ msgctxt "NoncentralF|"
 msgid "ν₁ (df)"
 msgstr ""
 
+#, fuzzy
 msgctxt "NoncentralF|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "NoncentralF|"
 msgid "ν₂ (df)"
@@ -3638,45 +3673,53 @@ msgctxt "NoncentralF|"
 msgid "κ (noncentrality)"
 msgstr ""
 
+#, fuzzy
 msgctxt "NoncentralStudentT|"
 msgid "ν (df)"
-msgstr ""
+msgstr "ν (df)"
 
+#, fuzzy
 msgctxt "NoncentralStudentT|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "NoncentralStudentT|"
 msgid "κ (noncentrality)"
 msgstr ""
 
+#, fuzzy
 msgctxt "NoncentralStudentT|"
 msgid "μ (location)"
-msgstr ""
+msgstr "μ (lokasi)"
 
+#, fuzzy
 msgctxt "NoncentralStudentT|"
 msgid "σ (scale)"
-msgstr ""
+msgstr "σ (skala)"
 
+#, fuzzy
 msgctxt "NoncentralT|"
 msgid "ν (df)"
-msgstr ""
+msgstr "ν (df)"
 
+#, fuzzy
 msgctxt "NoncentralT|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "NoncentralT|"
 msgid "κ (noncentrality)"
 msgstr ""
 
+#, fuzzy
 msgctxt "Normal|"
 msgid "μ (mean)"
-msgstr ""
+msgstr "μ (rerata)"
 
+#, fuzzy
 msgctxt "Normal|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "Normal|"
 msgid "σ (std. deviation)"
@@ -3690,13 +3733,15 @@ msgctxt "Normal|"
 msgid "τ (precision)"
 msgstr ""
 
+#, fuzzy
 msgctxt "Pareto|"
 msgid "α (shape)"
-msgstr ""
+msgstr "α (bentuk)"
 
+#, fuzzy
 msgctxt "Pareto|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "Pareto|"
 msgid "β (scale)"
@@ -3706,25 +3751,29 @@ msgctxt "ShiftedExponential|"
 msgid "λ (rate)"
 msgstr ""
 
+#, fuzzy
 msgctxt "ShiftedExponential|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "ShiftedExponential|"
 msgid "β (scale)"
 msgstr ""
 
+#, fuzzy
 msgctxt "ShiftedExponential|"
 msgid "shift"
-msgstr ""
+msgstr "shif"
 
+#, fuzzy
 msgctxt "ShiftedGamma|"
 msgid "α (shape)"
-msgstr ""
+msgstr "α (bentuk)"
 
+#, fuzzy
 msgctxt "ShiftedGamma|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "ShiftedGamma|"
 msgid "θ (scale)"
@@ -3734,21 +3783,25 @@ msgctxt "ShiftedGamma|"
 msgid "λ (rate)"
 msgstr ""
 
+#, fuzzy
 msgctxt "ShiftedGamma|"
 msgid "μ (mean)"
-msgstr ""
+msgstr "μ (rerata)"
 
+#, fuzzy
 msgctxt "ShiftedGamma|"
 msgid "shift"
-msgstr ""
+msgstr "shif"
 
+#, fuzzy
 msgctxt "ShiftedInverseGamma|"
 msgid "α (shape)"
-msgstr ""
+msgstr "α (bentuk)"
 
+#, fuzzy
 msgctxt "ShiftedInverseGamma|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "ShiftedInverseGamma|"
 msgid "θ (scale)"
@@ -3758,45 +3811,52 @@ msgctxt "ShiftedInverseGamma|"
 msgid "λ (rate)"
 msgstr ""
 
+#, fuzzy
 msgctxt "ShiftedInverseGamma|"
 msgid "μ (mean)"
-msgstr ""
+msgstr "μ (rerata)"
 
+#, fuzzy
 msgctxt "ShiftedInverseGamma|"
 msgid "shift"
-msgstr ""
+msgstr "shif"
 
 msgctxt "ShiftedLogLogistic|"
 msgid "μ (log location)"
 msgstr ""
 
+#, fuzzy
 msgctxt "ShiftedLogLogistic|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "ShiftedLogLogistic|"
 msgid "σ (log scale)"
 msgstr ""
 
+#, fuzzy
 msgctxt "ShiftedLogLogistic|"
 msgid "α (scale)"
-msgstr ""
+msgstr "α (skala)"
 
+#, fuzzy
 msgctxt "ShiftedLogLogistic|"
 msgid "β (shape)"
-msgstr ""
+msgstr "β (bentuk)"
 
+#, fuzzy
 msgctxt "ShiftedLogLogistic|"
 msgid "shift"
-msgstr ""
+msgstr "shif"
 
 msgctxt "ShiftedLogNormal|"
 msgid "μ (log mean)"
 msgstr ""
 
+#, fuzzy
 msgctxt "ShiftedLogNormal|"
 msgid "Fixed"
-msgstr ""
+msgstr "Tetap"
 
 msgctxt "ShiftedLogNormal|"
 msgid "σ (log std. deviation)"
