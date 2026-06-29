@@ -13,7 +13,7 @@ options$distributions <- list(
   ),
   list(
     distribution     = "Gamma",
-    parameterization  = "theta",
+    parametrization  = "theta",
     parameters = list(
       list(value = "alpha", alpha = 2, fixed = FALSE),
       list(value = "theta", theta = 1, fixed = FALSE)
@@ -24,7 +24,7 @@ options$distributions <- list(
   ),
   list(
     distribution     = "Exponential",
-    parameterization = "lambda",
+    parametrization = "lambda",
     parameters = list(
       list(value = "lambda", lambda = 1, fixed = FALSE)
     )
