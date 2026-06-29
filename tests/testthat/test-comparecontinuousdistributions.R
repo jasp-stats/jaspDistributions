@@ -5,28 +5,29 @@ options$variable <- "contGamma"
 options$distributions <- list(
   list(
     distribution    = "Normal",
-    parameters      = "sigma",
-    normalMu        = 0,
-    normalMuFixed   = FALSE,
-    normalSigma     = 1.4,
-    normalSigmaFixed = TRUE
+    parametrization = "sigma",
+    parameters      = list(
+      list(value = "mu",    mu = 0,      fixed = FALSE),
+      list(value = "sigma", sigma = 1.4, fixed = TRUE)
+    )
   ),
   list(
     distribution     = "Gamma",
-    parameters       = "theta",
-    gammaAlpha       = 2,
-    gammaAlphaFixed  = FALSE,
-    gammaTheta       = 1,
-    gammaThetaFixed  = FALSE
+    parametrization  = "theta",
+    parameters = list(
+      list(value = "alpha", alpha = 2, fixed = FALSE),
+      list(value = "theta", theta = 1, fixed = FALSE)
+    )
   ),
   list(
-    distribution = "StandardNormal"
+    distribution = "StandardNormal", parametrization = ""
   ),
   list(
-    distribution           = "Exponential",
-    parameters             = "lambda",
-    exponentialLambda      = 1,
-    exponentialLambdaFixed = FALSE
+    distribution     = "Exponential",
+    parametrization = "lambda",
+    parameters = list(
+      list(value = "lambda", lambda = 1, fixed = FALSE)
+    )
   )
 )
 options$comparisonTableOrderBy <- "bic"
