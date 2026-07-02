@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-06-27 23:38+0000\n"
+"PO-Revision-Date: 2026-07-02 11:08+0000\n"
 "Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-qml/id/>\n"
@@ -2965,12 +2965,16 @@ msgid ""
 "cumulative distribution plot, and the limits of the y-axis of the quantile "
 "plot."
 msgstr ""
+"Mendefinisikan batas sumbu-x dari diagram kepadatan probabilitas dan diagram "
+"distribusi kumulatif, dan batas sumbu-y dari diagram kuantil."
 
 msgctxt "LDOptions|"
 msgid ""
 "Highlights the probability density on the probability density plot and "
 "cumulative distribution plot at specified values of x"
 msgstr ""
+"Menyorotkan kepadatan probabilitas pada diagram kepadatan probabilitas dan "
+"diagram distribusi kumulatif di nilai x tertentu"
 
 msgctxt "LDOptions|"
 msgid ""
@@ -2978,6 +2982,9 @@ msgid ""
 "density plot (area under the curve), and highlights the cumulative "
 "probability at the specified values in the cumulative distribution plot"
 msgstr ""
+"Menyorotkan probabilitas di antara nilai x tertentu di diagram kepadatan "
+"(area di bawah kurva), dan menyorotkan probabilitas kumulatif di nilai "
+"tertentu di diagram distribusi kumulatif"
 
 msgctxt "LDOptions|"
 msgid ""
@@ -2985,55 +2992,67 @@ msgid ""
 "lower and upper bounds, the probability is displayed for the specified "
 "interval."
 msgstr ""
+"Pilih batas dari interval untuk ditampilkan: Kepadatan disorotkan di batas "
+"bawah dan atas, probabilitas ditampilkan untuk interval tertentu."
 
 msgctxt "LDbinomial|"
 msgid "Demonstration of the Binomial distribution."
-msgstr ""
+msgstr "Demonstrasi dari distribusi Binomial."
 
 msgctxt "LDbinomial|"
 msgid ""
 "Displays theoretical Binomial distribution, given specified parameter values."
 msgstr ""
+"Menampilkan distribusi Binomial teoritis, memberikan nilai parameter "
+"tertentu."
 
 msgctxt "LDbinomial|"
 msgid ""
 "probability of \"success\". This parameter can be freely estimated from the "
 "data."
 msgstr ""
+"probabilitas dari \"berhasil\". Parameter ini dapat secara bebas diestimasi "
+"dari data."
 
 msgctxt "LDbinomial|"
 msgid "number of trials. This parameter is fixed when fitting the data."
-msgstr ""
+msgstr "jumlah percobaan. Parameter ini diperbaiki ketika menyesuaikan data."
 
 msgctxt "LDbinomial|"
 msgid "Displays explanatory text"
-msgstr ""
+msgstr "Menampilkan teks penjelasan"
 
 msgctxt "LDbinomial|"
 msgid ""
 "Displays the definition of parameters, the support of the random variable, "
 "and the moments of the theoretical distribution"
 msgstr ""
+"Menampilkan definisi dari parameter, dukungan dari variabel acak, dan momen "
+"dari distribusi teoritis"
 
 msgctxt "LDbinomial|"
 msgid "Displays the probability mass plot"
-msgstr ""
+msgstr "Menampilkan diagram massa probabilitas"
 
 msgctxt "LDbinomial|"
 msgid "Displays the cumulative distribution plot"
-msgstr ""
+msgstr "Menampilkan diagram distribusi kumulatif"
 
 msgctxt "LDbinomial|"
 msgid ""
 "Defines the limits of the x-axis of the probability density plot and "
 "cumulative distribution plot."
 msgstr ""
+"Mendefinisikan batas sumbu-x dari diagram kepadatan probabilitas dan diagram "
+"distribusi kumulatif."
 
 msgctxt "LDbinomial|"
 msgid ""
 "Highlights the probability density on the probability density plot and "
 "cumulative distribution plot at specified values of x"
 msgstr ""
+"Menyorotkan kepadatan probabilitas pada diagram kepadatan probabilitas dan "
+"diagram distribusi kumulatif di nilai x tertentu"
 
 msgctxt "LDbinomial|"
 msgid ""
@@ -3041,6 +3060,9 @@ msgid ""
 "density plot (area under the curve), and highlights the cumulative "
 "probability at the specified values in the cumulative distribution plot"
 msgstr ""
+"Menyorotkan probabilitas di antara nilai x tertentu di diagram kepadatan "
+"(area di bawah kurva), dan menyorotkan probabilitas kumulatif di nilai "
+"tertentu di diagram distribusi kumulatif"
 
 msgctxt "LDbinomial|"
 msgid ""
@@ -3048,55 +3070,63 @@ msgid ""
 "the lower and upper bounds, the probability is displayed for the specified "
 "interval."
 msgstr ""
+"Pilih batas dari rangkaian terurut untuk ditampilkan: Kepadatan disorotkan "
+"di batas bawah dan atas, probabilitas ditampilkan untuk interval tertentu."
 
 msgctxt "LDgaussianunivariate|"
 msgid "Demonstration of the Normal (Gaussian) distribution"
-msgstr ""
+msgstr "Demonstrasi dari distribusi Normal (Gauss)"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "Displays theoretical Normal distribution, given specified parameter values."
 msgstr ""
+"Menampilkan distribusi Normal teoritis, memberikan nilai parameter tertentu."
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "The Normal distribution is specified using the mean and variance parameters"
-msgstr ""
+msgstr "Distribusi Normal ditentukan menggunakan parameter rerata dan varians"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "The Normal distribution is specified using the mean and standard deviation "
 "parameters"
 msgstr ""
+"Distribusi Normal ditentukan menggunakan parameter rerata dan deviasi standar"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "The Normal distribution is specified using the mean and precision parameters"
-msgstr ""
+msgstr "Distribusi Normal ditentukan menggunakan parameter rerata dan presisi"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "The Normal distribution is specified using the mean and square root of "
 "precision parameters"
 msgstr ""
+"Distribusi Normal ditentukan menggunakan rerata dan akar kuadrat dari "
+"parameter presisi"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Displays explanatory text"
-msgstr ""
+msgstr "Menampilkan teks penjelasan"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "Displays the definition of parameters, the support of the random variable, "
 "and the moments of the theoretical distribution"
 msgstr ""
+"Menampilkan definisi dari parameter, dukungan dari variabel acak, dan momen "
+"dari distribusi teoritis"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Displays the probability density plot"
-msgstr ""
+msgstr "Menampilkan diagram kepadatan probabilitas"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Displays the cumulative distribution plot"
-msgstr ""
+msgstr "Menampilkan diagram distribusi kumulatif"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Displays the quantile plot"
@@ -3124,91 +3154,91 @@ msgstr "Menampilkan uji Shapiro-Francia dari normalitas"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), σ (std.deviation)"
-msgstr ""
+msgstr "μ (rerata), σ (deviasistd.)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), σ² (variance)"
-msgstr ""
+msgstr "μ (rerata), σ² (varians)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), τ (precision)"
-msgstr ""
+msgstr "μ (rerata), τ (presisi)"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (rate)"
-msgstr ""
+msgstr "λ (tingkat)"
 
 msgctxt "DistributionSpecification|"
 msgid "β (scale)"
-msgstr ""
+msgstr "β (skala)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), θ (scale)"
-msgstr ""
+msgstr "α (bentuk), θ (skala)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), λ (rate)"
-msgstr ""
+msgstr "α (bentuk), λ (tingkat)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), μ (mean)"
-msgstr ""
+msgstr "α (bentuk), μ (rerata)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (log location), σ (log scale)"
-msgstr ""
+msgstr "μ (lokasi log), σ (skala log)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (scale), β (shape)"
-msgstr ""
+msgstr "α (skala), β (bentuk)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), λ (shape)"
-msgstr ""
+msgstr "μ (rerata), λ (bentuk)"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (drift), α (threshold), σ (noise)"
-msgstr ""
+msgstr "ν (geser), α (ambang batas), σ (noise)"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (rate), shift"
-msgstr ""
+msgstr "λ (tingkat), shif"
 
 msgctxt "DistributionSpecification|"
 msgid "β (scale), shift"
-msgstr ""
+msgstr "β (skala), shif"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), θ (scale), shift"
-msgstr ""
+msgstr "α (bentuk), θ (skala), shif"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), λ (rate), shift"
-msgstr ""
+msgstr "α (bentuk), λ (tingkat), shif"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), μ (mean), shift"
-msgstr ""
+msgstr "α (bentuk), μ (rerata), shif"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (log location), σ (log scale), shift"
-msgstr ""
+msgstr "μ (lokasi log), σ (skala log), shif"
 
 msgctxt "DistributionSpecification|"
 msgid "α (scale), β (shape), shift"
-msgstr ""
+msgstr "α (skala), β (bentuk), shif"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), λ (shape), shift"
-msgstr ""
+msgstr "μ (rerata), λ (bentuk), shif"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (drift), α (threshold), σ (noise), shift"
-msgstr ""
+msgstr "ν (geser), α (ambang batas), σ (noise), shif"
 
 msgctxt "DistributionSpecification|"
 msgid "default"
-msgstr ""
+msgstr "bawaan"
 
 msgctxt "DistributionSpecification|"
 msgid "Normal"
@@ -3216,15 +3246,15 @@ msgstr "Normal"
 
 msgctxt "DistributionSpecification|"
 msgid "Standard normal"
-msgstr ""
+msgstr "Normal standar"
 
 msgctxt "DistributionSpecification|"
 msgid "Standard t"
-msgstr ""
+msgstr "t Standar"
 
 msgctxt "DistributionSpecification|"
 msgid "Student t"
-msgstr ""
+msgstr "t Student"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral t"
@@ -3232,7 +3262,7 @@ msgstr "Nonpusat t"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral Student t"
-msgstr ""
+msgstr "t Student Nonpusat"
 
 msgctxt "DistributionSpecification|"
 msgid "Cauchy"
@@ -3256,7 +3286,7 @@ msgstr "Kemiringan tergeneralisasi t"
 
 msgctxt "DistributionSpecification|"
 msgid "Symmetric generalized normal"
-msgstr ""
+msgstr "Normal tergeneralisasi simetris"
 
 msgctxt "DistributionSpecification|"
 msgid "Skew normal"
@@ -3264,7 +3294,7 @@ msgstr "Kemiringan normal"
 
 msgctxt "DistributionSpecification|"
 msgid "Skew Cauchy"
-msgstr ""
+msgstr "Condong Cauchy"
 
 msgctxt "DistributionSpecification|"
 msgid "Skew t"
@@ -3280,11 +3310,11 @@ msgstr "Beta prima"
 
 msgctxt "DistributionSpecification|"
 msgid "F"
-msgstr ""
+msgstr "F"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral F"
-msgstr ""
+msgstr "Nonpusat F"
 
 msgctxt "DistributionSpecification|"
 msgid "Chi-squared"
@@ -3292,7 +3322,7 @@ msgstr "Chi-kuadrat"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral chi-squared"
-msgstr ""
+msgstr "Nonpusat chi-kuadrat"
 
 msgctxt "DistributionSpecification|"
 msgid "Exponential"
@@ -3320,7 +3350,7 @@ msgstr "Log-normal"
 
 msgctxt "DistributionSpecification|"
 msgid "Wald"
-msgstr ""
+msgstr "Wals"
 
 msgctxt "DistributionSpecification|"
 msgid "Weibull"
@@ -3352,35 +3382,35 @@ msgstr "Seragam"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Exponential"
-msgstr ""
+msgstr "Eksponensial Bershif"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Log-normal"
-msgstr ""
+msgstr "Normal-log Bershif"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Gamma"
-msgstr ""
+msgstr "Gamma Bershif"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Inverse gamma"
-msgstr ""
+msgstr "Gamma terbalik Bershif"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Log-logistic"
-msgstr ""
+msgstr "Logistik-log Bershif"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Wald"
-msgstr ""
+msgstr "Wald Bershif"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Weibull"
-msgstr ""
+msgstr "Weibull Bershif"
 
 msgctxt "DistributionSpecification|"
 msgid "Show parameter settings"
-msgstr ""
+msgstr "Tampilkan pengaturan parameter"
 
 msgctxt "DistributionSpecification|"
 msgid "Parameters"
@@ -3388,484 +3418,419 @@ msgstr "Parameter"
 
 msgctxt "Amoroso|"
 msgid "a (location)"
-msgstr ""
+msgstr "a (lokasi)"
 
-#, fuzzy
 msgctxt "Amoroso|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "Amoroso|"
 msgid "θ (scale)"
-msgstr ""
+msgstr "θ (skala)"
 
-#, fuzzy
 msgctxt "Amoroso|"
 msgid "α (shape)"
 msgstr "α (bentuk)"
 
-#, fuzzy
 msgctxt "Amoroso|"
 msgid "β (shape)"
 msgstr "β (bentuk)"
 
-#, fuzzy
 msgctxt "Beta|"
 msgid "α (shape)"
 msgstr "α (bentuk)"
 
-#, fuzzy
 msgctxt "Beta|"
 msgid "Fixed"
 msgstr "Tetap"
 
-#, fuzzy
 msgctxt "Beta|"
 msgid "β (shape)"
 msgstr "β (bentuk)"
 
-#, fuzzy
 msgctxt "BetaPrime|"
 msgid "α (shape)"
 msgstr "α (bentuk)"
 
-#, fuzzy
 msgctxt "BetaPrime|"
 msgid "Fixed"
 msgstr "Tetap"
 
-#, fuzzy
 msgctxt "BetaPrime|"
 msgid "β (shape)"
 msgstr "β (bentuk)"
 
-#, fuzzy
 msgctxt "Cauchy|"
 msgid "μ (location)"
 msgstr "μ (lokasi)"
 
-#, fuzzy
 msgctxt "Cauchy|"
 msgid "Fixed"
 msgstr "Tetap"
 
-#, fuzzy
 msgctxt "Cauchy|"
 msgid "σ (scale)"
 msgstr "σ (skala)"
 
 msgctxt "CentralF|"
 msgid "ν₁ (df)"
-msgstr ""
+msgstr "ν₁ (df)"
 
-#, fuzzy
 msgctxt "CentralF|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "CentralF|"
 msgid "ν₂ (df)"
-msgstr ""
+msgstr "ν₂ (df)"
 
-#, fuzzy
 msgctxt "ChiSquared|"
 msgid "ν (df)"
 msgstr "ν (df)"
 
-#, fuzzy
 msgctxt "ChiSquared|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "Exponential|"
 msgid "λ (rate)"
-msgstr ""
+msgstr "λ (tingkat)"
 
-#, fuzzy
 msgctxt "Exponential|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "Exponential|"
 msgid "β (scale)"
-msgstr ""
+msgstr "β (skala)"
 
-#, fuzzy
 msgctxt "Frechet|"
 msgid "α (shape)"
 msgstr "α (bentuk)"
 
-#, fuzzy
 msgctxt "Frechet|"
 msgid "Fixed"
 msgstr "Tetap"
 
-#, fuzzy
 msgctxt "Frechet|"
 msgid "σ (scale)"
 msgstr "σ (skala)"
 
 msgctxt "Frechet|"
 msgid "θ (location)"
-msgstr ""
+msgstr "θ (lokasi)"
 
-#, fuzzy
 msgctxt "Gamma|"
 msgid "α (shape)"
 msgstr "α (bentuk)"
 
-#, fuzzy
 msgctxt "Gamma|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "Gamma|"
 msgid "θ (scale)"
-msgstr ""
+msgstr "θ (skala)"
 
 msgctxt "Gamma|"
 msgid "λ (rate)"
-msgstr ""
+msgstr "λ (tingkat)"
 
-#, fuzzy
 msgctxt "Gamma|"
 msgid "μ (mean)"
 msgstr "μ (rerata)"
 
 msgctxt "Gompertz|"
 msgid "η (shape)"
-msgstr ""
+msgstr "η (bentuk)"
 
-#, fuzzy
 msgctxt "Gompertz|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "Gompertz|"
 msgid "β (scale)"
-msgstr ""
+msgstr "β (skala)"
 
-#, fuzzy
 msgctxt "Gumbel|"
 msgid "μ (location)"
 msgstr "μ (lokasi)"
 
-#, fuzzy
 msgctxt "Gumbel|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "Gumbel|"
 msgid "β (scale)"
-msgstr ""
+msgstr "β (skala)"
 
-#, fuzzy
 msgctxt "InverseGamma|"
 msgid "α (shape)"
 msgstr "α (bentuk)"
 
-#, fuzzy
 msgctxt "InverseGamma|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "InverseGamma|"
 msgid "θ (scale)"
-msgstr ""
+msgstr "θ (skala)"
 
 msgctxt "InverseGamma|"
 msgid "λ (rate)"
-msgstr ""
+msgstr "λ (tingkat)"
 
-#, fuzzy
 msgctxt "InverseGamma|"
 msgid "μ (mean)"
 msgstr "μ (rerata)"
 
-#, fuzzy
 msgctxt "Laplace|"
 msgid "μ (location)"
 msgstr "μ (lokasi)"
 
-#, fuzzy
 msgctxt "Laplace|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "Laplace|"
 msgid "β (scale)"
-msgstr ""
+msgstr "β (skala)"
 
-#, fuzzy
 msgctxt "Logistic|"
 msgid "μ (location)"
 msgstr "μ (lokasi)"
 
-#, fuzzy
 msgctxt "Logistic|"
 msgid "Fixed"
 msgstr "Tetap"
 
-#, fuzzy
 msgctxt "Logistic|"
 msgid "σ (scale)"
 msgstr "σ (skala)"
 
 msgctxt "LogLogistic|"
 msgid "μ (log location)"
-msgstr ""
+msgstr "μ (lokasi log)"
 
-#, fuzzy
 msgctxt "LogLogistic|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "LogLogistic|"
 msgid "σ (log scale)"
-msgstr ""
+msgstr "σ (skala log)"
 
-#, fuzzy
 msgctxt "LogLogistic|"
 msgid "α (scale)"
 msgstr "α (skala)"
 
-#, fuzzy
 msgctxt "LogLogistic|"
 msgid "β (shape)"
 msgstr "β (bentuk)"
 
 msgctxt "LogNormal|"
 msgid "μ (log mean)"
-msgstr ""
+msgstr "μ (rerata log)"
 
-#, fuzzy
 msgctxt "LogNormal|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "LogNormal|"
 msgid "σ (log std. deviation)"
-msgstr ""
+msgstr "σ (deviasi std. log)"
 
-#, fuzzy
 msgctxt "NoncentralChiSquared|"
 msgid "ν (df)"
 msgstr "ν (df)"
 
-#, fuzzy
 msgctxt "NoncentralChiSquared|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "NoncentralChiSquared|"
 msgid "κ (noncentrality)"
-msgstr ""
+msgstr "κ (nonpusat)"
 
 msgctxt "NoncentralF|"
 msgid "ν₁ (df)"
-msgstr ""
+msgstr "ν₁ (df)"
 
-#, fuzzy
 msgctxt "NoncentralF|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "NoncentralF|"
 msgid "ν₂ (df)"
-msgstr ""
+msgstr "ν₂ (df)"
 
 msgctxt "NoncentralF|"
 msgid "κ (noncentrality)"
-msgstr ""
+msgstr "κ (nonpusat)"
 
-#, fuzzy
 msgctxt "NoncentralStudentT|"
 msgid "ν (df)"
 msgstr "ν (df)"
 
-#, fuzzy
 msgctxt "NoncentralStudentT|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "NoncentralStudentT|"
 msgid "κ (noncentrality)"
-msgstr ""
+msgstr "κ (nonpusat)"
 
-#, fuzzy
 msgctxt "NoncentralStudentT|"
 msgid "μ (location)"
 msgstr "μ (lokasi)"
 
-#, fuzzy
 msgctxt "NoncentralStudentT|"
 msgid "σ (scale)"
 msgstr "σ (skala)"
 
-#, fuzzy
 msgctxt "NoncentralT|"
 msgid "ν (df)"
 msgstr "ν (df)"
 
-#, fuzzy
 msgctxt "NoncentralT|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "NoncentralT|"
 msgid "κ (noncentrality)"
-msgstr ""
+msgstr "κ (nonpusat)"
 
-#, fuzzy
 msgctxt "Normal|"
 msgid "μ (mean)"
 msgstr "μ (rerata)"
 
-#, fuzzy
 msgctxt "Normal|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "Normal|"
 msgid "σ (std. deviation)"
-msgstr ""
+msgstr "σ (deviasi std.)"
 
 msgctxt "Normal|"
 msgid "σ² (variance)"
-msgstr ""
+msgstr "σ² (varians)"
 
 msgctxt "Normal|"
 msgid "τ (precision)"
-msgstr ""
+msgstr "τ (presisi)"
 
-#, fuzzy
 msgctxt "Pareto|"
 msgid "α (shape)"
 msgstr "α (bentuk)"
 
-#, fuzzy
 msgctxt "Pareto|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "Pareto|"
 msgid "β (scale)"
-msgstr ""
+msgstr "β (skala)"
 
 msgctxt "ShiftedExponential|"
 msgid "λ (rate)"
-msgstr ""
+msgstr "λ (tingkat)"
 
-#, fuzzy
 msgctxt "ShiftedExponential|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "ShiftedExponential|"
 msgid "β (scale)"
-msgstr ""
+msgstr "β (skala)"
 
-#, fuzzy
 msgctxt "ShiftedExponential|"
 msgid "shift"
 msgstr "shif"
 
-#, fuzzy
 msgctxt "ShiftedGamma|"
 msgid "α (shape)"
 msgstr "α (bentuk)"
 
-#, fuzzy
 msgctxt "ShiftedGamma|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "ShiftedGamma|"
 msgid "θ (scale)"
-msgstr ""
+msgstr "θ (skala)"
 
 msgctxt "ShiftedGamma|"
 msgid "λ (rate)"
-msgstr ""
+msgstr "λ (tingkat)"
 
-#, fuzzy
 msgctxt "ShiftedGamma|"
 msgid "μ (mean)"
 msgstr "μ (rerata)"
 
-#, fuzzy
 msgctxt "ShiftedGamma|"
 msgid "shift"
 msgstr "shif"
 
-#, fuzzy
 msgctxt "ShiftedInverseGamma|"
 msgid "α (shape)"
 msgstr "α (bentuk)"
 
-#, fuzzy
 msgctxt "ShiftedInverseGamma|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "ShiftedInverseGamma|"
 msgid "θ (scale)"
-msgstr ""
+msgstr "θ (skala)"
 
 msgctxt "ShiftedInverseGamma|"
 msgid "λ (rate)"
-msgstr ""
+msgstr "λ (tingkat)"
 
-#, fuzzy
 msgctxt "ShiftedInverseGamma|"
 msgid "μ (mean)"
 msgstr "μ (rerata)"
 
-#, fuzzy
 msgctxt "ShiftedInverseGamma|"
 msgid "shift"
 msgstr "shif"
 
 msgctxt "ShiftedLogLogistic|"
 msgid "μ (log location)"
-msgstr ""
+msgstr "μ (lokasi log)"
 
-#, fuzzy
 msgctxt "ShiftedLogLogistic|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "ShiftedLogLogistic|"
 msgid "σ (log scale)"
-msgstr ""
+msgstr "σ (skala log)"
 
-#, fuzzy
 msgctxt "ShiftedLogLogistic|"
 msgid "α (scale)"
 msgstr "α (skala)"
 
-#, fuzzy
 msgctxt "ShiftedLogLogistic|"
 msgid "β (shape)"
 msgstr "β (bentuk)"
 
-#, fuzzy
 msgctxt "ShiftedLogLogistic|"
 msgid "shift"
 msgstr "shif"
 
 msgctxt "ShiftedLogNormal|"
 msgid "μ (log mean)"
-msgstr ""
+msgstr "μ (rerata log)"
 
-#, fuzzy
 msgctxt "ShiftedLogNormal|"
 msgid "Fixed"
 msgstr "Tetap"
 
 msgctxt "ShiftedLogNormal|"
 msgid "σ (log std. deviation)"
-msgstr ""
+msgstr "σ (deviasi std. log)"
 
 msgctxt "ShiftedLogNormal|"
 msgid "shift"
@@ -4120,10 +4085,12 @@ msgid ""
 "Specify a set of distributions, estimate their parameters, and compare their "
 "fit to data."
 msgstr ""
+"Tentukan rangkaian dari distribusi, estimasikan parameter mereka, dan "
+"bandingkan penyesuaian mereka ke data."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Select data for distribution comparison."
-msgstr ""
+msgstr "Pilih data untuk perbandingan distribusi."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Variable"
@@ -4166,6 +4133,8 @@ msgid ""
 "Orders the output by how well the distributions fit the data (according to "
 "AIC or BIC)."
 msgstr ""
+"Mengurutkan luaran dengan seberapa baik distribusi menyesuaikan data "
+"(menurut AIC atau BIC)."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "AIC"
@@ -4181,19 +4150,19 @@ msgstr "Luaran per distribusi"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Get detailed output for individual distributions."
-msgstr ""
+msgstr "Dapatkan luaran terperinci untuk distribusi individu."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Limit output to the first"
-msgstr ""
+msgstr "Luaran batas untuk pertama"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Limit output to the first x distributions"
-msgstr ""
+msgstr "Luaran batas untuk distribusi x pertama"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Show the detailed output only for the top x distributions."
-msgstr ""
+msgstr "Tampilkan luaran terperinci hanya untuk distribusi x teratas."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "distributions"
@@ -4208,6 +4177,8 @@ msgid ""
 "Obtain a table of parameter estimates. *Note*: All parameters are estimated "
 "with maximum likelihood."
 msgstr ""
+"Peroleh tabel dari estimasi parameter. *Catatan*: Semua parameter "
+"diestimasikan dengan maksimum kemungkinan."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Goodness of fit"
@@ -4227,6 +4198,18 @@ msgid ""
 "setting. If the normal distribution has some parameters fixed, it is treated "
 "as any other distribution."
 msgstr ""
+"Hitung pengujian kesesuaian. Untuk sebagian besar distribusi, pengujian "
+"bawaan adalah Cramér-von Mises dan Anderson-Darling untuk hipotesis null "
+"komposit. Dicatat bahwa pengujian ini mengandalkan pada pemisahan data "
+"secara acak dalam dua rangkaian;\t\t\t\tsebagai hasilnya, hasil mungkin "
+"bervariasi, khususnya untuk ukuran sampel kecil.\t\t\t\tKetika distribusi "
+"tidak memiliki parameter bebas (yaitu, semua parameter diperbaiki), "
+"pengujian adalah Kolmorogov-Smirnov, dan Cramér-von Mises dan Anderson-"
+"Darling untuk hipotesis null sederhana. \t\t\t\tUntuk distribusi normal "
+"dengan lokasi bebas dan parameter skala, versi spesifik dari pengujian "
+"kesesuaian dihitung, sesuai untuk pengaturan ini. Jika distribusi normal "
+"memiliki beberapa parameter diperbaiki, itu diperlakukan sebagai distribusi "
+"lain apa pun."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Parametric bootstrap from"
@@ -4242,6 +4225,9 @@ msgid ""
 "In this case, the test statistics are always Kolmorogov-Smirnov, and Cramér–"
 "von Mises and Anderson-Darling for simple null hypothesis."
 msgstr ""
+"Peroleh nilai-p dari pengujian kesesuaian menggunakan bootstrap parameteris. "
+"Dalam kasus ini, statistik pengujian selalu Kolmorogov-Smirnov, dan Cramér–"
+"von Mises dan Anderson-Darling hipotesis null sederhana."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "samples"
