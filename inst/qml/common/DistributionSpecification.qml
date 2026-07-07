@@ -484,9 +484,10 @@ Column
 			id:			parametrization
 			name:		"parametrization"
 			label:		qsTr("Parameters")
-			visible:	distribution.parameters.hasOwnProperty("parametrization")
-			values:		(visible && distribution.parameters) ? distribution.parameters["parametrization"] : []
+			visible:	hasParametrization
+			values:		hasParametrization ? distribution.parameters["parametrization"] : []
 
+			property bool hasParametrization: distribution.parameters.hasOwnProperty("parametrization")
 			property var parametersSettings: currentValue ? distribution.parameters[parametrization.currentValue]
 														  : (distribution.parameters.hasOwnProperty("default") ? distribution.parameters["default"] : [])
 
