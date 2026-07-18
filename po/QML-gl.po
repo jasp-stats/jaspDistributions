@@ -3,10 +3,16 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Language: gl_ES\n"
 "X-Source-Language: C\n"
 "X-Qt-Contexts: true\n"
+"PO-Revision-Date: 2026-07-19 10:01+0000\n"
+"Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
+"Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/gl/>\n"
+"Language: gl\n"
+"X-Generator: Weblate 2026.8.dev0\n"
 
 msgctxt "LDexponential|"
 msgid "Display"
@@ -3620,202 +3626,162 @@ msgstr ""
 "Amosa a especificación completa da distribución, incluíndo os seus "
 "parámetros. Se non se marca, só se amosan os nomes das distribucións."
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "μ (mean)"
 msgstr "μ (media)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "σ (std. deviation)"
 msgstr "σ (desvío padrón)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "σ² (variance)"
 msgstr "σ² (varianza)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "τ (precision)"
 msgstr "τ (precisión)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "ν (df)"
 msgstr "ν (gl)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "κ (noncentrality)"
 msgstr "κ (non centralidade)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "μ (location)"
 msgstr "μ (posición)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "σ (scale)"
 msgstr "σ (escala)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "λ (skew)"
 msgstr "λ (asimetría)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "p (kurtosis)"
 msgstr "p (curtose)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "q (kurtosis)"
 msgstr "q (curtose)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "α (scale)"
 msgstr "α (escala)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "β (shape)"
 msgstr "β (forma)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "ξ (location)"
 msgstr "ξ (posición)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "ω (scale)"
 msgstr "ω (escala)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "α (slant)"
 msgstr "α (inclinación)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "α (shape)"
 msgstr "α (forma)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "ν₁ (df)"
 msgstr "ν₁ (gl)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "ν₂ (df)"
 msgstr "ν₂ (gl)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "θ (scale)"
 msgstr "θ (escala)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "η (shape)"
 msgstr "η (forma)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "μ (log location)"
 msgstr "μ (log posición)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "σ (log scale)"
 msgstr "σ (log escala)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "μ (log mean)"
 msgstr "μ (log media)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "σ (log std. deviation)"
 msgstr "σ (log desvío padrón)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "λ (shape)"
 msgstr "λ (forma)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "ν (drift)"
 msgstr "ν (deriva)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "α (threshold)"
 msgstr "α (lindeiro)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "σ (noise)"
 msgstr "σ (ruído)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "shape"
 msgstr "Forma"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "scale"
 msgstr "Escala"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "a (location)"
 msgstr "a (posición)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "min"
 msgstr "Mín"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "max"
 msgstr "Máx"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "θ (location)"
 msgstr "θ (posición)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "a (min)"
 msgstr "a (mín)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "b (max)"
 msgstr "b (máx)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "c (mode)"
 msgstr "c (moda)"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "shift"
 msgstr "Desprazamento"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Fixed"
 msgstr "Fixo"
