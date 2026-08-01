@@ -6,6 +6,12 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Language: ja\n"
 "X-Qt-Contexts: true\n"
+"PO-Revision-Date: 2026-07-27 12:01+0000\n"
+"Last-Translator: Koji Kosugi <kosugitti@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-qml/ja/>\n"
+"Language: ja\n"
+"X-Generator: Weblate 2026.8.dev0\n"
 
 msgctxt "Description|"
 msgid "Distributions"
@@ -2958,6 +2964,8 @@ msgid ""
 "Highlights the probability density on the probability density plot and "
 "cumulative distribution plot at specified values of x"
 msgstr ""
+"確率密度プロットと累積分布プロットで、指定した x の値における確率密度を強調し"
+"ます"
 
 msgctxt "LDOptions|"
 msgid ""
@@ -2965,6 +2973,8 @@ msgid ""
 "density plot (area under the curve), and highlights the cumulative "
 "probability at the specified values in the cumulative distribution plot"
 msgstr ""
+"密度プロットで指定した x の値のあいだの確率(曲線の下の面積)を強調し、累積分布"
+"プロットでは指定した値における累積確率を強調します"
 
 msgctxt "LDOptions|"
 msgid ""
@@ -2972,41 +2982,42 @@ msgid ""
 "lower and upper bounds, the probability is displayed for the specified "
 "interval."
 msgstr ""
+"表示する区間の境界を選びます。下限と上限で密度が強調され、指定した区間の確率"
+"が表示されます。"
 
 msgctxt "LDbinomial|"
 msgid "Demonstration of the Binomial distribution."
-msgstr ""
+msgstr "二項分布のデモンストレーションです。"
 
 msgctxt "LDbinomial|"
 msgid ""
 "Displays theoretical Binomial distribution, given specified parameter values."
-msgstr ""
+msgstr "指定したパラメータ値のもとで、理論的な二項分布を表示します。"
 
 msgctxt "LDbinomial|"
 msgid ""
 "probability of \"success\". This parameter can be freely estimated from the "
 "data."
-msgstr ""
+msgstr "「成功」の確率です。このパラメータはデータから自由に推定できます。"
 
 msgctxt "LDbinomial|"
 msgid "number of trials. This parameter is fixed when fitting the data."
-msgstr ""
+msgstr "試行回数です。このパラメータはデータをあてはめる際には固定されます。"
 
 msgctxt "LDbinomial|"
 msgid "Displays explanatory text"
-msgstr ""
+msgstr "説明文を表示します"
 
 msgctxt "LDbinomial|"
 msgid ""
 "Displays the definition of parameters, the support of the random variable, "
 "and the moments of the theoretical distribution"
-msgstr ""
+msgstr "パラメータの定義・確率変数の台・理論分布のモーメントを表示します"
 
 msgctxt "LDbinomial|"
 msgid "Displays the probability mass plot"
-msgstr ""
+msgstr "確率質量プロットを表示します"
 
-#, fuzzy
 msgctxt "LDbinomial|"
 msgid "Displays the cumulative distribution plot"
 msgstr "累積分布プロットを表示"
@@ -3015,13 +3026,15 @@ msgctxt "LDbinomial|"
 msgid ""
 "Defines the limits of the x-axis of the probability density plot and "
 "cumulative distribution plot."
-msgstr ""
+msgstr "確率密度プロットと累積分布プロットの x 軸の範囲を決めます。"
 
 msgctxt "LDbinomial|"
 msgid ""
 "Highlights the probability density on the probability density plot and "
 "cumulative distribution plot at specified values of x"
 msgstr ""
+"確率密度プロットと累積分布プロットで、指定した x の値における確率密度を強調し"
+"ます"
 
 msgctxt "LDbinomial|"
 msgid ""
@@ -3029,6 +3042,8 @@ msgid ""
 "density plot (area under the curve), and highlights the cumulative "
 "probability at the specified values in the cumulative distribution plot"
 msgstr ""
+"密度プロットで指定した x の値のあいだの確率(曲線の下の面積)を強調し、累積分布"
+"プロットでは指定した値における累積確率を強調します"
 
 msgctxt "LDbinomial|"
 msgid ""
@@ -3036,47 +3051,49 @@ msgid ""
 "the lower and upper bounds, the probability is displayed for the specified "
 "interval."
 msgstr ""
+"表示する順序集合の境界を選びます。下限と上限で密度が強調され、指定した区間の"
+"確率が表示されます。"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Demonstration of the Normal (Gaussian) distribution"
-msgstr ""
+msgstr "正規(ガウス)分布のデモンストレーション"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "Displays theoretical Normal distribution, given specified parameter values."
-msgstr ""
+msgstr "指定したパラメータ値のもとで、理論的な正規分布を表示します。"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "The Normal distribution is specified using the mean and variance parameters"
-msgstr ""
+msgstr "正規分布を平均と分散のパラメータで指定します"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "The Normal distribution is specified using the mean and standard deviation "
 "parameters"
-msgstr ""
+msgstr "正規分布を平均と標準偏差のパラメータで指定します"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "The Normal distribution is specified using the mean and precision parameters"
-msgstr ""
+msgstr "正規分布を平均と精度のパラメータで指定します"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "The Normal distribution is specified using the mean and square root of "
 "precision parameters"
-msgstr ""
+msgstr "正規分布を平均と精度の平方根のパラメータで指定します"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Displays explanatory text"
-msgstr ""
+msgstr "説明文を表示します"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "Displays the definition of parameters, the support of the random variable, "
 "and the moments of the theoretical distribution"
-msgstr ""
+msgstr "パラメータの定義・確率変数の台・理論分布のモーメントを表示します"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Displays the probability density plot"
@@ -3092,306 +3109,280 @@ msgstr "分位点プロットを表示"
 
 msgctxt "LDAssessFit|"
 msgid "Lillienfors"
-msgstr ""
+msgstr "Lillienfors"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Lillienfors test"
-msgstr ""
+msgstr "Lillienfors 検定を表示します"
 
 msgctxt "LDEstimateParameters|"
 msgid "Bias corrected"
-msgstr ""
+msgstr "バイアス修正済み"
 
 msgctxt "LDAssessFit|"
 msgid "Shapiro-Francia"
-msgstr ""
+msgstr "シャピロ-フランシア"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Shapiro-Francia test of normality"
-msgstr ""
+msgstr "シャピロ-フランシアの正規性検定を表示します"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), σ (std.deviation)"
-msgstr ""
+msgstr "μ (平均), σ (標準偏差)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), σ² (variance)"
-msgstr ""
+msgstr "μ (平均), σ² (分散)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), τ (precision)"
-msgstr ""
+msgstr "μ (平均), τ (精度)"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (rate)"
-msgstr ""
+msgstr "λ (率)"
 
 msgctxt "DistributionSpecification|"
 msgid "β (scale)"
-msgstr ""
+msgstr "β (尺度)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), θ (scale)"
-msgstr ""
+msgstr "α (形状), θ (尺度)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), λ (rate)"
-msgstr ""
+msgstr "α (形状), λ (率)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), μ (mean)"
-msgstr ""
+msgstr "α (形状), μ (平均)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (log location), σ (log scale)"
-msgstr ""
+msgstr "μ (対数位置), σ (対数尺度)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (scale), β (shape)"
-msgstr ""
+msgstr "α (尺度), β (形状)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), λ (shape)"
-msgstr ""
+msgstr "μ (平均), λ (形状)"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (drift), α (threshold), σ (noise)"
-msgstr ""
+msgstr "ν (ドリフト), α (閾値), σ (ノイズ)"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (rate), shift"
-msgstr ""
+msgstr "λ (率), シフト"
 
 msgctxt "DistributionSpecification|"
 msgid "β (scale), shift"
-msgstr ""
+msgstr "β (尺度), シフト"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), θ (scale), shift"
-msgstr ""
+msgstr "α (形状), θ (尺度), シフト"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), λ (rate), shift"
-msgstr ""
+msgstr "α (形状), λ (率), シフト"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), μ (mean), shift"
-msgstr ""
+msgstr "α (形状), μ (平均), シフト"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (log location), σ (log scale), shift"
-msgstr ""
+msgstr "μ (対数位置), σ (対数尺度), シフト"
 
 msgctxt "DistributionSpecification|"
 msgid "α (scale), β (shape), shift"
-msgstr ""
+msgstr "α (尺度), β (形状), シフト"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), λ (shape), shift"
-msgstr ""
+msgstr "μ (平均), λ (形状), シフト"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (drift), α (threshold), σ (noise), shift"
-msgstr ""
+msgstr "ν (ドリフト), α (閾値), σ (ノイズ), シフト"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Normal"
 msgstr "正規"
 
 msgctxt "DistributionSpecification|"
 msgid "Standard normal"
-msgstr ""
+msgstr "標準正規"
 
 msgctxt "DistributionSpecification|"
 msgid "Standard t"
-msgstr ""
+msgstr "標準t"
 
 msgctxt "DistributionSpecification|"
 msgid "Student t"
-msgstr ""
+msgstr "スチューデントのt"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Noncentral t"
 msgstr "非心t"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral Student t"
-msgstr ""
+msgstr "非心スチューデントのt"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Cauchy"
 msgstr "コーシー"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Gumbel"
 msgstr "ガンベル"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Laplace"
 msgstr "ラプラス"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Logistic"
 msgstr "ロジスティック"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Skewed generalized t"
 msgstr "一般化非対称t"
 
 msgctxt "DistributionSpecification|"
 msgid "Symmetric generalized normal"
-msgstr ""
+msgstr "対称一般化正規"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Skew normal"
 msgstr "歪正規"
 
 msgctxt "DistributionSpecification|"
 msgid "Skew Cauchy"
-msgstr ""
+msgstr "歪コーシー"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Skew t"
 msgstr "非対称t"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Beta"
 msgstr "ベータ"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Beta prime"
 msgstr "第2種ベータ(ベータプライム)"
 
 msgctxt "DistributionSpecification|"
 msgid "F"
-msgstr ""
+msgstr "F"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral F"
-msgstr ""
+msgstr "非心F"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Chi-squared"
 msgstr "カイ二乗"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral chi-squared"
-msgstr ""
+msgstr "非心カイ二乗"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Exponential"
 msgstr "指数"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Gamma"
 msgstr "ガンマ"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Inverse gamma"
 msgstr "逆ガンマ"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Gompertz"
 msgstr "ゴンペルツ"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Log-logistic"
 msgstr "対数ロジスティック"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Log-normal"
 msgstr "対数正規"
 
 msgctxt "DistributionSpecification|"
 msgid "Wald"
-msgstr ""
+msgstr "ワルド"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Weibull"
 msgstr "ワイブル"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Amoroso"
 msgstr "Amoroso"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Stretched beta"
 msgstr "拡張ベータ"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Fréchet"
 msgstr "フレシェ"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Pareto"
 msgstr "パレート"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Triangular"
 msgstr "三角"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Uniform"
 msgstr "一様"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Exponential"
-msgstr ""
+msgstr "シフト指数"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Log-normal"
-msgstr ""
+msgstr "シフト対数正規"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Gamma"
-msgstr ""
+msgstr "シフトガンマ"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Inverse gamma"
-msgstr ""
+msgstr "シフト逆ガンマ"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Log-logistic"
-msgstr ""
+msgstr "シフト対数ロジスティック"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Wald"
-msgstr ""
+msgstr "シフトワルド"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Weibull"
-msgstr ""
+msgstr "シフトワイブル"
 
 msgctxt "DistributionSpecification|"
 msgid "Show parameter settings"
-msgstr ""
+msgstr "パラメータの設定を表示"
 
-#, fuzzy
 msgctxt "DistributionSpecification|"
 msgid "Parameters"
 msgstr "パラメータ"
@@ -3401,98 +3392,102 @@ msgid ""
 "Specify a set of distributions, estimate their parameters, and compare their "
 "fit to data."
 msgstr ""
+"分布の集合を指定し、そのパラメータを推定して、データへのあてはまりを比較しま"
+"す。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Select data for distribution comparison."
-msgstr ""
+msgstr "分布の比較に使うデータを選びます。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Variable"
-msgstr ""
+msgstr "変数"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Specify distributions"
-msgstr ""
+msgstr "分布を指定"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Specify distributions to be compared..."
-msgstr ""
+msgstr "比較する分布を指定します..."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Output"
-msgstr ""
+msgstr "出力"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Control what output will be generated."
-msgstr ""
+msgstr "生成する出力を選びます。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Distribution comparison table"
-msgstr ""
+msgstr "分布の比較表"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Outputs the main distribution comparison table."
-msgstr ""
+msgstr "分布の比較表を出力します。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Order by"
-msgstr ""
+msgstr "並べ替えの基準"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Order by AIC/BIC"
-msgstr ""
+msgstr "AIC/BIC で並べ替え"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Orders the output by how well the distributions fit the data (according to "
 "AIC or BIC)."
-msgstr ""
+msgstr "データへのあてはまりのよさ(AIC または BIC)で出力を並べ替えます。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "AIC"
-msgstr ""
+msgstr "AIC"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "BIC"
-msgstr ""
+msgstr "BIC"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Output per distribution"
-msgstr ""
+msgstr "分布ごとの出力"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Get detailed output for individual distributions."
-msgstr ""
+msgstr "個々の分布について詳しい出力を得ます。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Limit output to the first"
-msgstr ""
+msgstr "出力を先頭から次の数に制限"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Limit output to the first x distributions"
-msgstr ""
+msgstr "出力を先頭から x 個の分布に制限します"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Show the detailed output only for the top x distributions."
-msgstr ""
+msgstr "上位 x 個の分布についてのみ詳しい出力を表示します。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "distributions"
-msgstr ""
+msgstr "個の分布"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Parameter estimates"
-msgstr ""
+msgstr "パラメータ推定値"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Obtain a table of parameter estimates. *Note*: All parameters are estimated "
 "with maximum likelihood."
 msgstr ""
+"パラメータ推定値の表を得ます。*注*: すべてのパラメータは最尤法で推定されます"
+"。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Goodness of fit"
-msgstr ""
+msgstr "適合度"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
@@ -3508,14 +3503,23 @@ msgid ""
 "setting. If the normal distribution has some parameters fixed, it is treated "
 "as any other distribution."
 msgstr ""
+"適合度検定を計算します。ほとんどの分布では、既定の検定は複合帰無仮説に対する"
+"クラメール-フォンミーゼス検定とアンダーソン-ダーリング検定です。これらの検定"
+"はデータを2つの集合に無作為に分割することに依存するため、\t\t\t\tとくに小標本"
+"では結果が変動しうる点に注意してください。\t\t\t\t分布に自由なパラメータがな"
+"い場合(すなわちすべてのパラメータが固定されている場合)は、コルモゴロフ-"
+"スミルノフ検定と、単純帰無仮説に対するクラメール-フォンミーゼス検定・"
+"アンダーソン-ダーリング検定になります。 \t\t\t\t位置と尺度のパラメータが自由"
+"な正規分布では、その状況に適した専用の適合度検定が計算されます。正規分布でも"
+"一部のパラメータが固定されている場合は、ほかの分布と同じ扱いになります。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Parametric bootstrap from"
-msgstr ""
+msgstr "パラメトリックブートストラップの標本数"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Parametric bootstrap from x samples"
-msgstr ""
+msgstr "x 個の標本によるパラメトリックブートストラップ"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
@@ -3523,208 +3527,214 @@ msgid ""
 "In this case, the test statistics are always Kolmorogov-Smirnov, and Cramér–"
 "von Mises and Anderson-Darling for simple null hypothesis."
 msgstr ""
+"パラメトリックブートストラップで適合度検定のp値を求めます。この場合、検定統計"
+"量はつねにコルモゴロフ-スミルノフ検定と、単純帰無仮説に対するクラメール-"
+"フォンミーゼス検定・アンダーソン-ダーリング検定になります。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "samples"
-msgstr ""
+msgstr "個の標本"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Plot the distribution against data"
-msgstr ""
+msgstr "データに対して分布をプロット"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Outputs histogram vs theoretical density plot, empirical vs. theoretical "
 "cumulative distribution function, the Q-Q plot, and the P-P plot."
 msgstr ""
+"ヒストグラムと理論的密度のプロット、経験的累積分布関数と理論的累積分布関数の"
+"比較、Q-Qプロット、P-Pプロットを出力します。"
 
-#, fuzzy
 msgctxt "CompareContinuousDistributions|"
 msgid "Confidence interval"
 msgstr "信頼区間"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Add the confidence interval to the P-P and Q-Q plots."
-msgstr ""
+msgstr "P-PプロットとQ-Qプロットに信頼区間を追加します。"
 
 msgctxt "Description|"
 msgid "Compare Distributions"
-msgstr ""
+msgstr "分布の比較"
 
 msgctxt "Description|"
 msgid "Compare Continuous Distributions"
-msgstr ""
+msgstr "連続分布の比較"
 
 msgctxt "DistributionSpecification|"
 msgid "<Select a distribution>"
-msgstr ""
+msgstr "<分布を選択>"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Show full distribution specification"
-msgstr ""
+msgstr "分布の指定を省略せずに表示"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Displays the full distribution specification, including its parameters. If "
 "unchecked, only distribution names are shown."
 msgstr ""
+"パラメータを含めて分布の指定を省略せずに表示します。オフにすると分布名だけが"
+"表示されます。"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean)"
-msgstr ""
+msgstr "μ (平均)"
 
 msgctxt "DistributionSpecification|"
 msgid "σ (std. deviation)"
-msgstr ""
+msgstr "σ (標準偏差)"
 
 msgctxt "DistributionSpecification|"
 msgid "σ² (variance)"
-msgstr ""
+msgstr "σ² (分散)"
 
 msgctxt "DistributionSpecification|"
 msgid "τ (precision)"
-msgstr ""
+msgstr "τ (精度)"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (df)"
-msgstr ""
+msgstr "ν (自由度)"
 
 msgctxt "DistributionSpecification|"
 msgid "κ (noncentrality)"
-msgstr ""
+msgstr "κ (非心度)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (location)"
-msgstr ""
+msgstr "μ (位置)"
 
 msgctxt "DistributionSpecification|"
 msgid "σ (scale)"
-msgstr ""
+msgstr "σ (尺度)"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (skew)"
-msgstr ""
+msgstr "λ (歪度)"
 
 msgctxt "DistributionSpecification|"
 msgid "p (kurtosis)"
-msgstr ""
+msgstr "p (尖度)"
 
 msgctxt "DistributionSpecification|"
 msgid "q (kurtosis)"
-msgstr ""
+msgstr "q (尖度)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (scale)"
-msgstr ""
+msgstr "α (尺度)"
 
 msgctxt "DistributionSpecification|"
 msgid "β (shape)"
-msgstr ""
+msgstr "β (形状)"
 
 msgctxt "DistributionSpecification|"
 msgid "ξ (location)"
-msgstr ""
+msgstr "ξ (位置)"
 
 msgctxt "DistributionSpecification|"
 msgid "ω (scale)"
-msgstr ""
+msgstr "ω (尺度)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (slant)"
-msgstr ""
+msgstr "α (傾き)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape)"
-msgstr ""
+msgstr "α (形状)"
 
 msgctxt "DistributionSpecification|"
 msgid "ν₁ (df)"
-msgstr ""
+msgstr "ν₁ (自由度)"
 
 msgctxt "DistributionSpecification|"
 msgid "ν₂ (df)"
-msgstr ""
+msgstr "ν₂ (自由度)"
 
 msgctxt "DistributionSpecification|"
 msgid "θ (scale)"
-msgstr ""
+msgstr "θ (尺度)"
 
 msgctxt "DistributionSpecification|"
 msgid "η (shape)"
-msgstr ""
+msgstr "η (形状)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (log location)"
-msgstr ""
+msgstr "μ (対数位置)"
 
 msgctxt "DistributionSpecification|"
 msgid "σ (log scale)"
-msgstr ""
+msgstr "σ (対数尺度)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (log mean)"
-msgstr ""
+msgstr "μ (対数平均)"
 
 msgctxt "DistributionSpecification|"
 msgid "σ (log std. deviation)"
-msgstr ""
+msgstr "σ (対数標準偏差)"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (shape)"
-msgstr ""
+msgstr "λ (形状)"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (drift)"
-msgstr ""
+msgstr "ν (ドリフト)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (threshold)"
-msgstr ""
+msgstr "α (閾値)"
 
 msgctxt "DistributionSpecification|"
 msgid "σ (noise)"
-msgstr ""
+msgstr "σ (ノイズ)"
 
 msgctxt "DistributionSpecification|"
 msgid "shape"
-msgstr ""
+msgstr "形状"
 
 msgctxt "DistributionSpecification|"
 msgid "scale"
-msgstr ""
+msgstr "尺度"
 
 msgctxt "DistributionSpecification|"
 msgid "a (location)"
-msgstr ""
+msgstr "a (位置)"
 
 msgctxt "DistributionSpecification|"
 msgid "min"
-msgstr ""
+msgstr "最小"
 
 msgctxt "DistributionSpecification|"
 msgid "max"
-msgstr ""
+msgstr "最大"
 
 msgctxt "DistributionSpecification|"
 msgid "θ (location)"
-msgstr ""
+msgstr "θ (位置)"
 
 msgctxt "DistributionSpecification|"
 msgid "a (min)"
-msgstr ""
+msgstr "a (最小)"
 
 msgctxt "DistributionSpecification|"
 msgid "b (max)"
-msgstr ""
+msgstr "b (最大)"
 
 msgctxt "DistributionSpecification|"
 msgid "c (mode)"
-msgstr ""
+msgstr "c (最頻値)"
 
 msgctxt "DistributionSpecification|"
 msgid "shift"
-msgstr ""
+msgstr "シフト"
 
 msgctxt "DistributionSpecification|"
 msgid "Fixed"
-msgstr ""
+msgstr "固定"
