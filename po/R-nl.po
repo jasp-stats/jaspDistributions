@@ -449,77 +449,77 @@ msgstr ""
 
 msgid ""
 "Could not initialize distribution %1$s, with the following error: <br> %2$s"
-msgstr ""
+msgstr "Kon de verdeling %1$s niet initialiseren, met de volgende fout: <br> %2$s"
 
 msgid ""
 "Could not fit distribution %1$s, with the following error: <br> %2$s. <br> "
 "You can try to change the initial parameter values, or remove the "
 "distribution from the distribution specification"
-msgstr ""
+msgstr "Kon de verdeling %1$s niet fitten, met de volgende fout: <br> %2$s. <br> U kunt proberen de initiële parameterwaarden te wijzigen of de verdeling te verwijderen uit de specificatie van de verdeling"
 
 msgid ""
 "Could not compute information criteria for %1$s, with the following error: "
 "<br> %2$s."
-msgstr ""
+msgstr "Kon de informatiecriteria voor %1$s niet berekenen, met de volgende fout: <br> %2$s."
 
 msgid "Distribution comparison table"
-msgstr ""
+msgstr "Vergelijkingstabel van verdelingen"
 
 #, fuzzy
 msgid "Distribution"
 msgstr "F-verdeling"
 
 msgid "AIC"
-msgstr ""
+msgstr "AIC"
 
 msgid "Weights"
-msgstr ""
+msgstr "Gewichten"
 
 msgid "BIC"
-msgstr ""
+msgstr "BIC"
 
 msgid "Log. Lik"
-msgstr ""
+msgstr "Log. Lik"
 
 msgid "df"
-msgstr ""
+msgstr "df"
 
 msgid "Distribution comparison table (n=%1$i)"
-msgstr ""
+msgstr "Vergelijkingstabel van verdelingen (n=%1$i)"
 
 #, fuzzy
 msgid "Parameter estimates"
 msgstr "Parameter"
 
 msgid "Key"
-msgstr ""
+msgstr "Sleutel"
 
 msgid "Name"
-msgstr ""
+msgstr "Naam"
 
 msgid "Label"
-msgstr ""
+msgstr "Label"
 
 msgid "Distribution has no parameters to estimate."
-msgstr ""
+msgstr "De verdeling heeft geen parameters om te schatten."
 
 msgid "The following parameters were held constant: %s."
-msgstr ""
+msgstr "De volgende parameters zijn constant gehouden: %s."
 
 msgid "Goodness of fit"
-msgstr ""
+msgstr "Goedheid van fit"
 
 msgid "Bootstrapping..."
-msgstr ""
+msgstr "Bootstrappen..."
 
 msgid "Could not obtain goodness of fit: <br> %s"
-msgstr ""
+msgstr "Kon de goedheid van fit niet verkrijgen: <br> %s"
 
 msgid "Based on %1$i valid parametric bootstrap samples."
-msgstr ""
+msgstr "Op basis van %1$i geldige parametrische bootstrapsteekproeven."
 
 msgid "Empirical plots"
-msgstr ""
+msgstr "Empirische plots"
 
 #, fuzzy
 msgid "Histogram vs. theoretical density"
