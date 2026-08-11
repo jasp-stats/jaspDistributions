@@ -174,7 +174,7 @@ msgstr "Poisson à inflation de zéros"
 
 msgctxt "Description|"
 msgid "Zero-inflated negative binomial"
-msgstr "Binomial négatif inflationé de zéros"
+msgstr "Binomial négatif à inflation de zéros"
 
 msgctxt "Description|"
 msgid "Geometric"
