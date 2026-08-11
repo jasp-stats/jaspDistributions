@@ -170,7 +170,7 @@ msgstr "Binomial négatif"
 
 msgctxt "Description|"
 msgid "Zero-inflated Poisson"
-msgstr "Poisson inflationé de zéros"
+msgstr "Poisson à inflation de zéros"
 
 msgctxt "Description|"
 msgid "Zero-inflated negative binomial"
