@@ -13,12 +13,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 5.5.3\n"
 
+
 msgid ""
 "Could not write to column '%s', probably because it wasn't created by this "
 "analysis"
 msgstr ""
 "Vous n'êtes pas autorisé à modifier la colonne '%s', probablement car cette "
 "colonne n'a pas été créée dans le cadre de l'analyse"
+
 
 msgid ""
 "The following problem(s) occurred while running the analysis:"
@@ -27,226 +29,298 @@ msgstr ""
 "Le ou les problèmes suivants sont survenus lors de l'exécution de l'analyse :"
 "<ul><li>La variable doit être discrète (c'est-à-dire entière)</li></ul>"
 
+
 msgid "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
 msgstr ""
 "<ul> <li> La variable doit être discrète (par exemple un entier) </li> </ul>"
 
+
 msgid "Overview - %s"
 msgstr "Aperçu - %s"
+
 
 msgid "Descriptives"
 msgstr "Statistiques descriptives"
 
+
 msgid "Variable"
 msgstr "Variable"
+
 
 msgid "n"
 msgstr "n"
 
+
 msgid "Mean"
 msgstr "Moyenne"
+
 
 msgid "Variance"
 msgstr "Variance"
 
+
 msgid "Std. deviation"
 msgstr "Ecart-type"
+
 
 msgid "Minimum"
 msgstr "Minimum"
 
+
 msgid "25%% Quantile"
 msgstr "25%% Quantile"
+
 
 msgid "Median"
 msgstr "Médiane"
 
+
 msgid "75%% Quantile"
 msgstr "75%% Quantile"
+
 
 msgid "Maximum"
 msgstr "Maximum"
 
+
 msgid "Rel. Frequency"
-msgstr ""
+msgstr "Fréquence relative"
+
 
 msgid "Total"
 msgstr "Total"
 
+
 msgid "Observed Moments"
-msgstr ""
+msgstr "Moments observés"
+
 
 msgid "Moment"
 msgstr "Moment"
 
+
 msgid "Raw"
 msgstr "Brut"
+
 
 msgid "Central"
 msgstr "Central"
 
+
 msgid "Estimated Parameters"
 msgstr "Paramètres Estimés"
+
 
 msgid "Parameter"
 msgstr "Paramètre"
 
+
 msgid "Estimate"
 msgstr "Estimation"
+
 
 msgid "SE"
 msgstr "ES"
 
+
 msgid "Standard errors are unavailable with this method"
 msgstr "Les erreurs standard ne sont pas disponibles avec cette méthode"
+
 
 msgid "Lower"
 msgstr "Inférieur"
 
+
 msgid "%s%% CI"
 msgstr "IC %s%%"
 
+
 msgid "Upper"
 msgstr "Supérieur"
+
 
 msgid "Confidence intervals are unavailable with this method."
 msgstr ""
 "Les intervalles de confiance ne sont pas disponibles avec cette méthode."
 
+
 msgid "Confidence intervals were calculated using the delta method."
 msgstr ""
 "Les intervalles de confiance ont été calculés à l'aide de la méthode delta."
 
+
 msgid "Standard errors were calculated using the delta method."
 msgstr "Les erreurs standard ont été calculées à l'aide de la méthode delta."
+
 
 msgid ""
 "Standard errors and confidence intervals were calculated using the delta "
 "method."
-msgstr ""
+msgstr "Les erreurs types et les intervalles de confiance ont été calculés à l'aide de la méthode delta."
+
 
 msgid "Maximum likelihood"
-msgstr ""
+msgstr "Maximum de vraisemblance"
+
 
 msgid "Fit Assessment"
-msgstr ""
+msgstr "Évaluation de l'ajustement"
+
 
 msgid "Fit Statistics"
-msgstr ""
+msgstr "Statistiques d'ajustement"
+
 
 msgid "Test"
 msgstr "Test"
 
+
 msgid "Statistic"
 msgstr "Statistiques"
+
 
 msgid "p"
 msgstr "p"
 
+
 msgid "Kolmogorov-Smirnov"
-msgstr ""
+msgstr "Kolmogorov-Smirnov"
+
 
 msgid "Cramér-von Mises"
-msgstr ""
+msgstr "Cramér-von Mises"
+
 
 msgid "Anderson-Darling"
-msgstr ""
+msgstr "Anderson-Darling"
+
 
 msgid "Lillienfors"
-msgstr ""
+msgstr "Lillienfors"
+
 
 msgid "Shapiro-Wilk"
 msgstr "Shapiro-Wilk"
 
 #, fuzzy
+
 msgid "Shapiro-Francia"
 msgstr "Shapiro-Wilk"
 
+
 msgid "Chi-square"
-msgstr ""
+msgstr "Chi-2"
+
 
 msgid ""
 "Using Brown (1980) approximation which tends to be innacurate for small "
 "sample sizes."
-msgstr ""
+msgstr "Utilise l'approximation de Brown (1980) qui tend à être imprécise pour de petits échantillons."
+
 
 msgid "Histogram vs. Theoretical PDF"
-msgstr ""
+msgstr "Histogramme vs. densité théorique"
+
 
 msgid "Histogram vs. Theoretical PMF"
-msgstr ""
+msgstr "Histogramme vs. fonction de masse théorique"
+
 
 msgid "Q-Q plot"
-msgstr ""
+msgstr "Q-Q plot"
+
 
 msgid "Empirical vs. Theoretical CDF"
-msgstr ""
+msgstr "CDF empirique vs. théorique"
+
 
 msgid "P-P plot"
-msgstr ""
+msgstr "P-P plot"
+
 
 msgid "Sample"
-msgstr ""
+msgstr "Échantillon"
+
 
 msgid "Theoretical"
-msgstr ""
+msgstr "Théorique"
+
 
 msgid "Density"
 msgstr "Densité"
 
+
 msgid "Probability Mass"
-msgstr ""
+msgstr "Masse de probabilité"
+
 
 msgid "Probability"
-msgstr ""
+msgstr "Probabilité"
+
 
 msgid "Probability Density Function"
-msgstr ""
+msgstr "Fonction de densité de probabilité"
+
 
 msgid "Probability Mass Function"
-msgstr ""
+msgstr "Fonction de masse de probabilité"
+
 
 msgid "Cumulative Distribution Function"
-msgstr ""
+msgstr "Fonction de distribution cumulative"
+
 
 msgid "Quantile Function"
-msgstr ""
+msgstr "Fonction quantile"
+
 
 msgid "Formula"
-msgstr ""
+msgstr "Formule"
+
 
 msgid "Density Plot"
-msgstr ""
+msgstr "Graphique de densité"
+
 
 msgid "Cumulative Probability Plot"
-msgstr ""
+msgstr "Graphique de probabilité cumulée"
+
 
 msgid "Slope"
-msgstr ""
+msgstr "Pente"
+
 
 msgid "Quantile Plot"
-msgstr ""
+msgstr "Graphique quantile"
+
 
 msgid "Probability Mass Plot"
-msgstr ""
+msgstr "Graphique de masse de probabilité"
+
 
 msgid "Histogram"
 msgstr "Histogramme"
 
+
 msgid "Bar plot"
-msgstr ""
+msgstr "Diagramme en barres"
+
 
 msgid "Rel. Freq (%s in bin)"
-msgstr ""
+msgstr "Fréq. relative (%s par intervalle)"
+
 
 msgid "Empirical Cumulative Distribution"
-msgstr ""
+msgstr "Distribution cumulative empirique"
+
 
 msgid "Freq"
-msgstr ""
+msgstr "Fréquence"
+
 
 msgid "Parameters, Support, and Moments"
-msgstr ""
+msgstr "Paramètres, support et moments"
+
 
 msgid ""
 "<b>Parameters</b>\n"
@@ -259,6 +333,16 @@ msgid ""
 "      E(X) = %3$s\n"
 "      Var(X) = %4$s"
 msgstr ""
+"<b>Paramètres</b>\n"
+"      %1$s\n"
+"\n"
+"      <b>Support</b>\n"
+"      %2$s\n"
+"\n"
+"      <b>Moments</b>\n"
+"      E(X) = %3$s\n"
+"      Var(X) = %4$s"
+
 
 msgid ""
 "<b>Parameters</b>\n"
@@ -270,6 +354,15 @@ msgid ""
 "      <b>Moments</b>\n"
 "      not available"
 msgstr ""
+"<b>Paramètres</b>\n"
+"      %1$s\n"
+"\n"
+"      <b>Support</b>\n"
+"      %2$s\n"
+"\n"
+"      <b>Moments</b>\n"
+"      non disponible"
+
 
 msgid ""
 "The probability density function (PDF), usually denoted as f(x), is a "
@@ -284,6 +377,19 @@ msgid ""
 "    The <i>y</i>-axis displays the value of the density function for a "
 "particular value of the random variable (displayed on the <i>x</i>-axis)."
 msgstr ""
+"La fonction de densité de probabilité (PDF), généralement notée f(x), est "
+"une fonction d'une variable aléatoire X.\n"
+"    La valeur de f(x) fournit la vraisemblance relative qu'une réalisation "
+"de la variable aléatoire X donne une valeur égale à x.\n"
+"    Plus formellement, la PDF est définie comme la dérivée d'une fonction de "
+"distribution cumulative (CDF).\n"
+"\n"
+"    Le graphique de densité affiche la fonction de densité de probabilité "
+"d'une variable aléatoire.\n"
+"    L'axe des <i>y</i> affiche la valeur de la fonction de densité pour une "
+"valeur particulière de la variable aléatoire (affichée sur l'axe des "
+"<i>x</i>)."
+
 
 msgid ""
 "The probability mass function (PMF), usually denoted as f(x), is a function "
@@ -297,6 +403,17 @@ msgid ""
 "for a particular value of the random variable (displayed on the <i>x</i>-"
 "axis)."
 msgstr ""
+"La fonction de masse de probabilité (PMF), généralement notée f(x), est une "
+"fonction d'une variable aléatoire X.\n"
+"    La valeur de f(x) fournit la probabilité qu'une réalisation de la "
+"variable aléatoire X donne une valeur égale à x.\n"
+"\n"
+"    Le graphique de masse de probabilité affiche la fonction de masse de "
+"probabilité d'une variable aléatoire.\n"
+"    L'axe des <i>y</i> affiche la valeur de la fonction de masse de "
+"probabilité pour une valeur particulière de la variable aléatoire (affichée "
+"sur l'axe des <i>x</i>)."
+
 
 msgid ""
 "The cumulative distribution function (CDF), usually denoted as F(x), is a "
@@ -310,6 +427,17 @@ msgid ""
 "function for a particular value of the random variable (displayed on the "
 "<i>x</i>-axis)."
 msgstr ""
+"La fonction de distribution cumulative (CDF), généralement notée F(x), est "
+"une fonction d'une variable aléatoire X.\n"
+"    La valeur de F(x) fournit la probabilité qu'une réalisation de la "
+"variable aléatoire X donne une valeur inférieure ou égale à x.\n"
+"\n"
+"    Le graphique de probabilité cumulée affiche la fonction de distribution "
+"cumulative d'une variable aléatoire.\n"
+"    L'axe des <i>y</i> affiche la valeur de la fonction de distribution "
+"cumulative pour une valeur particulière de la variable aléatoire (affichée "
+"sur l'axe des <i>x</i>)."
+
 
 msgid ""
 "The quantile function, usually denoted as Q(p), is the inverse of the "
@@ -323,6 +451,17 @@ msgid ""
 "the random variable is less or equal to that value is equal to p (displayed "
 "on the <i>x</i>-axis)."
 msgstr ""
+"La fonction quantile, généralement notée Q(p), est l'inverse de la fonction "
+"de distribution cumulative.\n"
+"    La fonction donne le quantile tel que la probabilité que la variable "
+"aléatoire soit inférieure ou égale à cette valeur soit égale à la probabilité "
+"p donnée.\n"
+"\n"
+"    Le graphique quantile affiche la fonction quantile.\n"
+"    L'axe des <i>y</i> affiche le quantile dont la probabilité que la "
+"variable aléatoire soit inférieure ou égale à cette valeur est égale à p "
+"(affichée sur l'axe des <i>x</i>)."
+
 
 msgid ""
 "<h3> Demonstration of the %1$s </h3>\n"
@@ -346,424 +485,581 @@ msgid ""
 "\n"
 "%7$s"
 msgstr ""
+"<h3> Démonstration de %1$s </h3>\n"
+"Cette démonstration est divisée en quatre parties.\n"
+"La première partie affiche %2$s, sa fonction de densité de probabilité, sa "
+"fonction de distribution cumulative et sa fonction quantile.\n"
+"La deuxième partie vous permet de générer des données à partir de %3$s, de "
+"calculer des statistiques descriptives et d'afficher des graphiques "
+"descriptifs.\n"
+"La troisième partie vous permet d'estimer les paramètres de %4$s.\n"
+"La quatrième partie vous permet de vérifier l'adéquation de %5$s aux "
+"données.\n"
+"\n"
+"<b>Références</b>\n"
+"\n"
+"Blitzstein, J. K., & Hwang, J. (2014). <i>Introduction to probability.</i> "
+"Chapman and Hall/CRC.\n"
+"\n"
+"Leemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, "
+"16</i>(4), 8–9.\n"
+"\n"
+"Pour les relations avec d'autres distributions, consultez %6$s.\n"
+"\n"
+"%7$s"
+
 
 msgid ""
 "Estimation failed: Optimization did not converge. <ul><li>Try adjusting "
 "parameter values, check outliers or feasibility of the distribution fitting "
 "the data.</li></ul>"
-msgstr ""
+msgstr "L'estimation a échoué : l'optimisation n'a pas convergé. <ul><li>Essayez d'ajuster les valeurs des paramètres, de vérifier les valeurs aberrantes ou la faisabilité de l'ajustement de la distribution aux données.</li></ul>"
+
 
 msgid ""
 "Estimation failed: Hessian matrix is not numerically computable. "
 "<ul><li>Check outliers or feasibility of the distribution fitting the data.</"
 "li></ul>"
-msgstr ""
+msgstr "L'estimation a échoué : la matrice hessienne n'est pas calculable numériquement. <ul><li>Vérifiez les valeurs aberrantes ou la faisabilité de l'ajustement de la distribution aux données.</li></ul>"
+
 
 msgid ""
 "Could not initialize distribution %1$s, with the following error: <br> %2$s"
-msgstr ""
+msgstr "Impossible d'initialiser la distribution %1$s, avec l'erreur suivante : <br> %2$s"
+
 
 msgid ""
 "Could not fit distribution %1$s, with the following error: <br> %2$s. <br> "
 "You can try to change the initial parameter values, or remove the "
 "distribution from the distribution specification"
-msgstr ""
+msgstr "Impossible d'ajuster la distribution %1$s, avec l'erreur suivante : <br> %2$s. <br> Vous pouvez essayer de modifier les valeurs initiales des paramètres, ou retirer la distribution de la spécification des distributions"
+
 
 msgid ""
 "Could not compute information criteria for %1$s, with the following error: "
 "<br> %2$s."
-msgstr ""
+msgstr "Impossible de calculer les critères d'information pour %1$s, avec l'erreur suivante : <br> %2$s."
+
 
 msgid "Distribution comparison table"
-msgstr ""
+msgstr "Tableau de comparaison des distributions"
+
 
 msgid "Distribution"
-msgstr ""
+msgstr "Distribution"
+
 
 msgid "AIC"
-msgstr ""
+msgstr "AIC"
+
 
 msgid "Weights"
-msgstr ""
+msgstr "Poids"
+
 
 msgid "BIC"
-msgstr ""
+msgstr "BIC"
+
 
 msgid "Log. Lik"
-msgstr ""
+msgstr "Log. Vrais"
+
 
 msgid "df"
-msgstr ""
+msgstr "dl"
+
 
 msgid "Distribution comparison table (n=%1$i)"
-msgstr ""
+msgstr "Tableau de comparaison des distributions (n=%1$i)"
 
 #, fuzzy
+
 msgid "Parameter estimates"
 msgstr "Paramètre"
 
+
 msgid "Key"
-msgstr ""
+msgstr "Clé"
+
 
 msgid "Name"
-msgstr ""
+msgstr "Nom"
+
 
 msgid "Label"
-msgstr ""
+msgstr "Étiquette"
+
 
 msgid "Distribution has no parameters to estimate."
-msgstr ""
+msgstr "La distribution n'a aucun paramètre à estimer."
+
 
 msgid "The following parameters were held constant: %s."
-msgstr ""
+msgstr "Les paramètres suivants ont été maintenus constants : %s."
+
 
 msgid "Goodness of fit"
-msgstr ""
+msgstr "Qualité de l'ajustement"
+
 
 msgid "Bootstrapping..."
-msgstr ""
+msgstr "Bootstrap..."
+
 
 msgid "Could not obtain goodness of fit: <br> %s"
-msgstr ""
+msgstr "Impossible d'obtenir la qualité de l'ajustement : <br> %s"
+
 
 msgid "Based on %1$i valid parametric bootstrap samples."
-msgstr ""
+msgstr "Basé sur %1$i échantillons bootstrap paramétriques valides."
+
 
 msgid "Empirical plots"
-msgstr ""
+msgstr "Graphiques empiriques"
+
 
 msgid "Histogram vs. theoretical density"
-msgstr ""
+msgstr "Histogramme vs. densité théorique"
+
 
 msgid "Empirical vs. theoretical cumulative probability"
-msgstr ""
+msgstr "Probabilité cumulative empirique vs. théorique"
+
 
 msgid "Cramér–von Mises"
-msgstr ""
+msgstr "Cramér-von Mises"
+
 
 msgid "Lilliefors"
-msgstr ""
+msgstr "Lilliefors"
+
 
 msgid "Amoroso distribution"
-msgstr ""
+msgstr "distribution d'Amoroso"
+
 
 msgid "location: a %s"
-msgstr ""
+msgstr "localisation : a %s"
+
 
 msgid "scale: %s"
-msgstr ""
+msgstr "échelle : %s"
+
 
 msgid "shape: %s"
-msgstr ""
+msgstr "forme : %s"
+
 
 msgid "The optimization did not converge, try adjusting the parameter values."
-msgstr ""
+msgstr "L'optimisation n'a pas convergé, essayez d'ajuster les valeurs des paramètres."
+
 
 msgid "<i>Warning.</i>"
-msgstr ""
+msgstr "<i>Avertissement.</i>"
+
 
 msgid "Scale parameter %s is assumed positive."
-msgstr ""
+msgstr "Le paramètre d'échelle %s est supposé positif."
+
 
 msgid "Scale parameter %s is assumed negative."
-msgstr ""
+msgstr "Le paramètre d'échelle %s est supposé négatif."
+
 
 msgid "Bernoulli distribution"
-msgstr ""
+msgstr "distribution de Bernoulli"
+
 
 msgid "probability of success: p %1$s %2$s: 0 %3$s p %4$s 1"
-msgstr ""
+msgstr "probabilité de succès : p %1$s %2$s : 0 %3$s p %4$s 1"
+
 
 msgid "x %s {0, 1}"
-msgstr ""
+msgstr "x %s {0, 1}"
+
 
 msgid "p(1-p)"
-msgstr ""
+msgstr "p(1-p)"
+
 
 msgid "beta distribution"
-msgstr ""
+msgstr "distribution bêta"
+
 
 msgid "beta-binomial distribution"
-msgstr ""
+msgstr "distribution bêta-binomiale"
+
 
 msgid "number of trials: %s"
-msgstr ""
+msgstr "nombre d'essais : %s"
+
 
 msgid "Parameter n was fixed at value %s."
-msgstr ""
+msgstr "Le paramètre n a été fixé à la valeur %s."
+
 
 msgid "beta prime distribution"
-msgstr ""
+msgstr "distribution bêta prime"
+
 
 msgid "lower bound: %s"
-msgstr ""
+msgstr "borne inférieure : %s"
+
 
 msgid "upper bound: %s"
-msgstr ""
+msgstr "borne supérieure : %s"
+
 
 msgid "binomial distribution"
-msgstr ""
+msgstr "distribution binomiale"
+
 
 msgid "probability of success: %s"
-msgstr ""
+msgstr "probabilité de succès : %s"
+
 
 msgid "Cauchy distribution"
-msgstr ""
+msgstr "distribution de Cauchy"
+
 
 msgid "location: &mu; %s"
-msgstr ""
+msgstr "localisation : &mu; %s"
+
 
 msgid "undefined"
-msgstr ""
+msgstr "non défini"
+
 
 msgid "%s<sup>2</sup> distribution"
-msgstr ""
+msgstr "distribution %s<sup>2</sup>"
+
 
 msgid "degree of freedom: %s"
-msgstr ""
+msgstr "degré de liberté : %s"
+
 
 msgid "non-centrality: %s"
-msgstr ""
+msgstr "non-centralité : %s"
+
 
 msgid "exponential distribution"
-msgstr ""
+msgstr "distribution exponentielle"
+
 
 msgid "rate: %s"
-msgstr ""
+msgstr "taux : %s"
+
 
 msgid "F-distribution"
-msgstr ""
+msgstr "distribution F"
+
 
 msgid "Fréchet distribution"
-msgstr ""
+msgstr "distribution de Fréchet"
+
 
 msgid "location: %s"
-msgstr ""
+msgstr "localisation : %s"
+
 
 msgid "see Wikipedia: %s"
-msgstr ""
+msgstr "voir Wikipédia : %s"
+
 
 msgid "gamma distribution"
-msgstr ""
+msgstr "distribution gamma"
+
 
 msgid "mean: %s"
-msgstr ""
+msgstr "moyenne : %s"
+
 
 msgid "inverse gamma distribution"
-msgstr ""
+msgstr "distribution gamma inverse"
+
 
 msgid "normal distribution"
-msgstr ""
+msgstr "distribution normale"
+
 
 msgid "mean: &mu; %s"
-msgstr ""
+msgstr "moyenne : &mu; %s"
+
 
 msgid "variance: %s"
-msgstr ""
+msgstr "variance : %s"
+
 
 msgid "standard deviation: %s"
-msgstr ""
+msgstr "écart-type : %s"
+
 
 msgid "precision: %s"
-msgstr ""
+msgstr "précision : %s"
+
 
 msgid "square root of precision: %s"
-msgstr ""
+msgstr "racine carrée de la précision : %s"
+
 
 msgid "&mu;"
-msgstr ""
+msgstr "&mu;"
+
 
 msgid "Unbiased with Bessel's correction."
-msgstr ""
+msgstr "Non biaisé avec la correction de Bessel."
+
 
 msgid "geometric distribution"
-msgstr ""
+msgstr "distribution géométrique"
+
 
 msgid "population size: %s"
-msgstr ""
+msgstr "taille de la population : %s"
+
 
 msgid "number of success states in the population: %s"
-msgstr ""
+msgstr "nombre de succès dans la population : %s"
+
 
 msgid "number of draws from the population: %s"
-msgstr ""
+msgstr "nombre de tirages dans la population : %s"
+
 
 msgid "Gompertz distribution"
-msgstr ""
+msgstr "distribution de Gompertz"
+
 
 msgid ""
 "shape: %1$s \n"
 "scale: %2$s"
-msgstr ""
+msgstr "forme : %1$s \\néchelle : %2$s"
+
 
 msgid "Gumbel distribution"
-msgstr ""
+msgstr "distribution de Gumbel"
+
 
 msgid "hypergeometric distribution"
-msgstr ""
+msgstr "distribution hypergéométrique"
+
 
 msgid "Laplace distribution"
-msgstr ""
+msgstr "distribution de Laplace"
+
 
 msgid "log-logistic distribution"
-msgstr ""
+msgstr "distribution log-logistique"
+
 
 msgid "log location: &mu; %s"
-msgstr ""
+msgstr "localisation logarithmique : &mu; %s"
+
 
 msgid "log scale: %s"
-msgstr ""
+msgstr "échelle logarithmique : %s"
+
 
 msgid "scale: &alpha; %s"
-msgstr ""
+msgstr "échelle : &alpha; %s"
+
 
 msgid "logistic distribution"
-msgstr ""
+msgstr "distribution logistique"
+
 
 msgid "(&sigma; &pi;)<sup>2</sup> / 3"
-msgstr ""
+msgstr "(&sigma; &pi;)<sup>2</sup> / 3"
+
 
 msgid "log-normal distribution"
-msgstr ""
+msgstr "distribution log-normale"
+
 
 msgid "log mean: &mu; %s"
-msgstr ""
+msgstr "moyenne logarithmique : &mu; %s"
+
 
 msgid "log standard deviation: %s"
-msgstr ""
+msgstr "écart-type logarithmique : %s"
+
 
 msgid "exp(&mu; + &sigma;<sup>2</sup>/2)"
-msgstr ""
+msgstr "exp(&mu; + &sigma;<sup>2</sup>/2)"
+
 
 msgid "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
-msgstr ""
+msgstr "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
+
 
 msgid "mixture of two normal distributions"
-msgstr ""
+msgstr "mélange de deux distributions normales"
+
 
 msgid "probability of first component: %s"
-msgstr ""
+msgstr "probabilité du premier composant : %s"
+
 
 msgid "mean 1: %s"
-msgstr ""
+msgstr "moyenne 1 : %s"
+
 
 msgid "std. deviation 1: %s"
-msgstr ""
+msgstr "écart-type 1 : %s"
+
 
 msgid "mean 2: %s"
-msgstr ""
+msgstr "moyenne 2 : %s"
+
 
 msgid "std. deviation 2: %s"
-msgstr ""
+msgstr "écart-type 2 : %s"
+
 
 msgid "mixture of a normal and a uniform distribution"
-msgstr ""
+msgstr "mélange d'une distribution normale et d'une distribution uniforme"
+
 
 msgid "probability of normal component: %s"
-msgstr ""
+msgstr "probabilité du composant normal : %s"
+
 
 msgid "mean of normal distribution: %s"
-msgstr ""
+msgstr "moyenne de la distribution normale : %s"
+
 
 msgid "std. deviation of normal distribution: %s"
-msgstr ""
+msgstr "écart-type de la distribution normale : %s"
+
 
 msgid "minimum of uniform distribution: %s"
-msgstr ""
+msgstr "minimum de la distribution uniforme : %s"
+
 
 msgid "maximum of uniform distribution: %s"
-msgstr ""
+msgstr "maximum de la distribution uniforme : %s"
+
 
 msgid ""
 "Parameter a was fixed at value %1$s, parameter b was fixed at value %2$s."
-msgstr ""
+msgstr "Le paramètre a a été fixé à la valeur %1$s, le paramètre b a été fixé à la valeur %2$s."
+
 
 msgid "negative binomial distribution"
-msgstr ""
+msgstr "distribution binomiale négative"
+
 
 msgid "number of successes: %s"
-msgstr ""
+msgstr "nombre de succès : %s"
+
 
 msgid "dispersion: %s"
-msgstr ""
+msgstr "dispersion : %s"
+
 
 msgid "zero-inflated negative binomial distribution"
-msgstr ""
+msgstr "distribution binomiale négative inflationnée de zéros"
+
 
 msgid "probability of zero process: %s"
-msgstr ""
+msgstr "probabilité du processus zéro : %s"
+
 
 msgid "generalized normal distribution"
-msgstr ""
+msgstr "distribution normale généralisée"
+
 
 msgid "skew normal distribution"
-msgstr ""
+msgstr "distribution normale asymétrique"
+
 
 msgid "Pareto distribution"
-msgstr ""
+msgstr "distribution de Pareto"
+
 
 msgid "Poisson distribution"
-msgstr ""
+msgstr "distribution de Poisson"
+
 
 msgid "zero-inflated Poisson distribution"
-msgstr ""
+msgstr "distribution de Poisson inflationnée de zéros"
+
 
 msgid "noncentral t-distribution"
-msgstr ""
+msgstr "distribution t non centrale"
+
 
 msgid "degrees of freedom: %s"
-msgstr ""
+msgstr "degrés de liberté : %s"
+
 
 msgid "does not exist unless df > 1"
-msgstr ""
+msgstr "n'existe pas sauf si dl > 1"
+
 
 msgid "does not exist unless df > 2"
-msgstr ""
+msgstr "n'existe pas sauf si dl > 2"
+
 
 msgid "see Azzalini & Capitanio (2003)"
-msgstr ""
+msgstr "voir Azzalini et Capitanio (2003)"
+
 
 msgid "skewed generalized t-distribution"
-msgstr ""
+msgstr "distribution t généralisée asymétrique"
+
 
 msgid "skewness: %s"
-msgstr ""
+msgstr "asymétrie : %s"
+
 
 msgid "kurtosis: %s"
-msgstr ""
+msgstr "kurtosis : %s"
+
 
 msgid "scaled, shifted Student's t-distribution"
-msgstr ""
+msgstr "distribution t de Student échelonnée et décalée"
+
 
 msgid "triangular distribution"
-msgstr ""
+msgstr "distribution triangulaire"
+
 
 msgid "minimum: %s"
-msgstr ""
+msgstr "minimum : %s"
+
 
 msgid "maximum: %s"
-msgstr ""
+msgstr "maximum : %s"
+
 
 msgid "mode: %s"
-msgstr ""
+msgstr "mode : %s"
+
 
 msgid "uniform distribution"
-msgstr ""
+msgstr "distribution uniforme"
+
 
 msgid "Wald distribution"
-msgstr ""
+msgstr "distribution de Wald"
+
 
 msgid "drift rate: %s"
-msgstr ""
+msgstr "taux de dérive : %s"
+
 
 msgid "threshold: %s"
-msgstr ""
+msgstr "seuil : %s"
+
 
 msgid "noise: %s"
-msgstr ""
+msgstr "bruit : %s"
+
 
 msgid "Parameter %s was fixed to 1."
-msgstr ""
+msgstr "Le paramètre %s a été fixé à 1."
+
 
 msgid "Weibull distribution"
-msgstr ""
+msgstr "distribution de Weibull"

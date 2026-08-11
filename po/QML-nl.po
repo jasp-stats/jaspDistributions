@@ -3157,95 +3157,95 @@ msgstr "Bias gecorrigeerd"
 
 msgctxt "LDAssessFit|"
 msgid "Shapiro-Francia"
-msgstr ""
+msgstr "Shapiro-Francia"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Shapiro-Francia test of normality"
-msgstr ""
+msgstr "Toont de Shapiro-Francia-toets voor normaliteit"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), σ (std.deviation)"
-msgstr ""
+msgstr "μ (gemiddelde), σ (std.afwijking)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), σ² (variance)"
-msgstr ""
+msgstr "μ (gemiddelde), σ² (variantie)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), τ (precision)"
-msgstr ""
+msgstr "μ (gemiddelde), τ (precisie)"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (rate)"
-msgstr ""
+msgstr "λ (snelheid)"
 
 msgctxt "DistributionSpecification|"
 msgid "β (scale)"
-msgstr ""
+msgstr "β (schaal)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), θ (scale)"
-msgstr ""
+msgstr "α (vorm), θ (schaal)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), λ (rate)"
-msgstr ""
+msgstr "α (vorm), λ (snelheid)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), μ (mean)"
-msgstr ""
+msgstr "α (vorm), μ (gemiddelde)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (log location), σ (log scale)"
-msgstr ""
+msgstr "μ (log-locatie), σ (log-schaal)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (scale), β (shape)"
-msgstr ""
+msgstr "α (schaal), β (vorm)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), λ (shape)"
-msgstr ""
+msgstr "μ (gemiddelde), λ (vorm)"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (drift), α (threshold), σ (noise)"
-msgstr ""
+msgstr "ν (drift), α (drempelwaarde), σ (ruis)"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (rate), shift"
-msgstr ""
+msgstr "λ (snelheid), verschuiving"
 
 msgctxt "DistributionSpecification|"
 msgid "β (scale), shift"
-msgstr ""
+msgstr "β (schaal), verschuiving"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), θ (scale), shift"
-msgstr ""
+msgstr "α (vorm), θ (schaal), verschuiving"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), λ (rate), shift"
-msgstr ""
+msgstr "α (vorm), λ (snelheid), verschuiving"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), μ (mean), shift"
-msgstr ""
+msgstr "α (vorm), μ (gemiddelde), verschuiving"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (log location), σ (log scale), shift"
-msgstr ""
+msgstr "μ (log-locatie), σ (log-schaal), verschuiving"
 
 msgctxt "DistributionSpecification|"
 msgid "α (scale), β (shape), shift"
-msgstr ""
+msgstr "α (schaal), β (vorm), verschuiving"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), λ (shape), shift"
-msgstr ""
+msgstr "μ (gemiddelde), λ (vorm), verschuiving"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (drift), α (threshold), σ (noise), shift"
-msgstr ""
+msgstr "ν (drift), α (drempelwaarde), σ (ruis), verschuiving"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3254,15 +3254,15 @@ msgstr "Normaal"
 
 msgctxt "DistributionSpecification|"
 msgid "Standard normal"
-msgstr ""
+msgstr "Standaardnormaal"
 
 msgctxt "DistributionSpecification|"
 msgid "Standard t"
-msgstr ""
+msgstr "Standaard-t"
 
 msgctxt "DistributionSpecification|"
 msgid "Student t"
-msgstr ""
+msgstr "Student-t"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3271,7 +3271,7 @@ msgstr "niet-centrale t"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral Student t"
-msgstr ""
+msgstr "Niet-centrale Student-t"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3300,7 +3300,7 @@ msgstr "Scheve gegeneraliseerde t"
 
 msgctxt "DistributionSpecification|"
 msgid "Symmetric generalized normal"
-msgstr ""
+msgstr "Symmetrische gegeneraliseerde normaal"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3309,7 +3309,7 @@ msgstr "Scheef normaal"
 
 msgctxt "DistributionSpecification|"
 msgid "Skew Cauchy"
-msgstr ""
+msgstr "Scheve Cauchy"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3328,11 +3328,11 @@ msgstr "Bèta prime"
 
 msgctxt "DistributionSpecification|"
 msgid "F"
-msgstr ""
+msgstr "F"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral F"
-msgstr ""
+msgstr "Niet-centrale F"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3341,7 +3341,7 @@ msgstr "Chi-kwadraat"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral chi-squared"
-msgstr ""
+msgstr "Niet-centrale chi-kwadraat"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3375,7 +3375,7 @@ msgstr "Log-normaal"
 
 msgctxt "DistributionSpecification|"
 msgid "Wald"
-msgstr ""
+msgstr "Wald"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3414,35 +3414,35 @@ msgstr "Uniform"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Exponential"
-msgstr ""
+msgstr "Verschoofde exponentiële verdeling"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Log-normal"
-msgstr ""
+msgstr "Verschoofde lognormale verdeling"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Gamma"
-msgstr ""
+msgstr "Verschoofde gammaverdeling"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Inverse gamma"
-msgstr ""
+msgstr "Verschoofde inverse gammaverdeling"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Log-logistic"
-msgstr ""
+msgstr "Verschoofde log-logistische verdeling"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Wald"
-msgstr ""
+msgstr "Verschoofde Wald-verdeling"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Weibull"
-msgstr ""
+msgstr "Verschoofde Weibull-verdeling"
 
 msgctxt "DistributionSpecification|"
 msgid "Show parameter settings"
-msgstr ""
+msgstr "Parameterinstellingen tonen"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3453,99 +3453,99 @@ msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Specify a set of distributions, estimate their parameters, and compare their "
 "fit to data."
-msgstr ""
+msgstr "Specificeer een set verdelingen, schat hun parameters en vergelijk hun fit met de data."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Select data for distribution comparison."
-msgstr ""
+msgstr "Selecteer data voor de vergelijking van verdelingen."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Variable"
-msgstr ""
+msgstr "Variabele"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Specify distributions"
-msgstr ""
+msgstr "Verdelingen specificeren"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Specify distributions to be compared..."
-msgstr ""
+msgstr "Specificeer te vergelijken verdelingen..."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Output"
-msgstr ""
+msgstr "Uitvoer"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Control what output will be generated."
-msgstr ""
+msgstr "Bepaal welke uitvoer wordt gegenereerd."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Distribution comparison table"
-msgstr ""
+msgstr "Vergelijkingstabel van verdelingen"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Outputs the main distribution comparison table."
-msgstr ""
+msgstr "Voert de belangrijkste vergelijkingstabel van verdelingen uit."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Order by"
-msgstr ""
+msgstr "Sorteren op"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Order by AIC/BIC"
-msgstr ""
+msgstr "Sorteren op AIC/BIC"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Orders the output by how well the distributions fit the data (according to "
 "AIC or BIC)."
-msgstr ""
+msgstr "Sorteert de uitvoer op hoe goed de verdelingen bij de data passen (volgens AIC of BIC)."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "AIC"
-msgstr ""
+msgstr "AIC"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "BIC"
-msgstr ""
+msgstr "BIC"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Output per distribution"
-msgstr ""
+msgstr "Uitvoer per verdeling"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Get detailed output for individual distributions."
-msgstr ""
+msgstr "Krijg gedetailleerde uitvoer voor individuele verdelingen."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Limit output to the first"
-msgstr ""
+msgstr "Beperk de uitvoer tot de eerste"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Limit output to the first x distributions"
-msgstr ""
+msgstr "Beperk de uitvoer tot de eerste x verdelingen"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Show the detailed output only for the top x distributions."
-msgstr ""
+msgstr "Toon de gedetailleerde uitvoer alleen voor de beste x verdelingen."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "distributions"
-msgstr ""
+msgstr "verdelingen"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Parameter estimates"
-msgstr ""
+msgstr "Parameterschattingen"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Obtain a table of parameter estimates. *Note*: All parameters are estimated "
 "with maximum likelihood."
-msgstr ""
+msgstr "Verkrijg een tabel met parameterschattingen. *Let op*: Alle parameters worden geschat met maximum likelihood."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Goodness of fit"
-msgstr ""
+msgstr "Goedheid van fit"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
@@ -3560,36 +3560,36 @@ msgid ""
 "versions of goodness of fit tests are computed, appropriate for this "
 "setting. If the normal distribution has some parameters fixed, it is treated "
 "as any other distribution."
-msgstr ""
+msgstr "Bereken goedheid-van-fit-toetsen. Voor de meeste verdelingen zijn de standaardtoetsen Cramér-von Mises en Anderson-Darling voor een samengestelde nulhypothese. Merk op dat deze toetsen afhankelijk zijn van het willekeurig splitsen van de data in twee sets;\\t\\t\\t\\thierdoor kunnen de resultaten variëren, met name bij kleine steekproefomvangen.\\t\\t\\t\\tWanneer een verdeling geen vrije parameters heeft (d.w.z. alle parameters zijn vast), zijn de toetsen Kolmorogov-Smirnov en Cramér-von Mises en Anderson-Darling voor een enkelvoudige nulhypothese. \\t\\t\\t\\tVoor normale verdelingen met vrije locatie- en schaalparameters worden specifieke versies van goedheid-van-fit-toetsen berekend die geschikt zijn voor deze situatie. Als de normale verdeling sommige parameters vast heeft, wordt deze behandeld als elke andere verdeling."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Parametric bootstrap from"
-msgstr ""
+msgstr "Parametrische bootstrap van"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Parametric bootstrap from x samples"
-msgstr ""
+msgstr "Parametrische bootstrap van x steekproeven"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Obtain the p-value of the goodness-of-fit tests using parametric bootstrap. "
 "In this case, the test statistics are always Kolmorogov-Smirnov, and Cramér–"
 "von Mises and Anderson-Darling for simple null hypothesis."
-msgstr ""
+msgstr "Verkrijg de p-waarde van de goedheid-van-fit-toetsen met behulp van parametrische bootstrap. In dit geval zijn de toetsstatistieken altijd Kolmorogov-Smirnov en Cramér–von Mises en Anderson-Darling voor een enkelvoudige nulhypothese."
 
 msgctxt "CompareContinuousDistributions|"
 msgid "samples"
-msgstr ""
+msgstr "steekproeven"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Plot the distribution against data"
-msgstr ""
+msgstr "Plot de verdeling tegen de data"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Outputs histogram vs theoretical density plot, empirical vs. theoretical "
 "cumulative distribution function, the Q-Q plot, and the P-P plot."
-msgstr ""
+msgstr "Voert het histogram tegen de theoretische dichtheidsplot uit, de empirische tegen de theoretische cumulatieve verdelingsfunctie, de Q-Q-plot en de P-P-plot."
 
 #, fuzzy
 msgctxt "CompareContinuousDistributions|"
@@ -3598,186 +3598,186 @@ msgstr "Betrouwbaarheidsinterval"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Add the confidence interval to the P-P and Q-Q plots."
-msgstr ""
+msgstr "Voeg het betrouwbaarheidsinterval toe aan de P-P- en Q-Q-plots."
 
 msgctxt "Description|"
 msgid "Compare Distributions"
-msgstr ""
+msgstr "Vergelijk verdelingen"
 
 msgctxt "Description|"
 msgid "Compare Continuous Distributions"
-msgstr ""
+msgstr "Vergelijk continue verdelingen"
 
 msgctxt "DistributionSpecification|"
 msgid "<Select a distribution>"
-msgstr ""
+msgstr "<Selecteer een verdeling>"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Show full distribution specification"
-msgstr ""
+msgstr "Volledige specificatie van de verdeling tonen"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Displays the full distribution specification, including its parameters. If "
 "unchecked, only distribution names are shown."
-msgstr ""
+msgstr "Toont de volledige specificatie van de verdeling, inclusief de parameters. Indien niet aangevinkt, worden alleen de namen van verdelingen getoond."
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean)"
-msgstr ""
+msgstr "μ (gemiddelde)"
 
 msgctxt "DistributionSpecification|"
 msgid "σ (std. deviation)"
-msgstr ""
+msgstr "σ (std.afwijking)"
 
 msgctxt "DistributionSpecification|"
 msgid "σ² (variance)"
-msgstr ""
+msgstr "σ² (variantie)"
 
 msgctxt "DistributionSpecification|"
 msgid "τ (precision)"
-msgstr ""
+msgstr "τ (precisie)"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (df)"
-msgstr ""
+msgstr "ν (df)"
 
 msgctxt "DistributionSpecification|"
 msgid "κ (noncentrality)"
-msgstr ""
+msgstr "κ (niet-centraliteit)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (location)"
-msgstr ""
+msgstr "μ (locatie)"
 
 msgctxt "DistributionSpecification|"
 msgid "σ (scale)"
-msgstr ""
+msgstr "σ (schaal)"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (skew)"
-msgstr ""
+msgstr "λ (scheefheid)"
 
 msgctxt "DistributionSpecification|"
 msgid "p (kurtosis)"
-msgstr ""
+msgstr "p (kurtosis)"
 
 msgctxt "DistributionSpecification|"
 msgid "q (kurtosis)"
-msgstr ""
+msgstr "q (kurtosis)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (scale)"
-msgstr ""
+msgstr "α (schaal)"
 
 msgctxt "DistributionSpecification|"
 msgid "β (shape)"
-msgstr ""
+msgstr "β (vorm)"
 
 msgctxt "DistributionSpecification|"
 msgid "ξ (location)"
-msgstr ""
+msgstr "ξ (locatie)"
 
 msgctxt "DistributionSpecification|"
 msgid "ω (scale)"
-msgstr ""
+msgstr "ω (schaal)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (slant)"
-msgstr ""
+msgstr "α (scheefheid)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape)"
-msgstr ""
+msgstr "α (vorm)"
 
 msgctxt "DistributionSpecification|"
 msgid "ν₁ (df)"
-msgstr ""
+msgstr "ν₁ (df)"
 
 msgctxt "DistributionSpecification|"
 msgid "ν₂ (df)"
-msgstr ""
+msgstr "ν₂ (df)"
 
 msgctxt "DistributionSpecification|"
 msgid "θ (scale)"
-msgstr ""
+msgstr "θ (schaal)"
 
 msgctxt "DistributionSpecification|"
 msgid "η (shape)"
-msgstr ""
+msgstr "η (vorm)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (log location)"
-msgstr ""
+msgstr "μ (log-locatie)"
 
 msgctxt "DistributionSpecification|"
 msgid "σ (log scale)"
-msgstr ""
+msgstr "σ (log-schaal)"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (log mean)"
-msgstr ""
+msgstr "μ (log-gemiddelde)"
 
 msgctxt "DistributionSpecification|"
 msgid "σ (log std. deviation)"
-msgstr ""
+msgstr "σ (log std.afwijking)"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (shape)"
-msgstr ""
+msgstr "λ (vorm)"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (drift)"
-msgstr ""
+msgstr "ν (drift)"
 
 msgctxt "DistributionSpecification|"
 msgid "α (threshold)"
-msgstr ""
+msgstr "α (drempelwaarde)"
 
 msgctxt "DistributionSpecification|"
 msgid "σ (noise)"
-msgstr ""
+msgstr "σ (ruis)"
 
 msgctxt "DistributionSpecification|"
 msgid "shape"
-msgstr ""
+msgstr "vorm"
 
 msgctxt "DistributionSpecification|"
 msgid "scale"
-msgstr ""
+msgstr "schaal"
 
 msgctxt "DistributionSpecification|"
 msgid "a (location)"
-msgstr ""
+msgstr "a (locatie)"
 
 msgctxt "DistributionSpecification|"
 msgid "min"
-msgstr ""
+msgstr "min"
 
 msgctxt "DistributionSpecification|"
 msgid "max"
-msgstr ""
+msgstr "max"
 
 msgctxt "DistributionSpecification|"
 msgid "θ (location)"
-msgstr ""
+msgstr "θ (locatie)"
 
 msgctxt "DistributionSpecification|"
 msgid "a (min)"
-msgstr ""
+msgstr "a (min)"
 
 msgctxt "DistributionSpecification|"
 msgid "b (max)"
-msgstr ""
+msgstr "b (max)"
 
 msgctxt "DistributionSpecification|"
 msgid "c (mode)"
-msgstr ""
+msgstr "c (modus)"
 
 msgctxt "DistributionSpecification|"
 msgid "shift"
-msgstr ""
+msgstr "verschuiving"
 
 msgctxt "DistributionSpecification|"
 msgid "Fixed"
-msgstr ""
+msgstr "Vast"
