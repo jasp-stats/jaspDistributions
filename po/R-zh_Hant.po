@@ -27,7 +27,7 @@ msgid "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
 msgstr "<ul><li>變項須為離散型（即整數）</li></ul>"
 
 msgid "Overview - %s"
-msgstr ""
+msgstr "概述 - %s"
 
 msgid "Descriptives"
 msgstr "描述性統計"
@@ -36,7 +36,7 @@ msgid "Variable"
 msgstr "變項"
 
 msgid "n"
-msgstr ""
+msgstr "n"
 
 msgid "Mean"
 msgstr "平均數"
@@ -48,28 +48,28 @@ msgid "Std. deviation"
 msgstr "標準差"
 
 msgid "Minimum"
-msgstr ""
+msgstr "最小值"
 
 msgid "25%% Quantile"
-msgstr ""
+msgstr "25%% 分位數"
 
 msgid "Median"
 msgstr "中位數"
 
 msgid "75%% Quantile"
-msgstr ""
+msgstr "75%% 分位數"
 
 msgid "Maximum"
-msgstr ""
+msgstr "最大值"
 
 msgid "Rel. Frequency"
-msgstr ""
+msgstr "相對頻率"
 
 msgid "Total"
 msgstr "總計"
 
 msgid "Observed Moments"
-msgstr ""
+msgstr "觀測矩"
 
 msgid "Moment"
 msgstr "動差"
@@ -78,7 +78,7 @@ msgid "Raw"
 msgstr "原始"
 
 msgid "Central"
-msgstr ""
+msgstr "中心"
 
 msgid "Estimated Parameters"
 msgstr "參數估計"
@@ -93,7 +93,7 @@ msgid "SE"
 msgstr "標準誤"
 
 msgid "Standard errors are unavailable with this method"
-msgstr ""
+msgstr "此方法無法計算標準誤"
 
 msgid "Lower"
 msgstr "下界"
@@ -105,18 +105,18 @@ msgid "Upper"
 msgstr "上界"
 
 msgid "Confidence intervals are unavailable with this method."
-msgstr ""
+msgstr "此方法無法計算置信區間。"
 
 msgid "Confidence intervals were calculated using the delta method."
-msgstr ""
+msgstr "置信區間使用德爾塔方法計算。"
 
 msgid "Standard errors were calculated using the delta method."
-msgstr ""
+msgstr "標準誤使用德爾塔方法計算。"
 
 msgid ""
 "Standard errors and confidence intervals were calculated using the delta "
 "method."
-msgstr ""
+msgstr "標準誤和置信區間使用德爾塔方法計算。"
 
 msgid "Maximum likelihood"
 msgstr "最大概似估計"
@@ -134,33 +134,33 @@ msgid "Statistic"
 msgstr "統計量"
 
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgid "Kolmogorov-Smirnov"
-msgstr ""
+msgstr "Kolmogorov-Smirnov"
 
 msgid "Cramér-von Mises"
-msgstr ""
+msgstr "Cramér–von Mises"
 
 msgid "Anderson-Darling"
-msgstr ""
+msgstr "Anderson-Darling"
 
 msgid "Lillienfors"
-msgstr ""
+msgstr "Lilliefors"
 
 msgid "Shapiro-Wilk"
-msgstr ""
+msgstr "Shapiro–Wilk"
 
 msgid "Shapiro-Francia"
 msgstr "Shapiro-Francia 檢定"
 
 msgid "Chi-square"
-msgstr ""
+msgstr "卡方"
 
 msgid ""
 "Using Brown (1980) approximation which tends to be innacurate for small "
 "sample sizes."
-msgstr ""
+msgstr "使用 Brown (1980) 近似，該近似在樣本量較小時往往不準確。"
 
 msgid "Histogram vs. Theoretical PDF"
 msgstr "長條圖 vs. 理論機率密度函數"
@@ -169,19 +169,19 @@ msgid "Histogram vs. Theoretical PMF"
 msgstr "長條圖 vs. 理論機率質量函數"
 
 msgid "Q-Q plot"
-msgstr ""
+msgstr "Q-Q 圖"
 
 msgid "Empirical vs. Theoretical CDF"
-msgstr ""
+msgstr "經驗與理論累積分佈函式"
 
 msgid "P-P plot"
-msgstr ""
+msgstr "P-P 圖"
 
 msgid "Sample"
-msgstr ""
+msgstr "樣本"
 
 msgid "Theoretical"
-msgstr ""
+msgstr "理論"
 
 msgid "Density"
 msgstr "密度"
@@ -199,25 +199,25 @@ msgid "Probability Mass Function"
 msgstr "機率質量函數"
 
 msgid "Cumulative Distribution Function"
-msgstr ""
+msgstr "累積分佈函式"
 
 msgid "Quantile Function"
-msgstr ""
+msgstr "分位數函式"
 
 msgid "Formula"
-msgstr ""
+msgstr "公式"
 
 msgid "Density Plot"
 msgstr "密度圖"
 
 msgid "Cumulative Probability Plot"
-msgstr ""
+msgstr "累積機率圖"
 
 msgid "Slope"
-msgstr ""
+msgstr "斜率"
 
 msgid "Quantile Plot"
-msgstr ""
+msgstr "分位數圖"
 
 msgid "Probability Mass Plot"
 msgstr "機率質量圖"
@@ -226,19 +226,19 @@ msgid "Histogram"
 msgstr "長條圖"
 
 msgid "Bar plot"
-msgstr ""
+msgstr "條形圖"
 
 msgid "Rel. Freq (%s in bin)"
-msgstr ""
+msgstr "相對頻率（箱內 %s）"
 
 msgid "Empirical Cumulative Distribution"
-msgstr ""
+msgstr "經驗累積分佈"
 
 msgid "Freq"
-msgstr ""
+msgstr "頻率"
 
 msgid "Parameters, Support, and Moments"
-msgstr ""
+msgstr "引數、支撐與矩"
 
 msgid ""
 "<b>Parameters</b>\n"
@@ -250,7 +250,7 @@ msgid ""
 "      <b>Moments</b>\n"
 "      E(X) = %3$s\n"
 "      Var(X) = %4$s"
-msgstr ""
+msgstr "<b>引數</b>\n      %1$s\n\n      <b>支撐</b>\n      %2$s\n\n      <b>矩</b>\n      E(X) = %3$s\n      Var(X) = %4$s"
 
 msgid ""
 "<b>Parameters</b>\n"
@@ -261,7 +261,7 @@ msgid ""
 "\n"
 "      <b>Moments</b>\n"
 "      not available"
-msgstr ""
+msgstr "<b>引數</b>\n      %1$s\n\n      <b>支撐</b>\n      %2$s\n\n      <b>矩</b>\n      不可用"
 
 msgid ""
 "The probability density function (PDF), usually denoted as f(x), is a "
@@ -275,7 +275,7 @@ msgid ""
 "variable.\n"
 "    The <i>y</i>-axis displays the value of the density function for a "
 "particular value of the random variable (displayed on the <i>x</i>-axis)."
-msgstr ""
+msgstr "機率密度函式（PDF），通常記為 f(x)，是隨機變數 X 的函式。\n    f(x) 的值給出隨機變數 X 的實現產生等於 x 的值的相對可能性。\n    更正式地說，PDF 被定義為累積分佈函式（CDF）的導數。\n\n    密度圖顯示隨機變數的機率密度函式。\n    <i>y</i> 軸顯示隨機變數某一特定值（顯示在 <i>x</i> 軸上）所對應的密度函式值。"
 
 msgid ""
 "The probability mass function (PMF), usually denoted as f(x), is a function "
@@ -288,7 +288,7 @@ msgid ""
 "    The <i>y</i>-axis displays the value of the probability mass function "
 "for a particular value of the random variable (displayed on the <i>x</i>-"
 "axis)."
-msgstr ""
+msgstr "機率質量函式（PMF），通常記為 f(x)，是隨機變數 X 的函式。\n    f(x) 的值給出隨機變數 X 的實現產生等於 x 的值的機率。\n\n    機率質量圖顯示隨機變數的機率質量函式。\n    <i>y</i> 軸顯示隨機變數某一特定值（顯示在 <i>x</i> 軸上）所對應的機率質量函式值。"
 
 msgid ""
 "The cumulative distribution function (CDF), usually denoted as F(x), is a "
@@ -301,7 +301,7 @@ msgid ""
 "    The <i>y</i>-axis displays the value of the cumulative distribution "
 "function for a particular value of the random variable (displayed on the "
 "<i>x</i>-axis)."
-msgstr ""
+msgstr "累積分佈函式（CDF），通常記為 F(x)，是隨機變數 X 的函式。\n    F(x) 的值給出隨機變數 X 的實現產生等於或小於 x 的值的機率。\n\n    累積機率圖顯示隨機變數的累積分佈函式。\n    <i>y</i> 軸顯示隨機變數某一特定值（顯示在 <i>x</i> 軸上）所對應的累積分佈函式值。"
 
 msgid ""
 "The quantile function, usually denoted as Q(p), is the inverse of the "
@@ -314,7 +314,7 @@ msgid ""
 "    The <i>y</i>-axis displays the quantile of which the probability that "
 "the random variable is less or equal to that value is equal to p (displayed "
 "on the <i>x</i>-axis)."
-msgstr ""
+msgstr "分位數函式，通常記為 Q(p)，是累積分佈函式的反函式。\n    該函式給出一個分位數，使得隨機變數小於或等於該值的機率等於給定的機率 p。\n\n    分位數圖顯示分位數函式。\n    <i>y</i> 軸顯示滿足隨機變數小於或等於該值的機率等於 p（顯示在 <i>x</i> 軸上）的分位數。"
 
 msgid ""
 "<h3> Demonstration of the %1$s </h3>\n"
@@ -337,323 +337,323 @@ msgid ""
 "For relationships with other distributions, visit %6$s.\n"
 "\n"
 "%7$s"
-msgstr ""
+msgstr "<h3> %1$s 的演示 </h3>\n本演示分為四個部分。\n第一部分顯示 %2$s 及其機率密度函式、累積分佈函式和分位數函式。\n第二部分允許您從 %3$s 生成資料、計算描述統計量並顯示描述性圖形。\n第三部分允許您估計 %4$s 的引數。\n第四部分允許您檢查 %5$s 對資料的擬合情況。\n\n<b>參考文獻</b>\n\nBlitzstein, J. K., & Hwang, J. (2014). <i>Introduction to probability.</i> Chapman and Hall/CRC.\n\nLeemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, 16</i>(4), 8–9.\n\n有關與其他分佈的關係，請訪問 %6$s。\n\n%7$s"
 
 msgid ""
 "Estimation failed: Optimization did not converge. <ul><li>Try adjusting "
 "parameter values, check outliers or feasibility of the distribution fitting "
 "the data.</li></ul>"
-msgstr ""
+msgstr "估計失敗：最佳化未收斂。<ul><li>嘗試調整引數值，檢查異常值或分佈擬合資料的可行性。</li></ul>"
 
 msgid ""
 "Estimation failed: Hessian matrix is not numerically computable. "
 "<ul><li>Check outliers or feasibility of the distribution fitting the data.</"
 "li></ul>"
-msgstr ""
+msgstr "估計失敗：無法在數值上計算海森矩陣。<ul><li>檢查異常值或分佈擬合資料的可行性。</li></ul>"
 
 msgid ""
 "Could not initialize distribution %1$s, with the following error: <br> %2$s"
-msgstr ""
+msgstr "無法初始化分佈 %1$s，錯誤如下：<br> %2$s"
 
 msgid ""
 "Could not fit distribution %1$s, with the following error: <br> %2$s. <br> "
 "You can try to change the initial parameter values, or remove the "
 "distribution from the distribution specification"
-msgstr ""
+msgstr "無法擬合分佈 %1$s，錯誤如下：<br> %2$s。<br> 您可以嘗試更改初始引數值，或從分佈規範中移除該分佈"
 
 msgid ""
 "Could not compute information criteria for %1$s, with the following error: "
 "<br> %2$s."
-msgstr ""
+msgstr "無法計算 %1$s 的資訊準則，錯誤如下：<br> %2$s。"
 
 msgid "Distribution comparison table"
-msgstr ""
+msgstr "分佈比較表"
 
 msgid "Distribution"
 msgstr "分配"
 
 msgid "AIC"
-msgstr ""
+msgstr "AIC"
 
 msgid "Weights"
 msgstr "權重"
 
 msgid "BIC"
-msgstr ""
+msgstr "BIC"
 
 msgid "Log. Lik"
-msgstr ""
+msgstr "對數似然"
 
 msgid "df"
 msgstr "自由度"
 
 msgid "Distribution comparison table (n=%1$i)"
-msgstr ""
+msgstr "分佈比較表（n=%1$i）"
 
 #, fuzzy
 msgid "Parameter estimates"
 msgstr "參數"
 
 msgid "Key"
-msgstr ""
+msgstr "鍵"
 
 msgid "Name"
-msgstr ""
+msgstr "名稱"
 
 msgid "Label"
-msgstr ""
+msgstr "標籤"
 
 msgid "Distribution has no parameters to estimate."
-msgstr ""
+msgstr "該分佈沒有需要估計的引數。"
 
 msgid "The following parameters were held constant: %s."
-msgstr ""
+msgstr "以下引數保持不變：%s。"
 
 msgid "Goodness of fit"
-msgstr ""
+msgstr "擬合優度"
 
 msgid "Bootstrapping..."
-msgstr ""
+msgstr "正在進行自助法……"
 
 msgid "Could not obtain goodness of fit: <br> %s"
-msgstr ""
+msgstr "無法獲得擬合優度：<br> %s"
 
 msgid "Based on %1$i valid parametric bootstrap samples."
-msgstr ""
+msgstr "基於 %1$i 個有效的引數自助法樣本。"
 
 msgid "Empirical plots"
-msgstr ""
+msgstr "經驗圖"
 
 #, fuzzy
 msgid "Histogram vs. theoretical density"
 msgstr "長條圖 vs. 理論機率密度函數"
 
 msgid "Empirical vs. theoretical cumulative probability"
-msgstr ""
+msgstr "經驗與理論累積機率"
 
 msgid "Cramér–von Mises"
-msgstr ""
+msgstr "Cramér–von Mises"
 
 msgid "Lilliefors"
-msgstr ""
+msgstr "Lilliefors"
 
 msgid "Amoroso distribution"
-msgstr ""
+msgstr "Amoroso 分佈"
 
 msgid "location: a %s"
-msgstr ""
+msgstr "位置：a %s"
 
 msgid "scale: %s"
-msgstr ""
+msgstr "尺度：%s"
 
 msgid "shape: %s"
-msgstr ""
+msgstr "形狀：%s"
 
 msgid "The optimization did not converge, try adjusting the parameter values."
-msgstr ""
+msgstr "最佳化未收斂，請嘗試調整引數值。"
 
 msgid "<i>Warning.</i>"
-msgstr ""
+msgstr "<i>警告。</i>"
 
 msgid "Scale parameter %s is assumed positive."
-msgstr ""
+msgstr "假定尺度引數 %s 為正。"
 
 msgid "Scale parameter %s is assumed negative."
-msgstr ""
+msgstr "假定尺度引數 %s 為負。"
 
 msgid "Bernoulli distribution"
-msgstr ""
+msgstr "伯努利分佈"
 
 msgid "probability of success: p %1$s %2$s: 0 %3$s p %4$s 1"
-msgstr ""
+msgstr "成功機率：p %1$s %2$s：0 %3$s p %4$s 1"
 
 msgid "x %s {0, 1}"
-msgstr ""
+msgstr "x %s {0, 1}"
 
 msgid "p(1-p)"
-msgstr ""
+msgstr "p(1-p)"
 
 msgid "beta distribution"
-msgstr ""
+msgstr "Beta 分佈"
 
 msgid "beta-binomial distribution"
-msgstr ""
+msgstr "Beta-二項分佈"
 
 msgid "number of trials: %s"
 msgstr "實驗次數：%s"
 
 msgid "Parameter n was fixed at value %s."
-msgstr ""
+msgstr "引數 n 被固定為值 %s。"
 
 msgid "beta prime distribution"
-msgstr ""
+msgstr "Beta-prime 分佈"
 
 msgid "lower bound: %s"
-msgstr ""
+msgstr "下限：%s"
 
 msgid "upper bound: %s"
-msgstr ""
+msgstr "上限：%s"
 
 msgid "binomial distribution"
-msgstr ""
+msgstr "二項分佈"
 
 msgid "probability of success: %s"
-msgstr ""
+msgstr "成功機率：%s"
 
 msgid "Cauchy distribution"
-msgstr ""
+msgstr "柯西分佈"
 
 msgid "location: &mu; %s"
-msgstr ""
+msgstr "位置：&mu; %s"
 
 msgid "undefined"
-msgstr ""
+msgstr "未定義"
 
 msgid "%s<sup>2</sup> distribution"
-msgstr ""
+msgstr "%s<sup>2</sup> 分佈"
 
 msgid "degree of freedom: %s"
-msgstr ""
+msgstr "自由度：%s"
 
 msgid "non-centrality: %s"
-msgstr ""
+msgstr "非中心引數：%s"
 
 msgid "exponential distribution"
-msgstr ""
+msgstr "指數分佈"
 
 msgid "rate: %s"
-msgstr ""
+msgstr "速率：%s"
 
 msgid "F-distribution"
-msgstr ""
+msgstr "F 分佈"
 
 msgid "Fréchet distribution"
-msgstr ""
+msgstr "Fréchet 分佈"
 
 msgid "location: %s"
-msgstr ""
+msgstr "位置：%s"
 
 msgid "see Wikipedia: %s"
-msgstr ""
+msgstr "參見維基百科：%s"
 
 msgid "gamma distribution"
-msgstr ""
+msgstr "伽馬分佈"
 
 msgid "mean: %s"
-msgstr ""
+msgstr "均值：%s"
 
 msgid "inverse gamma distribution"
-msgstr ""
+msgstr "逆伽馬分佈"
 
 msgid "normal distribution"
 msgstr "常態分配"
 
 msgid "mean: &mu; %s"
-msgstr ""
+msgstr "均值：&mu; %s"
 
 msgid "variance: %s"
-msgstr ""
+msgstr "方差：%s"
 
 msgid "standard deviation: %s"
-msgstr ""
+msgstr "標準差：%s"
 
 msgid "precision: %s"
-msgstr ""
+msgstr "精度：%s"
 
 msgid "square root of precision: %s"
-msgstr ""
+msgstr "精度的平方根：%s"
 
 msgid "&mu;"
-msgstr ""
+msgstr "&mu;"
 
 msgid "Unbiased with Bessel's correction."
-msgstr ""
+msgstr "使用 Bessel 校正的無偏估計。"
 
 msgid "geometric distribution"
-msgstr ""
+msgstr "幾何分佈"
 
 msgid "population size: %s"
-msgstr ""
+msgstr "總體規模：%s"
 
 msgid "number of success states in the population: %s"
-msgstr ""
+msgstr "總體中成功狀態的數量：%s"
 
 msgid "number of draws from the population: %s"
-msgstr ""
+msgstr "從總體中抽取的次數：%s"
 
 msgid "Gompertz distribution"
-msgstr ""
+msgstr "Gompertz 分佈"
 
 msgid ""
 "shape: %1$s \n"
 "scale: %2$s"
-msgstr ""
+msgstr "形狀：%1$s \n尺度：%2$s"
 
 msgid "Gumbel distribution"
-msgstr ""
+msgstr "Gumbel 分佈"
 
 msgid "hypergeometric distribution"
-msgstr ""
+msgstr "超幾何分佈"
 
 msgid "Laplace distribution"
-msgstr ""
+msgstr "拉普拉斯分佈"
 
 msgid "log-logistic distribution"
-msgstr ""
+msgstr "對數邏輯斯蒂分佈"
 
 msgid "log location: &mu; %s"
-msgstr ""
+msgstr "對數位置：&mu; %s"
 
 msgid "log scale: %s"
-msgstr ""
+msgstr "對數尺度：%s"
 
 msgid "scale: &alpha; %s"
-msgstr ""
+msgstr "尺度：&alpha; %s"
 
 msgid "logistic distribution"
-msgstr ""
+msgstr "邏輯斯蒂分佈"
 
 msgid "(&sigma; &pi;)<sup>2</sup> / 3"
-msgstr ""
+msgstr "(&sigma; &pi;)<sup>2</sup> / 3"
 
 msgid "log-normal distribution"
-msgstr ""
+msgstr "對數正態分佈"
 
 msgid "log mean: &mu; %s"
-msgstr ""
+msgstr "對數均值：&mu; %s"
 
 msgid "log standard deviation: %s"
-msgstr ""
+msgstr "對數標準差：%s"
 
 msgid "exp(&mu; + &sigma;<sup>2</sup>/2)"
-msgstr ""
+msgstr "exp(&mu; + &sigma;<sup>2</sup>/2)"
 
 msgid "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
-msgstr ""
+msgstr "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
 
 msgid "mixture of two normal distributions"
-msgstr ""
+msgstr "兩個正態分佈的混合"
 
 msgid "probability of first component: %s"
-msgstr ""
+msgstr "第一個成分的機率：%s"
 
 msgid "mean 1: %s"
-msgstr ""
+msgstr "均值 1：%s"
 
 msgid "std. deviation 1: %s"
-msgstr ""
+msgstr "標準差 1：%s"
 
 msgid "mean 2: %s"
-msgstr ""
+msgstr "均值 2：%s"
 
 msgid "std. deviation 2: %s"
-msgstr ""
+msgstr "標準差 2：%s"
 
 msgid "mixture of a normal and a uniform distribution"
-msgstr ""
+msgstr "正態分佈與均勻分佈的混合"
 
 msgid "probability of normal component: %s"
-msgstr ""
+msgstr "正態成分的機率：%s"
 
 msgid "mean of normal distribution: %s"
 msgstr "常態分配的平均數: %s"
@@ -662,29 +662,29 @@ msgid "std. deviation of normal distribution: %s"
 msgstr "常態分配的標準差: %s"
 
 msgid "minimum of uniform distribution: %s"
-msgstr ""
+msgstr "均勻分佈的最小值：%s"
 
 msgid "maximum of uniform distribution: %s"
-msgstr ""
+msgstr "均勻分佈的最大值：%s"
 
 msgid ""
 "Parameter a was fixed at value %1$s, parameter b was fixed at value %2$s."
-msgstr ""
+msgstr "引數 a 被固定為值 %1$s，引數 b 被固定為值 %2$s。"
 
 msgid "negative binomial distribution"
-msgstr ""
+msgstr "負二項分佈"
 
 msgid "number of successes: %s"
-msgstr ""
+msgstr "成功次數：%s"
 
 msgid "dispersion: %s"
-msgstr ""
+msgstr "離散引數：%s"
 
 msgid "zero-inflated negative binomial distribution"
-msgstr ""
+msgstr "零膨脹負二項分佈"
 
 msgid "probability of zero process: %s"
-msgstr ""
+msgstr "零過程的機率：%s"
 
 msgid "generalized normal distribution"
 msgstr "廣義常態分配"
@@ -693,70 +693,70 @@ msgid "skew normal distribution"
 msgstr "偏斜常態分配"
 
 msgid "Pareto distribution"
-msgstr ""
+msgstr "帕累託分佈"
 
 msgid "Poisson distribution"
-msgstr ""
+msgstr "泊松分佈"
 
 msgid "zero-inflated Poisson distribution"
-msgstr ""
+msgstr "零膨脹泊松分佈"
 
 msgid "noncentral t-distribution"
-msgstr ""
+msgstr "非中心 t 分佈"
 
 msgid "degrees of freedom: %s"
-msgstr ""
+msgstr "自由度：%s"
 
 msgid "does not exist unless df > 1"
-msgstr ""
+msgstr "除非 df > 1，否則不存在"
 
 msgid "does not exist unless df > 2"
-msgstr ""
+msgstr "除非 df > 2，否則不存在"
 
 msgid "see Azzalini & Capitanio (2003)"
-msgstr ""
+msgstr "參見 Azzalini & Capitanio (2003)"
 
 msgid "skewed generalized t-distribution"
-msgstr ""
+msgstr "偏斜廣義 t 分佈"
 
 msgid "skewness: %s"
-msgstr ""
+msgstr "偏度：%s"
 
 msgid "kurtosis: %s"
-msgstr ""
+msgstr "峰度：%s"
 
 msgid "scaled, shifted Student's t-distribution"
-msgstr ""
+msgstr "縮放、移位的學生 t 分佈"
 
 msgid "triangular distribution"
-msgstr ""
+msgstr "三角分佈"
 
 msgid "minimum: %s"
-msgstr ""
+msgstr "最小值：%s"
 
 msgid "maximum: %s"
-msgstr ""
+msgstr "最大值：%s"
 
 msgid "mode: %s"
-msgstr ""
+msgstr "眾數：%s"
 
 msgid "uniform distribution"
-msgstr ""
+msgstr "均勻分佈"
 
 msgid "Wald distribution"
-msgstr ""
+msgstr "Wald 分佈"
 
 msgid "drift rate: %s"
-msgstr ""
+msgstr "漂移率：%s"
 
 msgid "threshold: %s"
-msgstr ""
+msgstr "閾值：%s"
 
 msgid "noise: %s"
-msgstr ""
+msgstr "噪聲：%s"
 
 msgid "Parameter %s was fixed to 1."
-msgstr ""
+msgstr "引數 %s 被固定為 1。"
 
 msgid "Weibull distribution"
-msgstr ""
+msgstr "韋布林分佈"

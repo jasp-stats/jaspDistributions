@@ -33,27 +33,27 @@ msgstr "廣義常態(版本1)"
 
 msgctxt "Description|"
 msgid "Cauchy"
-msgstr ""
+msgstr "柯西"
 
 msgctxt "Description|"
 msgid "Scaled, shifted Student's t"
-msgstr ""
+msgstr "Scaled, shifted Student's t"
 
 msgctxt "Description|"
 msgid "Noncentral t"
-msgstr ""
+msgstr "非中心t分佈"
 
 msgctxt "Description|"
 msgid "Skew t"
-msgstr ""
+msgstr "Skew t"
 
 msgctxt "Description|"
 msgid "Skewed generalized t"
-msgstr ""
+msgstr "廣義偏斜t分佈"
 
 msgctxt "Description|"
 msgid "F-distribution"
-msgstr ""
+msgstr "F分佈"
 
 msgctxt "Description|"
 msgid "Chi-squared"
@@ -61,127 +61,127 @@ msgstr "卡方"
 
 msgctxt "Description|"
 msgid "Uniform"
-msgstr ""
+msgstr "均勻分佈"
 
 msgctxt "Description|"
 msgid "Beta"
-msgstr ""
+msgstr "Beta"
 
 msgctxt "Description|"
 msgid "Stretched beta"
-msgstr ""
+msgstr "Stretched beta"
 
 msgctxt "Description|"
 msgid "Beta prime"
-msgstr ""
+msgstr "Beta prime"
 
 msgctxt "Description|"
 msgid "Gamma"
-msgstr ""
+msgstr "伽馬分佈"
 
 msgctxt "Description|"
 msgid "Inverse gamma"
-msgstr ""
+msgstr "Inverse gamma"
 
 msgctxt "Description|"
 msgid "Exponential"
-msgstr ""
+msgstr "指數分佈"
 
 msgctxt "Description|"
 msgid "Laplace"
-msgstr ""
+msgstr "拉普拉斯分佈(Laplace)"
 
 msgctxt "Description|"
 msgid "Log-normal"
-msgstr ""
+msgstr "對數正態分佈(Log-normal)"
 
 msgctxt "Description|"
 msgid "Logistic"
-msgstr ""
+msgstr "Logistic分佈"
 
 msgctxt "Description|"
 msgid "Log-logistic"
-msgstr ""
+msgstr "Log-logistic分佈"
 
 msgctxt "Description|"
 msgid "Pareto"
-msgstr ""
+msgstr "帕累託分佈(Pareto)"
 
 msgctxt "Description|"
 msgid "Amoroso"
-msgstr ""
+msgstr "Amoroso分佈"
 
 msgctxt "Description|"
 msgid "Fréchet"
-msgstr ""
+msgstr "Fréchet"
 
 msgctxt "Description|"
 msgid "Gumbel"
-msgstr ""
+msgstr "耿貝爾 (Gumbel) 分佈"
 
 msgctxt "Description|"
 msgid "Gompertz"
-msgstr ""
+msgstr "Gompertz"
 
 msgctxt "Description|"
 msgid "Triangular"
-msgstr ""
+msgstr "三角分佈(triangular)"
 
 msgctxt "Description|"
 msgid "Wald (inverse Gaussian)"
-msgstr ""
+msgstr "瓦爾德-逆高斯分佈(Wald -inverse Gaussian)"
 
 msgctxt "Description|"
 msgid "Weibull"
-msgstr ""
+msgstr "韋布林分佈(Weibull)"
 
 msgctxt "Description|"
 msgid "Mixture of normal and normal"
-msgstr ""
+msgstr "Mixture of normal and normal"
 
 msgctxt "Description|"
 msgid "Mixture of normal and uniform"
-msgstr ""
+msgstr "Mixture of normal and uniform"
 
 msgctxt "Description|"
 msgid "Discrete"
-msgstr ""
+msgstr "離散"
 
 msgctxt "Description|"
 msgid "Bernoulli"
-msgstr ""
+msgstr "伯努利分佈(Bernoulli)"
 
 msgctxt "Description|"
 msgid "Binomial"
-msgstr ""
+msgstr "二項分佈(Binomial)"
 
 msgctxt "Description|"
 msgid "Beta-binomial"
-msgstr ""
+msgstr "Beta-binomial分佈"
 
 msgctxt "Description|"
 msgid "Poisson"
-msgstr ""
+msgstr "泊松分佈(Poisson)"
 
 msgctxt "Description|"
 msgid "Negative binomial"
-msgstr ""
+msgstr "負二項分佈"
 
 msgctxt "Description|"
 msgid "Zero-inflated Poisson"
-msgstr ""
+msgstr "Zero-inflated Poisson"
 
 msgctxt "Description|"
 msgid "Zero-inflated negative binomial"
-msgstr ""
+msgstr "Zero-inflated negative binomial"
 
 msgctxt "Description|"
 msgid "Geometric"
-msgstr ""
+msgstr "幾何分佈(Geometric)"
 
 msgctxt "Description|"
 msgid "Hypergeometric"
-msgstr ""
+msgstr "超幾何分佈(Hypergeometric)"
 
 msgctxt "LDAssessFit|"
 msgid "Assess Fit"
@@ -237,7 +237,7 @@ msgstr "Shapiro-Wilk常態檢定"
 
 msgctxt "LDAssessFit|"
 msgid "Chi-square"
-msgstr ""
+msgstr "卡方"
 
 msgctxt "LDEstimateParameters|"
 msgid "Estimate Parameters"
@@ -374,7 +374,7 @@ msgstr "從%1"
 #, qt-format
 msgctxt "LDOptions|"
 msgid "to %1"
-msgstr ""
+msgstr "到 %1"
 
 msgctxt "LDamoroso|"
 msgid "Show Distribution"
@@ -382,31 +382,31 @@ msgstr "顯示分配"
 
 msgctxt "LDamoroso|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDamoroso|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDamoroso|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDamoroso|"
 msgid "θ"
-msgstr ""
+msgstr "θ"
 
 msgctxt "LDamoroso|"
 msgid "Shape:"
-msgstr ""
+msgstr "形狀："
 
 msgctxt "LDamoroso|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDamoroso|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 #, fuzzy
 msgctxt "LDamoroso|"
@@ -423,7 +423,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDamoroso|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDamoroso|"
 msgid "Probability density function"
@@ -451,7 +451,7 @@ msgstr "成功機率："
 
 msgctxt "LDbernoulli|"
 msgid "p"
-msgstr ""
+msgstr "p"
 
 #, fuzzy
 msgctxt "LDbernoulli|"
@@ -468,7 +468,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDbernoulli|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDbernoulli|"
 msgid "Probability mass function"
@@ -497,11 +497,11 @@ msgstr "累積機率"
 
 msgctxt "LDbernoulli|"
 msgid "Limits"
-msgstr ""
+msgstr "邊界"
 
 msgctxt "LDbernoulli|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 #, fuzzy
 msgctxt "LDbeta|"
@@ -514,15 +514,15 @@ msgstr "參數"
 
 msgctxt "LDbeta|"
 msgid "Shape:"
-msgstr ""
+msgstr "形狀:"
 
 msgctxt "LDbeta|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDbeta|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 #, fuzzy
 msgctxt "LDbeta|"
@@ -539,7 +539,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDbeta|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDbeta|"
 msgid "Probability density function"
@@ -564,15 +564,15 @@ msgstr "自由參數"
 
 msgctxt "LDbetaBinomial|"
 msgid "Shape:"
-msgstr ""
+msgstr "形狀："
 
 msgctxt "LDbetaBinomial|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDbetaBinomial|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 msgctxt "LDbetaBinomial|"
 msgid "Fixed parameter"
@@ -584,7 +584,7 @@ msgstr "實驗次數："
 
 msgctxt "LDbetaBinomial|"
 msgid "n"
-msgstr ""
+msgstr "n"
 
 #, fuzzy
 msgctxt "LDbetaBinomial|"
@@ -601,7 +601,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDbetaBinomial|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDbetaBinomial|"
 msgid "Probability mass function"
@@ -642,7 +642,7 @@ msgstr "區間"
 
 msgctxt "LDbetaBinomial|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 #, fuzzy
 msgctxt "LDbetaPrime|"
@@ -655,15 +655,15 @@ msgstr "參數"
 
 msgctxt "LDbetaPrime|"
 msgid "Shape:"
-msgstr ""
+msgstr "形狀:"
 
 msgctxt "LDbetaPrime|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDbetaPrime|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 #, fuzzy
 msgctxt "LDbetaPrime|"
@@ -680,7 +680,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDbetaPrime|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDbetaPrime|"
 msgid "Probability density function"
@@ -706,35 +706,35 @@ msgstr "自由參數"
 
 msgctxt "LDbetaStretched|"
 msgid "Shape:"
-msgstr ""
+msgstr "形狀："
 
 msgctxt "LDbetaStretched|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDbetaStretched|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 msgctxt "LDbetaStretched|"
 msgid "Fixed parameters"
-msgstr ""
+msgstr "固定引數"
 
 msgctxt "LDbetaStretched|"
 msgid "Lower bound:"
-msgstr ""
+msgstr "下限："
 
 msgctxt "LDbetaStretched|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDbetaStretched|"
 msgid "Upper bound:"
-msgstr ""
+msgstr "上限："
 
 msgctxt "LDbetaStretched|"
 msgid "b"
-msgstr ""
+msgstr "b"
 
 #, fuzzy
 msgctxt "LDbetaStretched|"
@@ -751,7 +751,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDbetaStretched|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDbetaStretched|"
 msgid "Probability density function"
@@ -780,7 +780,7 @@ msgstr "成功機率："
 
 msgctxt "LDbinomial|"
 msgid "p"
-msgstr ""
+msgstr "p"
 
 #, fuzzy
 msgctxt "LDbinomial|"
@@ -793,7 +793,7 @@ msgstr "實驗次數："
 
 msgctxt "LDbinomial|"
 msgid "n"
-msgstr ""
+msgstr "n"
 
 #, fuzzy
 msgctxt "LDbinomial|"
@@ -810,7 +810,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDbinomial|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDbinomial|"
 msgid "Probability mass function"
@@ -852,7 +852,7 @@ msgstr "區間"
 
 msgctxt "LDbinomial|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 #, fuzzy
 msgctxt "LDcauchy|"
@@ -861,19 +861,19 @@ msgstr "顯示分配"
 
 msgctxt "LDcauchy|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDcauchy|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDcauchy|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDcauchy|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 #, fuzzy
 msgctxt "LDcauchy|"
@@ -890,7 +890,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDcauchy|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDcauchy|"
 msgid "Probability density function"
@@ -911,19 +911,19 @@ msgstr "顯示分配"
 
 msgctxt "LDchisq|"
 msgid "Degree of freedom:"
-msgstr ""
+msgstr "自由度"
 
 msgctxt "LDchisq|"
 msgid "k"
-msgstr ""
+msgstr "k"
 
 msgctxt "LDchisq|"
 msgid "Non-centrality:"
-msgstr ""
+msgstr "非中心性："
 
 msgctxt "LDchisq|"
 msgid "λ"
-msgstr ""
+msgstr "λ"
 
 #, fuzzy
 msgctxt "LDchisq|"
@@ -940,7 +940,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDchisq|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDchisq|"
 msgid "Probability density function"
@@ -966,11 +966,11 @@ msgstr "參數"
 
 msgctxt "LDexponential|"
 msgid "Rate:"
-msgstr ""
+msgstr "率:"
 
 msgctxt "LDexponential|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 #, fuzzy
 msgctxt "LDexponential|"
@@ -987,7 +987,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDexponential|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDexponential|"
 msgid "Probability density function"
@@ -1008,23 +1008,23 @@ msgstr "顯示分配"
 
 msgctxt "LDf|"
 msgid "Degree of freedom:"
-msgstr ""
+msgstr "自由度:"
 
 msgctxt "LDf|"
 msgid "df 1"
-msgstr ""
+msgstr "df 1"
 
 msgctxt "LDf|"
 msgid "df 2"
-msgstr ""
+msgstr "df 2"
 
 msgctxt "LDf|"
 msgid "Non-centrality:"
-msgstr ""
+msgstr "非中心:"
 
 msgctxt "LDf|"
 msgid "ncp"
-msgstr ""
+msgstr "ncp"
 
 #, fuzzy
 msgctxt "LDf|"
@@ -1041,7 +1041,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDf|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDf|"
 msgid "Probability density function"
@@ -1062,27 +1062,27 @@ msgstr "顯示分配"
 
 msgctxt "LDfrechet|"
 msgid "Shape:"
-msgstr ""
+msgstr "形狀："
 
 msgctxt "LDfrechet|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDfrechet|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDfrechet|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDfrechet|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDfrechet|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 #, fuzzy
 msgctxt "LDfrechet|"
@@ -1099,7 +1099,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDfrechet|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDfrechet|"
 msgid "Probability density function"
@@ -1125,15 +1125,15 @@ msgstr "參數"
 
 msgctxt "LDgamma|"
 msgid "Shape:"
-msgstr ""
+msgstr "形狀："
 
 msgctxt "LDgamma|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDgamma|"
 msgid "Rate:"
-msgstr ""
+msgstr "率:"
 
 msgctxt "LDgamma|"
 msgid "Mean:"
@@ -1153,7 +1153,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDgamma|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDgamma|"
 msgid "Probability density function"
@@ -1179,15 +1179,15 @@ msgstr "參數"
 
 msgctxt "LDgammaInverse|"
 msgid "Shape:"
-msgstr ""
+msgstr "形狀："
 
 msgctxt "LDgammaInverse|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDgammaInverse|"
 msgid "Rate:"
-msgstr ""
+msgstr "比率:"
 
 #, fuzzy
 msgctxt "LDgammaInverse|"
@@ -1209,7 +1209,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDgammaInverse|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDgammaInverse|"
 msgid "Probability density function"
@@ -1281,7 +1281,7 @@ msgstr "平均數："
 
 msgctxt "LDgaussianunivariate|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Variance:"
@@ -1289,15 +1289,15 @@ msgstr "變異數："
 
 msgctxt "LDgaussianunivariate|"
 msgid "Std. deviation:"
-msgstr ""
+msgstr "標準差："
 
 msgctxt "LDgaussianunivariate|"
 msgid "Precision:"
-msgstr ""
+msgstr "精度："
 
 msgctxt "LDgaussianunivariate|"
 msgid "Square root of precision:"
-msgstr ""
+msgstr "精度的平方根："
 
 #, fuzzy
 msgctxt "LDgaussianunivariate|"
@@ -1314,7 +1314,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Probability density function"
@@ -1344,7 +1344,7 @@ msgstr "成功機率："
 
 msgctxt "LDgeometric|"
 msgid "p"
-msgstr ""
+msgstr "p"
 
 #, fuzzy
 msgctxt "LDgeometric|"
@@ -1361,7 +1361,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDgeometric|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDgeometric|"
 msgid "Probability mass function"
@@ -1403,7 +1403,7 @@ msgstr "區間"
 
 msgctxt "LDgeometric|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 #, fuzzy
 msgctxt "LDgompertz|"
@@ -1412,11 +1412,11 @@ msgstr "顯示分配"
 
 msgctxt "LDgompertz|"
 msgid "Shape:"
-msgstr ""
+msgstr "形狀："
 
 msgctxt "LDgompertz|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 #, fuzzy
 msgctxt "LDgompertz|"
@@ -1433,7 +1433,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDgompertz|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDgompertz|"
 msgid "Probability density function"
@@ -1454,19 +1454,19 @@ msgstr "顯示分配"
 
 msgctxt "LDgumbel|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDgumbel|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDgumbel|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDgumbel|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 #, fuzzy
 msgctxt "LDgumbel|"
@@ -1483,7 +1483,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDgumbel|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDgumbel|"
 msgid "Probability density function"
@@ -1504,19 +1504,19 @@ msgstr "顯示分配"
 
 msgctxt "LDhypergeometric|"
 msgid "Population size:"
-msgstr ""
+msgstr "總體規模："
 
 msgctxt "LDhypergeometric|"
 msgid "N"
-msgstr ""
+msgstr "N"
 
 msgctxt "LDhypergeometric|"
 msgid "Number of success states in the population:"
-msgstr ""
+msgstr "總體中成功狀態的數量："
 
 msgctxt "LDhypergeometric|"
 msgid "K"
-msgstr ""
+msgstr "K"
 
 msgctxt "LDhypergeometric|"
 msgid "Number of draws from the population:"
@@ -1524,7 +1524,7 @@ msgstr "從母體中抽取的數量："
 
 msgctxt "LDhypergeometric|"
 msgid "n"
-msgstr ""
+msgstr "n"
 
 #, fuzzy
 msgctxt "LDhypergeometric|"
@@ -1541,7 +1541,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDhypergeometric|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDhypergeometric|"
 msgid "Probability mass function"
@@ -1583,7 +1583,7 @@ msgstr "區間"
 
 msgctxt "LDhypergeometric|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 #, fuzzy
 msgctxt "LDlaplace|"
@@ -1592,19 +1592,19 @@ msgstr "顯示分配"
 
 msgctxt "LDlaplace|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDlaplace|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDlaplace|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDlaplace|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 #, fuzzy
 msgctxt "LDlaplace|"
@@ -1621,7 +1621,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDlaplace|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDlaplace|"
 msgid "Probability density function"
@@ -1642,19 +1642,19 @@ msgstr "顯示分配"
 
 msgctxt "LDlogistic|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDlogistic|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDlogistic|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDlogistic|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 #, fuzzy
 msgctxt "LDlogistic|"
@@ -1671,7 +1671,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDlogistic|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDlogistic|"
 msgid "Probability density function"
@@ -1697,19 +1697,19 @@ msgstr "參數"
 
 msgctxt "LDlogLogistic|"
 msgid "Log location:"
-msgstr ""
+msgstr "對數位置："
 
 msgctxt "LDlogLogistic|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDlogLogistic|"
 msgid "Log scale:"
-msgstr ""
+msgstr "對數尺度："
 
 msgctxt "LDlogLogistic|"
 msgid "Shape:"
-msgstr ""
+msgstr "形狀："
 
 #, fuzzy
 msgctxt "LDlogLogistic|"
@@ -1726,7 +1726,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDlogLogistic|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDlogLogistic|"
 msgid "Probability density function"
@@ -1747,19 +1747,19 @@ msgstr "顯示分配"
 
 msgctxt "LDlognormal|"
 msgid "Log Mean:"
-msgstr ""
+msgstr "對數均值："
 
 msgctxt "LDlognormal|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDlognormal|"
 msgid "Log std. deviation:"
-msgstr ""
+msgstr "對數標準差："
 
 msgctxt "LDlognormal|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 #, fuzzy
 msgctxt "LDlognormal|"
@@ -1776,7 +1776,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDlognormal|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDlognormal|"
 msgid "Probability density function"
@@ -1797,43 +1797,43 @@ msgstr "顯示分配"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Mean 1:"
-msgstr ""
+msgstr "均值 1："
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "μ₁"
-msgstr ""
+msgstr "μ₁"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Std. deviation 1:"
-msgstr ""
+msgstr "標準差 1："
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "σ₁"
-msgstr ""
+msgstr "σ₁"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Mean 2:"
-msgstr ""
+msgstr "均值 2："
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "μ₂"
-msgstr ""
+msgstr "μ₂"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Std. deviation 2:"
-msgstr ""
+msgstr "標準差 2："
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "σ₂"
-msgstr ""
+msgstr "σ₂"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Probability of component:"
-msgstr ""
+msgstr "成分機率："
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "π"
-msgstr ""
+msgstr "π"
 
 #, fuzzy
 msgctxt "LDmixtureNormalNormal|"
@@ -1850,7 +1850,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Probability density function"
@@ -1876,47 +1876,47 @@ msgstr "自由參數"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Mean :"
-msgstr ""
+msgstr "均值："
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Std. deviation :"
-msgstr ""
+msgstr "標準差："
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Probability of normal component:"
-msgstr ""
+msgstr "正態成分機率："
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "π"
-msgstr ""
+msgstr "π"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Fixed parameters"
-msgstr ""
+msgstr "固定引數"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Minimum of uniform:"
-msgstr ""
+msgstr "均勻分佈最小值："
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Maximum of uniform:"
-msgstr ""
+msgstr "均勻分佈最大值："
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "b"
-msgstr ""
+msgstr "b"
 
 #, fuzzy
 msgctxt "LDmixtureNormalUniform|"
@@ -1933,7 +1933,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Probability density function"
@@ -1959,11 +1959,11 @@ msgstr "參數"
 
 msgctxt "LDnegbinomial|"
 msgid "Number of successes:"
-msgstr ""
+msgstr "成功次數："
 
 msgctxt "LDnegbinomial|"
 msgid "Dispersion:"
-msgstr ""
+msgstr "離散引數："
 
 msgctxt "LDnegbinomial|"
 msgid "Probability of success:"
@@ -1989,7 +1989,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDnegbinomial|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDnegbinomial|"
 msgid "Probability mass function"
@@ -2031,7 +2031,7 @@ msgstr "區間"
 
 msgctxt "LDnegbinomial|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 #, fuzzy
 msgctxt "LDnegbinomialZeroInflated|"
@@ -2045,19 +2045,19 @@ msgstr "參數"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Probability of Zero process:"
-msgstr ""
+msgstr "零過程的機率："
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "π"
-msgstr ""
+msgstr "π"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Number of successes:"
-msgstr ""
+msgstr "成功次數："
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Dispersion:"
-msgstr ""
+msgstr "離散引數："
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Probability of success:"
@@ -2083,7 +2083,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Probability mass function"
@@ -2125,7 +2125,7 @@ msgstr "區間"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 #, fuzzy
 msgctxt "LDnormalGeneralized|"
@@ -2134,27 +2134,27 @@ msgstr "顯示分配"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDnormalGeneralized|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDnormalGeneralized|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Shape:"
-msgstr ""
+msgstr "形狀："
 
 msgctxt "LDnormalGeneralized|"
 msgid "β"
-msgstr ""
+msgstr "β"
 
 #, fuzzy
 msgctxt "LDnormalGeneralized|"
@@ -2171,7 +2171,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Probability density function"
@@ -2192,27 +2192,27 @@ msgstr "顯示分配"
 
 msgctxt "LDnormalSkew|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDnormalSkew|"
 msgid "ξ"
-msgstr ""
+msgstr "ξ"
 
 msgctxt "LDnormalSkew|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDnormalSkew|"
 msgid "ω"
-msgstr ""
+msgstr "ω"
 
 msgctxt "LDnormalSkew|"
 msgid "Shape:"
-msgstr ""
+msgstr "形狀："
 
 msgctxt "LDnormalSkew|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 #, fuzzy
 msgctxt "LDnormalSkew|"
@@ -2229,7 +2229,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDnormalSkew|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDnormalSkew|"
 msgid "Probability density function"
@@ -2250,11 +2250,11 @@ msgstr "顯示分配"
 
 msgctxt "LDpareto|"
 msgid "Shape:"
-msgstr ""
+msgstr "形狀："
 
 msgctxt "LDpareto|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 #, fuzzy
 msgctxt "LDpareto|"
@@ -2271,7 +2271,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDpareto|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDpareto|"
 msgid "Probability density function"
@@ -2297,11 +2297,11 @@ msgstr "參數"
 
 msgctxt "LDpoisson|"
 msgid "Rate:"
-msgstr ""
+msgstr "率:"
 
 msgctxt "LDpoisson|"
 msgid "λ"
-msgstr ""
+msgstr "λ"
 
 #, fuzzy
 msgctxt "LDpoisson|"
@@ -2318,7 +2318,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDpoisson|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDpoisson|"
 msgid "Probability mass function"
@@ -2360,7 +2360,7 @@ msgstr "區間"
 
 msgctxt "LDpoisson|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 #, fuzzy
 msgctxt "LDpoissonZeroInflated|"
@@ -2374,19 +2374,19 @@ msgstr "參數"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Probability of Zero process:"
-msgstr ""
+msgstr "零過程的機率："
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "π"
-msgstr ""
+msgstr "π"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Rate of Poisson process:"
-msgstr ""
+msgstr "泊松過程的速率："
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "λ"
-msgstr ""
+msgstr "λ"
 
 #, fuzzy
 msgctxt "LDpoissonZeroInflated|"
@@ -2403,7 +2403,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Probability mass function"
@@ -2445,7 +2445,7 @@ msgstr "區間"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "≤ X ≤"
-msgstr ""
+msgstr "≤ X ≤"
 
 #, fuzzy
 msgctxt "LDtNoncentral|"
@@ -2459,19 +2459,19 @@ msgstr "參數"
 
 msgctxt "LDtNoncentral|"
 msgid "Degrees of freedom:"
-msgstr ""
+msgstr "自由度"
 
 msgctxt "LDtNoncentral|"
 msgid "df"
-msgstr ""
+msgstr "df"
 
 msgctxt "LDtNoncentral|"
 msgid "Non-centrality:"
-msgstr ""
+msgstr "非中心引數："
 
 msgctxt "LDtNoncentral|"
 msgid "ncp"
-msgstr ""
+msgstr "ncp"
 
 #, fuzzy
 msgctxt "LDtNoncentral|"
@@ -2488,7 +2488,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDtNoncentral|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDtNoncentral|"
 msgid "Probability density function"
@@ -2509,27 +2509,27 @@ msgstr "顯示分配"
 
 msgctxt "LDtriangular|"
 msgid "Minimum:"
-msgstr ""
+msgstr "最小值："
 
 msgctxt "LDtriangular|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDtriangular|"
 msgid "Maximum:"
-msgstr ""
+msgstr "最大值："
 
 msgctxt "LDtriangular|"
 msgid "b"
-msgstr ""
+msgstr "b"
 
 msgctxt "LDtriangular|"
 msgid "Mode:"
-msgstr ""
+msgstr "眾數："
 
 msgctxt "LDtriangular|"
 msgid "c"
-msgstr ""
+msgstr "c"
 
 #, fuzzy
 msgctxt "LDtriangular|"
@@ -2546,7 +2546,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDtriangular|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDtriangular|"
 msgid "Probability density function"
@@ -2567,35 +2567,35 @@ msgstr "顯示分配"
 
 msgctxt "LDtSkew|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDtSkew|"
 msgid "ξ"
-msgstr ""
+msgstr "ξ"
 
 msgctxt "LDtSkew|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDtSkew|"
 msgid "ω"
-msgstr ""
+msgstr "ω"
 
 msgctxt "LDtSkew|"
 msgid "Shape:"
-msgstr ""
+msgstr "形狀："
 
 msgctxt "LDtSkew|"
 msgid "α"
-msgstr ""
+msgstr "α"
 
 msgctxt "LDtSkew|"
 msgid "Degree of freedom:"
-msgstr ""
+msgstr "自由度"
 
 msgctxt "LDtSkew|"
 msgid "df"
-msgstr ""
+msgstr "df"
 
 #, fuzzy
 msgctxt "LDtSkew|"
@@ -2612,7 +2612,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDtSkew|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDtSkew|"
 msgid "Probability density function"
@@ -2638,39 +2638,39 @@ msgstr "參數"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Kurtosis:"
-msgstr ""
+msgstr "峰度："
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "q"
-msgstr ""
+msgstr "q"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Skewness:"
-msgstr ""
+msgstr "偏度："
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "λ"
-msgstr ""
+msgstr "λ"
 
 #, fuzzy
 msgctxt "LDtSkewedGeneralized|"
@@ -2687,7 +2687,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Probability density function"
@@ -2713,27 +2713,27 @@ msgstr "參數"
 
 msgctxt "LDtStudent|"
 msgid "Degrees of freedom:"
-msgstr ""
+msgstr "自由度"
 
 msgctxt "LDtStudent|"
 msgid "df"
-msgstr ""
+msgstr "df"
 
 msgctxt "LDtStudent|"
 msgid "Location:"
-msgstr ""
+msgstr "位置："
 
 msgctxt "LDtStudent|"
 msgid "μ"
-msgstr ""
+msgstr "μ"
 
 msgctxt "LDtStudent|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 msgctxt "LDtStudent|"
 msgid "σ"
-msgstr ""
+msgstr "σ"
 
 #, fuzzy
 msgctxt "LDtStudent|"
@@ -2750,7 +2750,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDtStudent|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDtStudent|"
 msgid "Probability density function"
@@ -2776,19 +2776,19 @@ msgstr "參數"
 
 msgctxt "LDuniform|"
 msgid "Lower bound:"
-msgstr ""
+msgstr "下限："
 
 msgctxt "LDuniform|"
 msgid "a"
-msgstr ""
+msgstr "a"
 
 msgctxt "LDuniform|"
 msgid "Upper bound:"
-msgstr ""
+msgstr "上限："
 
 msgctxt "LDuniform|"
 msgid "b"
-msgstr ""
+msgstr "b"
 
 #, fuzzy
 msgctxt "LDuniform|"
@@ -2805,7 +2805,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDuniform|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDuniform|"
 msgid "Probability density function"
@@ -2836,19 +2836,19 @@ msgstr "平均數："
 
 msgctxt "LDwald|"
 msgid "Threshold:"
-msgstr ""
+msgstr "閾值："
 
 msgctxt "LDwald|"
 msgid "Drift rate:"
-msgstr ""
+msgstr "漂移率："
 
 msgctxt "LDwald|"
 msgid "Shape:"
-msgstr ""
+msgstr "形狀："
 
 msgctxt "LDwald|"
 msgid "Noise:"
-msgstr ""
+msgstr "噪聲："
 
 #, fuzzy
 msgctxt "LDwald|"
@@ -2865,7 +2865,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDwald|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDwald|"
 msgid "Probability density function"
@@ -2886,11 +2886,11 @@ msgstr "顯示分配"
 
 msgctxt "LDweibull|"
 msgid "Shape:"
-msgstr ""
+msgstr "形狀："
 
 msgctxt "LDweibull|"
 msgid "Scale:"
-msgstr ""
+msgstr "尺度："
 
 #, fuzzy
 msgctxt "LDweibull|"
@@ -2907,7 +2907,7 @@ msgstr "參數、取值範圍與動差"
 
 msgctxt "LDweibull|"
 msgid "Formulas"
-msgstr ""
+msgstr "公式"
 
 msgctxt "LDweibull|"
 msgid "Probability density function"
@@ -2936,7 +2936,7 @@ msgid ""
 "Displays the quantile-quantile plot. The *x*-axis shows the theoretical "
 "quantiles of the data points under the fitted distribution, the *y*-axis "
 "shows the empirical quantiles of the selected variable."
-msgstr ""
+msgstr "顯示分位數-分位數圖。*x* 軸顯示資料點在所擬合分佈下的理論分位數，*y* 軸顯示所選變數的經驗分位數。"
 
 msgctxt "LDAssessFit|"
 msgid ""
@@ -2972,7 +2972,7 @@ msgstr "顯示 Shapiro-Wilk 常態檢定結果"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the chi-square goodness of fit test"
-msgstr ""
+msgstr "顯示卡方擬合優度檢驗。"
 
 msgctxt "LDEstimateParameters|"
 msgid ""
@@ -2997,7 +2997,7 @@ msgctxt "LDGenerateDisplayData|"
 msgid ""
 "Specify the name of the variable. Once filled, creates a column with samples "
 "drawn from the specified distribution in the current data set."
-msgstr ""
+msgstr "指定變數的名稱。填寫後，將在當前資料集中建立一個列，其中包含從指定分佈中抽取的樣本。"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Specify the number of samples."
@@ -3013,7 +3013,7 @@ msgstr "從數據集中獲取變數： "
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Select a variable to display and fit with the theoretical distribution."
-msgstr ""
+msgstr "選擇一個變數進行顯示，並與理論分佈擬合。"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Displays a descriptive table of the selected variable."
@@ -3081,16 +3081,16 @@ msgid ""
 "Select the bounds of the interval to display: Density is highlighted at the "
 "lower and upper bounds, the probability is displayed for the specified "
 "interval."
-msgstr ""
+msgstr "選擇要顯示的區間邊界：在下限和上限處突出顯示密度，並顯示指定區間的機率。"
 
 msgctxt "LDbinomial|"
 msgid "Demonstration of the Binomial distribution."
-msgstr ""
+msgstr "二項分佈的演示。"
 
 msgctxt "LDbinomial|"
 msgid ""
 "Displays theoretical Binomial distribution, given specified parameter values."
-msgstr ""
+msgstr "在給定指定引數值的情況下顯示理論二項分佈。"
 
 msgctxt "LDbinomial|"
 msgid ""
@@ -3100,7 +3100,7 @@ msgstr "「成功的機率」。此參數可由資料自由估計。"
 
 msgctxt "LDbinomial|"
 msgid "number of trials. This parameter is fixed when fitting the data."
-msgstr ""
+msgstr "試驗次數。此引數在擬合資料時保持不變。"
 
 msgctxt "LDbinomial|"
 msgid "Displays explanatory text"
@@ -3147,38 +3147,38 @@ msgid ""
 "Select the bounds of the ordered set to display: Density is highlighted at "
 "the lower and upper bounds, the probability is displayed for the specified "
 "interval."
-msgstr ""
+msgstr "選擇要顯示的有序集邊界：在下限和上限處突出顯示密度，並顯示指定區間的機率。"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Demonstration of the Normal (Gaussian) distribution"
-msgstr ""
+msgstr "正態（高斯）分佈的演示"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "Displays theoretical Normal distribution, given specified parameter values."
-msgstr ""
+msgstr "在給定指定引數值的情況下顯示理論正態分佈。"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "The Normal distribution is specified using the mean and variance parameters"
-msgstr ""
+msgstr "正態分佈使用均值和方差引數指定。"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "The Normal distribution is specified using the mean and standard deviation "
 "parameters"
-msgstr ""
+msgstr "正態分佈使用均值和標準差引數指定。"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "The Normal distribution is specified using the mean and precision parameters"
-msgstr ""
+msgstr "正態分佈使用均值和精度引數指定。"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "The Normal distribution is specified using the mean and square root of "
 "precision parameters"
-msgstr ""
+msgstr "正態分佈使用均值和精度平方根引數指定。"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Displays explanatory text"
@@ -3224,87 +3224,87 @@ msgstr "顯示 Shapiro-Francia 常態性檢定"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), σ (std.deviation)"
-msgstr ""
+msgstr "μ（均值）、σ（標準差）"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), σ² (variance)"
-msgstr ""
+msgstr "μ（均值）、σ²（方差）"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), τ (precision)"
-msgstr ""
+msgstr "μ（均值）、τ（精度）"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (rate)"
-msgstr ""
+msgstr "λ（速率）"
 
 msgctxt "DistributionSpecification|"
 msgid "β (scale)"
-msgstr ""
+msgstr "β（尺度）"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), θ (scale)"
-msgstr ""
+msgstr "α（形狀）、θ（尺度）"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), λ (rate)"
-msgstr ""
+msgstr "α（形狀）、λ（速率）"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), μ (mean)"
-msgstr ""
+msgstr "α（形狀）、μ（均值）"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (log location), σ (log scale)"
-msgstr ""
+msgstr "μ（對數位置）、σ（對數尺度）"
 
 msgctxt "DistributionSpecification|"
 msgid "α (scale), β (shape)"
-msgstr ""
+msgstr "α（尺度）、β（形狀）"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), λ (shape)"
-msgstr ""
+msgstr "μ（均值）、λ（形狀）"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (drift), α (threshold), σ (noise)"
-msgstr ""
+msgstr "ν（漂移）、α（閾值）、σ（噪聲）"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (rate), shift"
-msgstr ""
+msgstr "λ（速率）、位移"
 
 msgctxt "DistributionSpecification|"
 msgid "β (scale), shift"
-msgstr ""
+msgstr "β（尺度）、位移"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), θ (scale), shift"
-msgstr ""
+msgstr "α（形狀）、θ（尺度）、位移"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), λ (rate), shift"
-msgstr ""
+msgstr "α（形狀）、λ（速率）、位移"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), μ (mean), shift"
-msgstr ""
+msgstr "α（形狀）、μ（均值）、位移"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (log location), σ (log scale), shift"
-msgstr ""
+msgstr "μ（對數位置）、σ（對數尺度）、位移"
 
 msgctxt "DistributionSpecification|"
 msgid "α (scale), β (shape), shift"
-msgstr ""
+msgstr "α（尺度）、β（形狀）、位移"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), λ (shape), shift"
-msgstr ""
+msgstr "μ（均值）、λ（形狀）、位移"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (drift), α (threshold), σ (noise), shift"
-msgstr ""
+msgstr "ν（漂移）、α（閾值）、σ（噪聲）、位移"
 
 msgctxt "DistributionSpecification|"
 msgid "Normal"
@@ -3316,43 +3316,43 @@ msgstr "標準常態"
 
 msgctxt "DistributionSpecification|"
 msgid "Standard t"
-msgstr ""
+msgstr "標準 t"
 
 msgctxt "DistributionSpecification|"
 msgid "Student t"
-msgstr ""
+msgstr "學生 t"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral t"
-msgstr ""
+msgstr "非中心t分佈"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral Student t"
-msgstr ""
+msgstr "非中心學生 t"
 
 msgctxt "DistributionSpecification|"
 msgid "Cauchy"
-msgstr ""
+msgstr "柯西"
 
 msgctxt "DistributionSpecification|"
 msgid "Gumbel"
-msgstr ""
+msgstr "耿貝爾 (Gumbel) 分佈"
 
 msgctxt "DistributionSpecification|"
 msgid "Laplace"
-msgstr ""
+msgstr "拉普拉斯分佈(Laplace)"
 
 msgctxt "DistributionSpecification|"
 msgid "Logistic"
-msgstr ""
+msgstr "Logistic分佈"
 
 msgctxt "DistributionSpecification|"
 msgid "Skewed generalized t"
-msgstr ""
+msgstr "廣義偏斜t分佈"
 
 msgctxt "DistributionSpecification|"
 msgid "Symmetric generalized normal"
-msgstr ""
+msgstr "對稱廣義正態"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3361,27 +3361,27 @@ msgstr "偏斜常態"
 
 msgctxt "DistributionSpecification|"
 msgid "Skew Cauchy"
-msgstr ""
+msgstr "斜柯西"
 
 msgctxt "DistributionSpecification|"
 msgid "Skew t"
-msgstr ""
+msgstr "Skew t"
 
 msgctxt "DistributionSpecification|"
 msgid "Beta"
-msgstr ""
+msgstr "Beta"
 
 msgctxt "DistributionSpecification|"
 msgid "Beta prime"
-msgstr ""
+msgstr "Beta prime"
 
 msgctxt "DistributionSpecification|"
 msgid "F"
-msgstr ""
+msgstr "F"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral F"
-msgstr ""
+msgstr "非中心 F"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3390,95 +3390,95 @@ msgstr "卡方"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral chi-squared"
-msgstr ""
+msgstr "非中心卡方"
 
 msgctxt "DistributionSpecification|"
 msgid "Exponential"
-msgstr ""
+msgstr "指數分佈"
 
 msgctxt "DistributionSpecification|"
 msgid "Gamma"
-msgstr ""
+msgstr "伽馬分佈"
 
 msgctxt "DistributionSpecification|"
 msgid "Inverse gamma"
-msgstr ""
+msgstr "Inverse gamma"
 
 msgctxt "DistributionSpecification|"
 msgid "Gompertz"
-msgstr ""
+msgstr "Gompertz"
 
 msgctxt "DistributionSpecification|"
 msgid "Log-logistic"
-msgstr ""
+msgstr "Log-logistic分佈"
 
 msgctxt "DistributionSpecification|"
 msgid "Log-normal"
-msgstr ""
+msgstr "對數正態分佈(Log-normal)"
 
 msgctxt "DistributionSpecification|"
 msgid "Wald"
-msgstr ""
+msgstr "Wald"
 
 msgctxt "DistributionSpecification|"
 msgid "Weibull"
-msgstr ""
+msgstr "韋布林分佈(Weibull)"
 
 msgctxt "DistributionSpecification|"
 msgid "Amoroso"
-msgstr ""
+msgstr "Amoroso分佈"
 
 msgctxt "DistributionSpecification|"
 msgid "Stretched beta"
-msgstr ""
+msgstr "Stretched beta"
 
 msgctxt "DistributionSpecification|"
 msgid "Fréchet"
-msgstr ""
+msgstr "Fréchet"
 
 msgctxt "DistributionSpecification|"
 msgid "Pareto"
-msgstr ""
+msgstr "帕累託分佈(Pareto)"
 
 msgctxt "DistributionSpecification|"
 msgid "Triangular"
-msgstr ""
+msgstr "三角分佈(triangular)"
 
 msgctxt "DistributionSpecification|"
 msgid "Uniform"
-msgstr ""
+msgstr "均勻分佈"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Exponential"
-msgstr ""
+msgstr "位移指數"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Log-normal"
-msgstr ""
+msgstr "位移對數正態"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Gamma"
-msgstr ""
+msgstr "位移伽馬"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Inverse gamma"
-msgstr ""
+msgstr "位移逆伽馬"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Log-logistic"
-msgstr ""
+msgstr "位移對數邏輯斯蒂"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Wald"
-msgstr ""
+msgstr "位移 Wald"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Weibull"
-msgstr ""
+msgstr "位移韋布林"
 
 msgctxt "DistributionSpecification|"
 msgid "Show parameter settings"
-msgstr ""
+msgstr "顯示引數設定"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3489,99 +3489,99 @@ msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Specify a set of distributions, estimate their parameters, and compare their "
 "fit to data."
-msgstr ""
+msgstr "指定一組分佈，估計其引數，並比較它們對資料的擬合優度。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Select data for distribution comparison."
-msgstr ""
+msgstr "選擇用於分佈比較的資料。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Variable"
-msgstr ""
+msgstr "變數"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Specify distributions"
-msgstr ""
+msgstr "指定分佈"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Specify distributions to be compared..."
-msgstr ""
+msgstr "指定要比較的分佈……"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Output"
-msgstr ""
+msgstr "輸出"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Control what output will be generated."
-msgstr ""
+msgstr "控制將生成哪些輸出。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Distribution comparison table"
-msgstr ""
+msgstr "分佈比較表"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Outputs the main distribution comparison table."
-msgstr ""
+msgstr "輸出主要的分佈比較表。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Order by"
-msgstr ""
+msgstr "排序依據"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Order by AIC/BIC"
-msgstr ""
+msgstr "按 AIC/BIC 排序"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Orders the output by how well the distributions fit the data (according to "
 "AIC or BIC)."
-msgstr ""
+msgstr "根據分佈對資料的擬合優度（依據 AIC 或 BIC）對輸出進行排序。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "AIC"
-msgstr ""
+msgstr "AIC"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "BIC"
-msgstr ""
+msgstr "BIC"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Output per distribution"
-msgstr ""
+msgstr "每個分佈的輸出"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Get detailed output for individual distributions."
-msgstr ""
+msgstr "獲取各個分佈的詳細輸出。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Limit output to the first"
-msgstr ""
+msgstr "將輸出限制為前"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Limit output to the first x distributions"
-msgstr ""
+msgstr "將輸出限制為前 x 個分佈"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Show the detailed output only for the top x distributions."
-msgstr ""
+msgstr "僅顯示排名前 x 的分佈的詳細輸出。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "distributions"
-msgstr ""
+msgstr "個分佈"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Parameter estimates"
-msgstr ""
+msgstr "引數估計"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Obtain a table of parameter estimates. *Note*: All parameters are estimated "
 "with maximum likelihood."
-msgstr ""
+msgstr "獲取引數估計表。*注意*：所有引數均透過最大似然法估計。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Goodness of fit"
-msgstr ""
+msgstr "擬合優度"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
@@ -3596,36 +3596,36 @@ msgid ""
 "versions of goodness of fit tests are computed, appropriate for this "
 "setting. If the normal distribution has some parameters fixed, it is treated "
 "as any other distribution."
-msgstr ""
+msgstr "計算擬合優度檢驗。對於大多數分佈，預設檢驗是複合原假設下的 Cramér-von Mises 檢驗和 Anderson-Darling 檢驗。請注意，這些檢驗依賴於將資料隨機分為兩組；因此結果可能會有差異，尤其是在樣本量較小時。當分佈沒有自由引數（即所有引數均固定）時，檢驗為簡單原假設下的 Kolmogorov-Smirnov 檢驗、Cramér-von Mises 檢驗和 Anderson-Darling 檢驗。對於位置和尺度引數自由的分佈，會計算適用於該情形的特定版本擬合優度檢驗。如果正態分佈的某些引數被固定，則將其視為與其他分佈相同。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Parametric bootstrap from"
-msgstr ""
+msgstr "引數自助法樣本數"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Parametric bootstrap from x samples"
-msgstr ""
+msgstr "x 個樣本的引數自助法"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Obtain the p-value of the goodness-of-fit tests using parametric bootstrap. "
 "In this case, the test statistics are always Kolmorogov-Smirnov, and Cramér–"
 "von Mises and Anderson-Darling for simple null hypothesis."
-msgstr ""
+msgstr "使用引數自助法獲取擬合優度檢驗的 p 值。在此情況下，檢驗統計量始終是簡單原假設下的 Kolmorogov-Smirnov、Cramér–von Mises 和 Anderson-Darling。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "samples"
-msgstr ""
+msgstr "個樣本"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Plot the distribution against data"
-msgstr ""
+msgstr "將分佈與資料對照繪圖"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Outputs histogram vs theoretical density plot, empirical vs. theoretical "
 "cumulative distribution function, the Q-Q plot, and the P-P plot."
-msgstr ""
+msgstr "輸出直方圖與理論密度圖、經驗與理論累積分佈函式、Q-Q 圖和 P-P 圖。"
 
 #, fuzzy
 msgctxt "CompareContinuousDistributions|"
@@ -3634,29 +3634,29 @@ msgstr "信賴區間"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Add the confidence interval to the P-P and Q-Q plots."
-msgstr ""
+msgstr "在 P-P 圖和 Q-Q 圖中新增置信區間。"
 
 msgctxt "Description|"
 msgid "Compare Distributions"
-msgstr ""
+msgstr "比較分佈"
 
 msgctxt "Description|"
 msgid "Compare Continuous Distributions"
-msgstr ""
+msgstr "比較連續分佈"
 
 msgctxt "DistributionSpecification|"
 msgid "<Select a distribution>"
-msgstr ""
+msgstr "<選擇分佈>"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Show full distribution specification"
-msgstr ""
+msgstr "顯示完整分佈說明"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Displays the full distribution specification, including its parameters. If "
 "unchecked, only distribution names are shown."
-msgstr ""
+msgstr "顯示完整的分佈說明，包括其引數。如果取消選中，則僅顯示分佈名稱。"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean)"
@@ -3672,148 +3672,148 @@ msgstr "σ² (變異數)"
 
 msgctxt "DistributionSpecification|"
 msgid "τ (precision)"
-msgstr ""
+msgstr "τ（精度）"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (df)"
-msgstr ""
+msgstr "ν（自由度）"
 
 msgctxt "DistributionSpecification|"
 msgid "κ (noncentrality)"
-msgstr ""
+msgstr "κ（非中心引數）"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (location)"
-msgstr ""
+msgstr "μ（位置）"
 
 msgctxt "DistributionSpecification|"
 msgid "σ (scale)"
-msgstr ""
+msgstr "σ（尺度）"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (skew)"
-msgstr ""
+msgstr "λ（偏度）"
 
 msgctxt "DistributionSpecification|"
 msgid "p (kurtosis)"
-msgstr ""
+msgstr "p（峰度）"
 
 msgctxt "DistributionSpecification|"
 msgid "q (kurtosis)"
-msgstr ""
+msgstr "q（峰度）"
 
 msgctxt "DistributionSpecification|"
 msgid "α (scale)"
-msgstr ""
+msgstr "α（尺度）"
 
 msgctxt "DistributionSpecification|"
 msgid "β (shape)"
-msgstr ""
+msgstr "β（形狀）"
 
 msgctxt "DistributionSpecification|"
 msgid "ξ (location)"
-msgstr ""
+msgstr "ξ（位置）"
 
 msgctxt "DistributionSpecification|"
 msgid "ω (scale)"
-msgstr ""
+msgstr "ω（尺度）"
 
 msgctxt "DistributionSpecification|"
 msgid "α (slant)"
-msgstr ""
+msgstr "α（傾斜）"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape)"
-msgstr ""
+msgstr "α（形狀）"
 
 msgctxt "DistributionSpecification|"
 msgid "ν₁ (df)"
-msgstr ""
+msgstr "ν₁（自由度）"
 
 msgctxt "DistributionSpecification|"
 msgid "ν₂ (df)"
-msgstr ""
+msgstr "ν₂（自由度）"
 
 msgctxt "DistributionSpecification|"
 msgid "θ (scale)"
-msgstr ""
+msgstr "θ（尺度）"
 
 msgctxt "DistributionSpecification|"
 msgid "η (shape)"
-msgstr ""
+msgstr "η（形狀）"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (log location)"
-msgstr ""
+msgstr "μ（對數位置）"
 
 msgctxt "DistributionSpecification|"
 msgid "σ (log scale)"
-msgstr ""
+msgstr "σ（對數尺度）"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (log mean)"
-msgstr ""
+msgstr "μ（對數均值）"
 
 msgctxt "DistributionSpecification|"
 msgid "σ (log std. deviation)"
-msgstr ""
+msgstr "σ（對數標準差）"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (shape)"
-msgstr ""
+msgstr "λ（形狀）"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (drift)"
-msgstr ""
+msgstr "ν（漂移）"
 
 msgctxt "DistributionSpecification|"
 msgid "α (threshold)"
-msgstr ""
+msgstr "α（閾值）"
 
 msgctxt "DistributionSpecification|"
 msgid "σ (noise)"
-msgstr ""
+msgstr "σ（噪聲）"
 
 msgctxt "DistributionSpecification|"
 msgid "shape"
-msgstr ""
+msgstr "形狀"
 
 msgctxt "DistributionSpecification|"
 msgid "scale"
-msgstr ""
+msgstr "尺度"
 
 msgctxt "DistributionSpecification|"
 msgid "a (location)"
-msgstr ""
+msgstr "a（位置）"
 
 msgctxt "DistributionSpecification|"
 msgid "min"
-msgstr ""
+msgstr "min"
 
 msgctxt "DistributionSpecification|"
 msgid "max"
-msgstr ""
+msgstr "max"
 
 msgctxt "DistributionSpecification|"
 msgid "θ (location)"
-msgstr ""
+msgstr "θ（位置）"
 
 msgctxt "DistributionSpecification|"
 msgid "a (min)"
-msgstr ""
+msgstr "a（最小值）"
 
 msgctxt "DistributionSpecification|"
 msgid "b (max)"
-msgstr ""
+msgstr "b（最大值）"
 
 msgctxt "DistributionSpecification|"
 msgid "c (mode)"
-msgstr ""
+msgstr "c（眾數）"
 
 msgctxt "DistributionSpecification|"
 msgid "shift"
-msgstr ""
+msgstr "位移"
 
 msgctxt "DistributionSpecification|"
 msgid "Fixed"
-msgstr ""
+msgstr "固定"
