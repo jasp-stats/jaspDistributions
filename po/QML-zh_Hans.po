@@ -1638,7 +1638,7 @@ msgstr "参数"
 
 msgctxt "LDlogLogistic|"
 msgid "Log location:"
-msgstr ""
+msgstr "对数位置："
 
 msgctxt "LDlogLogistic|"
 msgid "Scale:"
@@ -1646,7 +1646,7 @@ msgstr "尺度："
 
 msgctxt "LDlogLogistic|"
 msgid "Log scale:"
-msgstr ""
+msgstr "对数尺度："
 
 msgctxt "LDlogLogistic|"
 msgid "Shape:"
@@ -1686,7 +1686,7 @@ msgstr "显示分布"
 
 msgctxt "LDlognormal|"
 msgid "Log Mean:"
-msgstr ""
+msgstr "对数均值："
 
 #, fuzzy
 msgctxt "LDlognormal|"
@@ -1695,7 +1695,7 @@ msgstr "μ"
 
 msgctxt "LDlognormal|"
 msgid "Log std. deviation:"
-msgstr ""
+msgstr "对数标准差："
 
 #, fuzzy
 msgctxt "LDlognormal|"
@@ -1736,43 +1736,43 @@ msgstr "显示分布"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Mean 1:"
-msgstr ""
+msgstr "均值 1："
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "μ₁"
-msgstr ""
+msgstr "μ₁"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Std. deviation 1:"
-msgstr ""
+msgstr "标准差 1："
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "σ₁"
-msgstr ""
+msgstr "σ₁"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Mean 2:"
-msgstr ""
+msgstr "均值 2："
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "μ₂"
-msgstr ""
+msgstr "μ₂"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Std. deviation 2:"
-msgstr ""
+msgstr "标准差 2："
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "σ₂"
-msgstr ""
+msgstr "σ₂"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Probability of component:"
-msgstr ""
+msgstr "成分概率："
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "π"
-msgstr ""
+msgstr "π"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Display"
@@ -1812,7 +1812,7 @@ msgstr "自由参数"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Mean :"
-msgstr ""
+msgstr "均值："
 
 #, fuzzy
 msgctxt "LDmixtureNormalUniform|"
@@ -1821,7 +1821,7 @@ msgstr "μ"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Std. deviation :"
-msgstr ""
+msgstr "标准差："
 
 #, fuzzy
 msgctxt "LDmixtureNormalUniform|"
@@ -1830,11 +1830,11 @@ msgstr "σ"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Probability of normal component:"
-msgstr ""
+msgstr "正态成分概率："
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "π"
-msgstr ""
+msgstr "π"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Fixed parameters"
@@ -1842,7 +1842,7 @@ msgstr "固定参数"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Minimum of uniform:"
-msgstr ""
+msgstr "均匀分布最小值："
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "a"
@@ -1850,7 +1850,7 @@ msgstr "a"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Maximum of uniform:"
-msgstr ""
+msgstr "均匀分布最大值："
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "b"
@@ -1894,11 +1894,11 @@ msgstr "参数"
 
 msgctxt "LDnegbinomial|"
 msgid "Number of successes:"
-msgstr ""
+msgstr "成功次数："
 
 msgctxt "LDnegbinomial|"
 msgid "Dispersion:"
-msgstr ""
+msgstr "离散参数："
 
 msgctxt "LDnegbinomial|"
 msgid "Probability of success:"
@@ -1977,19 +1977,19 @@ msgstr "参数"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Probability of Zero process:"
-msgstr ""
+msgstr "零过程的概率："
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "π"
-msgstr ""
+msgstr "π"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Number of successes:"
-msgstr ""
+msgstr "成功次数："
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Dispersion:"
-msgstr ""
+msgstr "离散参数："
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Probability of success:"
@@ -2127,7 +2127,7 @@ msgstr "位置："
 
 msgctxt "LDnormalSkew|"
 msgid "ξ"
-msgstr ""
+msgstr "ξ"
 
 msgctxt "LDnormalSkew|"
 msgid "Scale:"
@@ -2135,7 +2135,7 @@ msgstr "尺度："
 
 msgctxt "LDnormalSkew|"
 msgid "ω"
-msgstr ""
+msgstr "ω"
 
 msgctxt "LDnormalSkew|"
 msgid "Shape:"
@@ -2300,15 +2300,15 @@ msgstr "参数"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Probability of Zero process:"
-msgstr ""
+msgstr "零过程的概率："
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "π"
-msgstr ""
+msgstr "π"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Rate of Poisson process:"
-msgstr ""
+msgstr "泊松过程的速率："
 
 #, fuzzy
 msgctxt "LDpoissonZeroInflated|"
@@ -2387,11 +2387,11 @@ msgstr "自由度"
 
 msgctxt "LDtNoncentral|"
 msgid "df"
-msgstr ""
+msgstr "df"
 
 msgctxt "LDtNoncentral|"
 msgid "Non-centrality:"
-msgstr ""
+msgstr "非中心参数："
 
 #, fuzzy
 msgctxt "LDtNoncentral|"
@@ -2432,7 +2432,7 @@ msgstr "显示分布"
 
 msgctxt "LDtriangular|"
 msgid "Minimum:"
-msgstr ""
+msgstr "最小值："
 
 msgctxt "LDtriangular|"
 msgid "a"
@@ -2440,7 +2440,7 @@ msgstr "a"
 
 msgctxt "LDtriangular|"
 msgid "Maximum:"
-msgstr ""
+msgstr "最大值："
 
 msgctxt "LDtriangular|"
 msgid "b"
@@ -2448,11 +2448,11 @@ msgstr "b"
 
 msgctxt "LDtriangular|"
 msgid "Mode:"
-msgstr ""
+msgstr "众数："
 
 msgctxt "LDtriangular|"
 msgid "c"
-msgstr ""
+msgstr "c"
 
 msgctxt "LDtriangular|"
 msgid "Display"
@@ -2492,7 +2492,7 @@ msgstr "位置："
 
 msgctxt "LDtSkew|"
 msgid "ξ"
-msgstr ""
+msgstr "ξ"
 
 msgctxt "LDtSkew|"
 msgid "Scale:"
@@ -2500,7 +2500,7 @@ msgstr "尺度："
 
 msgctxt "LDtSkew|"
 msgid "ω"
-msgstr ""
+msgstr "ω"
 
 msgctxt "LDtSkew|"
 msgid "Shape:"
@@ -2517,7 +2517,7 @@ msgstr "自由度"
 
 msgctxt "LDtSkew|"
 msgid "df"
-msgstr ""
+msgstr "df"
 
 msgctxt "LDtSkew|"
 msgid "Display"
@@ -2566,7 +2566,7 @@ msgstr "μ"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Kurtosis:"
-msgstr ""
+msgstr "峰度："
 
 #, fuzzy
 msgctxt "LDtSkewedGeneralized|"
@@ -2584,11 +2584,11 @@ msgstr "σ"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "q"
-msgstr ""
+msgstr "q"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Skewness:"
-msgstr ""
+msgstr "偏度："
 
 #, fuzzy
 msgctxt "LDtSkewedGeneralized|"
@@ -2637,7 +2637,7 @@ msgstr "自由度"
 
 msgctxt "LDtStudent|"
 msgid "df"
-msgstr ""
+msgstr "df"
 
 msgctxt "LDtStudent|"
 msgid "Location:"
@@ -2845,20 +2845,20 @@ msgctxt "LDAssessFit|"
 msgid ""
 "Displays a histogram of the selected variable overlayed with the probability "
 "density function of the fitted distribution"
-msgstr ""
+msgstr "显示所选变量的直方图，并叠加所拟合分布的概率密度函数。"
 
 msgctxt "LDAssessFit|"
 msgid ""
 "Displays the quantile-quantile plot. The *x*-axis shows the theoretical "
 "quantiles of the data points under the fitted distribution, the *y*-axis "
 "shows the empirical quantiles of the selected variable."
-msgstr ""
+msgstr "显示分位数-分位数图。*x* 轴显示数据点在所拟合分布下的理论分位数，*y* 轴显示所选变量的经验分位数。"
 
 msgctxt "LDAssessFit|"
 msgid ""
 "Displays an empirical cumulative distribution plot overlayed with the "
 "cumulative distribution function of the fitted distribution"
-msgstr ""
+msgstr "显示经验累积分布图，并叠加所拟合分布的累积分布函数。"
 
 msgctxt "LDAssessFit|"
 msgid ""
@@ -2866,33 +2866,33 @@ msgid ""
 "theoretical value of the cumulative density function of the data points "
 "under the fitted distribution, the *y*-axis shows the empirical percentiles "
 "of the selected variable."
-msgstr ""
+msgstr "显示概率-概率图。*x* 轴显示数据点在所拟合分布下的累积密度函数的理论值，*y* 轴显示所选变量的经验百分位数。"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Kolmogorov-Smirnov test"
-msgstr ""
+msgstr "显示柯尔莫哥洛夫-斯米尔诺夫检验。"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Cramér-von Mises test"
-msgstr ""
+msgstr "显示 Cramér–von Mises 检验。"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Anderson-Darling test"
-msgstr ""
+msgstr "显示 Anderson-Darling 检验。"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Shapiro-Wilk test of normality"
-msgstr ""
+msgstr "显示 Shapiro-Wilk 正态性检验。"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the chi-square goodness of fit test"
-msgstr ""
+msgstr "显示卡方拟合优度检验。"
 
 msgctxt "LDEstimateParameters|"
 msgid ""
 "Displays a table with the parameter estimates. Changing parametrization "
 "changes which parameters are displayed."
-msgstr ""
+msgstr "显示包含参数估计值的表格。更改参数化会改变所显示的参数。"
 
 msgctxt "LDEstimateParameters|"
 msgid ""
@@ -2902,313 +2902,313 @@ msgid ""
 "views it as a function of the parameters. The optimization procedure is "
 "initialized with the values for the parameters entered under \"Show "
 "Distribution\"."
-msgstr ""
+msgstr "通过似然函数达到最大值的定义域中的数值来估计参数。似然函数将数据参数（基于所选变量）固定在理论密度函数中，并将其视为参数的函数。优化过程以“显示分布”下输入的参数值进行初始化。"
 
 msgctxt "LDGenerateDisplayData|"
 msgid ""
 "Specify the name of the variable. Once filled, creates a column with samples "
 "drawn from the specified distribution in the current data set."
-msgstr ""
+msgstr "指定变量的名称。填写后，将在当前数据集中创建一个列，其中包含从指定分布中抽取的样本。"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Specify the number of samples."
-msgstr ""
+msgstr "指定样本数量。"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Sample from the theoretical distribution."
-msgstr ""
+msgstr "从理论分布中抽样。"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Get variable from data set: "
-msgstr ""
+msgstr "从数据集中获取变量： "
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Select a variable to display and fit with the theoretical distribution."
-msgstr ""
+msgstr "选择一个变量进行显示，并与理论分布拟合。"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Displays a descriptive table of the selected variable."
-msgstr ""
+msgstr "显示所选变量的描述性统计表。"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "First observed moments"
-msgstr ""
+msgstr "前几个观测矩"
 
 msgctxt "LDGenerateDisplayData|"
 msgid ""
 "Displays a table with the raw and central sample moments of the selected "
 "variable. Defaults to first 2 moments."
-msgstr ""
+msgstr "显示所选变量的原始样本矩和中心样本矩表。默认显示前 2 个矩。"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Histogram with ... bins"
-msgstr ""
+msgstr "直方图（... 个箱）"
 
 msgctxt "LDGenerateDisplayData|"
 msgid "Display a bar plot of the selected variable."
-msgstr ""
+msgstr "显示所选变量的条形图。"
 
 msgctxt "LDGenerateDisplayData|"
 msgid ""
 "Display a histogram of the selected variable with the number of specified "
 "bins."
-msgstr ""
+msgstr "显示所选变量的直方图，并指定箱数。"
 
 msgctxt "LDGenerateDisplayData|"
 msgid ""
 "Displays an empirical cumulative distribution plot of the selected variable."
-msgstr ""
+msgstr "显示所选变量的经验累积分布图。"
 
 msgctxt "LDOptions|"
 msgid "Range of x from ... to ..."
-msgstr ""
+msgstr "x 的范围从 ... 到 ..."
 
 msgctxt "LDOptions|"
 msgid ""
 "Defines the limits of the x-axis of the probability density plot and "
 "cumulative distribution plot, and the limits of the y-axis of the quantile "
 "plot."
-msgstr ""
+msgstr "定义概率密度图和累积分布图的 x 轴范围，以及分位数图的 y 轴范围。"
 
 msgctxt "LDOptions|"
 msgid ""
 "Highlights the probability density on the probability density plot and "
 "cumulative distribution plot at specified values of x"
-msgstr ""
+msgstr "在指定的 x 值处突出显示概率密度图和累积分布图上的概率密度。"
 
 msgctxt "LDOptions|"
 msgid ""
 "Highlights the probability in between the specified values of x in the "
 "density plot (area under the curve), and highlights the cumulative "
 "probability at the specified values in the cumulative distribution plot"
-msgstr ""
+msgstr "在密度图中突出显示指定 x 值之间的概率（曲线下面积），并在累积分布图中突出显示指定值处的累积概率。"
 
 msgctxt "LDOptions|"
 msgid ""
 "Select the bounds of the interval to display: Density is highlighted at the "
 "lower and upper bounds, the probability is displayed for the specified "
 "interval."
-msgstr ""
+msgstr "选择要显示的区间边界：在下限和上限处突出显示密度，并显示指定区间的概率。"
 
 msgctxt "LDbinomial|"
 msgid "Demonstration of the Binomial distribution."
-msgstr ""
+msgstr "二项分布的演示。"
 
 msgctxt "LDbinomial|"
 msgid ""
 "Displays theoretical Binomial distribution, given specified parameter values."
-msgstr ""
+msgstr "在给定指定参数值的情况下显示理论二项分布。"
 
 msgctxt "LDbinomial|"
 msgid ""
 "probability of \"success\". This parameter can be freely estimated from the "
 "data."
-msgstr ""
+msgstr "“成功”的概率。此参数可从数据中自由估计。"
 
 msgctxt "LDbinomial|"
 msgid "number of trials. This parameter is fixed when fitting the data."
-msgstr ""
+msgstr "试验次数。此参数在拟合数据时保持不变。"
 
 msgctxt "LDbinomial|"
 msgid "Displays explanatory text"
-msgstr ""
+msgstr "显示说明文字"
 
 msgctxt "LDbinomial|"
 msgid ""
 "Displays the definition of parameters, the support of the random variable, "
 "and the moments of the theoretical distribution"
-msgstr ""
+msgstr "显示参数的定义、随机变量的支撑以及理论分布的矩"
 
 msgctxt "LDbinomial|"
 msgid "Displays the probability mass plot"
-msgstr ""
+msgstr "显示概率质量图"
 
 msgctxt "LDbinomial|"
 msgid "Displays the cumulative distribution plot"
-msgstr ""
+msgstr "显示累积分布图"
 
 msgctxt "LDbinomial|"
 msgid ""
 "Defines the limits of the x-axis of the probability density plot and "
 "cumulative distribution plot."
-msgstr ""
+msgstr "定义概率密度图和累积分布图的 x 轴范围。"
 
 msgctxt "LDbinomial|"
 msgid ""
 "Highlights the probability density on the probability density plot and "
 "cumulative distribution plot at specified values of x"
-msgstr ""
+msgstr "在指定的 x 值处突出显示概率密度图和累积分布图上的概率密度。"
 
 msgctxt "LDbinomial|"
 msgid ""
 "Highlights the probability in between the specified values of x in the "
 "density plot (area under the curve), and highlights the cumulative "
 "probability at the specified values in the cumulative distribution plot"
-msgstr ""
+msgstr "在密度图中突出显示指定 x 值之间的概率（曲线下面积），并在累积分布图中突出显示指定值处的累积概率。"
 
 msgctxt "LDbinomial|"
 msgid ""
 "Select the bounds of the ordered set to display: Density is highlighted at "
 "the lower and upper bounds, the probability is displayed for the specified "
 "interval."
-msgstr ""
+msgstr "选择要显示的有序集边界：在下限和上限处突出显示密度，并显示指定区间的概率。"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Demonstration of the Normal (Gaussian) distribution"
-msgstr ""
+msgstr "正态（高斯）分布的演示"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "Displays theoretical Normal distribution, given specified parameter values."
-msgstr ""
+msgstr "在给定指定参数值的情况下显示理论正态分布。"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "The Normal distribution is specified using the mean and variance parameters"
-msgstr ""
+msgstr "正态分布使用均值和方差参数指定。"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "The Normal distribution is specified using the mean and standard deviation "
 "parameters"
-msgstr ""
+msgstr "正态分布使用均值和标准差参数指定。"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "The Normal distribution is specified using the mean and precision parameters"
-msgstr ""
+msgstr "正态分布使用均值和精度参数指定。"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "The Normal distribution is specified using the mean and square root of "
 "precision parameters"
-msgstr ""
+msgstr "正态分布使用均值和精度平方根参数指定。"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Displays explanatory text"
-msgstr ""
+msgstr "显示说明文字"
 
 msgctxt "LDgaussianunivariate|"
 msgid ""
 "Displays the definition of parameters, the support of the random variable, "
 "and the moments of the theoretical distribution"
-msgstr ""
+msgstr "显示参数的定义、随机变量的支撑以及理论分布的矩"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Displays the probability density plot"
-msgstr ""
+msgstr "显示概率密度图"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Displays the cumulative distribution plot"
-msgstr ""
+msgstr "显示累积分布图"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Displays the quantile plot"
-msgstr ""
+msgstr "显示分位数图"
 
 msgctxt "LDAssessFit|"
 msgid "Lillienfors"
-msgstr ""
+msgstr "Lilliefors 检验"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Lillienfors test"
-msgstr ""
+msgstr "显示 Lilliefors 检验。"
 
 msgctxt "LDEstimateParameters|"
 msgid "Bias corrected"
-msgstr ""
+msgstr "偏差校正"
 
 msgctxt "LDAssessFit|"
 msgid "Shapiro-Francia"
-msgstr ""
+msgstr "Shapiro-Francia 检验"
 
 msgctxt "LDAssessFit|"
 msgid "Displays the Shapiro-Francia test of normality"
-msgstr ""
+msgstr "显示 Shapiro-Francia 正态性检验。"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), σ (std.deviation)"
-msgstr ""
+msgstr "μ（均值）、σ（标准差）"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), σ² (variance)"
-msgstr ""
+msgstr "μ（均值）、σ²（方差）"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), τ (precision)"
-msgstr ""
+msgstr "μ（均值）、τ（精度）"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (rate)"
-msgstr ""
+msgstr "λ（速率）"
 
 msgctxt "DistributionSpecification|"
 msgid "β (scale)"
-msgstr ""
+msgstr "β（尺度）"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), θ (scale)"
-msgstr ""
+msgstr "α（形状）、θ（尺度）"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), λ (rate)"
-msgstr ""
+msgstr "α（形状）、λ（速率）"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), μ (mean)"
-msgstr ""
+msgstr "α（形状）、μ（均值）"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (log location), σ (log scale)"
-msgstr ""
+msgstr "μ（对数位置）、σ（对数尺度）"
 
 msgctxt "DistributionSpecification|"
 msgid "α (scale), β (shape)"
-msgstr ""
+msgstr "α（尺度）、β（形状）"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), λ (shape)"
-msgstr ""
+msgstr "μ（均值）、λ（形状）"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (drift), α (threshold), σ (noise)"
-msgstr ""
+msgstr "ν（漂移）、α（阈值）、σ（噪声）"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (rate), shift"
-msgstr ""
+msgstr "λ（速率）、位移"
 
 msgctxt "DistributionSpecification|"
 msgid "β (scale), shift"
-msgstr ""
+msgstr "β（尺度）、位移"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), θ (scale), shift"
-msgstr ""
+msgstr "α（形状）、θ（尺度）、位移"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), λ (rate), shift"
-msgstr ""
+msgstr "α（形状）、λ（速率）、位移"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape), μ (mean), shift"
-msgstr ""
+msgstr "α（形状）、μ（均值）、位移"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (log location), σ (log scale), shift"
-msgstr ""
+msgstr "μ（对数位置）、σ（对数尺度）、位移"
 
 msgctxt "DistributionSpecification|"
 msgid "α (scale), β (shape), shift"
-msgstr ""
+msgstr "α（尺度）、β（形状）、位移"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean), λ (shape), shift"
-msgstr ""
+msgstr "μ（均值）、λ（形状）、位移"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (drift), α (threshold), σ (noise), shift"
-msgstr ""
+msgstr "ν（漂移）、α（阈值）、σ（噪声）、位移"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3217,15 +3217,15 @@ msgstr "正态"
 
 msgctxt "DistributionSpecification|"
 msgid "Standard normal"
-msgstr ""
+msgstr "标准正态"
 
 msgctxt "DistributionSpecification|"
 msgid "Standard t"
-msgstr ""
+msgstr "标准 t"
 
 msgctxt "DistributionSpecification|"
 msgid "Student t"
-msgstr ""
+msgstr "学生 t"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3234,7 +3234,7 @@ msgstr "非中心t分布"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral Student t"
-msgstr ""
+msgstr "非中心学生 t"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3263,7 +3263,7 @@ msgstr "广义偏斜t分布"
 
 msgctxt "DistributionSpecification|"
 msgid "Symmetric generalized normal"
-msgstr ""
+msgstr "对称广义正态"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3272,7 +3272,7 @@ msgstr "斜正态"
 
 msgctxt "DistributionSpecification|"
 msgid "Skew Cauchy"
-msgstr ""
+msgstr "斜柯西"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3291,11 +3291,11 @@ msgstr "Beta prime"
 
 msgctxt "DistributionSpecification|"
 msgid "F"
-msgstr ""
+msgstr "F"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral F"
-msgstr ""
+msgstr "非中心 F"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3304,7 +3304,7 @@ msgstr "卡方"
 
 msgctxt "DistributionSpecification|"
 msgid "Noncentral chi-squared"
-msgstr ""
+msgstr "非中心卡方"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3338,7 +3338,7 @@ msgstr "对数正态分布(Log-normal)"
 
 msgctxt "DistributionSpecification|"
 msgid "Wald"
-msgstr ""
+msgstr "Wald"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3377,35 +3377,35 @@ msgstr "均匀分布"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Exponential"
-msgstr ""
+msgstr "位移指数"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Log-normal"
-msgstr ""
+msgstr "位移对数正态"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Gamma"
-msgstr ""
+msgstr "位移伽马"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Inverse gamma"
-msgstr ""
+msgstr "位移逆伽马"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Log-logistic"
-msgstr ""
+msgstr "位移对数逻辑斯蒂"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Wald"
-msgstr ""
+msgstr "位移 Wald"
 
 msgctxt "DistributionSpecification|"
 msgid "Shifted Weibull"
-msgstr ""
+msgstr "位移韦布尔"
 
 msgctxt "DistributionSpecification|"
 msgid "Show parameter settings"
-msgstr ""
+msgstr "显示参数设置"
 
 #, fuzzy
 msgctxt "DistributionSpecification|"
@@ -3416,99 +3416,99 @@ msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Specify a set of distributions, estimate their parameters, and compare their "
 "fit to data."
-msgstr ""
+msgstr "指定一组分布，估计其参数，并比较它们对数据的拟合优度。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Select data for distribution comparison."
-msgstr ""
+msgstr "选择用于分布比较的数据。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Variable"
-msgstr ""
+msgstr "变量"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Specify distributions"
-msgstr ""
+msgstr "指定分布"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Specify distributions to be compared..."
-msgstr ""
+msgstr "指定要比较的分布……"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Output"
-msgstr ""
+msgstr "输出"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Control what output will be generated."
-msgstr ""
+msgstr "控制将生成哪些输出。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Distribution comparison table"
-msgstr ""
+msgstr "分布比较表"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Outputs the main distribution comparison table."
-msgstr ""
+msgstr "输出主要的分布比较表。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Order by"
-msgstr ""
+msgstr "排序依据"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Order by AIC/BIC"
-msgstr ""
+msgstr "按 AIC/BIC 排序"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Orders the output by how well the distributions fit the data (according to "
 "AIC or BIC)."
-msgstr ""
+msgstr "根据分布对数据的拟合优度（依据 AIC 或 BIC）对输出进行排序。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "AIC"
-msgstr ""
+msgstr "AIC"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "BIC"
-msgstr ""
+msgstr "BIC"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Output per distribution"
-msgstr ""
+msgstr "每个分布的输出"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Get detailed output for individual distributions."
-msgstr ""
+msgstr "获取各个分布的详细输出。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Limit output to the first"
-msgstr ""
+msgstr "将输出限制为前"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Limit output to the first x distributions"
-msgstr ""
+msgstr "将输出限制为前 x 个分布"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Show the detailed output only for the top x distributions."
-msgstr ""
+msgstr "仅显示排名前 x 的分布的详细输出。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "distributions"
-msgstr ""
+msgstr "个分布"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Parameter estimates"
-msgstr ""
+msgstr "参数估计"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Obtain a table of parameter estimates. *Note*: All parameters are estimated "
 "with maximum likelihood."
-msgstr ""
+msgstr "获取参数估计表。*注意*：所有参数均通过最大似然法估计。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Goodness of fit"
-msgstr ""
+msgstr "拟合优度"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
@@ -3523,36 +3523,36 @@ msgid ""
 "versions of goodness of fit tests are computed, appropriate for this "
 "setting. If the normal distribution has some parameters fixed, it is treated "
 "as any other distribution."
-msgstr ""
+msgstr "计算拟合优度检验。对于大多数分布，默认检验是复合原假设下的 Cramér-von Mises 检验和 Anderson-Darling 检验。请注意，这些检验依赖于将数据随机分为两组；因此结果可能会有差异，尤其是在样本量较小时。当分布没有自由参数（即所有参数均固定）时，检验为简单原假设下的 Kolmogorov-Smirnov 检验、Cramér-von Mises 检验和 Anderson-Darling 检验。对于位置和尺度参数自由的分布，会计算适用于该情形的特定版本拟合优度检验。如果正态分布的某些参数被固定，则将其视为与其他分布相同。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Parametric bootstrap from"
-msgstr ""
+msgstr "参数自助法样本数"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Parametric bootstrap from x samples"
-msgstr ""
+msgstr "x 个样本的参数自助法"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Obtain the p-value of the goodness-of-fit tests using parametric bootstrap. "
 "In this case, the test statistics are always Kolmorogov-Smirnov, and Cramér–"
 "von Mises and Anderson-Darling for simple null hypothesis."
-msgstr ""
+msgstr "使用参数自助法获取拟合优度检验的 p 值。在此情况下，检验统计量始终是简单原假设下的 Kolmorogov-Smirnov、Cramér–von Mises 和 Anderson-Darling。"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "samples"
-msgstr ""
+msgstr "个样本"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Plot the distribution against data"
-msgstr ""
+msgstr "将分布与数据对照绘图"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Outputs histogram vs theoretical density plot, empirical vs. theoretical "
 "cumulative distribution function, the Q-Q plot, and the P-P plot."
-msgstr ""
+msgstr "输出直方图与理论密度图、经验与理论累积分布函数、Q-Q 图和 P-P 图。"
 
 #, fuzzy
 msgctxt "CompareContinuousDistributions|"
@@ -3561,186 +3561,186 @@ msgstr "置信区间"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Add the confidence interval to the P-P and Q-Q plots."
-msgstr ""
+msgstr "在 P-P 图和 Q-Q 图中添加置信区间。"
 
 msgctxt "Description|"
 msgid "Compare Distributions"
-msgstr ""
+msgstr "比较分布"
 
 msgctxt "Description|"
 msgid "Compare Continuous Distributions"
-msgstr ""
+msgstr "比较连续分布"
 
 msgctxt "DistributionSpecification|"
 msgid "<Select a distribution>"
-msgstr ""
+msgstr "<选择分布>"
 
 msgctxt "CompareContinuousDistributions|"
 msgid "Show full distribution specification"
-msgstr ""
+msgstr "显示完整分布说明"
 
 msgctxt "CompareContinuousDistributions|"
 msgid ""
 "Displays the full distribution specification, including its parameters. If "
 "unchecked, only distribution names are shown."
-msgstr ""
+msgstr "显示完整的分布说明，包括其参数。如果取消选中，则仅显示分布名称。"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (mean)"
-msgstr ""
+msgstr "μ（均值）"
 
 msgctxt "DistributionSpecification|"
 msgid "σ (std. deviation)"
-msgstr ""
+msgstr "σ（标准差）"
 
 msgctxt "DistributionSpecification|"
 msgid "σ² (variance)"
-msgstr ""
+msgstr "σ²（方差）"
 
 msgctxt "DistributionSpecification|"
 msgid "τ (precision)"
-msgstr ""
+msgstr "τ（精度）"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (df)"
-msgstr ""
+msgstr "ν（自由度）"
 
 msgctxt "DistributionSpecification|"
 msgid "κ (noncentrality)"
-msgstr ""
+msgstr "κ（非中心参数）"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (location)"
-msgstr ""
+msgstr "μ（位置）"
 
 msgctxt "DistributionSpecification|"
 msgid "σ (scale)"
-msgstr ""
+msgstr "σ（尺度）"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (skew)"
-msgstr ""
+msgstr "λ（偏度）"
 
 msgctxt "DistributionSpecification|"
 msgid "p (kurtosis)"
-msgstr ""
+msgstr "p（峰度）"
 
 msgctxt "DistributionSpecification|"
 msgid "q (kurtosis)"
-msgstr ""
+msgstr "q（峰度）"
 
 msgctxt "DistributionSpecification|"
 msgid "α (scale)"
-msgstr ""
+msgstr "α（尺度）"
 
 msgctxt "DistributionSpecification|"
 msgid "β (shape)"
-msgstr ""
+msgstr "β（形状）"
 
 msgctxt "DistributionSpecification|"
 msgid "ξ (location)"
-msgstr ""
+msgstr "ξ（位置）"
 
 msgctxt "DistributionSpecification|"
 msgid "ω (scale)"
-msgstr ""
+msgstr "ω（尺度）"
 
 msgctxt "DistributionSpecification|"
 msgid "α (slant)"
-msgstr ""
+msgstr "α（倾斜）"
 
 msgctxt "DistributionSpecification|"
 msgid "α (shape)"
-msgstr ""
+msgstr "α（形状）"
 
 msgctxt "DistributionSpecification|"
 msgid "ν₁ (df)"
-msgstr ""
+msgstr "ν₁（自由度）"
 
 msgctxt "DistributionSpecification|"
 msgid "ν₂ (df)"
-msgstr ""
+msgstr "ν₂（自由度）"
 
 msgctxt "DistributionSpecification|"
 msgid "θ (scale)"
-msgstr ""
+msgstr "θ（尺度）"
 
 msgctxt "DistributionSpecification|"
 msgid "η (shape)"
-msgstr ""
+msgstr "η（形状）"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (log location)"
-msgstr ""
+msgstr "μ（对数位置）"
 
 msgctxt "DistributionSpecification|"
 msgid "σ (log scale)"
-msgstr ""
+msgstr "σ（对数尺度）"
 
 msgctxt "DistributionSpecification|"
 msgid "μ (log mean)"
-msgstr ""
+msgstr "μ（对数均值）"
 
 msgctxt "DistributionSpecification|"
 msgid "σ (log std. deviation)"
-msgstr ""
+msgstr "σ（对数标准差）"
 
 msgctxt "DistributionSpecification|"
 msgid "λ (shape)"
-msgstr ""
+msgstr "λ（形状）"
 
 msgctxt "DistributionSpecification|"
 msgid "ν (drift)"
-msgstr ""
+msgstr "ν（漂移）"
 
 msgctxt "DistributionSpecification|"
 msgid "α (threshold)"
-msgstr ""
+msgstr "α（阈值）"
 
 msgctxt "DistributionSpecification|"
 msgid "σ (noise)"
-msgstr ""
+msgstr "σ（噪声）"
 
 msgctxt "DistributionSpecification|"
 msgid "shape"
-msgstr ""
+msgstr "形状"
 
 msgctxt "DistributionSpecification|"
 msgid "scale"
-msgstr ""
+msgstr "尺度"
 
 msgctxt "DistributionSpecification|"
 msgid "a (location)"
-msgstr ""
+msgstr "a（位置）"
 
 msgctxt "DistributionSpecification|"
 msgid "min"
-msgstr ""
+msgstr "min"
 
 msgctxt "DistributionSpecification|"
 msgid "max"
-msgstr ""
+msgstr "max"
 
 msgctxt "DistributionSpecification|"
 msgid "θ (location)"
-msgstr ""
+msgstr "θ（位置）"
 
 msgctxt "DistributionSpecification|"
 msgid "a (min)"
-msgstr ""
+msgstr "a（最小值）"
 
 msgctxt "DistributionSpecification|"
 msgid "b (max)"
-msgstr ""
+msgstr "b（最大值）"
 
 msgctxt "DistributionSpecification|"
 msgid "c (mode)"
-msgstr ""
+msgstr "c（众数）"
 
 msgctxt "DistributionSpecification|"
 msgid "shift"
-msgstr ""
+msgstr "位移"
 
 msgctxt "DistributionSpecification|"
 msgid "Fixed"
-msgstr ""
+msgstr "固定"

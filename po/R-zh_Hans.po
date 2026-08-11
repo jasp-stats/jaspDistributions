@@ -1,0 +1,658 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jaspDistributions 0.1\n"
+"Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
+"POT-Creation-Date: 2026-01-01 00:00+0000\n"
+"PO-Revision-Date: 2026-01-01 00:00+0000\n"
+"Last-Translator: JASP translators\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_Hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Could not write to column '%s', probably because it wasn't created by this analysis"
+msgstr "无法写入列“%s”，可能是因为该列不是由本次分析创建的"
+
+msgid "The following problem(s) occurred while running the analysis:<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
+msgstr "运行分析时出现以下问题：<ul><li>变量必须是离散的（即整数）</li></ul>"
+
+msgid "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
+msgstr "<ul><li>变量必须是离散的（即整数）</li></ul>"
+
+msgid "Overview - %s"
+msgstr "概述 - %s"
+
+msgid "Descriptives"
+msgstr "描述统计"
+
+msgid "Variable"
+msgstr "变量"
+
+msgid "n"
+msgstr "n"
+
+msgid "Mean"
+msgstr "均值"
+
+msgid "Variance"
+msgstr "方差"
+
+msgid "Std. deviation"
+msgstr "标准差"
+
+msgid "Minimum"
+msgstr "最小值"
+
+msgid "25%% Quantile"
+msgstr "25%% 分位数"
+
+msgid "Median"
+msgstr "中位数"
+
+msgid "75%% Quantile"
+msgstr "75%% 分位数"
+
+msgid "Maximum"
+msgstr "最大值"
+
+msgid "Rel. Frequency"
+msgstr "相对频率"
+
+msgid "Total"
+msgstr "总计"
+
+msgid "Observed Moments"
+msgstr "观测矩"
+
+msgid "Moment"
+msgstr "矩"
+
+msgid "Raw"
+msgstr "原始"
+
+msgid "Central"
+msgstr "中心"
+
+msgid "Estimated Parameters"
+msgstr "参数估计"
+
+msgid "Parameter"
+msgstr "参数"
+
+msgid "Estimate"
+msgstr "估计值"
+
+msgid "SE"
+msgstr "标准误"
+
+msgid "Standard errors are unavailable with this method"
+msgstr "此方法无法计算标准误"
+
+msgid "Lower"
+msgstr "下限"
+
+msgid "%s%% CI"
+msgstr "%s%% 置信区间"
+
+msgid "Upper"
+msgstr "上限"
+
+msgid "Confidence intervals are unavailable with this method."
+msgstr "此方法无法计算置信区间。"
+
+msgid "Confidence intervals were calculated using the delta method."
+msgstr "置信区间使用德尔塔方法计算。"
+
+msgid "Standard errors were calculated using the delta method."
+msgstr "标准误使用德尔塔方法计算。"
+
+msgid "Standard errors and confidence intervals were calculated using the delta method."
+msgstr "标准误和置信区间使用德尔塔方法计算。"
+
+msgid "Maximum likelihood"
+msgstr "最大似然"
+
+msgid "Fit Assessment"
+msgstr "拟合评估"
+
+msgid "Fit Statistics"
+msgstr "拟合统计量"
+
+msgid "Test"
+msgstr "检验"
+
+msgid "Statistic"
+msgstr "统计量"
+
+msgid "p"
+msgstr "p"
+
+msgid "Kolmogorov-Smirnov"
+msgstr "Kolmogorov-Smirnov"
+
+msgid "Cramér-von Mises"
+msgstr "Cramér–von Mises"
+
+msgid "Anderson-Darling"
+msgstr "Anderson-Darling"
+
+msgid "Lillienfors"
+msgstr "Lilliefors"
+
+msgid "Shapiro-Wilk"
+msgstr "Shapiro–Wilk"
+
+msgid "Shapiro-Francia"
+msgstr "Shapiro–Francia"
+
+msgid "Chi-square"
+msgstr "卡方"
+
+msgid "Using Brown (1980) approximation which tends to be innacurate for small sample sizes."
+msgstr "使用 Brown (1980) 近似，该近似在样本量较小时往往不准确。"
+
+msgid "Histogram vs. Theoretical PDF"
+msgstr "直方图与理论概率密度函数"
+
+msgid "Histogram vs. Theoretical PMF"
+msgstr "直方图与理论概率质量函数"
+
+msgid "Q-Q plot"
+msgstr "Q-Q 图"
+
+msgid "Empirical vs. Theoretical CDF"
+msgstr "经验与理论累积分布函数"
+
+msgid "P-P plot"
+msgstr "P-P 图"
+
+msgid "Sample"
+msgstr "样本"
+
+msgid "Theoretical"
+msgstr "理论"
+
+msgid "Density"
+msgstr "密度"
+
+msgid "Probability Mass"
+msgstr "概率质量"
+
+msgid "Probability"
+msgstr "概率"
+
+msgid "Probability Density Function"
+msgstr "概率密度函数"
+
+msgid "Probability Mass Function"
+msgstr "概率质量函数"
+
+msgid "Cumulative Distribution Function"
+msgstr "累积分布函数"
+
+msgid "Quantile Function"
+msgstr "分位数函数"
+
+msgid "Formula"
+msgstr "公式"
+
+msgid "Density Plot"
+msgstr "密度图"
+
+msgid "Cumulative Probability Plot"
+msgstr "累积概率图"
+
+msgid "Slope"
+msgstr "斜率"
+
+msgid "Quantile Plot"
+msgstr "分位数图"
+
+msgid "Probability Mass Plot"
+msgstr "概率质量图"
+
+msgid "Histogram"
+msgstr "直方图"
+
+msgid "Bar plot"
+msgstr "条形图"
+
+msgid "Rel. Freq (%s in bin)"
+msgstr "相对频率（箱内 %s）"
+
+msgid "Empirical Cumulative Distribution"
+msgstr "经验累积分布"
+
+msgid "Freq"
+msgstr "频率"
+
+msgid "Parameters, Support, and Moments"
+msgstr "参数、支撑与矩"
+
+msgid "<b>Parameters</b>\n      %1$s\n\n      <b>Support</b>\n      %2$s\n\n      <b>Moments</b>\n      E(X) = %3$s\n      Var(X) = %4$s"
+msgstr "<b>参数</b>\n      %1$s\n\n      <b>支撑</b>\n      %2$s\n\n      <b>矩</b>\n      E(X) = %3$s\n      Var(X) = %4$s"
+
+msgid "<b>Parameters</b>\n      %1$s\n\n      <b>Support</b>\n      %2$s\n\n      <b>Moments</b>\n      not available"
+msgstr "<b>参数</b>\n      %1$s\n\n      <b>支撑</b>\n      %2$s\n\n      <b>矩</b>\n      不可用"
+
+msgid "The probability density function (PDF), usually denoted as f(x), is a function of a random variable X.\n    The value of f(x) provides the relative likelihood that a realization of the random variable X yields a value equal to x.\n    More formally, the PDF is defined as a derivative of a cumulative distribution function (CDF).\n\n    The density plot displays the probability density function of a random variable.\n    The <i>y</i>-axis displays the value of the density function for a particular value of the random variable (displayed on the <i>x</i>-axis)."
+msgstr "概率密度函数（PDF），通常记为 f(x)，是随机变量 X 的函数。\n    f(x) 的值给出随机变量 X 的实现产生等于 x 的值的相对可能性。\n    更正式地说，PDF 被定义为累积分布函数（CDF）的导数。\n\n    密度图显示随机变量的概率密度函数。\n    <i>y</i> 轴显示随机变量某一特定值（显示在 <i>x</i> 轴上）所对应的密度函数值。"
+
+msgid "The probability mass function (PMF), usually denoted as f(x), is a function of a random variable X.\n    The value of f(x) provides the probability that a realization of the random variable X yields a value equal to x.\n\n    The probability mass plot displays the probability mass function of a random variable.\n    The <i>y</i>-axis displays the value of the probability mass function for a particular value of the random variable (displayed on the <i>x</i>-axis)."
+msgstr "概率质量函数（PMF），通常记为 f(x)，是随机变量 X 的函数。\n    f(x) 的值给出随机变量 X 的实现产生等于 x 的值的概率。\n\n    概率质量图显示随机变量的概率质量函数。\n    <i>y</i> 轴显示随机变量某一特定值（显示在 <i>x</i> 轴上）所对应的概率质量函数值。"
+
+msgid "The cumulative distribution function (CDF), usually denoted as F(x), is a function of a random variable X.\n    The value of F(x) provides the probability that a realization of the random variable X yields a value that is equal to or smaller than x.\n\n    The cumulative probability plot displays the cumulative distribution function of a random variable.\n    The <i>y</i>-axis displays the value of the cumulative distribution function for a particular value of the random variable (displayed on the <i>x</i>-axis)."
+msgstr "累积分布函数（CDF），通常记为 F(x)，是随机变量 X 的函数。\n    F(x) 的值给出随机变量 X 的实现产生等于或小于 x 的值的概率。\n\n    累积概率图显示随机变量的累积分布函数。\n    <i>y</i> 轴显示随机变量某一特定值（显示在 <i>x</i> 轴上）所对应的累积分布函数值。"
+
+msgid "The quantile function, usually denoted as Q(p), is the inverse of the cumulative distribution function.\n    The function gives the quantile such that the probability of the random variable being less than or equal to that value equals the given probability p.\n\n    The quantile plot displays the quantile function.\n    The <i>y</i>-axis displays the quantile of which the probability that the random variable is less or equal to that value is equal to p (displayed on the <i>x</i>-axis)."
+msgstr "分位数函数，通常记为 Q(p)，是累积分布函数的反函数。\n    该函数给出一个分位数，使得随机变量小于或等于该值的概率等于给定的概率 p。\n\n    分位数图显示分位数函数。\n    <i>y</i> 轴显示满足随机变量小于或等于该值的概率等于 p（显示在 <i>x</i> 轴上）的分位数。"
+
+msgid "<h3> Demonstration of the %1$s </h3>\nThis demonstration is divided into four parts.\nThe first part displays the %2$s, its probability density function, cumulative distribution function, and quantile function.\nThe second part allows you to generate data from the %3$s, compute descriptive statistics, and display descriptive plots.\nThe third part allows you to estimate the parameters of the %4$s.\nThe fourth part allows you to check the fit of the %5$s to the data.\n\n<b>References</b>\n\nBlitzstein, J. K., & Hwang, J. (2014). <i>Introduction to probability.</i> Chapman and Hall/CRC.\n\nLeemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, 16</i>(4), 8–9.\n\nFor relationships with other distributions, visit %6$s.\n\n%7$s"
+msgstr "<h3> %1$s 的演示 </h3>\n本演示分为四个部分。\n第一部分显示 %2$s 及其概率密度函数、累积分布函数和分位数函数。\n第二部分允许您从 %3$s 生成数据、计算描述统计量并显示描述性图形。\n第三部分允许您估计 %4$s 的参数。\n第四部分允许您检查 %5$s 对数据的拟合情况。\n\n<b>参考文献</b>\n\nBlitzstein, J. K., & Hwang, J. (2014). <i>Introduction to probability.</i> Chapman and Hall/CRC.\n\nLeemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, 16</i>(4), 8–9.\n\n有关与其他分布的关系，请访问 %6$s。\n\n%7$s"
+
+msgid "Estimation failed: Optimization did not converge. <ul><li>Try adjusting parameter values, check outliers or feasibility of the distribution fitting the data.</li></ul>"
+msgstr "估计失败：优化未收敛。<ul><li>尝试调整参数值，检查异常值或分布拟合数据的可行性。</li></ul>"
+
+msgid "Estimation failed: Hessian matrix is not numerically computable. <ul><li>Check outliers or feasibility of the distribution fitting the data.</li></ul>"
+msgstr "估计失败：无法在数值上计算海森矩阵。<ul><li>检查异常值或分布拟合数据的可行性。</li></ul>"
+
+msgid "Could not initialize distribution %1$s, with the following error: <br> %2$s"
+msgstr "无法初始化分布 %1$s，错误如下：<br> %2$s"
+
+msgid "Could not fit distribution %1$s, with the following error: <br> %2$s. <br> You can try to change the initial parameter values, or remove the distribution from the distribution specification"
+msgstr "无法拟合分布 %1$s，错误如下：<br> %2$s。<br> 您可以尝试更改初始参数值，或从分布规范中移除该分布"
+
+msgid "Could not compute information criteria for %1$s, with the following error: <br> %2$s."
+msgstr "无法计算 %1$s 的信息准则，错误如下：<br> %2$s。"
+
+msgid "Distribution comparison table"
+msgstr "分布比较表"
+
+msgid "Distribution"
+msgstr "分布"
+
+msgid "AIC"
+msgstr "AIC"
+
+msgid "Weights"
+msgstr "权重"
+
+msgid "BIC"
+msgstr "BIC"
+
+msgid "Log. Lik"
+msgstr "对数似然"
+
+msgid "df"
+msgstr "df"
+
+msgid "Distribution comparison table (n=%1$i)"
+msgstr "分布比较表（n=%1$i）"
+
+msgid "Parameter estimates"
+msgstr "参数估计"
+
+msgid "Key"
+msgstr "键"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Label"
+msgstr "标签"
+
+msgid "Distribution has no parameters to estimate."
+msgstr "该分布没有需要估计的参数。"
+
+msgid "The following parameters were held constant: %s."
+msgstr "以下参数保持不变：%s。"
+
+msgid "Goodness of fit"
+msgstr "拟合优度"
+
+msgid "Bootstrapping..."
+msgstr "正在进行自助法……"
+
+msgid "Could not obtain goodness of fit: <br> %s"
+msgstr "无法获得拟合优度：<br> %s"
+
+msgid "Based on %1$i valid parametric bootstrap samples."
+msgstr "基于 %1$i 个有效的参数自助法样本。"
+
+msgid "Empirical plots"
+msgstr "经验图"
+
+msgid "Histogram vs. theoretical density"
+msgstr "直方图与理论密度"
+
+msgid "Empirical vs. theoretical cumulative probability"
+msgstr "经验与理论累积概率"
+
+msgid "Cramér–von Mises"
+msgstr "Cramér–von Mises"
+
+msgid "Lilliefors"
+msgstr "Lilliefors"
+
+msgid "Amoroso distribution"
+msgstr "Amoroso 分布"
+
+msgid "location: a %s"
+msgstr "位置：a %s"
+
+msgid "scale: %s"
+msgstr "尺度：%s"
+
+msgid "shape: %s"
+msgstr "形状：%s"
+
+msgid "The optimization did not converge, try adjusting the parameter values."
+msgstr "优化未收敛，请尝试调整参数值。"
+
+msgid "<i>Warning.</i>"
+msgstr "<i>警告。</i>"
+
+msgid "Scale parameter %s is assumed positive."
+msgstr "假定尺度参数 %s 为正。"
+
+msgid "Scale parameter %s is assumed negative."
+msgstr "假定尺度参数 %s 为负。"
+
+msgid "Bernoulli distribution"
+msgstr "伯努利分布"
+
+msgid "probability of success: p %1$s %2$s: 0 %3$s p %4$s 1"
+msgstr "成功概率：p %1$s %2$s：0 %3$s p %4$s 1"
+
+msgid "x %s {0, 1}"
+msgstr "x %s {0, 1}"
+
+msgid "p(1-p)"
+msgstr "p(1-p)"
+
+msgid "beta distribution"
+msgstr "Beta 分布"
+
+msgid "beta-binomial distribution"
+msgstr "Beta-二项分布"
+
+msgid "number of trials: %s"
+msgstr "试验次数：%s"
+
+msgid "Parameter n was fixed at value %s."
+msgstr "参数 n 被固定为值 %s。"
+
+msgid "beta prime distribution"
+msgstr "Beta-prime 分布"
+
+msgid "lower bound: %s"
+msgstr "下限：%s"
+
+msgid "upper bound: %s"
+msgstr "上限：%s"
+
+msgid "binomial distribution"
+msgstr "二项分布"
+
+msgid "probability of success: %s"
+msgstr "成功概率：%s"
+
+msgid "Cauchy distribution"
+msgstr "柯西分布"
+
+msgid "location: &mu; %s"
+msgstr "位置：&mu; %s"
+
+msgid "undefined"
+msgstr "未定义"
+
+msgid "%s<sup>2</sup> distribution"
+msgstr "%s<sup>2</sup> 分布"
+
+msgid "degree of freedom: %s"
+msgstr "自由度：%s"
+
+msgid "non-centrality: %s"
+msgstr "非中心参数：%s"
+
+msgid "exponential distribution"
+msgstr "指数分布"
+
+msgid "rate: %s"
+msgstr "速率：%s"
+
+msgid "F-distribution"
+msgstr "F 分布"
+
+msgid "Fréchet distribution"
+msgstr "Fréchet 分布"
+
+msgid "location: %s"
+msgstr "位置：%s"
+
+msgid "see Wikipedia: %s"
+msgstr "参见维基百科：%s"
+
+msgid "gamma distribution"
+msgstr "伽马分布"
+
+msgid "mean: %s"
+msgstr "均值：%s"
+
+msgid "inverse gamma distribution"
+msgstr "逆伽马分布"
+
+msgid "normal distribution"
+msgstr "正态分布"
+
+msgid "mean: &mu; %s"
+msgstr "均值：&mu; %s"
+
+msgid "variance: %s"
+msgstr "方差：%s"
+
+msgid "standard deviation: %s"
+msgstr "标准差：%s"
+
+msgid "precision: %s"
+msgstr "精度：%s"
+
+msgid "square root of precision: %s"
+msgstr "精度的平方根：%s"
+
+msgid "&mu;"
+msgstr "&mu;"
+
+msgid "Unbiased with Bessel's correction."
+msgstr "使用 Bessel 校正的无偏估计。"
+
+msgid "geometric distribution"
+msgstr "几何分布"
+
+msgid "population size: %s"
+msgstr "总体规模：%s"
+
+msgid "number of success states in the population: %s"
+msgstr "总体中成功状态的数量：%s"
+
+msgid "number of draws from the population: %s"
+msgstr "从总体中抽取的次数：%s"
+
+msgid "Gompertz distribution"
+msgstr "Gompertz 分布"
+
+msgid "shape: %1$s \nscale: %2$s"
+msgstr "形状：%1$s \n尺度：%2$s"
+
+msgid "Gumbel distribution"
+msgstr "Gumbel 分布"
+
+msgid "hypergeometric distribution"
+msgstr "超几何分布"
+
+msgid "Laplace distribution"
+msgstr "拉普拉斯分布"
+
+msgid "log-logistic distribution"
+msgstr "对数逻辑斯蒂分布"
+
+msgid "log location: &mu; %s"
+msgstr "对数位置：&mu; %s"
+
+msgid "log scale: %s"
+msgstr "对数尺度：%s"
+
+msgid "scale: &alpha; %s"
+msgstr "尺度：&alpha; %s"
+
+msgid "logistic distribution"
+msgstr "逻辑斯蒂分布"
+
+msgid "(&sigma; &pi;)<sup>2</sup> / 3"
+msgstr "(&sigma; &pi;)<sup>2</sup> / 3"
+
+msgid "log-normal distribution"
+msgstr "对数正态分布"
+
+msgid "log mean: &mu; %s"
+msgstr "对数均值：&mu; %s"
+
+msgid "log standard deviation: %s"
+msgstr "对数标准差：%s"
+
+msgid "exp(&mu; + &sigma;<sup>2</sup>/2)"
+msgstr "exp(&mu; + &sigma;<sup>2</sup>/2)"
+
+msgid "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
+msgstr "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
+
+msgid "mixture of two normal distributions"
+msgstr "两个正态分布的混合"
+
+msgid "probability of first component: %s"
+msgstr "第一个成分的概率：%s"
+
+msgid "mean 1: %s"
+msgstr "均值 1：%s"
+
+msgid "std. deviation 1: %s"
+msgstr "标准差 1：%s"
+
+msgid "mean 2: %s"
+msgstr "均值 2：%s"
+
+msgid "std. deviation 2: %s"
+msgstr "标准差 2：%s"
+
+msgid "mixture of a normal and a uniform distribution"
+msgstr "正态分布与均匀分布的混合"
+
+msgid "probability of normal component: %s"
+msgstr "正态成分的概率：%s"
+
+msgid "mean of normal distribution: %s"
+msgstr "正态分布的均值：%s"
+
+msgid "std. deviation of normal distribution: %s"
+msgstr "正态分布的标准差：%s"
+
+msgid "minimum of uniform distribution: %s"
+msgstr "均匀分布的最小值：%s"
+
+msgid "maximum of uniform distribution: %s"
+msgstr "均匀分布的最大值：%s"
+
+msgid "Parameter a was fixed at value %1$s, parameter b was fixed at value %2$s."
+msgstr "参数 a 被固定为值 %1$s，参数 b 被固定为值 %2$s。"
+
+msgid "negative binomial distribution"
+msgstr "负二项分布"
+
+msgid "number of successes: %s"
+msgstr "成功次数：%s"
+
+msgid "dispersion: %s"
+msgstr "离散参数：%s"
+
+msgid "zero-inflated negative binomial distribution"
+msgstr "零膨胀负二项分布"
+
+msgid "probability of zero process: %s"
+msgstr "零过程的概率：%s"
+
+msgid "generalized normal distribution"
+msgstr "广义正态分布"
+
+msgid "skew normal distribution"
+msgstr "偏斜正态分布"
+
+msgid "Pareto distribution"
+msgstr "帕累托分布"
+
+msgid "Poisson distribution"
+msgstr "泊松分布"
+
+msgid "zero-inflated Poisson distribution"
+msgstr "零膨胀泊松分布"
+
+msgid "noncentral t-distribution"
+msgstr "非中心 t 分布"
+
+msgid "degrees of freedom: %s"
+msgstr "自由度：%s"
+
+msgid "does not exist unless df > 1"
+msgstr "除非 df > 1，否则不存在"
+
+msgid "does not exist unless df > 2"
+msgstr "除非 df > 2，否则不存在"
+
+msgid "see Azzalini & Capitanio (2003)"
+msgstr "参见 Azzalini & Capitanio (2003)"
+
+msgid "skewed generalized t-distribution"
+msgstr "偏斜广义 t 分布"
+
+msgid "skewness: %s"
+msgstr "偏度：%s"
+
+msgid "kurtosis: %s"
+msgstr "峰度：%s"
+
+msgid "scaled, shifted Student's t-distribution"
+msgstr "缩放、移位的学生 t 分布"
+
+msgid "triangular distribution"
+msgstr "三角分布"
+
+msgid "minimum: %s"
+msgstr "最小值：%s"
+
+msgid "maximum: %s"
+msgstr "最大值：%s"
+
+msgid "mode: %s"
+msgstr "众数：%s"
+
+msgid "uniform distribution"
+msgstr "均匀分布"
+
+msgid "Wald distribution"
+msgstr "Wald 分布"
+
+msgid "drift rate: %s"
+msgstr "漂移率：%s"
+
+msgid "threshold: %s"
+msgstr "阈值：%s"
+
+msgid "noise: %s"
+msgstr "噪声：%s"
+
+msgid "Parameter %s was fixed to 1."
+msgstr "参数 %s 被固定为 1。"
+
+msgid "Weibull distribution"
+msgstr "韦布尔分布"
