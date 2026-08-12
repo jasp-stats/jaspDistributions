@@ -17,37 +17,35 @@
 
 LDgammaInternal <- function(jaspResults, dataset, options, state=NULL){
   options <- .recodeOptionsLDgamma(options)
-  
+
   #### Show gamma section ----
-  .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("gamma distribution"), 
+  .ldShowDistribution(jaspResults = jaspResults, options = options, name = gettext("gamma distribution"),
                       parSupportMoments = .ldGammaParsSupportMoments,
-                      formulaPDF        = .ldFormulaGammaPDF, 
-                      formulaCDF        = .ldFormulaGammaCDF, 
+                      formulaPDF        = .ldFormulaGammaPDF,
+                      formulaCDF        = .ldFormulaGammaCDF,
                       formulaQF         = .ldFormulaGammaQF)
-  
+
   #### Generate and Display data section ----
   # simulate and read data
   .simulateData(jaspResults, options)
-  
+
   ready <- options[['variable']] != ""
   errors <- FALSE
-  if(ready && is.null(dataset)){
-    dataset <- .readDataSetToEnd(columns.as.numeric = options[['variable']])
-    
-    variable <- dataset[[.v(options[['variable']])]]
+  if(ready){
+    variable <- dataset[[options[['variable']]]]
     variable <- variable[!is.na(variable)]
     errors <- .hasErrors(dataset, type = c("observations", "variance", "infinity", "limits"),
                          observations.amount = "<2",
-                         limits.min = options$support$min, limits.max = options$support$max, 
+                         limits.min = options$support$min, limits.max = options$support$max,
                          exitAnalysisIfErrors = FALSE)
   }
-  
+
   # overview of the data
   .ldDescriptives(jaspResults, variable, options, ready, errors, "continuous")
-  
+
   #### Fit data and assess fit ----
   .ldMLE(jaspResults, variable, options, ready, errors, .ldFillGammaEstimatesTable)
-  
+
   return()
 }
 
@@ -60,24 +58,24 @@ LDgammaInternal <- function(jaspResults, dataset, options, state=NULL){
   } else {
     options$rate <- options$par2
   }
-  
+
   options[['parValNames']] <- c("shape", "par2")
-  
+
   options[['pars']]   <- list(shape = options[['shape']], rate = options[['rate']])
   options[['pdfFun']] <- stats::dgamma
   options[['cdfFun']] <- stats::pgamma
   options[['qFun']]   <- stats::qgamma
   options[['rFun']]   <- stats::rgamma
   options[['distNameInR']] <- "gamma"
-  
+
   options <- .ldOptionsDeterminePlotLimits(options)
-  
+
   options$support <- list(min = 0, max = Inf)
   options$lowerBound <- c(0, 0)
   options$upperBound <- c(Inf, Inf)
-  
+
   options$transformations <- c(shape = "shape", scale = "1/rate",  rate = "rate", mean = "shape/rate")
-  
+
   options
 }
 
@@ -93,19 +91,19 @@ LDgammaInternal <- function(jaspResults, dataset, options, state=NULL){
                         scale = gettextf("scale: %s", "&theta; \u2208 \u211D<sup>+</sup>"),
                         mean  = gettextf("mean: %s",  "&mu; \u2208 \u211D<sup>+</sup>"),
                                 gettextf("rate: %s",  "&beta; \u2208 \u211D<sup>+</sup>"))
-    
+
     support <- "x \u2208 \u211D<sup>+</sup>"
-    
+
     moments <- list()
-    moments$expectation <- switch(options[['parametrization']], 
-                                  scale = "k&theta;", 
+    moments$expectation <- switch(options[['parametrization']],
+                                  scale = "k&theta;",
                                   mean  = "&mu;",
                                           "&alpha;&beta;<sup>-1</sup>")
     moments$variance <- switch(options[['parametrization']],
                                scale = "k&theta;<sup>2</sup>",
                                mean  = "&mu;<sup>2</sup>k<sup>-1</sup>",
                                        "&alpha;&beta;<sup>-2</sup>")
-    
+
     jaspResults[['parsSupportMoments']] <- .ldParsSupportMoments(pars, support, moments)
   }
 }
@@ -113,24 +111,24 @@ LDgammaInternal <- function(jaspResults, dataset, options, state=NULL){
 .ldFormulaGammaPDF <- function(options){
   if(options[['parametrization']] == "scale"){
     text <- "<MATH>
-    f(x; <span style='color:red'>&alpha;</span>, <span style='color:blue'>&beta;</span>) = 
-(2&pi;<span style='color:blue'>&sigma;&sup2;</span>)<sup>-&frac12;</sup> 
+    f(x; <span style='color:red'>&alpha;</span>, <span style='color:blue'>&beta;</span>) =
+(2&pi;<span style='color:blue'>&sigma;&sup2;</span>)<sup>-&frac12;</sup>
 exp[-(x-<span style='color:red'>&mu;</span>)&sup2; &frasl; 2<span style='color:blue'>&sigma;&sup2;</span>]
     </MATH>"
   } else if(options[['parametrization']] == "mean"){
     text <- "<MATH>
-    f(x; <span style='color:red'>k</span>, <span style='color:blue'>&mu;</span>) = 
-    (2&pi;<span style='color:blue'>&sigma;</span>&sup2;)<sup>-&frac12;</sup> 
+    f(x; <span style='color:red'>k</span>, <span style='color:blue'>&mu;</span>) =
+    (2&pi;<span style='color:blue'>&sigma;</span>&sup2;)<sup>-&frac12;</sup>
     exp[-(x-<span style='color:red'>&mu;</span>)&sup2; &frasl; 2<span style='color:blue'>&sigma;</span>&sup2;]
     </MATH>"
   } else {
     text <- "<MATH>
-    f(x; <span style='color:red'>k</span>, <span style='color:blue'>&theta;</span>) = 
-    (<span style='color:blue'>&tau;&sup2;</span> &frasl; 2&pi;)<sup>&frac12;</sup> 
+    f(x; <span style='color:red'>k</span>, <span style='color:blue'>&theta;</span>) =
+    (<span style='color:blue'>&tau;&sup2;</span> &frasl; 2&pi;)<sup>&frac12;</sup>
     exp[-(x-<span style='color:red'>&mu;</span>)&sup2; <span style='color:blue'>&tau;&sup2;</span> &frasl; 2]
     </MATH>"
   }
-  
+
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
@@ -148,7 +146,7 @@ exp[-(x-<span style='color:red'>&mu;</span>)&sup2; &frasl; 2<span style='color:b
     F(x; <span style='color:red'>&mu;</span>, <span style='color:blue'>&tau;</span>)
     </MATH>"
   }
-  
+
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
@@ -166,7 +164,7 @@ exp[-(x-<span style='color:red'>&mu;</span>)&sup2; &frasl; 2<span style='color:b
     Q(p; <span style='color:red'>&mu;</span>, <span style='color:blue'>&tau;</span>)
     </MATH>"
   }
-  
+
   return(gsub(pattern = "\n", replacement = " ", x = text))
 }
 
@@ -176,21 +174,21 @@ exp[-(x-<span style='color:red'>&mu;</span>)&sup2; &frasl; 2<span style='color:b
   if(!ready) return()
   if(is.null(results)) return()
   if(is.null(table)) return()
-  
+
   par1 <- c(shape = c(scale = "k", rate = "\u03B1", mean = "k")[[options$parametrization]])
   par2 <- c(scale = "\u03B8", rate = "\u03B2", mean = "\u03BC")[options$parametrization]
   res <- results$structured
   res <- res[res$par %in% names(c(par1, par2)),]
   res$parName <- c(par1, par2)
-  
+
   if(results$fitdist$convergence != 0){
     table$addFootnote(gettext("The optimization did not converge, try adjusting the parameter values."), symbol = gettext("<i>Warning.</i>"))
   }
   if(!is.null(results$fitdist$optim.message)){
     table$addFootnote(results$fitdist$message, symbol = gettext("<i>Warning.</i>"))
   }
-  
+
   table$setData(res)
-  
+
   return()
 }

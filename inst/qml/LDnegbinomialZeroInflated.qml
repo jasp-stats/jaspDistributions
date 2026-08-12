@@ -126,7 +126,7 @@ Form
 		distributionName		: "Zero-inflated NBinomial"
 		formula					: "π = " + pi.value + [", k = ", ", φ = "][parametrization.currentIndex] + size.value + [", p = ", ", μ = "][parametrization.currentIndex] + par.value
 		histogramIsBarPlot		: true
-		allowOnlyScaleColumns	: false
+		allowOnlyScaleColumns	: true
 		suggestScaleColumns		: true
 		enabled					: mainWindow.dataAvailable
 	}

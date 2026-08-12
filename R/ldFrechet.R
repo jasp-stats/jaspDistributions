@@ -31,10 +31,8 @@ LDfrechetInternal <- function(jaspResults, dataset, options, state=NULL){
 
   ready <- options[['variable']] != ""
   errors <- FALSE
-  if(ready && is.null(dataset)){
-    dataset <- .readDataSetToEnd(columns.as.numeric = options[['variable']])
-
-    variable <- dataset[[.v(options[['variable']])]]
+  if(ready){
+    variable <- dataset[[options[['variable']]]]
     variable <- variable[!is.na(variable)]
     errors <- .hasErrors(dataset, type = c("observations", "variance", "infinity", "limits"),
                          observations.amount = "<2",
@@ -83,8 +81,8 @@ LDfrechetInternal <- function(jaspResults, dataset, options, state=NULL){
     support <- "x \u2208 \u211D; x > &mu;"
 
     moments <- list()
-    moments$expectation <- gettextf("see Wikipedia: https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution")
-    moments$variance <- gettextf("see Wikipedia: https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution")
+    moments$expectation <- gettextf("see Wikipedia: %s", "https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution")
+    moments$variance <- gettextf("see Wikipedia: %s", "https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution")
 
     jaspResults[['parsSupportMoments']] <- .ldParsSupportMoments(pars, support, moments)
   }

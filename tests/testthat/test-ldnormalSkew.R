@@ -94,9 +94,10 @@ test_that("Histogram vs. Theoretical PDF plot matches", {
 test_that("Fit Statistics table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_mleFitAssessment"]][["collection"]][["mleContainer_mleFitAssessment_fitStatisticsTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                                 list(0.367969485606479, 0.0918300063001897, "Kolmogorov-Smirnov", 0.621668969197197,
-                                      0.0929222597572388, "Cram<unicode>r-von Mises", 0.719814750407416,
-                                      0.526203868010313, "Anderson-Darling"))
+                                 list(0.367969485605598, 0.0918300063002562, "Kolmogorov-Smirnov", 0,
+                                      0, 0, 0.48981692515835, 0.41243722751707, "Cram<unicode>r-von Mises",
+                                      0, 0, 0, 0.39353361595832, 2.53354306330208, "Anderson-Darling"
+                                 ))
 })
 
 test_that("P-P plot matches", {

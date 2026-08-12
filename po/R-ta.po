@@ -1,0 +1,853 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jaspDistributions 0.19.2\n"
+"POT-Creation-Date: 2026-06-27 04:16\n"
+"PO-Revision-Date: 2025-12-31 10:01+0000\n"
+"Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-r/ta/>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15.1\n"
+
+msgid ""
+"Could not write to column '%s', probably because it wasn't created by this "
+"analysis"
+msgstr ""
+"'%s' நெடுவரிசைக்கு எழுத முடியவில்லை, ஏனெனில் இது இந்த பகுப்பாய்வால் உருவாக்கப்படவில்லை"
+
+msgid ""
+"The following problem(s) occurred while running the analysis:"
+"<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
+msgstr ""
+"பகுப்பாய்வை இயக்கும் போது பின்வரும் சிக்கல் (கள்) நிகழ்ந்தது: <ul> <li> மாறி தனித்துவமாக "
+"இருக்க வேண்டும் (அதாவது, முழு எண்) </li> </ul>"
+
+msgid "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
+msgstr "<ul> <li> மாறி தனித்துவமாக இருக்க வேண்டும் (அதாவது, முழு எண்) </li> </ul>"
+
+msgid "Overview - %s"
+msgstr "கண்ணோட்டம் - %s"
+
+msgid "Descriptives"
+msgstr "விளக்கமான"
+
+msgid "Variable"
+msgstr "மாறி"
+
+msgid "n"
+msgstr "n"
+
+msgid "Mean"
+msgstr "இடை, சராசரி"
+
+msgid "Variance"
+msgstr "மாறுபாட்டெண்"
+
+msgid "Std. deviation"
+msgstr "Std. விலகல்"
+
+msgid "Minimum"
+msgstr "சிறுமம்"
+
+msgid "25%% Quantile"
+msgstr "25 %% அளவு"
+
+msgid "Median"
+msgstr "இடைநடு"
+
+msgid "75%% Quantile"
+msgstr "75 %% அளவு"
+
+msgid "Maximum"
+msgstr "பெருமம்"
+
+msgid "Rel. Frequency"
+msgstr "Rel. அதிர்வெண்"
+
+msgid "Total"
+msgstr "மொத்தம்"
+
+msgid "Observed Moments"
+msgstr "கவனிக்கப்பட்ட தருணங்கள்"
+
+msgid "Moment"
+msgstr "திருப்பம்"
+
+msgid "Raw"
+msgstr "மூல"
+
+msgid "Central"
+msgstr "மைய"
+
+msgid "Estimated Parameters"
+msgstr "மதிப்பிடப்பட்ட அளவுருக்கள்"
+
+msgid "Parameter"
+msgstr "கூறளவு"
+
+msgid "Estimate"
+msgstr "மதிப்பிடு"
+
+msgid "SE"
+msgstr "உடன்"
+
+msgid "Standard errors are unavailable with this method"
+msgstr "இந்த முறையுடன் நிலையான பிழைகள் கிடைக்கவில்லை"
+
+msgid "Lower"
+msgstr "கீழ்"
+
+msgid "%s%% CI"
+msgstr "%s%% தொஒ"
+
+msgid "Upper"
+msgstr "மேல்"
+
+msgid "Confidence intervals are unavailable with this method."
+msgstr "இந்த முறையுடன் நம்பிக்கை இடைவெளிகள் கிடைக்கவில்லை."
+
+msgid "Confidence intervals were calculated using the delta method."
+msgstr "டெல்டா முறையைப் பயன்படுத்தி நம்பிக்கை இடைவெளிகள் கணக்கிடப்பட்டன."
+
+msgid "Standard errors were calculated using the delta method."
+msgstr "டெல்டா முறையைப் பயன்படுத்தி நிலையான பிழைகள் கணக்கிடப்பட்டன."
+
+msgid ""
+"Standard errors and confidence intervals were calculated using the delta "
+"method."
+msgstr ""
+"டெல்டா முறையைப் பயன்படுத்தி நிலையான பிழைகள் மற்றும் நம்பிக்கை இடைவெளிகள் கணக்கிடப்பட்டன."
+
+msgid "Maximum likelihood"
+msgstr "அதிகபட்ச வாய்ப்பு"
+
+msgid "Fit Assessment"
+msgstr "மதிப்பீட்டைப் பொருத்த"
+
+msgid "Fit Statistics"
+msgstr "பொருத்தமான புள்ளிவிவரங்கள்"
+
+msgid "Test"
+msgstr "சோதனை"
+
+msgid "Statistic"
+msgstr "புள்ளிவிவரம்"
+
+msgid "p"
+msgstr "ப"
+
+msgid "Kolmogorov-Smirnov"
+msgstr "கோல்மோகோரோவ்-ச்மிர்னோவ்"
+
+msgid "Cramér-von Mises"
+msgstr "க்ராமர்-வோன் தவறவிட்டார்"
+
+msgid "Anderson-Darling"
+msgstr "ஆண்டர்சன்-டார்லிங்"
+
+msgid "Lillienfors"
+msgstr "லில்லியன்ஃபோர்ச்"
+
+msgid "Shapiro-Wilk"
+msgstr "சாபிரோ-வில்க்"
+
+msgid "Shapiro-Francia"
+msgstr "சாபிரோ-பிரான்சியா"
+
+msgid "Chi-square"
+msgstr "சி-சதுரம்"
+
+msgid ""
+"Using Brown (1980) approximation which tends to be innacurate for small "
+"sample sizes."
+msgstr "பிரவுன் (1980) தோராயத்தைப் பயன்படுத்தி சிறிய மாதிரி அளவுகளுக்கு தவறானது."
+
+msgid "Histogram vs. Theoretical PDF"
+msgstr "இச்டோகிராம் வெர்சச் தத்துவார்த்த பி.டி.எஃப்"
+
+msgid "Histogram vs. Theoretical PMF"
+msgstr "இச்டோகிராம் வெர்சச் தத்துவார்த்த பி.எம்.எஃப்"
+
+msgid "Q-Q plot"
+msgstr "Q-Q சூழ்ச்சி"
+
+msgid "Empirical vs. Theoretical CDF"
+msgstr "அனுபவ வெர்சச் தத்துவார்த்த சி.டி.எஃப்"
+
+msgid "P-P plot"
+msgstr "பி-பி சூழ்ச்சி"
+
+msgid "Sample"
+msgstr "மாதிரி"
+
+msgid "Theoretical"
+msgstr "கோட்பாட்டு"
+
+msgid "Density"
+msgstr "அடர்த்தி"
+
+msgid "Probability Mass"
+msgstr "நிகழ்தகவு நிறை"
+
+msgid "Probability"
+msgstr "நிகழ்தகவு"
+
+msgid "Probability Density Function"
+msgstr "நிகழ்தகவு அடர்சார்பு"
+
+msgid "Probability Mass Function"
+msgstr "நிகழ்தகவு வெகுசன செயல்பாடு"
+
+msgid "Cumulative Distribution Function"
+msgstr "ஒட்டுமொத்த விநியோக செயல்பாடு"
+
+msgid "Quantile Function"
+msgstr "அளவு செயல்பாடு"
+
+msgid "Formula"
+msgstr "தேற்றம்"
+
+msgid "Density Plot"
+msgstr "அடர்த்தி சூழ்ச்சி"
+
+msgid "Cumulative Probability Plot"
+msgstr "ஒட்டுமொத்த நிகழ்தகவு சூழ்ச்சி"
+
+msgid "Slope"
+msgstr "சாய்வு"
+
+msgid "Quantile Plot"
+msgstr "அளவு சூழ்ச்சி"
+
+msgid "Probability Mass Plot"
+msgstr "நிகழ்தகவு வெகுசன சூழ்ச்சி"
+
+msgid "Histogram"
+msgstr "செவ்வகப்படம்"
+
+msgid "Bar plot"
+msgstr "பார் சூழ்ச்சி"
+
+msgid "Rel. Freq (%s in bin)"
+msgstr "Rel. ஃப்ரீக் (தொட்டியில்%s)"
+
+msgid "Empirical Cumulative Distribution"
+msgstr "அனுபவ ஒட்டுமொத்த வழங்கல்"
+
+msgid "Freq"
+msgstr "ஃப்ரீக்"
+
+msgid "Parameters, Support, and Moments"
+msgstr "அளவுருக்கள், உதவி மற்றும் தருணங்கள்"
+
+msgid ""
+"<b>Parameters</b>\n"
+"      %1$s\n"
+"\n"
+"      <b>Support</b>\n"
+"      %2$s\n"
+"\n"
+"      <b>Moments</b>\n"
+"      E(X) = %3$s\n"
+"      Var(X) = %4$s"
+msgstr ""
+"<b> அளவுருக்கள் </b> \n"
+"%1$s \n"
+"\n"
+"<b> உதவி </b> \n"
+"%2$s \n"
+"\n"
+"<b> தருணங்கள் </b> \n"
+"E (x) = %3$s \n"
+"Var (x) = %4$s"
+
+msgid ""
+"<b>Parameters</b>\n"
+"      %1$s\n"
+"\n"
+"      <b>Support</b>\n"
+"      %2$s\n"
+"\n"
+"      <b>Moments</b>\n"
+"      not available"
+msgstr ""
+"<b> அளவுருக்கள் </b> \n"
+"%1$s \n"
+"\n"
+"<b> உதவி </b> \n"
+"%2$s \n"
+"\n"
+"<b> தருணங்கள் </b> \n"
+"கிடைக்கவில்லை"
+
+msgid ""
+"The probability density function (PDF), usually denoted as f(x), is a "
+"function of a random variable X.\n"
+"    The value of f(x) provides the relative likelihood that a realization of "
+"the random variable X yields a value equal to x.\n"
+"    More formally, the PDF is defined as a derivative of a cumulative "
+"distribution function (CDF).\n"
+"\n"
+"    The density plot displays the probability density function of a random "
+"variable.\n"
+"    The <i>y</i>-axis displays the value of the density function for a "
+"particular value of the random variable (displayed on the <i>x</i>-axis)."
+msgstr ""
+"நிகழ்தகவு அடர்த்தி செயல்பாடு (PDF), பொதுவாக F (x) எனக் குறிக்கப்படுகிறது, இது ஒரு "
+"சீரற்ற மாறி ஃச் இன் செயல்பாடாகும். \n"
+"F (x) இன் மதிப்பு சீரற்ற மாறி ஃச் இன் உணர்தல் ஃச் க்கு சமமான மதிப்பைக் கொடுக்கும் ஒப்பீட்டு "
+"சாத்தியத்தை வழங்குகிறது. \n"
+"இன்னும் முறையாக, பி.டி.எஃப் ஒரு ஒட்டுமொத்த விநியோக செயல்பாட்டின் (சி.டி.எஃப்) "
+"வழித்தோன்றலாக வரையறுக்கப்படுகிறது. \n"
+"\n"
+"அடர்த்தி சூழ்ச்சி ஒரு சீரற்ற மாறியின் நிகழ்தகவு அடர்த்தி செயல்பாட்டைக் காட்டுகிறது. \n"
+"<i> ஒய் </i> -axis சீரற்ற மாறியின் ஒரு குறிப்பிட்ட மதிப்புக்கான அடர்த்தி செயல்பாட்டின் "
+"மதிப்பைக் காட்டுகிறது (<i> ஃச் </i> -axis இல் காட்டப்பட்டுள்ளது)."
+
+msgid ""
+"The probability mass function (PMF), usually denoted as f(x), is a function "
+"of a random variable X.\n"
+"    The value of f(x) provides the probability that a realization of the "
+"random variable X yields a value equal to x.\n"
+"\n"
+"    The probability mass plot displays the probability mass function of a "
+"random variable.\n"
+"    The <i>y</i>-axis displays the value of the probability mass function "
+"for a particular value of the random variable (displayed on the <i>x</i>-"
+"axis)."
+msgstr ""
+"நிகழ்தகவு வெகுசன செயல்பாடு (பி.எம்.எஃப்), பொதுவாக எஃப் (எக்ச்) எனக் குறிக்கப்படுகிறது, "
+"இது ஒரு சீரற்ற மாறி ஃச். \n"
+"F (x) இன் மதிப்பு சீரற்ற மாறி ஃச் இன் உணர்தல் ஃச் க்கு சமமான மதிப்பைக் கொடுக்கும் நிகழ்தகவை "
+"வழங்குகிறது. \n"
+"\n"
+"நிகழ்தகவு வெகுசன சூழ்ச்சி ஒரு சீரற்ற மாறியின் நிகழ்தகவு வெகுசன செயல்பாட்டைக் "
+"காட்டுகிறது. \n"
+"<i> ஒய் </i> -axis சீரற்ற மாறியின் ஒரு குறிப்பிட்ட மதிப்புக்கு நிகழ்தகவு வெகுசன "
+"செயல்பாட்டின் மதிப்பைக் காட்டுகிறது (<i> ஃச் </i> -axis இல் காட்டப்பட்டுள்ளது)."
+
+msgid ""
+"The cumulative distribution function (CDF), usually denoted as F(x), is a "
+"function of a random variable X.\n"
+"    The value of F(x) provides the probability that a realization of the "
+"random variable X yields a value that is equal to or smaller than x.\n"
+"\n"
+"    The cumulative probability plot displays the cumulative distribution "
+"function of a random variable.\n"
+"    The <i>y</i>-axis displays the value of the cumulative distribution "
+"function for a particular value of the random variable (displayed on the "
+"<i>x</i>-axis)."
+msgstr ""
+"ஒட்டுமொத்த விநியோக செயல்பாடு (சி.டி.எஃப்), பொதுவாக எஃப் (எக்ச்) எனக் "
+"குறிக்கப்படுகிறது, இது ஒரு சீரற்ற மாறி ஃச். \n"
+"F (x) இன் மதிப்பு சீரற்ற மாறி ஃச் இன் உணர்தல் ஃச் ஐ விட சமமான அல்லது சிறிய மதிப்பைக் "
+"கொடுக்கும் நிகழ்தகவை வழங்குகிறது. \n"
+"\n"
+"ஒட்டுமொத்த நிகழ்தகவு சூழ்ச்சி ஒரு சீரற்ற மாறியின் ஒட்டுமொத்த விநியோக செயல்பாட்டைக் "
+"காட்டுகிறது. \n"
+"<i> ஒய் </i> -axis சீரற்ற மாறியின் ஒரு குறிப்பிட்ட மதிப்புக்கு ஒட்டுமொத்த விநியோக "
+"செயல்பாட்டின் மதிப்பைக் காட்டுகிறது (<i> ஃச் </i> -axis இல் காட்டப்பட்டுள்ளது)."
+
+msgid ""
+"The quantile function, usually denoted as Q(p), is the inverse of the "
+"cumulative distribution function.\n"
+"    The function gives the quantile such that the probability of the random "
+"variable being less than or equal to that value equals the given probability "
+"p.\n"
+"\n"
+"    The quantile plot displays the quantile function.\n"
+"    The <i>y</i>-axis displays the quantile of which the probability that "
+"the random variable is less or equal to that value is equal to p (displayed "
+"on the <i>x</i>-axis)."
+msgstr ""
+"அளவு செயல்பாடு, பொதுவாக Q (P) எனக் குறிக்கப்படுகிறது, இது ஒட்டுமொத்த விநியோக "
+"செயல்பாட்டின் தலைகீழ் ஆகும். \n"
+"சீரற்ற மாறியின் நிகழ்தகவு அந்த மதிப்பை விட குறைவாகவோ அல்லது சமமாகவோ இருக்கும் அளவைக் "
+"கொடுக்கும் அளவைக் கொடுக்கும். \n"
+"\n"
+"அளவு சூழ்ச்சி அளவு செயல்பாட்டைக் காட்டுகிறது. \n"
+"<i> ஒய் </i> -axis, சீரற்ற மாறி அந்த மதிப்புக்கு குறைவாகவோ அல்லது சமமாகவோ இருக்கும் "
+"நிகழ்தகவு p க்கு சமமாக இருக்கும் (<i> ஃச் </i> -axis இல் காட்டப்படும்)."
+
+msgid ""
+"<h3> Demonstration of the %1$s </h3>\n"
+"This demonstration is divided into four parts.\n"
+"The first part displays the %2$s, its probability density function, "
+"cumulative distribution function, and quantile function.\n"
+"The second part allows you to generate data from the %3$s, compute "
+"descriptive statistics, and display descriptive plots.\n"
+"The third part allows you to estimate the parameters of the %4$s.\n"
+"The fourth part allows you to check the fit of the %5$s to the data.\n"
+"\n"
+"<b>References</b>\n"
+"\n"
+"Blitzstein, J. K., & Hwang, J. (2014). <i>Introduction to probability.</i> "
+"Chapman and Hall/CRC.\n"
+"\n"
+"Leemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, "
+"16</i>(4), 8–9.\n"
+"\n"
+"For relationships with other distributions, visit %6$s.\n"
+"\n"
+"%7$s"
+msgstr ""
+"<H3> %1$s </h3> இன் ஆர்ப்பாட்டம் \n"
+"இந்த ஆர்ப்பாட்டம் நான்கு பகுதிகளாக பிரிக்கப்பட்டுள்ளது. \n"
+"முதல் பகுதி %2$s, அதன் நிகழ்தகவு அடர்த்தி செயல்பாடு, ஒட்டுமொத்த விநியோக செயல்பாடு "
+"மற்றும் அளவு செயல்பாடு ஆகியவற்றைக் காட்டுகிறது. \n"
+"இரண்டாவது பகுதி %3$s இலிருந்து தரவை உருவாக்கவும், விளக்க புள்ளிவிவரங்களைக் "
+"கணக்கிடவும், விளக்கக் கதைகளைக் காண்பிக்கவும் உங்களை அனுமதிக்கிறது. \n"
+"மூன்றாவது பகுதி %4$s இன் அளவுருக்களை மதிப்பிட அனுமதிக்கிறது. \n"
+"தரவுக்கு %5$s இன் பொருத்தத்தை சரிபார்க்க நான்காவது பகுதி உங்களை அனுமதிக்கிறது. \n"
+"\n"
+"<b> குறிப்புகள் </b> \n"
+"\n"
+"பிளிட்ச்ச்டீன், சே. கே., & அ்வாங், சே. (2014). <i> நிகழ்தகவு அறிமுகம். </i> சாப்மேன் "
+"மற்றும் ஆல்/சி.ஆர்.சி. \n"
+"\n"
+"லீமிச், எல்.எம்., & பசுபதி, ஆர். (2019). பிணைக்கும் உறவுகள். <i> முக்கியத்துவம், 16 </"
+"i> (4), 8–9. \n"
+"\n"
+"பிற விநியோகங்களுடனான உறவுகளுக்கு, %6$s ஐப் பார்வையிடவும். \n"
+"\n"
+"%7$s கள்"
+
+msgid ""
+"Estimation failed: Optimization did not converge. <ul><li>Try adjusting "
+"parameter values, check outliers or feasibility of the distribution fitting "
+"the data.</li></ul>"
+msgstr ""
+"மதிப்பீடு தோல்வியுற்றது: தேர்வுமுறை ஒன்றிணைக்கவில்லை. <ul> <li> அளவுரு மதிப்புகளை "
+"சரிசெய்ய முயற்சிக்கவும், தரவைப் பொருத்தும் விநியோகத்தின் சாத்தியக்கூறுகள் அல்லது "
+"சாத்தியக்கூறுகளை சரிபார்க்கவும். </li> </ul>"
+
+msgid ""
+"Estimation failed: Hessian matrix is not numerically computable. "
+"<ul><li>Check outliers or feasibility of the distribution fitting the data.</"
+"li></ul>"
+msgstr ""
+"மதிப்பீடு தோல்வியுற்றது: எசியன் மேட்ரிக்ச் எண்ணிக்கையில் கணக்கிடப்படவில்லை. <ul> <li> "
+"தரவைப் பொருத்தும் விநியோகத்தின் சாத்தியக்கூறுகளை சரிபார்க்கவும் அல்லது சாத்தியக்கூறுகள். </"
+"li> </ul>"
+
+msgid ""
+"Could not initialize distribution %1$s, with the following error: <br> %2$s"
+msgstr ""
+
+msgid ""
+"Could not fit distribution %1$s, with the following error: <br> %2$s. <br> "
+"You can try to change the initial parameter values, or remove the "
+"distribution from the distribution specification"
+msgstr ""
+
+msgid ""
+"Could not compute information criteria for %1$s, with the following error: "
+"<br> %2$s."
+msgstr ""
+
+msgid "Distribution comparison table"
+msgstr ""
+
+#, fuzzy
+msgid "Distribution"
+msgstr "எஃப்-விநியோக"
+
+msgid "AIC"
+msgstr ""
+
+msgid "Weights"
+msgstr ""
+
+msgid "BIC"
+msgstr ""
+
+msgid "Log. Lik"
+msgstr ""
+
+msgid "df"
+msgstr ""
+
+msgid "Distribution comparison table (n=%1$i)"
+msgstr ""
+
+#, fuzzy
+msgid "Parameter estimates"
+msgstr "கூறளவு"
+
+msgid "Key"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Distribution has no parameters to estimate."
+msgstr ""
+
+msgid "The following parameters were held constant: %s."
+msgstr ""
+
+msgid "Goodness of fit"
+msgstr ""
+
+msgid "Bootstrapping..."
+msgstr ""
+
+msgid "Could not obtain goodness of fit: <br> %s"
+msgstr ""
+
+msgid "Based on %1$i valid parametric bootstrap samples."
+msgstr ""
+
+msgid "Empirical plots"
+msgstr ""
+
+#, fuzzy
+msgid "Histogram vs. theoretical density"
+msgstr "இச்டோகிராம் வெர்சச் தத்துவார்த்த பி.டி.எஃப்"
+
+#, fuzzy
+msgid "Empirical vs. theoretical cumulative probability"
+msgstr "அனுபவ வெர்சச் தத்துவார்த்த சி.டி.எஃப்"
+
+#, fuzzy
+msgid "Cramér–von Mises"
+msgstr "க்ராமர்-வோன் தவறவிட்டார்"
+
+#, fuzzy
+msgid "Lilliefors"
+msgstr "லில்லியன்ஃபோர்ச்"
+
+msgid "Amoroso distribution"
+msgstr "அமோரோசோ வழங்கல்"
+
+msgid "location: a %s"
+msgstr "இடம்: ஒரு %s"
+
+msgid "scale: %s"
+msgstr "அளவு: %s"
+
+msgid "shape: %s"
+msgstr "வடிவம்: %s"
+
+msgid "The optimization did not converge, try adjusting the parameter values."
+msgstr "தேர்வுமுறை ஒன்றிணைக்கவில்லை, அளவுரு மதிப்புகளை சரிசெய்ய முயற்சிக்கவும்."
+
+msgid "<i>Warning.</i>"
+msgstr "<i> முன்னறிவிப்பு. </i>"
+
+msgid "Scale parameter %s is assumed positive."
+msgstr "அளவிலான அளவுரு %s நேர்மறையாக கருதப்படுகிறது."
+
+msgid "Scale parameter %s is assumed negative."
+msgstr "அளவிலான அளவுரு %s எதிர்மறையாக கருதப்படுகிறது."
+
+msgid "Bernoulli distribution"
+msgstr "பெர்ன lli லி வழங்கல்"
+
+msgid "probability of success: p %1$s %2$s: 0 %3$s p %4$s 1"
+msgstr "வெற்றியின் நிகழ்தகவு: p %1$s %2$s: 0 %3$s p %4$s 1"
+
+msgid "x %s {0, 1}"
+msgstr "ஃச் %s {0, 1}"
+
+msgid "p(1-p)"
+msgstr "பி (1-ப)"
+
+msgid "beta distribution"
+msgstr "பீட்டா வழங்கல்"
+
+msgid "beta-binomial distribution"
+msgstr "பீட்டா-பினோமியல் வழங்கல்"
+
+msgid "number of trials: %s"
+msgstr "சோதனைகளின் எண்ணிக்கை: %s"
+
+msgid "Parameter n was fixed at value %s."
+msgstr "அளவுரு n மதிப்பு %s இல் சரி செய்யப்பட்டது."
+
+msgid "beta prime distribution"
+msgstr "பீட்டா பிரைம் வழங்கல்"
+
+msgid "lower bound: %s"
+msgstr "கீழ் எல்லை: %s"
+
+msgid "upper bound: %s"
+msgstr "மேல் பிணைப்பு: %s"
+
+msgid "binomial distribution"
+msgstr "பைனோமியல் வழங்கல்"
+
+msgid "probability of success: %s"
+msgstr "வெற்றியின் நிகழ்தகவு: %s"
+
+msgid "Cauchy distribution"
+msgstr "க uch ச்சி வழங்கல்"
+
+msgid "location: &mu; %s"
+msgstr "இடம்: & மு; %s"
+
+msgid "undefined"
+msgstr "வரையறுக்கப்படவில்லை"
+
+msgid "%s<sup>2</sup> distribution"
+msgstr "%s <sup> 2 </sup> வழங்கல்"
+
+msgid "degree of freedom: %s"
+msgstr "சுதந்திரத்தின் பட்டம்: %s"
+
+msgid "non-centrality: %s"
+msgstr "மையமற்றது: %s"
+
+msgid "exponential distribution"
+msgstr "அதிவேக வழங்கல்"
+
+msgid "rate: %s"
+msgstr "விகிதம்: %s"
+
+msgid "F-distribution"
+msgstr "எஃப்-விநியோக"
+
+msgid "Fréchet distribution"
+msgstr "ஃப்ரீச்செட் வழங்கல்"
+
+msgid "location: %s"
+msgstr "இடம்: %s"
+
+msgid "see Wikipedia: %s"
+msgstr "விக்கிபீடியாவைக் காண்க: %s"
+
+msgid "gamma distribution"
+msgstr "காமா வழங்கல்"
+
+msgid "mean: %s"
+msgstr "சராசரி: %s"
+
+msgid "inverse gamma distribution"
+msgstr "தலைகீழ் காமா வழங்கல்"
+
+msgid "normal distribution"
+msgstr "சாதாரண வழங்கல்"
+
+msgid "mean: &mu; %s"
+msgstr "சராசரி: & mu; %s"
+
+msgid "variance: %s"
+msgstr "மாறுபாடு: %s"
+
+msgid "standard deviation: %s"
+msgstr "நிலையான விலகல்: %s"
+
+msgid "precision: %s"
+msgstr "துல்லியம்: %s"
+
+msgid "square root of precision: %s"
+msgstr "துல்லியத்தின் சதுர வேர்: %s"
+
+msgid "&mu;"
+msgstr "&mu;"
+
+msgid "Unbiased with Bessel's correction."
+msgstr "பெசலின் திருத்தத்துடன் பக்கச்சார்பற்றது."
+
+msgid "geometric distribution"
+msgstr "வடிவியல் வழங்கல்"
+
+msgid "population size: %s"
+msgstr "மக்கள்தொகை அளவு: %s"
+
+msgid "number of success states in the population: %s"
+msgstr "மக்கள்தொகையில் செய் நிலைகளின் எண்ணிக்கை: %s"
+
+msgid "number of draws from the population: %s"
+msgstr "மக்களிடமிருந்து டிராக்களின் எண்ணிக்கை: %s"
+
+msgid "Gompertz distribution"
+msgstr "கோம்பெர்ட்ச் வழங்கல்"
+
+msgid ""
+"shape: %1$s \n"
+"scale: %2$s"
+msgstr ""
+"வடிவம்: %1$s \n"
+"அளவு: %2$s"
+
+msgid "Gumbel distribution"
+msgstr "கம்பல் வழங்கல்"
+
+msgid "hypergeometric distribution"
+msgstr "ஐப்பர்சோமெட்ரிக் வழங்கல்"
+
+msgid "Laplace distribution"
+msgstr "லாப்லேச் வழங்கல்"
+
+msgid "log-logistic distribution"
+msgstr "பதிவு-புகழ்பெற்ற வழங்கல்"
+
+msgid "log location: &mu; %s"
+msgstr "பதிவு இடம்: & mu; %s"
+
+msgid "log scale: %s"
+msgstr "பதிவு அளவு: %s"
+
+msgid "scale: &alpha; %s"
+msgstr "அளவு: & ஆல்பா; %s"
+
+msgid "logistic distribution"
+msgstr "லாசிச்டிக் வழங்கல்"
+
+msgid "(&sigma; &pi;)<sup>2</sup> / 3"
+msgstr "(&sigma; &pi; )<sup>2</sup> / 3"
+
+msgid "log-normal distribution"
+msgstr "பதிவு-இயல்பான வழங்கல்"
+
+msgid "log mean: &mu; %s"
+msgstr "பதிவு சராசரி: & mu; %s"
+
+msgid "log standard deviation: %s"
+msgstr "பதிவு நிலையான விலகல்: %s"
+
+msgid "exp(&mu; + &sigma;<sup>2</sup>/2)"
+msgstr "exp(&mu; + &sigma;<sup>2</sup> / 2)"
+
+msgid "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
+msgstr "[exp(&sigma;<sup> 2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
+
+msgid "mixture of two normal distributions"
+msgstr "இரண்டு சாதாரண விநியோகங்களின் கலவை"
+
+msgid "probability of first component: %s"
+msgstr "முதல் கூறுகளின் நிகழ்தகவு: %s"
+
+msgid "mean 1: %s"
+msgstr "சராசரி 1: %s"
+
+msgid "std. deviation 1: %s"
+msgstr "std. விலகல் 1: %s"
+
+msgid "mean 2: %s"
+msgstr "சராசரி 2: %s"
+
+msgid "std. deviation 2: %s"
+msgstr "std. விலகல் 2: %s"
+
+msgid "mixture of a normal and a uniform distribution"
+msgstr "ஒரு சாதாரண மற்றும் சீரான விநியோகத்தின் கலவை"
+
+msgid "probability of normal component: %s"
+msgstr "சாதாரண கூறுகளின் நிகழ்தகவு: %s"
+
+msgid "mean of normal distribution: %s"
+msgstr "சாதாரண விநியோகத்தின் சராசரி: %s"
+
+msgid "std. deviation of normal distribution: %s"
+msgstr "std. சாதாரண விநியோகத்தின் விலகல்: %s"
+
+msgid "minimum of uniform distribution: %s"
+msgstr "சீரான வழங்கல் குறைந்தபட்சம்: %s"
+
+msgid "maximum of uniform distribution: %s"
+msgstr "சீரான விநியோகத்தின் அதிகபட்சம்: %s"
+
+msgid ""
+"Parameter a was fixed at value %1$s, parameter b was fixed at value %2$s."
+msgstr ""
+"அளவுரு A மதிப்பு %1$s இல் சரி செய்யப்பட்டது, அளவுரு B மதிப்பு %2$s இல் சரி "
+"செய்யப்பட்டது."
+
+msgid "negative binomial distribution"
+msgstr "எதிர்மறை பைனோமியல் வழங்கல்"
+
+msgid "number of successes: %s"
+msgstr "வெற்றிகளின் எண்ணிக்கை: %s"
+
+msgid "dispersion: %s"
+msgstr "சிதறல்: %s"
+
+msgid "zero-inflated negative binomial distribution"
+msgstr "பூச்சியத்தால் பாதிக்கப்பட்ட எதிர்மறை பைனோமியல் வழங்கல்"
+
+msgid "probability of zero process: %s"
+msgstr "சுழிய செயல்முறையின் நிகழ்தகவு: %s"
+
+msgid "generalized normal distribution"
+msgstr "பொதுவான சாதாரண வழங்கல்"
+
+msgid "skew normal distribution"
+msgstr "சாதாரண விநியோகத்தைத் தவிர்க்கவும்"
+
+msgid "Pareto distribution"
+msgstr "பரேட்டோ வழங்கல்"
+
+msgid "Poisson distribution"
+msgstr "பாய்சன் வழங்கல்"
+
+msgid "zero-inflated Poisson distribution"
+msgstr "பூச்சிய-ஊதியம் பெற்ற பாய்சன் வழங்கல்"
+
+msgid "noncentral t-distribution"
+msgstr "அல்லாத மைய டி-விநியோக"
+
+msgid "degrees of freedom: %s"
+msgstr "சுதந்திரத்தின் டிகிரி: %s"
+
+msgid "does not exist unless df > 1"
+msgstr "df> 1 தவிர இல்லை"
+
+msgid "does not exist unless df > 2"
+msgstr "df> 2 தவிர இல்லை"
+
+msgid "see Azzalini & Capitanio (2003)"
+msgstr "அச்சாலினி & கேபிடானியோ (2003) ஐப் பார்க்கவும்"
+
+msgid "skewed generalized t-distribution"
+msgstr "வளைந்த பொதுமைப்படுத்தப்பட்ட டி-விநியோக"
+
+msgid "skewness: %s"
+msgstr "வளைவு: %s"
+
+msgid "kurtosis: %s"
+msgstr "கர்டோசிச்: %s"
+
+msgid "scaled, shifted Student's t-distribution"
+msgstr "அளவிடப்பட்ட, மாணவர்களின் டி-விநியோகத்தை மாற்றியது"
+
+msgid "triangular distribution"
+msgstr "முக்கோண வழங்கல்"
+
+msgid "minimum: %s"
+msgstr "குறைந்தபட்சம்: %s"
+
+msgid "maximum: %s"
+msgstr "அதிகபட்சம்: %s"
+
+msgid "mode: %s"
+msgstr "பயன்முறை: %s"
+
+msgid "uniform distribution"
+msgstr "சீரான வழங்கல்"
+
+msgid "Wald distribution"
+msgstr "வால்ட் வழங்கல்"
+
+msgid "drift rate: %s"
+msgstr "சறுக்கல் வீதம்: %s"
+
+msgid "threshold: %s"
+msgstr "வாசல்: %s"
+
+msgid "noise: %s"
+msgstr "சத்தம்: %s"
+
+msgid "Parameter %s was fixed to 1."
+msgstr "அளவுரு %s 1 க்கு சரி செய்யப்பட்டது."
+
+msgid "Weibull distribution"
+msgstr "வெய்புல் வழங்கல்"

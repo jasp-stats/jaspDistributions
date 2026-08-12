@@ -282,7 +282,7 @@ msgstr "p"
 
 msgctxt "LDbernoulli|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDbernoulli|"
 msgid "Explanatory text"
@@ -346,7 +346,7 @@ msgstr "β"
 
 msgctxt "LDbeta|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDbeta|"
 msgid "Explanatory text"
@@ -402,7 +402,7 @@ msgstr "n"
 
 msgctxt "LDbinomial|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDbinomial|"
 msgid "Explanatory text"
@@ -430,7 +430,7 @@ msgstr "Optionen"
 
 msgctxt "LDbinomial|"
 msgid "Range of x from"
-msgstr "Wertebereich von x bis"
+msgstr "Bereich von x ab"
 
 msgctxt "LDbinomial|"
 msgid "to"
@@ -478,7 +478,7 @@ msgstr "λ"
 
 msgctxt "LDchisq|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDchisq|"
 msgid "Explanatory text"
@@ -522,7 +522,7 @@ msgstr "Skalenparameter:"
 
 msgctxt "LDexponential|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDexponential|"
 msgid "Explanatory text"
@@ -574,7 +574,7 @@ msgstr "Nzp"
 
 msgctxt "LDf|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDf|"
 msgid "Explanatory text"
@@ -626,7 +626,7 @@ msgstr "Mittelwert:"
 
 msgctxt "LDgamma|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDgamma|"
 msgid "Explanatory text"
@@ -678,7 +678,7 @@ msgstr "Mittelwert:"
 
 msgctxt "LDgammaInverse|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDgammaInverse|"
 msgid "Explanatory text"
@@ -778,7 +778,7 @@ msgstr "Quadratwurzel der Präzision:"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDgaussianunivariate|"
 msgid "Explanatory text"
@@ -826,7 +826,7 @@ msgstr "σ"
 
 msgctxt "LDlogistic|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDlogistic|"
 msgid "Explanatory text"
@@ -874,7 +874,7 @@ msgstr "σ"
 
 msgctxt "LDlognormal|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDlognormal|"
 msgid "Explanatory text"
@@ -926,7 +926,7 @@ msgstr "Mittelwert:"
 
 msgctxt "LDnegbinomial|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDnegbinomial|"
 msgid "Explanatory text"
@@ -998,7 +998,7 @@ msgstr "λ"
 
 msgctxt "LDpoisson|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDpoisson|"
 msgid "Explanatory text"
@@ -1026,7 +1026,7 @@ msgstr "Optionen"
 
 msgctxt "LDpoisson|"
 msgid "Range of x from"
-msgstr "Wertebereich von x bis"
+msgstr "Bereich von x ab"
 
 msgctxt "LDpoisson|"
 msgid "to"
@@ -1194,7 +1194,7 @@ msgstr "β"
 
 msgctxt "LDamoroso|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDamoroso|"
 msgid "Explanatory text"
@@ -1258,7 +1258,7 @@ msgstr "n"
 
 msgctxt "LDbetaBinomial|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDbetaBinomial|"
 msgid "Explanatory text"
@@ -1286,7 +1286,7 @@ msgstr "Optionen"
 
 msgctxt "LDbetaBinomial|"
 msgid "Range of x from"
-msgstr "Wertebereich von x bis"
+msgstr "Bereich von x ab"
 
 msgctxt "LDbetaBinomial|"
 msgid "to"
@@ -1334,7 +1334,7 @@ msgstr "β"
 
 msgctxt "LDbetaPrime|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDbetaPrime|"
 msgid "Explanatory text"
@@ -1402,7 +1402,7 @@ msgstr "b"
 
 msgctxt "LDbetaStretched|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDbetaStretched|"
 msgid "Explanatory text"
@@ -1450,7 +1450,7 @@ msgstr "σ"
 
 msgctxt "LDcauchy|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDcauchy|"
 msgid "Explanatory text"
@@ -1506,7 +1506,7 @@ msgstr "σ"
 
 msgctxt "LDfrechet|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDfrechet|"
 msgid "Explanatory text"
@@ -1550,7 +1550,7 @@ msgstr "p"
 
 msgctxt "LDgeometric|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDgeometric|"
 msgid "Explanatory text"
@@ -1618,7 +1618,7 @@ msgstr "Skalenparameter:"
 
 msgctxt "LDgompertz|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDgompertz|"
 msgid "Explanatory text"
@@ -1666,7 +1666,7 @@ msgstr "β"
 
 msgctxt "LDgumbel|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDgumbel|"
 msgid "Explanatory text"
@@ -1722,7 +1722,7 @@ msgstr "n"
 
 msgctxt "LDhypergeometric|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDhypergeometric|"
 msgid "Explanatory text"
@@ -1798,7 +1798,7 @@ msgstr "β"
 
 msgctxt "LDlaplace|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDlaplace|"
 msgid "Explanatory text"
@@ -1850,7 +1850,7 @@ msgstr "Form:"
 
 msgctxt "LDlogLogistic|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDlogLogistic|"
 msgid "Explanatory text"
@@ -1922,7 +1922,7 @@ msgstr "π"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDmixtureNormalNormal|"
 msgid "Explanatory text"
@@ -2002,7 +2002,7 @@ msgstr "b"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDmixtureNormalUniform|"
 msgid "Explanatory text"
@@ -2062,7 +2062,7 @@ msgstr "Mittelwert:"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDnegbinomialZeroInflated|"
 msgid "Explanatory text"
@@ -2146,7 +2146,7 @@ msgstr "β"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDnormalGeneralized|"
 msgid "Explanatory text"
@@ -2202,7 +2202,7 @@ msgstr "α"
 
 msgctxt "LDnormalSkew|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDnormalSkew|"
 msgid "Explanatory text"
@@ -2242,7 +2242,7 @@ msgstr "Skalenparameter:"
 
 msgctxt "LDpareto|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDpareto|"
 msgid "Explanatory text"
@@ -2294,7 +2294,7 @@ msgstr "λ"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDpoissonZeroInflated|"
 msgid "Explanatory text"
@@ -2374,7 +2374,7 @@ msgstr "Nzp"
 
 msgctxt "LDtNoncentral|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDtNoncentral|"
 msgid "Explanatory text"
@@ -2430,7 +2430,7 @@ msgstr "c"
 
 msgctxt "LDtriangular|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDtriangular|"
 msgid "Explanatory text"
@@ -2494,7 +2494,7 @@ msgstr "df"
 
 msgctxt "LDtSkew|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDtSkew|"
 msgid "Explanatory text"
@@ -2566,7 +2566,7 @@ msgstr "λ"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDtSkewedGeneralized|"
 msgid "Explanatory text"
@@ -2626,7 +2626,7 @@ msgstr "σ"
 
 msgctxt "LDtStudent|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDtStudent|"
 msgid "Explanatory text"
@@ -2678,7 +2678,7 @@ msgstr "b"
 
 msgctxt "LDuniform|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDuniform|"
 msgid "Explanatory text"
@@ -2734,7 +2734,7 @@ msgstr "Rauschen:"
 
 msgctxt "LDwald|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDwald|"
 msgid "Explanatory text"
@@ -2774,7 +2774,7 @@ msgstr "Skalenparameter:"
 
 msgctxt "LDweibull|"
 msgid "Display"
-msgstr "Anzeigen"
+msgstr "Zeige"
 
 msgctxt "LDweibull|"
 msgid "Explanatory text"
@@ -2807,3 +2807,978 @@ msgstr "Verteilungen visualisieren und an Daten anpassen"
 msgctxt "LDAssessFit|"
 msgid "Confidence interval"
 msgstr "Konfidenzintervall"
+
+msgctxt "LDAssessFit|"
+msgid ""
+"Displays a histogram of the selected variable overlayed with the probability "
+"density function of the fitted distribution"
+msgstr ""
+"Zeigt ein Histogramm der ausgewählten Variablen an, die mit der "
+"Wahrscheinlichkeitsdichtefunktion der angepassten Verteilung überlagert ist"
+
+msgctxt "LDAssessFit|"
+msgid ""
+"Displays the quantile-quantile plot. The *x*-axis shows the theoretical "
+"quantiles of the data points under the fitted distribution, the *y*-axis "
+"shows the empirical quantiles of the selected variable."
+msgstr ""
+"Zeigt das Quantil-Quantil-Diagramm. Die *x*-Achse zeigt die theoretischen "
+"Quantile der Datenpunkte unter der angepassten Verteilung, die *y*-Achse "
+"zeigt die empirischen Quantile der ausgewählten Variable."
+
+msgctxt "LDAssessFit|"
+msgid ""
+"Displays an empirical cumulative distribution plot overlayed with the "
+"cumulative distribution function of the fitted distribution"
+msgstr ""
+"Zeigt ein empirisches kumulatives Verteilungsdiagramm, das mit der "
+"kumulativen Verteilungsfunktion der angepassten Verteilung überlagert ist"
+
+msgctxt "LDAssessFit|"
+msgid ""
+"Displays the probability-probability plot. The *x*-axis shows the "
+"theoretical value of the cumulative density function of the data points "
+"under the fitted distribution, the *y*-axis shows the empirical percentiles "
+"of the selected variable."
+msgstr ""
+"Zeigt das Wahrscheinlichkeits-Wahrscheinlichkeits-Diagramm. Die *x*-Achse "
+"zeigt den theoretischen Wert der kumulativen Dichtefunktion der Datenpunkte "
+"unter der angepassten Verteilung, die *y*-Achse zeigt die empirischen "
+"Perzentile der ausgewählten Variable."
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Kolmogorov-Smirnov test"
+msgstr "Zeigt den Kolmogorov-Smirnov-Test"
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Cramér-von Mises test"
+msgstr "Zeigt den Cramér-von Mises-Test"
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Anderson-Darling test"
+msgstr "Zeigt den Anderson-Darling-Test"
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Shapiro-Wilk test of normality"
+msgstr "Zeigt den Shapiro-Wilk-Test auf Normalität"
+
+msgctxt "LDAssessFit|"
+msgid "Displays the chi-square goodness of fit test"
+msgstr "Zeigt den Chi-Quadrat-Test der Anpassungsgüte"
+
+msgctxt "LDEstimateParameters|"
+msgid ""
+"Displays a table with the parameter estimates. Changing parametrization "
+"changes which parameters are displayed."
+msgstr ""
+"Zeigt eine Tabelle mit den Parameterschätzungen. Ändern der Parametrisierung "
+"ändert, welche Parameter angezeigt werden."
+
+msgctxt "LDEstimateParameters|"
+msgid ""
+"Estimates the parameters by the values in the domain at which the likelihood "
+"function is maximized. The likelihood function fixes the data argument "
+"(based on the selected variable) in the theoretical density function and "
+"views it as a function of the parameters. The optimization procedure is "
+"initialized with the values for the parameters entered under \"Show "
+"Distribution\"."
+msgstr ""
+"Schätzt die Parameter anhand der Werte in dem Bereich, bei dem die "
+"Likelihood-Funktion maximiert wird. Die Likelihood-Funktion fixiert das "
+"Datenargument (basierend auf der gewählten Variable) in der theoretischen "
+"Dichtefunktion und betrachtet es als Funktion der Parameter. Das "
+"Optimierungsverfahren wird mit den unter \"Verteilung anzeigen\" "
+"eingegebenen Werten für die Parameter initialisiert."
+
+msgctxt "LDGenerateDisplayData|"
+msgid ""
+"Specify the name of the variable. Once filled, creates a column with samples "
+"drawn from the specified distribution in the current data set."
+msgstr ""
+"Geben Sie den Namen der Variable an. Sobald ausgefüllt, wird eine Spalte mit "
+"Stichproben aus der angegebenen Verteilung im aktuellen Datensatz angelegt."
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Specify the number of samples."
+msgstr "Geben Sie die Anzahl der Stichproben an."
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Sample from the theoretical distribution."
+msgstr "Stichprobe aus der theoretischen Verteilung."
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Get variable from data set: "
+msgstr "Variable aus Datensatz auswählen: "
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Select a variable to display and fit with the theoretical distribution."
+msgstr ""
+"Wählen Sie eine Variable aus, um die theoretische Verteilung anzuzeigen und "
+"anzupassen."
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Displays a descriptive table of the selected variable."
+msgstr "Zeigt eine deskriptive Tabelle der ausgewählten Variablen an."
+
+msgctxt "LDGenerateDisplayData|"
+msgid "First observed moments"
+msgstr "Erste beobachtete Momente"
+
+msgctxt "LDGenerateDisplayData|"
+msgid ""
+"Displays a table with the raw and central sample moments of the selected "
+"variable. Defaults to first 2 moments."
+msgstr ""
+"Zeigt eine Tabelle mit den rohen und zentralen Stichprobenmomenten der "
+"ausgewählten Variablen an. Standardmäßig werden die ersten 2 Momente "
+"angezeigt."
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Histogram with ... bins"
+msgstr "Histogramm mit ... Klassen"
+
+msgctxt "LDGenerateDisplayData|"
+msgid "Display a bar plot of the selected variable."
+msgstr "Zeigt ein Balkendiagramm für die ausgewählte Variable."
+
+msgctxt "LDGenerateDisplayData|"
+msgid ""
+"Display a histogram of the selected variable with the number of specified "
+"bins."
+msgstr ""
+"Zeigt ein Histogramm der ausgewählten Variable mit der Anzahl der "
+"angegebenen Klassen."
+
+msgctxt "LDGenerateDisplayData|"
+msgid ""
+"Displays an empirical cumulative distribution plot of the selected variable."
+msgstr ""
+"Zeigt ein empirisches kumulatives Verteilungsdiagramm der ausgewählten "
+"Variable."
+
+msgctxt "LDOptions|"
+msgid "Range of x from ... to ..."
+msgstr "Bereich von x von ... bis ..."
+
+msgctxt "LDOptions|"
+msgid ""
+"Defines the limits of the x-axis of the probability density plot and "
+"cumulative distribution plot, and the limits of the y-axis of the quantile "
+"plot."
+msgstr ""
+"Definiert die Grenzen der x-Achse des Wahrscheinlichkeitsdichte- und des "
+"kumulativen Verteilungsdiagramms sowie die Grenzen der y-Achse des "
+"Quantildiagramms."
+
+msgctxt "LDOptions|"
+msgid ""
+"Highlights the probability density on the probability density plot and "
+"cumulative distribution plot at specified values of x"
+msgstr ""
+"Hervorhebung der Wahrscheinlichkeitsdichte im Wahrscheinlichkeitsdichte-"
+"Diagramm und im kumulativen Verteilungsdiagramm bei bestimmten Werten von x"
+
+msgctxt "LDOptions|"
+msgid ""
+"Highlights the probability in between the specified values of x in the "
+"density plot (area under the curve), and highlights the cumulative "
+"probability at the specified values in the cumulative distribution plot"
+msgstr ""
+"Hervorhebung der Wahrscheinlichkeit zwischen den angegebenen Werten von x im "
+"Dichtediagramm (Fläche unter der Kurve) und Hervorhebung der kumulativen "
+"Wahrscheinlichkeit bei den angegebenen Werten im kumulativen "
+"Verteilungsdiagramm"
+
+msgctxt "LDOptions|"
+msgid ""
+"Select the bounds of the interval to display: Density is highlighted at the "
+"lower and upper bounds, the probability is displayed for the specified "
+"interval."
+msgstr ""
+"Wählen Sie die Grenzen des gezeigten Intervalls: Dichte wird an der unteren "
+"und oberen Grenze hervorgehoben, die Wahrscheinlichkeit wird für das "
+"angegebene Intervall angezeigt."
+
+msgctxt "LDbinomial|"
+msgid "Demonstration of the Binomial distribution."
+msgstr "Demonstration der Binomialverteilung."
+
+msgctxt "LDbinomial|"
+msgid ""
+"Displays theoretical Binomial distribution, given specified parameter values."
+msgstr ""
+"Zeigt die theoretische Binomialverteilung mit den angegebenen "
+"Parameterwerten."
+
+msgctxt "LDbinomial|"
+msgid ""
+"probability of \"success\". This parameter can be freely estimated from the "
+"data."
+msgstr ""
+"Wahrscheinlichkeit von \"Erfolg\". Dieser Parameter kann anhand der Daten "
+"frei geschätzt werden."
+
+msgctxt "LDbinomial|"
+msgid "number of trials. This parameter is fixed when fitting the data."
+msgstr ""
+"Anzahl der Versuche. Dieser Parameter wird bei der Anpassung der Daten "
+"festgelegt."
+
+msgctxt "LDbinomial|"
+msgid "Displays explanatory text"
+msgstr "Zeigt erklärenden Text"
+
+msgctxt "LDbinomial|"
+msgid ""
+"Displays the definition of parameters, the support of the random variable, "
+"and the moments of the theoretical distribution"
+msgstr ""
+"Zeigt die Definition der Parameter, den Träger der Zufallsvariablen und die "
+"Momente der theoretischen Verteilung an"
+
+msgctxt "LDbinomial|"
+msgid "Displays the probability mass plot"
+msgstr "Zeigt das Wahrscheinlichkeitsmassendiagramm"
+
+msgctxt "LDbinomial|"
+msgid "Displays the cumulative distribution plot"
+msgstr "Zeigt das kumulative Verteilungsdiagramm"
+
+msgctxt "LDbinomial|"
+msgid ""
+"Defines the limits of the x-axis of the probability density plot and "
+"cumulative distribution plot."
+msgstr ""
+"Definiert die Grenzen der x-Achse des Wahrscheinlichkeitsdichte- und "
+"kumulativen Verteilungsdiagramms."
+
+msgctxt "LDbinomial|"
+msgid ""
+"Highlights the probability density on the probability density plot and "
+"cumulative distribution plot at specified values of x"
+msgstr ""
+"Hervorhebung der Wahrscheinlichkeitsdichte im Wahrscheinlichkeitsdichte-"
+"Diagramm und im kumulativen Verteilungsdiagramm bei bestimmten Werten von x"
+
+msgctxt "LDbinomial|"
+msgid ""
+"Highlights the probability in between the specified values of x in the "
+"density plot (area under the curve), and highlights the cumulative "
+"probability at the specified values in the cumulative distribution plot"
+msgstr ""
+"Hervorhebung der Wahrscheinlichkeit zwischen den angegebenen Werten von x im "
+"Dichtediagramm (Fläche unter der Kurve) und Hervorhebung der kumulativen "
+"Wahrscheinlichkeit bei den angegebenen Werten im kumulativen "
+"Verteilungsdiagramm"
+
+msgctxt "LDbinomial|"
+msgid ""
+"Select the bounds of the ordered set to display: Density is highlighted at "
+"the lower and upper bounds, the probability is displayed for the specified "
+"interval."
+msgstr ""
+"Wählen Sie die Grenzen der anzuzeigenden sortierten Menge: Dichte wird an "
+"der unteren und oberen Grenze hervorgehoben, die Wahrscheinlichkeit wird für "
+"das angegebene Intervall angezeigt."
+
+msgctxt "LDgaussianunivariate|"
+msgid "Demonstration of the Normal (Gaussian) distribution"
+msgstr "Demonstration der (Gausschen) Normalverteilung"
+
+msgctxt "LDgaussianunivariate|"
+msgid ""
+"Displays theoretical Normal distribution, given specified parameter values."
+msgstr ""
+"Zeigt theoretische Normalverteilung, gegeben spezifizierter Parameterwerte."
+
+msgctxt "LDgaussianunivariate|"
+msgid ""
+"The Normal distribution is specified using the mean and variance parameters"
+msgstr ""
+"Die Normalverteilung wird mit den Parametern Mittelwert- und Varianz "
+"spezifiziert"
+
+msgctxt "LDgaussianunivariate|"
+msgid ""
+"The Normal distribution is specified using the mean and standard deviation "
+"parameters"
+msgstr ""
+"Die Normalverteilung wird mit den Parametern Mittelwert und "
+"Standardabweichung spezifiziert"
+
+msgctxt "LDgaussianunivariate|"
+msgid ""
+"The Normal distribution is specified using the mean and precision parameters"
+msgstr ""
+"Die Normalverteilung wird mit den Parametern Mittelwert und Präzision "
+"spezifiziert"
+
+msgctxt "LDgaussianunivariate|"
+msgid ""
+"The Normal distribution is specified using the mean and square root of "
+"precision parameters"
+msgstr ""
+"Die Normalverteilung wird mit den Parametern Mittelwert- und der Wurzel der "
+"Präzision spezifiziert"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Displays explanatory text"
+msgstr "Zeigt erklärenden Text"
+
+msgctxt "LDgaussianunivariate|"
+msgid ""
+"Displays the definition of parameters, the support of the random variable, "
+"and the moments of the theoretical distribution"
+msgstr ""
+"Zeigt die Definition der Parameter, den Träger der Zufallsvariablen und die "
+"Momente der theoretischen Verteilung an"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Displays the probability density plot"
+msgstr "Zeigt das Wahrscheinlichkeitsdichtediagramm"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Displays the cumulative distribution plot"
+msgstr "Zeigt das kumulative Verteilungsdiagramm"
+
+msgctxt "LDgaussianunivariate|"
+msgid "Displays the quantile plot"
+msgstr "Zeigt das Quantildiagramm"
+
+msgctxt "LDAssessFit|"
+msgid "Lillienfors"
+msgstr "Lillienfors"
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Lillienfors test"
+msgstr "Anzeigen des Lillienfors-Tests"
+
+msgctxt "LDEstimateParameters|"
+msgid "Bias corrected"
+msgstr "Verzerrungs-korrigiert"
+
+msgctxt "LDAssessFit|"
+msgid "Shapiro-Francia"
+msgstr "Shapiro-Francia"
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Shapiro-Francia test of normality"
+msgstr "Den Shapiro-Francia-Test auf Normalverteilung anzeigen"
+
+msgctxt "DistributionSpecification|"
+msgid "μ (mean), σ (std.deviation)"
+msgstr "μ (Mittelwert), σ (Std.-Abweichung)"
+
+msgctxt "DistributionSpecification|"
+msgid "μ (mean), σ² (variance)"
+msgstr "μ (Mittelwert), σ² (Varianz)"
+
+msgctxt "DistributionSpecification|"
+msgid "μ (mean), τ (precision)"
+msgstr "μ (Mittelwert), τ (Präzision)"
+
+msgctxt "DistributionSpecification|"
+msgid "λ (rate)"
+msgstr "λ (Ratenparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "β (scale)"
+msgstr "β (Skalenparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "α (shape), θ (scale)"
+msgstr "α (Formparameter), θ (Skalenparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "α (shape), λ (rate)"
+msgstr "α (Formparameter), λ (Ratenparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "α (shape), μ (mean)"
+msgstr "α (Formparameter), μ (Mittelwert)"
+
+msgctxt "DistributionSpecification|"
+msgid "μ (log location), σ (log scale)"
+msgstr "μ (Log-Lageparameter), σ (Log-Skalenparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "α (scale), β (shape)"
+msgstr "α (Skalenparameter), β (Formparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "μ (mean), λ (shape)"
+msgstr "μ (Mittelwert), λ (Formparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "ν (drift), α (threshold), σ (noise)"
+msgstr "ν (Drift), α (Schwellwert), σ (Rauschen)"
+
+msgctxt "DistributionSpecification|"
+msgid "λ (rate), shift"
+msgstr "λ (Rate), Verschiebung"
+
+msgctxt "DistributionSpecification|"
+msgid "β (scale), shift"
+msgstr "β (Skalenparameter), shift"
+
+msgctxt "DistributionSpecification|"
+msgid "α (shape), θ (scale), shift"
+msgstr "α (Formparameter), θ (Skalenparameter), Verschiebung"
+
+msgctxt "DistributionSpecification|"
+msgid "α (shape), λ (rate), shift"
+msgstr "α (Formparameter), λ (Ratenparameter), Verschiebung"
+
+msgctxt "DistributionSpecification|"
+msgid "α (shape), μ (mean), shift"
+msgstr "α (Formparameter), μ (Mittelwert), Verschiebung"
+
+msgctxt "DistributionSpecification|"
+msgid "μ (log location), σ (log scale), shift"
+msgstr "μ (Log-Lageparameter), σ (Log-Skalenparameter), Verschiebung"
+
+msgctxt "DistributionSpecification|"
+msgid "α (scale), β (shape), shift"
+msgstr "α (Skalenparameter), β (Formparameter), Verschiebung"
+
+msgctxt "DistributionSpecification|"
+msgid "μ (mean), λ (shape), shift"
+msgstr "μ (Mittelwert), λ (Formparameter), Verschiebung"
+
+msgctxt "DistributionSpecification|"
+msgid "ν (drift), α (threshold), σ (noise), shift"
+msgstr "ν (Drift), α (Schwellwert), σ (Rauschen), Verschiebung"
+
+msgctxt "DistributionSpecification|"
+msgid "Normal"
+msgstr "Normal"
+
+msgctxt "DistributionSpecification|"
+msgid "Standard normal"
+msgstr "Standard-Normal"
+
+msgctxt "DistributionSpecification|"
+msgid "Standard t"
+msgstr "Standard t"
+
+msgctxt "DistributionSpecification|"
+msgid "Student t"
+msgstr "Student t"
+
+msgctxt "DistributionSpecification|"
+msgid "Noncentral t"
+msgstr "Nicht-zentrale t"
+
+msgctxt "DistributionSpecification|"
+msgid "Noncentral Student t"
+msgstr "Nicht-zentrale Student t"
+
+msgctxt "DistributionSpecification|"
+msgid "Cauchy"
+msgstr "Cauchy"
+
+msgctxt "DistributionSpecification|"
+msgid "Gumbel"
+msgstr "Gumbel"
+
+msgctxt "DistributionSpecification|"
+msgid "Laplace"
+msgstr "Laplace"
+
+msgctxt "DistributionSpecification|"
+msgid "Logistic"
+msgstr "Logistisch"
+
+msgctxt "DistributionSpecification|"
+msgid "Skewed generalized t"
+msgstr "Schiefe generalisierte t"
+
+msgctxt "DistributionSpecification|"
+msgid "Symmetric generalized normal"
+msgstr "Symmetrisch generalisierte Normal"
+
+msgctxt "DistributionSpecification|"
+msgid "Skew normal"
+msgstr "Schiefe Normal"
+
+msgctxt "DistributionSpecification|"
+msgid "Skew Cauchy"
+msgstr "Schiefe Cauchy"
+
+msgctxt "DistributionSpecification|"
+msgid "Skew t"
+msgstr "Schiefe t"
+
+msgctxt "DistributionSpecification|"
+msgid "Beta"
+msgstr "Beta"
+
+msgctxt "DistributionSpecification|"
+msgid "Beta prime"
+msgstr "Beta-Strich"
+
+msgctxt "DistributionSpecification|"
+msgid "F"
+msgstr "F"
+
+msgctxt "DistributionSpecification|"
+msgid "Noncentral F"
+msgstr "Nicht-zentrale F"
+
+msgctxt "DistributionSpecification|"
+msgid "Chi-squared"
+msgstr "Chi-Quadrat"
+
+msgctxt "DistributionSpecification|"
+msgid "Noncentral chi-squared"
+msgstr "Nicht-zentrale Chi-Quadrat"
+
+msgctxt "DistributionSpecification|"
+msgid "Exponential"
+msgstr "Exponentiell"
+
+msgctxt "DistributionSpecification|"
+msgid "Gamma"
+msgstr "Gamma"
+
+msgctxt "DistributionSpecification|"
+msgid "Inverse gamma"
+msgstr "Inverse Gamma"
+
+msgctxt "DistributionSpecification|"
+msgid "Gompertz"
+msgstr "Gompertz"
+
+msgctxt "DistributionSpecification|"
+msgid "Log-logistic"
+msgstr "Log-logistisch"
+
+msgctxt "DistributionSpecification|"
+msgid "Log-normal"
+msgstr "Log-Normal"
+
+msgctxt "DistributionSpecification|"
+msgid "Wald"
+msgstr "Wald"
+
+msgctxt "DistributionSpecification|"
+msgid "Weibull"
+msgstr "Weibull"
+
+msgctxt "DistributionSpecification|"
+msgid "Amoroso"
+msgstr "Amoroso"
+
+msgctxt "DistributionSpecification|"
+msgid "Stretched beta"
+msgstr "Gestreckte Beta"
+
+msgctxt "DistributionSpecification|"
+msgid "Fréchet"
+msgstr "Fréchet"
+
+msgctxt "DistributionSpecification|"
+msgid "Pareto"
+msgstr "Pareto"
+
+msgctxt "DistributionSpecification|"
+msgid "Triangular"
+msgstr "Dreieckig"
+
+msgctxt "DistributionSpecification|"
+msgid "Uniform"
+msgstr "Uniform"
+
+msgctxt "DistributionSpecification|"
+msgid "Shifted Exponential"
+msgstr "Verschobene Exponential"
+
+msgctxt "DistributionSpecification|"
+msgid "Shifted Log-normal"
+msgstr "Verschobene Log-Normal"
+
+msgctxt "DistributionSpecification|"
+msgid "Shifted Gamma"
+msgstr "Verschobene Gamma"
+
+msgctxt "DistributionSpecification|"
+msgid "Shifted Inverse gamma"
+msgstr "Verschobene inverse Gamma"
+
+msgctxt "DistributionSpecification|"
+msgid "Shifted Log-logistic"
+msgstr "Verschobene Log-Logistisch"
+
+msgctxt "DistributionSpecification|"
+msgid "Shifted Wald"
+msgstr "Verschobene Wald"
+
+msgctxt "DistributionSpecification|"
+msgid "Shifted Weibull"
+msgstr "Verschobene Weibull"
+
+msgctxt "DistributionSpecification|"
+msgid "Show parameter settings"
+msgstr "Parametereinstellungen anzeigen"
+
+msgctxt "DistributionSpecification|"
+msgid "Parameters"
+msgstr "Parameter"
+
+msgctxt "CompareContinuousDistributions|"
+msgid ""
+"Specify a set of distributions, estimate their parameters, and compare their "
+"fit to data."
+msgstr ""
+"Geben Sie eine Menge von Verteilungen an, schätzen Sie deren Parameter und "
+"vergleichen Sie deren Anpassung an Daten."
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Select data for distribution comparison."
+msgstr "Wählen Sie Daten für den Verteilungsvergleich aus."
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Variable"
+msgstr "Variable"
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Specify distributions"
+msgstr "Verteilungen angeben"
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Specify distributions to be compared..."
+msgstr "Angabe der zu vergleichenden Verteilungen..."
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Output"
+msgstr "Ausgabe"
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Control what output will be generated."
+msgstr "Steuern Sie, welche Ausgabe generiert wird."
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Distribution comparison table"
+msgstr "Verteilungsvergleichstabelle"
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Outputs the main distribution comparison table."
+msgstr "Gibt die Hauptverteilungsvergleichstabelle aus."
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Order by"
+msgstr "Sortieren nach"
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Order by AIC/BIC"
+msgstr "Sortieren nach AIC/BIC"
+
+msgctxt "CompareContinuousDistributions|"
+msgid ""
+"Orders the output by how well the distributions fit the data (according to "
+"AIC or BIC)."
+msgstr ""
+"Ordnet die Ausgabe, wie gut die Verteilungen auf die Daten passen (nach AIC "
+"oder BIC)."
+
+msgctxt "CompareContinuousDistributions|"
+msgid "AIC"
+msgstr "AIC"
+
+msgctxt "CompareContinuousDistributions|"
+msgid "BIC"
+msgstr "BIC"
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Output per distribution"
+msgstr "Ausgabe pro Verteilung"
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Get detailed output for individual distributions."
+msgstr "Detaillierte Ausgabe für einzelne Verteilungen erhalten."
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Limit output to the first"
+msgstr "Ausgabe auf die erste begrenzen"
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Limit output to the first x distributions"
+msgstr "Ausgabe auf die ersten x Verteilungen begrenzen"
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Show the detailed output only for the top x distributions."
+msgstr "Die detaillierte Ausgabe nur für die oberen x Verteilungen zeigen."
+
+msgctxt "CompareContinuousDistributions|"
+msgid "distributions"
+msgstr "Verteilungen"
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Parameter estimates"
+msgstr "Parameterschätzungen"
+
+msgctxt "CompareContinuousDistributions|"
+msgid ""
+"Obtain a table of parameter estimates. *Note*: All parameters are estimated "
+"with maximum likelihood."
+msgstr ""
+"Eine Tabelle der Parameterschätzungen erhalten. *Notiz*: Alle Parameter "
+"werden per Maximum-Likelihood geschätzt."
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Goodness of fit"
+msgstr "Anpassungsgüte"
+
+msgctxt "CompareContinuousDistributions|"
+msgid ""
+"Compute goodness of fit tests. For most of the distributions, the default "
+"tests are Cramér-von Mises and Anderson-Darling for composite null "
+"hypothesis. Note that these tests rely on randomly splitting the data in two "
+"sets;\t\t\t\tas a result, the results may be variable, especially for small "
+"sample sizes.\t\t\t\tWhen a distribution does not have free parameters (i."
+"e., all parameters are fixed), the tests are Kolmorogov-Smirnov, and Cramér-"
+"von Mises and Anderson-Darling for simple null hypothesis. \t\t\t\tFor "
+"normal distributions with free location and scale parameters, specific "
+"versions of goodness of fit tests are computed, appropriate for this "
+"setting. If the normal distribution has some parameters fixed, it is treated "
+"as any other distribution."
+msgstr ""
+"Berechnung von Test der Anpassungsgüte. Für die meisten Verteilungen sind "
+"die Standardtests Cramér-von Mises und Anderson-Darling für die Gesamt-"
+"Nullhypothese. Beachten Sie, dass diese Tests auf eine zufällige "
+"Unterteilung der Daten in zwei Mengen beruhen; deswegen können die "
+"Ergebnisse variieren, insbesondere für kleine Stichprobenumfänge. Falls eine "
+"Verteilung keine freien Parameter hat (d.h. alle Parameter sind fixiert), "
+"sind die Tests Kolmorogov-Smirnov und Cramér-von Mises und Anderson-Darling "
+"für einfache Nullhypothese. Für Normalverteilungen mit freien Lage- und "
+"Skalenparametern werden für diese Einstellung spezifische Versionen der "
+"Anpassungsgüte-Tests berechnet. Wenn die Normalverteilung einige Parameter "
+"fixiert hat, wird sie wie jede andere Verteilung behandelt."
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Parametric bootstrap from"
+msgstr "Parametrischer Bootstrap von"
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Parametric bootstrap from x samples"
+msgstr "Parametrischer Bootstrap von x Stichproben"
+
+msgctxt "CompareContinuousDistributions|"
+msgid ""
+"Obtain the p-value of the goodness-of-fit tests using parametric bootstrap. "
+"In this case, the test statistics are always Kolmorogov-Smirnov, and Cramér–"
+"von Mises and Anderson-Darling for simple null hypothesis."
+msgstr ""
+"Ermitteln Sie den p-Wert der Anpassungsgütetests mithilfe des parametrischen "
+"Bootstrap-Verfahrens. In diesem Fall handelt es sich bei den Teststatistiken "
+"immer um die Kolmogorov-Smirnov-Statistik sowie um die Cramér-von-Mises- und "
+"die Anderson-Darling-Statistik für einfache Nullhypothesen."
+
+msgctxt "CompareContinuousDistributions|"
+msgid "samples"
+msgstr "Stichproben"
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Plot the distribution against data"
+msgstr "Darstellung der Verteilung gegen Daten"
+
+msgctxt "CompareContinuousDistributions|"
+msgid ""
+"Outputs histogram vs theoretical density plot, empirical vs. theoretical "
+"cumulative distribution function, the Q-Q plot, and the P-P plot."
+msgstr ""
+"Erzeugt ein Histogramm ggü. theoretischer Dichte, empirische ggü. "
+"theoretischer kumulativen Verteilungsfunktion, das Q-Q-Diagramm und das P-P-"
+"Diagramm."
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Confidence interval"
+msgstr "Konfidenzintervall"
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Add the confidence interval to the P-P and Q-Q plots."
+msgstr "Das Konfidenzintervall zu den P-P- und Q-Q-Diagrammen hinzufügen."
+
+msgctxt "Description|"
+msgid "Compare Distributions"
+msgstr "Verteilungen vergleichen"
+
+msgctxt "Description|"
+msgid "Compare Continuous Distributions"
+msgstr "Kontinuierliche Verteilungen vergleichen"
+
+msgctxt "DistributionSpecification|"
+msgid "<Select a distribution>"
+msgstr "<Eine Verteilung auswählen>"
+
+msgctxt "CompareContinuousDistributions|"
+msgid "Show full distribution specification"
+msgstr "Vollständige Verteilungsspezifikation anzeigen"
+
+msgctxt "CompareContinuousDistributions|"
+msgid ""
+"Displays the full distribution specification, including its parameters. If "
+"unchecked, only distribution names are shown."
+msgstr ""
+"Zeigt die vollständige Verteilungsspezifikation, einschließlich der "
+"Parameter. Falls nicht ausgewählt, werden nur Verteilungsnamen angezeigt."
+
+msgctxt "DistributionSpecification|"
+msgid "μ (mean)"
+msgstr "μ (Mittelwert)"
+
+msgctxt "DistributionSpecification|"
+msgid "σ (std. deviation)"
+msgstr "σ (Std.-Abweichung)"
+
+msgctxt "DistributionSpecification|"
+msgid "σ² (variance)"
+msgstr "σ² (Varianz)"
+
+msgctxt "DistributionSpecification|"
+msgid "τ (precision)"
+msgstr "τ (Präzision)"
+
+msgctxt "DistributionSpecification|"
+msgid "ν (df)"
+msgstr "ν (Freiheitsgrade)"
+
+msgctxt "DistributionSpecification|"
+msgid "κ (noncentrality)"
+msgstr "κ (Nichtzentralität)"
+
+msgctxt "DistributionSpecification|"
+msgid "μ (location)"
+msgstr "μ (Lageparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "σ (scale)"
+msgstr "σ (Skalenparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "λ (skew)"
+msgstr "λ (Schiefe)"
+
+msgctxt "DistributionSpecification|"
+msgid "p (kurtosis)"
+msgstr "p (Wölbung)"
+
+msgctxt "DistributionSpecification|"
+msgid "q (kurtosis)"
+msgstr "q (Wölbung)"
+
+msgctxt "DistributionSpecification|"
+msgid "α (scale)"
+msgstr "α (Skalenparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "β (shape)"
+msgstr "β (Formparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "ξ (location)"
+msgstr "ξ (Lageparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "ω (scale)"
+msgstr "ω (Skalenparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "α (slant)"
+msgstr "α (Schiefeparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "α (shape)"
+msgstr "α (Formparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "ν₁ (df)"
+msgstr "ν₁ (Freiheitsgrade)"
+
+msgctxt "DistributionSpecification|"
+msgid "ν₂ (df)"
+msgstr "ν₂ (Freiheitsgrade)"
+
+msgctxt "DistributionSpecification|"
+msgid "θ (scale)"
+msgstr "θ (Skalenparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "η (shape)"
+msgstr "η (Formparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "μ (log location)"
+msgstr "μ (Log-Lageparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "σ (log scale)"
+msgstr "σ (Log-Skalenparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "μ (log mean)"
+msgstr "μ (Log-Mittelwert)"
+
+msgctxt "DistributionSpecification|"
+msgid "σ (log std. deviation)"
+msgstr "σ (Log-Std.-Abweichung)"
+
+msgctxt "DistributionSpecification|"
+msgid "λ (shape)"
+msgstr "λ (Formparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "ν (drift)"
+msgstr "ν (Drift)"
+
+msgctxt "DistributionSpecification|"
+msgid "α (threshold)"
+msgstr "α (Schwellwert)"
+
+msgctxt "DistributionSpecification|"
+msgid "σ (noise)"
+msgstr "σ (Rauschen)"
+
+msgctxt "DistributionSpecification|"
+msgid "shape"
+msgstr "Formparameter"
+
+msgctxt "DistributionSpecification|"
+msgid "scale"
+msgstr "Skalenparameter"
+
+msgctxt "DistributionSpecification|"
+msgid "a (location)"
+msgstr "a (Lageparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "min"
+msgstr "Min"
+
+msgctxt "DistributionSpecification|"
+msgid "max"
+msgstr "Max"
+
+msgctxt "DistributionSpecification|"
+msgid "θ (location)"
+msgstr "θ (Lageparameter)"
+
+msgctxt "DistributionSpecification|"
+msgid "a (min)"
+msgstr "a (Min)"
+
+msgctxt "DistributionSpecification|"
+msgid "b (max)"
+msgstr "b (Max)"
+
+msgctxt "DistributionSpecification|"
+msgid "c (mode)"
+msgstr "c (Modus)"
+
+msgctxt "DistributionSpecification|"
+msgid "shift"
+msgstr "Verschiebung"
+
+msgctxt "DistributionSpecification|"
+msgid "Fixed"
+msgstr "Fixiert"

@@ -1,7 +1,7 @@
 Package: jaspDistributions
 Type: Package
 Title: Distributions Module for JASP
-Version: 0.18.2
+Version: 0.97.2
 Date: 2022-10-05
 Author: JASP Team
 Website: www.jasp-stats.org
@@ -18,8 +18,11 @@ Imports:
   jaspBase,
   jaspGraphs,
   MASS,
+  nortest,
   sgt,
-  sn
+  sn,
+  DistributionS7
 Remotes:
   jasp-stats/jaspBase,
-  jasp-stats/jaspGraphs
+  jasp-stats/jaspGraphs,
+  Kucharssim/DistributionS7

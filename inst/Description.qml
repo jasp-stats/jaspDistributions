@@ -1,19 +1,17 @@
-import QtQuick 		2.12
-import JASP.Module 	1.0
+import QtQuick
+import JASP.Module
 
 Description
 {
 	title :			qsTr("Distributions")
-	name:			"jaspDistributions"
 	icon:			"discoverdistributions-distributions.svg"
 	description: 	qsTr("Visualize distributions and fit them to data")
-	version			: "0.18.2"
-	author:			"JASP Team"
-	maintainer:		"JASP Team <info@jasp-stats.org>"
-	website:		"www.jasp-stats.org"
-	license:		"GPL (>= 2)"
 	requiresData:	false
-	hasWrappers:	true
+	hasWrappers	: true
+
+	// Setting directly the useSubMenus property would crash in JASP 0.96.0, since this setting does not exist in this version.
+	// Instead set it via jasvaScript: this will just add a warning in the log file if the property does not exist.
+	Component.onCompleted: useSubMenus = true
 
 	GroupTitle
 	{
@@ -305,5 +303,20 @@ Description
 		title:	qsTr("Hypergeometric")
 		qml:	"LDhypergeometric.qml"
 		func:	"LDhypergeometric"
+	}
+
+	GroupTitle
+	{
+		title: 	qsTr("Compare Distributions")
+		icon: 	"discoverdistributions-compareDistributions.svg"
+	}
+
+	Analysis
+	{
+		title:			qsTr("Compare Continuous Distributions")
+		qml:			"CompareContinuousDistributions.qml"
+		func:			"compareContinuousDistributions"
+		requiresData:	true
+		preloadData:	true
 	}
 }

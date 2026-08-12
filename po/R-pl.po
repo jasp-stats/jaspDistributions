@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.17.0\n"
-"POT-Creation-Date: 2023-11-18 02:58\n"
-"PO-Revision-Date: 2023-09-20 11:21+0000\n"
+"POT-Creation-Date: 2026-06-27 04:16\n"
+"PO-Revision-Date: 2025-07-16 23:01+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/pl/>\n"
@@ -10,19 +10,23 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 msgid ""
 "Could not write to column '%s', probably because it wasn't created by this "
 "analysis"
 msgstr ""
+"Nie można zapisać do kolumny '%s', prawdopodobnie dlatego, że nie została "
+"utworzona przez tę analizę"
 
 msgid ""
 "The following problem(s) occurred while running the analysis:"
 "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
 msgstr ""
+"Podczas analizy wystąpiły następujące problemy:<ul><li>Zmienna musi być "
+"dyskretna (tj. całkowita)</li></ul>"
 
 msgid "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
 msgstr ""
@@ -30,7 +34,7 @@ msgstr ""
 "li></ul>"
 
 msgid "Overview - %s"
-msgstr ""
+msgstr "Przegląd - %s"
 
 msgid "Descriptives"
 msgstr "Statystyki opisowe"
@@ -78,7 +82,7 @@ msgid "Moment"
 msgstr ""
 
 msgid "Raw"
-msgstr "Wiersz"
+msgstr "Surowe"
 
 msgid "Central"
 msgstr ""
@@ -148,11 +152,23 @@ msgstr "Cramér-von Mises"
 msgid "Anderson-Darling"
 msgstr "Anderson-Darling"
 
+msgid "Lillienfors"
+msgstr ""
+
 msgid "Shapiro-Wilk"
+msgstr "Shapiro-Wilk"
+
+#, fuzzy
+msgid "Shapiro-Francia"
 msgstr "Shapiro-Wilk"
 
 msgid "Chi-square"
 msgstr "Chi-kwadrat"
+
+msgid ""
+"Using Brown (1980) approximation which tends to be innacurate for small "
+"sample sizes."
+msgstr ""
 
 msgid "Histogram vs. Theoretical PDF"
 msgstr ""
@@ -179,7 +195,7 @@ msgid "Density"
 msgstr "Gęstość"
 
 msgid "Probability Mass"
-msgstr ""
+msgstr "Masa prawdopodobieństwa"
 
 msgid "Probability"
 msgstr "Prawdopodobieństwo"
@@ -188,7 +204,7 @@ msgid "Probability Density Function"
 msgstr "Funkcja gęstości prawdopodobieństwa"
 
 msgid "Probability Mass Function"
-msgstr ""
+msgstr "Funkcja masy prawdopodobieństwa"
 
 msgid "Cumulative Distribution Function"
 msgstr ""
@@ -212,7 +228,7 @@ msgid "Quantile Plot"
 msgstr "Wykres kwantyli"
 
 msgid "Probability Mass Plot"
-msgstr ""
+msgstr "Wykres masy prawdopodobieństwa"
 
 msgid "Histogram"
 msgstr "Histogram"
@@ -281,6 +297,15 @@ msgid ""
 "for a particular value of the random variable (displayed on the <i>x</i>-"
 "axis)."
 msgstr ""
+"Funkcja masy prawdopodobieństwa (ang. PMF), zazwyczaj oznaczana jako f(x), "
+"jest funkcją zmiennej losowej X.\n"
+"    Wartość f(x) oznacza prawdopodobieństwo, że zmienna losowa X przyjmuje "
+"wartość równą x.\n"
+"\n"
+"    Wykres masy prawdopodobieństwa obrazuje funkcję masy prawdopodobieństwa "
+"zmiennej losowej.\n"
+"    Oś <i>y</i>-przedstawia wartość funkcji masy prawdopodobieństwa dla "
+"konkretnej wartości zmiennej losowej (oznaczonej na osi <i>x</i>)."
 
 msgid ""
 "The cumulative distribution function (CDF), usually denoted as F(x), is a "
@@ -326,10 +351,9 @@ msgid ""
 "Leemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, "
 "16</i>(4), 8–9.\n"
 "\n"
-"For relationships with other distributions, visit www.math.wm.edu/~leemis/"
-"chart/UDR/UDR.html.\n"
+"For relationships with other distributions, visit %6$s.\n"
 "\n"
-"https://en.wikipedia.org/wiki/List_of_probability_distributions"
+"%7$s"
 msgstr ""
 
 msgid ""
@@ -342,6 +366,93 @@ msgid ""
 "Estimation failed: Hessian matrix is not numerically computable. "
 "<ul><li>Check outliers or feasibility of the distribution fitting the data.</"
 "li></ul>"
+msgstr ""
+
+msgid ""
+"Could not initialize distribution %1$s, with the following error: <br> %2$s"
+msgstr ""
+
+msgid ""
+"Could not fit distribution %1$s, with the following error: <br> %2$s. <br> "
+"You can try to change the initial parameter values, or remove the "
+"distribution from the distribution specification"
+msgstr ""
+
+msgid ""
+"Could not compute information criteria for %1$s, with the following error: "
+"<br> %2$s."
+msgstr ""
+
+msgid "Distribution comparison table"
+msgstr ""
+
+#, fuzzy
+msgid "Distribution"
+msgstr "Rozkład F"
+
+msgid "AIC"
+msgstr ""
+
+msgid "Weights"
+msgstr ""
+
+msgid "BIC"
+msgstr ""
+
+msgid "Log. Lik"
+msgstr ""
+
+msgid "df"
+msgstr ""
+
+msgid "Distribution comparison table (n=%1$i)"
+msgstr ""
+
+#, fuzzy
+msgid "Parameter estimates"
+msgstr "Parametr"
+
+msgid "Key"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Distribution has no parameters to estimate."
+msgstr ""
+
+msgid "The following parameters were held constant: %s."
+msgstr ""
+
+msgid "Goodness of fit"
+msgstr ""
+
+msgid "Bootstrapping..."
+msgstr ""
+
+msgid "Could not obtain goodness of fit: <br> %s"
+msgstr ""
+
+msgid "Based on %1$i valid parametric bootstrap samples."
+msgstr ""
+
+msgid "Empirical plots"
+msgstr ""
+
+msgid "Histogram vs. theoretical density"
+msgstr ""
+
+msgid "Empirical vs. theoretical cumulative probability"
+msgstr ""
+
+#, fuzzy
+msgid "Cramér–von Mises"
+msgstr "Cramér-von Mises"
+
+msgid "Lilliefors"
 msgstr ""
 
 msgid "Amoroso distribution"
@@ -440,11 +551,8 @@ msgstr "Rozkład Frécheta"
 msgid "location: %s"
 msgstr ""
 
-msgid ""
-"see Wikipedia: https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution"
-msgstr ""
-"zobacz na Wikipedii: https://en.wikipedia.org/wiki/Fr%%C3%"
-"%A9chet_distribution"
+msgid "see Wikipedia: %s"
+msgstr "zobacz w Wikipedii: %s"
 
 msgid "gamma distribution"
 msgstr "rozkład gamma"
@@ -453,7 +561,7 @@ msgid "mean: %s"
 msgstr "średnia: %s"
 
 msgid "inverse gamma distribution"
-msgstr "odwrotny rozkład gamma"
+msgstr "odwrotna rozkładu gamma"
 
 msgid "normal distribution"
 msgstr "rozkład normalny"
@@ -468,13 +576,16 @@ msgid "standard deviation: %s"
 msgstr "odchylenie standardowe: %s"
 
 msgid "precision: %s"
-msgstr ""
+msgstr "precyzja: %s"
 
 msgid "square root of precision: %s"
 msgstr ""
 
 msgid "&mu;"
 msgstr "&mu;"
+
+msgid "Unbiased with Bessel's correction."
+msgstr ""
 
 msgid "geometric distribution"
 msgstr "rozkład geometryczny"
@@ -498,9 +609,6 @@ msgstr ""
 "kształt: %1$s \n"
 "skala: %2$s"
 
-msgid "see Wikipedia: %s"
-msgstr ""
-
 msgid "Gumbel distribution"
 msgstr "rozkład Gumbela"
 
@@ -521,13 +629,6 @@ msgstr ""
 
 msgid "scale: &alpha; %s"
 msgstr "skala: &alfa; %s"
-
-msgid ""
-"see Wikipedia: https://en.wikipedia.org/wiki/Log-"
-"logistic_distribution#Moments"
-msgstr ""
-"zobacz na Wikipedii: https://en.wikipedia.org/wiki/Log-"
-"logistic_distribution#Moments"
 
 msgid "logistic distribution"
 msgstr "rozkład logistyczny"
@@ -608,13 +709,6 @@ msgstr ""
 msgid "generalized normal distribution"
 msgstr ""
 
-msgid ""
-"see Wikipedia - https://en.wikipedia.org/wiki/"
-"Generalized_normal_distribution#Moments"
-msgstr ""
-"zobacz na Wikipedii - https://en.wikipedia.org/wiki/"
-"Generalized_normal_distribution#Moments"
-
 msgid "skew normal distribution"
 msgstr ""
 
@@ -651,13 +745,6 @@ msgstr "skośność: %s"
 msgid "kurtosis: %s"
 msgstr "kurtoza: %s"
 
-msgid ""
-"see Wikipedia: https://en.wikipedia.org/wiki/"
-"Skewed_generalized_t_distribution#Moments"
-msgstr ""
-"zobacz na Wikipedii: https://en.wikipedia.org/wiki/"
-"Skewed_generalized_t_distribution#Moments"
-
 msgid "scaled, shifted Student's t-distribution"
 msgstr ""
 
@@ -693,3 +780,30 @@ msgstr "Parametr %s został ustalony na 1."
 
 msgid "Weibull distribution"
 msgstr "rozkład Weibulla"
+
+#~ msgid ""
+#~ "see Wikipedia: https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution"
+#~ msgstr ""
+#~ "zobacz na Wikipedii: https://en.wikipedia.org/wiki/Fr%%C3%"
+#~ "%A9chet_distribution"
+
+#~ msgid ""
+#~ "see Wikipedia: https://en.wikipedia.org/wiki/Log-"
+#~ "logistic_distribution#Moments"
+#~ msgstr ""
+#~ "zobacz na Wikipedii: https://en.wikipedia.org/wiki/Log-"
+#~ "logistic_distribution#Moments"
+
+#~ msgid ""
+#~ "see Wikipedia - https://en.wikipedia.org/wiki/"
+#~ "Generalized_normal_distribution#Moments"
+#~ msgstr ""
+#~ "zobacz na Wikipedii - https://en.wikipedia.org/wiki/"
+#~ "Generalized_normal_distribution#Moments"
+
+#~ msgid ""
+#~ "see Wikipedia: https://en.wikipedia.org/wiki/"
+#~ "Skewed_generalized_t_distribution#Moments"
+#~ msgstr ""
+#~ "zobacz na Wikipedii: https://en.wikipedia.org/wiki/"
+#~ "Skewed_generalized_t_distribution#Moments"

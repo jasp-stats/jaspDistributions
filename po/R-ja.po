@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.1.0\n"
-"POT-Creation-Date: 2023-11-18 02:58\n"
-"PO-Revision-Date: 2023-04-21 17:52+0000\n"
-"Last-Translator: Daiki Hojo <dhojo.bayes@gmail.com>\n"
+"POT-Creation-Date: 2026-06-27 04:16\n"
+"PO-Revision-Date: 2026-08-10 14:08+0000\n"
+"Last-Translator: Koji Kosugi <kosugitti@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/ja/>\n"
 "Language: ja\n"
@@ -11,12 +11,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 2026.9.dev0\n"
 
 msgid ""
 "Could not write to column '%s', probably because it wasn't created by this "
 "analysis"
 msgstr ""
+"おそらくこの解析で作成されていないため、'%s' の列に書くことができません"
 
 msgid ""
 "The following problem(s) occurred while running the analysis:"
@@ -32,7 +33,7 @@ msgid "Overview - %s"
 msgstr "全体 - %s"
 
 msgid "Descriptives"
-msgstr "記述統計量"
+msgstr "記述統計"
 
 msgid "Variable"
 msgstr "変数"
@@ -89,10 +90,10 @@ msgid "Parameter"
 msgstr "パラメータ"
 
 msgid "Estimate"
-msgstr "推定"
+msgstr "推定値"
 
 msgid "SE"
-msgstr "標準誤差"
+msgstr "SE"
 
 msgid "Standard errors are unavailable with this method"
 msgstr "この方法では標準誤差が得られない"
@@ -101,7 +102,7 @@ msgid "Lower"
 msgstr "下限"
 
 msgid "%s%% CI"
-msgstr "%s%% CI"
+msgstr "%s%% 信頼区間"
 
 msgid "Upper"
 msgstr "上限"
@@ -147,11 +148,22 @@ msgstr "クラメール-フォンミーゼス"
 msgid "Anderson-Darling"
 msgstr "アンダーソン-ダーリング"
 
+msgid "Lillienfors"
+msgstr "Lillienfors"
+
 msgid "Shapiro-Wilk"
 msgstr "シャピロ-ウィルク"
 
+msgid "Shapiro-Francia"
+msgstr "シャピロ-フランシア"
+
 msgid "Chi-square"
 msgstr "カイ二乗"
+
+msgid ""
+"Using Brown (1980) approximation which tends to be innacurate for small "
+"sample sizes."
+msgstr "Brown (1980) の近似を使っています。小標本では不正確になりがちです。"
 
 msgid "Histogram vs. Theoretical PDF"
 msgstr "ヒストグラム vs. 理論的確率密度関数"
@@ -369,19 +381,17 @@ msgid ""
 "Leemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, "
 "16</i>(4), 8–9.\n"
 "\n"
-"For relationships with other distributions, visit www.math.wm.edu/~leemis/"
-"chart/UDR/UDR.html.\n"
+"For relationships with other distributions, visit %6$s.\n"
 "\n"
-"https://en.wikipedia.org/wiki/List_of_probability_distributions"
+"%7$s"
 msgstr ""
 "<h3> %1$s のデモンストレーション </h3>\n"
-"このデモは4つのパートに分かれています。\n"
-"最初の部分では、%2$s、その確率密度関数、累積分布関数、および分位点関数を表示"
-"します。 \n"
-"第2の部分では、%3$s からデータを生成し、記述統計量を計算し、記述プロットを表"
-"示します。\n"
-"第3の部分では、%4$s のパラメータを推定できます。 \n"
-"第4の部分では、データに対する %5$s の適合性を確認できます。\n"
+"このデモは4つの部分に分かれています。\n"
+"第1部では、%2$s とその確率密度関数・累積分布関数・分位点関数を表示します。\n"
+"第2部では、%3$s からデータを生成し、記述統計量を計算して記述プロットを表示で"
+"きます。\n"
+"第3部では、%4$s のパラメータを推定できます。\n"
+"第4部では、データへの %5$s のあてはまりを確認できます。\n"
 "\n"
 "<b>参考文献</b>\n"
 "\n"
@@ -391,10 +401,9 @@ msgstr ""
 "Leemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, "
 "16</i>(4), 8–9.\n"
 "\n"
-"For relationships with other distributions, visit www.math.wm.edu/~leemis/"
-"chart/UDR/UDR.html.\n"
+"他の分布との関係については %6$s を参照してください。\n"
 "\n"
-"https://en.wikipedia.org/wiki/List_of_probability_distributions"
+"%7$s"
 
 msgid ""
 "Estimation failed: Optimization did not converge. <ul><li>Try adjusting "
@@ -412,6 +421,92 @@ msgstr ""
 "推定に失敗しました: ヘシアン行列は数値的に計算できません。<ul><li>データに適"
 "合する分布の外れ値または実現可能性を確認してください。</li></ul>"
 
+msgid ""
+"Could not initialize distribution %1$s, with the following error: <br> %2$s"
+msgstr "分布 %1$s を初期化できませんでした。エラー: <br> %2$s"
+
+msgid ""
+"Could not fit distribution %1$s, with the following error: <br> %2$s. <br> "
+"You can try to change the initial parameter values, or remove the "
+"distribution from the distribution specification"
+msgstr ""
+"分布 %1$s をあてはめられませんでした。エラー: <br> %2$s。 <br> 初期パラメータ"
+"値を変えてみてください。"
+
+msgid ""
+"Could not compute information criteria for %1$s, with the following error: "
+"<br> %2$s."
+msgstr "%1$s の情報量規準を計算できませんでした。エラー: <br> %2$s。"
+
+msgid "Distribution comparison table"
+msgstr "分布の比較表"
+
+msgid "Distribution"
+msgstr "分布"
+
+msgid "AIC"
+msgstr "AIC"
+
+msgid "Weights"
+msgstr "重み"
+
+msgid "BIC"
+msgstr "BIC"
+
+msgid "Log. Lik"
+msgstr "対数尤度"
+
+msgid "df"
+msgstr "df"
+
+msgid "Distribution comparison table (n=%1$i)"
+msgstr "分布の比較表 (n=%1$i)"
+
+msgid "Parameter estimates"
+msgstr "パラメータ推定値"
+
+msgid "Key"
+msgstr "記号"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Label"
+msgstr "ラベル"
+
+msgid "Distribution has no parameters to estimate."
+msgstr "この分布には推定するパラメータがありません。"
+
+msgid "The following parameters were held constant: %s."
+msgstr "次のパラメータは定数として固定されました: %s。"
+
+msgid "Goodness of fit"
+msgstr "適合度"
+
+msgid "Bootstrapping..."
+msgstr "ブートストラップを実行しています..."
+
+msgid "Could not obtain goodness of fit: <br> %s"
+msgstr "適合度を求められませんでした: <br> %s"
+
+msgid "Based on %1$i valid parametric bootstrap samples."
+msgstr "有効なパラメトリックブートストラップ標本 %1$i 件にもとづきます。"
+
+msgid "Empirical plots"
+msgstr "経験的プロット"
+
+msgid "Histogram vs. theoretical density"
+msgstr "ヒストグラム vs. 理論的確率密度関数"
+
+msgid "Empirical vs. theoretical cumulative probability"
+msgstr "経験的累積分布関数 vs. 理論的累積分布関数"
+
+msgid "Cramér–von Mises"
+msgstr "クラメール-フォンミーゼス"
+
+msgid "Lilliefors"
+msgstr "Lilliefors"
+
 msgid "Amoroso distribution"
 msgstr "アモロソ分布"
 
@@ -428,7 +523,7 @@ msgid "The optimization did not converge, try adjusting the parameter values."
 msgstr "最適化が収束しませんでした。パラメータ値を調整してみてください."
 
 msgid "<i>Warning.</i>"
-msgstr "<i>警告</i>"
+msgstr "<i>警告。</i>"
 
 msgid "Scale parameter %s is assumed positive."
 msgstr "尺度パラメータ %s は正の値と仮定します."
@@ -508,11 +603,8 @@ msgstr "フレシェ分布"
 msgid "location: %s"
 msgstr "位置: %s"
 
-msgid ""
-"see Wikipedia: https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution"
-msgstr ""
-"ウィキペディアを参照してください: https://en.wikipedia.org/wiki/Fr%%C3%"
-"%A9chet_distribution"
+msgid "see Wikipedia: %s"
+msgstr "ウィキペディアを見る: %s"
 
 msgid "gamma distribution"
 msgstr "ガンマ分布"
@@ -544,6 +636,9 @@ msgstr "精度の平方根: %s"
 msgid "&mu;"
 msgstr "&mu;"
 
+msgid "Unbiased with Bessel's correction."
+msgstr "ベッセルの補正による不偏推定です。"
+
 msgid "geometric distribution"
 msgstr "幾何分布"
 
@@ -566,9 +661,6 @@ msgstr ""
 "形状: %1$s \n"
 "尺度: %2$s"
 
-msgid "see Wikipedia: %s"
-msgstr ""
-
 msgid "Gumbel distribution"
 msgstr "ガンベル分布"
 
@@ -589,13 +681,6 @@ msgstr "log 尺度: %s"
 
 msgid "scale: &alpha; %s"
 msgstr "尺度: &alpha; %s"
-
-msgid ""
-"see Wikipedia: https://en.wikipedia.org/wiki/Log-"
-"logistic_distribution#Moments"
-msgstr ""
-"ウィキペディアを参照してください: https://en.wikipedia.org/wiki/Log-"
-"logistic_distribution#Moments"
 
 msgid "logistic distribution"
 msgstr "ロジスティック分布"
@@ -678,13 +763,6 @@ msgstr "ゼロ過程の確率: %s"
 msgid "generalized normal distribution"
 msgstr "一般化正規分布"
 
-msgid ""
-"see Wikipedia - https://en.wikipedia.org/wiki/"
-"Generalized_normal_distribution#Moments"
-msgstr ""
-"ウィキペディアを参照してください - https://en.wikipedia.org/wiki/"
-"Generalized_normal_distribution#Moments"
-
 msgid "skew normal distribution"
 msgstr "歪正規分布"
 
@@ -721,13 +799,6 @@ msgstr "歪度: %s"
 msgid "kurtosis: %s"
 msgstr "尖度: %s"
 
-msgid ""
-"see Wikipedia: https://en.wikipedia.org/wiki/"
-"Skewed_generalized_t_distribution#Moments"
-msgstr ""
-"ウィキペディアを参照してください: https://en.wikipedia.org/wiki/"
-"Skewed_generalized_t_distribution#Moments"
-
 msgid "scaled, shifted Student's t-distribution"
 msgstr "scaled, shifted t分布"
 
@@ -763,3 +834,30 @@ msgstr "パラメータ %s は 1 に固定されました."
 
 msgid "Weibull distribution"
 msgstr "ワイブル分布"
+
+#~ msgid ""
+#~ "see Wikipedia: https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution"
+#~ msgstr ""
+#~ "ウィキペディアを参照してください: https://en.wikipedia.org/wiki/Fr%%C3%"
+#~ "%A9chet_distribution"
+
+#~ msgid ""
+#~ "see Wikipedia: https://en.wikipedia.org/wiki/Log-"
+#~ "logistic_distribution#Moments"
+#~ msgstr ""
+#~ "ウィキペディアを参照してください: https://en.wikipedia.org/wiki/Log-"
+#~ "logistic_distribution#Moments"
+
+#~ msgid ""
+#~ "see Wikipedia - https://en.wikipedia.org/wiki/"
+#~ "Generalized_normal_distribution#Moments"
+#~ msgstr ""
+#~ "ウィキペディアを参照してください - https://en.wikipedia.org/wiki/"
+#~ "Generalized_normal_distribution#Moments"
+
+#~ msgid ""
+#~ "see Wikipedia: https://en.wikipedia.org/wiki/"
+#~ "Skewed_generalized_t_distribution#Moments"
+#~ msgstr ""
+#~ "ウィキペディアを参照してください: https://en.wikipedia.org/wiki/"
+#~ "Skewed_generalized_t_distribution#Moments"

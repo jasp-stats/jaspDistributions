@@ -39,6 +39,8 @@ Group
 		spacing: jaspTheme.columnGroupSpacing
 		DoubleField
 		{
+			infoLabel: qsTr("Range of x from ... to ...")
+			info: qsTr("Defines the limits of the x-axis of the probability density plot and cumulative distribution plot, and the limits of the y-axis of the quantile plot.")
 			name: "min_x"; label: qsTr("Range of x from"); id: min_x;
 			defaultValue: options.rangeMinX; min: options.min; max: parseFloat(max_x.value)
 		}
@@ -55,14 +57,15 @@ Group
 		Group
 		{
 			columns: 2
-			CheckBox{ name: "highlightDensity"		; label: qsTr("Density")	; id: highlightDensity }
-			CheckBox{ name: "highlightProbability"	; label: qsTr("Probability"); id: highlightProbability }
+			CheckBox{ name: "highlightDensity"		; label: qsTr("Density")	; id: highlightDensity;		info: qsTr("Highlights the probability density on the probability density plot and cumulative distribution plot at specified values of x") }
+			CheckBox{ name: "highlightProbability"	; label: qsTr("Probability"); id: highlightProbability;	info: qsTr("Highlights the probability in between the specified values of x in the density plot (area under the curve), and highlights the cumulative probability at the specified values in the cumulative distribution plot") }
 		}
 
 		RadioButtonGroup
 		{
 			name: "highlightType"
 			title: qsTr("Interval")
+			info: qsTr("Select the bounds of the interval to display: Density is highlighted at the lower and upper bounds, the probability is displayed for the specified interval.")
 			enabled: highlightDensity.checked || highlightProbability.checked
 			GridLayout
 			{

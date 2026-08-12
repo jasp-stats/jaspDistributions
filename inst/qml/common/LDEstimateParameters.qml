@@ -24,14 +24,18 @@ Section
 {
 	property bool includeSE: true
 	property bool includeCI: true
+	property bool includeUnbiased: false
 
 	title: enabled ? qsTr("Estimate Parameters") : qsTr("Estimate Parameters") + " - " + qsTr("[requires a loaded data set]")
+	info: qsTr("Displays a table with the parameter estimates. Changing parametrization changes which parameters are displayed.")
 	CheckBox
 	{
 		name: "methodMLE";      label: qsTr("Maximum likelihood"); id: methodMLE
+		info: qsTr("Estimates the parameters by the values in the domain at which the likelihood function is maximized. The likelihood function fixes the data argument (based on the selected variable) in the theoretical density function and views it as a function of the parameters. The optimization procedure is initialized with the values for the parameters entered under \"Show Distribution\".")
 		CheckBox
 		{
 			name: "outputEstimates"; label: qsTr("Estimates"); checked: true
+			CheckBox{ name: "biasCorrected"; label: qsTr("Bias corrected"); checked: false; visible: includeUnbiased}
 			CheckBox{ name: "outputSE"; label: qsTr("Std. error"); checked: false; visible: includeSE }
 			CheckBox
 			{

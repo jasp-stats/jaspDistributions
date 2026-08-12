@@ -31,10 +31,8 @@ LDnormalGeneralizedInternal <- function(jaspResults, dataset, options, state=NUL
 
   ready <- options[['variable']] != ""
   errors <- FALSE
-  if(ready && is.null(dataset)){
-    dataset <- .readDataSetToEnd(columns.as.numeric = options[['variable']])
-
-    variable <- dataset[[.v(options[['variable']])]]
+  if(ready){
+    variable <- dataset[[options[['variable']]]]
     variable <- variable[!is.na(variable)]
     errors <- .hasErrors(dataset, type = c("observations", "variance", "infinity", "limits"),
                          observations.amount = "<2",
@@ -85,7 +83,7 @@ LDnormalGeneralizedInternal <- function(jaspResults, dataset, options, state=NUL
 
     moments <- list()
     moments$expectation <- "&mu;"
-    moments$variance <- gettext("see Wikipedia - https://en.wikipedia.org/wiki/Generalized_normal_distribution#Moments")
+    moments$variance <- gettextf("see Wikipedia: %s", "https://en.wikipedia.org/wiki/Generalized_normal_distribution#Moments")
 
     jaspResults[['parsSupportMoments']] <- .ldParsSupportMoments(pars, support, moments)
   }

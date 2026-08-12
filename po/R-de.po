@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
-"POT-Creation-Date: 2023-11-18 02:58\n"
-"PO-Revision-Date: 2023-10-24 04:15+0000\n"
+"POT-Creation-Date: 2026-06-27 04:16\n"
+"PO-Revision-Date: 2026-07-06 08:02+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/de/>\n"
@@ -12,12 +12,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n==0 ? 0 : n==1 ? 0 : 1;\n"
-"X-Generator: Weblate 5.1.1-dev\n"
+"X-Generator: Weblate 2026.7.1.dev0\n"
 
 msgid ""
 "Could not write to column '%s', probably because it wasn't created by this "
 "analysis"
 msgstr ""
+"Konnte nicht in Spalte '%s' schreiben, wahrscheinlich weil sie nicht von "
+"dieser Analyse erstellt wurde"
 
 msgid ""
 "The following problem(s) occurred while running the analysis:"
@@ -48,7 +50,7 @@ msgid "Variance"
 msgstr "Varianz"
 
 msgid "Std. deviation"
-msgstr "Standardabweichung"
+msgstr "Std.-Abweichung"
 
 msgid "Minimum"
 msgstr "Minimum"
@@ -149,11 +151,24 @@ msgstr "Cramér-von Mises"
 msgid "Anderson-Darling"
 msgstr "Anderson-Darling"
 
+msgid "Lillienfors"
+msgstr "Lillienfors"
+
 msgid "Shapiro-Wilk"
 msgstr "Shapiro-Wilk"
 
+msgid "Shapiro-Francia"
+msgstr "Shapiro-Francia"
+
 msgid "Chi-square"
 msgstr "Chi-Quadrat"
+
+msgid ""
+"Using Brown (1980) approximation which tends to be innacurate for small "
+"sample sizes."
+msgstr ""
+"Verwendung der Brown (1980) Approximation, die für kleine Stichprobenumfänge "
+"tendenziell ungenau ist."
 
 msgid "Histogram vs. Theoretical PDF"
 msgstr "Histogramm vs. Theoretische WDF"
@@ -383,10 +398,9 @@ msgid ""
 "Leemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, "
 "16</i>(4), 8–9.\n"
 "\n"
-"For relationships with other distributions, visit www.math.wm.edu/~leemis/"
-"chart/UDR/UDR.html.\n"
+"For relationships with other distributions, visit %6$s.\n"
 "\n"
-"https://en.wikipedia.org/wiki/List_of_probability_distributions"
+"%7$s"
 msgstr ""
 "<h3> Darstellung der %1$s </h3>\n"
 "Diese Darstellung besteht aus vier Teilen.\n"
@@ -403,21 +417,20 @@ msgstr ""
 "Chapman and Hall/CRC.\n"
 "\n"
 "Leemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, "
-"16</i>(4), 8-9.\n"
+"16</i>(4), 8–9.\n"
 "\n"
-"Für Verwandschaften mit weiteren Verteilungen, besuche www.math.wm.edu/"
-"~leemis/chart/UDR/UDR.html.\n"
+"Für Verwandschaften mit weiteren Verteilungen, besuche %6$s.\n"
 "\n"
-"https://en.wikipedia.org/wiki/List_of_probability_distributions"
+"%7$s"
 
 msgid ""
 "Estimation failed: Optimization did not converge. <ul><li>Try adjusting "
 "parameter values, check outliers or feasibility of the distribution fitting "
 "the data.</li></ul>"
 msgstr ""
-"Schätzung fehlgeschlagen: Optimierung ist nicht konvergiert. <ul><li> "
-"Probiere die Parameterwerte anzupassen, prüfe nach Ausreißern oder der "
-"Anpassungsgüte der Verteilung auf die Daten.</li></ul>"
+"Schätzung fehlgeschlagen: Optimierung ist nicht konvergiert. "
+"<ul><li>Probiere die Parameterwerte anzupassen, prüfe nach Ausreißern oder "
+"der Anpassungsgüte der Verteilung auf die Daten.</li></ul>"
 
 msgid ""
 "Estimation failed: Hessian matrix is not numerically computable. "
@@ -425,8 +438,98 @@ msgid ""
 "li></ul>"
 msgstr ""
 "Schätzung fehlgeschlagen: Hesse-Matrix is nicht numerisch berechenbar. "
-"<ul><li> Prüfe nach Ausreißern oder der Passgüte der Verteilung auf die "
-"Daten.</li></ul>"
+"<ul><li>Prüfe nach Ausreißern oder der Passgüte der Verteilung auf die Daten."
+"</li></ul>"
+
+msgid ""
+"Could not initialize distribution %1$s, with the following error: <br> %2$s"
+msgstr ""
+"Kann Verteilung %1$s nicht initialisieren, mit folgendem Fehler: <br> %2$s"
+
+msgid ""
+"Could not fit distribution %1$s, with the following error: <br> %2$s. <br> "
+"You can try to change the initial parameter values, or remove the "
+"distribution from the distribution specification"
+msgstr ""
+"Konnte Verteilung %1$s nicht anpassen, mit folgendem Fehler: <br> %2$s. <br> "
+"Sie können versuchen, die Parameter-Startwerte zu ändern, oder die "
+"Verteilung aus der Verteilungsangabe zu entfernen"
+
+msgid ""
+"Could not compute information criteria for %1$s, with the following error: "
+"<br> %2$s."
+msgstr ""
+"Kann Informationskriterien für %1$s nicht berechnen, mit folgendem Fehler: "
+"<br> %2$s."
+
+msgid "Distribution comparison table"
+msgstr "Verteilungsvergleichstabelle"
+
+msgid "Distribution"
+msgstr "Verteilung"
+
+msgid "AIC"
+msgstr "AIC"
+
+msgid "Weights"
+msgstr "Gewichte"
+
+msgid "BIC"
+msgstr "BIC"
+
+msgid "Log. Lik"
+msgstr "Log.-Lik"
+
+msgid "df"
+msgstr "df"
+
+msgid "Distribution comparison table (n=%1$i)"
+msgstr "Verteilungsvergleichstabelle (n=%1$i)"
+
+msgid "Parameter estimates"
+msgstr "Parameterschätzungen"
+
+msgid "Key"
+msgstr "Schlüssel"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Label"
+msgstr "Beschriftung"
+
+msgid "Distribution has no parameters to estimate."
+msgstr "Verteilung hat keine Parameter zum Schätzen."
+
+msgid "The following parameters were held constant: %s."
+msgstr "Die folgenden Parameter wurden konstant gehalten: %s."
+
+msgid "Goodness of fit"
+msgstr "Anpassungsgüte"
+
+msgid "Bootstrapping..."
+msgstr "Bootstrapping..."
+
+msgid "Could not obtain goodness of fit: <br> %s"
+msgstr "Konnte Anpassungsgüte nicht ermitteln: <br> %s"
+
+msgid "Based on %1$i valid parametric bootstrap samples."
+msgstr "Basiert auf %1$i gültigen Stichproben aus parametrischem Bootstrap."
+
+msgid "Empirical plots"
+msgstr "Empirische Diagramme"
+
+msgid "Histogram vs. theoretical density"
+msgstr "Histogramm vs. theoretische Dichte"
+
+msgid "Empirical vs. theoretical cumulative probability"
+msgstr "Empirische vs. theoretische kumulative Wahrscheinlichkeit"
+
+msgid "Cramér–von Mises"
+msgstr "Cramér–von Mises"
+
+msgid "Lilliefors"
+msgstr "Lilliefors"
 
 msgid "Amoroso distribution"
 msgstr "Amoroso-Verteilung"
@@ -526,10 +629,8 @@ msgstr "Fréchet-Verteilung"
 msgid "location: %s"
 msgstr "Lage: %s"
 
-msgid ""
-"see Wikipedia: https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution"
-msgstr ""
-"siehe Wikipedia: https://de.wikipedia.org/wiki/Fr%%C3%%A9chet-Verteilung"
+msgid "see Wikipedia: %s"
+msgstr "siehe Wikipedia: %s"
 
 msgid "gamma distribution"
 msgstr "Gammaverteilung"
@@ -561,6 +662,9 @@ msgstr "Quadratwurzel der Präzision: %s"
 msgid "&mu;"
 msgstr "&mu;"
 
+msgid "Unbiased with Bessel's correction."
+msgstr "Unverzerrt mit Bessels Korrektur."
+
 msgid "geometric distribution"
 msgstr "geometrische Verteilung"
 
@@ -583,9 +687,6 @@ msgstr ""
 "Formparameter: %1$s\n"
 "Skalenparameter: %2$s"
 
-msgid "see Wikipedia: %s"
-msgstr "siehe Wikipedia: %s"
-
 msgid "Gumbel distribution"
 msgstr "Gumbel-Verteilung"
 
@@ -606,13 +707,6 @@ msgstr "Log-Skalierungsparameter: %s"
 
 msgid "scale: &alpha; %s"
 msgstr "Skalierungsparameter: &alpha; %s"
-
-msgid ""
-"see Wikipedia: https://en.wikipedia.org/wiki/Log-"
-"logistic_distribution#Moments"
-msgstr ""
-"siehe Wikipedia: https://en.wikipedia.org/wiki/Log-"
-"logistic_distribution#Moments"
 
 msgid "logistic distribution"
 msgstr "logistische Verteilung"
@@ -695,13 +789,6 @@ msgstr "Wahrscheinlichkeit des Nullprozesses: %s"
 msgid "generalized normal distribution"
 msgstr "verallgemeinerte Normalverteilung"
 
-msgid ""
-"see Wikipedia - https://en.wikipedia.org/wiki/"
-"Generalized_normal_distribution#Moments"
-msgstr ""
-"siehe Wikipedia - https://en.wikipedia.org/wiki/"
-"Generalized_normal_distribution#Moments"
-
 msgid "skew normal distribution"
 msgstr "schiefe Normalverteilung"
 
@@ -738,13 +825,6 @@ msgstr "Schiefe: %s"
 msgid "kurtosis: %s"
 msgstr "Wölbung: %s"
 
-msgid ""
-"see Wikipedia: https://en.wikipedia.org/wiki/"
-"Skewed_generalized_t_distribution#Moments"
-msgstr ""
-"siehe Wikipedia: https://en.wikipedia.org/wiki/"
-"Skewed_generalized_t_distribution#Moments"
-
 msgid "scaled, shifted Student's t-distribution"
 msgstr "skalierte, verschobene Studentsche t-Verteilung"
 
@@ -780,6 +860,32 @@ msgstr "Der Parameter %s wurde auf 1 fixiert."
 
 msgid "Weibull distribution"
 msgstr "Weibull-Verteilung"
+
+#~ msgid ""
+#~ "see Wikipedia: https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution"
+#~ msgstr ""
+#~ "siehe Wikipedia: https://de.wikipedia.org/wiki/Fr%%C3%%A9chet-Verteilung"
+
+#~ msgid ""
+#~ "see Wikipedia: https://en.wikipedia.org/wiki/Log-"
+#~ "logistic_distribution#Moments"
+#~ msgstr ""
+#~ "siehe Wikipedia: https://en.wikipedia.org/wiki/Log-"
+#~ "logistic_distribution#Moments"
+
+#~ msgid ""
+#~ "see Wikipedia - https://en.wikipedia.org/wiki/"
+#~ "Generalized_normal_distribution#Moments"
+#~ msgstr ""
+#~ "siehe Wikipedia - https://en.wikipedia.org/wiki/"
+#~ "Generalized_normal_distribution#Moments"
+
+#~ msgid ""
+#~ "see Wikipedia: https://en.wikipedia.org/wiki/"
+#~ "Skewed_generalized_t_distribution#Moments"
+#~ msgstr ""
+#~ "siehe Wikipedia: https://en.wikipedia.org/wiki/"
+#~ "Skewed_generalized_t_distribution#Moments"
 
 #~ msgid "t-distribution"
 #~ msgstr "t-Verteilung"
