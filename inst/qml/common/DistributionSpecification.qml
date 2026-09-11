@@ -36,7 +36,9 @@ Column
 		},
 		"StudentT"					: {
 			"default": [
-				{ value: "nu",		label: qsTr("ν (df)"),				min: 0,				defaultValue: 5 }
+				{ value: "nu",		label: qsTr("ν (df)"),				min: 0,				defaultValue: 5 },
+				{ value: "mu",		label: qsTr("μ (location)"),		min: -Infinity,		defaultValue: 0 },
+				{ value: "sigma",	label: qsTr("σ (scale)"),			min: 0,				defaultValue: 1 }
 			]
 		},
 		"NoncentralT"				: {
