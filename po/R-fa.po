@@ -2,14 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.96.5\n"
 "POT-Creation-Date: 2026-06-27 04:16\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-09-14 02:36+0000\n"
+"Last-Translator: Sohrab Delshad <sdel4030@gmail.com>\n"
+"Language-Team: Persian <https://hosted.weblate.org/projects/jasp/"
+"jaspdistributions-r/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2026.10.dev0\n"
 
 msgid ""
 "Could not write to column '%s', probably because it wasn't created by this "
@@ -28,16 +30,16 @@ msgid "Overview - %s"
 msgstr ""
 
 msgid "Descriptives"
-msgstr ""
+msgstr "آماره‌های توصیفی"
 
 msgid "Variable"
-msgstr ""
+msgstr "متغیّر"
 
 msgid "n"
 msgstr ""
 
 msgid "Mean"
-msgstr ""
+msgstr "میانگین"
 
 msgid "Variance"
 msgstr ""
@@ -82,25 +84,25 @@ msgid "Estimated Parameters"
 msgstr ""
 
 msgid "Parameter"
-msgstr ""
+msgstr "پارامتر"
 
 msgid "Estimate"
-msgstr ""
+msgstr "برآورد"
 
 msgid "SE"
-msgstr ""
+msgstr "خطای استاندارد (SE)"
 
 msgid "Standard errors are unavailable with this method"
 msgstr ""
 
 msgid "Lower"
-msgstr ""
+msgstr "پایین"
 
 msgid "%s%% CI"
-msgstr ""
+msgstr "فاصله اطمینان %s%%"
 
 msgid "Upper"
-msgstr ""
+msgstr "بالا"
 
 msgid "Confidence intervals are unavailable with this method."
 msgstr ""
@@ -126,13 +128,13 @@ msgid "Fit Statistics"
 msgstr ""
 
 msgid "Test"
-msgstr ""
+msgstr "آزمون"
 
 msgid "Statistic"
-msgstr ""
+msgstr "آماره"
 
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgid "Kolmogorov-Smirnov"
 msgstr ""
@@ -147,7 +149,7 @@ msgid "Lillienfors"
 msgstr ""
 
 msgid "Shapiro-Wilk"
-msgstr ""
+msgstr "شاپیرو–ویلک"
 
 msgid "Shapiro-Francia"
 msgstr ""
@@ -176,19 +178,19 @@ msgid "P-P plot"
 msgstr ""
 
 msgid "Sample"
-msgstr ""
+msgstr "نمونه"
 
 msgid "Theoretical"
 msgstr ""
 
 msgid "Density"
-msgstr ""
+msgstr "چگالی"
 
 msgid "Probability Mass"
 msgstr ""
 
 msgid "Probability"
-msgstr ""
+msgstr "احتمال"
 
 msgid "Probability Density Function"
 msgstr ""
@@ -221,7 +223,7 @@ msgid "Probability Mass Plot"
 msgstr ""
 
 msgid "Histogram"
-msgstr ""
+msgstr "نگاره هیستوگرام"
 
 msgid "Bar plot"
 msgstr ""
@@ -383,7 +385,7 @@ msgid "Log. Lik"
 msgstr ""
 
 msgid "df"
-msgstr ""
+msgstr "درجه آزادی"
 
 msgid "Distribution comparison table (n=%1$i)"
 msgstr ""
