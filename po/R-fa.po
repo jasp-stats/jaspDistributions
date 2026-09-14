@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.96.5\n"
 "POT-Creation-Date: 2026-06-27 04:16\n"
-"PO-Revision-Date: 2026-09-14 02:36+0000\n"
+"PO-Revision-Date: 2026-09-15 04:05+0000\n"
 "Last-Translator: Sohrab Delshad <sdel4030@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/jasp/"
 "jaspdistributions-r/fa/>\n"
@@ -36,37 +36,37 @@ msgid "Variable"
 msgstr "متغیّر"
 
 msgid "n"
-msgstr ""
+msgstr "n"
 
 msgid "Mean"
 msgstr "میانگین"
 
 msgid "Variance"
-msgstr ""
+msgstr "واریانس"
 
 msgid "Std. deviation"
-msgstr ""
+msgstr "انحراف معیار"
 
 msgid "Minimum"
-msgstr ""
+msgstr "حداقل"
 
 msgid "25%% Quantile"
 msgstr ""
 
 msgid "Median"
-msgstr ""
+msgstr "میانه"
 
 msgid "75%% Quantile"
 msgstr ""
 
 msgid "Maximum"
-msgstr ""
+msgstr "حداکثر"
 
 msgid "Rel. Frequency"
 msgstr ""
 
 msgid "Total"
-msgstr ""
+msgstr "کل"
 
 msgid "Observed Moments"
 msgstr ""
@@ -90,7 +90,7 @@ msgid "Estimate"
 msgstr "برآورد"
 
 msgid "SE"
-msgstr "خطای استاندارد (SE)"
+msgstr "خطای معیار"
 
 msgid "Standard errors are unavailable with this method"
 msgstr ""
@@ -149,7 +149,7 @@ msgid "Lillienfors"
 msgstr ""
 
 msgid "Shapiro-Wilk"
-msgstr "شاپیرو–ویلک"
+msgstr "شاپیرو-ویلک"
 
 msgid "Shapiro-Francia"
 msgstr ""
@@ -370,7 +370,7 @@ msgid "Distribution comparison table"
 msgstr ""
 
 msgid "Distribution"
-msgstr ""
+msgstr "توزیع"
 
 msgid "AIC"
 msgstr ""
