@@ -37,7 +37,7 @@ Upgrades
 					"Normal":						{ "sigma": ["mu", "sigma"], "sigma2": ["mu", "sigma2"], "tau": ["mu", "tau"] },
 					"StandardNormal":				[],
 					"StandardT":					["nu"],
-					"StudentT":						["nu"],
+					"StudentT":						["nu", "mu", "sigma"],
 					"NoncentralT":					["nu", "kappa"],
 					"NoncentralStudentT":			["nu", "kappa", "mu", "sigma"],
 					"Cauchy":						["mu", "sigma"],
