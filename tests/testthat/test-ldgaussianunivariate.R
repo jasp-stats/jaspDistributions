@@ -100,7 +100,7 @@ test_that("Fit Statistics table results match", {
                                  list(0.991407439010072, 0.0435417886558164, "Kolmogorov-Smirnov", 0.943808236870346,
                                       0.0222708494545493, "Cram<unicode>r-von Mises", 0.977570565641067,
                                       0.135493314971953, "Anderson-Darling", 0.912509972807986, 0.0435417886558163,
-                                      "Lillienfors", 0.994211531885928, 0.996119141722174, "Shapiro-Wilk",
+                                      "Lilliefors", 0.994211531885928, 0.996119141722174, "Shapiro-Wilk",
                                       0.992785911992608, 0.996812818710274, "Shapiro-Francia"))
 })
 
@@ -132,4 +132,64 @@ test_that("Quantile Plot matches", {
   plotName <- results[["results"]][["plotQF"]][["collection"]][["plotQF_qfPlot"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
   jaspTools::expect_equal_plots(testPlot, "quantile-plot")
+})
+
+
+
+
+test_that("Shapiro tests are skipped with a footnote when there are more than 5000 observations", {
+  options <- jaspTools::analysisOptions("LDgaussianunivariate")
+  options$.meta <- list(newVariableName = list(containsColumn = TRUE), variable = list(
+    containsColumn = TRUE))
+  options$biasCorrected <- TRUE
+  options$andersonDarling <- TRUE
+  options$lillienfors <- TRUE
+  options$ciInterval <- TRUE
+  options$ciIntervalInterval <- 0.95
+  options$cramerVonMisses <- TRUE
+  options$ecdf <- TRUE
+  options$estCDF <- TRUE
+  options$estPDF <- TRUE
+  options$explanatoryText <- TRUE
+  options$highlightDensity <- TRUE
+  options$highlightProbability <- TRUE
+  options$histogram <- TRUE
+  options$kolmogorovSmirnov <- TRUE
+  options$methodMLE <- TRUE
+  options$moments <- TRUE
+  options$momentsUpTo <- 10
+  options$newVariableName <- ""
+  options$outputEstimates <- TRUE
+  options$outputSE <- TRUE
+  options$parsSupportMoments <- TRUE
+  options$plotCDF <- TRUE
+  options$plotQF <- TRUE
+  options$ppplot <- TRUE
+  options$qqplot <- TRUE
+  options$shapiroWilk <- TRUE
+  options$shapiroFrancia <- TRUE
+  options$qqPlotCi <- TRUE
+  options$qqPlotCiLevel <- 0.95
+  options$ppPlotCi <- TRUE
+  options$ppPlotCiLevel <- 0.95
+  options$summary <- TRUE
+  options$parametrization <- "sigma2"
+  options$variable <- "x"
+  set.seed(1)
+  results <- jaspTools::runAnalysis("LDgaussianunivariate", data.frame(x = rnorm(5001)), options)
+
+  jaspTools::expect_equal_tables(
+    results[["results"]][["mleContainer"]][["collection"]][["mleContainer_mleFitAssessment"]][["collection"]][["mleContainer_mleFitAssessment_fitStatisticsTable"]],
+    list("FALSE", "Julian Faraway, George Marsaglia, John Marsaglia and Adrian Baddeley (2017). goftest: Classical Goodness-of-Fit Tests for Univariate Distributions. R package version 1.1-1. https://CRAN.R-project.org/package=goftest",
+	 0.813040483757877, 0.00899634190923732, "Kolmogorov-Smirnov",
+	 0.443248134079255, 0.054780510960245, "Cram<unicode>r-von Mises",
+	 0.468647711038442, 0.351644080447841, "Anderson-Darling", 0.421453480151086,
+	 0.00899634190923748, "Lilliefors", 0, "", "", "Shapiro-Wilk",
+	 0, "", "", "Shapiro-Francia", "statistic", 31, "shapiroWilk",
+	 0, "Test not computed: the variable has more than 5000 observations (n = 5001).",
+	 "mleContainer_mleFitAssessment_fitStatisticsTable", "FALSE",
+	 "test", "Test", "string", "sf:4;dp:3", "statistic", "Statistic",
+	 "number", "dp:3;p:.001", "p.value", "p", "pvalue", "complete",
+	 "Fit Statistics")
+  )
 })
