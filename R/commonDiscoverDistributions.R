@@ -404,7 +404,7 @@
   # fit statistics
   mleFitStatistics   <- .ldFitStatisticsTable(mleFitContainer, options, "methodMLE")
   mleFitStatisticsResults <- .ldFitStatisticsResults(mleContainer, mleResults$fitdist, variable, options, ready, normality)
-  .ldFillFitStatisticsTable(mleFitStatistics, mleFitStatisticsResults, options, ready, normality)
+  .ldFillFitStatisticsTable(mleFitStatistics, mleFitStatisticsResults, options, ready, normality, n = length(variable))
   # fit plots
   .ldFitPlots(mleFitContainer, mleResults$fitdist$estimate, options, variable, ready)
 }
@@ -593,6 +593,10 @@
         fun <- function(x) {
           return(list(statistic = NA, p.value = NA))
         }
+      } else if (test %in% c("shapiroWilk", "shapiroFrancia") && !.ldShapiroSampleSizeValid(test, length(variable))) {
+        fun <- function(x) {
+          return(list(statistic = NA, p.value = NA))
+        }
       }
     } else {
       if (test=="lillienfors") {
@@ -612,7 +616,13 @@
   return(res)
 }
 
-.ldFillFitStatisticsTable <- function(table, results, options, ready, normality=FALSE){
+.ldShapiroSampleSizeValid <- function(test, n) {
+  # stats::shapiro.test requires 3 <= n <= 5000, nortest::sf.test requires 5 <= n <= 5000
+  minN <- if (test == "shapiroWilk") 3 else 5
+  return(n >= minN && n <= 5000)
+}
+
+.ldFillFitStatisticsTable <- function(table, results, options, ready, normality=FALSE, n=NULL){
   if(!ready) return()
   if(is.null(results)) return()
   if(is.null(table)) return()
@@ -623,7 +633,7 @@
   testNames <- c(gettext("Kolmogorov-Smirnov"),
                  gettext("Cramér-von Mises"),
                  gettext("Anderson-Darling"),
-                 gettext("Lillienfors"),
+                 gettext("Lilliefors"),
                  gettext("Shapiro-Wilk"),
                  gettext("Shapiro-Francia"),
                  gettext("Chi-square"))[allTests %in% names(options)]
@@ -640,6 +650,18 @@
     table$addFootnote(gettext("Using Brown (1980) approximation which tends to be innacurate for small sample sizes."),
                       rowNames = c("cramerVonMisses", "andersonDarling"))
     table$addCitation(.ldAllTextsList()$references$brown)
+  }
+
+  if (normality && !is.null(n)) {
+    for (test in c("shapiroWilk", "shapiroFrancia")) {
+      if (isTRUE(options[[test]]) && !.ldShapiroSampleSizeValid(test, n)) {
+        message <- if (n > 5000)
+          gettextf("Test not computed: the variable has more than 5000 observations (n = %i).", n)
+        else
+          gettextf("Test not computed: the variable has too few observations (n = %i).", n)
+        table$addFootnote(message, colNames = "statistic", rowNames = test)
+      }
+    }
   }
 
   return()
