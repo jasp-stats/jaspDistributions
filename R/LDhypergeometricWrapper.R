@@ -31,7 +31,7 @@
 #'    Defaults to \code{TRUE}.
 LDhypergeometric <- function(
           data = NULL,
-          version = "0.95",
+          version = "1",
           draws = 5,
           ecdf = FALSE,
           explanatoryText = FALSE,

@@ -43,7 +43,7 @@
 #'    Defaults to \code{TRUE}.
 LDbetaBinomial <- function(
           data = NULL,
-          version = "0.95",
+          version = "1",
           alpha = 1,
           beta = 1,
           biasCorrected = FALSE,

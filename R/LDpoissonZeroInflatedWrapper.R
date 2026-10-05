@@ -43,7 +43,7 @@
 #'    Defaults to \code{TRUE}.
 LDpoissonZeroInflated <- function(
           data = NULL,
-          version = "0.95",
+          version = "1",
           biasCorrected = FALSE,
           chiSquare = FALSE,
           ciInterval = FALSE,

@@ -43,7 +43,7 @@
 #'    Defaults to \code{TRUE}.
 LDgeometric <- function(
           data = NULL,
-          version = "0.95",
+          version = "1",
           biasCorrected = FALSE,
           chiSquare = FALSE,
           ciInterval = FALSE,

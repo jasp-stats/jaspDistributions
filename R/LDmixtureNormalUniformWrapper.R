@@ -17,7 +17,7 @@
 
 # This is a generated file. Don't change it!
 
-#' Discrete
+#' Mixture of normal and uniform
 #'
 #' @param andersonDarling, Displays the Anderson-Darling test
 #'    Defaults to \code{FALSE}.
@@ -35,15 +35,15 @@
 #'    Defaults to \code{FALSE}.
 #' @param highlightType, Select the bounds of the interval to display: Density is highlighted at the lower and upper bounds, the probability is displayed for the specified interval.
 #' \itemize{
-#'   \item \code{"minmax"}
 #'   \item \code{"upper"}
 #'   \item \code{"lower"}
+#'   \item \code{"minmax"}
 #' }
 #' @param histogram, Display a histogram of the selected variable with the number of specified bins.
 #'    Defaults to \code{FALSE}.
 #' @param kolmogorovSmirnov, Displays the Kolmogorov-Smirnov test
 #'    Defaults to \code{FALSE}.
-#' @param lillienfors, Displays the Lillienfors test
+#' @param lillienfors, Displays the Lilliefors test
 #'    Defaults to \code{FALSE}.
 #' @param methodMLE, Estimates the parameters by the values in the domain at which the likelihood function is maximized. The likelihood function fixes the data argument (based on the selected variable) in the theoretical density function and views it as a function of the parameters. The optimization procedure is initialized with the values for the parameters entered under "Show Distribution".
 #'    Defaults to \code{FALSE}.
@@ -56,13 +56,15 @@
 #' @param qqplot, Displays the quantile-quantile plot. The *x*-axis shows the theoretical quantiles of the data points under the fitted distribution, the *y*-axis shows the empirical quantiles of the selected variable.
 #'    Defaults to \code{FALSE}.
 #' @param sampleSize, Specify the number of samples.
+#' @param shapiroFrancia, Displays the Shapiro-Francia test of normality
+#'    Defaults to \code{FALSE}.
 #' @param shapiroWilk, Displays the Shapiro-Wilk test of normality
 #'    Defaults to \code{FALSE}.
 #' @param summary, Displays a descriptive table of the selected variable.
 #'    Defaults to \code{TRUE}.
 LDmixtureNormalUniform <- function(
           data = NULL,
-          version = "0.95",
+          version = "1",
           andersonDarling = FALSE,
           biasCorrected = FALSE,
           ciInterval = FALSE,
@@ -107,6 +109,7 @@ LDmixtureNormalUniform <- function(
           qqPlotCiLevel = 0.95,
           qqplot = FALSE,
           sampleSize = 0,
+          shapiroFrancia = FALSE,
           shapiroWilk = FALSE,
           sigma = 1,
           simulateNow = FALSE,

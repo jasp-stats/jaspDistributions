@@ -28,8 +28,8 @@
 #' @param highlightType, Select the bounds of the interval to display: Density is highlighted at the lower and upper bounds, the probability is displayed for the specified interval.
 #' \itemize{
 #'   \item \code{"upper"}
-#'   \item \code{"minmax"}
 #'   \item \code{"lower"}
+#'   \item \code{"minmax"}
 #' }
 #' @param histogram, Display a histogram of the selected variable with the number of specified bins.
 #'    Defaults to \code{FALSE}.
@@ -44,7 +44,7 @@
 #'    Defaults to \code{TRUE}.
 LDgammaInverse <- function(
           data = NULL,
-          version = "0.95",
+          version = "1",
           andersonDarling = FALSE,
           biasCorrected = FALSE,
           ciInterval = FALSE,

@@ -41,7 +41,7 @@
 #'    Defaults to \code{TRUE}.
 LDbernoulli <- function(
           data = NULL,
-          version = "0.95",
+          version = "1",
           biasCorrected = FALSE,
           ciInterval = FALSE,
           ciIntervalInterval = 0.95,
