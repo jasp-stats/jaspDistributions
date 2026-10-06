@@ -13,6 +13,13 @@ Description
 	// Instead set it via jasvaScript: this will just add a warning in the log file if the property does not exist.
 	Component.onCompleted: useSubMenus = true
 
+	Analysis
+	{
+		title:	qsTr("Continuous Distribution")
+		qml:	"ContinuousDistribution.qml"
+		func:	"LDgaussianunivariate"
+	}
+
 	GroupTitle
 	{
 		title: 	qsTr("Continuous")
