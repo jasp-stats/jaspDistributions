@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
-"POT-Creation-Date: 2026-06-27 04:16\n"
+"POT-Creation-Date: 2026-10-10 03:06\n"
 "PO-Revision-Date: 2026-07-06 08:02+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
@@ -151,8 +151,8 @@ msgstr "Cramér-von Mises"
 msgid "Anderson-Darling"
 msgstr "Anderson-Darling"
 
-msgid "Lillienfors"
-msgstr "Lillienfors"
+msgid "Lilliefors"
+msgstr "Lilliefors"
 
 msgid "Shapiro-Wilk"
 msgstr "Shapiro-Wilk"
@@ -169,6 +169,13 @@ msgid ""
 msgstr ""
 "Verwendung der Brown (1980) Approximation, die für kleine Stichprobenumfänge "
 "tendenziell ungenau ist."
+
+msgid ""
+"Test not computed: the variable has more than 5000 observations (n = %i)."
+msgstr ""
+
+msgid "Test not computed: the variable has too few observations (n = %i)."
+msgstr ""
 
 msgid "Histogram vs. Theoretical PDF"
 msgstr "Histogramm vs. Theoretische WDF"
@@ -528,9 +535,6 @@ msgstr "Empirische vs. theoretische kumulative Wahrscheinlichkeit"
 msgid "Cramér–von Mises"
 msgstr "Cramér–von Mises"
 
-msgid "Lilliefors"
-msgstr "Lilliefors"
-
 msgid "Amoroso distribution"
 msgstr "Amoroso-Verteilung"
 
@@ -860,6 +864,9 @@ msgstr "Der Parameter %s wurde auf 1 fixiert."
 
 msgid "Weibull distribution"
 msgstr "Weibull-Verteilung"
+
+#~ msgid "Lillienfors"
+#~ msgstr "Lillienfors"
 
 #~ msgid ""
 #~ "see Wikipedia: https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution"

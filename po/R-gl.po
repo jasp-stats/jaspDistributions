@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-06-27 04:16\n"
+"POT-Creation-Date: 2026-10-10 03:06\n"
 "PO-Revision-Date: 2026-08-06 07:59+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
@@ -160,7 +160,7 @@ msgstr "Cramér–von Mises"
 msgid "Anderson-Darling"
 msgstr "Anderson-Darling"
 
-msgid "Lillienfors"
+msgid "Lilliefors"
 msgstr "Lilliefors"
 
 msgid "Shapiro-Wilk"
@@ -178,6 +178,13 @@ msgid ""
 msgstr ""
 "Utilizando a aproximación de Brown (1980), que tende a ser inexacta con "
 "tamaños mostrais pequenos."
+
+msgid ""
+"Test not computed: the variable has more than 5000 observations (n = %i)."
+msgstr ""
+
+msgid "Test not computed: the variable has too few observations (n = %i)."
+msgstr ""
 
 msgid "Histogram vs. Theoretical PDF"
 msgstr "Func. Dens. Prob. do Histograma vs. Teórica"
@@ -537,9 +544,6 @@ msgstr "Probabilidade acumulada empírica vs. teórica"
 msgid "Cramér–von Mises"
 msgstr "Cramér–von Mises"
 
-msgid "Lilliefors"
-msgstr "Lilliefors"
-
 msgid "Amoroso distribution"
 msgstr "Distribución de Amoroso"
 
@@ -866,6 +870,9 @@ msgstr "Fixouse o parámetro %s co valor 1."
 
 msgid "Weibull distribution"
 msgstr "Distribución de Weibull"
+
+#~ msgid "Lillienfors"
+#~ msgstr "Lilliefors"
 
 #~ msgid ""
 #~ "see Wikipedia: https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution"

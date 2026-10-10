@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.96.0\n"
-"POT-Creation-Date: 2026-06-27 04:16\n"
+"POT-Creation-Date: 2026-10-10 03:06\n"
 "PO-Revision-Date: 2026-06-29 00:01+0000\n"
 "Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
@@ -151,8 +151,8 @@ msgstr "Cramér-von Mises"
 msgid "Anderson-Darling"
 msgstr "Anderson-Darling"
 
-msgid "Lillienfors"
-msgstr "Lillienfors"
+msgid "Lilliefors"
+msgstr "Lilliefors"
 
 msgid "Shapiro-Wilk"
 msgstr "Shapiro-Wilk"
@@ -169,6 +169,13 @@ msgid ""
 msgstr ""
 "Menggunakan aproksimasi Brown (1980) yang cenderung tidak akurat untuk "
 "ukuran sampel kecil."
+
+msgid ""
+"Test not computed: the variable has more than 5000 observations (n = %i)."
+msgstr ""
+
+msgid "Test not computed: the variable has too few observations (n = %i)."
+msgstr ""
 
 msgid "Histogram vs. Theoretical PDF"
 msgstr "Histogram vs. PDF Teoretis"
@@ -529,9 +536,6 @@ msgstr "Probabilitas kumulatif empiris vs. teoretis"
 msgid "Cramér–von Mises"
 msgstr "Cramér–von Mises"
 
-msgid "Lilliefors"
-msgstr "Lilliefors"
-
 msgid "Amoroso distribution"
 msgstr "Distribusi Amoroso"
 
@@ -859,3 +863,6 @@ msgstr "Parameter %s ditetapkan ke 1."
 
 msgid "Weibull distribution"
 msgstr "Distribusi Weibull"
+
+#~ msgid "Lillienfors"
+#~ msgstr "Lillienfors"

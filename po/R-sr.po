@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.19.2\n"
-"POT-Creation-Date: 2026-06-27 04:16\n"
+"POT-Creation-Date: 2026-10-10 03:06\n"
 "PO-Revision-Date: 2026-03-08 18:09+0000\n"
 "Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
@@ -150,7 +150,8 @@ msgstr "Cramér-von Mises"
 msgid "Anderson-Darling"
 msgstr "Anderson-Darling"
 
-msgid "Lillienfors"
+#, fuzzy
+msgid "Lilliefors"
 msgstr "Lillienfors"
 
 msgid "Shapiro-Wilk"
@@ -168,6 +169,13 @@ msgid ""
 msgstr ""
 "Користи се апроксимација према Brown (1980) која има тенденцију да буде "
 "нетачна за мале узорке."
+
+msgid ""
+"Test not computed: the variable has more than 5000 observations (n = %i)."
+msgstr ""
+
+msgid "Test not computed: the variable has too few observations (n = %i)."
+msgstr ""
 
 msgid "Histogram vs. Theoretical PDF"
 msgstr "Хистограм vs. теоретска PDF"
@@ -442,10 +450,6 @@ msgstr "Емперијска vs. теоретска CDF"
 #, fuzzy
 msgid "Cramér–von Mises"
 msgstr "Cramér-von Mises"
-
-#, fuzzy
-msgid "Lilliefors"
-msgstr "Lillienfors"
 
 msgid "Amoroso distribution"
 msgstr ""
@@ -770,3 +774,6 @@ msgstr ""
 
 msgid "Weibull distribution"
 msgstr ""
+
+#~ msgid "Lillienfors"
+#~ msgstr "Lillienfors"

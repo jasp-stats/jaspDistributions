@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.19.2\n"
-"POT-Creation-Date: 2026-06-27 04:16\n"
+"POT-Creation-Date: 2026-10-10 03:06\n"
 "PO-Revision-Date: 2025-12-31 10:01+0000\n"
 "Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/jasp/"
@@ -149,7 +149,8 @@ msgstr "க்ராமர்-வோன் தவறவிட்டார்"
 msgid "Anderson-Darling"
 msgstr "ஆண்டர்சன்-டார்லிங்"
 
-msgid "Lillienfors"
+#, fuzzy
+msgid "Lilliefors"
 msgstr "லில்லியன்ஃபோர்ச்"
 
 msgid "Shapiro-Wilk"
@@ -165,6 +166,13 @@ msgid ""
 "Using Brown (1980) approximation which tends to be innacurate for small "
 "sample sizes."
 msgstr "பிரவுன் (1980) தோராயத்தைப் பயன்படுத்தி சிறிய மாதிரி அளவுகளுக்கு தவறானது."
+
+msgid ""
+"Test not computed: the variable has more than 5000 observations (n = %i)."
+msgstr ""
+
+msgid "Test not computed: the variable has too few observations (n = %i)."
+msgstr ""
 
 msgid "Histogram vs. Theoretical PDF"
 msgstr "இச்டோகிராம் வெர்சச் தத்துவார்த்த பி.டி.எஃப்"
@@ -520,10 +528,6 @@ msgstr "அனுபவ வெர்சச் தத்துவார்த்�
 msgid "Cramér–von Mises"
 msgstr "க்ராமர்-வோன் தவறவிட்டார்"
 
-#, fuzzy
-msgid "Lilliefors"
-msgstr "லில்லியன்ஃபோர்ச்"
-
 msgid "Amoroso distribution"
 msgstr "அமோரோசோ வழங்கல்"
 
@@ -851,3 +855,6 @@ msgstr "அளவுரு %s 1 க்கு சரி செய்யப்ப�
 
 msgid "Weibull distribution"
 msgstr "வெய்புல் வழங்கல்"
+
+#~ msgid "Lillienfors"
+#~ msgstr "லில்லியன்ஃபோர்ச்"

@@ -3126,14 +3126,6 @@ msgctxt "LDgaussianunivariate|"
 msgid "Displays the quantile plot"
 msgstr "Menampilkan diagram kuantil"
 
-msgctxt "LDAssessFit|"
-msgid "Lillienfors"
-msgstr "Lillienfors"
-
-msgctxt "LDAssessFit|"
-msgid "Displays the Lillienfors test"
-msgstr "Menampilkan uji Lillienfors"
-
 msgctxt "LDEstimateParameters|"
 msgid "Bias corrected"
 msgstr "Bias dikoreksi"
@@ -3762,3 +3754,11 @@ msgstr "shif"
 msgctxt "DistributionSpecification|"
 msgid "Fixed"
 msgstr "Tetap"
+
+msgctxt "LDAssessFit|"
+msgid "Lilliefors"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Lilliefors test"
+msgstr ""

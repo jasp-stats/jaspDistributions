@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.96.5\n"
-"POT-Creation-Date: 2026-06-27 04:16\n"
+"POT-Creation-Date: 2026-10-10 03:06\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -143,7 +143,7 @@ msgstr ""
 msgid "Anderson-Darling"
 msgstr ""
 
-msgid "Lillienfors"
+msgid "Lilliefors"
 msgstr ""
 
 msgid "Shapiro-Wilk"
@@ -158,6 +158,13 @@ msgstr ""
 msgid ""
 "Using Brown (1980) approximation which tends to be innacurate for small "
 "sample sizes."
+msgstr ""
+
+msgid ""
+"Test not computed: the variable has more than 5000 observations (n = %i)."
+msgstr ""
+
+msgid "Test not computed: the variable has too few observations (n = %i)."
 msgstr ""
 
 msgid "Histogram vs. Theoretical PDF"
@@ -428,9 +435,6 @@ msgid "Empirical vs. theoretical cumulative probability"
 msgstr ""
 
 msgid "Cramér–von Mises"
-msgstr ""
-
-msgid "Lilliefors"
 msgstr ""
 
 msgid "Amoroso distribution"

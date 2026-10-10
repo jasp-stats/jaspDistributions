@@ -705,14 +705,6 @@ msgid "Displays the Anderson-Darling test"
 msgstr ""
 
 msgctxt "LDAssessFit|"
-msgid "Lillienfors"
-msgstr ""
-
-msgctxt "LDAssessFit|"
-msgid "Displays the Lillienfors test"
-msgstr ""
-
-msgctxt "LDAssessFit|"
 msgid "Shapiro-Wilk"
 msgstr ""
 
@@ -3680,4 +3672,12 @@ msgstr ""
 
 msgctxt "LDweibull|"
 msgid "Quantile function"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Lilliefors"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Lilliefors test"
 msgstr ""

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.95.0\n"
-"POT-Creation-Date: 2026-06-27 04:16\n"
+"POT-Creation-Date: 2026-10-10 03:06\n"
 "PO-Revision-Date: 2025-10-01 11:02+0000\n"
 "Last-Translator: Jose Ramon Rueda <joseramon.rueda@ehu.eus>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/jasp/"
@@ -152,7 +152,8 @@ msgstr "Cramér-von Mises"
 msgid "Anderson-Darling"
 msgstr "Anderson-Darling"
 
-msgid "Lillienfors"
+#, fuzzy
+msgid "Lilliefors"
 msgstr "Lillienfors"
 
 msgid "Shapiro-Wilk"
@@ -170,6 +171,13 @@ msgid ""
 msgstr ""
 "Brownen (1980) hurbilketa erabiliz, lagin-tamaina txikietarako zehaztugabea "
 "izan ohi dena."
+
+msgid ""
+"Test not computed: the variable has more than 5000 observations (n = %i)."
+msgstr ""
+
+msgid "Test not computed: the variable has too few observations (n = %i)."
+msgstr ""
 
 msgid "Histogram vs. Theoretical PDF"
 msgstr "Histograma vs. PDF teorikoa"
@@ -535,10 +543,6 @@ msgstr "Enpirikoa vs. CDF Teorikoa"
 msgid "Cramér–von Mises"
 msgstr "Cramér-von Mises"
 
-#, fuzzy
-msgid "Lilliefors"
-msgstr "Lillienfors"
-
 msgid "Amoroso distribution"
 msgstr "Amoroso banaketa"
 
@@ -869,3 +873,6 @@ msgstr "%s parametroa 1era finkatu da."
 
 msgid "Weibull distribution"
 msgstr "Weibull banaketa"
+
+#~ msgid "Lillienfors"
+#~ msgstr "Lillienfors"

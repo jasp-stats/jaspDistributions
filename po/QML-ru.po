@@ -3079,14 +3079,6 @@ msgctxt "LDgaussianunivariate|"
 msgid "Displays the quantile plot"
 msgstr ""
 
-msgctxt "LDAssessFit|"
-msgid "Lillienfors"
-msgstr ""
-
-msgctxt "LDAssessFit|"
-msgid "Displays the Lillienfors test"
-msgstr ""
-
 msgctxt "LDEstimateParameters|"
 msgid "Bias corrected"
 msgstr ""
@@ -3697,4 +3689,12 @@ msgstr ""
 
 msgctxt "DistributionSpecification|"
 msgid "Fixed"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Lilliefors"
+msgstr ""
+
+msgctxt "LDAssessFit|"
+msgid "Displays the Lilliefors test"
 msgstr ""

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
-"POT-Creation-Date: 2026-06-27 04:16\n"
+"POT-Creation-Date: 2026-10-10 03:06\n"
 "PO-Revision-Date: 2025-05-03 03:12+0000\n"
 "Last-Translator: Koen Derks <koen-derks@hotmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/jasp/"
@@ -152,7 +152,8 @@ msgstr "Cramér-von Mises"
 msgid "Anderson-Darling"
 msgstr "Anderson-Darling"
 
-msgid "Lillienfors"
+#, fuzzy
+msgid "Lilliefors"
 msgstr "Lillienfors"
 
 msgid "Shapiro-Wilk"
@@ -171,6 +172,13 @@ msgid ""
 msgstr ""
 "Brown (1980) benadering gebruikt die neigt onnauwkeurig te zijn voor kleine "
 "steekproefgroottes."
+
+msgid ""
+"Test not computed: the variable has more than 5000 observations (n = %i)."
+msgstr ""
+
+msgid "Test not computed: the variable has too few observations (n = %i)."
+msgstr ""
 
 msgid "Histogram vs. Theoretical PDF"
 msgstr "Histogram vs. Theoretische PDF"
@@ -449,18 +457,24 @@ msgstr ""
 
 msgid ""
 "Could not initialize distribution %1$s, with the following error: <br> %2$s"
-msgstr "Kon de verdeling %1$s niet initialiseren, met de volgende fout: <br> %2$s"
+msgstr ""
+"Kon de verdeling %1$s niet initialiseren, met de volgende fout: <br> %2$s"
 
 msgid ""
 "Could not fit distribution %1$s, with the following error: <br> %2$s. <br> "
 "You can try to change the initial parameter values, or remove the "
 "distribution from the distribution specification"
-msgstr "Kon de verdeling %1$s niet fitten, met de volgende fout: <br> %2$s. <br> U kunt proberen de initiële parameterwaarden te wijzigen of de verdeling te verwijderen uit de specificatie van de verdeling"
+msgstr ""
+"Kon de verdeling %1$s niet fitten, met de volgende fout: <br> %2$s. <br> U "
+"kunt proberen de initiële parameterwaarden te wijzigen of de verdeling te "
+"verwijderen uit de specificatie van de verdeling"
 
 msgid ""
 "Could not compute information criteria for %1$s, with the following error: "
 "<br> %2$s."
-msgstr "Kon de informatiecriteria voor %1$s niet berekenen, met de volgende fout: <br> %2$s."
+msgstr ""
+"Kon de informatiecriteria voor %1$s niet berekenen, met de volgende fout: "
+"<br> %2$s."
 
 msgid "Distribution comparison table"
 msgstr "Vergelijkingstabel van verdelingen"
@@ -532,10 +546,6 @@ msgstr "Empirische vs. theoretische CDF"
 #, fuzzy
 msgid "Cramér–von Mises"
 msgstr "Cramér-von Mises"
-
-#, fuzzy
-msgid "Lilliefors"
-msgstr "Lillienfors"
 
 msgid "Amoroso distribution"
 msgstr "Amoroso verdeling"
@@ -866,6 +876,9 @@ msgstr "Parameter %s werd bepaald op 1."
 
 msgid "Weibull distribution"
 msgstr "Weibull-verdeling"
+
+#~ msgid "Lillienfors"
+#~ msgstr "Lillienfors"
 
 #~ msgid ""
 #~ "see Wikipedia: https://en.wikipedia.org/wiki/Fr%%C3%%A9chet_distribution"

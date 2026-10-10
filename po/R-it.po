@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.18.3\n"
-"POT-Creation-Date: 2026-06-27 04:16\n"
+"POT-Creation-Date: 2026-10-10 03:06\n"
 "PO-Revision-Date: 2024-06-30 10:01+0000\n"
 "Last-Translator: Marco Capozzi <giammarcous@yahoo.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/jasp/"
@@ -153,7 +153,7 @@ msgstr "Cramér-von Mises"
 msgid "Anderson-Darling"
 msgstr "Anderson-Darling"
 
-msgid "Lillienfors"
+msgid "Lilliefors"
 msgstr ""
 
 msgid "Shapiro-Wilk"
@@ -170,6 +170,13 @@ msgstr "Chi-quadrato"
 msgid ""
 "Using Brown (1980) approximation which tends to be innacurate for small "
 "sample sizes."
+msgstr ""
+
+msgid ""
+"Test not computed: the variable has more than 5000 observations (n = %i)."
+msgstr ""
+
+msgid "Test not computed: the variable has too few observations (n = %i)."
 msgstr ""
 
 msgid "Histogram vs. Theoretical PDF"
@@ -466,9 +473,6 @@ msgstr ""
 #, fuzzy
 msgid "Cramér–von Mises"
 msgstr "Cramér-von Mises"
-
-msgid "Lilliefors"
-msgstr ""
 
 msgid "Amoroso distribution"
 msgstr "Distribuzione di Amoroso"
