@@ -32,6 +32,7 @@ Distributions with an unbounded support.
 - `SkewNormal(xi, omega, alpha)`, Skew normal with parameters `xi`: location, `omega`: scale, `alpha`: slant (skew).
 - `SkewCauchy(xi, omega, alpha)`, Skew Cauchy with parameters `xi`: location, `omega`: scale, `alpha`: slant (skew).
 - `SkewT(xi, omega, alpha, nu)`, Skew t with parameters `xi`: location, `omega`: scale, `alpha`: slant (skew), `nu`: degrees of freedom.
+- `Shash(mu, sigma, epsilon, delta)`, Sinh-arcsinh distribution with parameters `mu`: location, `sigma`: scale, `epsilon`: asymmetry, `delta`: tail weight.
 
 ### Bounded distributions
 
