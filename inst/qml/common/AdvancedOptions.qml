@@ -22,19 +22,16 @@ import JASP.Controls
 
 Section
 {
-	property bool estimationEnabled: true
-
-	title: qsTr("Advanced options")
-	info: qsTr("Options for estimating the free (not fixed) parameters of the distribution, and for repeatability of random results.")
-	columns: 2
+	title:		qsTr("Advanced options")
+	info:		qsTr("Options for estimating the free (not fixed) parameters of the distribution, and for repeatability of random results.")
+	columns:	2
 
 	RadioButtonGroup
 	{
 		id:			parameterEstimationMethod
 		name:		"parameterEstimationMethod"
-		enabled:	estimationEnabled
-		title:	qsTr("Parameter estimation method")
-		info:	qsTr("If available, parameter estimates are calculated analytically. If not, then parameters are estimated using numerical optimization of the log-likelihood function.")
+		title:		qsTr("Parameter estimation method")
+		info:		qsTr("If available, parameter estimates are calculated analytically. If not, then parameters are estimated using numerical optimization of the log-likelihood function.")
 		RadioButton
 		{
 			label:		qsTr("Unconstrained")
@@ -53,9 +50,8 @@ Section
 	RadioButtonGroup
 	{
 		name:		"parameterUncertaintyMethod"
-		enabled:	estimationEnabled
-		title:	qsTr("Parameter uncertainty quantification method")
-		info:	qsTr("How to quantify uncertainty about the parameters.")
+		title:		qsTr("Parameter uncertainty quantification method")
+		info:		qsTr("How to quantify uncertainty about the parameters.")
 		RadioButton
 		{
 			label:		qsTr("Default")

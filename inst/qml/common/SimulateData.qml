@@ -29,7 +29,7 @@ Section
 	// Name of the column simulated from the fitted distribution (empty if not simulated), so that it can be excluded from fitting
 	property string	fittedColumn:	""
 
-	title:		dataSetInfo.dataAvailable ? qsTr("Simulate data") : qsTr("Simulate data") + " - " + qsTr("[requires a loaded data set]")
+	title:		dataSetInfo.dataAvailable ? qsTr("Simulate Data") : qsTr("Simulate Data") + " - " + qsTr("[requires a loaded data set]")
 	enabled:	dataSetInfo.dataAvailable
 	info:		qsTr("Draw random samples and save them as new columns in the data set.")
 

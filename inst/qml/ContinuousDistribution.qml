@@ -59,17 +59,12 @@ Form
 			name:		"parameterTableUncertainty"
 			label:		qsTr("Quantify uncertainty")
 			enabled:	fitVariable.currentValue !== ""
-			info:		qsTr("Displays the uncertainty about the estimated parameters (e.g., standard errors and confidence intervals). The method is set in the advanced options.")
+			info:		qsTr("Displays the uncertainty about the estimated parameters (e.g., standard errors and confidence intervals).")
 			CIField { name: "parameterTableCiLevel"; label: qsTr("Confidence level") }
 		}
 	}
 
 	Common.ShowDistribution { }
-
-	Common.AssessFit
-	{
-		hasFitVariable: fitVariable.currentValue !== ""
-	}
 
 	Common.SimulateData
 	{
@@ -77,8 +72,11 @@ Form
 		hasFitVariable:	fitVariable.currentValue !== ""
 	}
 
-	Common.ParameterEstimates
+	Common.AssessFit
 	{
-		estimationEnabled: fitVariable.currentValue !== ""
+		hasFitVariable: fitVariable.currentValue !== ""
 	}
+
+
+	Common.AdvancedOptions{	}
 }
