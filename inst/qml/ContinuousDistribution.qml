@@ -22,29 +22,63 @@ import JASP
 import JASP.Controls
 import "./common" as Common
 
-Form 
+Form
 {
-
-    Common.DistributionSpecification { }
+	columns: 1
+	info: qsTr("Specify a continuous distribution, optionally estimate its parameters from data, display it, and assess its fit to data.")
 
 	Group
 	{
-		Layout.columnSpan: 2
-        DropDown
-        {
-            name: "variable"
-            label: qsTr("Fit the distribution on")
-            showVariableTypeIcon: true
-            addEmptyValue: true
-            placeholderText: qsTr("Do not fit the distribution")
-            info: qsTr("Select a variable from the dataset to use for fitting the distribution.")
-        }
-    }
+		title: qsTr("Specify distribution")
+		Common.DistributionSpecification { }
+	}
 
+	DropDown
+	{
+		id:						fitVariable
+		name:					"fitVariable"
+		label:					qsTr("Estimate parameters from")
+		addEmptyValue:			true
+		placeholderText:		qsTr("<Do not estimate>")
+		showVariableTypeIcon:	true
+		allowedColumns:			["scale"]
+		// the column simulated from the fitted distribution depends on the fit, so it cannot be used for fitting
+		source:					[{ isDataSetVariables: true, discard: { values: [simulateData.fittedColumn] } }]
+		info:					qsTr("Variable used to estimate the free (not fixed) parameters of the distribution. Leave empty to use the specified parameter values as they are.")
+	}
 
-    Common.ShowDistribution { }
-    Common.GenerateDisplayData { continuous: true}
-    Common.ParameterEstimates { }
-    Common.AssessFit { }
+	CheckBox
+	{
+		name:		"parameterTable"
+		label:		qsTr("Parameter table")
+		checked:	true
+		info:		qsTr("Displays a table with the parameter values.")
 
+		CheckBox
+		{
+			name:		"parameterTableUncertainty"
+			label:		qsTr("Quantify uncertainty")
+			enabled:	fitVariable.currentValue !== ""
+			info:		qsTr("Displays the uncertainty about the estimated parameters (e.g., standard errors and confidence intervals). The method is set in the advanced options.")
+			CIField { name: "parameterTableCiLevel"; label: qsTr("Confidence level") }
+		}
+	}
+
+	Common.ShowDistribution { }
+
+	Common.AssessFit
+	{
+		hasFitVariable: fitVariable.currentValue !== ""
+	}
+
+	Common.SimulateData
+	{
+		id:				simulateData
+		hasFitVariable:	fitVariable.currentValue !== ""
+	}
+
+	Common.ParameterEstimates
+	{
+		estimationEnabled: fitVariable.currentValue !== ""
+	}
 }

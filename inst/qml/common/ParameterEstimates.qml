@@ -21,66 +21,65 @@ import JASP
 import JASP.Controls
 
 Section
-	{
-		title: qsTr("Parameter estimates")
+{
+	property bool estimationEnabled: true
 
-        CheckBox 
+	title: qsTr("Advanced options")
+	info: qsTr("Options for estimating the free (not fixed) parameters of the distribution, and for repeatability of random results.")
+	columns: 2
+
+	RadioButtonGroup
+	{
+		id:			parameterEstimationMethod
+		name:		"parameterEstimationMethod"
+		enabled:	estimationEnabled
+		title:	qsTr("Parameter estimation method")
+		info:	qsTr("If available, parameter estimates are calculated analytically. If not, then parameters are estimated using numerical optimization of the log-likelihood function.")
+		RadioButton
 		{
-			name: "parameterTable"
-			label: qsTr("Parameter table")
+			label:		qsTr("Unconstrained")
+			value:		"unconstrained"
+			checked:	true
+			info:		qsTr("Optimize the log-likelihood on the unconstrained parameter space. For example, a parameter that is always positive is optimized on the log scale. The optimization method used is 'BFGS'.")
+		}
+		RadioButton
+		{
+			label:	qsTr("Constrained")
+			value:	"constrained"
+			info:	qsTr("Optimize the log-likelihood on the constrained parameter space. The optimization method used is 'L-BFGS-B'.")
+		}
+	}
+
+	RadioButtonGroup
+	{
+		name:		"parameterUncertaintyMethod"
+		enabled:	estimationEnabled
+		title:	qsTr("Parameter uncertainty quantification method")
+		info:	qsTr("How to quantify uncertainty about the parameters.")
+		RadioButton
+		{
+			label:		qsTr("Default")
+			value:		"default"
+			checked:	true
+			info:		qsTr("If available, analytic SE and CIs are calculated, otherwise, they are calculated using normal theory based on numerical estimate of the Hessian.")
 
 			CheckBox
 			{
-				name: "parameterTableUncertainty"; label: qsTr("Quantify uncertainty")
-				CIField{ name: "parameterTableCiLevel"; label: qsTr("Confidence level") }
+				name:		"parameterUncertaintySymmetricCi"
+				label:		qsTr("Symmetric CI")
+				enabled:	parameterEstimationMethod.value === "unconstrained"
+				info:		qsTr("Should the CI be computed on the unconstrained space and then CI bounds transformed into the original parameter space, or should the CIs be computed on the constrained space using transformed Hessian. The latter produces CIs that are symmetric around the point estimate but may, in some extreme cases, produce CIs extending beyond support of the parameter.")
 			}
 		}
-
 		RadioButton
 		{
-			name: "parameterEstimationMethod"
-			title: qsTr("Parameter estimation method")
-			id: parameterEstimationMethod
-			info: qsTr("If available, parameter estimates are calculated analytically. If not, then parameters are estimated using numerical optimization of the log-likelihood function.")
-			RadioButton
-			{
-				label:	qsTr("Unconstrained")
-				value:	"unconstrained"
-				info:	qsTr("Optimize the log-likelihood on the unconstrained parameter space. For example, a parameter that is always positive only is optimized on the log scale. The optimization method used is 'L-BFGS-B'.")
-			}
-			RadioButton
-			{
-				label:	qsTr("Constrained")
-				value:	"constrained"
-				info:	qsTr("Optimize the likelihood on the constrained parameter space. The optimization method used is 'BFGS'.")
-			}
+			label:				qsTr("Bootstrap")
+			value:				"bootstrap"
+			info:				qsTr("SE and CIs are calculated using parametric bootstrap.")
+			childrenOnSameRow:	true
+			IntegerField { name: "parameterUncertaintyBootstrapSamples"; label: qsTr("with"); afterLabel: qsTr("bootstrap samples"); defaultValue: 1000; min: 100 }
 		}
+	}
 
-		RadioButtonGroup
-		{
-			name: "parameterUncertaintyMethod"
-			title: qsTr("Parameter uncertainty quantification method")
-			info: qsTr("How to quantify uncertainty about the parameters")
-			RadioButton 
-			{ 
-				label: qsTr("Default")
-				value: "default"
-				info: qsTr("If available, analytic SE and CIs are calculated, otherwise, they are calculated using normal theory based on numerical estimate of the Hessian.")
-
-				CheckBox 
-				{ 
-					name:	"parameterUncertaintySymmetricCi"
-					label:	qsTr("Symmetric CI")
-					enabled: parameterEstimationMethod.value == "unconstrained"
-					info:	qsTr("Should the CI be computed on the unconstrained space and then CI bounds transformed into the original parameter space, or should the CIs be computed on the constrained space using transformed Hessian. The latter produces CIs that are symmetric aroud the point estimate but may, in some extreme cases, produce CIs extending beyond support of the parameter.")}
-				}
-			}
-			RadioButton 
-			{ 
-				label: qsTr("Bootstrap")
-				value: "bootstrap"
-				info: qsTr("SE and CIs are calculated using parametric bootstrap.")
-				childrenOnSameRow: true
-				IntegerField { name: "parameterUncertaintyBootstrapSamples"; label: qsTr("with"); afterLabel: qsTr("bootstrap samples"); defaultValue: 1000 }
-			}
-		}
+	SetSeed { }
+}

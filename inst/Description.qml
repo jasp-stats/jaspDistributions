@@ -16,8 +16,9 @@ Description
 	Analysis
 	{
 		title:	qsTr("Continuous Distribution")
-		qml:	"ContinuousDistribution.qml"
-		func:	"LDgaussianunivariate"
+		qml:			"ContinuousDistribution.qml"
+		func:			"ContinuousDistribution"
+		preloadData:	true
 	}
 
 	GroupTitle

@@ -25,7 +25,7 @@ Section
 {
 	expanded: true
 	title: qsTr("Show Distribution")
-	info: qsTr("Displays the theoretical distribution, given specified parameter values.")
+	info: qsTr("Displays the theoretical distribution, given the specified parameter values or, if a variable to estimate parameters from is specified, the estimated parameter values.")
 	columns: 2
 
 	Group
