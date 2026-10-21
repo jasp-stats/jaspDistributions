@@ -15,10 +15,15 @@
 ---
 
 # jaspDistributions (development version)
+## Added
+* SHASH distribution added to compare distributions menu.
+
 ## Fixes
 * Shapiro-Wilk and Shapiro-Francia tests crashed the analysis for the Normal distribution when sample sizes were larger than 5000. Now they return an empty value with an info footnote.
 * Compare distributions: Student T distribution had missing parameters location and scale, and could not be initialized. This is now fixed.
 ## Changed
+* Upgrade `DistributionsS7` to 0.1.4
+    * This update provides a new distribution (SHASH)
 * Upgraded `DistributionS7` to 0.1.3
     * This update fixes bootstrapping goodness of fit tests, and makes them a little bit more robust
 * Distribution specification in compare distributions menu avoids loading many QML components
