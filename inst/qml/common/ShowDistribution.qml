@@ -169,10 +169,10 @@ Section
 		{
 			name:			"plotDensityPoints"
 			title:			qsTr("Highlight density")
-			enabled:		pdfPlot.checked
+			enabled:		pdfPlot.checked || cdfPlot.checked || qfPlot.checked
 			addBorder:		false
 			headerLabels:	[qsTr("At quantile"), qsTr("Color")]
-			info:			qsTr("Quantiles at which the density is highlighted in the probability density plot.")
+			info:			qsTr("Quantiles at which the density is highlighted: as a point in the probability density plot, and as the slope of a tangent in the cumulative distribution and quantile plots.")
 			rowComponent:	RowLayout
 			{
 				spacing: 10 * preferencesModel.uiScale
