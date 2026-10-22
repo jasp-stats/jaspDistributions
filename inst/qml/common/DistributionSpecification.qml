@@ -117,6 +117,14 @@ Column
 				{ value: "nu",		label: qsTr("ν (df)"),			min: 0,			defaultValue: 5 }
 			]
 		},
+		"Shash"						: {
+			"default": [
+				{ value: "mu",		label: qsTr("μ (location)"),	min: -Infinity,	defaultValue: 0 },
+				{ value: "sigma",	label: qsTr("σ (scale)"),		min: 0,			defaultValue: 1 },
+				{ value: "epsilon",	label: qsTr("ε (asymmetry)"),	min: -Infinity,	defaultValue: 0 },
+				{ value: "delta",	label: qsTr("δ (tail weight)"),	min: 0,			defaultValue: 1 }
+			]
+		},
 		"Beta"						: {
 			"default": [
 				{ value: "alpha",	label: qsTr("α (shape)"),	min: 0,	defaultValue: 2 },
@@ -426,6 +434,7 @@ Column
 				{ label: qsTr("Skew normal"),					value: "SkewNormal"					},
 				{ label: qsTr("Skew Cauchy"),					value: "SkewCauchy"					},
 				{ label: qsTr("Skew t"),						value: "SkewT"						},
+				{ label: qsTr("Sinh-arcsinh (SHASH)"),			value: "Shash"						},
 				// Bounded — fixed support
 				{ label: qsTr("Beta"),							value: "Beta"						},
 				{ label: qsTr("Beta prime"),					value: "BetaPrime"					},
