@@ -16,19 +16,18 @@
 #
 
 ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options) {
-  if (options[["fitVariable"]] != "")
-    variable <- dataset[[options[["fitVariable"]]]]
-  else
-    variable <- NULL
+  if (options[["distribution"]] == "") return()
   
-  
-  distribution <- .ccdMakeDistribution(options)
-  
-  distribution <- .cdFitDistribution(jaspResults, options, distribution, variable)
+  variables <- .cdGetVariables(options, dataset)
 
-  .cdParameterTable(jaspResults, options, distribution, variable)
+  distribution <- .ccdMakeDistribution(options)
+  distribution <- .cdFitDistribution(jaspResults, options, distribution, variables[["fitVariable"]])
+
+  .cdParameterTable(jaspResults, options, distribution, variables[["fitVariable"]])
+  .cdDescriptivesTable(jaspResults, options, variables)
   .cdDistributionTable(jaspResults, options, distribution)
   .cdDistributionPlots(jaspResults, options, distribution)
+  .cdFitAssessment(jaspResults, options, distribution, variables)
 
   return()
   simulateRows <- .cdSimulateDataRows(options)
@@ -56,6 +55,64 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
       dependencies = c("distribution", "parametrization", "parameters", "fitVariable", "parameterEstimationMethod")
     )
   }
+}
+
+.cdGetVariables <- function(options, dataset) {
+  getVariable <- function(name) if (name == "") NULL else stats::na.omit(dataset[[name]])
+
+  fitVariable    <- getVariable(options[["fitVariable"]])
+  sameVariables  <- options[["assessVariable"]] %in% c("", options[["fitVariable"]])
+  assessVariable <- if (sameVariables) fitVariable else getVariable(options[["assessVariable"]])
+
+  list(fitVariable = fitVariable, assessVariable = assessVariable, sameVariables = sameVariables)
+}
+
+
+.cdDescriptivesTable <- function(container, options, variables) {
+  if (!isTRUE(options[["descriptivesTable"]])) return()
+  if (!is.null(container[["descriptivesTable"]])) return()
+
+  # describe both variables if the fit is assessed on a different variable than the one used for estimation
+  described <- list()
+  if (!is.null(variables[["fitVariable"]]))
+    described[[length(described) + 1L]] <- list(variable = options[["fitVariable"]],    role = gettext("Estimation"), values = variables[["fitVariable"]])
+  if (!variables[["sameVariables"]])
+    described[[length(described) + 1L]] <- list(variable = options[["assessVariable"]], role = gettext("Assessment"), values = variables[["assessVariable"]])
+
+  # without a variable there is nothing to describe (the checkbox is disabled, but may still be checked)
+  if (length(described) == 0L) return()
+
+  table <- createJaspTable(
+    title = gettext("Descriptives"), 
+    position = 3,
+    dependencies = c("descriptivesTable", "fitVariable", "assessVariable")
+  )
+  table$showSpecifiedColumnsOnly <- TRUE
+  table$addColumnInfo(name = "variable", title = gettext("Variable"),       type = "string")
+  if (length(described) > 1L)
+    table$addColumnInfo(name = "role",   title = gettext("Used for"),       type = "string")
+  table$addColumnInfo(name = "valid",    title = gettext("Valid"),          type = "integer")
+  table$addColumnInfo(name = "mean",     title = gettext("Mean"),           type = "number")
+  table$addColumnInfo(name = "sd",       title = gettext("Std. Deviation"), type = "number")
+  table$addColumnInfo(name = "min",      title = gettext("Minimum"),        type = "number")
+  table$addColumnInfo(name = "max",      title = gettext("Maximum"),        type = "number")
+  container[["descriptivesTable"]] <- table
+
+  rows <- lapply(described, function(v) {
+    values <- v[["values"]]
+    empty  <- length(values) == 0L # e.g., all values of the assessment variable are missing
+    data.frame(
+      variable = v[["variable"]],
+      role     = v[["role"]],
+      valid    = length(values),
+      mean     = if (empty) NA else mean(values),
+      sd       = if (empty) NA else stats::sd(values),
+      min      = if (empty) NA else min(values),
+      max      = if (empty) NA else max(values)
+    )
+  })
+
+  table$setData(do.call(rbind, rows))
 }
 
 .cdFitDistribution <- function(jaspResults, options, distribution, variable) {
@@ -99,6 +156,7 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
 
   table <- createJaspTable(
     title = gettext("Parameters"), 
+    position = 2,
     dependencies = c("distribution", "parameters", "fitVariable", "parameterTable", "parameterTableUncertainty", "parameterTableCiLevel")
   )
   table$showSpecifiedColumnsOnly <- TRUE
@@ -356,6 +414,80 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
 
 .cdPlotTheme <- function() {
   list(jaspGraphs::geom_rangeframe(), jaspGraphs::themeJaspRaw())
+}
+
+
+.cdFitAssessment <- function(container, options, distribution, variables) {
+  # without a variable there is nothing to assess (the options of the disabled section may still be checked)
+  if (is.null(variables[["assessVariable"]])) return()
+
+  # check if we need to create the container at all
+  plotNames <- c("histPlot", "ecdfPlot", "qqPlot", "ppPlot")
+  selected  <- options[plotNames] |> vapply(isTRUE, logical(1))
+  if (!any(selected)) return()
+
+  fitContainer <- container[["fitAssessment"]]
+  if (is.null(fitContainer)) {
+    fitContainer <- createJaspContainer(
+      title        = gettext("Fit Assessment"),
+      dependencies = c("distribution", "parameters", "fitVariable", "assessVariable")
+    )
+    container[["fitAssessment"]] <- fitContainer
+  }
+
+  name <- if (variables[["sameVariables"]]) options[["fitVariable"]] else options[["assessVariable"]]
+  .cdFitPlots(fitContainer, options, distribution, variables[["assessVariable"]], decodeColNames(name))
+  # TODO: a "Statistics" container (fitContainer[["statistics"]]) with the fit statistics
+}
+
+.cdFitPlots <- function(container, options, distribution, variable, name=NULL) {
+  if (!any(vapply(c("histPlot", "ecdfPlot", "qqPlot", "ppPlot"), function(plotName) isTRUE(options[[plotName]]), logical(1)))) return()
+
+  plotContainer <- container[["plots"]]
+  if (is.null(plotContainer)) {
+    plotContainer <- createJaspContainer(title = gettext("Plots"))
+    container[["plots"]] <- plotContainer
+  }
+
+  plots <- list(
+    histPlot = list(
+      title        = gettext("Histogram vs. theoretical pdf"),
+      dependencies = "histPlot",
+      draw         = function() DistributionS7::plot_hist(distribution, variable, name = name)
+    ),
+    ecdfPlot = list(
+      title        = gettext("Empirical vs. theoretical cdf"),
+      dependencies = "ecdfPlot",
+      draw         = function() DistributionS7::plot_ecdf(distribution, variable, name = name)
+    ),
+    qqPlot   = list(
+      title        = gettext("Q-Q plot"),
+      dependencies = c("qqPlot", "qqPlotCi", "qqPlotCiLevel"),
+      draw         = function() DistributionS7::plot_qq(distribution, variable, ci = options[["qqPlotCi"]], ci_level = options[["qqPlotCiLevel"]])
+    ),
+    ppPlot   = list(
+      title        = gettext("P-P plot"),
+      dependencies = c("ppPlot", "ppPlotCi", "ppPlotCiLevel"),
+      draw         = function() DistributionS7::plot_pp(distribution, variable, ci = options[["ppPlotCi"]], ci_level = options[["ppPlotCiLevel"]])
+    )
+  )
+
+  for (plotName in names(plots)) {
+    if (!isTRUE(options[[plotName]]) || !is.null(plotContainer[[plotName]])) next
+
+    plotInfo <- plots[[plotName]]
+    plot     <- createJaspPlot(
+      title = plotInfo[["title"]], 
+      #width = 480, height = 320, 
+      dependencies = plotInfo[["dependencies"]])
+    plotContainer[[plotName]] <- plot
+
+    result <- try(plotInfo[["draw"]]() + .cdPlotTheme())
+    if (isTryError(result))
+      plot$setError(gettextf("Could not draw the plot: %s", .extractErrorMessage(result)))
+    else
+      plot$plotObject <- result
+  }
 }
 
 # the rows of the "simulateData" ComponentsList, named by their value ("specified", "fitted")

@@ -64,6 +64,14 @@ Form
 		}
 	}
 
+	CheckBox
+	{
+		name:		"descriptivesTable"
+		label:		qsTr("Descriptives")
+		enabled:	fitVariable.currentValue !== "" || !assessFit.inSample
+		info:		qsTr("Displays a descriptive table of the variable used for estimation and, if different, of the variable used for assessing the fit.")
+	}
+
 	Common.ShowDistribution { }
 
 	Common.SimulateData
@@ -74,6 +82,7 @@ Form
 
 	Common.AssessFit
 	{
+		id:				assessFit
 		hasFitVariable: fitVariable.currentValue !== ""
 	}
 

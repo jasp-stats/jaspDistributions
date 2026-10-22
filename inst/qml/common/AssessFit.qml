@@ -103,13 +103,6 @@ Section
 
 		CheckBox
 		{
-			name:	"dataDescriptives"
-			label:	qsTr("Descriptives")
-			info:	qsTr("Displays a descriptive table of the variable.")
-		}
-
-		CheckBox
-		{
 			name:				"momentsTable"
 			label:				qsTr("Compare first")
 			info:				qsTr("Displays a table with the raw and central moments of the variable and the moments of the distribution.")
