@@ -16,15 +16,21 @@
 #
 
 ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options) {
-  if (options[["distribution"]] == "") return()
-  
   variables <- .cdGetVariables(options, dataset)
+
+  # the descriptives do not need a distribution
+  .cdDescriptivesTable(jaspResults, options, variables)
+
+  # without a distribution, show an empty parameter table as a placeholder
+  if (options[["distribution"]] == "") {
+    .cdParameterTable(jaspResults, options, NULL, variables[["fitVariable"]])
+    return()
+  }
 
   distribution <- .ccdMakeDistribution(options)
   distribution <- .cdFitDistribution(jaspResults, options, distribution, variables[["fitVariable"]])
 
   .cdParameterTable(jaspResults, options, distribution, variables[["fitVariable"]])
-  .cdDescriptivesTable(jaspResults, options, variables)
   .cdDistributionTable(jaspResults, options, distribution)
   .cdDistributionPlots(jaspResults, options, distribution)
   .cdFitAssessment(jaspResults, options, distribution, variables)
@@ -84,7 +90,7 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
 
   table <- createJaspTable(
     title = gettext("Descriptives"), 
-    position = 3,
+    position = 2,
     dependencies = c("descriptivesTable", "fitVariable", "assessVariable")
   )
   table$showSpecifiedColumnsOnly <- TRUE
@@ -155,8 +161,8 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
   if (!is.null(container[["parameterTable"]])) return()
 
   table <- createJaspTable(
-    title = gettext("Parameters"), 
-    position = 2,
+    title = if (is.null(distribution)) gettext("Parameters - no distribution selected") else gettextf("Parameters - %s", S7::prop(distribution, "name")),
+    position = 1,
     dependencies = c("distribution", "parameters", "fitVariable", "parameterTable", "parameterTableUncertainty", "parameterTableCiLevel")
   )
   table$showSpecifiedColumnsOnly <- TRUE
@@ -165,6 +171,8 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
   table$addColumnInfo(name = "label",     title = gettext("Label"),     type = "string")
   table$addColumnInfo(name = "estimate",  title = gettext("Value"),  type = "number")
   container[["parameterTable"]] <- table
+
+  if (is.null(distribution)) return()
 
   if (DistributionS7::nfree(distribution) > 0L) {
     if (options[["parameterTableUncertainty"]] && !is.null(variable)) {
@@ -211,6 +219,7 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
 
   table <- createJaspTable(
     title        = gettext("Distribution Table"),
+    position     = 3,
     dependencies = c("distribution", "parameters", "fitVariable", "distributionTable", "distributionTableBasedOn", "distributionTableType",
                      "distributionTableQuantileMin", "distributionTableQuantileMax", "distributionTableCdfMin", "distributionTableCdfMax",
                      "distributionTableLength", "distributionTableQuantilePoints", "distributionTableCdfPoints")
@@ -297,6 +306,7 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
   if (is.null(plotContainer)) {
     plotContainer <- createJaspContainer(
       title        = gettext("Plots"),
+      position     = 4,
       dependencies = c("distribution", "parameters", "fitVariable", "plotRangeBasedOn",
                        "plotQuantileMin", "plotQuantileMax", "plotCdfMin", "plotCdfMax",
                        "plotDensityPoints", "plotProbabilityLimits")
@@ -316,7 +326,7 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
   for (name in plotNames) {
     if (!is.null(plotContainer[[name]])) next
 
-    plot <- createJaspPlot(title = titles[[name]], width = 480, height = 320, dependencies = name)
+    plot <- createJaspPlot(title = titles[[name]], width = 480, height = 320, position = match(name, names(titles)), dependencies = name)
     plotContainer[[name]] <- plot
 
     if (is.null(settings))
@@ -423,21 +433,110 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
 
   # check if we need to create the container at all
   plotNames <- c("histPlot", "ecdfPlot", "qqPlot", "ppPlot")
-  selected  <- options[plotNames] |> vapply(isTRUE, logical(1))
+  statNames <- c("modelFitTable", "goodnessOfFit")
+  selected  <- options[c(plotNames, statNames)] |> vapply(isTRUE, logical(1))
   if (!any(selected)) return()
 
   fitContainer <- container[["fitAssessment"]]
   if (is.null(fitContainer)) {
     fitContainer <- createJaspContainer(
       title        = gettext("Fit Assessment"),
+      position     = 5,
       dependencies = c("distribution", "parameters", "fitVariable", "assessVariable")
     )
     container[["fitAssessment"]] <- fitContainer
   }
 
   name <- if (variables[["sameVariables"]]) options[["fitVariable"]] else options[["assessVariable"]]
-  .cdFitPlots(fitContainer, options, distribution, variables[["assessVariable"]], decodeColNames(name))
-  # TODO: a "Statistics" container (fitContainer[["statistics"]]) with the fit statistics
+  .cdFitPlots(fitContainer, options, distribution, variables[["assessVariable"]], name)
+  .cdFitStatistics(fitContainer, options, distribution, variables)
+}
+
+.cdFitStatistics <- function(container, options, distribution, variables) {
+  if (!any(vapply(options[c("modelFitTable", "goodnessOfFit")], isTRUE, logical(1)))) return()
+
+  statisticsContainer <- container[["statistics"]]
+  if (is.null(statisticsContainer)) {
+    statisticsContainer <- createJaspContainer(title = gettext("Statistics"), position = 2)
+    container[["statistics"]] <- statisticsContainer
+  }
+
+  .cdModelFitTable(statisticsContainer, options, distribution, variables)
+  .cdGofTable(statisticsContainer, options, distribution, variables)
+}
+
+.cdModelFitTable <- function(container, options, distribution, variables) {
+  if (!options[["modelFitTable"]]) return()
+  if (!is.null(container[["modelFitTable"]])) return()
+
+  # AIC and BIC are only meaningful for the data used for estimation;
+  # on a different variable, the log-likelihood is the out-of-sample (predictive) log-likelihood
+  inSample <- variables[["sameVariables"]]
+
+  table <- createJaspTable(title = gettext("Model Fit"), position = 1, dependencies = "modelFitTable")
+  table$showSpecifiedColumnsOnly <- TRUE
+  table$addColumnInfo(name = "n_obs",   title = gettext("n"),              type = "integer")
+  table$addColumnInfo(name = "n_par",   title = gettext("df"),             type = "integer")
+  table$addColumnInfo(name = "log_lik", title = gettext("Log-likelihood"), type = "number")
+  if (inSample) {
+    table$addColumnInfo(name = "aic",   title = gettext("AIC"),            type = "number")
+    table$addColumnInfo(name = "bic",   title = gettext("BIC"),            type = "number")
+  }
+  container[["modelFitTable"]] <- table
+
+  results <- try(DistributionS7::information_criteria(distribution, variables[["assessVariable"]]))
+  if (isTryError(results)) {
+    table$setError(gettextf("Could not compute the model fit: %s", .extractErrorMessage(results)))
+    return()
+  }
+
+  table$setData(results)
+}
+
+.cdGofTable <- function(container, options, distribution, variables) {
+  if (!options[["goodnessOfFit"]]) return()
+  if (!is.null(container[["goodnessOfFit"]])) return()
+
+  bootstrap <- options[["goodnessOfFitPValue"]] == "bootstrap"
+
+  table <- createJaspTable(
+    title        = gettext("Goodness-of-fit Tests"),
+    position     = 2,
+    dependencies = c("goodnessOfFit", "goodnessOfFitPValue", "goodnessOfFitBootstrapSamples", "setSeed", "seed")
+  )
+  table$addColumnInfo(name = "test",      title = gettext("Test"),      type = "string")
+  table$addColumnInfo(name = "statistic", title = gettext("Statistic"), type = "number")
+  table$addColumnInfo(name = "p_value",   title = gettext("p"),         type = "pvalue")
+  container[["goodnessOfFit"]] <- table
+
+  # the parameters are known (rather than estimated from the data the tests are run on)
+  # if the fit is assessed on a different variable, or if all parameters are fixed
+  estimated <- variables[["sameVariables"]] && DistributionS7::nfree(distribution) > 0L
+
+  samples <- if (bootstrap) options[["goodnessOfFitBootstrapSamples"]] else 0L
+  if (bootstrap) {
+    .setSeedJASP(options)
+    startProgressbar(expectedTicks = samples, label = gettext("Bootstrapping goodness of fit..."))
+  }
+
+  results <- try(DistributionS7::gof_test(
+    distribution, variables[["assessVariable"]], estimated = estimated,
+    bootstrap = DistributionS7::Bootstrap(samples = samples, callback = progressbarTick)
+  ))
+
+  if (isTryError(results)) {
+    table$setError(gettextf("Could not obtain the goodness-of-fit tests: %s", .extractErrorMessage(results)))
+    return()
+  }
+  results[["test"]] <- .ccdGofTestLabels(results[["test"]])
+
+  if (bootstrap)
+    table$addFootnote(
+      message  = gettextf("Based on %1$i valid parametric bootstrap samples.", attributes(results)[["bootstrap"]][["valid"]]),
+      colNames = "p_value"
+    )
+
+  table$setData(results)
 }
 
 .cdFitPlots <- function(container, options, distribution, variable, name=NULL) {
@@ -445,7 +544,7 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
 
   plotContainer <- container[["plots"]]
   if (is.null(plotContainer)) {
-    plotContainer <- createJaspContainer(title = gettext("Plots"))
+    plotContainer <- createJaspContainer(title = gettext("Plots"), position = 1)
     container[["plots"]] <- plotContainer
   }
 
@@ -479,6 +578,7 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
     plot     <- createJaspPlot(
       title = plotInfo[["title"]], 
       #width = 480, height = 320, 
+      position = match(plotName, names(plots)),
       dependencies = plotInfo[["dependencies"]])
     plotContainer[[plotName]] <- plot
 

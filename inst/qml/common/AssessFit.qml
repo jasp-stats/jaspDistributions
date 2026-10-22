@@ -101,20 +101,20 @@ Section
 		title:		qsTr("Statistics")
 		enabled:	hasData
 
-		CheckBox
-		{
-			name:				"momentsTable"
-			label:				qsTr("Compare first")
-			info:				qsTr("Displays a table with the raw and central moments of the variable and the moments of the distribution.")
-			childrenOnSameRow:	true
-			IntegerField { name: "momentsTableNumber"; afterLabel: qsTr("moments"); defaultValue: 2; min: 1 }
-		}
+		// CheckBox
+		// {
+		// 	name:				"momentsTable"
+		// 	label:				qsTr("Compare first")
+		// 	info:				qsTr("Displays a table with the raw and central moments of the variable and the moments of the distribution.")
+		// 	childrenOnSameRow:	true
+		// 	IntegerField { name: "momentsTableNumber"; afterLabel: qsTr("moments"); defaultValue: 2; min: 1 }
+		// }
 
 		CheckBox
 		{
-			name:	"informationCriteria"
-			label:	qsTr("Log-likelihood and information criteria")
-			info:	qsTr("Displays the log-likelihood, AIC, and BIC of the distribution. When assessed on a different variable than the one used for estimation, the log-likelihood is the out-of-sample (predictive) log-likelihood.")
+			name:	"modelFitTable"
+			label:	qsTr("Model fit")
+			info:	qsTr("Displays the log-likelihood, the number of free parameters, and the AIC and BIC of the distribution. When assessed on a different variable than the one used for estimation, the log-likelihood is the out-of-sample (predictive) log-likelihood, and the AIC and BIC are not shown.")
 		}
 
 		CheckBox
