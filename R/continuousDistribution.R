@@ -16,6 +16,19 @@
 #
 
 ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options) {
+  if (options[["fitVariable"]] != "")
+    variable <- dataset[[options[["fitVariable"]]]]
+  else
+    variable <- NULL
+  
+  
+  distribution <- .ccdMakeDistribution(options)
+  
+  distribution <- .cdFitDistribution(jaspResults, options, distribution, variable)
+
+  .cdParameterTable(jaspResults, options, distribution, variable)
+
+  return()
   simulateRows <- .cdSimulateDataRows(options)
   .cdCheckSimulatedColumns(options, simulateRows)
 
@@ -41,6 +54,95 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
       dependencies = c("distribution", "parametrization", "parameters", "fitVariable", "parameterEstimationMethod")
     )
   }
+}
+
+.cdFitDistribution <- function(jaspResults, options, distribution, variable) {
+  if (!is.null(jaspResults[["distribution"]])) return (jaspResults[["distribution"]]$object)
+  if (is.null(variable)) return(distribution)
+  if (DistributionS7::nfree(distribution) == 0L) return(distribution)
+  # try fitting
+  result <- try(DistributionS7::fit(
+    distribution,
+    estimator=DistributionS7::Mle(),
+    data=variable
+  ))
+
+  # try manual starting values
+  if (isTryError(result))
+    result <- try(DistributionS7::fit(
+      distribution,
+      estimator=DistributionS7::Mle(start = DistributionS7::parameter_values(distribution, which="free")),
+      data=variable)
+      )
+
+  if (isTryError(result))
+    jaspBase::.quitAnalysis(
+      message = gettextf("Could not fit distribution %1$s, with the following error: <br> %2$s. <br> You can try to change the initial parameter values, or remove the distribution from the distribution specification",
+                         specification[["distribution"]], .extractErrorMessage(result))
+      )
+
+  distribution <- result
+
+  jaspResults[["distribution"]] <- createJaspState(
+    object = distribution,
+    dependencies = c("distribution", "parameters", "fitVariable")
+  )
+
+  return(distribution)
+}
+
+.cdParameterTable <- function(container, options, distribution, variable) {
+  if (!options[["parameterTable"]]) return()
+  if (!is.null(container[["parameterTable"]])) return()
+
+  table <- createJaspTable(
+    title = gettext("Parameters"), 
+    dependencies = c("distribution", "parameters", "fitVariable", "parameterTable", "parameterTableUncertainty", "parameterTableCiLevel")
+  )
+  table$showSpecifiedColumnsOnly <- TRUE
+
+  table$addColumnInfo(name = "name",      title = gettext("Name"),      type = "string")
+  table$addColumnInfo(name = "label",     title = gettext("Label"),     type = "string")
+  table$addColumnInfo(name = "estimate",  title = gettext("Value"),  type = "number")
+  container[["parameterTable"]] <- table
+
+  if (DistributionS7::nfree(distribution) > 0L) {
+    if (options[["parameterTableUncertainty"]] && !is.null(variable)) {
+      table$addColumnInfo(name = "se", title = gettext("SE"), type = "number")
+      overtitle <- gettextf("%s%% CI", 100*options[["parameterTableCiLevel"]])
+      table$addColumnInfo(name = "lower", title = gettext("Lower"), type = "number", overtitle = overtitle)
+      table$addColumnInfo(name = "upper", title = gettext("Upper"), type = "number", overtitle = overtitle)
+
+      results <- try(DistributionS7::parameter_inference(
+        distribution, 
+        DistributionS7::DefaultMethod(ci_level = options[["parameterTableCiLevel"]]), variable)
+      )
+  
+      if (isTryError(results)) {
+        table$setError(gettext("Could not obtain parameter uncertainty."))
+        return()
+      }
+      results[["label"]] <- mathExpression(results[["label"]])
+    } else {
+      results <- list()
+      results[["label"]] <- DistributionS7::parameter_properties(distribution, property="label", which="free") |> unlist() |> mathExpression()
+      results[["estimate"]] <- DistributionS7::parameter_values(distribution, which="free") |> unlist()
+    }
+    results[["name"]] <-  DistributionS7::parameter_properties(distribution, property="name",  which="free") |> unlist()
+    table$setData(results)
+  } else {
+    table$addFootnote(message = gettext("Distribution has no parameters to estimate."))
+  }
+
+
+  if (DistributionS7::nfixed(distribution) > 0L) {
+    parameters <- DistributionS7::parameters(distribution, which="fixed")
+    output <- vapply(parameters, function(p) sprintf("%1$s = %2$s", p@label, format(p@value, digits=3)), character(1))
+    output <- paste(output, collapse = ", ")
+    output <- gettextf("The following parameters were held constant: %s.", mathExpression(output))
+    table$addFootnote(message = output)
+  }
+
 }
 
 # the rows of the "simulateData" ComponentsList, named by their value ("specified", "fitted")

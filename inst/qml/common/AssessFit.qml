@@ -29,7 +29,8 @@ Section
 	property bool estimated:		hasFitVariable
 	property bool hasData:			hasFitVariable || !inSample
 
-	title: qsTr("Assess fit")
+	title:		dataSetInfo.dataAvailable ? qsTr("Assess fit") : qsTr("Assess fit") + " - " + qsTr("[requires a loaded data set]")
+	enabled:	dataSetInfo.dataAvailable
 	info: qsTr("Assess how well the distribution fits the data. If a variable to assess the fit on is specified, the fit is assessed on that variable; otherwise on the variable used for estimating the parameters.")
 	columns: 2
 

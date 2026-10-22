@@ -23,10 +23,12 @@ import JASP.Controls
 
 Section
 {
-	expanded: true
 	title: qsTr("Show Distribution")
 	info: qsTr("Displays the theoretical distribution, given the specified parameter values or, if a variable to estimate parameters from is specified, the estimated parameter values.")
 	columns: 2
+
+	// Quantiles and cumulative probabilities live on different scales, so each has its own fields:
+	// switching between them then never leaves a value that is out of bounds for the other.
 
 	Group
 	{
@@ -39,57 +41,77 @@ Section
 	{
 		title: qsTr("Table")
 		CheckBox
-		{ 
-			name: "distributionTable" 
-			label: qsTr("Distribution table")
-			info: qsTr("Displays distribution table that shows quantiles, density, cumulative probability, and complement of the cumulative probability.")
-			DropDown
-			{
-				label: qsTr("Based on")
-				name: "distributionTableBasedOn"
-				id: distributionTableBasedOn
-				info: qsTr("Select whether you want to specify values of quantiles for which to display density and cumulative probability, or values of cumulative probability for which to display density and quantiles.")
-				values: 
-				[
-					{ label: qsTr("quantiles"),					value: "quantile" },
-					{ label: qsTr("cumulative probability"),	value: "cdf" },
-				]
-			}
+		{
+			name:	"distributionTable"
+			label:	qsTr("Distribution table")
+			info:	qsTr("Displays distribution table that shows quantiles, density, cumulative probability, and complement of the cumulative probability.")
 
 			DropDown
 			{
-				label: qsTr("Specify points")
-				name: "distributionTableType"
-				id: distributionTableType
-				info: qsTr("Select whether you want to specify the distribution table with a range of values, or manually.")
+				id:			distributionTableBasedOn
+				name:		"distributionTableBasedOn"
+				label:		qsTr("Based on")
+				startValue:	"cdf"
+				info:		qsTr("Select whether you want to specify values of quantiles for which to display density and cumulative probability, or values of cumulative probability for which to display density and quantiles.")
 				values:
 				[
-					{ label: qsTr("as range"), value: "range"},
-					{ label: qsTr("manually"), value: "manual"}
+					{ label: qsTr("quantiles"),					value: "quantile"	},
+					{ label: qsTr("cumulative probability"),	value: "cdf"		}
 				]
 			}
 
-			ComponentsList
+			DropDown
 			{
-				name: 			"distributionTablePoints"
-				visible:		distributionTableType.value === "manual"
-				// title:			qsTr("Manual points")
-				info: qsTr("Values on which to evaluate the distribution.")
-				rowComponent:	DoubleField 
-				{ 
-					name:	"point"
-					min:	distributionTableBasedOn.value === "quantile" ? -Infinity : 0
-					max:	distributionTableBasedOn.value === "quantile" ?  Infinity : 1 
-				}
+				id:		distributionTableType
+				name:	"distributionTableType"
+				label:	qsTr("Specify points")
+				info:	qsTr("Select whether you want to specify the distribution table with a range of values, or manually.")
+				values:
+				[
+					{ label: qsTr("as range"), value: "range"	},
+					{ label: qsTr("manually"), value: "manual"	}
+				]
 			}
 
 			Group
 			{
-				title:			qsTr("Table range")
-				visible:		distributionTableType.value === "range"
-				DoubleField  { name: "distributionTableMin";	label: qsTr("Minimum");				id: distributionTableMin;	min: distributionTableBasedOn.value === "quantile" ? -Infinity : 0;	max: distributionTableMax.value; info: qsTr("The minimum of the range of the distribution table.")}
-				DoubleField  { name: "distributionTableMax";	label: qsTr("Maximum");				id: distributionTableMax;	max: distributionTableBasedOn.value === "quantile" ?  Infinity : 1;	min: distributionTableMin.value; defaultValue: 1; info: qsTr("The maximum of the range of the distribution table.")}
-				IntegerField { name: "distributionTableLength";	label: qsTr("Number of values");	id: distributionTableLength; defaultValue: 11; info: qsTr("How many points to display in the distribution table within the specified range.")}
+				visible: distributionTableType.value === "range"
+
+				Row
+				{
+					spacing: jaspTheme.columnGroupSpacing
+					visible: distributionTableBasedOn.value === "quantile"
+					DoubleField { name: "distributionTableQuantileMin";	label: qsTr("From");	negativeValues: true; defaultValue: -3;	info: qsTr("The smallest quantile in the distribution table.") }
+					DoubleField { name: "distributionTableQuantileMax";	label: qsTr("to");		negativeValues: true; defaultValue:  3;	info: qsTr("The largest quantile in the distribution table.") }
+				}
+
+				Row
+				{
+					spacing: jaspTheme.columnGroupSpacing
+					visible: distributionTableBasedOn.value === "cdf"
+					DoubleField { name: "distributionTableCdfMin";	label: qsTr("From");	min: 0; max: 1; defaultValue: 0;	info: qsTr("The smallest cumulative probability in the distribution table.") }
+					DoubleField { name: "distributionTableCdfMax";	label: qsTr("to");		min: 0; max: 1; defaultValue: 1;	info: qsTr("The largest cumulative probability in the distribution table.") }
+				}
+
+				IntegerField { name: "distributionTableLength"; label: qsTr("Number of values"); min: 2; defaultValue: 11; info: qsTr("How many equally spaced points to display in the distribution table within the specified range.") }
+			}
+
+			ComponentsList
+			{
+				name:			"distributionTableQuantilePoints"
+				visible:		distributionTableType.value === "manual" && distributionTableBasedOn.value === "quantile"
+				addBorder:		false
+				info:			qsTr("Quantiles at which to evaluate the distribution.")
+				rowComponent:	FormulaField { name: "point"; defaultValue: "0" }
+			}
+
+			ComponentsList
+			{
+				name:			"distributionTableCdfPoints"
+				visible:		distributionTableType.value === "manual" && distributionTableBasedOn.value === "cdf"
+				addBorder:		false
+				info:			qsTr("Cumulative probabilities at which to evaluate the distribution.")
+				rowComponent:	FormulaField { name: "point"; min: 0; max: 1; defaultValue: "0.5" }
 			}
 		}
 	}
@@ -100,52 +122,79 @@ Section
 
 		Group
 		{
-			CheckBox{ name: "pdfPlot"; label: qsTr("Probability density function"); info: qsTr("Displays the probability density function.")}
-			CheckBox{ name: "cdfPlot"; label: qsTr("Cumulative distribution function"); info: qsTr("Displays the cumulative distribution function.")}
-			CheckBox{ name: "qfPlot";  label: qsTr("Quantile function"); info: qsTr("Displays the quantile function.")}
+			CheckBox { id: pdfPlot;	name: "pdfPlot";	label: qsTr("Probability density function");		info: qsTr("Displays the probability density function.")		}
+			CheckBox { id: cdfPlot;	name: "cdfPlot";	label: qsTr("Cumulative distribution function");	info: qsTr("Displays the cumulative distribution function.")	}
+			CheckBox { id: qfPlot;	name: "qfPlot";		label: qsTr("Quantile function");					info: qsTr("Displays the quantile function.")					}
 		}
 
 		Row
 		{
 			spacing: jaspTheme.columnGroupSpacing
+			enabled: pdfPlot.checked || cdfPlot.checked || qfPlot.checked
+
 			DropDown
 			{
-				label: qsTr("Plot range based on")
-				name: "plotRangeBasedOn"
-				id: plotRangeBasedOn
-				values: 
+				id:			plotRangeBasedOn
+				name:		"plotRangeBasedOn"
+				label:		qsTr("Plot range based on")
+				// a range of cumulative probabilities adapts to the location and scale of any distribution
+				startValue:	"cdf"
+				info:		qsTr("Select whether the range of the plots is specified in quantiles or in cumulative probabilities.")
+				values:
 				[
-					{ label: qsTr("quantiles"),					value: "quantile" },
-					{ label: qsTr("cumulative probability"),	value: "cdf" },
-					]
+					{ label: qsTr("quantiles"),					value: "quantile"	},
+					{ label: qsTr("cumulative probability"),	value: "cdf"		}
+				]
 			}
-			DoubleField  { name: "plotMin";	label: qsTr("from");				id: plotRangeMin;	min: plotRangeBasedOn.value === "quantile" ? -Infinity : 0;	max: plotRangeMax.value; defaultValue: -3}
-			DoubleField  { name: "plotMax";	label: qsTr("to");					id: plotRangeMax;	max: plotRangeBasedOn.value === "quantile" ?  Infinity : 1;	min: plotRangeMin.value; defaultValue:  3}
+
+			Row
+			{
+				spacing: jaspTheme.columnGroupSpacing
+				visible: plotRangeBasedOn.value === "quantile"
+				DoubleField { name: "plotQuantileMin"; label: qsTr("from");	negativeValues: true; defaultValue: -3;	info: qsTr("The smallest quantile shown in the plots.") }
+				DoubleField { name: "plotQuantileMax"; label: qsTr("to");	negativeValues: true; defaultValue:  3;	info: qsTr("The largest quantile shown in the plots.") }
+			}
+
+			Row
+			{
+				spacing: jaspTheme.columnGroupSpacing
+				visible: plotRangeBasedOn.value === "cdf"
+				// 0 and 1 are excluded, because they correspond to infinite quantiles for distributions with unbounded support
+				DoubleField { name: "plotCdfMin"; label: qsTr("from");	min: 0; max: 1; inclusive: JASP.None; defaultValue: 0.01;	info: qsTr("The cumulative probability of the smallest quantile shown in the plots.") }
+				DoubleField { name: "plotCdfMax"; label: qsTr("to");	min: 0; max: 1; inclusive: JASP.None; defaultValue: 0.99;	info: qsTr("The cumulative probability of the largest quantile shown in the plots.") }
+			}
 		}
 
 		ComponentsList
 		{
-			name: "plotDensityPoints"
-			title: qsTr("Highlight density")
-			rowComponent:	DoubleField { name:	"point"; min:	-Infinity;	max:	Infinity }
-		}
-
-		ComponentsList
-		{
-			name: "plotProbabilityLimits"
-			title: qsTr("Highlight probability")
-			// titles: [qsTr("From"), qsTr("To")]
+			name:			"plotDensityPoints"
+			title:			qsTr("Highlight density")
+			enabled:		pdfPlot.checked
+			addBorder:		false
+			headerLabels:	[qsTr("At quantile"), qsTr("Color")]
+			info:			qsTr("Quantiles at which the density is highlighted in the probability density plot.")
 			rowComponent:	RowLayout
 			{
 				spacing: 10 * preferencesModel.uiScale
-				Row
-				{
-					DoubleField { label: qsTr("From");	name: "min"; min: -Infinity;	max: Infinity; defaultValue: -Infinity }
-				}
-				Row
-				{
-					DoubleField { label: qsTr("to");	name: "max"; min: -Infinity;	max: Infinity; defaultValue: Infinity }
-				}
+				FormulaField	{ name: "point"; defaultValue: "0" }
+				ColorOption	{ buttonInfo: qsTr("Color in which the density is highlighted.") }
+			}
+		}
+
+		ComponentsList
+		{
+			name:			"plotProbabilityLimits"
+			title:			qsTr("Highlight probability")
+			enabled:		pdfPlot.checked || cdfPlot.checked || qfPlot.checked
+			addBorder:		false
+			headerLabels:	[qsTr("From"), qsTr("To"), qsTr("Color")]
+			info:			qsTr("Intervals whose probability is highlighted in the plots. Use -Inf or Inf to leave the interval unbounded on that side (e.g., to highlight a tail).")
+			rowComponent:	RowLayout
+			{
+				spacing: 10 * preferencesModel.uiScale
+				FormulaField { name: "min"; defaultValue: "-Inf" }
+				FormulaField { name: "max"; defaultValue: "Inf" }
+				ColorOption { buttonInfo: qsTr("Color in which the probability is highlighted.") }
 			}
 		}
 	}
