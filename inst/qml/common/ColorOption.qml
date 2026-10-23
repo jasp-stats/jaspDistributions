@@ -34,6 +34,10 @@ ColorPicker
 	name:							optionName + "Picker"
 	isBound:						false
 	buttonText:						""
+	// typed colors are not shown on the button, so the color can only be picked from the dialog;
+	// without width, the hidden field leaves no gap before the button
+	textField.visible:				false
+	textField.fieldWidth:			0
 	value:							colorValue.value
 	onValueChanged:					colorValue.value = value
 

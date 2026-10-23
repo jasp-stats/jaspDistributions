@@ -189,8 +189,9 @@ Section
 			rowComponent:	RowLayout
 			{
 				spacing: 10 * preferencesModel.uiScale
-				FormulaField { name: "min"; defaultValue: "-Inf" }
-				FormulaField { name: "max"; defaultValue: "Inf" }
+				// narrower than the default, so that both limits and the color fit within the column
+				FormulaField { name: "min"; defaultValue: "-Inf";	fieldWidth: jaspTheme.textFieldWidth / 3 }
+				FormulaField { name: "max"; defaultValue: "Inf";	fieldWidth: jaspTheme.textFieldWidth / 3 }
 				ColorOption { buttonInfo: qsTr("Color in which the probability is highlighted.") }
 			}
 		}

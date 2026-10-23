@@ -87,5 +87,5 @@ Form
 	}
 
 
-	Common.AdvancedOptions{	}
+	Common.AdvancedOptions { }
 }

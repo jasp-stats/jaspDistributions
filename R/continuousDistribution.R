@@ -58,7 +58,7 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
       rowValue     = "fitted",
       stateName    = "simulateFittedColumn",
       sampler      = function(n) stats::rnorm(n, mean(fitData), stats::sd(fitData)), # TODO: draw from the fitted distribution
-      dependencies = c("distribution", "parametrization", "parameters", "fitVariable", "parameterEstimationMethod")
+      dependencies = c(.cdFitDependencies, "parametrization")
     )
   }
 }
@@ -125,35 +125,74 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
   if (!is.null(jaspResults[["distribution"]])) return (jaspResults[["distribution"]]$object)
   if (is.null(variable)) return(distribution)
   if (DistributionS7::nfree(distribution) == 0L) return(distribution)
-  # try fitting
-  result <- try(DistributionS7::fit(
-    distribution,
-    estimator=DistributionS7::Mle(),
-    data=variable
-  ))
 
-  # try manual starting values
-  if (isTryError(result))
-    result <- try(DistributionS7::fit(
-      distribution,
-      estimator=DistributionS7::Mle(start = DistributionS7::parameter_values(distribution, which="free")),
-      data=variable)
-      )
+  estimator <- .cdEstimator(options, distribution, variable)
+  result    <- try(DistributionS7::fit(distribution, estimator = estimator, data = variable))
+
+  # try manual starting values (only maximum likelihood uses starting values)
+  if (isTryError(result) && S7::S7_inherits(estimator, DistributionS7::Mle)) {
+    estimator@start <- DistributionS7::parameter_values(distribution, which = "free")
+    result <- try(DistributionS7::fit(distribution, estimator = estimator, data = variable))
+  }
 
   if (isTryError(result))
     jaspBase::.quitAnalysis(
-      message = gettextf("Could not fit distribution %1$s, with the following error: <br> %2$s. <br> You can try to change the initial parameter values, or remove the distribution from the distribution specification",
-                         specification[["distribution"]], .extractErrorMessage(result))
+      message = gettextf("Could not fit distribution %1$s, with the following error: <br> %2$s. <br> You can try to change the initial parameter values, or the estimation method.",
+                         S7::prop(distribution, "name"), .extractErrorMessage(result))
       )
 
   distribution <- result
 
-  jaspResults[["distribution"]] <- createJaspState(
-    object = distribution,
-    dependencies = c("distribution", "parameters", "fitVariable")
-  )
+  jaspResults[["distribution"]] <- createJaspState(object = distribution, dependencies = .cdFitDependencies)
+  # the estimator that was actually used, so that the uncertainty and the bootstrap re-estimate in the same way
+  jaspResults[["estimator"]]    <- createJaspState(object = estimator,    dependencies = .cdFitDependencies)
 
   return(distribution)
+}
+
+# the options on which the fitted distribution depends
+.cdFitDependencies <- c("distribution", "parameters", "fitVariable", "parameterEstimatorBiasCorrected", "parameterEstimatorMleSpace")
+
+.cdEstimator <- function(options, distribution, data) {
+  # analytic estimates are always preferred, numerical optimization is used only if there are none
+  mle <- DistributionS7::Mle(
+    optim       = FALSE,
+    constrained = options[["parameterEstimatorMleSpace"]] == "constrained",
+    silent      = TRUE
+  )
+
+  if (!options[["parameterEstimatorBiasCorrected"]]) return(mle)
+
+  # bias-corrected if the distribution has such an estimator (and it works for these data), maximum likelihood otherwise
+  biasCorrected <- DistributionS7::BiasCorrected(silent = TRUE)
+  available     <- !isTryError(try(DistributionS7::parameter_estimates(distribution, biasCorrected, data), silent = TRUE))
+  if (available) biasCorrected else mle
+}
+
+# the options on which the parameter uncertainty depends (in addition to the fitted distribution)
+.cdInferenceDependencies <- c("parameterInferenceMethod", "parameterInferenceNormalTheorySpace", "parameterInferenceBootstrapSamples",
+                              "parameterInferenceBootstrapType", "parameterInferenceBootstrapCiMethod", "setSeed", "seed")
+
+.cdInferenceMethod <- function(options, estimator) {
+  ciLevel <- options[["parameterTableCiLevel"]]
+
+  switch(
+    options[["parameterInferenceMethod"]],
+    default      = DistributionS7::DefaultMethod(estimator = estimator, ci_level = ciLevel),
+    normalTheory = DistributionS7::NormalTheory(
+      estimator   = estimator,
+      ci_level    = ciLevel,
+      constrained = options[["parameterInferenceNormalTheorySpace"]] == "constrained"
+    ),
+    bootstrap    = DistributionS7::Bootstrap(
+      estimator = estimator,
+      ci_level  = ciLevel,
+      samples   = as.integer(options[["parameterInferenceBootstrapSamples"]]),
+      type      = options[["parameterInferenceBootstrapType"]],
+      ci_method = options[["parameterInferenceBootstrapCiMethod"]],
+      callback  = progressbarTick
+    )
+  )
 }
 
 .cdParameterTable <- function(container, options, distribution, variable) {
@@ -163,7 +202,7 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
   table <- createJaspTable(
     title = if (is.null(distribution)) gettext("Parameters - no distribution selected") else gettextf("Parameters - %s", S7::prop(distribution, "name")),
     position = 1,
-    dependencies = c("distribution", "parameters", "fitVariable", "parameterTable", "parameterTableUncertainty", "parameterTableCiLevel")
+    dependencies = c(.cdFitDependencies, "parameterTable", "parameterTableUncertainty", "parameterTableCiLevel", .cdInferenceDependencies)
   )
   table$showSpecifiedColumnsOnly <- TRUE
 
@@ -175,21 +214,54 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
   if (is.null(distribution)) return()
 
   if (DistributionS7::nfree(distribution) > 0L) {
+    # maximum likelihood is the norm, so only a deviation from it is noted
+    estimator <- container[["estimator"]]$object
+    if (S7::S7_inherits(estimator, DistributionS7::BiasCorrected))
+      table$addFootnote(message = gettext("Parameters estimated using the bias-corrected estimator."))
+
     if (options[["parameterTableUncertainty"]] && !is.null(variable)) {
       table$addColumnInfo(name = "se", title = gettext("SE"), type = "number")
       overtitle <- gettextf("%s%% CI", 100*options[["parameterTableCiLevel"]])
       table$addColumnInfo(name = "lower", title = gettext("Lower"), type = "number", overtitle = overtitle)
       table$addColumnInfo(name = "upper", title = gettext("Upper"), type = "number", overtitle = overtitle)
 
-      results <- try(DistributionS7::parameter_inference(
-        distribution, 
-        DistributionS7::DefaultMethod(ci_level = options[["parameterTableCiLevel"]]), variable)
-      )
-  
+      method <- .cdInferenceMethod(options, estimator)
+      if (S7::S7_inherits(method, DistributionS7::Bootstrap)) {
+        .setSeedJASP(options)
+        startProgressbar(expectedTicks = method@samples, label = gettext("Bootstrapping parameter uncertainty..."))
+      }
+
+      # the package warns, e.g., if normal theory is used with an estimator other than maximum likelihood
+      warnings     <- character(0)
+      normalTheory <- FALSE
+      results      <- try(withCallingHandlers(
+        DistributionS7::parameter_inference(distribution, method, variable),
+        warning = function(w) {
+          # the bias-corrected estimates are close to the maximum likelihood ones, so this is a note rather than a warning
+          if (startsWith(conditionMessage(w), "Normal theory")) normalTheory <<- TRUE
+          else warnings <<- c(warnings, conditionMessage(w))
+          invokeRestart("muffleWarning")
+        }
+      ))
+
       if (isTryError(results)) {
-        table$setError(gettext("Could not obtain parameter uncertainty."))
+        table$setError(gettextf("Could not obtain parameter uncertainty: %s", .extractErrorMessage(results)))
         return()
       }
+
+      bootstrap <- attr(results, "bootstrap")
+      if (!is.null(bootstrap))
+        table$addFootnote(message = gettextf(
+          "Uncertainty based on %1$i valid %2$s bootstrap samples, with %3$s confidence intervals.",
+          bootstrap[["valid"]],
+          if (bootstrap[["type"]] == "parametric") gettext("parametric") else gettext("nonparametric"),
+          if (bootstrap[["ci_method"]] == "percentile") gettext("percentile") else gettext("basic")
+        ))
+      if (normalTheory)
+        table$addFootnote(message = gettext("Standard errors and confidence intervals are based on normal theory, which assumes maximum likelihood estimates."))
+      for (warning in unique(warnings))
+        table$addFootnote(message = warning, symbol = gettext("<em>Warning.</em>"))
+
       results[["label"]] <- mathExpression(results[["label"]])
     } else {
       results <- list()
@@ -220,7 +292,7 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
   table <- createJaspTable(
     title        = gettext("Distribution Table"),
     position     = 3,
-    dependencies = c("distribution", "parameters", "fitVariable", "distributionTable", "distributionTableBasedOn", "distributionTableType",
+    dependencies = c(.cdFitDependencies, "distributionTable", "distributionTableBasedOn", "distributionTableType",
                      "distributionTableQuantileMin", "distributionTableQuantileMax", "distributionTableCdfMin", "distributionTableCdfMax",
                      "distributionTableLength", "distributionTableQuantilePoints", "distributionTableCdfPoints")
   )
@@ -307,7 +379,7 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
     plotContainer <- createJaspContainer(
       title        = gettext("Plots"),
       position     = 4,
-      dependencies = c("distribution", "parameters", "fitVariable", "plotRangeBasedOn",
+      dependencies = c(.cdFitDependencies, "plotRangeBasedOn",
                        "plotQuantileMin", "plotQuantileMax", "plotCdfMin", "plotCdfMax")
     )
     container[["distributionPlots"]] <- plotContainer
@@ -452,17 +524,17 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
     fitContainer <- createJaspContainer(
       title        = gettext("Fit Assessment"),
       position     = 5,
-      dependencies = c("distribution", "parameters", "fitVariable", "assessVariable")
+      dependencies = c(.cdFitDependencies, "assessVariable")
     )
     container[["fitAssessment"]] <- fitContainer
   }
 
   name <- if (variables[["sameVariables"]]) options[["fitVariable"]] else options[["assessVariable"]]
   .cdFitPlots(fitContainer, options, distribution, variables[["assessVariable"]], name)
-  .cdFitStatistics(fitContainer, options, distribution, variables)
+  .cdFitStatistics(fitContainer, options, distribution, variables, container[["estimator"]]$object)
 }
 
-.cdFitStatistics <- function(container, options, distribution, variables) {
+.cdFitStatistics <- function(container, options, distribution, variables, estimator) {
   if (!any(vapply(options[c("modelFitTable", "goodnessOfFit")], isTRUE, logical(1)))) return()
 
   statisticsContainer <- container[["statistics"]]
@@ -471,17 +543,19 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
     container[["statistics"]] <- statisticsContainer
   }
 
-  .cdModelFitTable(statisticsContainer, options, distribution, variables)
-  .cdGofTable(statisticsContainer, options, distribution, variables)
+  .cdModelFitTable(statisticsContainer, options, distribution, variables, estimator)
+  .cdGofTable(statisticsContainer, options, distribution, variables, estimator)
 }
 
-.cdModelFitTable <- function(container, options, distribution, variables) {
+.cdModelFitTable <- function(container, options, distribution, variables, estimator) {
   if (!options[["modelFitTable"]]) return()
   if (!is.null(container[["modelFitTable"]])) return()
 
   # AIC and BIC are only meaningful for the data used for estimation;
   # on a different variable, the log-likelihood is the out-of-sample (predictive) log-likelihood
   inSample <- variables[["sameVariables"]]
+  # AIC and BIC assume maximum likelihood estimates
+  biasCorrected <- S7::S7_inherits(estimator, DistributionS7::BiasCorrected)
 
   table <- createJaspTable(title = gettext("Model Fit"), position = 1, dependencies = "modelFitTable")
   table$showSpecifiedColumnsOnly <- TRUE
@@ -491,6 +565,8 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
   if (inSample) {
     table$addColumnInfo(name = "aic",   title = gettext("AIC"),            type = "number")
     table$addColumnInfo(name = "bic",   title = gettext("BIC"),            type = "number")
+    if (biasCorrected)
+      table$addFootnote(message = gettext("AIC and BIC assume maximum likelihood estimates."))
   }
   container[["modelFitTable"]] <- table
 
@@ -503,7 +579,7 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
   table$setData(results)
 }
 
-.cdGofTable <- function(container, options, distribution, variables) {
+.cdGofTable <- function(container, options, distribution, variables, estimator) {
   if (!options[["goodnessOfFit"]]) return()
   if (!is.null(container[["goodnessOfFit"]])) return()
 
@@ -531,7 +607,9 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
 
   results <- try(DistributionS7::gof_test(
     distribution, variables[["assessVariable"]], estimated = estimated,
-    bootstrap = DistributionS7::Bootstrap(samples = samples, callback = progressbarTick)
+    # re-estimate on the bootstrap samples in the same way as on the data (without a fit, nothing is re-estimated)
+    bootstrap = DistributionS7::Bootstrap(estimator = if (is.null(estimator)) DistributionS7::Mle() else estimator,
+                                          samples = samples, callback = progressbarTick)
   ))
 
   if (isTryError(results)) {
