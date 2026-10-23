@@ -122,15 +122,14 @@ Section
 
 		Group
 		{
-			CheckBox { id: pdfPlot;	name: "pdfPlot";	label: qsTr("Probability density function");		info: qsTr("Displays the probability density function.")		}
-			CheckBox { id: cdfPlot;	name: "cdfPlot";	label: qsTr("Cumulative distribution function");	info: qsTr("Displays the cumulative distribution function.")	}
-			CheckBox { id: qfPlot;	name: "qfPlot";		label: qsTr("Quantile function");					info: qsTr("Displays the quantile function.")					}
+			CheckBox { name: "pdfPlot";	label: qsTr("Probability density function");		info: qsTr("Displays the probability density function.")		}
+			CheckBox { name: "cdfPlot";	label: qsTr("Cumulative distribution function");	info: qsTr("Displays the cumulative distribution function.")	}
+			CheckBox { name: "qfPlot";		label: qsTr("Quantile function");					info: qsTr("Displays the quantile function.")					}
 		}
 
 		Row
 		{
 			spacing: jaspTheme.columnGroupSpacing
-			enabled: pdfPlot.checked || cdfPlot.checked || qfPlot.checked
 
 			DropDown
 			{
@@ -169,10 +168,9 @@ Section
 		{
 			name:			"plotDensityPoints"
 			title:			qsTr("Highlight density")
-			enabled:		pdfPlot.checked || cdfPlot.checked || qfPlot.checked
 			addBorder:		false
 			headerLabels:	[qsTr("At quantile"), qsTr("Color")]
-			info:			qsTr("Quantiles at which the density is highlighted: as a point in the probability density plot, and as the slope of a tangent in the cumulative distribution and quantile plots.")
+			info:			qsTr("Quantiles at which the density is highlighted: as a point in the probability density plot, and as the slope of a tangent in the cumulative distribution plot.")
 			rowComponent:	RowLayout
 			{
 				spacing: 10 * preferencesModel.uiScale
@@ -185,10 +183,9 @@ Section
 		{
 			name:			"plotProbabilityLimits"
 			title:			qsTr("Highlight probability")
-			enabled:		pdfPlot.checked || cdfPlot.checked || qfPlot.checked
 			addBorder:		false
 			headerLabels:	[qsTr("From"), qsTr("To"), qsTr("Color")]
-			info:			qsTr("Intervals whose probability is highlighted in the plots. Use -Inf or Inf to leave the interval unbounded on that side (e.g., to highlight a tail).")
+			info:			qsTr("Intervals whose probability is highlighted in the probability density and cumulative distribution plots. Use -Inf or Inf to leave the interval unbounded on that side (e.g., to highlight a tail).")
 			rowComponent:	RowLayout
 			{
 				spacing: 10 * preferencesModel.uiScale
