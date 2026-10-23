@@ -136,14 +136,14 @@ Section
 			{
 				id:			plotRangeBasedOn
 				name:		"plotRangeBasedOn"
-				label:		qsTr("Plot range based on")
-				// a range of cumulative probabilities adapts to the location and scale of any distribution
-				startValue:	"cdf"
-				info:		qsTr("Select whether the range of the plots is specified in quantiles or in cumulative probabilities.")
+				label:		qsTr("Plot range")
+				startValue:	"auto"
+				info:		qsTr("Select whether the range of the plots is determined automatically from the support of the distribution, or specified in quantiles or in cumulative probabilities.")
 				values:
 				[
-					{ label: qsTr("quantiles"),					value: "quantile"	},
-					{ label: qsTr("cumulative probability"),	value: "cdf"		}
+					{ label: qsTr("automatic"),							value: "auto"		},
+					{ label: qsTr("in quantiles"),						value: "quantile"	},
+					{ label: qsTr("in cumulative probabilities"),		value: "cdf"		}
 				]
 			}
 

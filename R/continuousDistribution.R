@@ -319,7 +319,7 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
     cdfPlot = gettext("Cumulative distribution function"),
     qfPlot  = gettext("Quantile function")
   )
-  fillers <- list(pdfPlot = .cdPdfPlot, cdfPlot = .cdCdfPlot, qfPlot = .cdQfPlot)
+  fillers <- list(pdfPlot = DistributionS7::plot_pdf, cdfPlot = DistributionS7::plot_cdf, qfPlot = DistributionS7::plot_qf)
 
   # the range and the highlights are shared by all plots, so they are only computed when a plot is (re)drawn
   settings <- NULL
@@ -337,7 +337,14 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
       next
     }
 
-    result <- try(fillers[[name]](distribution, settings))
+    # the cdf and quantile plots list the slopes at the highlighted densities in a legend, in the corner the curve leaves empty
+    legend <- if (!is.null(settings[["density"]])) switch(name, cdfPlot = c(1, 0), qfPlot = c(0, 1))
+    # DistributionS7 only derives the range when xlim is missing, so an automatic range leaves it out
+    args <- list(distribution, density = settings[["density"]], probability = settings[["probability"]])
+    if (!is.null(settings[["range"]]))
+      args[["xlim"]] <- settings[["range"]]
+
+    result <- try(do.call(fillers[[name]], args) + .cdPlotTheme(legend = legend))
     if (isTryError(result))
       plot$setError(gettextf("Could not draw the plot: %s", .extractErrorMessage(result)))
     else
@@ -347,83 +354,68 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
 
 # the plot range and the highlights, or an error message
 .cdDistributionPlotSettings <- function(options, distribution) {
-  if (options[["plotRangeBasedOn"]] == "quantile") {
-    range <- c(options[["plotQuantileMin"]], options[["plotQuantileMax"]])
-  } else {
-    if (options[["plotCdfMin"]] >= options[["plotCdfMax"]])
-      return(gettext("The start of the plot range must be smaller than its end."))
-    range <- DistributionS7::qf(distribution, c(options[["plotCdfMin"]], options[["plotCdfMax"]]))
-  }
-
-  if (any(!is.finite(range)) || range[1L] >= range[2L])
-    return(gettext("The start of the plot range must be smaller than its end."))
-
-  # TODO: the colors of the rows are not used yet, DistributionS7 draws all highlights in the same color
-  densityPoints <- lapply(options[["plotDensityPoints"]], function(row) list(x = .cdParseFormula(row[["point"]])))
-  intervals     <- lapply(options[["plotProbabilityLimits"]], function(row) list(
-    lower = .cdParseFormula(row[["min"]]),
-    upper = .cdParseFormula(row[["max"]])
-  ))
-
-  if (any(vapply(densityPoints, function(point) is.na(point[["x"]]), logical(1))))
-    return(gettext("Each highlighted density must be at a number or an R expression that gives a number."))
-
-  if (any(vapply(intervals, function(interval) is.na(interval[["lower"]]) || is.na(interval[["upper"]]), logical(1))))
-    return(gettext("The limits of each highlighted probability must be numbers or R expressions that give a number."))
-
-  if (any(vapply(intervals, function(interval) interval[["lower"]] > interval[["upper"]], logical(1))))
-    return(gettext("The lower limit of each highlighted probability must not be larger than its upper limit."))
-
-  return(list(range = range, densityPoints = densityPoints, intervals = intervals))
-}
-
-# the plots are drawn by DistributionS7 (not exported yet)
-.cdPdfPlot <- function(distribution, settings) {
-  probability <- data.frame(
-    xmin = vapply(settings[["intervals"]], `[[`, numeric(1), "lower"),
-    xmax = vapply(settings[["intervals"]], `[[`, numeric(1), "upper")
+  # NULL leaves the range to DistributionS7, which derives it from the support of the distribution
+  range <- switch(
+    options[["plotRangeBasedOn"]],
+    auto     = NULL,
+    quantile = c(options[["plotQuantileMin"]], options[["plotQuantileMax"]]),
+    cdf      = DistributionS7::qf(distribution, c(options[["plotCdfMin"]], options[["plotCdfMax"]]))
   )
 
-  DistributionS7:::plot_pdf(
-    distribution,
-    xlim        = settings[["range"]],
-    density     = .cdDensityPoints(settings),
+  if (!is.null(range) && (any(!is.finite(range)) || range[1L] >= range[2L]))
+    return(gettext("The start of the plot range must be smaller than its end."))
+
+  densityRows <- options[["plotDensityPoints"]]
+  density     <- data.frame(
+    x     = vapply(densityRows, function(row) .cdParseFormula(row[["point"]]), numeric(1)),
+    color = vapply(densityRows, function(row) .cdColor(row[["color"]]), character(1))
+  )
+
+  probabilityRows <- options[["plotProbabilityLimits"]]
+  probability     <- data.frame(
+    xmin  = vapply(probabilityRows, function(row) .cdParseFormula(row[["min"]]), numeric(1)),
+    xmax  = vapply(probabilityRows, function(row) .cdParseFormula(row[["max"]]), numeric(1)),
+    color = vapply(probabilityRows, function(row) .cdColor(row[["color"]]), character(1))
+  )
+
+  if (anyNA(density[["x"]]))
+    return(gettext("Each highlighted density must be at a number or an R expression that gives a number."))
+
+  if (anyNA(probability[["xmin"]]) || anyNA(probability[["xmax"]]))
+    return(gettext("The limits of each highlighted probability must be numbers or R expressions that give a number."))
+
+  if (any(probability[["xmin"]] > probability[["xmax"]]))
+    return(gettext("The lower limit of each highlighted probability must not be larger than its upper limit."))
+
+  return(list(
+    range       = range,
+    density     = if (nrow(density) > 0L) density,
     probability = if (nrow(probability) > 0L) probability
-  ) + .cdPlotTheme()
+  ))
 }
 
-.cdCdfPlot <- function(distribution, settings) {
-  DistributionS7:::plot_cdf(
-    distribution,
-    xlim        = settings[["range"]],
-    density     = .cdDensityPoints(settings),
-    probability = .cdProbabilityPoints(settings)
-  ) + .cdPlotTheme()
+# a missing color is NA, so that DistributionS7 picks one from its palette
+.cdColor <- function(color) {
+  if (is.null(color) || color == "") NA_character_ else as.character(color)
 }
 
-.cdQfPlot <- function(distribution, settings) {
-  DistributionS7:::plot_qf(
-    distribution,
-    xlim        = settings[["range"]],
-    density     = .cdDensityPoints(settings),
-    probability = .cdProbabilityPoints(settings)
-  ) + .cdPlotTheme()
-}
+# DistributionS7 sets no position scales, so the JASP scales extend the axes to cover everything that is drawn
+# legend: NULL hides the legend, otherwise the corner of the panel to put it in, e.g., c(1, 0) for the bottom right
+.cdPlotTheme <- function(legend = NULL) {
+  theme <- list(
+    jaspGraphs::scale_x_continuous(),
+    jaspGraphs::scale_y_continuous(),
+    jaspGraphs::geom_rangeframe()
+  )
 
-.cdDensityPoints <- function(settings) {
-  points <- vapply(settings[["densityPoints"]], `[[`, numeric(1), "x")
-  if (length(points) > 0L) points
-}
+  if (is.null(legend))
+    return(c(theme, list(jaspGraphs::themeJaspRaw())))
 
-# the cdf and quantile plots mark points rather than intervals: mark the finite limits of the intervals
-.cdProbabilityPoints <- function(settings) {
-  limits <- unlist(lapply(settings[["intervals"]], function(interval) c(interval[["lower"]], interval[["upper"]])))
-  limits <- unique(limits[is.finite(limits)])
-  if (length(limits) > 0L) limits
-}
-
-.cdPlotTheme <- function() {
-  list(jaspGraphs::geom_rangeframe(), jaspGraphs::themeJaspRaw())
+  # themeJaspRaw hides the legend by default
+  c(theme, list(
+    jaspGraphs::themeJaspRaw(legend.position = "inside"),
+    ggplot2::theme(legend.position.inside = legend, legend.justification.inside = legend)
+  ))
 }
 
 
