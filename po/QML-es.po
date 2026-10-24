@@ -3788,3 +3788,15 @@ msgstr "Lilliefors"
 msgctxt "LDAssessFit|"
 msgid "Displays the Lilliefors test"
 msgstr "Muestra el contraste de Lilliefors"
+
+msgctxt "DistributionSpecification|"
+msgid "ε (asymmetry)"
+msgstr ""
+
+msgctxt "DistributionSpecification|"
+msgid "δ (tail weight)"
+msgstr ""
+
+msgctxt "DistributionSpecification|"
+msgid "Sinh-arcsinh (SHASH)"
+msgstr ""

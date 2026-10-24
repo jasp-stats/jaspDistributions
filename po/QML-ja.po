@@ -3731,3 +3731,15 @@ msgstr "Lilliefors検定"
 msgctxt "LDAssessFit|"
 msgid "Displays the Lilliefors test"
 msgstr "Lilliefors検定を表示する"
+
+msgctxt "DistributionSpecification|"
+msgid "ε (asymmetry)"
+msgstr ""
+
+msgctxt "DistributionSpecification|"
+msgid "δ (tail weight)"
+msgstr ""
+
+msgctxt "DistributionSpecification|"
+msgid "Sinh-arcsinh (SHASH)"
+msgstr ""
