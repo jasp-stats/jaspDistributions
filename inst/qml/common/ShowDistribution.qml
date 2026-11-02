@@ -32,7 +32,9 @@ Section
 
 	Group
 	{
-		title: qsTr("Texts")
+		title:		qsTr("Texts")
+		// hidden until the texts are implemented in R
+		visible:	false
 		CheckBox{ name: "explanatoryText"; label: qsTr("Explanatory text"); info: qsTr("Displays additional texts that explain the displayed elements.")}
 		CheckBox{ name: "parametersSupportMoments"; label: qsTr("Parameters, support, and moments"); info: qsTr("Displays parameters, support, and moments.")}
 	}

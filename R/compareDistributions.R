@@ -82,19 +82,19 @@ compareContinuousDistributionsInternal <- function(jaspResults, dataset, options
 .ccdMakeDistribution <- function(specification) {
   parameters <- .ccdMakeParameters(specification)
   constructor <- getExportedValue("DistributionS7", specification[["distribution"]])
-  distribution <- do.call(constructor, parameters)
+  distribution <- try(do.call(constructor, parameters))
+
+  if (isTryError(distribution))
+    jaspBase::.quitAnalysis(
+      message = gettextf("Could not create distribution %1$s with the specified parameter values, with the following error: <br> %2$s <br> Check that the parameter values are valid for this distribution.",
+                         specification[["distribution"]], .extractErrorMessage(distribution))
+    )
+
   return(distribution)
 }
 
 .ccdComputeDistributionResults <- function(specification, variable) {
-  distribution <- try(.ccdMakeDistribution(specification))
-
-  # make distribution object
-  if (isTryError(distribution))
-    jaspBase::.quitAnalysis(
-      message = gettextf("Could not initialize distribution %1$s, with the following error: <br> %2$s",
-                         specification[["distribution"]], .extractErrorMessage(distribution))
-      )
+  distribution <- .ccdMakeDistribution(specification)
 
   # try fitting
   result <- try(DistributionS7::fit(

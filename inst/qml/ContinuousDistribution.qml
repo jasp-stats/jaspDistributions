@@ -53,6 +53,5 @@ Form
 		hasFitVariable: estimateParameters.hasFitVariable
 	}
 
-
 	Common.AdvancedOptions { }
 }

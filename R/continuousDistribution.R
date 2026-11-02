@@ -191,13 +191,23 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
 
   if (is.null(distribution)) return()
 
+  # nothing was estimated: list the specified values of all parameters, without notes about estimation
+  if (is.null(variable)) {
+    table$setData(list(
+      name     = DistributionS7::parameter_properties(distribution, property = "name",  which = "all") |> unlist(),
+      label    = DistributionS7::parameter_properties(distribution, property = "label", which = "all") |> unlist() |> mathExpression(),
+      estimate = DistributionS7::parameter_values(distribution, which = "all") |> unlist()
+    ))
+    return()
+  }
+
   if (DistributionS7::nfree(distribution) > 0L) {
     # maximum likelihood is the norm, so only a deviation from it is noted
     estimator <- container[["estimator"]]$object
     if (S7::S7_inherits(estimator, DistributionS7::BiasCorrected))
       table$addFootnote(message = gettext("Parameters estimated using the bias-corrected estimator."))
 
-    if (options[["parameterTableUncertainty"]] && !is.null(variable)) {
+    if (options[["parameterTableUncertainty"]]) {
       table$addColumnInfo(name = "se", title = gettext("SE"), type = "number")
       overtitle <- gettextf("%s%% CI", 100*options[["parameterTableCiLevel"]])
       table$addColumnInfo(name = "lower", title = gettext("Lower"), type = "number", overtitle = overtitle)

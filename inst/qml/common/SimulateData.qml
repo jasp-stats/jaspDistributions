@@ -68,7 +68,6 @@ Section
 			}
 		}
 
-		// counts the redraws: changing it draws a new sample, also when the seed is set (it is added to the seed)
 		IntegerField { id: simulatedDataRedraw; name: "simulatedDataRedraw"; defaultValue: 0; visible: false }
 	}
 

@@ -21,7 +21,7 @@ Description
 
 	Analysis
 	{
-		title:	qsTr("Distribution")
+		title:			qsTr("Single Distribution")
 		qml:			"ContinuousDistribution.qml"
 		func:			"ContinuousDistribution"
 		preloadData:	true
