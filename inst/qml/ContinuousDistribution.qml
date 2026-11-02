@@ -43,7 +43,7 @@ Form
 
 	Common.ShowDistribution { }
 
-	Common.SimulateData { hasData: estimateParameters.hasFitVariable || !assessFit.inSample }
+	Common.SimulateData { }
 
 	Common.EstimateParameters { id: estimateParameters }
 

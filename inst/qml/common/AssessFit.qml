@@ -26,7 +26,6 @@ Section
 	property bool hasFitVariable:	false
 	// Is the fit assessed on the same data that were used for estimating the parameters?
 	property bool inSample:			assessVariable.currentValue === ""
-	property bool estimated:		hasFitVariable
 	property bool hasData:			hasFitVariable || !inSample
 
 	title:		dataSetInfo.dataAvailable ? qsTr("Assess Fit") : qsTr("Assess Fit") + " - " + qsTr("[requires a loaded data set]")
@@ -132,14 +131,13 @@ Section
 				{
 					value:		"asymptotic"
 					label:		qsTr("Asymptotic")
-					checked:	!(inSample && estimated)
+					checked:	true
 					info:		qsTr("Valid when the parameters are fixed or were estimated on a different variable.")
 				}
 				RadioButton
 				{
 					value:				"bootstrap"
 					label:				qsTr("Parametric bootstrap")
-					checked:			inSample && estimated
 					childrenOnSameRow:	true
 					info:				qsTr("Valid also when the parameters were estimated from the same data. The distribution is re-estimated on each bootstrap sample.")
 					IntegerField { name: "goodnessOfFitBootstrapSamples"; label: qsTr("with"); afterLabel: qsTr("samples"); defaultValue: 1000; min: 100 }
