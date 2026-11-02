@@ -122,7 +122,7 @@ Section
 
 		Group
 		{
-			CheckBox { name: "pdfPlot";	label: qsTr("Probability density function");		info: qsTr("Displays the probability density function.")		}
+			CheckBox { name: "pdfPlot";	label: qsTr("Probability density function");		info: qsTr("Displays the probability density function."); checked: true		}
 			CheckBox { name: "cdfPlot";	label: qsTr("Cumulative distribution function");	info: qsTr("Displays the cumulative distribution function.")	}
 			CheckBox { name: "qfPlot";		label: qsTr("Quantile function");					info: qsTr("Displays the quantile function.")					}
 		}

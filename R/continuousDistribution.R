@@ -28,6 +28,7 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
   }
 
   distribution <- .ccdMakeDistribution(options)
+  .cdSimulatedData(jaspResults, options, distribution)
   distribution <- .cdFitDistribution(jaspResults, options, distribution, variables[["fitVariable"]])
 
   .cdParameterTable(jaspResults, options, distribution, variables[["fitVariable"]])
@@ -36,31 +37,6 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
   .cdFitAssessment(jaspResults, options, distribution, variables)
 
   return()
-  simulateRows <- .cdSimulateDataRows(options)
-  .cdCheckSimulatedColumns(options, simulateRows)
-
-  # Simulated data from the specified distribution: may be used for estimation
-  .cdSimulateColumn(
-    jaspResults, options,
-    simulateRows = simulateRows,
-    rowValue     = "specified",
-    stateName    = "simulateSpecifiedColumn",
-    sampler      = function(n) stats::rnorm(n), # TODO: draw from the specified distribution
-    dependencies = c("distribution", "parametrization", "parameters")
-  )
-
-  # Simulated data from the fitted distribution: may be used for assessing the fit only
-  if (options[["fitVariable"]] != "") {
-    fitData <- stats::na.omit(dataset[[options[["fitVariable"]]]])
-    .cdSimulateColumn(
-      jaspResults, options,
-      simulateRows = simulateRows,
-      rowValue     = "fitted",
-      stateName    = "simulateFittedColumn",
-      sampler      = function(n) stats::rnorm(n, mean(fitData), stats::sd(fitData)), # TODO: draw from the fitted distribution
-      dependencies = c(.cdFitDependencies, "parametrization")
-    )
-  }
 }
 
 .cdGetVariables <- function(options, dataset) {
@@ -91,7 +67,7 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
   table <- createJaspTable(
     title = gettext("Descriptives"), 
     position = 2,
-    dependencies = c("descriptivesTable", "fitVariable", "assessVariable")
+    dependencies = c("descriptivesTable", "fitVariable", "assessVariable", "simulatedDataRedraw")
   )
   table$showSpecifiedColumnsOnly <- TRUE
   table$addColumnInfo(name = "variable", title = gettext("Variable"),       type = "string")
@@ -151,8 +127,13 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
 }
 
 # the options on which the fitted distribution depends
-.cdFitDependencies <- c("distribution", "parameters", "fitVariable", "parameterEstimatorBiasCorrected", "parameterEstimatorMleSpace")
-
+# simulatedDataRedraw: the data may be the simulated column, which is redrawn by the redraw button
+.cdFitDependencies <- c("distribution", "parameters", "fitVariable", "parameterEstimatorBiasCorrected", "parameterEstimatorMleSpace",
+                        "simulatedDataRedraw")
+# the options on which the parameter uncertainty depends (in addition to the fitted distribution)
+.cdInferenceDependencies <- c("parameterInferenceMethod", "parameterInferenceNormalTheorySpace", "parameterInferenceBootstrapSamples",
+                              "parameterInferenceBootstrapType", "parameterInferenceBootstrapCiMethod", "setSeed", "seed")
+                        
 .cdEstimator <- function(options, distribution, data) {
   # analytic estimates are always preferred, numerical optimization is used only if there are none
   mle <- DistributionS7::Mle(
@@ -169,9 +150,6 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
   if (available) biasCorrected else mle
 }
 
-# the options on which the parameter uncertainty depends (in addition to the fitted distribution)
-.cdInferenceDependencies <- c("parameterInferenceMethod", "parameterInferenceNormalTheorySpace", "parameterInferenceBootstrapSamples",
-                              "parameterInferenceBootstrapType", "parameterInferenceBootstrapCiMethod", "setSeed", "seed")
 
 .cdInferenceMethod <- function(options, estimator) {
   ciLevel <- options[["parameterTableCiLevel"]]
@@ -237,7 +215,6 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
       results      <- try(withCallingHandlers(
         DistributionS7::parameter_inference(distribution, method, variable),
         warning = function(w) {
-          # the bias-corrected estimates are close to the maximum likelihood ones, so this is a note rather than a warning
           if (startsWith(conditionMessage(w), "Normal theory")) normalTheory <<- TRUE
           else warnings <<- c(warnings, conditionMessage(w))
           invokeRestart("muffleWarning")
@@ -678,53 +655,29 @@ ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options)
   }
 }
 
-# the rows of the "simulateData" ComponentsList, named by their value ("specified", "fitted")
-.cdSimulateDataRows <- function(options) {
-  rows <- options[["simulateData"]]
-  names(rows) <- vapply(rows, `[[`, character(1), "value")
-  return(rows)
-}
-
-.cdSimulatedColumnName <- function(row) {
-  if (is.null(row) || !row[["simulate"]]) "" else row[["column"]]
-}
-
-.cdCheckSimulatedColumns <- function(options, simulateRows) {
-  specifiedColumn <- .cdSimulatedColumnName(simulateRows[["specified"]])
-  fittedColumn    <- .cdSimulatedColumnName(simulateRows[["fitted"]])
-
-  if (specifiedColumn != "" && specifiedColumn == fittedColumn)
-    .quitAnalysis(gettext("The data simulated from the specified and from the fitted distribution must be saved in different columns."))
-
-  # the column simulated from the fitted distribution depends on the fit, so using it for fitting would create a cycle
-  if (fittedColumn != "" && options[["fitVariable"]] != "" && decodeColNames(options[["fitVariable"]]) == fittedColumn)
-    .quitAnalysis(gettext("The data simulated from the fitted distribution cannot be used to estimate the parameters."))
-}
-
-.cdSimulateColumn <- function(jaspResults, options, simulateRows, rowValue, stateName, sampler, dependencies) {
-  row        <- simulateRows[[rowValue]]
-  columnName <- .cdSimulatedColumnName(row)
-  if (columnName == "")
+.cdSimulatedData <- function(jaspResults, options, distribution) {
+  columnName <- options[["simulatedDataColumn"]]
+  if (!options[["simulatedData"]] || columnName == "")
     return()
 
-  # the column stays in the state until its dependencies change, so that a rerun
-  # triggered by writing the column (or by using it in the analysis) does not redraw it
-  if (!is.null(jaspResults[[stateName]]))
+  # as in the other distribution analyses, the column is redrawn only by the redraw button (or by renaming it),
+  # so that a rerun triggered by writing the column (or by using it in the analysis) does not redraw it
+  if (!is.null(jaspResults[["simulatedData"]]))
     return()
 
   .setSeedJASP(options)
-  sample <- sampler(row[["sampleSize"]])
+  sample <- DistributionS7::rng(distribution, options[["simulatedDataSampleSize"]])
 
-  # depend only on this row of the list, so that changing the other row does not redraw this column
-  # (nestedOptions compares the raw option, unlike optionContainsValue, which compares the R-converted row and never matches)
-  column <- createJaspColumn(columnName = columnName)
-  column$dependOn(c(dependencies, "setSeed", "seed"), nestedOptions = c("simulateData", as.character(match(rowValue, names(simulateRows)))))
-  jaspResults[[stateName]] <- column
+  column <- createJaspColumn(
+    columnName   = columnName,
+    dependencies = c("simulatedDataColumn", "simulatedDataRedraw")
+  )
+  jaspResults[["simulatedData"]] <- column
 
   if (!column$setScale(sample))
-    jaspResults[[paste0(stateName, "Error")]] <- createJaspHtml(
+    jaspResults[["simulatedDataError"]] <- createJaspHtml(
       text         = gettextf("Could not write to column '%s', probably because it wasn't created by this analysis", columnName),
       elementType  = "errorMsg",
-      dependencies = "simulateData"
+      dependencies = c("simulatedData", "simulatedDataColumn")
     )
 }

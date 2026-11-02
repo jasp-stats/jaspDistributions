@@ -33,57 +33,24 @@ Form
 		Common.DistributionSpecification { }
 	}
 
-	DropDown
-	{
-		id:						fitVariable
-		name:					"fitVariable"
-		label:					qsTr("Estimate parameters from")
-		addEmptyValue:			true
-		placeholderText:		qsTr("<Do not estimate>")
-		showVariableTypeIcon:	true
-		allowedColumns:			["scale"]
-		// the column simulated from the fitted distribution depends on the fit, so it cannot be used for fitting
-		source:					[{ isDataSetVariables: true, discard: { values: [simulateData.fittedColumn] } }]
-		info:					qsTr("Variable used to estimate the free (not fixed) parameters of the distribution. Leave empty to use the specified parameter values as they are.")
-	}
-
 	CheckBox
 	{
 		name:		"parameterTable"
 		label:		qsTr("Parameter table")
 		checked:	true
 		info:		qsTr("Displays a table with the parameter values.")
-
-		CheckBox
-		{
-			name:		"parameterTableUncertainty"
-			label:		qsTr("Quantify uncertainty")
-			enabled:	fitVariable.currentValue !== ""
-			info:		qsTr("Displays the uncertainty about the estimated parameters (e.g., standard errors and confidence intervals).")
-			CIField { name: "parameterTableCiLevel"; label: qsTr("Confidence level") }
-		}
-	}
-
-	CheckBox
-	{
-		name:		"descriptivesTable"
-		label:		qsTr("Descriptives")
-		enabled:	fitVariable.currentValue !== "" || !assessFit.inSample
-		info:		qsTr("Displays a descriptive table of the variable used for estimation and, if different, of the variable used for assessing the fit.")
 	}
 
 	Common.ShowDistribution { }
 
-	Common.SimulateData
-	{
-		id:				simulateData
-		hasFitVariable:	fitVariable.currentValue !== ""
-	}
+	Common.SimulateData { hasData: estimateParameters.hasFitVariable || !assessFit.inSample }
+
+	Common.EstimateParameters { id: estimateParameters }
 
 	Common.AssessFit
 	{
 		id:				assessFit
-		hasFitVariable: fitVariable.currentValue !== ""
+		hasFitVariable: estimateParameters.hasFitVariable
 	}
 
 

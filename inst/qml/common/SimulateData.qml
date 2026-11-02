@@ -22,77 +22,60 @@ import JASP.Controls
 
 Section
 {
-	id: simulateData
-
-	// Were (some of) the parameters estimated from data?
-	property bool	hasFitVariable:	false
-	// Name of the column simulated from the fitted distribution (empty if not simulated), so that it can be excluded from fitting
-	property string	fittedColumn:	""
-
-	title:		dataSetInfo.dataAvailable ? qsTr("Simulate Data") : qsTr("Simulate Data") + " - " + qsTr("[requires a loaded data set]")
+	title:		dataSetInfo.dataAvailable ? qsTr("Simulate and Display Data") : qsTr("Simulate and Display Data") + " - " + qsTr("[requires a loaded data set]")
 	enabled:	dataSetInfo.dataAvailable
-	info:		qsTr("Draw random samples and save them as new columns in the data set.")
+	info:		qsTr("Draw a random sample from the specified distribution and save it as a new column in the data set, and describe the data used for estimation and for assessing the fit.")
 
-	ComponentsList
+	CheckBox
 	{
-		name:				"simulateData"
-		addItemManually:	false
-		addBorder:			false
-		headerLabels:		["", qsTr("Sample size"), qsTr("Column name")]
-		values:
-		[
-			// Drawn from the specified parameter values, so this column can be used for estimation (e.g., parameter recovery).
-			{ label: qsTr("Specified distribution"),	value: "specified"	},
-			// Drawn from the fitted distribution, so this column can be used for assessing the fit, but not for estimation.
-			{ label: qsTr("Fitted distribution"),		value: "fitted"		}
-		]
+		name:	"simulatedData"
+		label:	qsTr("Simulate data from the specified distribution")
+		info:	qsTr("Draws a random sample from the specified distribution (using the specified parameter values). The column can be used to estimate the parameters, e.g., to see how well they are recovered.")
 
-		rowComponent: RowLayout
+		IntegerField
 		{
-			property bool isFitted:		rowValue === "fitted"
-			property bool rowEnabled:	simulate.checked && simulate.enabled
+			name:			"simulatedDataSampleSize"
+			label:			qsTr("Sample size")
+			defaultValue:	Math.max(1, dataSetInfo.rowCount)
+			max:			Math.max(1, dataSetInfo.rowCount)
+			min:			1
+			info:			qsTr("Number of values to draw. Remaining rows of the column are left empty; cannot exceed the number of rows in the data set.")
+		}
 
-			CheckBox
-			{
-				id:							simulate
-				name:						"simulate"
-				label:						rowLabel
-				enabled:					!isFitted || simulateData.hasFitVariable
-				Layout.preferredWidth:		160 * jaspTheme.uiScale
-				info:						isFitted
-											? qsTr("Draws a random sample from the distribution with the estimated parameter values. The column can be used to assess the fit, e.g., to see what the fit looks like when the distribution is correct. It cannot be used to estimate the parameters.")
-											: qsTr("Draws a random sample from the specified distribution (using the specified parameter values). The column can be used to estimate the parameters, e.g., to see how well they are recovered.")
-			}
+		// not a ComputedColumnField: a change of a computed column refreshes the analysis that uses it,
+		// which wipes the state and draws a new sample, which changes the column again, and so on
+		AddColumnField
+		{
+			id:					simulatedDataColumn
+			name:				"simulatedDataColumn"
+			label:				qsTr("Column name")
+			placeholderText:	qsTr("e.g., random data")
+			fieldWidth:			120 * jaspTheme.uiScale
+			info:				qsTr("Name of the column in which the simulated data are saved.")
+		}
 
-			IntegerField
+		Button
+		{
+			id:			redrawButton
+			label:		qsTr("Redraw")
+			enabled:	simulatedDataColumn.value !== ""
+			info:		qsTr("Draws a new sample into the column.")
+			onClicked:
 			{
-				name:			"sampleSize"
-				defaultValue:	Math.max(1, dataSetInfo.rowCount)
-				max:			Math.max(1, dataSetInfo.rowCount)
-				min:			1
-				enabled:		rowEnabled
-				info:			qsTr("Number of values to draw. Remaining rows of the column are left empty; cannot exceed the number of rows in the data set.")
-                fieldWidth:		100
-			}
-
-			ComputedColumnField
-			{
-				id:					column
-				name:				"column"
-				placeholderText:	isFitted ? qsTr("e.g., predicted data") : qsTr("e.g., random data")
-				fieldWidth:			160
-				enabled:			rowEnabled
-				info:				qsTr("Name of the column in which the simulated data are saved.")
-			}
-
-			// expose the fitted column, so that the variable for estimation can exclude it
-			Binding
-			{
-				when:		isFitted
-				target:		simulateData
-				property:	"fittedColumn"
-				value:		column.value
+				redrawButton.forceActiveFocus()
+				simulatedDataRedraw.displayValue = String(Number(simulatedDataRedraw.value) + 1)
+				simulatedDataRedraw.doEditingFinished()
 			}
 		}
+
+		// counts the redraws: changing it draws a new sample, also when the seed is set (it is added to the seed)
+		IntegerField { id: simulatedDataRedraw; name: "simulatedDataRedraw"; defaultValue: 0; visible: false }
+	}
+
+	CheckBox
+	{
+		name:		"descriptivesTable"
+		label:		qsTr("Descriptives")
+		info:		qsTr("Displays a descriptive table of the variable used for estimation and, if different, of the variable used for assessing the fit.")
 	}
 }
