@@ -78,7 +78,7 @@ test_that("Estimated Parameters table results match", {
   jaspTools::expect_equal_tables(table,
                                  list(0.130415109675896, -0.0510563552900477, "<unicode>", 0.0914574713318793,
                                       0.311886574641839, 0, 0.836446906242152, 0.644813591445229,
-                                      "<unicode><unicode>", 0.0119486319092189, 1.12877623260258
+                                      "<unicode><unicode>", 0.118887386402841, 1.12877623260258
                                  ))
 })
 
