@@ -87,12 +87,7 @@ LDnegbinomialZeroInflated <- function(
           summary = TRUE,
           variable = list(types = list(), value = "")) {
 
-   defaultArgCalls <- formals(jaspDistributions::LDnegbinomialZeroInflated)
-   defaultArgs <- lapply(defaultArgCalls, eval)
-   options <- as.list(match.call())[-1L]
-   options <- lapply(options, eval)
-   defaults <- setdiff(names(defaultArgs), names(options))
-   options[defaults] <- defaultArgs[defaults]
+   options <- mget(names(formals(sys.function())), envir = environment(), inherits = FALSE)
    options[["data"]] <- NULL
    options[["version"]] <- NULL
 
@@ -105,5 +100,7 @@ LDnegbinomialZeroInflated <- function(
    for (name in optionsWithFormula) {
       if ((name %in% optionsWithFormula) && inherits(options[[name]], "formula")) options[[name]] = jaspBase::jaspFormula(options[[name]], data)   }
 
+   # Options not given in the call get their default from the form, which can depend on the other options.
+   options <- options[names(options) %in% names(match.call())[-1L]]
    return(jaspBase::runWrappedAnalysis("jaspDistributions", "LDnegbinomialZeroInflated", "LDnegbinomialZeroInflated.qml", options, version, TRUE))
 }
