@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspDistributions 0.97.2\n"
 "POT-Creation-Date: 2026-10-10 03:06\n"
-"PO-Revision-Date: 2026-11-11 19:08+0000\n"
+"PO-Revision-Date: 2026-11-12 10:24+0000\n"
 "Last-Translator: Fahad Mahfouz Al-Subhi "
 "<fahadalsubhi@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/jasp/"
@@ -16,649 +16,727 @@ msgstr ""
 "X-Generator: Weblate 2026.11.2.dev0\n"
 
 msgid "Could not write to column '%s', probably because it wasn't created by this analysis"
-msgstr ""
+msgstr "تعذّرت الكتابة في العمود '%s'، ربما لأنه لم يُنشأ بواسطة هذا التحليل"
 
 msgid "The following problem(s) occurred while running the analysis:<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
 msgstr ""
+"حدثت المشكلة التالية أثناء التحليل:<ul><li>يجب أن يكون المتغير متقطعًا (أي ذا "
+"قيم صحيحة)</li></ul>"
 
 msgid "<ul><li>Variable has to be discrete (i.e., integer)</li></ul>"
-msgstr ""
+msgstr "<ul><li>يجب أن يكون المتغير متقطعًا (أي يحتوي أعدادًا صحيحة)</li></ul>"
 
 msgid "Overview - %s"
-msgstr ""
+msgstr "لمحة عامة - %s"
 
 msgid "Descriptives"
-msgstr ""
+msgstr "الإحصاءات الوصفية"
 
 msgid "Variable"
-msgstr ""
+msgstr "المتغير"
 
 msgid "n"
-msgstr ""
+msgstr "n"
 
 msgid "Mean"
 msgstr "المتوسط"
 
 msgid "Variance"
-msgstr ""
+msgstr "التباين"
 
 msgid "Std. deviation"
-msgstr ""
+msgstr "الانحراف المعياري"
 
 msgid "Minimum"
-msgstr ""
+msgstr "القيمة الصغرى"
 
 msgid "25%% Quantile"
-msgstr ""
+msgstr "القيمة الكمية عند 25%%"
 
 msgid "Median"
-msgstr ""
+msgstr "الوسيط"
 
 msgid "75%% Quantile"
-msgstr ""
+msgstr "القيمة الكمية عند 75%%"
 
 msgid "Maximum"
-msgstr ""
+msgstr "القيمة العظمى"
 
 msgid "Rel. Frequency"
-msgstr ""
+msgstr "التكرار النسبي"
 
 msgid "Total"
-msgstr ""
+msgstr "الإجمالي"
 
 msgid "Observed Moments"
-msgstr ""
+msgstr "العزوم المشاهدة"
 
 msgid "Moment"
-msgstr ""
+msgstr "العزم"
 
 msgid "Raw"
-msgstr ""
+msgstr "خام"
 
 msgid "Central"
-msgstr ""
+msgstr "مركزي"
 
 msgid "Estimated Parameters"
-msgstr ""
+msgstr "المعلمات المقدرة"
 
 msgid "Parameter"
 msgstr "المعلمة"
 
 msgid "Estimate"
-msgstr ""
+msgstr "التقدير"
 
 msgid "SE"
-msgstr ""
+msgstr "الخطأ المعياري (SE)"
 
 msgid "Standard errors are unavailable with this method"
-msgstr ""
+msgstr "الأخطاء المعيارية غير متاحة بهذه الطريقة"
 
 msgid "Lower"
-msgstr ""
+msgstr "الحد الأدنى"
 
 msgid "%s%% CI"
-msgstr ""
+msgstr "فترة الثقة %s%%"
 
 msgid "Upper"
-msgstr ""
+msgstr "الحد الأعلى"
 
 msgid "Confidence intervals are unavailable with this method."
-msgstr ""
+msgstr "فترات الثقة غير متاحة بهذه الطريقة."
 
 msgid "Confidence intervals were calculated using the delta method."
-msgstr ""
+msgstr "وقد حُسِبت فترات الثقة باستخدام طريقة الدلتا."
 
 msgid "Standard errors were calculated using the delta method."
-msgstr ""
+msgstr "تم حساب الأخطاء المعيارية باستخدام طريقة الدلتا."
 
 msgid "Standard errors and confidence intervals were calculated using the delta method."
-msgstr ""
+msgstr "وقد حُسبت الأخطاء المعيارية وفترات الثقة باستخدام طريقة الدلتا."
 
 msgid "Maximum likelihood"
-msgstr ""
+msgstr "الإمكان الأعظم"
 
 msgid "Fit Assessment"
-msgstr ""
+msgstr "تقييم الملاءمة"
 
 msgid "Fit Statistics"
-msgstr ""
+msgstr "إحصاءات الملاءمة"
 
 msgid "Test"
-msgstr ""
+msgstr "اختبار"
 
 msgid "Statistic"
-msgstr ""
+msgstr "الإحصاء"
 
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgid "Kolmogorov-Smirnov"
-msgstr ""
+msgstr "كولموغوروف–سميرنوف"
 
 msgid "Cramér-von Mises"
-msgstr ""
+msgstr "كرامر–فون ميزس"
 
 msgid "Anderson-Darling"
-msgstr ""
+msgstr "أندرسون–دارلينغ"
 
 msgid "Lilliefors"
-msgstr ""
+msgstr "ليليفورز"
 
 msgid "Shapiro-Wilk"
-msgstr ""
+msgstr "شابيرو–ويلك"
 
 msgid "Shapiro-Francia"
-msgstr ""
+msgstr "شابيرو–فرانسيا"
 
 msgid "Chi-square"
-msgstr ""
+msgstr "كاي تربيع"
 
 msgid "Using Brown (1980) approximation which tends to be innacurate for small sample sizes."
 msgstr ""
+"استخدام تقريب براون (1980)، الذي يميل إلى عدم الدقة عند صغر أحجام العينات."
 
 msgid "Test not computed: the variable has more than 5000 observations (n = %i)."
-msgstr ""
+msgstr "لم يحسب الاختبار: للمتغير أكثر من 5000 مشاهدة (n =%i)."
 
 msgid "Test not computed: the variable has too few observations (n = %i)."
-msgstr ""
+msgstr "لم يحسب الاختبار: للمتغير مشاهدات قليلة جداً (n =%i)."
 
 msgid "Histogram vs. Theoretical PDF"
-msgstr ""
+msgstr "المدرج التكراري مقابل دالة كثافة الاحتمال النظرية"
 
 msgid "Histogram vs. Theoretical PMF"
-msgstr ""
+msgstr "المدرج التكراري مقابل دالة كتلة الاحتمال النظرية"
 
 msgid "Q-Q plot"
-msgstr ""
+msgstr "مخطط Q–Q"
 
 msgid "Empirical vs. Theoretical CDF"
-msgstr ""
+msgstr "دالة التوزيع التراكمي التجريبية مقابل النظرية"
 
 msgid "P-P plot"
-msgstr ""
+msgstr "رسم P-P"
 
 msgid "Sample"
 msgstr "العينة"
 
 msgid "Theoretical"
-msgstr ""
+msgstr "نظري"
 
 msgid "Density"
 msgstr "الكثافة"
 
 msgid "Probability Mass"
-msgstr ""
+msgstr "الكتلة الاحتمالية"
 
 msgid "Probability"
 msgstr "الاحتمال"
 
 msgid "Probability Density Function"
-msgstr ""
+msgstr "دالة الكثافة الاحتمالية"
 
 msgid "Probability Mass Function"
-msgstr ""
+msgstr "دالة الكتلة الاحتمالية"
 
 msgid "Cumulative Distribution Function"
-msgstr ""
+msgstr "دالة التوزيع التراكمي"
 
 msgid "Quantile Function"
-msgstr ""
+msgstr "دالة القيم الكمية"
 
 msgid "Formula"
-msgstr ""
+msgstr "صيغة"
 
 msgid "Density Plot"
-msgstr ""
+msgstr "مخطط الكثافة"
 
 msgid "Cumulative Probability Plot"
-msgstr ""
+msgstr "رسم الاحتمال التراكمي"
 
 msgid "Slope"
-msgstr ""
+msgstr "الميل"
 
 msgid "Quantile Plot"
-msgstr ""
+msgstr "مخطط القيم الكمية"
 
 msgid "Probability Mass Plot"
-msgstr ""
+msgstr "رسم الكتلة الاحتمالية"
 
 msgid "Histogram"
-msgstr ""
+msgstr "المدرج التكراري"
 
 msgid "Bar plot"
-msgstr ""
+msgstr "مخطط الأعمدة"
 
 msgid "Rel. Freq (%s in bin)"
-msgstr ""
+msgstr "التكرار النسبي (%s في الفئة)"
 
 msgid "Empirical Cumulative Distribution"
-msgstr ""
+msgstr "التوزيع التراكمي التجريبي"
 
 msgid "Freq"
-msgstr ""
+msgstr "التكرار"
 
 msgid "Parameters, Support, and Moments"
-msgstr ""
+msgstr "المعلمات ومجال التوزيع والعزوم"
 
 msgid "<b>Parameters</b>\n      %1$s\n\n      <b>Support</b>\n      %2$s\n\n      <b>Moments</b>\n      E(X) = %3$s\n      Var(X) = %4$s"
 msgstr ""
+"<b>المعلمات</b>\n"
+"      %1$s\n"
+"\n"
+"      <b>نطاق القيم الممكنة</b>\n"
+"      %2$s\n"
+"\n"
+"      <b>العزوم</b>\n"
+"      E(X) = %3$s\n"
+"      Var(X) = %4$s"
 
 msgid "<b>Parameters</b>\n      %1$s\n\n      <b>Support</b>\n      %2$s\n\n      <b>Moments</b>\n      not available"
 msgstr ""
+"<b>المعلمات</b>\n"
+"      %1$s\n"
+"\n"
+"      <b>نطاق القيم الممكنة</b>\n"
+"      %2$s\n"
+"\n"
+"      <b>العزوم</b>\n"
+"      غير متاحة"
 
 msgid "The probability density function (PDF), usually denoted as f(x), is a function of a random variable X.\n    The value of f(x) provides the relative likelihood that a realization of the random variable X yields a value equal to x.\n    More formally, the PDF is defined as a derivative of a cumulative distribution function (CDF).\n\n    The density plot displays the probability density function of a random variable.\n    The <i>y</i>-axis displays the value of the density function for a particular value of the random variable (displayed on the <i>x</i>-axis)."
 msgstr ""
+"دالة الكثافة الاحتمالية (PDF)، التي يُرمز لها عادةً بـf(x)، تخص متغيرًا عشوائيًا "
+"X.\n"
+"تمثل f(x) الكثافة النسبية لوقوع قيم المتغير X قرب x.\n"
+"وتُعرَّف رياضيًا بأنها مشتقة دالة التوزيع التراكمي (CDF).\n"
+"\n"
+"يعرض مخطط الكثافة دالة الكثافة الاحتمالية للمتغير.\n"
+"يعرض المحور <i>y</i> قيمة دالة الكثافة عند قيمة معينة للمتغير، المعروضة على "
+"المحور <i>x</i>."
 
 msgid "The probability mass function (PMF), usually denoted as f(x), is a function of a random variable X.\n    The value of f(x) provides the probability that a realization of the random variable X yields a value equal to x.\n\n    The probability mass plot displays the probability mass function of a random variable.\n    The <i>y</i>-axis displays the value of the probability mass function for a particular value of the random variable (displayed on the <i>x</i>-axis)."
 msgstr ""
+"دالة الكتلة الاحتمالية (PMF)، التي يُرمز لها عادةً بـf(x)، تخص متغيرًا عشوائيًا "
+"X.\n"
+"تمثل f(x) احتمال أن يأخذ المتغير X القيمة x.\n"
+"\n"
+"يعرض مخطط الكتلة الاحتمالية دالة الكتلة الاحتمالية للمتغير.\n"
+"يعرض المحور <i>y</i> قيمة الدالة عند قيمة معينة للمتغير، المعروضة على المحور "
+"<i>x</i>."
 
 msgid "The cumulative distribution function (CDF), usually denoted as F(x), is a function of a random variable X.\n    The value of F(x) provides the probability that a realization of the random variable X yields a value that is equal to or smaller than x.\n\n    The cumulative probability plot displays the cumulative distribution function of a random variable.\n    The <i>y</i>-axis displays the value of the cumulative distribution function for a particular value of the random variable (displayed on the <i>x</i>-axis)."
 msgstr ""
+"دالة التوزيع التراكمي (CDF)، التي يُرمز لها عادةً بـF(x)، تخص متغيرًا عشوائيًا "
+"X.\n"
+"تمثل F(x) احتمال أن يأخذ المتغير X قيمةً أصغر من x أو مساوية لها.\n"
+"\n"
+"يعرض مخطط الاحتمال التراكمي دالة التوزيع التراكمي للمتغير العشوائي.\n"
+"يعرض المحور <i>y</i> قيمة الدالة عند قيمة معينة للمتغير، المعروضة على المحور "
+"<i>x</i>."
 
 msgid "The quantile function, usually denoted as Q(p), is the inverse of the cumulative distribution function.\n    The function gives the quantile such that the probability of the random variable being less than or equal to that value equals the given probability p.\n\n    The quantile plot displays the quantile function.\n    The <i>y</i>-axis displays the quantile of which the probability that the random variable is less or equal to that value is equal to p (displayed on the <i>x</i>-axis)."
 msgstr ""
+"دالة القيم الكمية، التي يُرمز لها عادةً بـQ(p)، هي المعكوس المعمَّم لدالة "
+"التوزيع التراكمي.\n"
+"تعطي أصغر قيمة يبلغ عندها احتمال كون المتغير أصغر منها أو مساويًا لها الاحتمال "
+"p أو يتجاوزه؛ وفي الحالة المستمرة المعتادة يساويه.\n"
+"\n"
+"يعرض مخطط القيم الكمية هذه الدالة.\n"
+"يعرض المحور <i>y</i> القيمة الكمية الموافقة للاحتمال p، المعروض على المحور <i>"
+"x</i>."
 
 msgid "<h3> Demonstration of the %1$s </h3>\nThis demonstration is divided into four parts.\nThe first part displays the %2$s, its probability density function, cumulative distribution function, and quantile function.\nThe second part allows you to generate data from the %3$s, compute descriptive statistics, and display descriptive plots.\nThe third part allows you to estimate the parameters of the %4$s.\nThe fourth part allows you to check the fit of the %5$s to the data.\n\n<b>References</b>\n\nBlitzstein, J. K., & Hwang, J. (2014). <i>Introduction to probability.</i> Chapman and Hall/CRC.\n\nLeemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, 16</i>(4), 8–9.\n\nFor relationships with other distributions, visit %6$s.\n\n%7$s"
 msgstr ""
+"<h3> عرض توضيحي لـ%1$s </h3>\n"
+"ينقسم هذا العرض إلى أربعة أجزاء.\n"
+"يعرض الأول %2$s ودالة كثافته الاحتمالية ودالة توزيعه التراكمي ودالة قيمه "
+"الكمية.\n"
+"يتيح الثاني توليد بيانات من %3$s وحساب إحصاءاتها الوصفية وعرض رسومها "
+"الوصفية.\n"
+"يتيح الثالث تقدير معلمات %4$s.\n"
+"ويتيح الرابع فحص مطابقة %5$s للبيانات.\n"
+"\n"
+"<b>المراجع</b>\n"
+"\n"
+"Blitzstein, J. K., & Hwang, J. (2014). <i>Introduction to probability.</i> "
+"Chapman and Hall/CRC.\n"
+"\n"
+"Leemis, L. M., & Pasupathy, R. (2019). The ties that bind. <i>Significance, "
+"16</i>(4), 8–9.\n"
+"\n"
+"للعلاقات مع التوزيعات الأخرى، زُر %6$s.\n"
+"\n"
+"%7$s"
 
 msgid "Estimation failed: Optimization did not converge. <ul><li>Try adjusting parameter values, check outliers or feasibility of the distribution fitting the data.</li></ul>"
 msgstr ""
+"فشل التقدير: لم تتقارب خوارزمية التحسين. <ul><li>جرّب ضبط قيم المعلمات، وتحقق "
+"من القيم المتطرفة أو إمكانية ملاءمة التوزيع للبيانات.</li></ul>"
 
 msgid "Estimation failed: Hessian matrix is not numerically computable. <ul><li>Check outliers or feasibility of the distribution fitting the data.</li></ul>"
 msgstr ""
+"فشل التقدير: لا يمكن حساب مصفوفة هسيان عدديًا. <ul><li>تحقق من القيم المتطرفة "
+"أو إمكانية ملاءمة التوزيع للبيانات.</li></ul>"
 
 msgid "Could not initialize distribution %1$s, with the following error: <br> %2$s"
-msgstr ""
+msgstr "تعذّرت تهيئة التوزيع %1$s، بالخطأ التالي: <br> %2$s"
 
 msgid "Could not fit distribution %1$s, with the following error: <br> %2$s. <br> You can try to change the initial parameter values, or remove the distribution from the distribution specification"
 msgstr ""
+"تعذرت ملاءمة التوزيع %1$s مع الخطأ التالي: <br> %2$s. <br> جرّب تغيير قيم "
+"المعلمات الأولية أو إزالة التوزيع من قائمة توصيف التوزيعات"
 
 msgid "Could not compute information criteria for %1$s, with the following error: <br> %2$s."
-msgstr ""
+msgstr "تعذّر حساب معايير المعلومات لـ%1$s، بالخطأ التالي: <br> %2$s."
 
 msgid "Distribution comparison table"
-msgstr ""
+msgstr "جدول مقارنة التوزيعات"
 
 msgid "Distribution"
-msgstr ""
+msgstr "التوزيع"
 
 msgid "AIC"
-msgstr ""
+msgstr "AIC"
 
 msgid "Weights"
-msgstr ""
+msgstr "الأوزان"
 
 msgid "BIC"
-msgstr ""
+msgstr "BIC"
 
 msgid "Log. Lik"
-msgstr ""
+msgstr "لوغاريتم الإمكان"
 
 msgid "df"
-msgstr ""
+msgstr "درجات الحرية"
 
 msgid "Distribution comparison table (n=%1$i)"
-msgstr ""
+msgstr "جدول مقارنة التوزيعات (n=%1$i)"
 
 msgid "Parameter estimates"
-msgstr ""
+msgstr "تقديرات المعلمات"
 
 msgid "Key"
-msgstr ""
+msgstr "المفتاح"
 
 msgid "Name"
-msgstr ""
+msgstr "الاسم"
 
 msgid "Label"
-msgstr ""
+msgstr "التسمية"
 
 msgid "Distribution has no parameters to estimate."
-msgstr ""
+msgstr "لا يحتوي التوزيع على معلمات لتقديرها."
 
 msgid "The following parameters were held constant: %s."
-msgstr ""
+msgstr "ثُبِّتت المعلمات التالية: %s."
 
 msgid "Goodness of fit"
-msgstr ""
+msgstr "حسن المطابقة"
 
 msgid "Bootstrapping..."
-msgstr ""
+msgstr "التمهيد الإحصائي..."
 
 msgid "Could not obtain goodness of fit: <br> %s"
-msgstr ""
+msgstr "تعذّر الحصول على حسن المطابقة: <br> %s"
 
 msgid "Based on %1$i valid parametric bootstrap samples."
-msgstr ""
+msgstr "استنادًا إلى عينات بوتستراب المعلمي الصالحة؛ العدد: %1$i."
 
 msgid "Empirical plots"
-msgstr ""
+msgstr "رسوم تجريبية"
 
 msgid "Histogram vs. theoretical density"
-msgstr ""
+msgstr "المدرج التكراري مقابل الكثافة النظرية"
 
 msgid "Empirical vs. theoretical cumulative probability"
-msgstr ""
+msgstr "الاحتمال التراكمي التجريبي مقابل النظري"
 
 msgid "Cramér–von Mises"
-msgstr ""
+msgstr "كرامر–فون ميزس"
 
 msgid "Amoroso distribution"
-msgstr ""
+msgstr "توزيع أموروزو"
 
 msgid "location: a %s"
-msgstr ""
+msgstr "الموقع: a %s"
 
 msgid "scale: %s"
-msgstr ""
+msgstr "المقياس: %s"
 
 msgid "shape: %s"
-msgstr ""
+msgstr "الشكل: %s"
 
 msgid "The optimization did not converge, try adjusting the parameter values."
-msgstr ""
+msgstr "لم تتقارب خوارزمية التحسين؛ جرّب ضبط قيم المعلمات."
 
 msgid "<i>Warning.</i>"
-msgstr ""
+msgstr "<i>تحذير.</i>"
 
 msgid "Scale parameter %s is assumed positive."
-msgstr ""
+msgstr "يُفترض أن معلمة المقياس %s موجبة."
 
 msgid "Scale parameter %s is assumed negative."
-msgstr ""
+msgstr "يُفترض أن معلمة المقياس %s سالبة."
 
 msgid "Bernoulli distribution"
-msgstr ""
+msgstr "توزيع برنولي"
 
 msgid "probability of success: p %1$s %2$s: 0 %3$s p %4$s 1"
-msgstr ""
+msgstr "احتمال النجاح: p %1$s %2$s: 0 %3$s p %4$s 1"
 
 msgid "x %s {0, 1}"
-msgstr ""
+msgstr "x %s {0, 1}"
 
 msgid "p(1-p)"
-msgstr ""
+msgstr "p(1-p)"
 
 msgid "beta distribution"
-msgstr ""
+msgstr "توزيع بيتا"
 
 msgid "beta-binomial distribution"
-msgstr ""
+msgstr "توزيع بيتا–ذي الحدين"
 
 msgid "number of trials: %s"
-msgstr ""
+msgstr "عدد المحاولات: %s"
 
 msgid "Parameter n was fixed at value %s."
-msgstr ""
+msgstr "ثُبِّتت المعلمة n عند القيمة %s."
 
 msgid "beta prime distribution"
-msgstr ""
+msgstr "توزيع بيتا برايم"
 
 msgid "lower bound: %s"
-msgstr ""
+msgstr "الحد الأدنى: %s"
 
 msgid "upper bound: %s"
-msgstr ""
+msgstr "الحد العلوي: %s"
 
 msgid "binomial distribution"
-msgstr ""
+msgstr "توزيع ذي الحدين"
 
 msgid "probability of success: %s"
-msgstr ""
+msgstr "احتمال النجاح: %s"
 
 msgid "Cauchy distribution"
-msgstr ""
+msgstr "توزيع كوشي"
 
 msgid "location: &mu; %s"
-msgstr ""
+msgstr "الموقع: &mu; %s"
 
 msgid "undefined"
-msgstr ""
+msgstr "غير معرّف"
 
 msgid "%s<sup>2</sup> distribution"
-msgstr ""
+msgstr "توزيع %s<sup>2</sup>"
 
 msgid "degree of freedom: %s"
-msgstr ""
+msgstr "درجة الحرية: %s"
 
 msgid "non-centrality: %s"
-msgstr ""
+msgstr "اللامركزية: %s"
 
 msgid "exponential distribution"
-msgstr ""
+msgstr "التوزيع الأسي"
 
 msgid "rate: %s"
-msgstr ""
+msgstr "المعدل: %s"
 
 msgid "F-distribution"
-msgstr ""
+msgstr "توزيع F"
 
 msgid "Fréchet distribution"
-msgstr ""
+msgstr "توزيع فريشيه"
 
 msgid "location: %s"
-msgstr ""
+msgstr "الموقع: %s"
 
 msgid "see Wikipedia: %s"
-msgstr ""
+msgstr "انظر ويكيبيديا: %s"
 
 msgid "gamma distribution"
-msgstr ""
+msgstr "توزيع غاما"
 
 msgid "mean: %s"
-msgstr ""
+msgstr "المتوسط: %s"
 
 msgid "inverse gamma distribution"
-msgstr ""
+msgstr "توزيع غاما المعكوس"
 
 msgid "normal distribution"
-msgstr ""
+msgstr "التوزيع الطبيعي"
 
 msgid "mean: &mu; %s"
-msgstr ""
+msgstr "المتوسط: &mu; %s"
 
 msgid "variance: %s"
-msgstr ""
+msgstr "التباين: %s"
 
 msgid "standard deviation: %s"
-msgstr ""
+msgstr "الانحراف المعياري: %s"
 
 msgid "precision: %s"
-msgstr ""
+msgstr "الدقة: %s"
 
 msgid "square root of precision: %s"
-msgstr ""
+msgstr "الجذر التربيعي للدقة: %s"
 
 msgid "&mu;"
-msgstr ""
+msgstr "&mu;"
 
 msgid "Unbiased with Bessel's correction."
-msgstr ""
+msgstr "غير متحيّز مع تصحيح بيسل."
 
 msgid "geometric distribution"
-msgstr ""
+msgstr "التوزيع الهندسي"
 
 msgid "population size: %s"
-msgstr ""
+msgstr "حجم المجتمع: %s"
 
 msgid "number of success states in the population: %s"
-msgstr ""
+msgstr "عدد حالات النجاح في المجتمع: %s"
 
 msgid "number of draws from the population: %s"
-msgstr ""
+msgstr "عدد السحبات من المجتمع: %s"
 
 msgid "Gompertz distribution"
-msgstr ""
+msgstr "توزيع غومبرتز"
 
 msgid "shape: %1$s \nscale: %2$s"
 msgstr ""
+"الشكل: %1$s \n"
+"المقياس: %2$s"
 
 msgid "Gumbel distribution"
-msgstr ""
+msgstr "توزيع غومبل"
 
 msgid "hypergeometric distribution"
-msgstr ""
+msgstr "التوزيع فوق الهندسي"
 
 msgid "Laplace distribution"
-msgstr ""
+msgstr "توزيع لابلاس"
 
 msgid "log-logistic distribution"
-msgstr ""
+msgstr "التوزيع اللوجستي اللوغاريتمي"
 
 msgid "log location: &mu; %s"
-msgstr ""
+msgstr "معلمة موقع القيم اللوغاريتمية: &mu; %s"
 
 msgid "log scale: %s"
-msgstr ""
+msgstr "معلمة مقياس القيم اللوغاريتمية: %s"
 
 msgid "scale: &alpha; %s"
-msgstr ""
+msgstr "المقياس: &alpha; %s"
 
 msgid "logistic distribution"
-msgstr ""
+msgstr "التوزيع اللوجستي"
 
 msgid "(&sigma; &pi;)<sup>2</sup> / 3"
-msgstr ""
+msgstr "(&sigma; &pi;)<sup>2</sup> / 3"
 
 msgid "log-normal distribution"
-msgstr ""
+msgstr "التوزيع الطبيعي اللوغاريتمي"
 
 msgid "log mean: &mu; %s"
-msgstr ""
+msgstr "متوسط القيم اللوغاريتمية: &mu; %s"
 
 msgid "log standard deviation: %s"
-msgstr ""
+msgstr "الانحراف المعياري للقيم اللوغاريتمية: %s"
 
 msgid "exp(&mu; + &sigma;<sup>2</sup>/2)"
-msgstr ""
+msgstr "exp(&mu; + &sigma;<sup>2</sup>/2)"
 
 msgid "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
-msgstr ""
+msgstr "[exp(&sigma;<sup>2</sup>) - 1] exp(2&mu; + &sigma;<sup>2</sup>)"
 
 msgid "mixture of two normal distributions"
-msgstr ""
+msgstr "خليط من توزيعين طبيعيين"
 
 msgid "probability of first component: %s"
-msgstr ""
+msgstr "احتمال المكوّن الأول: %s"
 
 msgid "mean 1: %s"
-msgstr ""
+msgstr "المتوسط 1: %s"
 
 msgid "std. deviation 1: %s"
-msgstr ""
+msgstr "الانحراف المعياري 1: %s"
 
 msgid "mean 2: %s"
-msgstr ""
+msgstr "المتوسط 2: %s"
 
 msgid "std. deviation 2: %s"
-msgstr ""
+msgstr "الانحراف المعياري 2: %s"
 
 msgid "mixture of a normal and a uniform distribution"
-msgstr ""
+msgstr "مزيج من توزيع طبيعي وتوزيع منتظم"
 
 msgid "probability of normal component: %s"
-msgstr ""
+msgstr "احتمال المكوّن الطبيعي: %s"
 
 msgid "mean of normal distribution: %s"
-msgstr ""
+msgstr "متوسط التوزيع الطبيعي: %s"
 
 msgid "std. deviation of normal distribution: %s"
-msgstr ""
+msgstr "الانحراف المعياري للتوزيع الطبيعي: %s"
 
 msgid "minimum of uniform distribution: %s"
-msgstr ""
+msgstr "الحد الأدنى للتوزيع المنتظم: %s"
 
 msgid "maximum of uniform distribution: %s"
-msgstr ""
+msgstr "الحد الأقصى للتوزيع المنتظم: %s"
 
 msgid "Parameter a was fixed at value %1$s, parameter b was fixed at value %2$s."
-msgstr ""
+msgstr "ثُبّتت المعلمة a عند القيمة %1$s، وثُبّتت المعلمة b عند القيمة %2$s."
 
 msgid "negative binomial distribution"
-msgstr ""
+msgstr "التوزيع ذو الحدين السالب"
 
 msgid "number of successes: %s"
-msgstr ""
+msgstr "عدد النجاحات: %s"
 
 msgid "dispersion: %s"
-msgstr ""
+msgstr "التشتت: %s"
 
 msgid "zero-inflated negative binomial distribution"
-msgstr ""
+msgstr "التوزيع ذو الحدين السالب المتضخّم بالأصفار"
 
 msgid "probability of zero process: %s"
-msgstr ""
+msgstr "احتمال العملية الصفرية: %s"
 
 msgid "generalized normal distribution"
-msgstr ""
+msgstr "التوزيع الطبيعي المعمم"
 
 msgid "skew normal distribution"
-msgstr ""
+msgstr "التوزيع الطبيعي الملتوي"
 
 msgid "Pareto distribution"
-msgstr ""
+msgstr "توزيع باريتو"
 
 msgid "Poisson distribution"
-msgstr ""
+msgstr "توزيع بواسون"
 
 msgid "zero-inflated Poisson distribution"
-msgstr ""
+msgstr "توزيع بواسون المتضخّم بالأصفار"
 
 msgid "noncentral t-distribution"
-msgstr ""
+msgstr "توزيع t غير المركزي"
 
 msgid "degrees of freedom: %s"
-msgstr ""
+msgstr "درجات الحرية: %s"
 
 msgid "does not exist unless df > 1"
-msgstr ""
+msgstr "لا يوجد إلا إذا كان df > 1"
 
 msgid "does not exist unless df > 2"
-msgstr ""
+msgstr "لا يوجد إلا إذا كان df > 2"
 
 msgid "see Azzalini & Capitanio (2003)"
-msgstr ""
+msgstr "انظر أزاليني وكابيتينيو (2003)"
 
 msgid "skewed generalized t-distribution"
-msgstr ""
+msgstr "توزيع t المعمم الملتوي"
 
 msgid "skewness: %s"
-msgstr ""
+msgstr "الالتواء: %s"
 
 msgid "kurtosis: %s"
-msgstr ""
+msgstr "التفرطح: %s"
 
 msgid "scaled, shifted Student's t-distribution"
-msgstr ""
+msgstr "توزيع t لستيودنت مُحجَّم ومُزاح"
 
 msgid "triangular distribution"
-msgstr ""
+msgstr "التوزيع المثلثي"
 
 msgid "minimum: %s"
-msgstr ""
+msgstr "الحد الأدنى: %s"
 
 msgid "maximum: %s"
-msgstr ""
+msgstr "الحد الأقصى: %s"
 
 msgid "mode: %s"
-msgstr ""
+msgstr "المنوال: %s"
 
 msgid "uniform distribution"
-msgstr ""
+msgstr "التوزيع المنتظم"
 
 msgid "Wald distribution"
-msgstr ""
+msgstr "توزيع والد"
 
 msgid "drift rate: %s"
-msgstr ""
+msgstr "معدل الانجراف: %s"
 
 msgid "threshold: %s"
-msgstr ""
+msgstr "العتبة: %s"
 
 msgid "noise: %s"
-msgstr ""
+msgstr "الضوضاء: %s"
 
 msgid "Parameter %s was fixed to 1."
-msgstr ""
+msgstr "ثُبِّتت المعلمة %s عند 1."
 
 msgid "Weibull distribution"
-msgstr ""
+msgstr "توزيع ويبل"
