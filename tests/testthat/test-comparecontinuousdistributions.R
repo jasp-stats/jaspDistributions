@@ -4,6 +4,7 @@ options <- jaspTools::analysisOptions("compareContinuousDistributions")
 options$variable <- "contGamma"
 options$distributions <- list(
   list(
+    value           = "#",
     distribution    = "Normal",
     parametrization = "sigma",
     parameters      = list(
@@ -12,6 +13,7 @@ options$distributions <- list(
     )
   ),
   list(
+    value           = "#2",
     distribution     = "Gamma",
     parametrization  = "theta",
     parameters = list(
@@ -20,9 +22,10 @@ options$distributions <- list(
     )
   ),
   list(
-    distribution = "StandardNormal", parametrization = ""
+    value = "#3", distribution = "StandardNormal", parametrization = ""
   ),
   list(
+    value           = "#4",
     distribution     = "Exponential",
     parametrization = "lambda",
     parameters = list(
