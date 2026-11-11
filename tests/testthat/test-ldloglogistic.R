@@ -27,7 +27,6 @@ options$qqPlotCi <- FALSE
 options$qqPlotCiLevel <- 0.95
 options$ppPlotCi <- FALSE
 options$ppPlotCiLevel <- 0.95
-options$sampleSize <- 1000
 options$variable <- "loglogistic"
 set.seed(1)
 results <- jaspTools::runAnalysis("LDlogLogistic",
@@ -67,8 +66,8 @@ test_that("Fit Statistics table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_mleFitAssessment"]][["collection"]][["mleContainer_mleFitAssessment_fitStatisticsTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
                                  list(0.944590834507008, 0.0526306225652022, "Kolmogorov-Smirnov", 0,
-                                      0, 0, 0.295374163882449, 0.514790576613683, "Cram<unicode>r-von Mises",
-                                      0, 0, 0, 0.720135115059263, 1.80075753129102, "Anderson-Darling"
+                                      0, 0, 0.962447845002994, 0.195043724759809, "Cram<unicode>r-von Mises",
+                                      0, 0, 0, 0.335425472972491, 2.7012979707529, "Anderson-Darling"
                                  ))
 })
 

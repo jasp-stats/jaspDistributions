@@ -10,6 +10,7 @@ options$plotCDF <- TRUE
 options$plotQF <- TRUE
 options$highlightDensity <- TRUE
 options$highlightProbability <- TRUE
+options$histogram <- TRUE
 options$variable <- "StretchedBeta"
 options$moments <- TRUE
 options$ecdf <- TRUE
@@ -87,8 +88,8 @@ test_that("Fit Statistics table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_mleFitAssessment"]][["collection"]][["mleContainer_mleFitAssessment_fitStatisticsTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
                                  list(0.996970395475934, 0.0402127742566437, "Kolmogorov-Smirnov", 0,
-                                      0, 0, 0.766703439576984, 0.298911862229176, "Cram<unicode>r-von Mises",
-                                      0, 0, 0, 0.117523371004149, 3.72539814183369, "Anderson-Darling"
+                                      0, 0, 0.873600028719864, 0.251520640868864, "Cram<unicode>r-von Mises",
+                                      0, 0, 0, 0.63600302630322, 1.97406755251784, "Anderson-Darling"
                                  ))
 })
 

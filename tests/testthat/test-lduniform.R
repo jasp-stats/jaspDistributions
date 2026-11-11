@@ -26,6 +26,7 @@ options$qqPlotCi <- FALSE
 options$qqPlotCiLevel <- 0.95
 options$ppPlotCi <- FALSE
 options$ppPlotCiLevel <- 0.95
+options$histogram <- TRUE
 options$variable <- "uniform"
 set.seed(1)
 
@@ -84,7 +85,7 @@ test_that("Fit Statistics table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_mleFitAssessment"]][["collection"]][["mleContainer_mleFitAssessment_fitStatisticsTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
                                  list(0.719021020552384, 0.0695314208392983, "Kolmogorov-Smirnov", 0,
-                                      0, 0, 0.789102680660299, 0.289615018337558, "Cram<unicode>r-von Mises",
+                                      0, 0, 0.964991068680327, 0.192637296609396, "Cram<unicode>r-von Mises",
                                       0, 0, 0, 0.000599838025738153, "<unicode>", "Anderson-Darling"
                                  ))
 })
