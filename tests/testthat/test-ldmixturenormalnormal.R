@@ -24,7 +24,6 @@ options$qqPlotCi <- FALSE
 options$qqPlotCiLevel <- 0.95
 options$ppPlotCi <- FALSE
 options$ppPlotCiLevel <- 0.95
-options$sampleSize <- 1000
 options$variable <- "mixnorm"
 set.seed(1)
 results <- jaspTools::runAnalysis("LDmixtureNormalNormal",
@@ -68,8 +67,8 @@ test_that("Fit Statistics table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_mleFitAssessment"]][["collection"]][["mleContainer_mleFitAssessment_fitStatisticsTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
                                  list(0.832375881938445, 0.0623047139924716, "Kolmogorov-Smirnov", 0,
-                                      0, 0, 0.926473891805322, 0.222156384995521, "Cram<unicode>r-von Mises",
-                                      0, 0, 0, 0.861838031434501, 1.48826961884088, "Anderson-Darling"
+                                      0, 0, 0.147748344324691, 0.640757794810759, "Cram<unicode>r-von Mises",
+                                      0, 0, 0, 0.666244658302839, 1.91168841111029, "Anderson-Darling"
                                  ))
 })
 

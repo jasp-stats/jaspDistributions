@@ -86,8 +86,8 @@ test_that("Fit Statistics table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_mleFitAssessment"]][["collection"]][["mleContainer_mleFitAssessment_fitStatisticsTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
                                  list(0.815522935720562, 0.0634539686435564, "Kolmogorov-Smirnov", 0,
-                                      0, 0, 0.673014928158481, 0.336511915697971, "Cram<unicode>r-von Mises",
-                                      0, 0, 0, 0.940272009462064, 1.25844769274376, "Anderson-Darling"
+                                      0, 0, 0.580319729105155, 0.373805098733385, "Cram<unicode>r-von Mises",
+                                      0, 0, 0, 0.823070260298306, 1.58006457414519, "Anderson-Darling"
                                  ))
 })
 

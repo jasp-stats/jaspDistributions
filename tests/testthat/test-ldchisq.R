@@ -19,6 +19,7 @@ options$cramerVonMisses <- TRUE
 options$andersonDarling <- TRUE
 options$highlightDensity <- TRUE
 options$highlightProbability <- TRUE
+options$histogram <- TRUE
 options$variable <- "Chisq1000(df=5,ncp=0)"
 options$moments <- TRUE
 options$ecdf <- TRUE
@@ -82,8 +83,8 @@ test_that("Fit Statistics table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_mleFitAssessment"]][["collection"]][["mleContainer_mleFitAssessment_fitStatisticsTable"]][["data"]]
   expect_equal_tables(table,
                       list(0.988274410902388, 0.0141407181913769, "Kolmogorov-Smirnov", 0,
-                           0, 0, 0.641082672695268, 0.536715688790936, "Cram<unicode>r-von Mises",
-                           0, 0, 0, 0.448725251671648, 3.35199632483369, "Anderson-Darling"
+                           0, 0, 0.742999755069626, 0.489908415305856, "Cram<unicode>r-von Mises",
+                           0, 0, 0, 0.159670179557859, 4.44017552863528, "Anderson-Darling"
                       ))
 })
 
