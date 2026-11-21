@@ -933,14 +933,14 @@
     },
     "jaspBase": {
       "Package": "jaspBase",
-      "Version": "0.20.4",
+      "Version": "0.20.5",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspBase",
       "RemoteRef": "master",
-      "RemoteSha": "209d1787d5c9400601df960535b261029a350b12",
+      "RemoteSha": "b60a8ea0e8b377bde7f87ef08ba58b21ba54e15e",
       "Remotes": "jasp-stats/jaspGraphs",
       "Requirements": [
         "R6",
@@ -966,7 +966,7 @@
         "systemfonts",
         "withr"
       ],
-      "Hash": "f702f926c54ef67274d34239d92131f0"
+      "Hash": "654e263a1e77616669abf6cf8643277b"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
@@ -977,7 +977,7 @@
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspGraphs",
       "RemoteRef": "master",
-      "RemoteSha": "cac753920e984d3628cace64538c00acd3622a58",
+      "RemoteSha": "63f791dabf5e1446a445b42e911c2d5d78e0b06e",
       "Requirements": [
         "R6",
         "cli",
@@ -991,7 +991,7 @@
         "rlang",
         "scales"
       ],
-      "Hash": "bc7ccc83df8863f5b96011fe9b14c019"
+      "Hash": "a332b39336828c7e9c8f775f154c2c66"
     },
     "jquerylib": {
       "Package": "jquerylib",
@@ -1042,7 +1042,7 @@
     },
     "later": {
       "Package": "later",
-      "Version": "1.4.5",
+      "Version": "1.4.8",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1050,7 +1050,7 @@
         "Rcpp",
         "rlang"
       ],
-      "Hash": "dd1774a6d7bc63ea311920b278c22150"
+      "Hash": "824c180e69b9be79ab96a985e233c470"
     },
     "lattice": {
       "Package": "lattice",

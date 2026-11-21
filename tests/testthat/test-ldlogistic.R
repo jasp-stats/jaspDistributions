@@ -67,8 +67,8 @@ test_that("Fit Statistics table results match", {
   expect_equal_tables(
     table,
     list(0.991660820748592, 0.0434337377708869, "Kolmogorov-Smirnov", 0,
-         0, 0, 0.0630619303957307, 0.785756328615604, "Cram<unicode>r-von Mises",
-         0, 0, 0, 0.604258788450465, 2.04032129084066, "Anderson-Darling"
+         0, 0, 0.348333010701197, 0.482857734397679, "Cram<unicode>r-von Mises",
+         0, 0, 0, 0.614228328143297, 2.01938554735063, "Anderson-Darling"
     )
     )
 })
