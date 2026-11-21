@@ -95,7 +95,7 @@ Section
 					DoubleField { name: "distributionTableCdfMax";	label: qsTr("to");		min: 0; max: 1; defaultValue: 1;	info: qsTr("The largest cumulative probability in the distribution table.") }
 				}
 
-				IntegerField { name: "distributionTableLength"; label: qsTr("Number of values"); min: 2; defaultValue: 11; info: qsTr("How many equally spaced points to display in the distribution table within the specified range.") }
+				IntegerField { name: "distributionTablePointCount"; label: qsTr("Number of values"); min: 2; defaultValue: 11; info: qsTr("How many equally spaced points to display in the distribution table within the specified range.") }
 			}
 
 			ComponentsList
@@ -135,8 +135,8 @@ Section
 
 			DropDown
 			{
-				id:			plotRangeBasedOn
-				name:		"plotRangeBasedOn"
+				id:			distributionPlotRangeBasedOn
+				name:		"distributionPlotRangeBasedOn"
 				label:		qsTr("Plot range")
 				startValue:	"auto"
 				info:		qsTr("Select whether the range of the plots is determined automatically from the support of the distribution, or specified in quantiles or in cumulative probabilities.")
@@ -151,24 +151,24 @@ Section
 			Row
 			{
 				spacing: jaspTheme.columnGroupSpacing
-				visible: plotRangeBasedOn.value === "quantile"
-				DoubleField { name: "plotQuantileMin"; label: qsTr("from");	negativeValues: true; defaultValue: -3;	info: qsTr("The smallest quantile shown in the plots.") }
-				DoubleField { name: "plotQuantileMax"; label: qsTr("to");	negativeValues: true; defaultValue:  3;	info: qsTr("The largest quantile shown in the plots.") }
+				visible: distributionPlotRangeBasedOn.value === "quantile"
+				DoubleField { name: "distributionPlotQuantileMin"; label: qsTr("from");	negativeValues: true; defaultValue: -3;	info: qsTr("The smallest quantile shown in the plots.") }
+				DoubleField { name: "distributionPlotQuantileMax"; label: qsTr("to");	negativeValues: true; defaultValue:  3;	info: qsTr("The largest quantile shown in the plots.") }
 			}
 
 			Row
 			{
 				spacing: jaspTheme.columnGroupSpacing
-				visible: plotRangeBasedOn.value === "cdf"
+				visible: distributionPlotRangeBasedOn.value === "cdf"
 				// 0 and 1 are excluded, because they correspond to infinite quantiles for distributions with unbounded support
-				DoubleField { name: "plotCdfMin"; label: qsTr("from");	min: 0; max: 1; inclusive: JASP.None; defaultValue: 0.01;	info: qsTr("The cumulative probability of the smallest quantile shown in the plots.") }
-				DoubleField { name: "plotCdfMax"; label: qsTr("to");	min: 0; max: 1; inclusive: JASP.None; defaultValue: 0.99;	info: qsTr("The cumulative probability of the largest quantile shown in the plots.") }
+				DoubleField { name: "distributionPlotCdfMin"; label: qsTr("from");	min: 0; max: 1; inclusive: JASP.None; defaultValue: 0.01;	info: qsTr("The cumulative probability of the smallest quantile shown in the plots.") }
+				DoubleField { name: "distributionPlotCdfMax"; label: qsTr("to");	min: 0; max: 1; inclusive: JASP.None; defaultValue: 0.99;	info: qsTr("The cumulative probability of the largest quantile shown in the plots.") }
 			}
 		}
 
 		ComponentsList
 		{
-			name:			"plotDensityPoints"
+			name:			"distributionPlotHighlightDensity"
 			title:			qsTr("Highlight density")
 			addBorder:		false
 			headerLabels:	[qsTr("At quantile"), qsTr("Color")]
@@ -183,7 +183,7 @@ Section
 
 		ComponentsList
 		{
-			name:			"plotProbabilityLimits"
+			name:			"distributionPlotHighlightProbability"
 			title:			qsTr("Highlight probability")
 			addBorder:		false
 			headerLabels:	[qsTr("From"), qsTr("To"), qsTr("Color")]

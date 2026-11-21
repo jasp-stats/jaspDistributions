@@ -23,7 +23,7 @@ import JASP.Controls
 Section
 {
 	// Were (some of) the parameters estimated from data?
-	property bool hasFitVariable: fitVariable.currentValue !== ""
+	property bool hasFitVariable: estimationVariable.currentValue !== ""
 
 	title:		dataSetInfo.dataAvailable ? qsTr("Estimate Parameters") : qsTr("Estimate Parameters") + " - " + qsTr("[requires a loaded data set]")
 	enabled:	dataSetInfo.dataAvailable
@@ -32,8 +32,8 @@ Section
 
 	DropDown
 	{
-		id:						fitVariable
-		name:					"fitVariable"
+		id:						estimationVariable
+		name:					"estimationVariable"
 		label:					qsTr("Estimate parameters from")
 		Layout.columnSpan:		2
 		addEmptyValue:			true
@@ -49,19 +49,24 @@ Section
 		title:		qsTr("Parameter estimation")
 		enabled:	hasFitVariable
 
-		CheckBox
+		DropDown
 		{
-			name:		"parameterEstimatorBiasCorrected"
-			label:		qsTr("Bias-corrected (if available)")
-			checked:	true
-			info:		qsTr("Use the bias-corrected estimator if it is available for the distribution (e.g., normal, log-normal, exponential, uniform). Otherwise, the parameters are estimated by maximum likelihood.")
+			name:		"parameterEstimator"
+			label:		qsTr("Method")
+			info:		qsTr("How the parameters are estimated. Default uses maximum spacing for shifted distributions, and otherwise the bias-corrected estimator if available (e.g., normal, exponential), and maximum likelihood if not.")
+			values:
+			[
+				{ label: qsTr("Default"),				value: "default"			},
+				{ label: qsTr("Maximum likelihood"),	value: "maximumLikelihood"	},
+				{ label: qsTr("Maximum spacing"),		value: "maximumSpacing"		}
+			]
 		}
 
 		DropDown
 		{
-			name:		"parameterEstimatorMleSpace"
+			name:		"parameterEstimatorOptimizationSpace"
 			label:		qsTr("Optimize on")
-			info:		qsTr("If the maximum likelihood estimates cannot be calculated analytically, the log-likelihood is optimized numerically: on the unconstrained parameter space (e.g., a parameter that is always positive is optimized on the log scale), using the 'BFGS' method, or on the constrained parameter space, using the 'L-BFGS-B' method.")
+			info:		qsTr("Parameter space on which the estimates are optimized if they cannot be calculated analytically: unconstrained (e.g., positive parameters on the log scale; 'BFGS') or constrained ('L-BFGS-B').")
 			values:
 			[
 				{ label: qsTr("unconstrained space"),	value: "unconstrained"	},
@@ -79,18 +84,18 @@ Section
 
 		CheckBox
 		{
-			name:		"parameterTableUncertainty"
+			name:		"parameterUncertainty"
 			label:		qsTr("Quantify uncertainty")
 			info:		qsTr("Displays the uncertainty about the estimated parameters (e.g., standard errors and confidence intervals) in the parameter table.")
 
-			CIField { name: "parameterTableCiLevel"; label: qsTr("Confidence level") }
+			CIField { name: "parameterUncertaintyCiLevel"; label: qsTr("Confidence level") }
 
 			DropDown
 			{
-				id:		parameterInferenceMethod
-				name:	"parameterInferenceMethod"
+				id:		parameterUncertaintyMethod
+				name:	"parameterUncertaintyMethod"
 				label:	qsTr("Method")
-				info:	qsTr("How the standard errors and confidence intervals of the estimated parameters are calculated. Default uses exact intervals if they are available for the distribution (e.g., normal, uniform), and normal theory otherwise. Normal theory uses the curvature of the log-likelihood at the estimates, and is therefore valid only for maximum likelihood estimates. Bootstrap re-estimates the parameters on simulated or resampled data; it is unreliable for parameters that determine the bounds of the support (e.g., of the uniform distribution).")
+				info:	qsTr("How the standard errors and confidence intervals are calculated. Default uses exact intervals if available (e.g., normal, uniform), and normal theory otherwise. Normal theory assumes maximum likelihood estimates. Bootstrap is unreliable for parameters that bound the support (e.g., of the uniform).")
 				values:
 				[
 					{ label: qsTr("Default"),		value: "default"		},
@@ -101,9 +106,9 @@ Section
 
 			DropDown
 			{
-				name:		"parameterInferenceNormalTheorySpace"
+				name:		"parameterUncertaintyNormalTheorySpace"
 				label:		qsTr("Compute intervals on")
-				visible:	parameterInferenceMethod.value === "normalTheory"
+				visible:	parameterUncertaintyMethod.value === "normalTheory"
 				info:		qsTr("Compute the confidence intervals on the unconstrained parameter space and transform their bounds back, or directly on the constrained parameter space. The latter produces intervals that are symmetric around the estimate, but that may extend beyond the support of the parameter.")
 				values:
 				[
@@ -114,11 +119,11 @@ Section
 
 			Group
 			{
-				visible: parameterInferenceMethod.value === "bootstrap"
+				visible: parameterUncertaintyMethod.value === "bootstrap"
 
 				IntegerField
 				{
-					name:			"parameterInferenceBootstrapSamples"
+					name:			"parameterUncertaintyBootstrapSamples"
 					label:			qsTr("Samples")
 					defaultValue:	1000
 					min:			100
@@ -127,9 +132,9 @@ Section
 
 				DropDown
 				{
-					name:	"parameterInferenceBootstrapType"
+					name:	"parameterUncertaintyBootstrapType"
 					label:	qsTr("Type")
-					info:	qsTr("Draw the bootstrap samples from the fitted distribution (parametric), or by resampling the data with replacement (nonparametric).")
+					info:	qsTr("Draw the bootstrap samples from the fitted distribution (parametric) or resample the data (nonparametric).")
 					values:
 					[
 						{ label: qsTr("parametric"),	value: "parametric"		},
@@ -139,9 +144,9 @@ Section
 
 				DropDown
 				{
-					name:	"parameterInferenceBootstrapCiMethod"
+					name:	"parameterUncertaintyBootstrapCiMethod"
 					label:	qsTr("Confidence interval")
-					info:	qsTr("Percentile intervals are the quantiles of the bootstrap estimates. Basic intervals reflect the bootstrap estimates around the estimate. Both respect the support of the parameters.")
+					info:	qsTr("Percentile: quantiles of the bootstrap estimates. Basic: bootstrap estimates reflected around the estimate.")
 					values:
 					[
 						{ label: qsTr("percentile"),	value: "percentile"	},

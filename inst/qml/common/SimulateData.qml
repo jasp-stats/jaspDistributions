@@ -28,7 +28,7 @@ Section
 
 	CheckBox
 	{
-		name:	"simulatedData"
+		name:	"simulatedDataSavedToData"
 		label:	qsTr("Simulate data from the specified distribution")
 		info:	qsTr("Draws a random sample from the specified distribution (using the specified parameter values). The column can be used to estimate the parameters, e.g., to see how well they are recovered.")
 
@@ -46,8 +46,8 @@ Section
 		// which wipes the state and draws a new sample, which changes the column again, and so on
 		AddColumnField
 		{
-			id:					simulatedDataColumn
-			name:				"simulatedDataColumn"
+			id:					simulatedDataSavedToDataColumn
+			name:				"simulatedDataSavedToDataColumn"
 			label:				qsTr("Column name")
 			placeholderText:	qsTr("e.g., random data")
 			fieldWidth:			120 * jaspTheme.uiScale
@@ -58,7 +58,7 @@ Section
 		{
 			id:			redrawButton
 			label:		qsTr("Redraw")
-			enabled:	simulatedDataColumn.value !== ""
+			enabled:	simulatedDataSavedToDataColumn.value !== ""
 			info:		qsTr("Draws a new sample into the column.")
 			onClicked:
 			{

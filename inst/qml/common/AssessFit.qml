@@ -25,7 +25,7 @@ Section
 	// Were (some of) the parameters estimated from data?
 	property bool hasFitVariable:	false
 	// Is the fit assessed on the same data that were used for estimating the parameters?
-	property bool inSample:			assessVariable.currentValue === ""
+	property bool inSample:			fitAssessmentVariable.currentValue === ""
 	property bool hasData:			hasFitVariable || !inSample
 
 	title:		dataSetInfo.dataAvailable ? qsTr("Assess Fit") : qsTr("Assess Fit") + " - " + qsTr("[requires a loaded data set]")
@@ -35,8 +35,8 @@ Section
 
 	DropDown
 	{
-		id:						assessVariable
-		name:					"assessVariable"
+		id:						fitAssessmentVariable
+		name:					"fitAssessmentVariable"
 		label:					qsTr("Assess fit on")
 		Layout.columnSpan:		2
 		addEmptyValue:			true
@@ -54,7 +54,7 @@ Section
 
 		CheckBox
 		{
-			name:	"histPlot"
+			name:	"histogramPlot"
 			label:	qsTr("Histogram vs. theoretical pdf")
 			info:	qsTr("Displays a histogram of the variable overlaid with the probability density function of the distribution.")
 		}
@@ -118,29 +118,29 @@ Section
 
 		CheckBox
 		{
-			id:		goodnessOfFit
-			name:	"goodnessOfFit"
+			id:		goodnessOfFitTest
+			name:	"goodnessOfFitTest"
 			label:	qsTr("Goodness-of-fit tests")
-			info:	qsTr("Displays the Kolmogorov-Smirnov, Cramér-von Mises, and Anderson-Darling tests. When the parameters were estimated from the same data the fit is assessed on, the standard p-values are too conservative; use bootstrapped p-values instead.")
+			info:	qsTr("Displays goodness-of-fit tests. If the parameters were not fitted to the variable on which the fit is assessed (i.e., all parameters are fixed, or they were estimated on a different variable), the tests are Kolmogorov-Smirnov, and Cramér-von Mises and Anderson-Darling for a simple null hypothesis. If they were fitted to it, the tests are Cramér-von Mises and Anderson-Darling for a composite null hypothesis (Braun, 1980). These rely on randomly splitting the data, so their p-values can be unstable for small sample sizes; in that case, bootstrap is recommended. For the normal distribution with free location and scale, dedicated tests of normality are computed instead: Lilliefors, Cramér-von Mises, Anderson-Darling, Shapiro-Wilk, and Shapiro-Francia.")
 
 			RadioButtonGroup
 			{
-				name:		"goodnessOfFitPValue"
+				name:		"goodnessOfFitTestPValue"
 				title:		qsTr("p-values")
 				RadioButton
 				{
 					value:		"asymptotic"
 					label:		qsTr("Asymptotic")
 					checked:	true
-					info:		qsTr("Valid when the parameters are fixed or were estimated on a different variable.")
+					info:		qsTr("Analytic p-values of the tests described above.")
 				}
 				RadioButton
 				{
 					value:				"bootstrap"
 					label:				qsTr("Parametric bootstrap")
 					childrenOnSameRow:	true
-					info:				qsTr("Valid also when the parameters were estimated from the same data. The distribution is re-estimated on each bootstrap sample.")
-					IntegerField { name: "goodnessOfFitBootstrapSamples"; label: qsTr("with"); afterLabel: qsTr("samples"); defaultValue: 1000; min: 100 }
+					info:				qsTr("p-values of the Kolmogorov-Smirnov, and Cramér-von Mises and Anderson-Darling tests for a simple null hypothesis, obtained by parametric bootstrap. The bootstrap takes into account whether the distribution was fitted to the variable on which the fit is assessed: if so, the distribution is re-estimated on each bootstrap sample.")
+					IntegerField { name: "goodnessOfFitTestBootstrapSamples"; label: qsTr("with"); afterLabel: qsTr("samples"); defaultValue: 1000; min: 100 }
 				}
 			}
 		}

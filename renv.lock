@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.5.2",
+    "Version": "4.5.1",
     "Repositories": [
       {
         "Name": "RSPM",
@@ -29,14 +29,14 @@
     },
     "DistributionS7": {
       "Package": "DistributionS7",
-      "Version": "0.1.5",
+      "Version": "0.1.6",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteUsername": "kucharssim",
+      "RemoteUsername": "Kucharssim",
       "RemoteRepo": "DistributionS7",
       "RemoteRef": "main",
-      "RemoteSha": "233bb1ce39be6176bac759b94cc685f03dd17458",
+      "RemoteSha": "8938bc1cb99efcaace8ad8b5cefc6db70e023398",
       "Requirements": [
         "R",
         "Rdpack",
@@ -54,7 +54,7 @@
         "sgt",
         "sn"
       ],
-      "Hash": "2350629d22bc27b0f4af9461111158df"
+      "Hash": "91bd7bebcf685217a85b459435def3b5"
     },
     "Formula": {
       "Package": "Formula",
@@ -187,14 +187,15 @@
     },
     "S7": {
       "Package": "S7",
-      "Version": "0.2.1",
+      "Version": "1.0.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
+        "methods",
         "utils"
       ],
-      "Hash": "9da85950949574264f92f91f0e23de26"
+      "Hash": "50e60623a161686f401b53a3d8c0dc68"
     },
     "SparseM": {
       "Package": "SparseM",
@@ -754,7 +755,7 @@
     },
     "ggplot2": {
       "Package": "ggplot2",
-      "Version": "4.0.3",
+      "Version": "4.0.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -772,7 +773,7 @@
         "vctrs",
         "withr"
       ],
-      "Hash": "98520fe6b2745c466dca8e46aaa86242"
+      "Hash": "adcad933f9daab671ee05c936b7d87e1"
     },
     "glue": {
       "Package": "glue",
