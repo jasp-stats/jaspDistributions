@@ -17,104 +17,116 @@
 
 # This is a generated file. Don't change it!
 
-#' Continuous Distribution
+#' Single Distribution
 #'
 #' Specify a continuous distribution, optionally estimate its parameters from data, display it, and assess its fit to data.
 #'
-#' @param assessVariable, Variable used to assess the fit of the distribution. If empty, the fit is assessed on the variable used for estimation. Using a different variable (e.g., a hold-out sample) allows goodness-of-fit tests that treat the estimated parameters as known.
 #' @param cdfPlot, Displays the cumulative distribution function.
 #'    Defaults to \code{FALSE}.
-#' @param dataDescriptives, Displays a descriptive table of the variable.
+#' @param descriptivesTable, Displays a descriptive table of the variable used for estimation and, if different, of the variable used for assessing the fit.
 #'    Defaults to \code{FALSE}.
+#' @param distributionPlotCdfMax, The cumulative probability of the largest quantile shown in the plots.
+#' @param distributionPlotCdfMin, The cumulative probability of the smallest quantile shown in the plots.
+#' @param distributionPlotHighlightDensity, Quantiles at which the density is highlighted: as a point in the probability density plot, and as the slope of a tangent in the cumulative distribution plot.
+#' @param distributionPlotHighlightProbability, Intervals whose probability is highlighted in the probability density and cumulative distribution plots. Use -Inf or Inf to leave the interval unbounded on that side (e.g., to highlight a tail).
+#' @param distributionPlotQuantileMax, The largest quantile shown in the plots.
+#' @param distributionPlotQuantileMin, The smallest quantile shown in the plots.
+#' @param distributionPlotRangeBasedOn, Select whether the range of the plots is determined automatically from the support of the distribution, or specified in quantiles or in cumulative probabilities.
 #' @param distributionTable, Displays distribution table that shows quantiles, density, cumulative probability, and complement of the cumulative probability.
 #'    Defaults to \code{FALSE}.
 #' @param distributionTableBasedOn, Select whether you want to specify values of quantiles for which to display density and cumulative probability, or values of cumulative probability for which to display density and quantiles.
-#' @param distributionTableLength, How many points to display in the distribution table within the specified range.
-#' @param distributionTableMax, The maximum of the range of the distribution table.
-#' @param distributionTableMin, The minimum of the range of the distribution table.
-#' @param distributionTablePoints, Values on which to evaluate the distribution.
+#' @param distributionTableCdfMax, The largest cumulative probability in the distribution table.
+#' @param distributionTableCdfMin, The smallest cumulative probability in the distribution table.
+#' @param distributionTableCdfPoints, Cumulative probabilities at which to evaluate the distribution.
+#' @param distributionTablePointCount, How many equally spaced points to display in the distribution table within the specified range.
+#' @param distributionTableQuantileMax, The largest quantile in the distribution table.
+#' @param distributionTableQuantileMin, The smallest quantile in the distribution table.
+#' @param distributionTableQuantilePoints, Quantiles at which to evaluate the distribution.
 #' @param distributionTableType, Select whether you want to specify the distribution table with a range of values, or manually.
 #' @param ecdfPlot, Displays the empirical cumulative distribution function of the variable overlaid with the cumulative distribution function of the distribution.
 #'    Defaults to \code{FALSE}.
+#' @param estimationVariable, Variable used to estimate the free (not fixed) parameters of the distribution. Leave empty to use the specified parameter values as they are.
 #' @param explanatoryText, Displays additional texts that explain the displayed elements.
 #'    Defaults to \code{FALSE}.
-#' @param fitVariable, Variable used to estimate the free (not fixed) parameters of the distribution. Leave empty to use the specified parameter values as they are.
-#' @param goodnessOfFit, Displays the Kolmogorov-Smirnov, Cramér-von Mises, and Anderson-Darling tests. When the parameters were estimated from the same data the fit is assessed on, the standard p-values are too conservative; use bootstrapped p-values instead.
+#' @param fitAssessmentVariable, Variable used to assess the fit of the distribution. If empty, the fit is assessed on the variable used for estimation. Using a different variable (e.g., a hold-out sample) allows goodness-of-fit tests that treat the estimated parameters as known.
+#' @param goodnessOfFitTest, Displays goodness-of-fit tests. If the parameters were not fitted to the variable on which the fit is assessed (i.e., all parameters are fixed, or they were estimated on a different variable), the tests are Kolmogorov-Smirnov, and Cramér-von Mises and Anderson-Darling for a simple null hypothesis. If they were fitted to it, the tests are Cramér-von Mises and Anderson-Darling for a composite null hypothesis (Braun, 1980). These rely on randomly splitting the data, so their p-values can be unstable for small sample sizes; in that case, bootstrap is recommended. For the normal distribution with free location and scale, dedicated tests of normality are computed instead: Lilliefors, Cramér-von Mises, Anderson-Darling, Shapiro-Wilk, and Shapiro-Francia.
 #'    Defaults to \code{FALSE}.
-#' @param histPlot, Displays a histogram of the variable overlaid with the probability density function of the distribution.
+#' @param histogramPlot, Displays a histogram of the variable overlaid with the probability density function of the distribution.
 #'    Defaults to \code{FALSE}.
-#' @param informationCriteria, Displays the log-likelihood, AIC, and BIC of the distribution. When assessed on a different variable than the one used for estimation, the log-likelihood is the out-of-sample (predictive) log-likelihood.
+#' @param modelFitTable, Displays the log-likelihood, the number of free parameters, and the AIC and BIC of the distribution. When assessed on a different variable than the one used for estimation, the log-likelihood is the out-of-sample (predictive) log-likelihood, and the AIC and BIC are not shown.
 #'    Defaults to \code{FALSE}.
-#' @param momentsTable, Displays a table with the raw and central moments of the variable and the moments of the distribution.
-#'    Defaults to \code{FALSE}.
-#' @param parameterEstimationMethod, If available, parameter estimates are calculated analytically. If not, then parameters are estimated using numerical optimization of the log-likelihood function.
-#' \itemize{
-#'   \item \code{"constrained"}: Optimize the log-likelihood on the constrained parameter space. The optimization method used is 'L-BFGS-B'.
-#'   \item \code{"unconstrained"}: Optimize the log-likelihood on the unconstrained parameter space. For example, a parameter that is always positive is optimized on the log scale. The optimization method used is 'BFGS'.
-#' }
+#' @param parameterEstimator, How the parameters are estimated. Default uses maximum spacing for shifted distributions, and otherwise the bias-corrected estimator if available (e.g., normal, exponential), and maximum likelihood if not.
+#' @param parameterEstimatorOptimizationSpace, Parameter space on which the estimates are optimized if they cannot be calculated analytically: unconstrained (e.g., positive parameters on the log scale; 'BFGS') or constrained ('L-BFGS-B').
 #' @param parameterTable, Displays a table with the parameter values.
 #'    Defaults to \code{TRUE}.
-#' @param parameterTableUncertainty, Displays the uncertainty about the estimated parameters (e.g., standard errors and confidence intervals). The method is set in the advanced options.
+#' @param parameterUncertainty, Displays the uncertainty about the estimated parameters (e.g., standard errors and confidence intervals) in the parameter table.
 #'    Defaults to \code{FALSE}.
-#' @param parameterUncertaintyMethod, How to quantify uncertainty about the parameters.
-#' \itemize{
-#'   \item \code{"bootstrap"}: SE and CIs are calculated using parametric bootstrap.
-#'   \item \code{"default"}: If available, analytic SE and CIs are calculated, otherwise, they are calculated using normal theory based on numerical estimate of the Hessian.
-#' }
-#' @param parameterUncertaintySymmetricCi, Should the CI be computed on the unconstrained space and then CI bounds transformed into the original parameter space, or should the CIs be computed on the constrained space using transformed Hessian. The latter produces CIs that are symmetric around the point estimate but may, in some extreme cases, produce CIs extending beyond support of the parameter.
-#'    Defaults to \code{FALSE}.
+#' @param parameterUncertaintyBootstrapCiMethod, Percentile: quantiles of the bootstrap estimates. Basic: bootstrap estimates reflected around the estimate.
+#' @param parameterUncertaintyBootstrapSamples, Number of bootstrap samples on which the parameters are re-estimated.
+#' @param parameterUncertaintyBootstrapType, Draw the bootstrap samples from the fitted distribution (parametric) or resample the data (nonparametric).
+#' @param parameterUncertaintyMethod, How the standard errors and confidence intervals are calculated. Default uses exact intervals if available (e.g., normal, uniform), and normal theory otherwise. Normal theory assumes maximum likelihood estimates. Bootstrap is unreliable for parameters that bound the support (e.g., of the uniform).
+#' @param parameterUncertaintyNormalTheorySpace, Compute the confidence intervals on the unconstrained parameter space and transform their bounds back, or directly on the constrained parameter space. The latter produces intervals that are symmetric around the estimate, but that may extend beyond the support of the parameter.
 #' @param parametersSupportMoments, Displays parameters, support, and moments.
 #'    Defaults to \code{FALSE}.
 #' @param pdfPlot, Displays the probability density function.
-#'    Defaults to \code{FALSE}.
+#'    Defaults to \code{TRUE}.
 #' @param ppPlot, Displays the probability-probability plot. The *x*-axis shows the theoretical value of the cumulative distribution function of the data points under the distribution, the *y*-axis shows the empirical percentiles of the variable.
 #'    Defaults to \code{FALSE}.
 #' @param qfPlot, Displays the quantile function.
 #'    Defaults to \code{FALSE}.
 #' @param qqPlot, Displays the quantile-quantile plot. The *x*-axis shows the theoretical quantiles of the data points under the distribution, the *y*-axis shows the empirical quantiles of the variable.
 #'    Defaults to \code{FALSE}.
-#' @param simulateData, Draw random samples and save them as new columns in the data set. One row for the specified distribution ("specified", can be used to estimate the parameters) and one for the fitted distribution ("fitted", can only be used to assess the fit), each with \code{simulate}, \code{sampleSize}, and \code{column}. Requires a loaded data set.
+#' @param simulatedDataSampleSize, Number of values to draw. Remaining rows of the column are left empty; cannot exceed the number of rows in the data set.
+#' @param simulatedDataSavedToData, Draws a random sample from the specified distribution (using the specified parameter values). The column can be used to estimate the parameters, e.g., to see how well they are recovered.
+#'    Defaults to \code{FALSE}.
+#' @param simulatedDataSavedToDataColumn, Name of the column in which the simulated data are saved.
 ContinuousDistribution <- function(
           data = NULL,
-          version = "0.97.2",
-          assessVariable = list(types = list(), value = ""),
+          version = "0.97.3",
           cdfPlot = FALSE,
-          dataDescriptives = FALSE,
+          descriptivesTable = FALSE,
           distribution = "",
+          distributionPlotCdfMax = 0.99,
+          distributionPlotCdfMin = 0.01,
+          distributionPlotHighlightDensity = list(),
+          distributionPlotHighlightProbability = list(),
+          distributionPlotQuantileMax = 3,
+          distributionPlotQuantileMin = -3,
+          distributionPlotRangeBasedOn = "auto",
           distributionTable = FALSE,
-          distributionTableBasedOn = "quantile",
-          distributionTableLength = 11,
-          distributionTableMax = 1,
-          distributionTableMin = 0,
-          distributionTablePoints = list(),
+          distributionTableBasedOn = "cdf",
+          distributionTableCdfMax = 1,
+          distributionTableCdfMin = 0,
+          distributionTableCdfPoints = list(),
+          distributionTablePointCount = 11,
+          distributionTableQuantileMax = 3,
+          distributionTableQuantileMin = -3,
+          distributionTableQuantilePoints = list(),
           distributionTableType = "range",
           ecdfPlot = FALSE,
+          estimationVariable = list(types = "unknown", value = ""),
           explanatoryText = FALSE,
-          fitVariable = list(types = list(), value = ""),
-          goodnessOfFit = FALSE,
-          goodnessOfFitBootstrapSamples = 1000,
-          goodnessOfFitPValue = "asymptotic",
-          histPlot = FALSE,
-          informationCriteria = FALSE,
-          momentsTable = FALSE,
-          momentsTableNumber = 2,
-          parameterEstimationMethod = "unconstrained",
+          fitAssessmentVariable = list(types = "unknown", value = ""),
+          goodnessOfFitTest = FALSE,
+          goodnessOfFitTestBootstrapSamples = 1000,
+          goodnessOfFitTestPValue = "asymptotic",
+          histogramPlot = FALSE,
+          modelFitTable = FALSE,
+          parameterEstimator = "default",
+          parameterEstimatorOptimizationSpace = "unconstrained",
           parameterTable = TRUE,
-          parameterTableCiLevel = 0.95,
-          parameterTableUncertainty = FALSE,
+          parameterUncertainty = FALSE,
+          parameterUncertaintyBootstrapCiMethod = "percentile",
           parameterUncertaintyBootstrapSamples = 1000,
+          parameterUncertaintyBootstrapType = "parametric",
+          parameterUncertaintyCiLevel = 0.95,
           parameterUncertaintyMethod = "default",
-          parameterUncertaintySymmetricCi = FALSE,
+          parameterUncertaintyNormalTheorySpace = "unconstrained",
           parameters = list(),
           parametersSupportMoments = FALSE,
           parametrization = "",
-          pdfPlot = FALSE,
-          plotDensityPoints = list(),
+          pdfPlot = TRUE,
           plotHeight = 320,
-          plotMax = 3,
-          plotMin = -3,
-          plotProbabilityLimits = list(),
-          plotRangeBasedOn = "quantile",
           plotWidth = 480,
           ppPlot = FALSE,
           ppPlotCi = FALSE,
@@ -125,7 +137,10 @@ ContinuousDistribution <- function(
           qqPlotCiLevel = 0.95,
           seed = 1,
           setSeed = FALSE,
-          simulateData = list(list(column = "", sampleSize = 1, simulate = FALSE, value = "specified"), list(column = "", sampleSize = 1, simulate = FALSE, value = "fitted"))) {
+          simulatedDataRedraw = 0,
+          simulatedDataSampleSize = 1,
+          simulatedDataSavedToData = FALSE,
+          simulatedDataSavedToDataColumn = "") {
 
    defaultArgCalls <- formals(jaspDistributions::ContinuousDistribution)
    defaultArgs <- lapply(defaultArgCalls, eval)
@@ -141,7 +156,7 @@ ContinuousDistribution <- function(
       jaspBase::storeDataSet(data)
    }
 
-   optionsWithFormula <- c("assessVariable", "distribution", "distributionTableBasedOn", "distributionTablePoints", "distributionTableType", "fitVariable", "parameters", "parametrization", "plotDensityPoints", "plotProbabilityLimits", "plotRangeBasedOn")
+   optionsWithFormula <- c("distribution", "distributionPlotHighlightDensity", "distributionPlotHighlightProbability", "distributionPlotRangeBasedOn", "distributionTableBasedOn", "distributionTableCdfPoints", "distributionTableQuantilePoints", "distributionTableType", "estimationVariable", "fitAssessmentVariable", "parameterEstimator", "parameterEstimatorOptimizationSpace", "parameterUncertaintyBootstrapCiMethod", "parameterUncertaintyBootstrapType", "parameterUncertaintyMethod", "parameterUncertaintyNormalTheorySpace", "parameters", "parametrization")
    for (name in optionsWithFormula) {
       if ((name %in% optionsWithFormula) && inherits(options[[name]], "formula")) options[[name]] = jaspBase::jaspFormula(options[[name]], data)   }
 
