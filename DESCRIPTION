@@ -1,7 +1,7 @@
 Package: jaspDistributions
 Type: Package
 Title: Distributions Module for JASP
-Version: 0.97.2
+Version: 0.97.3
 Date: 2022-10-05
 Author: JASP Team
 Website: www.jasp-stats.org
@@ -14,13 +14,10 @@ Imports:
   fitdistrplus,
   ggplot2,
   goftest,
-  gnorm,
   jaspBase,
   jaspGraphs,
   MASS,
   nortest,
-  sgt,
-  sn,
   DistributionS7
 Remotes:
   jasp-stats/jaspBase,
