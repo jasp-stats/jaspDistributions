@@ -1,0 +1,732 @@
+#
+# Copyright (C) 2013-2026 University of Amsterdam
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+ContinuousDistributionInternal <- function(jaspResults, dataset = NULL, options) {
+  variables <- .cdGetVariables(options, dataset)
+
+  # the descriptives do not need a distribution
+  .cdDescriptivesTable(jaspResults, options, variables)
+
+  # without a distribution, show an empty parameter table as a placeholder
+  if (options[["distribution"]] == "") {
+    .cdParameterTable(jaspResults, options, NULL, variables[["estimationVariable"]])
+    return()
+  }
+
+  distribution <- .ccdMakeDistribution(options)
+  .cdSimulatedData(jaspResults, options, distribution)
+  distribution <- .cdFitDistribution(jaspResults, options, distribution, variables[["estimationVariable"]])
+
+  .cdParameterTable(jaspResults, options, distribution, variables[["estimationVariable"]])
+  .cdDistributionTable(jaspResults, options, distribution)
+  .cdDistributionPlots(jaspResults, options, distribution)
+  .cdFitAssessment(jaspResults, options, distribution, variables)
+
+  return()
+}
+
+.cdGetVariables <- function(options, dataset) {
+  getVariable <- function(name) if (name == "") NULL else stats::na.omit(dataset[[name]])
+
+  estimationVariable    <- getVariable(options[["estimationVariable"]])
+  sameVariables         <- options[["fitAssessmentVariable"]] %in% c("", options[["estimationVariable"]])
+  fitAssessmentVariable <- if (sameVariables) estimationVariable else getVariable(options[["fitAssessmentVariable"]])
+
+  list(estimationVariable = estimationVariable, fitAssessmentVariable = fitAssessmentVariable, sameVariables = sameVariables)
+}
+
+
+.cdDescriptivesTable <- function(container, options, variables) {
+  if (!isTRUE(options[["descriptivesTable"]])) return()
+  if (!is.null(container[["descriptivesTable"]])) return()
+
+  # describe both variables if the fit is assessed on a different variable than the one used for estimation
+  described <- list()
+  if (!is.null(variables[["estimationVariable"]]))
+    described[[length(described) + 1L]] <- list(variable = options[["estimationVariable"]],    role = gettext("Estimation"), values = variables[["estimationVariable"]])
+  if (!variables[["sameVariables"]])
+    described[[length(described) + 1L]] <- list(variable = options[["fitAssessmentVariable"]], role = gettext("Assessment"), values = variables[["fitAssessmentVariable"]])
+
+  # without a variable there is nothing to describe (the checkbox is disabled, but may still be checked)
+  if (length(described) == 0L) return()
+
+  table <- createJaspTable(
+    title = gettext("Descriptives"), 
+    position = 2,
+    dependencies = c("descriptivesTable", "estimationVariable", "fitAssessmentVariable", "simulatedDataRedraw")
+  )
+  table$showSpecifiedColumnsOnly <- TRUE
+  table$addColumnInfo(name = "variable", title = gettext("Variable"),       type = "string")
+  if (length(described) > 1L)
+    table$addColumnInfo(name = "role",   title = gettext("Used for"),       type = "string")
+  table$addColumnInfo(name = "valid",    title = gettext("Valid"),          type = "integer")
+  table$addColumnInfo(name = "mean",     title = gettext("Mean"),           type = "number")
+  table$addColumnInfo(name = "sd",       title = gettext("Std. Deviation"), type = "number")
+  table$addColumnInfo(name = "min",      title = gettext("Minimum"),        type = "number")
+  table$addColumnInfo(name = "max",      title = gettext("Maximum"),        type = "number")
+  container[["descriptivesTable"]] <- table
+
+  rows <- lapply(described, function(v) {
+    values <- v[["values"]]
+    empty  <- length(values) == 0L # e.g., all values of the assessment variable are missing
+    data.frame(
+      variable = v[["variable"]],
+      role     = v[["role"]],
+      valid    = length(values),
+      mean     = if (empty) NA else mean(values),
+      sd       = if (empty) NA else stats::sd(values),
+      min      = if (empty) NA else min(values),
+      max      = if (empty) NA else max(values)
+    )
+  })
+
+  table$setData(do.call(rbind, rows))
+}
+
+.cdFitDistribution <- function(jaspResults, options, distribution, variable) {
+  if (!is.null(jaspResults[["distribution"]])) return (jaspResults[["distribution"]]$object)
+  if (is.null(variable)) return(distribution)
+  if (DistributionS7::nfree(distribution) == 0L) return(distribution)
+
+  estimator <- .cdEstimator(options, distribution, variable)
+  result    <- .cdTryFit(distribution, estimator, variable)
+
+  # try manual starting values (only the numerical estimators use starting values)
+  if (isTryError(result) && S7::prop_exists(estimator, "start")) {
+    estimator@start <- DistributionS7::parameter_values(distribution, which = "free")
+    result <- .cdTryFit(distribution, estimator, variable)
+  }
+
+  if (isTryError(result))
+    jaspBase::.quitAnalysis(
+      message = gettextf("Could not fit distribution %1$s, with the following error: <br> %2$s. <br> You can try to change the initial parameter values, or the estimation method.",
+                         S7::prop(distribution, "name"), .extractErrorMessage(result))
+      )
+
+  # e.g., the estimate of the shift of a shifted distribution drifted to the limit of its search interval
+  jaspResults[["fitWarnings"]] <- createJaspState(object = result[["warnings"]], dependencies = .cdFitDependencies)
+
+  distribution <- result[["distribution"]]
+
+  jaspResults[["distribution"]] <- createJaspState(object = distribution, dependencies = .cdFitDependencies)
+  # the estimator that was actually used, so that the uncertainty and the bootstrap re-estimate in the same way
+  jaspResults[["estimator"]]    <- createJaspState(object = estimator,    dependencies = .cdFitDependencies)
+
+  return(distribution)
+}
+
+# list(distribution, warnings) with the fitted distribution and the warnings of the fit, or a try-error
+.cdTryFit <- function(distribution, estimator, data) {
+  warnings <- character(0)
+  result   <- try(withCallingHandlers(
+    DistributionS7::fit(distribution, estimator = estimator, data = data),
+    warning = function(w) {
+      # rlang puts the bullets of a message on separate lines
+      warnings <<- c(warnings, gsub("\n", " ", conditionMessage(w)))
+      invokeRestart("muffleWarning")
+    }
+  ))
+
+  if (isTryError(result)) return(result)
+
+  return(list(distribution = result, warnings = unique(warnings)))
+}
+
+# the options on which the fitted distribution depends
+# simulatedDataRedraw: the data may be the simulated column, which is redrawn by the redraw button
+.cdFitDependencies <- c("distribution", "parameters", "estimationVariable", "parameterEstimator", "parameterEstimatorOptimizationSpace",
+                        "simulatedDataRedraw")
+# the options on which the parameter uncertainty depends (in addition to the fitted distribution)
+.cdInferenceDependencies <- c("parameterUncertaintyMethod", "parameterUncertaintyNormalTheorySpace", "parameterUncertaintyBootstrapSamples",
+                              "parameterUncertaintyBootstrapType", "parameterUncertaintyBootstrapCiMethod", "setSeed", "seed")
+                        
+.cdEstimator <- function(options, distribution, data) {
+  constrained <- options[["parameterEstimatorOptimizationSpace"]] == "constrained"
+  # analytic estimates are always preferred, numerical optimization is used only if there are none
+  mle <- DistributionS7::Mle(optim = FALSE, constrained = constrained, silent = TRUE)
+  mse <- DistributionS7::Mse(constrained = constrained, silent = TRUE)
+
+  switch(
+    options[["parameterEstimator"]],
+    maximumLikelihood = mle,
+    maximumSpacing    = mse,
+    default           = {
+      # the likelihood of shifted distributions can be unbounded (e.g., if the shape is below 1), the spacings cannot
+      if (S7::S7_inherits(distribution, DistributionS7::Shifted)) return(mse)
+
+      # bias-corrected if the distribution has such an estimator (and it works for these data), maximum likelihood otherwise
+      biasCorrected <- DistributionS7::BiasCorrected(silent = TRUE)
+      available     <- !isTryError(try(suppressWarnings(DistributionS7::parameter_estimates(distribution, biasCorrected, data)), silent = TRUE))
+      if (available) biasCorrected else mle
+    }
+  )
+}
+
+
+.cdInferenceMethod <- function(options, estimator) {
+  ciLevel <- options[["parameterUncertaintyCiLevel"]]
+
+  switch(
+    options[["parameterUncertaintyMethod"]],
+    default      = DistributionS7::DefaultMethod(estimator = estimator, ci_level = ciLevel),
+    normalTheory = DistributionS7::NormalTheory(
+      estimator   = estimator,
+      ci_level    = ciLevel,
+      constrained = options[["parameterUncertaintyNormalTheorySpace"]] == "constrained"
+    ),
+    bootstrap    = DistributionS7::Bootstrap(
+      estimator = estimator,
+      ci_level  = ciLevel,
+      samples   = as.integer(options[["parameterUncertaintyBootstrapSamples"]]),
+      type      = options[["parameterUncertaintyBootstrapType"]],
+      ci_method = options[["parameterUncertaintyBootstrapCiMethod"]],
+      callback  = progressbarTick
+    )
+  )
+}
+
+.cdParameterTable <- function(container, options, distribution, variable) {
+  if (!options[["parameterTable"]]) return()
+  if (!is.null(container[["parameterTable"]])) return()
+
+  table <- createJaspTable(
+    title = if (is.null(distribution)) gettext("Parameters - no distribution selected") else gettextf("Parameters - %s", S7::prop(distribution, "name")),
+    position = 1,
+    dependencies = c(.cdFitDependencies, "parameterTable", "parameterUncertainty", "parameterUncertaintyCiLevel", .cdInferenceDependencies)
+  )
+  table$showSpecifiedColumnsOnly <- TRUE
+
+  table$addColumnInfo(name = "name",      title = gettext("Name"),      type = "string")
+  table$addColumnInfo(name = "label",     title = gettext("Label"),     type = "string")
+  table$addColumnInfo(name = "estimate",  title = gettext("Value"),  type = "number")
+  container[["parameterTable"]] <- table
+
+  if (is.null(distribution)) return()
+
+  # nothing was estimated: list the specified values of all parameters, without notes about estimation
+  if (is.null(variable)) {
+    # e.g., the standard normal
+    if (length(DistributionS7::parameter_values(distribution, which = "all")) == 0L) {
+      table$addFootnote(message = gettext("Distribution has no parameters."))
+      return()
+    }
+
+    table$setData(list(
+      name     = DistributionS7::parameter_properties(distribution, property = "name",  which = "all") |> unlist(),
+      label    = DistributionS7::parameter_properties(distribution, property = "label", which = "all") |> unlist() |> mathExpression(),
+      estimate = DistributionS7::parameter_values(distribution, which = "all") |> unlist()
+    ))
+    return()
+  }
+
+  if (DistributionS7::nfree(distribution) > 0L) {
+    # maximum likelihood is the norm, so only a deviation from it is noted
+    estimator <- container[["estimator"]]$object
+    if (S7::S7_inherits(estimator, DistributionS7::BiasCorrected))
+      table$addFootnote(message = gettext("Parameters estimated using the bias-corrected estimator."))
+    else if (S7::S7_inherits(estimator, DistributionS7::Mse))
+      table$addFootnote(message = gettext("Parameters estimated using the maximum spacing estimator."))
+    for (warning in container[["fitWarnings"]]$object)
+      table$addFootnote(message = warning, symbol = gettext("<em>Warning.</em>"))
+
+    if (options[["parameterUncertainty"]]) {
+      table$addColumnInfo(name = "se", title = gettext("SE"), type = "number")
+      overtitle <- gettextf("%s%% CI", 100*options[["parameterUncertaintyCiLevel"]])
+      table$addColumnInfo(name = "lower", title = gettext("Lower"), type = "number", overtitle = overtitle)
+      table$addColumnInfo(name = "upper", title = gettext("Upper"), type = "number", overtitle = overtitle)
+
+      method <- .cdInferenceMethod(options, estimator)
+      if (S7::S7_inherits(method, DistributionS7::Bootstrap)) {
+        .setSeedJASP(options)
+        startProgressbar(expectedTicks = method@samples, label = gettext("Bootstrapping parameter uncertainty..."))
+      }
+
+      # the package warns, e.g., if normal theory is used with an estimator other than maximum likelihood
+      warnings     <- character(0)
+      normalTheory <- FALSE
+      results      <- try(withCallingHandlers(
+        DistributionS7::parameter_inference(distribution, method, variable),
+        warning = function(w) {
+          if (startsWith(conditionMessage(w), "Normal theory")) normalTheory <<- TRUE
+          else warnings <<- c(warnings, conditionMessage(w))
+          invokeRestart("muffleWarning")
+        }
+      ))
+
+      if (isTryError(results)) {
+        table$setError(gettextf("Could not obtain parameter uncertainty: %s", .extractErrorMessage(results)))
+        return()
+      }
+
+      bootstrap <- attr(results, "bootstrap")
+      if (!is.null(bootstrap))
+        table$addFootnote(message = gettextf(
+          "Uncertainty based on %1$i valid %2$s bootstrap samples, with %3$s confidence intervals.",
+          bootstrap[["valid"]],
+          if (bootstrap[["type"]] == "parametric") gettext("parametric") else gettext("nonparametric"),
+          if (bootstrap[["ci_method"]] == "percentile") gettext("percentile") else gettext("basic")
+        ))
+      if (normalTheory)
+        table$addFootnote(message = gettext("Standard errors and confidence intervals are based on normal theory, which assumes maximum likelihood estimates."))
+      for (warning in unique(warnings))
+        table$addFootnote(message = warning, symbol = gettext("<em>Warning.</em>"))
+
+      results[["label"]] <- mathExpression(results[["label"]])
+    } else {
+      results <- list()
+      results[["label"]] <- DistributionS7::parameter_properties(distribution, property="label", which="free") |> unlist() |> mathExpression()
+      results[["estimate"]] <- DistributionS7::parameter_values(distribution, which="free") |> unlist()
+    }
+    results[["name"]] <-  DistributionS7::parameter_properties(distribution, property="name",  which="free") |> unlist()
+    table$setData(results)
+  } else {
+    table$addFootnote(message = gettext("Distribution has no parameters to estimate."))
+  }
+
+
+  if (DistributionS7::nfixed(distribution) > 0L) {
+    parameters <- DistributionS7::parameters(distribution, which="fixed")
+    output <- vapply(parameters, function(p) sprintf("%1$s = %2$s", p@label, format(p@value, digits=3)), character(1))
+    output <- paste(output, collapse = ", ")
+    output <- gettextf("The following parameters were held constant: %s.", mathExpression(output))
+    table$addFootnote(message = output)
+  }
+
+}
+
+.cdDistributionTable <- function(container, options, distribution) {
+  if (!options[["distributionTable"]]) return()
+  if (!is.null(container[["distributionTable"]])) return()
+
+  table <- createJaspTable(
+    title        = gettext("Distribution Table"),
+    position     = 3,
+    dependencies = c(.cdFitDependencies, "distributionTable", "distributionTableBasedOn", "distributionTableType",
+                     "distributionTableQuantileMin", "distributionTableQuantileMax", "distributionTableCdfMin", "distributionTableCdfMax",
+                     "distributionTablePointCount", "distributionTableQuantilePoints", "distributionTableCdfPoints")
+  )
+
+  basedOnQuantiles <- options[["distributionTableBasedOn"]] == "quantile"
+
+  # the column on which the table is based comes first
+  table$addColumnInfo(name = "quantile", title = gettext("Quantile"), type = "number")
+  table$addColumnInfo(name = "pdf",      title = gettext("Density"),  type = "number")
+  table$addColumnInfo(name = "cdf",      title = gettext("Lower"),    type = "number", overtitle = gettext("Cumulative probability"))
+  table$addColumnInfo(name = "ccdf",     title = gettext("Upper"),    type = "number", overtitle = gettext("Cumulative probability"))
+
+  container[["distributionTable"]] <- table
+
+  points <- .cdDistributionTablePoints(options, basedOnQuantiles)
+  if (is.character(points)) {
+    table$setError(points)
+    return()
+  }
+
+  if (length(points) == 0L)
+    return()
+
+  results <- try({
+    if (basedOnQuantiles) {
+      quantile <- points
+      cdf      <- DistributionS7::cdf(distribution, quantile)
+      ccdf     <- DistributionS7::cdf(distribution, quantile, lower.tail = FALSE)
+    } else {
+      cdf      <- points
+      quantile <- DistributionS7::qf(distribution, cdf)
+      ccdf     <- 1 - cdf
+    }
+    list(quantile = quantile, cdf = cdf, pdf = DistributionS7::pdf(distribution, quantile), ccdf = ccdf)
+  })
+
+  if (isTryError(results)) {
+    table$setError(gettextf("Could not compute the distribution table: %s", .extractErrorMessage(results)))
+    return()
+  }
+
+  table$setData(results)
+}
+
+# the points at which to evaluate the distribution, or an error message
+.cdDistributionTablePoints <- function(options, basedOnQuantiles) {
+  prefix <- if (basedOnQuantiles) "distributionTableQuantile" else "distributionTableCdf"
+
+  if (options[["distributionTableType"]] == "range") {
+    from <- options[[paste0(prefix, "Min")]]
+    to   <- options[[paste0(prefix, "Max")]]
+    if (from >= to)
+      return(gettext("The start of the range must be smaller than its end."))
+
+    return(seq(from, to, length.out = options[["distributionTablePointCount"]]))
+  }
+
+  points <- vapply(options[[paste0(prefix, "Points")]], function(row) .cdParseFormula(row[["point"]]), numeric(1))
+
+  if (anyNA(points))
+    return(gettext("Each point of the distribution table must be a number or an R expression that gives a number."))
+
+  if (!basedOnQuantiles && any(points < 0 | points > 1))
+    return(gettext("Cumulative probabilities must be between 0 and 1."))
+
+  return(points)
+}
+
+# a FormulaField gives a number, or a string with an R expression; returns NA if it does not evaluate to a single number
+.cdParseFormula <- function(value) {
+  if (!is.numeric(value))
+    value <- try(.parseRCodeInOptions(value), silent = TRUE)
+
+  if (isTryError(value) || !is.numeric(value) || length(value) != 1L) NA_real_ else as.numeric(value)
+}
+
+.cdDistributionPlots <- function(container, options, distribution) {
+  plotNames <- c("pdfPlot", "cdfPlot", "qfPlot")
+  plotNames <- plotNames[vapply(plotNames, function(name) isTRUE(options[[name]]), logical(1))]
+  if (length(plotNames) == 0L) return()
+
+  plotContainer <- container[["distributionPlots"]]
+  if (is.null(plotContainer)) {
+    plotContainer <- createJaspContainer(
+      title        = gettext("Plots"),
+      position     = 4,
+      dependencies = c(.cdFitDependencies, "distributionPlotRangeBasedOn",
+                       "distributionPlotQuantileMin", "distributionPlotQuantileMax", "distributionPlotCdfMin", "distributionPlotCdfMax")
+    )
+    container[["distributionPlots"]] <- plotContainer
+  }
+
+  titles <- c(
+    pdfPlot = gettext("Probability density function"),
+    cdfPlot = gettext("Cumulative distribution function"),
+    qfPlot  = gettext("Quantile function")
+  )
+  fillers <- list(pdfPlot = DistributionS7::plot_pdf, cdfPlot = DistributionS7::plot_cdf, qfPlot = DistributionS7::plot_qf)
+  # the quantile plot does not show the highlights
+  highlighted <- c("pdfPlot", "cdfPlot")
+
+  # the range and the highlights are shared by the plots, so they are only computed when a plot that uses them is (re)drawn
+  range      <- NULL
+  highlights <- NULL
+  for (name in plotNames) {
+    if (!is.null(plotContainer[[name]])) next
+
+    hasHighlights <- name %in% highlighted
+    plot <- createJaspPlot(
+      title        = titles[[name]],
+      width        = 480,
+      height       = 320,
+      position     = match(name, names(titles)),
+      dependencies = c(name, if (hasHighlights) c("distributionPlotHighlightDensity", "distributionPlotHighlightProbability"))
+    )
+    plotContainer[[name]] <- plot
+
+    if (is.null(range))
+      range <- .cdPlotRange(options, distribution)
+
+    if (hasHighlights && is.null(highlights))
+      highlights <- .cdPlotHighlights(options)
+
+    error <- Filter(is.character, list(range, if (hasHighlights) highlights))
+    if (length(error) > 0L) {
+      plot$setError(error[[1L]])
+      next
+    }
+
+    # DistributionS7 only derives the range when xlim is missing, so an automatic range leaves it out
+    args <- if (hasHighlights) c(list(distribution), highlights) else list(distribution)
+    if (!is.null(range[["xlim"]]))
+      args[["xlim"]] <- range[["xlim"]]
+
+    # the cdf plot lists the slopes at the highlighted densities in a legend, in the corner the curve leaves empty
+    legend <- if (name == "cdfPlot" && !is.null(highlights[["density"]])) c(1, 0)
+
+    result <- try(do.call(fillers[[name]], args) + .cdPlotTheme(legend = legend))
+    if (isTryError(result))
+      plot$setError(gettextf("Could not draw the plot: %s", .extractErrorMessage(result)))
+    else
+      plot$plotObject <- result
+  }
+}
+
+# the range of the plots as list(xlim), or an error message
+.cdPlotRange <- function(options, distribution) {
+  # NULL leaves the range to DistributionS7, which derives it from the support of the distribution
+  xlim <- switch(
+    options[["distributionPlotRangeBasedOn"]],
+    auto     = NULL,
+    quantile = c(options[["distributionPlotQuantileMin"]], options[["distributionPlotQuantileMax"]]),
+    cdf      = DistributionS7::qf(distribution, c(options[["distributionPlotCdfMin"]], options[["distributionPlotCdfMax"]]))
+  )
+
+  if (!is.null(xlim) && (any(!is.finite(xlim)) || xlim[1L] >= xlim[2L]))
+    return(gettext("The start of the plot range must be smaller than its end."))
+
+  return(list(xlim = xlim))
+}
+
+# the highlighted densities and probabilities in the form DistributionS7 expects, or an error message
+.cdPlotHighlights <- function(options) {
+  densityRows <- options[["distributionPlotHighlightDensity"]]
+  density     <- data.frame(
+    x     = vapply(densityRows, function(row) .cdParseFormula(row[["point"]]), numeric(1)),
+    color = vapply(densityRows, function(row) .cdColor(row[["color"]]), character(1))
+  )
+
+  probabilityRows <- options[["distributionPlotHighlightProbability"]]
+  probability     <- data.frame(
+    xmin  = vapply(probabilityRows, function(row) .cdParseFormula(row[["min"]]), numeric(1)),
+    xmax  = vapply(probabilityRows, function(row) .cdParseFormula(row[["max"]]), numeric(1)),
+    color = vapply(probabilityRows, function(row) .cdColor(row[["color"]]), character(1))
+  )
+
+  if (anyNA(density[["x"]]))
+    return(gettext("Each highlighted density must be at a number or an R expression that gives a number."))
+
+  if (anyNA(probability[["xmin"]]) || anyNA(probability[["xmax"]]))
+    return(gettext("The limits of each highlighted probability must be numbers or R expressions that give a number."))
+
+  if (any(probability[["xmin"]] > probability[["xmax"]]))
+    return(gettext("The lower limit of each highlighted probability must not be larger than its upper limit."))
+
+  return(list(
+    density     = if (nrow(density) > 0L) density,
+    probability = if (nrow(probability) > 0L) probability
+  ))
+}
+
+# a missing color is NA, so that DistributionS7 picks one from its palette
+.cdColor <- function(color) {
+  if (is.null(color) || color == "") NA_character_ else as.character(color)
+}
+
+# DistributionS7 sets no position scales, so the JASP scales extend the axes to cover everything that is drawn
+# legend: NULL hides the legend, otherwise the corner of the panel to put it in, e.g., c(1, 0) for the bottom right
+.cdPlotTheme <- function(legend = NULL) {
+  theme <- list(
+    jaspGraphs::scale_x_continuous(),
+    jaspGraphs::scale_y_continuous(),
+    jaspGraphs::geom_rangeframe()
+  )
+
+  if (is.null(legend))
+    return(c(theme, list(jaspGraphs::themeJaspRaw())))
+
+  # themeJaspRaw hides the legend by default
+  c(theme, list(
+    jaspGraphs::themeJaspRaw(legend.position = "inside"),
+    ggplot2::theme(legend.position.inside = legend, legend.justification.inside = legend)
+  ))
+}
+
+
+.cdFitAssessment <- function(container, options, distribution, variables) {
+  # without a variable there is nothing to assess (the options of the disabled section may still be checked)
+  if (is.null(variables[["fitAssessmentVariable"]])) return()
+
+  # check if we need to create the container at all
+  plotNames <- c("histogramPlot", "ecdfPlot", "qqPlot", "ppPlot")
+  statNames <- c("modelFitTable", "goodnessOfFitTest")
+  selected  <- options[c(plotNames, statNames)] |> vapply(isTRUE, logical(1))
+  if (!any(selected)) return()
+
+  fitContainer <- container[["fitAssessment"]]
+  if (is.null(fitContainer)) {
+    fitContainer <- createJaspContainer(
+      title        = gettext("Fit Assessment"),
+      position     = 5,
+      dependencies = c(.cdFitDependencies, "fitAssessmentVariable")
+    )
+    container[["fitAssessment"]] <- fitContainer
+  }
+
+  name <- if (variables[["sameVariables"]]) options[["estimationVariable"]] else options[["fitAssessmentVariable"]]
+  .cdFitPlots(fitContainer, options, distribution, variables[["fitAssessmentVariable"]], name)
+  .cdFitStatistics(fitContainer, options, distribution, variables, container[["estimator"]]$object)
+}
+
+.cdFitStatistics <- function(container, options, distribution, variables, estimator) {
+  if (!any(vapply(options[c("modelFitTable", "goodnessOfFitTest")], isTRUE, logical(1)))) return()
+
+  statisticsContainer <- container[["statistics"]]
+  if (is.null(statisticsContainer)) {
+    statisticsContainer <- createJaspContainer(title = gettext("Statistics"), position = 2)
+    container[["statistics"]] <- statisticsContainer
+  }
+
+  .cdModelFitTable(statisticsContainer, options, distribution, variables, estimator)
+  .cdGofTable(statisticsContainer, options, distribution, variables, estimator)
+}
+
+.cdModelFitTable <- function(container, options, distribution, variables, estimator) {
+  if (!options[["modelFitTable"]]) return()
+  if (!is.null(container[["modelFitTable"]])) return()
+
+  # AIC and BIC are only meaningful for the data used for estimation;
+  # on a different variable, the log-likelihood is the out-of-sample (predictive) log-likelihood
+  inSample <- variables[["sameVariables"]]
+  # AIC and BIC assume maximum likelihood estimates
+  # (the estimator is NULL if nothing was estimated)
+  notMle <- !is.null(estimator) && !S7::S7_inherits(estimator, DistributionS7::Mle)
+
+  table <- createJaspTable(title = gettext("Model Fit"), position = 1, dependencies = "modelFitTable")
+  table$showSpecifiedColumnsOnly <- TRUE
+  table$addColumnInfo(name = "n_obs",   title = gettext("n"),              type = "integer")
+  table$addColumnInfo(name = "n_par",   title = gettext("df"),             type = "integer")
+  table$addColumnInfo(name = "log_lik", title = gettext("Log-likelihood"), type = "number")
+  if (inSample) {
+    table$addColumnInfo(name = "aic",   title = gettext("AIC"),            type = "number")
+    table$addColumnInfo(name = "bic",   title = gettext("BIC"),            type = "number")
+    if (notMle)
+      table$addFootnote(message = gettext("AIC and BIC assume maximum likelihood estimates."))
+  }
+  container[["modelFitTable"]] <- table
+
+  results <- try(DistributionS7::information_criteria(distribution, variables[["fitAssessmentVariable"]]))
+  if (isTryError(results)) {
+    table$setError(gettextf("Could not compute the model fit: %s", .extractErrorMessage(results)))
+    return()
+  }
+
+  table$setData(results)
+}
+
+.cdGofTable <- function(container, options, distribution, variables, estimator) {
+  if (!options[["goodnessOfFitTest"]]) return()
+  if (!is.null(container[["goodnessOfFitTest"]])) return()
+
+  bootstrap <- options[["goodnessOfFitTestPValue"]] == "bootstrap"
+
+  table <- createJaspTable(
+    title        = gettext("Goodness-of-fit Tests"),
+    position     = 2,
+    dependencies = c("goodnessOfFitTest", "goodnessOfFitTestPValue", "goodnessOfFitTestBootstrapSamples", "setSeed", "seed")
+  )
+  table$addColumnInfo(name = "test",      title = gettext("Test"),      type = "string")
+  table$addColumnInfo(name = "statistic", title = gettext("Statistic"), type = "number")
+  table$addColumnInfo(name = "p_value",   title = gettext("p"),         type = "pvalue")
+  container[["goodnessOfFitTest"]] <- table
+
+  # the parameters are known (rather than estimated from the data the tests are run on)
+  # if the fit is assessed on a different variable, or if all parameters are fixed
+  estimated <- variables[["sameVariables"]] && DistributionS7::nfree(distribution) > 0L
+
+  # both the bootstrap and the composite tests (which split the data at random) are random
+  if (bootstrap || estimated)
+    .setSeedJASP(options)
+
+  samples <- if (bootstrap) options[["goodnessOfFitTestBootstrapSamples"]] else 0L
+  if (bootstrap)
+    startProgressbar(expectedTicks = samples, label = gettext("Bootstrapping goodness of fit..."))
+
+  results <- try(DistributionS7::gof_test(
+    distribution, variables[["fitAssessmentVariable"]], estimated = estimated,
+    # re-estimate on the bootstrap samples in the same way as on the data (without a fit, nothing is re-estimated)
+    bootstrap = DistributionS7::Bootstrap(estimator = if (is.null(estimator)) DistributionS7::Mle() else estimator,
+                                          samples = samples, callback = progressbarTick)
+  ))
+
+  if (isTryError(results)) {
+    table$setError(gettextf("Could not obtain the goodness-of-fit tests: %s", .extractErrorMessage(results)))
+    return()
+  }
+  results[["test"]] <- .ccdGofTestLabels(results[["test"]])
+
+  if (bootstrap)
+    table$addFootnote(
+      message  = gettextf("Based on %1$i valid parametric bootstrap samples.", attributes(results)[["bootstrap"]][["valid"]]),
+      colNames = "p_value"
+    )
+
+  table$setData(results)
+}
+
+.cdFitPlots <- function(container, options, distribution, variable, name=NULL) {
+  if (!any(vapply(c("histogramPlot", "ecdfPlot", "qqPlot", "ppPlot"), function(plotName) isTRUE(options[[plotName]]), logical(1)))) return()
+
+  plotContainer <- container[["plots"]]
+  if (is.null(plotContainer)) {
+    plotContainer <- createJaspContainer(title = gettext("Plots"), position = 1)
+    container[["plots"]] <- plotContainer
+  }
+
+  plots <- list(
+    histogramPlot = list(
+      title        = gettext("Histogram vs. theoretical pdf"),
+      dependencies = "histogramPlot",
+      draw         = function() DistributionS7::plot_hist(distribution, variable, name = name)
+    ),
+    ecdfPlot = list(
+      title        = gettext("Empirical vs. theoretical cdf"),
+      dependencies = "ecdfPlot",
+      draw         = function() DistributionS7::plot_ecdf(distribution, variable, name = name)
+    ),
+    qqPlot   = list(
+      title        = gettext("Q-Q plot"),
+      dependencies = c("qqPlot", "qqPlotCi", "qqPlotCiLevel"),
+      draw         = function() DistributionS7::plot_qq(distribution, variable, ci = options[["qqPlotCi"]], ci_level = options[["qqPlotCiLevel"]])
+    ),
+    ppPlot   = list(
+      title        = gettext("P-P plot"),
+      dependencies = c("ppPlot", "ppPlotCi", "ppPlotCiLevel"),
+      draw         = function() DistributionS7::plot_pp(distribution, variable, ci = options[["ppPlotCi"]], ci_level = options[["ppPlotCiLevel"]])
+    )
+  )
+
+  for (plotName in names(plots)) {
+    if (!isTRUE(options[[plotName]]) || !is.null(plotContainer[[plotName]])) next
+
+    plotInfo <- plots[[plotName]]
+    plot     <- createJaspPlot(
+      title = plotInfo[["title"]], 
+      #width = 480, height = 320, 
+      position = match(plotName, names(plots)),
+      dependencies = plotInfo[["dependencies"]])
+    plotContainer[[plotName]] <- plot
+
+    result <- try(plotInfo[["draw"]]() + .cdPlotTheme())
+    if (isTryError(result))
+      plot$setError(gettextf("Could not draw the plot: %s", .extractErrorMessage(result)))
+    else
+      plot$plotObject <- result
+  }
+}
+
+.cdSimulatedData <- function(jaspResults, options, distribution) {
+  columnName <- options[["simulatedDataSavedToDataColumn"]]
+  if (!options[["simulatedDataSavedToData"]] || columnName == "")
+    return()
+
+  # as in the other distribution analyses, the column is redrawn only by the redraw button (or by renaming it),
+  # so that a rerun triggered by writing the column (or by using it in the analysis) does not redraw it
+  if (!is.null(jaspResults[["simulatedData"]]))
+    return()
+
+  .setSeedJASP(options)
+  sample <- DistributionS7::rng(distribution, options[["simulatedDataSampleSize"]])
+
+  column <- createJaspColumn(
+    columnName   = columnName,
+    dependencies = c("simulatedDataSavedToDataColumn", "simulatedDataRedraw")
+  )
+  jaspResults[["simulatedData"]] <- column
+
+  if (!column$setScale(sample))
+    jaspResults[["simulatedDataError"]] <- createJaspHtml(
+      text         = gettextf("Could not write to column '%s', probably because it wasn't created by this analysis", columnName),
+      elementType  = "errorMsg",
+      dependencies = c("simulatedDataSavedToData", "simulatedDataSavedToDataColumn")
+    )
+}

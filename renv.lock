@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.5.2",
+    "Version": "4.5.1",
     "Repositories": [
       {
         "Name": "RSPM",
@@ -29,31 +29,32 @@
     },
     "DistributionS7": {
       "Package": "DistributionS7",
-      "Version": "0.1.4",
+      "Version": "0.1.6",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteUsername": "kucharssim",
+      "RemoteUsername": "Kucharssim",
       "RemoteRepo": "DistributionS7",
       "RemoteRef": "main",
-      "RemoteSha": "2bd8c6485eebc0fd2c0703f334dc6e56cd89f922",
+      "RemoteSha": "8938bc1cb99efcaace8ad8b5cefc6db70e023398",
       "Requirements": [
         "R",
         "Rdpack",
         "S7",
         "assertthat",
+        "cli",
         "generics",
         "ggplot2",
-        "ggrepel",
         "gnorm",
         "goftest",
         "nortest",
         "patchwork",
         "rlang",
+        "scales",
         "sgt",
         "sn"
       ],
-      "Hash": "40a1c6fa1c03a7b1245c7d5c955c75de"
+      "Hash": "91bd7bebcf685217a85b459435def3b5"
     },
     "Formula": {
       "Package": "Formula",
@@ -186,14 +187,15 @@
     },
     "S7": {
       "Package": "S7",
-      "Version": "0.2.1",
+      "Version": "1.0.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
+        "methods",
         "utils"
       ],
-      "Hash": "9da85950949574264f92f91f0e23de26"
+      "Hash": "50e60623a161686f401b53a3d8c0dc68"
     },
     "SparseM": {
       "Package": "SparseM",
@@ -753,7 +755,7 @@
     },
     "ggplot2": {
       "Package": "ggplot2",
-      "Version": "4.0.3",
+      "Version": "4.0.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -771,23 +773,7 @@
         "vctrs",
         "withr"
       ],
-      "Hash": "98520fe6b2745c466dca8e46aaa86242"
-    },
-    "ggrepel": {
-      "Package": "ggrepel",
-      "Version": "0.9.6",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "Rcpp",
-        "ggplot2",
-        "grid",
-        "rlang",
-        "scales",
-        "withr"
-      ],
-      "Hash": "3d4156850acc1161f2f24bc61c9217c1"
+      "Hash": "adcad933f9daab671ee05c936b7d87e1"
     },
     "glue": {
       "Package": "glue",
@@ -940,7 +926,7 @@
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspBase",
       "RemoteRef": "master",
-      "RemoteSha": "209d1787d5c9400601df960535b261029a350b12",
+      "RemoteSha": "74daf64143f4f22d4f0e1b0a8163e6a892873fc8",
       "Remotes": "jasp-stats/jaspGraphs",
       "Requirements": [
         "R6",
@@ -966,7 +952,7 @@
         "systemfonts",
         "withr"
       ],
-      "Hash": "f702f926c54ef67274d34239d92131f0"
+      "Hash": "319a7341b78f0f641088a251a2b50f14"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
@@ -977,8 +963,9 @@
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspGraphs",
       "RemoteRef": "master",
-      "RemoteSha": "cac753920e984d3628cace64538c00acd3622a58",
+      "RemoteSha": "288d2751131ee6ac17362bd89d2ed7d9c0c67c7c",
       "Requirements": [
+        "R",
         "R6",
         "cli",
         "ggplot2",
@@ -991,7 +978,7 @@
         "rlang",
         "scales"
       ],
-      "Hash": "bc7ccc83df8863f5b96011fe9b14c019"
+      "Hash": "24bbc9ac759b3f75bf3c9c7a078496d4"
     },
     "jquerylib": {
       "Package": "jquerylib",

@@ -23,6 +23,8 @@
 * Compare distributions: Student T distribution had missing parameters location and scale, and could not be initialized. This is now fixed.
 * Gaussian (univariate) and Learn Statistics normal distribution: the standard errors of the variance and the precision (tau) were too small by a factor of sqrt(n) because the square root was missing in the asymptotic standard error (sigma^2 * sqrt(2 / n) and sqrt(2 / n) / sigma^2). The standard errors of mu, sigma and kappa were correct.
 ## Changed
+* Upgrade `DistributionsS7` to 0.1.6
+    * Better plotting, added MSE
 * Upgrade `DistributionsS7` to 0.1.4
     * This update provides a new distribution (SHASH)
 * Upgraded `DistributionS7` to 0.1.3

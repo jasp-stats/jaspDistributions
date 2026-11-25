@@ -11,7 +11,7 @@ Description
 
 	// Setting directly the useSubMenus property would crash in JASP 0.96.0, since this setting does not exist in this version.
 	// Instead set it via jasvaScript: this will just add a warning in the log file if the property does not exist.
-	Component.onCompleted: useSubMenus = true
+	// Component.onCompleted: useSubMenus = true
 
 	GroupTitle
 	{
@@ -21,206 +21,23 @@ Description
 
 	Analysis
 	{
-		title:	qsTr("Normal")
-		qml:	"LDgaussianunivariate.qml"
-		func:	"LDgaussianunivariate"
+		title:			qsTr("Single Distribution")
+		qml:			"ContinuousDistribution.qml"
+		func:			"ContinuousDistribution"
+		preloadData:	true
 	}
 
 	Analysis
 	{
-		title:	qsTr("Skew normal")
-		qml:	"LDnormalSkew.qml"
-		func:	"LDnormalSkew"
+		title:			qsTr("Compare Distributions")
+		qml:			"CompareContinuousDistributions.qml"
+		func:			"compareContinuousDistributions"
+		requiresData:	true
+		preloadData:	true
 	}
 
-	Analysis
-	{
-		title:	qsTr("Generalized normal (version 1)")
-		qml:	"LDnormalGeneralized.qml"
-		func:	"LDnormalGeneralized"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Cauchy")
-		qml:	"LDcauchy.qml"
-		func:	"LDcauchy"
-	}
-
-	Analysis
-	{
-	  title:	qsTr("Scaled, shifted Student's t")
-	  qml:		"LDtStudent.qml"
-	  func:		"LDtStudent"
-	}
-
-	Analysis
-	{
-	  title:	qsTr("Noncentral t")
-	  qml:		"LDtNoncentral.qml"
-	  func:		"LDtNoncentral"
-	}
-
-	Analysis
-	{
-	  title:	qsTr("Skew t")
-	  qml:		"LDtSkew.qml"
-	  func:		"LDtSkew"
-	}
-
-	Analysis
-	{
-	  title:	qsTr("Skewed generalized t")
-	  qml:		"LDtSkewedGeneralized.qml"
-	  func:		"LDtSkewedGeneralized"
-	}
-
-	Analysis
-	{
-	  title:	qsTr("F-distribution")
-	  qml:		"LDf.qml"
-	  func:		"LDf"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Chi-squared")
-		qml:	"LDchisq.qml"
-		func:	"LDchisq"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Uniform")
-		qml:	"LDuniform.qml"
-		func:	"LDuniform"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Beta")
-		qml:	"LDbeta.qml"
-		func:	"LDbeta"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Stretched beta")
-		qml:	"LDbetaStretched.qml"
-		func:	"LDbetaStretched"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Beta prime")
-		qml:	"LDbetaPrime.qml"
-		func:	"LDbetaPrime"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Gamma")
-		qml:	"LDgamma.qml"
-		func:	"LDgamma"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Inverse gamma")
-		qml:	"LDgammaInverse.qml"
-		func:	"LDgammaInverse"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Exponential")
-		qml:	"LDexponential.qml"
-		func:	"LDexponential"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Laplace")
-		qml:	"LDlaplace.qml"
-		func:	"LDlaplace"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Log-normal")
-		qml:	"LDlognormal.qml"
-		func:	"LDlognormal"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Logistic")
-		qml:	"LDlogistic.qml"
-		func:	"LDlogistic"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Log-logistic")
-		qml:	"LDlogLogistic.qml"
-		func:	"LDlogLogistic"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Pareto")
-		qml:	"LDpareto.qml"
-		func:	"LDpareto"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Amoroso")
-		qml:	"LDamoroso.qml"
-		func:	"LDamoroso"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Fréchet")
-		qml:	"LDfrechet.qml"
-		func:	"LDfrechet"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Gumbel")
-		qml:	"LDgumbel.qml"
-		func:	"LDgumbel"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Gompertz")
-		qml:	"LDgompertz.qml"
-		func:	"LDgompertz"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Triangular")
-		qml:	"LDtriangular.qml"
-		func:	"LDtriangular"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Wald (inverse Gaussian)")
-		qml:	"LDwald.qml"
-		func:	"LDwald"
-	}
-
-	Analysis
-	{
-		title:	qsTr("Weibull")
-		qml:	"LDweibull.qml"
-		func:	"LDweibull"
-	}
+	// LDgaussianunivariate is not in the menu (it is replaced by ContinuousDistribution), but it is kept because other
+	// modules use it: jaspLearnStats uses its form (NormalDistribution in qmldir) and LDgaussianunivariateInternal.
 
 	Analysis
 	{
@@ -305,18 +122,10 @@ Description
 		func:	"LDhypergeometric"
 	}
 
-	GroupTitle
-	{
-		title: 	qsTr("Compare Distributions")
-		icon: 	"discoverdistributions-compareDistributions.svg"
-	}
+	// GroupTitle
+	// {
+	// 	title: 	qsTr("Compare Distributions")
+	// 	icon: 	"discoverdistributions-compareDistributions.svg"
+	// }
 
-	Analysis
-	{
-		title:			qsTr("Compare Continuous Distributions")
-		qml:			"CompareContinuousDistributions.qml"
-		func:			"compareContinuousDistributions"
-		requiresData:	true
-		preloadData:	true
-	}
 }

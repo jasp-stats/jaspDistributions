@@ -14,13 +14,10 @@ Imports:
   fitdistrplus,
   ggplot2,
   goftest,
-  gnorm,
   jaspBase,
   jaspGraphs,
   MASS,
   nortest,
-  sgt,
-  sn,
   DistributionS7
 Remotes:
   jasp-stats/jaspBase,
