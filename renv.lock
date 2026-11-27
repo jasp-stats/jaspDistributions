@@ -29,31 +29,31 @@
     },
     "DistributionS7": {
       "Package": "DistributionS7",
-      "Version": "0.1.4",
+      "Version": "0.1.6",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteUsername": "kucharssim",
       "RemoteRepo": "DistributionS7",
       "RemoteRef": "main",
-      "RemoteSha": "2bd8c6485eebc0fd2c0703f334dc6e56cd89f922",
+      "RemoteSha": "8938bc1cb99efcaace8ad8b5cefc6db70e023398",
       "Requirements": [
         "R",
         "Rdpack",
         "S7",
         "assertthat",
+        "cli",
         "generics",
         "ggplot2",
-        "ggrepel",
         "gnorm",
         "goftest",
         "nortest",
         "patchwork",
         "rlang",
+        "scales",
         "sgt",
         "sn"
-      ],
-      "Hash": "40a1c6fa1c03a7b1245c7d5c955c75de"
+      ]
     },
     "Formula": {
       "Package": "Formula",
@@ -186,14 +186,13 @@
     },
     "S7": {
       "Package": "S7",
-      "Version": "0.2.1",
+      "Version": "1.0.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "utils"
-      ],
-      "Hash": "9da85950949574264f92f91f0e23de26"
+      ]
     },
     "SparseM": {
       "Package": "SparseM",
@@ -933,14 +932,14 @@
     },
     "jaspBase": {
       "Package": "jaspBase",
-      "Version": "0.20.4",
+      "Version": "0.20.7",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspBase",
       "RemoteRef": "master",
-      "RemoteSha": "209d1787d5c9400601df960535b261029a350b12",
+      "RemoteSha": "5038e4178a6affbacd95f4bef13a5c13a6bcea56",
       "Remotes": "jasp-stats/jaspGraphs",
       "Requirements": [
         "R6",
@@ -965,8 +964,7 @@
         "svglite",
         "systemfonts",
         "withr"
-      ],
-      "Hash": "f702f926c54ef67274d34239d92131f0"
+      ]
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
@@ -977,7 +975,7 @@
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspGraphs",
       "RemoteRef": "master",
-      "RemoteSha": "cac753920e984d3628cace64538c00acd3622a58",
+      "RemoteSha": "acb012951f6faffe7aed0cabd2b29647db4879fc",
       "Requirements": [
         "R6",
         "cli",
@@ -990,8 +988,7 @@
         "plotly",
         "rlang",
         "scales"
-      ],
-      "Hash": "bc7ccc83df8863f5b96011fe9b14c019"
+      ]
     },
     "jquerylib": {
       "Package": "jquerylib",

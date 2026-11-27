@@ -27,7 +27,6 @@ options$qqPlotCi <- FALSE
 options$qqPlotCiLevel <- 0.95
 options$ppPlotCi <- FALSE
 options$ppPlotCiLevel <- 0.95
-options$sampleSize <- 1000
 options$variable <- "normalGeneralized"
 set.seed(1)
 results <- jaspTools::runAnalysis("LDnormalGeneralized",
@@ -67,8 +66,8 @@ test_that("Fit Statistics table results match", {
   table <- results[["results"]][["mleContainer"]][["collection"]][["mleContainer_mleFitAssessment"]][["collection"]][["mleContainer_mleFitAssessment_fitStatisticsTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
                                  list(0.963343782076982, 0.0500935454432586, "Kolmogorov-Smirnov", 0,
-                                      0, 0, 0.816086375864447, 0.27808861034833, "Cram<unicode>r-von Mises",
-                                      0, 0, 0, 0.537418461091139, 2.18427755874911, "Anderson-Darling"
+                                      0, 0, 0.848008606143338, 0.263777509418097, "Cram<unicode>r-von Mises",
+                                      0, 0, 0, 0.627049045955197, 1.99262986383472, "Anderson-Darling"
                                  ))
 })
 
