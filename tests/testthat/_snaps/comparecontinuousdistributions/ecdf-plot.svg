@@ -147,17 +147,15 @@
 <polyline points='70.24,42.95 78.74,42.95 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
 <polyline points='78.74,510.14 720.00,510.14 ' style='stroke-width: 0.00; stroke: none; stroke-linecap: butt;' />
 <polyline points='107.89,518.64 107.89,510.14 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
-<polyline points='224.48,518.64 224.48,510.14 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
-<polyline points='341.07,518.64 341.07,510.14 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
-<polyline points='457.67,518.64 457.67,510.14 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
-<polyline points='574.26,518.64 574.26,510.14 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<polyline points='253.63,518.64 253.63,510.14 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<polyline points='399.37,518.64 399.37,510.14 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<polyline points='545.11,518.64 545.11,510.14 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
 <polyline points='690.85,518.64 690.85,510.14 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
-<text x='107.89' y='537.32' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>0</text>
-<text x='224.48' y='537.32' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>2</text>
-<text x='341.07' y='537.32' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>4</text>
-<text x='457.67' y='537.32' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>6</text>
-<text x='574.26' y='537.32' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='9.46px' lengthAdjust='spacingAndGlyphs'>8</text>
-<text x='690.85' y='537.32' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='18.91px' lengthAdjust='spacingAndGlyphs'>10</text>
+<text x='107.89' y='537.32' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='23.63px' lengthAdjust='spacingAndGlyphs'>0.0</text>
+<text x='253.63' y='537.32' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='23.63px' lengthAdjust='spacingAndGlyphs'>2.5</text>
+<text x='399.37' y='537.32' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='23.63px' lengthAdjust='spacingAndGlyphs'>5.0</text>
+<text x='545.11' y='537.32' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='23.63px' lengthAdjust='spacingAndGlyphs'>7.5</text>
+<text x='690.85' y='537.32' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='33.09px' lengthAdjust='spacingAndGlyphs'>10.0</text>
 <text x='399.37' y='567.49' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='92.62px' lengthAdjust='spacingAndGlyphs'>contGamma</text>
 <text transform='translate(16.68,265.42) rotate(-90)' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='169.15px' lengthAdjust='spacingAndGlyphs'>Cumulative Probability</text>
 <text x='399.37' y='11.70' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='65.21px' lengthAdjust='spacingAndGlyphs'>ecdf-plot</text>
